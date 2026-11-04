@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T21:07:45.302Z",
+ "generatedAt": "2026-11-04T22:12:42.263Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -151,122 +151,213 @@
   ]
  },
  "learning": {
-  "n": 0,
-  "shrink": 0,
+  "n": 5,
+  "shrink": 0.33,
   "factors": [
+   {
+    "id": "timing",
+    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
+    "weight": 1.33,
+    "count": 3
+   },
+   {
+    "id": "community",
+    "description": "built with or around a community; users contribute or talk about it",
+    "weight": 1.33,
+    "count": 3
+   },
+   {
+    "id": "share-loop",
+    "description": "the output is shareable or embeddable and brings new users (links, cards, badges, scores)",
+    "weight": 1.11,
+    "count": 2
+   },
+   {
+    "id": "integration",
+    "description": "lives inside an existing platform or workflow (extension, plugin, bot, API)",
+    "weight": 1.11,
+    "count": 2
+   },
    {
     "id": "instant-value",
     "description": "the visitor gets a useful result within seconds, with no setup",
-    "weight": 1,
-    "count": 0
+    "weight": 0.89,
+    "count": 1
    },
    {
     "id": "no-signup",
     "description": "usable without an account; registration comes later, to save or to pay",
-    "weight": 1,
-    "count": 0
+    "weight": 0.89,
+    "count": 1
    },
    {
     "id": "single-job",
     "description": "does one job extremely well instead of being a suite",
-    "weight": 1,
-    "count": 0
+    "weight": 0.89,
+    "count": 1
+   },
+   {
+    "id": "data-edge",
+    "description": "unique, curated or fresher data than the alternatives",
+    "weight": 0.89,
+    "count": 1
+   },
+   {
+    "id": "design-quality",
+    "description": "clearly better UX and clarity than the category",
+    "weight": 0.89,
+    "count": 1
+   },
+   {
+    "id": "trust-privacy",
+    "description": "privacy-first or local processing, or honesty, as a visible difference",
+    "weight": 0.89,
+    "count": 1
+   },
+   {
+    "id": "retention-loop",
+    "description": "a reason to come back (streaks, alerts, a daily puzzle, saved work)",
+    "weight": 0.89,
+    "count": 1
+   },
+   {
+    "id": "game-hook",
+    "description": "games: short sessions, a simple core loop, instant restart, a shareable score",
+    "weight": 0.89,
+    "count": 1
    },
    {
     "id": "niche-focus",
     "description": "serves a specific audience or need the generalists ignore",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "timing",
-    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
-    "weight": 1,
+    "weight": 0.67,
     "count": 0
    },
    {
     "id": "seo-engine",
     "description": "many genuinely useful pages that rank for long-tail queries (tools or data, not filler)",
-    "weight": 1,
+    "weight": 0.67,
     "count": 0
    },
    {
     "id": "free-lead-magnet",
     "description": "a free tool that feeds a paid product",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "share-loop",
-    "description": "the output is shareable or embeddable and brings new users (links, cards, badges, scores)",
-    "weight": 1,
+    "weight": 0.67,
     "count": 0
    },
    {
     "id": "ai-native",
     "description": "uses AI for something that was not possible or affordable before",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "data-edge",
-    "description": "unique, curated or fresher data than the alternatives",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "community",
-    "description": "built with or around a community; users contribute or talk about it",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "integration",
-    "description": "lives inside an existing platform or workflow (extension, plugin, bot, API)",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "design-quality",
-    "description": "clearly better UX and clarity than the category",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "trust-privacy",
-    "description": "privacy-first or local processing, or honesty, as a visible difference",
-    "weight": 1,
+    "weight": 0.67,
     "count": 0
    },
    {
     "id": "simple-pricing",
     "description": "clear, cheap, transparent pricing, or an ad or affiliate model that fits the visitor intent",
-    "weight": 1,
+    "weight": 0.67,
     "count": 0
    },
    {
     "id": "low-ops",
     "description": "runs itself with little maintenance or support",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "retention-loop",
-    "description": "a reason to come back (streaks, alerts, a daily puzzle, saved work)",
-    "weight": 1,
-    "count": 0
-   },
-   {
-    "id": "game-hook",
-    "description": "games: short sessions, a simple core loop, instant restart, a shareable score",
-    "weight": 1,
+    "weight": 0.67,
     "count": 0
    }
   ],
-  "recent": [],
+  "recent": [
+   {
+    "name": "Wplace",
+    "url": "https://wplace.live",
+    "category": "collaborative pixel canvas on a world map",
+    "platform": "web",
+    "better": "Anyone can view a pixel canvas of four trillion pixels laid over a real world map. Players start with 30 pixels that refill one every 30 seconds, so sessions are short and players keep coming back. Because pixels sit on real places, people paint their hometowns, flags and fandoms where friends can …",
+    "why": "Seen: press coverage stresses local identity, pop culture and coordinated group art, and reports moderation and server strain. Inferred: tying the canvas to real places gave every country, city and fandom a reason to recruit others, which turned each artwork into an invitation. The cooldown created…",
+    "lesson": "Tie user-made output to something people already identify with, such as their city, country or club, so each creation gives them a reason to bring friends.",
+    "factors": [
+     "share-loop",
+     "community",
+     "game-hook",
+     "retention-loop"
+    ]
+   },
+   {
+    "name": "Gitingest",
+    "url": "https://gitingest.com",
+    "category": "turns a code repository into one text digest for pasting in…",
+    "platform": "web",
+    "better": "You change hub to ingest in any GitHub address and get a single page with a summary, the folder tree and all file contents, each with a copy button. It needs no account or install. Filters for included and excluded files and a size limit are optional, and the same tool comes as a browser extension …",
+    "why": "Seen: Similarweb puts about 77 percent of desktop traffic as direct. That fits a URL trick people type from memory. Inferred: it solved a new, frequent need of the AI coding era, getting a whole repository into a chat, at the moment that need appeared. The URL swap made every GitHub link a ready en…",
+    "lesson": "If your tool works on content from a big platform, design a one-step URL change that turns any of that platform's links into your result page, so users can reach you from any link without searching.",
+    "factors": [
+     "instant-value",
+     "no-signup",
+     "single-job",
+     "timing",
+     "integration"
+    ]
+   },
+   {
+    "name": "Rybbit",
+    "url": "https://rybbit.com",
+    "category": "open-source cookieless web analytics",
+    "platform": "web",
+    "better": "One dashboard shows sessions, funnels, journeys, retention, session replay, error tracking and web vitals. It needs no cookies, it can be self-hosted from one Docker Compose file, and the hosted plans start at 13 dollars a month.",
+    "why": "Seen: the launch spread through Reddit self-hosting communities, X, Hacker News and Product Hunt, and grew quickly in stars. Inferred: the pitch combined a clearer interface with privacy and self-hosting. That gave three groups a reason to switch: people frustrated with GA4, privacy-minded EU sites…",
+    "lesson": "In a crowded category, ship a feature-dense, privacy-first alternative to a disliked incumbent as open source, and charge for the hosted version.",
+    "factors": [
+     "trust-privacy",
+     "design-quality",
+     "community"
+    ]
+   },
+   {
+    "name": "TrustMRR",
+    "url": "https://trustmrr.com",
+    "category": "database of verified startup revenue with a startup marketp…",
+    "platform": "web",
+    "better": "A founder pastes a read-only payment provider key and gets a public page whose revenue, MRR and 30-day chart refresh hourly and cannot be edited. Visitors browse a leaderboard ranked by MRR with month-over-month growth, filter by category, and see which verified startups are for sale with their pri…",
+    "why": "Seen: it was built in about a day in response to a public debate about faked revenue screenshots, and it earns money from sidebar ad slots and later a marketplace. Inferred: verification turned a contested claim into a trusted, shareable artifact. Founders link to their pages to prove traction, whi…",
+    "lesson": "Where a niche runs on claims nobody can check, build a page that reads the truth from a source of record through a read-only connection, and make each result a public page the owner wants to share.",
+    "factors": [
+     "data-edge",
+     "share-loop",
+     "timing"
+    ]
+   },
+   {
+    "name": "Postiz",
+    "url": "https://postiz.com",
+    "category": "open-source social media scheduler with AI agent access",
+    "platform": "web",
+    "better": "Developers can self-host the full product for free or pay from 29 dollars a month for the hosted cloud. Since early 2026 every plan includes an MCP server, a command line tool for agents, a public API and webhooks. An AI assistant such as Claude or OpenClaw can schedule and publish posts on the use…",
+    "why": "Seen: revenue stayed at roughly 3 to 6 thousand dollars a month for a long time. It jumped after Postiz published an agent command line tool, an MCP server and a skill in the OpenClaw skill registry, and after a viral OpenClaw article named it as the way for agents to post. Seen: the founder says a…",
+    "lesson": "Ship an MCP server, a small command line tool and a clear public API alongside the web UI, and list them where AI agents look for tools, so agents become a channel that brings in users.",
+    "factors": [
+     "integration",
+     "timing",
+     "community"
+    ]
+   }
+  ],
   "insights": "## Calibration Too early. The portfolio has 1 idea (scouted, rated by 1 agent, composite 2.95) and **0 outcomes**. I cannot say which agent's ratings predict best. Revisit once about 5 shipped products have 4+ weeks of Search Console data. ## What works (only 1 site has numbers: n=1, so a correlation and not a cause) The one site with traction is a German-language programmatic directory of public procurement notices. Over 28 days it had about 286 clicks and 12.1k impressions, average position 15.7, and it is roughly 6 weeks old (age inferred). - Clicks come from **thousands of long-tail detail pages** (one notice per page) ranking in positions 3 to 5 with high CTR. The homepage ranks around 32 and does little. - Queries are very specific: named entities (buyers, companies), classification codes and place names. Rivals cover these thinly. - Near page one: code explainers (\"cpv code ...\") and region hubs (\"ausschreibungen city\"). Hub pages look like the next lever. - Some impressions come from machine-generated queries (long chains of -site: filters). They are worth little, so do not count them as demand. - The last weekly bucket is probably reporting lag, not a drop. ## What to do differently (hypotheses) - Prefer ideas built on **open, regularly updated public data** that yields many distinct, useful pages people search for by name or code, especially in German or other non-English markets. - Each page must carry real data (no thin pages or doorway pages). - Be more cautious with single-job English SaaS tools: we have no traction data for that kind yet. - Do not trust a composite rated by one agent alone. Wait for the blind reviewers.",
   "calibration": "The ratings cannot be trusted or distrusted yet: there are zero projects with outcomes, and the only idea was rated by the Scout alone. The single site with traction is an owner site the agents never rated, so it says nothing about how accurate the ratings are.",
   "suggestions": [],
-  "proposedFactors": []
+  "proposedFactors": [
+   {
+    "id": "agent-distribution",
+    "description": "The product exposes an MCP server, a small command line tool, an llms.txt file or a skill listing, so AI agents can call it and become a source of users."
+   },
+   {
+    "id": "url-hack",
+    "description": "A memorable change to an existing platform's URL turns any of its links into the product's result page, which brings direct traffic without search."
+   },
+   {
+    "id": "open-source-hosted",
+    "description": "Free self-hostable open source wins GitHub and community reach, while a paid hosted version earns from users who do not want to run servers."
+   },
+   {
+    "id": "existing-audience",
+    "description": "Growth came mainly from the founder's existing following, so the case should be weighted lower as evidence that the product itself works."
+   }
+  ]
  }
 }
