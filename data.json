@@ -1,0 +1,139 @@
+{
+ "generatedAt": "2026-11-04T21:02:17.587Z",
+ "title": "Studio dashboard",
+ "thresholds": {
+  "build": 3.6,
+  "invest": 4
+ },
+ "summary": {
+  "total": 0,
+  "live": 0,
+  "staging": 0,
+  "building": 0,
+  "queued": 0,
+  "parked": 0,
+  "declined": 0,
+  "worthDomain": 0
+ },
+ "projects": [],
+ "scorecard": null,
+ "learning": {
+  "n": 0,
+  "shrink": 0,
+  "factors": [
+   {
+    "id": "instant-value",
+    "description": "the visitor gets a useful result within seconds, with no setup",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "no-signup",
+    "description": "usable without an account; registration comes later, to save or to pay",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "single-job",
+    "description": "does one job extremely well instead of being a suite",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "niche-focus",
+    "description": "serves a specific audience or need the generalists ignore",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "timing",
+    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "seo-engine",
+    "description": "many genuinely useful pages that rank for long-tail queries (tools or data, not filler)",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "free-lead-magnet",
+    "description": "a free tool that feeds a paid product",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "share-loop",
+    "description": "the output is shareable or embeddable and brings new users (links, cards, badges, scores)",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "ai-native",
+    "description": "uses AI for something that was not possible or affordable before",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "data-edge",
+    "description": "unique, curated or fresher data than the alternatives",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "community",
+    "description": "built with or around a community; users contribute or talk about it",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "integration",
+    "description": "lives inside an existing platform or workflow (extension, plugin, bot, API)",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "design-quality",
+    "description": "clearly better UX and clarity than the category",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "trust-privacy",
+    "description": "privacy-first or local processing, or honesty, as a visible difference",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "simple-pricing",
+    "description": "clear, cheap, transparent pricing, or an ad or affiliate model that fits the visitor intent",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "low-ops",
+    "description": "runs itself with little maintenance or support",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "retention-loop",
+    "description": "a reason to come back (streaks, alerts, a daily puzzle, saved work)",
+    "weight": 1,
+    "count": 0
+   },
+   {
+    "id": "game-hook",
+    "description": "games: short sessions, a simple core loop, instant restart, a shareable score",
+    "weight": 1,
+    "count": 0
+   }
+  ],
+  "recent": [],
+  "insights": "",
+  "calibration": "",
+  "suggestions": [],
+  "proposedFactors": []
+ }
+}

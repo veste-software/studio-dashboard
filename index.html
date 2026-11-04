@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Studio dashboard</title>
+<style>
+:root {
+  --bg: #f6f7f9; --card: #ffffff; --ink: #14181f; --muted: #5b6573; --line: #dde1e7;
+  --good: #0f7b4d; --good-bg: #e2f4ea; --ok: #8a6100; --ok-bg: #fbf0d0; --bad: #b3261e; --bad-bg: #fbe3e1;
+  --accent: #2456d6; --accent-bg: #e4ebfb; --bar: #c9d0da;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1216; --card: #181c22; --ink: #e8ebf0; --muted: #9aa4b2; --line: #2a303a;
+    --good: #52d19a; --good-bg: #12301f; --ok: #e2b64a; --ok-bg: #33290d; --bad: #ff8a80; --bad-bg: #3a1714;
+    --accent: #8fb0ff; --accent-bg: #1a2640; --bar: #3a4250;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 24px; margin: 0 0 4px; }
+h2 { font-size: 18px; margin: 36px 0 12px; }
+.sub { color: var(--muted); margin: 0 0 20px; font-size: 13px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+.tile { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.tile b { display: block; font-size: 26px; line-height: 1.1; }
+.tile span { color: var(--muted); font-size: 12px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 12px; align-items: center; }
+.controls button, .controls select, .controls input { font: inherit; color: var(--ink); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; }
+.controls button[aria-pressed="true"] { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); }
+.controls input { flex: 1; min-width: 140px; }
+details.project { background: var(--card); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 8px; }
+details.project > summary { list-style: none; cursor: pointer; padding: 12px 14px; display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; }
+details.project > summary::-webkit-details-marker { display: none; }
+.title { font-weight: 600; }
+.why { color: var(--muted); font-size: 13px; grid-column: 1 / -1; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: flex-end; }
+.chip { font-size: 12px; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.chip.good { background: var(--good-bg); color: var(--good); border-color: transparent; }
+.chip.ok { background: var(--ok-bg); color: var(--ok); border-color: transparent; }
+.chip.bad { background: var(--bad-bg); color: var(--bad); border-color: transparent; }
+.chip.info { background: var(--accent-bg); color: var(--accent); border-color: transparent; }
+.meter { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.meter i { display: inline-block; width: 54px; height: 6px; background: var(--bar); border-radius: 3px; overflow: hidden; }
+.meter i s { display: block; height: 100%; background: var(--accent); }
+.meter.good i s { background: var(--good); } .meter.ok i s { background: var(--ok); } .meter.bad i s { background: var(--bad); }
+.detail { padding: 2px 14px 14px; border-top: 1px solid var(--line); }
+.detail p { margin: 10px 0 0; }
+.detail .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; margin-top: 14px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; margin-top: 6px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 500; }
+td.n { font-variant-numeric: tabular-nums; }
+.scroll { overflow-x: auto; }
+.rationale { color: var(--muted); font-size: 13px; margin: 4px 0 0; }
+a { color: var(--accent); }
+.bars { display: grid; gap: 6px; }
+.bar { display: grid; grid-template-columns: 130px 1fr 90px; gap: 10px; align-items: center; font-size: 13px; }
+.bar i { display: block; height: 8px; background: var(--bar); border-radius: 4px; overflow: hidden; }
+.bar i s { display: block; height: 100%; background: var(--accent); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; }
+.note { color: var(--muted); font-size: 13px; }
+.empty { color: var(--muted); padding: 24px 0; text-align: center; }
+@media (max-width: 560px) { .bar { grid-template-columns: 96px 1fr 70px; } details.project > summary { grid-template-columns: 1fr; } .badges { justify-content: flex-start; } }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title"></h1>
+  <p class="sub" id="sub"></p>
+  <div class="tiles" id="tiles"></div>
+
+  <h2>Projects</h2>
+  <div class="controls">
+    <button data-tab="all" aria-pressed="true">All</button>
+    <button data-tab="built" aria-pressed="false">Built</button>
+    <button data-tab="progress" aria-pressed="false">In progress</button>
+    <button data-tab="declined" aria-pressed="false">Decided against</button>
+    <input id="q" type="search" placeholder="Search" aria-label="Search projects">
+    <select id="sort" aria-label="Sort">
+      <option value="date">Newest first</option>
+      <option value="index">Highest index first</option>
+    </select>
+  </div>
+  <div id="list"></div>
+
+  <h2>What is winning, and why</h2>
+  <p class="note" id="learnNote"></p>
+  <div class="bars" id="factors"></div>
+  <div id="winners" style="margin-top:14px"></div>
+
+  <h2>This week's scorecard</h2>
+  <div id="scorecard"></div>
+
+  <h2>What the studio has learned</h2>
+  <div id="insights"></div>
+
+  <p class="note" style="margin-top:40px">The ratings are opinions of AI agents, combined by plain code. They are predictions, not measurements. Where real search data exists it is shown next to them, and over time it is used to check how far the ratings can be trusted.</p>
+</main>
+<script type="application/json" id="data">{"generatedAt":"2026-11-04T21:02:17.587Z","title":"Studio dashboard","thresholds":{"build":3.6,"invest":4},"summary":{"total":0,"live":0,"staging":0,"building":0,"queued":0,"parked":0,"declined":0,"worthDomain":0},"projects":[],"scorecard":null,"learning":{"n":0,"shrink":0,"factors":[{"id":"instant-value","description":"the visitor gets a useful result within seconds, with no setup","weight":1,"count":0},{"id":"no-signup","description":"usable without an account; registration comes later, to save or to pay","weight":1,"count":0},{"id":"single-job","description":"does one job extremely well instead of being a suite","weight":1,"count":0},{"id":"niche-focus","description":"serves a specific audience or need the generalists ignore","weight":1,"count":0},{"id":"timing","description":"rides a fresh trigger (a law, a release, a trend) and shipped first","weight":1,"count":0},{"id":"seo-engine","description":"many genuinely useful pages that rank for long-tail queries (tools or data, not filler)","weight":1,"count":0},{"id":"free-lead-magnet","description":"a free tool that feeds a paid product","weight":1,"count":0},{"id":"share-loop","description":"the output is shareable or embeddable and brings new users (links, cards, badges, scores)","weight":1,"count":0},{"id":"ai-native","description":"uses AI for something that was not possible or affordable before","weight":1,"count":0},{"id":"data-edge","description":"unique, curated or fresher data than the alternatives","weight":1,"count":0},{"id":"community","description":"built with or around a community; users contribute or talk about it","weight":1,"count":0},{"id":"integration","description":"lives inside an existing platform or workflow (extension, plugin, bot, API)","weight":1,"count":0},{"id":"design-quality","description":"clearly better UX and clarity than the category","weight":1,"count":0},{"id":"trust-privacy","description":"privacy-first or local processing, or honesty, as a visible difference","weight":1,"count":0},{"id":"simple-pricing","description":"clear, cheap, transparent pricing, or an ad or affiliate model that fits the visitor intent","weight":1,"count":0},{"id":"low-ops","description":"runs itself with little maintenance or support","weight":1,"count":0},{"id":"retention-loop","description":"a reason to come back (streaks, alerts, a daily puzzle, saved work)","weight":1,"count":0},{"id":"game-hook","description":"games: short sessions, a simple core loop, instant restart, a shareable score","weight":1,"count":0}],"recent":[],"insights":"","calibration":"","suggestions":[],"proposedFactors":[]}}</script>
+<script>
+(function () {
+  var data;
+  try { data = JSON.parse(document.getElementById('data').textContent); }
+  catch (e) { document.body.textContent = 'The dashboard data could not be read.'; return; }
+
+  function h(tag, props) {
+    var el = document.createElement(tag);
+    var p = props || {};
+    Object.keys(p).forEach(function (k) {
+      if (k === 'class') el.className = p[k]; else if (k === 'text') el.textContent = p[k]; else el.setAttribute(k, p[k]);
+    });
+    for (var i = 2; i < arguments.length; i++) {
+      var kids = [].concat(arguments[i]);
+      kids.forEach(function (c) { if (c !== null && c !== undefined && c !== false) el.append(c.nodeType ? c : document.createTextNode(String(c))); });
+    }
+    return el;
+  }
+  function link(url, label) {
+    if (typeof url !== 'string' || !/^https:\/\//.test(url)) return null;
+    return h('a', { href: url, rel: 'noopener noreferrer', target: '_blank', text: label });
+  }
+  function tone(composite) { var t = data.thresholds; return composite >= t.invest ? 'good' : composite >= t.build ? 'ok' : 'bad'; }
+  function meter(value, max, cls) {
+    var pct = Math.max(0, Math.min(100, ((value - 1) / (max - 1)) * 100));
+    var s = h('s'); s.style.width = pct + '%';
+    return h('span', { class: 'meter ' + (cls || '') }, h('i', {}, s), String(value));
+  }
+  function date(iso) { var d = new Date(iso); return isNaN(d) ? '' : d.toLocaleDateString(); }
+
+  document.getElementById('title').textContent = data.title;
+  document.getElementById('sub').textContent = 'Updated ' + date(data.generatedAt) + ' ' + new Date(data.generatedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+  var s = data.summary;
+  [['Projects seen', s.total], ['Live', s.live], ['Built, waiting', s.staging], ['Being built or queued', s.building + s.queued],
+   ['Decided against', s.declined], ['Worth a domain', s.worthDomain]].forEach(function (t) {
+    document.getElementById('tiles').append(h('div', { class: 'tile' }, h('b', { text: String(t[1]) }), h('span', { text: t[0] })));
+  });
+
+  var tab = 'all';
+  var groups = { built: ['live', 'staging'], progress: ['building', 'queued', 'parked'], declined: ['declined'] };
+
+  function votesTable(index) {
+    var rows = index.votes.map(function (v) {
+      return h('tr', {}, h('td', { text: v.who }),
+        ['risk', 'success', 'monetization', 'potential', 'automation'].map(function (k) { return h('td', { class: 'n', text: String(v[k]) }); }));
+    });
+    var head = h('tr', {}, ['Rated by', 'Risk', 'Success', 'Monetization', 'Potential', 'Automation'].map(function (t) { return h('th', { text: t }); }));
+    var used = h('tr', {}, h('th', { text: 'Counted' }),
+      ['risk', 'success', 'monetization', 'potential', 'automation'].map(function (k) {
+        var flag = index.disputed.indexOf(k) >= 0 ? ' (disputed)' : '';
+        return h('th', { class: 'n', text: String(index.used[k]) + flag });
+      }));
+    return h('div', { class: 'scroll' }, h('table', {}, head, rows, used));
+  }
+
+  function card(p) {
+    var idx = p.index;
+    var chips = [h('span', { class: 'chip ' + (p.status === 'declined' ? 'bad' : p.status === 'live' ? 'good' : 'info'), text: p.statusLabel })];
+    if (idx && idx.invest.worthy && p.status !== 'declined') chips.push(h('span', { class: 'chip good', text: 'worth a domain' }));
+    if (idx && idx.disputed.length) chips.push(h('span', { class: 'chip ok', text: 'reviewers disagree' }));
+    if (idx && !idx.crossValidated) chips.push(h('span', { class: 'chip', text: 'single source' }));
+    chips.push(h('span', { class: 'chip', text: p.platform }));
+    var head = h('summary', {},
+      h('span', { class: 'title', text: p.title }),
+      h('span', { class: 'badges' }, idx ? meter(idx.composite, 5, tone(idx.composite)) : null, chips),
+      h('span', { class: 'why', text: p.decision.reason || p.pitch }));
+    var body = h('div', { class: 'detail' });
+    body.append(h('p', { text: p.pitch }));
+    body.append(h('div', { class: 'label', text: 'Decision' }), h('p', { text: (p.status === 'declined' ? 'Decided against by the ' : 'Decided by the ') + p.decision.by + ': ' + p.decision.reason }));
+    if (p.trigger) body.append(h('div', { class: 'label', text: 'Why now' }), h('p', { text: p.trigger + (p.window ? ' Window: ' + p.window : '') }));
+    if (idx) {
+      body.append(h('div', { class: 'label', text: 'Index (1 to 5; risk: lower is better)' }), votesTable(idx));
+      var facts = 'Agreement: ' + idx.agreement + '. ';
+      if (idx.yearlyCostEur !== null) facts += 'Estimated running cost: ' + idx.yearlyCostEur + ' EUR a year' + (idx.needsServer ? ', with a server' : ', no server needed') + '. ';
+      facts += idx.invest.worthy ? 'Worth paying for a domain.' : (idx.invest.reasons.length ? 'Not worth a domain yet: ' + idx.invest.reasons.join('; ') + '.' : '');
+      body.append(h('p', { text: facts }));
+      idx.votes.forEach(function (v) {
+        var txt = (v.rationale || v.summary);
+        if (txt) body.append(h('p', { class: 'rationale', text: v.who + ': ' + txt }));
+      });
+    }
+    if (p.factors && p.factors.length) body.append(h('div', { class: 'label', text: 'Success factors it claims' }), h('p', { text: p.factors.join(', ') }));
+    if (p.outcome) body.append(h('div', { class: 'label', text: 'Measured (Search Console)' }), h('p', { text: p.outcome.clicks + ' clicks, ' + p.outcome.impressions + ' impressions, average position ' + p.outcome.position + ' over ' + p.outcome.days + ' days' }));
+    var links = [link(p.links.preview, 'Preview'), link(p.links.live, 'Live site'), link(p.links.repo, 'Repository')].filter(Boolean);
+    if (links.length) body.append(h('p', {}, links.map(function (l, i) { return i ? [' · ', l] : l; })));
+    var el = h('details', { class: 'project' }, head, body);
+    return el;
+  }
+
+  function renderList() {
+    var q = document.getElementById('q').value.trim().toLowerCase();
+    var sort = document.getElementById('sort').value;
+    var items = data.projects.filter(function (p) {
+      if (tab !== 'all' && groups[tab].indexOf(p.status) < 0) return false;
+      return !q || (p.title + ' ' + p.pitch + ' ' + p.decision.reason).toLowerCase().indexOf(q) >= 0;
+    });
+    items.sort(sort === 'index'
+      ? function (a, b) { return ((b.index && b.index.composite) || 0) - ((a.index && a.index.composite) || 0); }
+      : function (a, b) { return String(b.updatedAt).localeCompare(String(a.updatedAt)); });
+    var list = document.getElementById('list');
+    list.replaceChildren();
+    if (!items.length) { list.append(h('div', { class: 'empty', text: 'Nothing here yet.' })); return; }
+    items.forEach(function (p) { list.append(card(p)); });
+  }
+  document.querySelectorAll('[data-tab]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      tab = b.getAttribute('data-tab');
+      document.querySelectorAll('[data-tab]').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      renderList();
+    });
+  });
+  document.getElementById('q').addEventListener('input', renderList);
+  document.getElementById('sort').addEventListener('change', renderList);
+  renderList();
+
+  var L = data.learning;
+  document.getElementById('learnNote').textContent = L.n
+    ? 'From ' + L.n + ' winning products studied so far. A weight of 1 is average; higher means the factor is more common among winners. The weights only move as far as the evidence earns (' + Math.round(L.shrink * 100) + '% of full influence now) and they nudge which idea is built first.'
+    : 'No winning products studied yet. Every factor starts at weight 1 and has no influence until cases accumulate.';
+  var fbox = document.getElementById('factors');
+  L.factors.forEach(function (f) {
+    var s2 = h('s'); s2.style.width = Math.min(100, (f.weight / 2) * 100) + '%';
+    fbox.append(h('div', { class: 'bar', title: f.description }, h('span', { text: f.id }), h('i', {}, s2), h('span', { text: f.weight + ' (' + f.count + ')' })));
+  });
+  var wbox = document.getElementById('winners');
+  L.recent.forEach(function (c) {
+    wbox.append(h('div', { class: 'card' },
+      h('div', {}, h('b', { text: c.name }), ' ', h('span', { class: 'chip', text: c.category || c.platform })),
+      h('p', { text: 'Does better: ' + c.better }),
+      h('p', { class: 'rationale', text: 'Why it wins: ' + c.why }),
+      h('p', { class: 'rationale', text: 'Lesson: ' + c.lesson + '  [' + c.factors.join(', ') + ']' })));
+  });
+
+  var sbox = document.getElementById('scorecard');
+  if (data.scorecard) {
+    data.scorecard.indicators.forEach(function (i) {
+      sbox.append(h('div', { class: 'card' },
+        h('div', {}, h('b', { text: i.label })),
+        h('p', { text: (i.value === null ? 'no data yet' : i.value + ' ' + i.unit) + '   (' + i.n + ' case' + (i.n === 1 ? '' : 's') + (i.enough ? '' : ', too few to act on: ' + i.minCases + ' needed') + ')' }),
+        h('p', { class: 'rationale', text: i.note })));
+    });
+    data.scorecard.warnings.forEach(function (w) { sbox.append(h('p', { class: 'note', text: w })); });
+  } else {
+    sbox.append(h('p', { class: 'note', text: 'The first scorecard is written at the start of the first full week of work.' }));
+  }
+
+  var ibox = document.getElementById('insights');
+  if (L.insights) ibox.append(h('div', { class: 'card' }, h('p', { text: L.insights })));
+  if (L.calibration) ibox.append(h('p', { class: 'note', text: 'How far the ratings can be trusted: ' + L.calibration }));
+  if (L.suggestions.length) {
+    ibox.append(h('div', { class: 'label', text: 'Suggested setting changes (not applied; you decide)' }));
+    L.suggestions.forEach(function (x) { ibox.append(h('p', { text: x.key + ': ' + x.from + ' to ' + x.to + '. ' + x.why })); });
+  }
+  if (L.proposedFactors.length) {
+    ibox.append(h('div', { class: 'label', text: 'Patterns the Benchmarker saw that no factor names yet' }));
+    L.proposedFactors.forEach(function (x) { ibox.append(h('p', { text: x.id + ': ' + x.description })); });
+  }
+  if (!ibox.childNodes.length) ibox.append(h('p', { class: 'note', text: 'Nothing yet. The Strategist writes here once there are results to learn from.' }));
+})();
+</script>
+</body>
+</html>
