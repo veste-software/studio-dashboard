@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-jJO3d+7qARuPZTydT58DRL/PX5XfF6Hb8Hx/dyHWYFw='; style-src 'sha256-/36GDikq1aPW7+d8SaTA6kcwPVVmYSg4waEGlqc4sDY='; connect-src https://studio-console.data-vestesoftware.workers.dev; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-NKUVeBC7qv+jYUtb4Y8p3nNkDGotBbKicLiDGA4Nygg='; style-src 'sha256-q2sSCZF1/AM0NrYIUP/3sBm0rDS4CfgMdiqSQjoiF0U='; connect-src https://studio-console.data-vestesoftware.workers.dev; base-uri 'none'; form-action 'none'">
 <title>Studio console</title>
 <style>
 :root {
@@ -33,6 +33,7 @@ header { display: flex; align-items: center; justify-content: space-between; gap
 .kind { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border-radius: 999px; padding: 1px 8px; margin-bottom: 6px; background: var(--warn-bg); color: var(--warn); }
 .kind.launch { background: var(--good-bg); color: var(--good); }
 .kind.parked { background: var(--bad-bg); color: var(--bad); }
+.kind.prototype { background: var(--good-bg); color: var(--good); }
 .grow { flex: 1 1 220px; }
 .full { flex: 1 1 100%; }
 .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-end; margin-top: 8px; }
@@ -260,7 +261,7 @@ summary { cursor: pointer; font-weight: 600; }
     var linkLine = h('p', {});
     links.forEach(function (a, i) { if (i) linkLine.append(' · '); linkLine.append(a); });
     var kids = [
-      h('span', { class: 'kind ' + d.kind, text: d.kind === 'launch' ? 'Ready to launch' : d.kind === 'idea' ? 'Idea to approve' : d.kind === 'parked' ? 'Paused' : 'Task for you' }),
+      h('span', { class: 'kind ' + d.kind, text: d.kind === 'launch' ? 'Ready to launch' : d.kind === 'prototype' ? 'One-day prototype' : d.kind === 'idea' ? 'Idea to approve' : d.kind === 'parked' ? 'Paused' : 'Task for you' }),
       h('h3', { text: d.title }),
       h('p', { text: d.text }),
       h('ul', {}, (d.facts || []).map(function (t) { return h('li', { text: t }); })),
