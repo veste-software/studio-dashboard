@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T13:12:41.344Z",
+ "generatedAt": "2026-11-06T15:16:25.271Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -352,26 +352,26 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-06T12:00:00.000Z",
+  "checkedInAt": "2026-11-06T15:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "looking for ideas",
   "building": [],
   "waiting": [],
   "scout": {
-   "lastRunAt": "2026-11-06T12:58:18.193Z",
+   "lastRunAt": "2026-11-06T15:02:44.975Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 5,
-   "radius": 2,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 6,
+   "radius": 3,
    "radiusLevels": 3,
-   "runsLastDay": 9,
+   "runsLastDay": 10,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-06T14:58:18.193Z"
+   "nextRunAfter": "2026-11-06T17:02:44.975Z"
   }
  },
  "scorecard": {
