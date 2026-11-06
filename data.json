@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T00:20:36.848Z",
+ "generatedAt": "2026-11-06T01:38:31.472Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -13,6 +13,7 @@
   "queued": 0,
   "parked": 0,
   "declined": 1,
+  "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
@@ -21,6 +22,7 @@
    "title": "Shop-wide AI rules audit for Etsy sellers",
    "pitch": "For Etsy sellers with dozens or hundreds of existing listings: drop in the listings CSV you export from Shop Manager and get a prioritised, per-listing to-do list against Etsy's 22 October 2026 AI rules (unedited real photo, finished-result photo for patterns and recipes, AI disclosure, no AI-written instructions, no bot-made duplicates). Everything runs locally in the browser; no Etsy login or A…",
    "platform": "web",
+   "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
    "prototype": false,
@@ -125,8 +127,12 @@
   "scout": {
    "lastRunAt": "2026-11-06T00:13:39.569Z",
    "lastFound": 0,
+   "lastNoted": 0,
+   "lastMarket": null,
+   "nextMarket": "Global",
    "runsLastDay": 5,
    "foundLastDay": 0,
+   "notedLastDay": 0,
    "nextRunAfter": "2026-11-06T06:13:39.569Z"
   }
  },
