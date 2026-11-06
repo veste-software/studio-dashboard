@@ -1,22 +1,94 @@
 {
- "generatedAt": "2026-11-06T01:40:45.751Z",
+ "generatedAt": "2026-11-06T02:25:07.115Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 1,
+  "total": 2,
   "live": 0,
   "staging": 0,
   "building": 0,
   "queued": 0,
   "parked": 0,
-  "declined": 1,
+  "declined": 2,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "fitbit-takeout-explorer",
+   "title": "Fitbit Takeout Explorer",
+   "pitch": "For Fitbit and Google Health users who are leaving or who lost their old exports and sync apps. Drop your Google Takeout ZIP into the browser, with nothing uploaded, and see your whole history (sleep stages, resting heart rate, HRV, SpO2, weight, steps, workouts). Then export clean CSVs per metric …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 3.4 is below the minimum 3.5"
+   },
+   "trigger": "Google turned off the legacy Fitbit Web API on 2026-10-30. Third-party apps that did not move to the Google Health API stop syncing. In October 2026 Google also forced the last old-Fitbit-app users o…",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The need is real and recurring: a forced migration, an API turn-off on 2026-10-30, and a messy full-history Takeout as the only export. A paid adjacent tool shows people will pay. But there is no solid competitor only because the job is narrow. Each user needs it about once, and it is a single-job English tool, a type the studio has no traction data for. It runs as a static site with local processing, so operating it is cheap.",
+      "summary": "",
+      "concerns": [
+       "Google may change the Takeout format or bring back per-metric CSV export",
+       "Wearable Converter may add sleep, heart rate and a viewer",
+       "Heart-rate files can be very large, so parsing in the browser needs streaming unzip and web workers",
+       "Users only need it once, so there is little reason to come back"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-06T02:25:07.109Z",
+   "updatedAt": "2026-11-06T02:25:07.109Z",
+   "outcome": null
+  },
   {
    "id": "shop-wide-ai-rules-audit-for-etsy-sellers",
    "title": "Shop-wide AI rules audit for Etsy sellers",
@@ -125,15 +197,15 @@
   "building": [],
   "waiting": [],
   "scout": {
-   "lastRunAt": "2026-11-06T00:13:39.569Z",
+   "lastRunAt": "2026-11-06T02:15:48.348Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": null,
-   "nextMarket": "Global",
-   "runsLastDay": 5,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "runsLastDay": 6,
    "foundLastDay": 0,
    "notedLastDay": 0,
-   "nextRunAfter": "2026-11-06T02:13:39.569Z"
+   "nextRunAfter": "2026-11-06T04:15:48.348Z"
   }
  },
  "scorecard": {
