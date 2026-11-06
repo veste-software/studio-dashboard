@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T08:58:25.378Z",
+ "generatedAt": "2026-11-06T09:05:31.350Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -104,7 +104,7 @@
     "live": null
    },
    "createdAt": "2026-11-06T08:40:30.857Z",
-   "updatedAt": "2026-11-06T08:58:23.840Z",
+   "updatedAt": "2026-11-06T09:05:29.896Z",
    "outcome": null
   },
   {
@@ -352,14 +352,14 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-06T06:00:00.000Z",
+  "checkedInAt": "2026-11-06T09:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "building",
   "building": [
    {
     "title": "Reparaturpflicht-Check",
-    "stage": "planned"
+    "stage": "building"
    }
   ],
   "waiting": [],
