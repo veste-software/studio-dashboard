@@ -1,22 +1,94 @@
 {
- "generatedAt": "2026-11-06T03:00:22.302Z",
+ "generatedAt": "2026-11-06T04:35:15.579Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 2,
+  "total": 3,
   "live": 0,
   "staging": 0,
   "building": 0,
   "queued": 0,
   "parked": 0,
-  "declined": 2,
+  "declined": 3,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "leitweg-id-verzeichnis",
+   "title": "Leitweg-ID-Verzeichnis",
+   "pitch": "A German directory with one page per public contracting authority (cities, districts, state and federal bodies, associations of municipalities) showing its published Leitweg-ID(s), the e-invoice channel (ZRE / OZG-RE / Peppol / own portal), where and when each ID was found, and a check-digit test. …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 3.4 is below the minimum 3.5"
+   },
+   "trigger": "The e-invoice transition period ends on 2027-01-01 for businesses with prior-year turnover above EUR 800,000 (all others follow in 2028). From the same date the City of Munich only accepts invoices a…",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.95,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.95 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.95 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "Several sources (a vendor guide updated 2026-10-21, state documents, a large city) agree that no central Leitweg-ID directory exists and that a missing ID gets the invoice returned. The data can be refreshed automatically from open procurement notices and Peppol, and pages build as static files. Revenue depends on unverified software affiliate programmes, and the need is long-standing rather than new, so timeliness and monetization stay moderate.",
+      "summary": "",
+      "concerns": [
+       "BT-501 values in real notices may be placeholders, other IDs or top-level 'master' IDs rather than the department ID the invoice needs. Unverified: I could not…",
+       "Wrong or outdated IDs cause rejected invoices, so every page needs its source, the date found and a 'confirm with the authority' note.",
+       "Big cities already publish their own pages that rank for their names, so the value is mostly in the long tail of smaller bodies.",
+       "Reuse terms of the Peppol Directory export and of the notice data still need checking."
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-06T04:35:15.572Z",
+   "updatedAt": "2026-11-06T04:35:15.572Z",
+   "outcome": null
+  },
   {
    "id": "fitbit-takeout-explorer",
    "title": "Fitbit Takeout Explorer",
@@ -197,18 +269,18 @@
   "building": [],
   "waiting": [],
   "scout": {
-   "lastRunAt": "2026-11-06T02:15:48.348Z",
+   "lastRunAt": "2026-11-06T04:20:25.713Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 0,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 1,
    "radius": 0,
    "radiusLevels": 3,
-   "runsLastDay": 6,
+   "runsLastDay": 7,
    "foundLastDay": 0,
    "notedLastDay": 0,
-   "nextRunAfter": "2026-11-06T04:15:48.348Z"
+   "nextRunAfter": "2026-11-06T06:20:25.713Z"
   }
  },
  "scorecard": {
