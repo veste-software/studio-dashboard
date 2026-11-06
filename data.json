@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T19:37:14.368Z",
+ "generatedAt": "2026-11-06T00:20:36.848Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -23,6 +23,7 @@
    "platform": "web",
    "status": "declined",
    "statusLabel": "Decided against",
+   "prototype": false,
    "decision": {
     "by": "product lead",
     "reason": "rejected by the product lead: Etsy's listings CSV cannot reveal whether a listing meets the October 2026 AI rules (unedited real photo, own instructions, disclosure), so the product reduces to keyword triage plus a manual checklist; that is a twist on free checklists and existing shop scanners, while Etsy is extending its own free AI-image warnings to existing listings."
@@ -114,6 +115,21 @@
    "outcome": null
   }
  ],
+ "activity": {
+  "checkedInAt": "2026-11-06T00:00:00.000Z",
+  "heartbeatHours": 3,
+  "decisionPage": true,
+  "status": "looking for ideas",
+  "building": [],
+  "waiting": [],
+  "scout": {
+   "lastRunAt": "2026-11-06T00:13:39.569Z",
+   "lastFound": 0,
+   "runsLastDay": 5,
+   "foundLastDay": 0,
+   "nextRunAfter": "2026-11-06T06:13:39.569Z"
+  }
+ },
  "scorecard": {
   "week": "2026-W45",
   "windowDays": 7,
