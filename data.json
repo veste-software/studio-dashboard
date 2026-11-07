@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T22:01:30.045Z",
+ "generatedAt": "2026-11-07T22:17:34.640Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -598,119 +598,196 @@
   ]
  },
  "learning": {
-  "n": 5,
-  "shrink": 0.33,
+  "n": 10,
+  "shrink": 0.5,
   "factors": [
    {
-    "id": "timing",
-    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
-    "weight": 1.33,
-    "count": 3
+    "id": "no-signup",
+    "description": "usable without an account; registration comes later, to save or to pay",
+    "weight": 1.63,
+    "count": 5
+   },
+   {
+    "id": "instant-value",
+    "description": "the visitor gets a useful result within seconds, with no setup",
+    "weight": 1.4,
+    "count": 4
    },
    {
     "id": "community",
     "description": "built with or around a community; users contribute or talk about it",
-    "weight": 1.33,
+    "weight": 1.4,
+    "count": 4
+   },
+   {
+    "id": "single-job",
+    "description": "does one job extremely well instead of being a suite",
+    "weight": 1.18,
+    "count": 3
+   },
+   {
+    "id": "timing",
+    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
+    "weight": 1.18,
+    "count": 3
+   },
+   {
+    "id": "trust-privacy",
+    "description": "privacy-first or local processing, or honesty, as a visible difference",
+    "weight": 1.18,
+    "count": 3
+   },
+   {
+    "id": "simple-pricing",
+    "description": "clear, cheap, transparent pricing, or an ad or affiliate model that fits the visitor intent",
+    "weight": 1.18,
+    "count": 3
+   },
+   {
+    "id": "low-ops",
+    "description": "runs itself with little maintenance or support",
+    "weight": 1.18,
     "count": 3
    },
    {
     "id": "share-loop",
     "description": "the output is shareable or embeddable and brings new users (links, cards, badges, scores)",
-    "weight": 1.11,
+    "weight": 0.95,
     "count": 2
    },
    {
     "id": "integration",
     "description": "lives inside an existing platform or workflow (extension, plugin, bot, API)",
-    "weight": 1.11,
+    "weight": 0.95,
     "count": 2
    },
    {
-    "id": "instant-value",
-    "description": "the visitor gets a useful result within seconds, with no setup",
-    "weight": 0.89,
+    "id": "niche-focus",
+    "description": "serves a specific audience or need the generalists ignore",
+    "weight": 0.73,
     "count": 1
    },
    {
-    "id": "no-signup",
-    "description": "usable without an account; registration comes later, to save or to pay",
-    "weight": 0.89,
+    "id": "seo-engine",
+    "description": "many genuinely useful pages that rank for long-tail queries (tools or data, not filler)",
+    "weight": 0.73,
     "count": 1
    },
    {
-    "id": "single-job",
-    "description": "does one job extremely well instead of being a suite",
-    "weight": 0.89,
+    "id": "free-lead-magnet",
+    "description": "a free tool that feeds a paid product",
+    "weight": 0.73,
+    "count": 1
+   },
+   {
+    "id": "ai-native",
+    "description": "uses AI for something that was not possible or affordable before",
+    "weight": 0.73,
     "count": 1
    },
    {
     "id": "data-edge",
     "description": "unique, curated or fresher data than the alternatives",
-    "weight": 0.89,
+    "weight": 0.73,
     "count": 1
    },
    {
     "id": "design-quality",
     "description": "clearly better UX and clarity than the category",
-    "weight": 0.89,
-    "count": 1
-   },
-   {
-    "id": "trust-privacy",
-    "description": "privacy-first or local processing, or honesty, as a visible difference",
-    "weight": 0.89,
+    "weight": 0.73,
     "count": 1
    },
    {
     "id": "retention-loop",
     "description": "a reason to come back (streaks, alerts, a daily puzzle, saved work)",
-    "weight": 0.89,
+    "weight": 0.73,
     "count": 1
    },
    {
     "id": "game-hook",
     "description": "games: short sessions, a simple core loop, instant restart, a shareable score",
-    "weight": 0.89,
+    "weight": 0.73,
     "count": 1
-   },
-   {
-    "id": "niche-focus",
-    "description": "serves a specific audience or need the generalists ignore",
-    "weight": 0.67,
-    "count": 0
-   },
-   {
-    "id": "seo-engine",
-    "description": "many genuinely useful pages that rank for long-tail queries (tools or data, not filler)",
-    "weight": 0.67,
-    "count": 0
-   },
-   {
-    "id": "free-lead-magnet",
-    "description": "a free tool that feeds a paid product",
-    "weight": 0.67,
-    "count": 0
-   },
-   {
-    "id": "ai-native",
-    "description": "uses AI for something that was not possible or affordable before",
-    "weight": 0.67,
-    "count": 0
-   },
-   {
-    "id": "simple-pricing",
-    "description": "clear, cheap, transparent pricing, or an ad or affiliate model that fits the visitor intent",
-    "weight": 0.67,
-    "count": 0
-   },
-   {
-    "id": "low-ops",
-    "description": "runs itself with little maintenance or support",
-    "weight": 0.67,
-    "count": 0
    }
   ],
   "recent": [
+   {
+    "name": "Bank Statement Converter",
+    "url": "https://bankstatementconverter.com",
+    "category": "Converts PDF bank statements to CSV and Excel",
+    "platform": "web",
+    "better": "Upload a statement without an account and get clean transaction rows back. A support for specific banks is added when a user reports a bad conversion, so accuracy on real statements keeps improving.",
+    "why": "Seen: one narrow, painful job for accountants, credit-based pricing, and a stop to paid Google Ads in 2021 after which it stayed profitable on word of mouth and organic traffic. The founder says adding support for specific banks raised conversion to paid. Inferred: a domain that exactly matches the…",
+    "lesson": "Before building a single-job converter, check whether a general AI chatbot or the incumbent platform can already do it well enough; prefer jobs with recurring need and accuracy that AI cannot easily match, or sell the engine as an API to the platforms.",
+    "factors": [
+     "single-job",
+     "niche-focus",
+     "no-signup",
+     "low-ops"
+    ]
+   },
+   {
+    "name": "BentoPDF",
+    "url": "https://www.bentopdf.com",
+    "category": "Privacy-first PDF toolkit that runs fully in the browser",
+    "platform": "web",
+    "better": "Over 100 PDF tools that process files locally, with no upload, no signup, no file limits and no watermark. It can be self-hosted with one Docker image and works offline, and it states openly that the site uses no cookies or analytics.",
+    "why": "Seen: rapid star growth while its own Hacker News posts got only single-digit points, which suggests the growth came from the self-hosting and open-source communities rather than from search or launch sites. Inferred: privacy-conscious and self-hosting users wanted a single local PDF suite they cou…",
+    "lesson": "For file tools, process everything in the browser, say so on the page in one plain sentence, and offer a self-host option so privacy-minded users can verify the claim and spread it.",
+    "factors": [
+     "trust-privacy",
+     "no-signup",
+     "community",
+     "instant-value"
+    ]
+   },
+   {
+    "name": "Photopea",
+    "url": "https://www.photopea.com",
+    "category": "Free browser-based image editor that opens PSD files",
+    "platform": "web",
+    "better": "You open the site and get a Photoshop-like interface right away, with no install and no account. It opens PSD, SVG, PDF and raw files and edits them locally in the browser, and the menus and shortcuts match what Photoshop-trained users already know.",
+    "why": "Seen: a free, no-signup, browser-only tool that handles the file format professionals use, and keeps people paying with an ad-free premium plan and corporate licensing. Inferred: matching an expensive incumbent's interface and file format removed both the switching cost and the price barrier, so st…",
+    "lesson": "If the paid incumbent defines how a job is done, support its file formats and familiar controls in a free in-browser tool that needs no account, and earn money from ads or an ad-free upgrade.",
+    "factors": [
+     "instant-value",
+     "no-signup",
+     "trust-privacy",
+     "low-ops",
+     "simple-pricing"
+    ]
+   },
+   {
+    "name": "Omni Calculator",
+    "url": "https://www.omnicalculator.com",
+    "category": "Large library of single-purpose online calculators",
+    "platform": "web",
+    "better": "Each calculator is its own page for one exact question. You can type into any field and the others update in both directions, without pressing a button. Each page also explains the formula and gives a worked example, and some calculators are translated into 9 languages.",
+    "why": "Seen: about one new calculator per day for a decade, with top rankings for exact-match calculator and formula queries. The site is paid for with ads, and the founder says ads let them keep it free for everyone. Inferred: each calculator is a real tool answering a distinct long-tail query, so the pa…",
+    "lesson": "Build calculators one page per real question, with two-way live inputs, a short formula explanation and a worked example, and judge success by how many of those pages rank, not by how many exist.",
+    "factors": [
+     "seo-engine",
+     "instant-value",
+     "no-signup",
+     "simple-pricing"
+    ]
+   },
+   {
+    "name": "TurboScribe",
+    "url": "https://turboscribe.ai",
+    "category": "AI audio and video transcription web tool",
+    "platform": "web",
+    "better": "The user uploads a file or pastes a YouTube link and gets text in 98 languages. The free tier allows 3 files a day of up to 30 minutes each, and one flat plan of about 10 dollars a month on annual billing removes the limits. A free YouTube video downloader page puts a large transcribe button next t…",
+    "why": "Seen: according to the Ahrefs data in the Sina article, transcription keywords make up only about 4 percent of its ranking keywords. Semrush shows its top non-brand keywords are downloader terms such as yt to mp4 and descargar video de youtube, ranking first or third. Inferred: by ranking for high-…",
+    "lesson": "Pick a high-volume search query that comes one step earlier in your user's workflow, give it a free tool page, and put a one-click handoff to your core product on the result.",
+    "factors": [
+     "ai-native",
+     "free-lead-magnet",
+     "simple-pricing",
+     "single-job",
+     "low-ops"
+    ]
+   },
    {
     "name": "Wplace",
     "url": "https://wplace.live",
@@ -804,6 +881,14 @@
    {
     "id": "existing-audience",
     "description": "Growth came mainly from the founder's existing following, so the case should be weighted lower as evidence that the product itself works."
+   },
+   {
+    "id": "upstream-funnel",
+    "description": "A free tool ranks for a higher-volume query one step earlier in the user's workflow and hands off with one click to the paid core product."
+   },
+   {
+    "id": "familiar-interface",
+    "description": "Copies the interaction conventions and file formats of an expensive incumbent, without its branding, so switching costs nothing."
    }
   ]
  }
