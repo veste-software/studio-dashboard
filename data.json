@@ -1,22 +1,117 @@
 {
- "generatedAt": "2026-11-07T03:03:50.782Z",
+ "generatedAt": "2026-11-07T03:36:52.200Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 5,
+  "total": 6,
   "live": 0,
   "staging": 0,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 4,
+  "declined": 5,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "2026-new-gtld-round-tracker-one-page-per-applied",
+   "title": "2026 new-gTLD round tracker: one page per applied-for string, change log and brand look-alike check",
+   "pitch": "For brand owners and their lawyers, domain investors, applicants and curious founders: one page for each of the 986 applied-for domain endings and each of the 481 applicants (grouped by parent company), rebuilt daily from ICANN's public data. Each page shows applicants, contention, status and stage, plus a dated change log, an RSS feed and the comment and objection deadlines. A client-side look-a…",
+   "platform": "web",
+   "marketLabel": "Global",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "decision": {
+    "by": "product lead",
+    "reason": "rejected by the product lead: The core job (who applied for which string, and contention) is already served free by ICANN's APS, gtlds.fyi (launched on Reveal Day with per-name pages and an active developer) and ICANNWiki/registrar lists, leaving only feature twists (change log, look-alike search) with no revenue path before strings launch in 2027-28."
+   },
+   "trigger": "ICANN Reveal Day: first publication of all 1,615 applications (481 applicants, 263 contention sets) in the first new-gTLD round since 2012. String Confirmation Day on 2026-11-17 opens the comment and…",
+   "window": "The final strings and updated contention sets come out on 2026-11-17. Singular/plural notifications are due about 2026-12-17 and objections by 2027-03-16. Brand owners must check for look-alike strin…",
+   "score": 3.45,
+   "index": {
+    "composite": 2.18,
+    "used": {
+     "risk": 2.5,
+     "success": 2,
+     "monetization": 1.5,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "medium",
+    "disputed": [],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.18 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.18 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Fresh official public data (1,615 applications, a downloadable CSV) and a hard deadline (objections by 2027-03-16) create a real checking job, and all I found is ICANN's raw application search plus static blog lists. The audience is a niche of professionals and money is thin until strings launch in 2027-2028, so revenue and reach are rated low. A daily CSV pull and static rebuild keep it running without a person.",
+      "summary": "",
+      "concerns": [
+       "ICANN could add string-centric views, history or alerts to APS and close the gap",
+       "Low search volume until strings are delegated; most current interest is concentrated on a few AI strings already covered by news sites",
+       "Registrars will build per-string pre-registration pages closer to launch",
+       "ICANN's terms grant no licence to reuse ICANN IP: show facts only (strings, applicants, statuses) and link to the official summaries rather than copying applic…"
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 3,
+      "success": 2,
+      "monetization": 1,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Trigger, deadlines and open data all check out: Reveal Day was 2026-10-07, the contention CSV has 263 sets, and the objection window runs to 2027-03-16. But the Scout missed gtlds.fyi, a free directory of all 986 strings and 263 overlaps with per-name pages that got 40 points on Show HN and is still adding filters. ICANN's own APS has per-application pages, a CSV and status and stage fields, ICANNWiki has per-string pages, and law firms send brand owners straight to APS. What is left (history, …",
+      "summary": "The core job (who applied for which string, and contention) is already served free by ICANN's APS, gtlds.fyi (launched on Reveal Day with per-name pages and an active developer) and ICANNWiki/registrar lists, leaving only feature twists (change log, look-alike search) with no revenue path before st…",
+      "concerns": [
+       "gtlds.fyi already covers the string directory with per-name pages, and its developer ships requested features within hours",
+       "Status changes are sparse between String Confirmation Day and the 2027 evaluation, so the change log and RSS would mostly be empty",
+       "Brand owners rely on counsel and brand-protection vendors and on ICANN's official APS, so there is little willingness to pay an unknown tracker for alerts",
+       "Sponsorship needs human sales, and affiliate revenue depends on TLD launches in 2027-28 and excludes the roughly 333 brand strings"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [
+    "timing",
+    "seo-engine",
+    "data-edge",
+    "niche-focus"
+   ],
+   "factorFit": 0.73,
+   "links": {
+    "repo": "https://github.com/veste-software/2026-new-gtld-round-tracker-one-page-per-applied",
+    "preview": "https://veste-software.github.io/2026-new-gtld-round-tracker-one-page-per-applied/",
+    "live": null
+   },
+   "createdAt": "2026-11-07T03:32:53.063Z",
+   "updatedAt": "2026-11-07T03:36:52.191Z",
+   "outcome": null
+  },
   {
    "id": "hebesatz-verzeichnis",
    "title": "Hebesatz-Verzeichnis",
@@ -431,19 +526,19 @@
   "building": [],
   "waiting": [],
   "scout": {
-   "lastRunAt": "2026-11-07T01:15:05.165Z",
+   "lastRunAt": "2026-11-07T03:18:53.713Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 11,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 12,
    "radius": 3,
    "radiusLevels": 3,
-   "runsLastDay": 11,
+   "runsLastDay": 12,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-07T03:15:05.165Z"
+   "nextRunAfter": "2026-11-07T05:18:53.713Z"
   }
  },
  "scorecard": {
