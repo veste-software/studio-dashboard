@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T08:05:38.034Z",
+ "generatedAt": "2026-11-07T08:11:18.800Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -9,9 +9,9 @@
   "total": 6,
   "live": 0,
   "staging": 0,
-  "building": 1,
+  "building": 0,
   "queued": 0,
-  "parked": 0,
+  "parked": 1,
   "declined": 5,
   "nonDigital": 0,
   "worthDomain": 0
@@ -23,12 +23,12 @@
    "pitch": "For people in Germany (later DACH and the EU) with a broken washing machine, dishwasher, fridge, dryer, TV/monitor, smartphone or tablet: enter brand and model and see until when the manufacturer must repair it under the new right to repair, computed from the model's EU database market dates plus the legal spare-parts period, with the manufacturer's repair contact and a ready-to-send repair reque…",
    "platform": "web",
    "marketLabel": "Germany and Europe",
-   "status": "building",
-   "statusLabel": "Being built",
+   "status": "parked",
+   "statusLabel": "Paused",
    "prototype": false,
    "decision": {
-    "by": "product lead",
-    "reason": "Picked from the bench: the Scout scored it 3.3, a little under the usual bar, and the studio had nothing else to build. The Product lead read it from scratch and chose to build it. The review panel is skipped; the one-day prototype is how you judge it."
+    "by": "orchestrator",
+    "reason": "QA still failing after 3 rounds: Real EPREL fixture src/fixtures/eprel-1417304.json is missing. SPEC 6.4 (proxy whitelist test on the real record), 6.6 (rendered Bosch/WAJ240L2SN/27.12.2034/München result), 6.7 (/qr/1417304 prerendered with noindex) and 6.11 (real EPREL examples on group pages) are unmet. dist/qr contains only ind…"
    },
    "trigger": "The German law implementing the EU right-to-repair directive applies: manufacturers must repair covered products for as long as spare parts must be kept (7 or 10 years), counted from when the last un…",
    "window": "Six to twelve months. The law is three months old and the only open question for consumers (when did my model leave the market?) has no tool yet. Consumer bodies, price portals, spare-parts shops or …",
@@ -104,7 +104,7 @@
     "live": null
    },
    "createdAt": "2026-11-06T08:40:30.857Z",
-   "updatedAt": "2026-11-07T08:05:36.630Z",
+   "updatedAt": "2026-11-07T08:11:17.488Z",
    "outcome": null
   },
   {
@@ -522,13 +522,8 @@
   "checkedInAt": "2026-11-07T06:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "building",
-  "building": [
-   {
-    "title": "Reparaturpflicht-Check",
-    "stage": "qa"
-   }
-  ],
+  "status": "looking for ideas",
+  "building": [],
   "waiting": [],
   "scout": {
    "lastRunAt": "2026-11-07T07:27:23.384Z",
@@ -543,7 +538,7 @@
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-07T13:27:23.384Z"
+   "nextRunAfter": "2026-11-07T09:27:23.384Z"
   }
  },
  "scorecard": {
