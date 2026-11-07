@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T07:38:32.097Z",
+ "generatedAt": "2026-11-07T07:49:20.755Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -9,14 +9,104 @@
   "total": 6,
   "live": 0,
   "staging": 0,
-  "building": 0,
+  "building": 1,
   "queued": 0,
-  "parked": 1,
+  "parked": 0,
   "declined": 5,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "reparaturpflicht-check",
+   "title": "Reparaturpflicht-Check",
+   "pitch": "For people in Germany (later DACH and the EU) with a broken washing machine, dishwasher, fridge, dryer, TV/monitor, smartphone or tablet: enter brand and model and see until when the manufacturer must repair it under the new right to repair, computed from the model's EU database market dates plus the legal spare-parts period, with the manufacturer's repair contact and a ready-to-send repair reque…",
+   "platform": "web",
+   "marketLabel": "Germany and Europe",
+   "status": "building",
+   "statusLabel": "Being built",
+   "prototype": false,
+   "decision": {
+    "by": "product lead",
+    "reason": "Picked from the bench: the Scout scored it 3.3, a little under the usual bar, and the studio had nothing else to build. The Product lead read it from scratch and chose to build it. The review panel is skipped; the one-day prototype is how you judge it."
+   },
+   "trigger": "The German law implementing the EU right-to-repair directive applies: manufacturers must repair covered products for as long as spare parts must be kept (7 or 10 years), counted from when the last un…",
+   "window": "Six to twelve months. The law is three months old and the only open question for consumers (when did my model leave the market?) has no tool yet. Consumer bodies, price portals, spare-parts shops or …",
+   "score": 3.3,
+   "index": {
+    "composite": 2.85,
+    "used": {
+     "risk": 2.5,
+     "success": 3,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "medium",
+    "disputed": [],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.85 is below 3.6"
+    ],
+    "yearlyCostEur": 23,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.85 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "Consumer bodies and national media explain the right but all say nothing about how to find the model's market-exit date. Three searches found no lookup or calculator. EPREL appears to publish exactly that field per model, and its covered groups match the law's. The pipeline-to-static-pages pattern fits the owner's proven setup. Revenue rests on unverified affiliate conversions.",
+      "summary": "",
+      "concerns": [
+       "EPREL API returned HTTP 403 to a direct call; it may need a Commission API key or block bots",
+       "onMarketEndDate is a placeholder (2050-12-31) for models still sold and may not be updated reliably, so many answers are only 'at least until X'",
+       "Search demand is inferred from media coverage; no forum threads asking for this were found",
+       "Very large numbers of near-identical model pages could be judged thin; start with major brands and discontinued models"
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 3,
+      "success": 3,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "I confirmed the law and the 7/10-year rule from the model's last market date on Verbraucherzentrale and t-online; neither, nor any other source I found, offers a per-model date or a letter. The only checker found (right-to-repair-check.pages.dev) is English and works at product-group level only. I fetched EPREL product 1417304 without a key and got onMarketEndDate 2024-12-27 plus the manufacturer service address, so the core job works today; bulk search returned 403 and needs a human-requested …",
+      "summary": "The German right-to-repair rules (§§ 479a ff. BGB, since late July 2026) tie the manufacturer's duty to a per-model market end date that no German tool reveals, and EPREL's keyless single-product endpoint verifiably returns that date plus the manufacturer's service contact, so a real one-day protot…",
+      "concerns": [
+       "Discovery: a new domain competes with Verbraucherzentrale and news sites for head queries, and the long-tail model pages need an API key that may be slow or ha…",
+       "Friction: users need the EPREL registration number, and many have discarded the energy label",
+       "Weak monetisation: affiliate-only, low and unverified commission rates",
+       "Data quality: missing or placeholder end dates in EPREL, and possible misreadings of the 7/10-year part split"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/reparaturpflicht-check",
+    "preview": "https://veste-software.github.io/reparaturpflicht-check/",
+    "live": null
+   },
+   "createdAt": "2026-11-06T08:40:30.857Z",
+   "updatedAt": "2026-11-07T07:49:19.123Z",
+   "outcome": null
+  },
   {
    "id": "2026-new-gtld-round-tracker-one-page-per-applied",
    "title": "2026 new-gTLD round tracker: one page per applied-for string, change log and brand look-alike check",
@@ -182,96 +272,6 @@
    },
    "createdAt": "2026-11-07T01:28:47.540Z",
    "updatedAt": "2026-11-07T01:28:47.540Z",
-   "outcome": null
-  },
-  {
-   "id": "reparaturpflicht-check",
-   "title": "Reparaturpflicht-Check",
-   "pitch": "For people in Germany (later DACH and the EU) with a broken washing machine, dishwasher, fridge, dryer, TV/monitor, smartphone or tablet: enter brand and model and see until when the manufacturer must repair it under the new right to repair, computed from the model's EU database market dates plus the legal spare-parts period, with the manufacturer's repair contact and a ready-to-send repair reque…",
-   "platform": "web",
-   "marketLabel": "Germany and Europe",
-   "status": "parked",
-   "statusLabel": "Paused",
-   "prototype": false,
-   "decision": {
-    "by": "orchestrator",
-    "reason": "QA still failing after 3 rounds: Real EPREL fixture src/fixtures/eprel-1417304.json is missing. The proxy test uses a synthetic record, there is no rendered Bosch/WAJ240L2SN/27.12.2034/München result, /qr/1417304 is not prerendered (dist/qr has only the client shell), and group-page examples are computed Rechenbeispiele, not real …"
-   },
-   "trigger": "The German law implementing the EU right-to-repair directive applies: manufacturers must repair covered products for as long as spare parts must be kept (7 or 10 years), counted from when the last un…",
-   "window": "Six to twelve months. The law is three months old and the only open question for consumers (when did my model leave the market?) has no tool yet. Consumer bodies, price portals, spare-parts shops or …",
-   "score": 3.3,
-   "index": {
-    "composite": 2.85,
-    "used": {
-     "risk": 2.5,
-     "success": 3,
-     "monetization": 2,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "medium",
-    "disputed": [],
-    "crossValidated": true,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.85 is below 3.6"
-    ],
-    "yearlyCostEur": 23,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.85 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 3,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "Consumer bodies and national media explain the right but all say nothing about how to find the model's market-exit date. Three searches found no lookup or calculator. EPREL appears to publish exactly that field per model, and its covered groups match the law's. The pipeline-to-static-pages pattern fits the owner's proven setup. Revenue rests on unverified affiliate conversions.",
-      "summary": "",
-      "concerns": [
-       "EPREL API returned HTTP 403 to a direct call; it may need a Commission API key or block bots",
-       "onMarketEndDate is a placeholder (2050-12-31) for models still sold and may not be updated reliably, so many answers are only 'at least until X'",
-       "Search demand is inferred from media coverage; no forum threads asking for this were found",
-       "Very large numbers of near-identical model pages could be judged thin; start with major brands and discontinued models"
-      ]
-     },
-     {
-      "who": "product",
-      "risk": 3,
-      "success": 3,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "I confirmed the law and the 7/10-year rule from the model's last market date on Verbraucherzentrale and t-online; neither, nor any other source I found, offers a per-model date or a letter. The only checker found (right-to-repair-check.pages.dev) is English and works at product-group level only. I fetched EPREL product 1417304 without a key and got onMarketEndDate 2024-12-27 plus the manufacturer service address, so the core job works today; bulk search returned 403 and needs a human-requested …",
-      "summary": "The German right-to-repair rules (§§ 479a ff. BGB, since late July 2026) tie the manufacturer's duty to a per-model market end date that no German tool reveals, and EPREL's keyless single-product endpoint verifiably returns that date plus the manufacturer's service contact, so a real one-day protot…",
-      "concerns": [
-       "Discovery: a new domain competes with Verbraucherzentrale and news sites for head queries, and the long-tail model pages need an API key that may be slow or ha…",
-       "Friction: users need the EPREL registration number, and many have discarded the energy label",
-       "Weak monetisation: affiliate-only, low and unverified commission rates",
-       "Data quality: missing or placeholder end dates in EPREL, and possible misreadings of the 7/10-year part split"
-      ]
-     }
-    ]
-   },
-   "demand": null,
-   "factors": [],
-   "factorFit": 0,
-   "links": {
-    "repo": "https://github.com/veste-software/reparaturpflicht-check",
-    "preview": "https://veste-software.github.io/reparaturpflicht-check/",
-    "live": null
-   },
-   "createdAt": "2026-11-06T08:40:30.857Z",
-   "updatedAt": "2026-11-06T10:50:22.746Z",
    "outcome": null
   },
   {
@@ -522,8 +522,13 @@
   "checkedInAt": "2026-11-07T06:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "looking for ideas",
-  "building": [],
+  "status": "building",
+  "building": [
+   {
+    "title": "Reparaturpflicht-Check",
+    "stage": "building"
+   }
+  ],
   "waiting": [],
   "scout": {
    "lastRunAt": "2026-11-07T07:27:23.384Z",
@@ -538,7 +543,7 @@
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-07T09:27:23.384Z"
+   "nextRunAfter": "2026-11-07T13:27:23.384Z"
   }
  },
  "scorecard": {
