@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T04:15:15.631Z",
+ "generatedAt": "2026-11-08T04:18:39.576Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -532,8 +532,8 @@
    "lastMarket": "Global",
    "nextMarket": "Germany and Europe",
    "emptyRuns": 24,
-   "radius": 3,
-   "radiusLevels": 3,
+   "radius": 4,
+   "radiusLevels": 4,
    "runsLastDay": 13,
    "foundLastDay": 0,
    "notedLastDay": 0,
