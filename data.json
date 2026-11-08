@@ -1,22 +1,109 @@
 {
- "generatedAt": "2026-11-08T21:50:46.520Z",
+ "generatedAt": "2026-11-08T22:38:59.611Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 7,
+  "total": 8,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 5,
+  "declined": 6,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "qsf-exit-convert-a-qualtrics-survey-file-to-lime",
+   "title": "QSF Exit: convert a Qualtrics survey file to LimeSurvey, REDCap, XLSForm or SurveyJS",
+   "pitch": "For researchers whose university is cutting or dropping Qualtrics. You drop in the exported .qsf file and get an importable LimeSurvey .lss, a REDCap data dictionary, an XLSForm or SurveyJS JSON, plus a readable codebook. Display and skip logic are carried over where the target supports them. Every…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 3 is below the minimum 3.5"
+   },
+   "trigger": "Universities cutting their Qualtrics licences in 2026: UWA restricted it to research from February 2026 and updated its migration guide on 2026-10-20, Twente leaves by October 2026, Georgia State's c…",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 100,
+     "upsideEur": 1500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 100,
+       "upsideEur": 1500,
+       "basis": "Bottom-up: I saw no search-volume data. Assume about 150 visits a month after a four-month ramp, so about 1,200 visits in year 1. If 2% buy a 12 EUR logic-preserving export, that is about 288 EUR, less about 10% payment fees and a 15 EUR domain, so about 245 EUR. Cross-check: conversion is offered free as a lead magnet elsewhere (Pirai AI's free QSF converter, QuestionPro's importer is free for i…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The gap is verified: every QSF importer found loads into its own commercial platform, and the REDCap and SurveyJS paths are partial and drop logic. The open destinations institutions mention (LimeSurvey, REDCap, Kobo) have nothing. Demand is institutional and steady rather than loud, and no researcher request dated within 90 days was found.",
+      "summary": "",
+      "concerns": [
+       "Most universities that leave Qualtrics move to QuestionPro, which already imports QSF files",
+       "Researchers may paste a QSF into a general LLM instead of paying",
+       "The QSF format is undocumented and Qualtrics can change it; complex logic (loop and merge, embedded data, JavaScript) will not map cleanly",
+       "A small audience with a low willingness to pay for conversion"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-08T22:38:22.381Z",
+   "updatedAt": "2026-11-08T22:38:22.381Z",
+   "outcome": null
+  },
   {
    "id": "zitatumzug-citavi-nachweise-in-word-zu-zotero-um",
    "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
@@ -682,19 +769,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-08T20:16:20.541Z",
+   "lastRunAt": "2026-11-08T22:20:49.887Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 32,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 33,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 12,
+   "runsLastDay": 15,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-08T22:16:20.541Z"
+   "nextRunAfter": "2026-11-09T00:20:49.887Z"
   }
  },
  "scorecard": {
