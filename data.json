@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T20:53:19.928Z",
+ "generatedAt": "2026-11-08T21:03:32.533Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -158,7 +158,7 @@
     "live": null
    },
    "createdAt": "2026-11-08T10:23:29.294Z",
-   "updatedAt": "2026-11-08T20:53:18.126Z",
+   "updatedAt": "2026-11-08T21:03:31.021Z",
    "outcome": null
   },
   {
@@ -669,14 +669,14 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-08T18:00:00.000Z",
+  "checkedInAt": "2026-11-08T21:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "building",
   "building": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
-    "stage": "planned"
+    "stage": "building"
    }
   ],
   "waiting": [],
@@ -689,7 +689,7 @@
    "emptyRuns": 32,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 13,
+   "runsLastDay": 12,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
