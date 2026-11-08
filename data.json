@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T10:33:58.056Z",
+ "generatedAt": "2026-11-08T10:38:27.262Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -9,10 +9,10 @@
   "total": 7,
   "live": 0,
   "staging": 0,
-  "building": 1,
+  "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 5,
+  "declined": 6,
   "nonDigital": 0,
   "worthDomain": 0
  },
@@ -23,24 +23,24 @@
    "pitch": "For students and researchers in Germany, Austria and Switzerland whose university is ending its Citavi licence. Upload a Word file and the browser turns its Citavi citations into live Zotero citations, entirely on the user's device. Nobody has to re-insert hundreds of citations by hand, and it still works after the licence has expired.",
    "platform": "web",
    "marketLabel": "Germany and Europe",
-   "status": "building",
-   "statusLabel": "Being built",
+   "status": "declined",
+   "statusLabel": "Decided against",
    "prototype": false,
    "decision": {
-    "by": "product lead",
-    "reason": "Spec written; waiting for the review."
+    "by": "review panel",
+    "reason": "declined by the review: overall index 2.65 is below 3.6"
    },
    "trigger": "German universities ending their Citavi campus licences after price rises, announced from late 2025: FH Dortmund 2026-08-31, Göttingen 2026-11-30, TU Freiberg 2026-12-01, Münster and HCU Hamburg 2026…",
    "window": "Most deadlines fall between 30 November and 31 December 2026. After that, students are left with theses whose Citavi fields can no longer be refreshed. Demand should run through 2027 as theses starte…",
    "score": 3.6,
    "index": {
-    "composite": 2.85,
+    "composite": 2.65,
     "used": {
-     "risk": 2.5,
-     "success": 3,
-     "monetization": 3,
+     "risk": 3.15,
+     "success": 2.9,
+     "monetization": 2.85,
      "potential": 2,
-     "automation": 4.5
+     "automation": 4.1
     },
     "agreement": "medium",
     "disputed": [],
@@ -48,16 +48,38 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 2.85 is below 3.6"
+     "overall index 2.65 is below 3.6"
     ],
-    "yearlyCostEur": 23,
+    "yearlyCostEur": 18,
     "needsServer": false,
     "invest": {
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 2.85 is below 4",
-      "potential 2 is below 4"
+      "overall index 2.65 is below 4",
+      "potential 2 is below 4",
+      "risk 3.15 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 275,
+     "upsideEur": 2250,
+     "crossVerified": true,
+     "disputed": false,
+     "agreement": "high",
+     "estimates": [
+      {
+       "who": "analyst",
+       "expectedEur": 300,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: Google autocomplete shows demand around 'citavi zotero' (import, migration, vs.) but returns nothing for 'citavi word zotero', so the exact Word-conversion query is low volume. With a new domain launching about a week before the first big deadline (Göttingen 30.11) and a ramp, I assume about 3,000 tool visits in year 1, a 40% scan rate, 6% of scanners paying 9 € and about 7.2 € net per…"
+      },
+      {
+       "who": "skeptic",
+       "expectedEur": 250,
+       "upsideEur": 2000,
+       "basis": "Bottom-up: about 100k students at the universities ending Citavi in this wave (my estimate, not verified), about 20% on Citavi, 5-10% of those mid-document and wanting to convert gives 1,000-3,000 people; about 10-15% find the tool (300-450 scans); 10-15% pay 9 EUR (about 7 EUR net after VAT and Stripe) gives 30-65 passes, or 210-450 EUR. Cross-check by search traffic (assumed 1-2k searches a mon…"
+      }
      ]
     },
     "votes": [
@@ -92,6 +114,38 @@
        "Zotero could add native Citavi citation conversion as it did for Mendeley, and a copycat converter is easy to build",
        "Students are price-sensitive, and the client-side paywall can be bypassed"
       ]
+     },
+     {
+      "who": "analyst",
+      "risk": 3.6,
+      "success": 2.7,
+      "monetization": 2.7,
+      "potential": 2,
+      "automation": 4.2,
+      "rationale": "The trigger is real and wider than claimed. Search results show Citavi migration guides or licence-end notices from Münster, Göttingen, FH Dortmund, FH Aachen, HCU, TU Freiberg, TUM and Marburg (both ended 30.09.2026), KIT, Mannheim, HTW Berlin, HS Pforzheim, TUHH and HS RheinMain (31.05.2027). Every guide I saw (Göttingen, Greifswald, Zotero forum, ThesisDraft) says Word citations cannot be converted, and I found no browser tool, so the gap is open. But it is a one-time migration job in a Germ…",
+      "summary": "Real, unserved pain from a wide wave of Citavi licence endings, and no browser converter exists, but it is a small, time-limited German-speaking niche that launches at the peak with no search presence. Expected profit is about 300 € in year 1 (upside about 2,500 € if libraries link to it).",
+      "concerns": [
+       "The new domain will barely be indexed by the November and December 2026 deadlines, so much of the peak demand passes before search traffic arrives",
+       "Technical correctness has not been proven on real Citavi .docx files or in a real Word and Zotero round trip; a broken thesis document would destroy trust",
+       "Many affected students will buy the discounted private Citavi licence, keep using Citavi until they submit, or convert the citations to plain text, so they nev…",
+       "Finite event with little repeat use: once the migration wave is over, demand drops sharply and the audience is German-speaking students only"
+      ]
+     },
+     {
+      "who": "skeptic",
+      "risk": 3.3,
+      "success": 2.8,
+      "monetization": 2.7,
+      "potential": 2,
+      "automation": 3.3,
+      "rationale": "The pain is real and no browser converter exists: library guides, a Zotero forum thread and the ThesisDraft article all say Citavi citations in Word cannot be converted, and licences do end at Muenster, Goettingen, HCU and others. But the payer pool is small, the demand falls in a few weeks, several universities extended to 2027 (Oldenburg, Stuttgart), and nothing has been tested against a real Citavi .docx or against how Zotero treats citations that are not in the library.",
+      "summary": "A real, uncontested pain point with a plausible technical route, but a small, short-lived paying audience and an unproven conversion on real Citavi and Zotero files. Expected first-year profit is about 250 EUR, with about 2,000 EUR if libraries recommend it.",
+      "concerns": [
+       "The conversion has not been tested on real Citavi files or in real Zotero. The spec relies on synthetic fixtures derived from reading code; the Reference objec…",
+       "Zotero may prompt for missing items or create duplicates when embedded-only citations are not in the user's library, and no ZOTERO_PREF is written. The fix (li…",
+       "Small, short-lived, price-sensitive audience: peak is roughly now to January, licences were extended at several universities (Oldenburg, Stuttgart to 2027), ma…",
+       "The paywall is enforced in the browser, so it is trivially bypassable, and Citavi Web / Assistant and text-placeholder users are not covered."
+      ]
      }
     ]
    },
@@ -104,7 +158,7 @@
     "live": null
    },
    "createdAt": "2026-11-08T10:23:29.294Z",
-   "updatedAt": "2026-11-08T10:33:58.037Z",
+   "updatedAt": "2026-11-08T10:38:25.763Z",
    "outcome": null
   },
   {
@@ -150,6 +204,7 @@
       "potential 3 is below 4"
      ]
     },
+    "profit": null,
     "votes": [
      {
       "who": "scout",
@@ -240,6 +295,7 @@
       "potential 2 is below 4"
      ]
     },
+    "profit": null,
     "votes": [
      {
       "who": "scout",
@@ -334,6 +390,7 @@
       "potential 2 is below 4"
      ]
     },
+    "profit": null,
     "votes": [
      {
       "who": "scout",
@@ -406,6 +463,7 @@
       "potential 3 is below 4"
      ]
     },
+    "profit": null,
     "votes": [
      {
       "who": "scout",
@@ -478,6 +536,7 @@
       "potential 2 is below 4"
      ]
     },
+    "profit": null,
     "votes": [
      {
       "who": "scout",
@@ -555,6 +614,7 @@
       "risk 4 is above 3"
      ]
     },
+    "profit": null,
     "votes": [
      {
       "who": "scout",
@@ -612,13 +672,8 @@
   "checkedInAt": "2026-11-08T09:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "building",
-  "building": [
-   {
-    "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
-    "stage": "specced"
-   }
-  ],
+  "status": "looking for ideas",
+  "building": [],
   "waiting": [],
   "scout": {
    "lastRunAt": "2026-11-08T10:09:00.415Z",
@@ -633,7 +688,7 @@
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-08T16:09:00.415Z"
+   "nextRunAfter": "2026-11-08T12:09:00.415Z"
   }
  },
  "scorecard": {
