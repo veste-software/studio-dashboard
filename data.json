@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T20:30:53.533Z",
+ "generatedAt": "2026-11-08T20:53:19.928Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -9,10 +9,10 @@
   "total": 7,
   "live": 0,
   "staging": 0,
-  "building": 0,
+  "building": 1,
   "queued": 0,
   "parked": 1,
-  "declined": 6,
+  "declined": 5,
   "nonDigital": 0,
   "worthDomain": 0
  },
@@ -23,12 +23,12 @@
    "pitch": "For students and researchers in Germany, Austria and Switzerland whose university is ending its Citavi licence. Upload a Word file and the browser turns its Citavi citations into live Zotero citations, entirely on the user's device. Nobody has to re-insert hundreds of citations by hand, and it still works after the licence has expired.",
    "platform": "web",
    "marketLabel": "Germany and Europe",
-   "status": "declined",
-   "statusLabel": "Decided against",
+   "status": "building",
+   "statusLabel": "Being built",
    "prototype": false,
    "decision": {
     "by": "review panel",
-    "reason": "declined by the review: overall index 2.65 is below 3.6"
+    "reason": "The review panel declined it on the overall index alone (declined by the review: overall index 2.65 is below 3.6. weakest: potential 2. skeptic: The conversion has not been tested on real Citavi files or in real Zotero. The spec relies on synthetic fixtures derived from reading code;… / Zotero may prompt for missing items or create duplicates when embedded-only citations are not in the user's library, and no ZOTERO_PREF is …; analyst: The new domain will barely be indexed by the November and December 2026 deadlines, so much of the peak demand passes …). Built as a one-day prototype anyway, because the studio had nothing else to build; the prototype is how you judge it. Launching it still needs your approval."
    },
    "trigger": "German universities ending their Citavi campus licences after price rises, announced from late 2025: FH Dortmund 2026-08-31, Göttingen 2026-11-30, TU Freiberg 2026-12-01, Münster and HCU Hamburg 2026…",
    "window": "Most deadlines fall between 30 November and 31 December 2026. After that, students are left with theses whose Citavi fields can no longer be refreshed. Demand should run through 2027 as theses starte…",
@@ -158,7 +158,7 @@
     "live": null
    },
    "createdAt": "2026-11-08T10:23:29.294Z",
-   "updatedAt": "2026-11-08T10:38:25.763Z",
+   "updatedAt": "2026-11-08T20:53:18.126Z",
    "outcome": null
   },
   {
@@ -672,8 +672,13 @@
   "checkedInAt": "2026-11-08T18:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "looking for ideas",
-  "building": [],
+  "status": "building",
+  "building": [
+   {
+    "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
+    "stage": "planned"
+   }
+  ],
   "waiting": [],
   "scout": {
    "lastRunAt": "2026-11-08T20:16:20.541Z",
