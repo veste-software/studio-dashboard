@@ -1,15 +1,15 @@
 {
- "generatedAt": "2026-11-08T09:03:57.062Z",
+ "generatedAt": "2026-11-08T10:33:58.056Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 6,
+  "total": 7,
   "live": 0,
   "staging": 0,
-  "building": 0,
+  "building": 1,
   "queued": 0,
   "parked": 1,
   "declined": 5,
@@ -17,6 +17,96 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "zitatumzug-citavi-nachweise-in-word-zu-zotero-um",
+   "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
+   "pitch": "For students and researchers in Germany, Austria and Switzerland whose university is ending its Citavi licence. Upload a Word file and the browser turns its Citavi citations into live Zotero citations, entirely on the user's device. Nobody has to re-insert hundreds of citations by hand, and it still works after the licence has expired.",
+   "platform": "web",
+   "marketLabel": "Germany and Europe",
+   "status": "building",
+   "statusLabel": "Being built",
+   "prototype": false,
+   "decision": {
+    "by": "product lead",
+    "reason": "Spec written; waiting for the review."
+   },
+   "trigger": "German universities ending their Citavi campus licences after price rises, announced from late 2025: FH Dortmund 2026-08-31, Göttingen 2026-11-30, TU Freiberg 2026-12-01, Münster and HCU Hamburg 2026…",
+   "window": "Most deadlines fall between 30 November and 31 December 2026. After that, students are left with theses whose Citavi fields can no longer be refreshed. Demand should run through 2027 as theses starte…",
+   "score": 3.6,
+   "index": {
+    "composite": 2.85,
+    "used": {
+     "risk": 2.5,
+     "success": 3,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4.5
+    },
+    "agreement": "medium",
+    "disputed": [],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.85 is below 3.6"
+    ],
+    "yearlyCostEur": 23,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.85 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "At least five universities set Citavi licence end dates between August and December 2026 (sources dated 2025-11 to 2026-10). Library guides, a 2026-08-16 article and a 2026-09 workaround repo all say Word citations cannot be converted. The format is readable: CiteMigrate's code shows each citation is a CitaviPlaceholder# content control holding base64 JSON with title, authors, year, DOI and ISBN, so a static browser tool can rewrite it into Zotero field codes. The audience is bounded to Citavi …",
+      "summary": "",
+      "concerns": [
+       "Many students will re-cite by hand or buy a private Citavi licence instead of paying for a tool.",
+       "Zotero could add a native Citavi citation importer, as it did for Mendeley.",
+       "The Citavi payload is undocumented and may differ between Citavi 5, 6 and 7, and footnote styles are harder to convert.",
+       "Linking citations to the user's Zotero library needs matching by DOI, ISBN or title, or Zotero's embedded-item fallback. Both need testing in real Word plus Zo…"
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 3,
+      "success": 3,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "I confirmed the licence deadlines myself: Göttingen 30.11.2026 and Münster 31.12.2026 (reminder 26.10.2026). Göttingen, ThesisDraft (Aug 2026) and the Zotero forum all say Citavi Word citations must be re-inserted by hand; my searches today found no new tool. CiteMigrate's source and biblatex-csl-converter's Citavi parser both show the full reference sits base64-encoded in each Word field, so conversion works without Citavi, while the only competitor is a 1-star macOS-tested Python app that dro…",
+      "summary": "A wave of Citavi campus licences ending (Göttingen 30.11.2026, Münster 31.12.2026 with a reminder on 26.10.2026) leaves students with Word files that every library guide says cannot be converted; the reference data is embedded in the .docx, so a no-install browser converter is feasible and nobody o…",
+      "concerns": [
+       "No real Citavi .docx tested yet: the page-number shape, $id/$ref references and Citavi Web/Assistant variants are unverified, the same fixture risk that stalle…",
+       "Demand peaks briefly around the Nov-Dec 2026 deadlines; a late launch misses most of it",
+       "Zotero could add native Citavi citation conversion as it did for Mendeley, and a copycat converter is easy to build",
+       "Students are price-sensitive, and the client-side paywall can be bypassed"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/zitatumzug-citavi-nachweise-in-word-zu-zotero-um",
+    "preview": "https://veste-software.github.io/zitatumzug-citavi-nachweise-in-word-zu-zotero-um/",
+    "live": null
+   },
+   "createdAt": "2026-11-08T10:23:29.294Z",
+   "updatedAt": "2026-11-08T10:33:58.037Z",
+   "outcome": null
+  },
   {
    "id": "reparaturpflicht-check",
    "title": "Reparaturpflicht-Check",
@@ -522,23 +612,28 @@
   "checkedInAt": "2026-11-08T09:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "looking for ideas",
-  "building": [],
+  "status": "building",
+  "building": [
+   {
+    "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
+    "stage": "specced"
+   }
+  ],
   "waiting": [],
   "scout": {
-   "lastRunAt": "2026-11-08T08:06:31.450Z",
-   "lastFound": 0,
+   "lastRunAt": "2026-11-08T10:09:00.415Z",
+   "lastFound": 1,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 26,
-   "radius": 4,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 0,
+   "radius": 0,
    "radiusLevels": 4,
-   "runsLastDay": 12,
-   "foundLastDay": 0,
+   "runsLastDay": 13,
+   "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-08T10:06:31.450Z"
+   "nextRunAfter": "2026-11-08T16:09:00.415Z"
   }
  },
  "scorecard": {
