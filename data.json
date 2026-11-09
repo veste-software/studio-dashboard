@@ -1,22 +1,109 @@
 {
- "generatedAt": "2026-11-09T12:01:40.978Z",
+ "generatedAt": "2026-11-09T12:56:00.920Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 18,
+  "total": 19,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 16,
+  "declined": 17,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "compteur-34-jours-telework-day-log-for-cross-bor",
+   "title": "Compteur 34 jours: telework-day log for cross-border workers into Luxembourg",
+   "pitch": "For people living in France, Belgium or Germany who work in Luxembourg: tap each day as office, home or trip in a no-signup browser app. It counts the days outside Luxembourg (a partial day counts as a whole day) against the 34-day tax tolerance and the separate 25% / 49.9% social-security share, w…",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 2.7 is below the minimum 3.5"
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 250,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 250,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: search volumes were not verified. Assumed about 10k visits in year 1 after a 6-month ramp on French and German threshold queries; 1% buy the 4 EUR evidence pack = about 100 x 4 = 400 EUR, minus about 10% payment fees and a 15 EUR domain, so about 340 EUR, rounded down to 250. Cross-check: about 230k Luxembourg cross-border workers; if 0.1 to 0.2% pay 4 EUR at maturity that is 900 to 1,…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "No personal tool was found in five searches (FR, DE, EN, App Store site search), and the rule has a harsh consequence: exceeding it makes all home-country days taxable. But the counting is simple, employers often track it already, and no dated request for such a tool was found.",
+      "summary": "",
+      "concerns": [
+       "People may be happy with a calendar or spreadsheet, so they won't pay",
+       "Sources conflict on the thresholds (one claims 96 days), so the tool must be clearly framed as a log, not tax advice",
+       "Same shape as the refused Bürotage-Zähler (scored 2.8)",
+       "Generic residency day-counter apps may partially serve it (not verified)"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T12:56:00.883Z",
+   "updatedAt": "2026-11-09T12:56:00.883Z",
+   "outcome": null
+  },
   {
    "id": "buerotage-zaehler-homeoffice-und-pendeltage-fuer",
    "title": "Bürotage-Zähler: Homeoffice- und Pendeltage für die Steuererklärung aus der Google-Maps-Zeitachse",
@@ -1703,19 +1790,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T10:34:24.704Z",
+   "lastRunAt": "2026-11-09T12:36:43.980Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 39,
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 40,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 26,
+   "runsLastDay": 29,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-09T12:34:24.704Z"
+   "nextRunAfter": "2026-11-09T14:36:43.980Z"
   }
  },
  "scorecard": {
