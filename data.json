@@ -1,22 +1,228 @@
 {
- "generatedAt": "2026-11-09T06:01:39.424Z",
+ "generatedAt": "2026-11-09T06:56:36.203Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 13,
+  "total": 15,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 11,
+  "declined": 13,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "sepa-formatwechsel-alte-sepa-xml-dateien-im-brow",
+   "title": "SEPA-Formatwechsel: alte SEPA-XML-Dateien im Browser auf pain.001.001.09 / pain.008.001.08 umstellen",
+   "pitch": "For German clubs (Vereine), treasurers and small businesses whose old software or Excel macro still writes old SEPA XML (pain.008.003.02 / .001.02, pain.001.003.03 / .001.03), which banks stop processing in November 2026. Drop the old file in the browser, the conversion runs locally (no upload of IBANs), and you download a valid 3.7 file after checking that the number of entries and the total mat…",
+   "platform": "web",
+   "marketLabel": "Germany and Europe",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "decision": {
+    "by": "product lead",
+    "reason": "rejected by the product lead: The deadline that creates the demand was suspended: ebics.de (SEPA LifeCycle, Stand September 2026; confirmed by DKB and GLS) says the old SEPA formats stay temporarily usable after November 2026 with no new end date, and the remaining standing need is covered for free by importing into bank-provided software (Profi cash, VR-NetWorld) or the JAM SEPA-Transfer trial."
+   },
+   "trigger": "German banks stop processing old SEPA XML versions with DFÜ-Abkommen Anlage 3 version 26.11 (valid from 2026-11-15, per JAM Software and a WordPress plugin); Commerzbank expects to accept only 3.7+ f…",
+   "window": "The pain starts at the mid-November 2026 cut-over and peaks December to March, when clubs run their annual direct-debit collections with whatever software they have. It fades through 2027 as vendors …",
+   "score": 3.3,
+   "index": {
+    "composite": 1.85,
+    "used": {
+     "risk": 4,
+     "success": 1.5,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "low",
+    "disputed": [
+     "risk"
+    ],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.85 is below 3.6",
+     "risk 4 is above 3.5"
+    ],
+    "yearlyCostEur": 16,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.85 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 20,
+     "upsideEur": 700,
+     "crossVerified": true,
+     "disputed": true,
+     "agreement": "low",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 2500,
+       "basis": "Bottom-up, all inputs assumed because I saw no search volumes: about 15,000 clubs and small firms still writing old files at the cut-over (5% of roughly 300,000 SEPA-collecting organisations, an assumption). A new domain reaches perhaps 2% of them during the December–March peak, so about 300 people arrive with a file. 25% pay 9 EUR, giving about 75 x 9 = 675 EUR. Minus about 10% payment fees and …"
+      },
+      {
+       "who": "product",
+       "expectedEur": 20,
+       "upsideEur": 700,
+       "basis": "Bottom-up: I found no search-volume data, and with the deadline suspended I assume a ramp to about 100 visits per month from month 4 (about 800 visits in year 1). At 1.5% buying the 9 EUR unlock that is about 12 sales, or 108 EUR, minus about 4 EUR Stripe fees and 12 EUR for the domain, giving about 90 EUR. The 1.5% is generous because a free route through bank-provided software exists and I foun…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The trigger is real and dated (bank notices and the format-rules version 26.11 from 2026-11-15), and developers are migrating right now (GitHub issues dated October 2026). I found no free converter that runs in the browser, only paid desktop tools and partial helpers. End-user demand for a converter is inferred from the cut-over, not from posts dated in the last 90 days. The window is short, and maintained software updates itself.",
+      "summary": "",
+      "concerns": [
+       "JAM SEPA-Transfer's 30-day free trial already gives one-off users a free path",
+       "The cut-over was postponed once, and banks may keep accepting old files under individual agreements, softening the peak",
+       "Most maintained club and accounting software ships SEPA 3.7 updates, so the stranded group may be small",
+       "A conversion error on a payment file carries liability: the tool must show entry counts and totals before and after and require the user to confirm"
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The official ebics.de SEPA LifeCycle page (Stand September 2026) says the planned November 2026 switch-off of old formats for SEPA payments, foreign transfers and urgent euro transfers is suspended with no new end date. DKB and GLS repeat this, and only older or hedged bank pages still give 14/15 November. What is left is a standing need for version 2.x files that some banks already reject, and it is solved for free by importing the file into the bank's own payment software, which writes a curr…",
+      "summary": "The deadline that creates the demand was suspended: ebics.de (SEPA LifeCycle, Stand September 2026; confirmed by DKB and GLS) says the old SEPA formats stay temporarily usable after November 2026 with no new end date, and the remaining standing need is covered for free by importing into bank-provid…",
+      "concerns": [
+       "The trigger was suspended in September 2026, so the expected December-to-March peak will probably not happen",
+       "Free workarounds exist: bank-provided software (Profi cash, VR-NetWorld) re-emits current formats and JAM SEPA-Transfer has a 30-day free trial",
+       "One-off, low-price job with no recurring need",
+       "Liability and bank-specific rules (character set, address fields) for payment files that change every November"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [
+    "timing",
+    "trust-privacy",
+    "single-job",
+    "instant-value"
+   ],
+   "factorFit": 0.88,
+   "links": {
+    "repo": "https://github.com/veste-software/sepa-formatwechsel-alte-sepa-xml-dateien-im-brow",
+    "preview": "https://veste-software.github.io/sepa-formatwechsel-alte-sepa-xml-dateien-im-brow/",
+    "live": null
+   },
+   "createdAt": "2026-11-09T06:52:35.924Z",
+   "updatedAt": "2026-11-09T06:56:36.167Z",
+   "outcome": null
+  },
+  {
+   "id": "onenote-unpacker-open-one-and-onepkg-backups-in",
+   "title": "OneNote Unpacker: open .one and .onepkg backups in the browser",
+   "pitch": "For people leaving OneNote or working on a Mac, Linux or Chromebook: drop a OneNote section (.one) or notebook backup (.onepkg) into the page and get readable notes back as HTML, Markdown or PDF. The conversion runs in the browser and nothing is uploaded.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 2.65 is below the minimum 3.5"
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 150,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 150,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: I assume (unverified) 2,000 to 4,000 searches a month across the 'onepkg mac / onenote to markdown / .one to pdf' cluster. Content farms (WPS has at least six pages on .onepkg on Mac) suggest some volume. After a 3 to 6 month ramp, about 100 visits a month on average in year one gives about 1,200 visits. 2% buying a 9 EUR bulk export is about 24 sales, roughly 215 EUR, minus about 25 E…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Repeated dated posts show people converting OneNote files now and failing, and Microsoft confirms Mac OneNote cannot open .onepkg. The only free cross-platform route (Joplin) is partial, but it is close enough that the edge is convenience, not capability. Revenue is a small one-time unlock.",
+      "summary": "",
+      "concerns": [
+       "Uses the same kind of parser as Joplin, so files that fail there may fail here too",
+       "One-time job with no reason to return, so revenue depends on a small paid unlock",
+       "Search results for these queries are crowded with content farms and paid-converter vendor blogs"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T06:52:35.899Z",
+   "updatedAt": "2026-11-09T06:52:35.899Z",
+   "outcome": null
+  },
   {
    "id": "satzungs-check-baumschutz-und-raeumpflicht-je-ge",
    "title": "Satzungs-Check: Baumschutz und Räumpflicht je Gemeinde",
@@ -1236,19 +1442,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T04:26:57.428Z",
+   "lastRunAt": "2026-11-09T06:31:42.666Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 36,
+   "nextMarket": "Global",
+   "emptyRuns": 37,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 20,
+   "runsLastDay": 23,
    "foundLastDay": 2,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-09T06:26:57.428Z"
+   "nextRunAfter": "2026-11-09T08:31:42.666Z"
   }
  },
  "scorecard": {
