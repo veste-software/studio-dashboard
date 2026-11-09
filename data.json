@@ -1,22 +1,315 @@
 {
- "generatedAt": "2026-11-09T00:40:28.615Z",
+ "generatedAt": "2026-11-09T02:46:51.681Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 8,
+  "total": 11,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 6,
+  "declined": 9,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "boxbuch-qr-vorratsliste-fuer-vakuumboxen-nach-de",
+   "title": "Boxbuch: QR-Vorratsliste für Vakuumboxen nach dem Aus der ZWILLING-App",
+   "pitch": "For owners of FRESH & SAVE vacuum boxes and bags who lose their inventory and shelf-life reminders when the ZWILLING app shuts down on 2026-12-31. It is an offline PWA with no account that scans the QR codes already on their lids and bags, stores the contents and the date sealed on the phone, and exports reminders as a calendar file.",
+   "platform": "pwa",
+   "marketLabel": "Germany and Europe",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "decision": {
+    "by": "product lead",
+    "reason": "rejected by the product lead: The trigger is real, but there is no visible live demand, a free and actively maintained vacuum-food inventory app (CASO Food Manager) already covers expiry tracking with QR scanning, and my careful estimate puts first-year profit at about 40 EUR."
+   },
+   "trigger": "ZWILLING retires its app on 2026-12-31. FRESH & SAVE inventory, reminders and QR/NFC scanning stop, and the company says no alternative exists. The Android listing carried the retirement notice by 20…",
+   "window": "About 7 weeks until the shutdown. Searches for a replacement should peak in December 2026 and January 2027 and then fade as owners give up on the codes. ZWILLING says it plans no replacement, so a fi…",
+   "score": 3.5,
+   "index": {
+    "composite": 1.5,
+    "used": {
+     "risk": 4,
+     "success": 2,
+     "monetization": 1,
+     "potential": 1,
+     "automation": 4.5
+    },
+    "agreement": "low",
+    "disputed": [
+     "risk"
+    ],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.5 is below 3.6",
+     "risk 4 is above 3.5"
+    ],
+    "yearlyCostEur": 14,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.5 is below 4",
+      "potential 1 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 70,
+     "upsideEur": 800,
+     "crossVerified": true,
+     "disputed": false,
+     "agreement": "high",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 100,
+       "upsideEur": 1100,
+       "basis": "Bottom-up: AppGoblin estimates about 32K iOS and 4.6K Android monthly users (unverified). Assume 5% look for a replacement around the shutdown (about 1,800), a new page captures 25% (about 450 users), and 6% buy a 3.99 EUR unlock (about 27 × 3.6 EUR net, about 100 EUR). Add an assumed ~15 Amazon affiliate sales at ~40 EUR and ~3% (about 18 EUR), minus 15 EUR for the domain: about 100 EUR. Cross-c…"
+      },
+      {
+       "who": "product",
+       "expectedEur": 40,
+       "upsideEur": 500,
+       "basis": "Bottom-up: about 32K iOS MAU (AppGoblin estimate) plus an assumed 10K Android MAU gives about 42K for the whole app. Assume 40% use the box inventory and a 20-25% German-speaking share: about 3.5-4K users. Assume 15-30% search for a replacement: about 600-1,200 visitors in 12 months. At 3% buying a 3.99 EUR unlock: 18-36 sales, 70-145 EUR gross. After Stripe fees, a negligible affiliate share and…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 1,
+      "potential": 1,
+      "automation": 5,
+      "rationale": "The trigger is official and dated, the stranded installed base is real and measurable, and the vendor says no replacement exists, so the gap is genuine. But no owner complaints turned up, the vendor says engagement was low, and the audience is a one-off group that shrinks after the shutdown, so demand and potential are low.",
+      "summary": "",
+      "concerns": [
+       "Owners may simply stop tracking rather than adopt a new tool, which is the vendor's own reading of usage.",
+       "If the lid and bag QR codes are not unique per item, the core edge collapses into a generic QR-label inventory app.",
+       "The window is short and traffic depends on trademark-adjacent queries."
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 2,
+      "monetization": 1,
+      "potential": 1,
+      "automation": 4,
+      "rationale": "I confirmed ZWILLING's shutdown FAQ (German and US): the app ends on 2026-12-31, there is no export and no alternative. The manual confirms each box and bag carries a unique ID, so the technical premise holds. Many German and English searches turned up no user posts or complaints at all. A free, actively updated app (CASO Food Manager) plus several free freezer and pantry apps already cover inventory and expiry reminders, so reading the existing lid codes is the only remaining angle.",
+      "summary": "The trigger is real, but there is no visible live demand, a free and actively maintained vacuum-food inventory app (CASO Food Manager) already covers expiry tracking with QR scanning, and my careful estimate puts first-year profit at about 40 EUR.",
+      "concerns": [
+       "No live demand found: no forum, Reddit or review posts about the shutdown, only ZWILLING's own FAQ pages",
+       "A free alternative with reminders and QR scanning exists (CASO Food Manager), plus FridgeBuddy, My Freezer Inventory, MyFreezers, Lomi Labels and Stökk",
+       "Small, closed and shrinking audience; interest fades after January 2027",
+       "A 3.99 EUR one-time unlock to a few hundred users cannot cover the cost of building it"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [
+    "timing",
+    "single-job",
+    "no-signup",
+    "trust-privacy"
+   ],
+   "factorFit": 0.92,
+   "links": {
+    "repo": "https://github.com/veste-software/boxbuch-qr-vorratsliste-fuer-vakuumboxen-nach-de",
+    "preview": "https://veste-software.github.io/boxbuch-qr-vorratsliste-fuer-vakuumboxen-nach-de/",
+    "live": null
+   },
+   "createdAt": "2026-11-09T02:39:38.274Z",
+   "updatedAt": "2026-11-09T02:46:51.645Z",
+   "outcome": null
+  },
+  {
+   "id": "shelf-recap-a-reading-year-in-review-from-your-l",
+   "title": "Shelf Recap: a reading year-in-review from your library app's timeline export",
+   "pitch": "For readers who borrow e-books and audiobooks through the Libby library app. Export your timeline (spreadsheet or JSON link) and get a local, no-account recap: titles borrowed, ebook vs audiobook, top authors, days spent waiting on holds, libraries used and an estimated retail value saved, plus a s…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 2.65 is below the minimum 3.5"
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 1,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 450,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 0,
+       "upsideEur": 450,
+       "basis": "Bottom-up: in the base case a few shares bring about 2,000 visits, mostly in December and January (assumption). Ads at about 3 EUR per 1,000 give about 6 EUR. Bookshop.org affiliate at 1% click times 5% purchase times about 2.50 EUR commission per order (10% rate assumed, not verified this run) gives about 2.50 EUR. Tips about 10 EUR. Against about 15 EUR in costs, that nets about 0. Cross-check:…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 1,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The gap is real: the export has existed since 2020 with no recap, and I found no hosted tool and no GitHub project. Building it is a client-side parse plus charts. But I could not show a recent user request, money is weak, and OverDrive could add the feature itself.",
+      "summary": "",
+      "concerns": [
+       "OverDrive ships its own recap (it already runs year-end feature posts)",
+       "No proven search demand; traffic depends on December shares",
+       "The export format or fields may change",
+       "Readers who borrow rarely click to buy"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T02:43:23.356Z",
+   "updatedAt": "2026-11-09T02:43:23.356Z",
+   "outcome": null
+  },
+  {
+   "id": "lbrn2-opener-view-lightburn-laser-project-files",
+   "title": "LBRN2 Opener: view LightBurn laser project files in the browser and export SVG/DXF",
+   "pitch": "For laser hobbyists on Glowforge, xTool, Cricut or GRBL tools who got a file in LightBurn's .lbrn2 format (bought on Etsy, shared by a friend, made in an expired trial). Drop the file in and see it rendered with its layers, then download SVG or DXF with one colour per cut layer. Nothing is uploaded…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 2.45 is below the minimum 3.5"
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 1.9,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 1,
+     "potential": 1,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.9 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.9 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 250,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 0,
+       "upsideEur": 250,
+       "basis": "Bottom-up: I assume about 300 combined monthly searches worldwide for the target queries (not verified). After a 4-month ramp, a top-3 rank with about 30% CTR gives about 90 visits a month, so about 700 visits in year one. Ads at about 3 EUR per 1,000 views give about 2 EUR. Affiliate: 2% click-out times 2% conversion times about 30 EUR commission gives about 8 EUR. Tips about 10 EUR. Against abo…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 1,
+      "potential": 1,
+      "automation": 5,
+      "rationale": "The gap is real: the vendor's own staff said no online viewer exists, and none showed up in today's searches. The library code proves the format can be parsed. But the newest end-user requests are older than 90 days, the audience is laser owners without LightBurn, and nothing in the evidence suggests they would pay.",
+      "summary": "",
+      "concerns": [
+       "Search volume may be close to zero; requests are sporadic",
+       "Open-source desktop laser tools are adding LBRN2 import",
+       "LightBurn could change the file format in a new version",
+       "Revenue depends on ads and affiliate links with very little traffic"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T02:43:23.350Z",
+   "updatedAt": "2026-11-09T02:43:23.350Z",
+   "outcome": null
+  },
   {
    "id": "qsf-exit-convert-a-qualtrics-survey-file-to-lime",
    "title": "QSF Exit: convert a Qualtrics survey file to LimeSurvey, REDCap, XLSForm or SurveyJS",
@@ -769,19 +1062,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T00:24:05.859Z",
+   "lastRunAt": "2026-11-09T02:25:32.650Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 34,
+   "nextMarket": "Global",
+   "emptyRuns": 35,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 17,
-   "foundLastDay": 1,
+   "runsLastDay": 20,
+   "foundLastDay": 2,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-09T02:24:05.859Z"
+   "nextRunAfter": "2026-11-09T04:25:32.650Z"
   }
  },
  "scorecard": {
