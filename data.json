@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T21:06:28.852Z",
+ "generatedAt": "2026-11-09T21:11:55.804Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -25,9 +25,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 2.75 is below the minimum 3.5"
+    "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1.",
+    "at": "2026-11-09T21:06:28.760Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.75.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 1, buildability 4, monetization 3.",
+     "The Scout's own main worry: Thin demand: only one request dated inside 90 days, and no measured search volume.",
+     "Expected profit in the first 12 months: 400 EUR (best case 2,500 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -112,9 +120,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 3.1 is below the minimum 3.5"
+    "reason": "Scout rating 3.1 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2.",
+    "at": "2026-11-09T19:08:41.723Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.1.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 2, buildability 4, monetization 4.",
+     "The Scout's own main worry: No German-specific request dated within 90 days; the audience size is unverified.",
+     "Expected profit in the first 12 months: 900 EUR (best case 7,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -199,9 +215,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 3.15 is below the minimum 3.5"
+    "reason": "Scout rating 3.15 of 5, under the 3.5 the studio builds from. Weak spots: monetization 2.",
+    "at": "2026-11-09T19:01:22.869Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.15.",
+     "Scout ratings out of 5: demand 3, competition gap 4, timeliness 3, buildability 3, monetization 2.",
+     "The Scout's own main worry: Weak proof of willingness to pay: the existing paid lookup has 2 users.",
+     "Expected profit in the first 12 months: 300 EUR (best case 6,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "Mandatory use of four EUDAMED modules (Actor, UDI/Device, Notified Bodies and Certificates, Market Surveillance) from 2026-05-28, triggered by Commission Decision (EU) 2025/2371 (OJ 2025-11-27). Seco…",
    "window": "",
@@ -286,9 +310,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 2.7 is below the minimum 3.5"
+    "reason": "Scout rating 2.7 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 2.",
+    "at": "2026-11-09T12:56:00.883Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.7.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 1, buildability 5, monetization 2.",
+     "The Scout's own main worry: People may be happy with a calendar or spreadsheet, so they won't pay.",
+     "Expected profit in the first 12 months: 250 EUR (best case 2,500 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -373,9 +405,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 2.8 is below the minimum 3.5"
+    "reason": "Scout rating 2.8 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 2.",
+    "at": "2026-11-09T10:51:37.141Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.8.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 2, buildability 4, monetization 2.",
+     "The Scout's own main worry: Many users have Timeline switched off or lost history when Google moved it to the phone.",
+     "Expected profit in the first 12 months: 150 EUR (best case 2,500 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -460,9 +500,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 2.2 is below the minimum 3.5"
+    "reason": "Scout rating 2.2 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 2.",
+    "at": "2026-11-09T10:51:37.132Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.2.",
+     "Scout ratings out of 5: demand 2, competition gap 3, timeliness 1, buildability 3, monetization 2.",
+     "The Scout's own main worry: Pages lacking CEWE backgrounds and clipart look worse unless the user points the tool at the CEWE resource folder.",
+     "Expected profit in the first 12 months: 150 EUR (best case 2,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -547,9 +595,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 3 is below the minimum 3.5"
+    "reason": "Scout rating 3 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 2.",
+    "at": "2026-11-09T08:48:47.591Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 3, buildability 4, monetization 2.",
+     "The Scout's own main worry: No dated user request found; demand is inferred from supplier and association documents.",
+     "Expected profit in the first 12 months: 300 EUR (best case 3,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "2026 energy price shock: Destatis reports light heating oil +91.8% and natural gas (distribution) +15.0% year on year in September 2026; district-heating and supply-contract price formulas tied to th…",
    "window": "",
@@ -635,9 +691,12 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "prototype": false,
+   "origin": "Niche scout",
    "decision": {
     "by": "product lead",
-    "reason": "rejected by the product lead: The deadline that creates the demand was suspended: ebics.de (SEPA LifeCycle, Stand September 2026; confirmed by DKB and GLS) says the old SEPA formats stay temporarily usable after November 2026 with no new end date, and the remaining standing need is covered for free by importing into bank-provided software (Profi cash, VR-NetWorld) or the JAM SEPA-Transfer trial."
+    "reason": "Rejected by the product lead: The deadline that creates the demand was suspended: ebics.de (SEPA LifeCycle, Stand September 2026; confirmed by DKB and GLS) says the old SEPA formats stay temporarily usable after November 2026 with no new end date, and the remaining standing need is covered for free by importing into bank-provided software (Profi cash, VR-NetWorld) or the JAM SEPA-Transfer trial.",
+    "at": "2026-11-09T06:56:30.036Z",
+    "detail": []
    },
    "trigger": "German banks stop processing old SEPA XML versions with DFÜ-Abkommen Anlage 3 version 26.11 (valid from 2026-11-15, per JAM Software and a WordPress plugin); Commerzbank expects to accept only 3.7+ f…",
    "window": "The pain starts at the mid-November 2026 cut-over and peaks December to March, when clubs run their annual direct-debit collections with whatever software they have. It fades through 2027 as vendors …",
@@ -754,9 +813,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 2.65 is below the minimum 3.5"
+    "reason": "Scout rating 2.65 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
+    "at": "2026-11-09T06:52:35.899Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.65.",
+     "Scout ratings out of 5: demand 3, competition gap 3, timeliness 2, buildability 3, monetization 2.",
+     "The Scout's own main worry: Uses the same kind of parser as Joplin, so files that fail there may fail here too.",
+     "Expected profit in the first 12 months: 150 EUR (best case 2,500 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -840,9 +907,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 2.7 is below the minimum 3.5"
+    "reason": "Scout rating 2.7 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 2.",
+    "at": "2026-11-09T04:43:42.337Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.7.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 2, buildability 3, monetization 2.",
+     "The Scout's own main worry: Extraction errors or outdated entries could lead a user to fell a protected tree and be fined (up to 50,000 EUR); needs dated sources and strong 'check with the authority' wording.",
+     "Expected profit in the first 12 months: 150 EUR (best case 1,300 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -927,9 +1002,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "flagged for trademark, IP or terms-of-service concerns"
+    "reason": "Flagged for trademark, IP or terms-of-service concerns",
+    "at": "2026-11-09T04:40:49.050Z",
+    "detail": [
+     "A trademark, IP or terms-of-service concern stops an idea outright, because a launched product could be taken down.",
+     "Scout ratings out of 5: demand 3, competition gap 4, timeliness 3, buildability 4, monetization 3.",
+     "The Scout's own main worry: The WTO HS Tracker or big HS lookup sites (Flexport, findhs.codes) add HS 2028 for free during 2027.",
+     "Expected profit in the first 12 months: 400 EUR (best case 3,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "WCO published the HS 2022-2028 correlation tables (April 2026) for the 8th HS revision, which enters into force on 2028-01-01 with 428 new and 172 deleted subheadings",
    "window": "",
@@ -1015,9 +1098,12 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "prototype": false,
+   "origin": "Niche scout",
    "decision": {
     "by": "product lead",
-    "reason": "rejected by the product lead: The trigger is real, but there is no visible live demand, a free and actively maintained vacuum-food inventory app (CASO Food Manager) already covers expiry tracking with QR scanning, and my careful estimate puts first-year profit at about 40 EUR."
+    "reason": "Rejected by the product lead: The trigger is real, but there is no visible live demand, a free and actively maintained vacuum-food inventory app (CASO Food Manager) already covers expiry tracking with QR scanning, and my careful estimate puts first-year profit at about 40 EUR.",
+    "at": "2026-11-09T02:46:44.714Z",
+    "detail": []
    },
    "trigger": "ZWILLING retires its app on 2026-12-31. FRESH & SAVE inventory, reminders and QR/NFC scanning stop, and the company says no alternative exists. The Android listing carried the retirement notice by 20…",
    "window": "About 7 weeks until the shutdown. Searches for a replacement should peak in December 2026 and January 2027 and then fade as owners give up on the codes. ZWILLING says it plans no replacement, so a fi…",
@@ -1133,9 +1219,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 2.65 is below the minimum 3.5"
+    "reason": "Scout rating 2.65 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 1.",
+    "at": "2026-11-09T02:43:23.356Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.65.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 2, buildability 4, monetization 1.",
+     "The Scout's own main worry: OverDrive ships its own recap (it already runs year-end feature posts).",
+     "Expected profit in the first 12 months: 0 EUR (best case 450 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -1220,9 +1314,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 2.45 is below the minimum 3.5"
+    "reason": "Scout rating 2.45 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 1.",
+    "at": "2026-11-09T02:43:23.350Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.45.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 1, buildability 4, monetization 1.",
+     "The Scout's own main worry: Search volume may be close to zero; requests are sporadic.",
+     "Expected profit in the first 12 months: 0 EUR (best case 250 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "standing need",
    "window": "",
@@ -1307,9 +1409,17 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 3 is below the minimum 3.5"
+    "reason": "Scout rating 3 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 2.",
+    "at": "2026-11-08T22:38:22.381Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 3, buildability 4, monetization 2.",
+     "The Scout's own main worry: Most universities that leave Qualtrics move to QuestionPro, which already imports QSF files.",
+     "Expected profit in the first 12 months: 100 EUR (best case 1,500 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
    },
    "trigger": "Universities cutting their Qualtrics licences in 2026: UWA restricted it to research from February 2026 and updated its migration guide on 2026-10-20, Twente leaves by October 2026, Georgia State's c…",
    "window": "",
@@ -1395,9 +1505,12 @@
    "status": "staging",
    "statusLabel": "Built, waiting for your launch",
    "prototype": false,
+   "origin": "Niche scout",
    "decision": {
     "by": "review panel",
-    "reason": "The review panel declined it on the overall index alone (declined by the review: overall index 2.65 is below 3.6. weakest: potential 2. skeptic: The conversion has not been tested on real Citavi files or in real Zotero. The spec relies on synthetic fixtures derived from reading code;… / Zotero may prompt for missing items or create duplicates when embedded-only citations are not in the user's library, and no ZOTERO_PREF is …; analyst: The new domain will barely be indexed by the November and December 2026 deadlines, so much of the peak demand passes …). Built as a one-day prototype anyway, because the studio had nothing else to build; the prototype is how you judge it. Launching it still needs your approval."
+    "reason": "The review panel declined it on the overall index alone (declined by the review: overall index 2.65 is below 3.6. weakest: potential 2. skeptic: The conversion has not been tested on real Citavi files or in real Zotero. The spec relies on synthetic fixtures derived from reading code;… / Zotero may prompt for missing items or create duplicates when embedded-only citations are not in the user's library, and no ZOTERO_PREF is …; analyst: The new domain will barely be indexed by the November and December 2026 deadlines, so much of the peak demand passes …). Built as a one-day prototype anyway, because the studio had nothing else to build; the prototype is how you judge it. Launching it still needs your approval.",
+    "at": "2026-11-08T10:38:25.759Z",
+    "detail": []
    },
    "trigger": "German universities ending their Citavi campus licences after price rises, announced from late 2025: FH Dortmund 2026-08-31, Göttingen 2026-11-30, TU Freiberg 2026-12-01, Münster and HCU Hamburg 2026…",
    "window": "Most deadlines fall between 30 November and 31 December 2026. After that, students are left with theses whose Citavi fields can no longer be refreshed. Demand should run through 2027 as theses starte…",
@@ -1539,9 +1652,12 @@
    "status": "parked",
    "statusLabel": "Paused",
    "prototype": false,
+   "origin": "Niche scout",
    "decision": {
     "by": "orchestrator",
-    "reason": "QA still failing after 3 rounds: Real EPREL fixture src/fixtures/eprel-1417304.json is missing. SPEC 6.4 (proxy whitelist test on the real record), 6.6 (rendered Bosch/WAJ240L2SN/27.12.2034/München result), 6.7 (/qr/1417304 prerendered with noindex) and 6.11 (real EPREL examples on group pages) are unmet. dist/qr contains only ind…"
+    "reason": "QA still failing after 3 rounds: Real EPREL fixture src/fixtures/eprel-1417304.json is missing. SPEC 6.4 (proxy whitelist test on the real record), 6.6 (rendered Bosch/WAJ240L2SN/27.12.2034/München result), 6.7 (/qr/1417304 prerendered with noindex) and 6.11 (real EPREL examples on group pages) are unmet. dist/qr contains only ind…",
+    "at": "2026-11-07T08:11:17.488Z",
+    "detail": []
    },
    "trigger": "The German law implementing the EU right-to-repair directive applies: manufacturers must repair covered products for as long as spare parts must be kept (7 or 10 years), counted from when the last un…",
    "window": "Six to twelve months. The law is three months old and the only open question for consumers (when did my model leave the market?) has no tool yet. Consumer bodies, price portals, spare-parts shops or …",
@@ -1630,9 +1746,12 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "prototype": false,
+   "origin": "Niche scout",
    "decision": {
     "by": "product lead",
-    "reason": "rejected by the product lead: The core job (who applied for which string, and contention) is already served free by ICANN's APS, gtlds.fyi (launched on Reveal Day with per-name pages and an active developer) and ICANNWiki/registrar lists, leaving only feature twists (change log, look-alike search) with no revenue path before strings launch in 2027-28."
+    "reason": "Rejected by the product lead: The core job (who applied for which string, and contention) is already served free by ICANN's APS, gtlds.fyi (launched on Reveal Day with per-name pages and an active developer) and ICANNWiki/registrar lists, leaving only feature twists (change log, look-alike search) with no revenue path before strings launch in 2027-28.",
+    "at": "2026-11-07T03:36:46.559Z",
+    "detail": []
    },
    "trigger": "ICANN Reveal Day: first publication of all 1,615 applications (481 applicants, 263 contention sets) in the first new-gTLD round since 2012. String Confirmation Day on 2026-11-17 opens the comment and…",
    "window": "The final strings and updated contention sets come out on 2026-11-17. Singular/plural notifications are due about 2026-12-17 and objections by 2027-03-16. Brand owners must check for look-alike strin…",
@@ -1725,9 +1844,16 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 3.25 is below the minimum 3.5"
+    "reason": "Scout rating 3.25 of 5, under the 3.5 the studio builds from. Weak spots: monetization 2.",
+    "at": "2026-11-07T01:28:47.540Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.25.",
+     "Scout ratings out of 5: demand 3, competition gap 4, timeliness 3, buildability 4, monetization 2.",
+     "The Scout's own main worry: Current-year accuracy: the nationwide data lags a year, and many municipalities change rates every year. For example, Lüdenscheid went from 883/1,766 % in 2025 to 1,190 % in 2026, so pages can show a…."
+    ]
    },
    "trigger": "Destatis published the Realsteuervergleich 2025 (GENESIS table 71231), the first full year of municipal Hebesätze under the reformed Grundsteuer. Destatis no longer computes a national Grundsteuer B …",
    "window": "",
@@ -1798,9 +1924,16 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 3.4 is below the minimum 3.5"
+    "reason": "Scout rating 3.4 of 5, under the 3.5 the studio builds from.",
+    "at": "2026-11-06T04:35:15.572Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.4.",
+     "Scout ratings out of 5: demand 3, competition gap 4, timeliness 3, buildability 4, monetization 3.",
+     "The Scout's own main worry: BT-501 values in real notices may be placeholders, other IDs or top-level 'master' IDs rather than the department ID the invoice needs. Unverified: I could not read a sample notice."
+    ]
    },
    "trigger": "The e-invoice transition period ends on 2027-01-01 for businesses with prior-year turnover above EUR 800,000 (all others follow in 2028). From the same date the City of Munich only accepts invoices a…",
    "window": "",
@@ -1871,9 +2004,16 @@
    "marketLabel": "",
    "status": "declined",
    "statusLabel": "Decided against",
+   "origin": "Niche scout",
    "decision": {
     "by": "scout gates",
-    "reason": "score 3.4 is below the minimum 3.5"
+    "reason": "Scout rating 3.4 of 5, under the 3.5 the studio builds from.",
+    "at": "2026-11-06T02:25:07.109Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.4.",
+     "Scout ratings out of 5: demand 3, competition gap 4, timeliness 3, buildability 4, monetization 3.",
+     "The Scout's own main worry: Google may change the Takeout format or bring back per-metric CSV export."
+    ]
    },
    "trigger": "Google turned off the legacy Fitbit Web API on 2026-10-30. Third-party apps that did not move to the Google Health API stop syncing. In October 2026 Google also forced the last old-Fitbit-app users o…",
    "window": "",
@@ -1945,9 +2085,12 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "prototype": false,
+   "origin": "Niche scout",
    "decision": {
     "by": "product lead",
-    "reason": "rejected by the product lead: Etsy's listings CSV cannot reveal whether a listing meets the October 2026 AI rules (unedited real photo, own instructions, disclosure), so the product reduces to keyword triage plus a manual checklist; that is a twist on free checklists and existing shop scanners, while Etsy is extending its own free AI-image warnings to existing listings."
+    "reason": "Rejected by the product lead: Etsy's listings CSV cannot reveal whether a listing meets the October 2026 AI rules (unedited real photo, own instructions, disclosure), so the product reduces to keyword triage plus a manual checklist; that is a twist on free checklists and existing shop scanners, while Etsy is extending its own free AI-image warnings to existing listings.",
+    "at": "2026-11-05T19:37:07.638Z",
+    "detail": []
    },
    "trigger": "Etsy announced stricter AI rules: at least one unedited photo of the real item for most listings, AI-generated patterns, recipes and instructions banned, bot-generated listings banned, and existing l…",
    "window": "About 1 to 3 months. Etsy says removals will expand over the coming months and that it plans to extend its AI-image warnings to existing listings; per-listing compliance scanners (iscompliant.app, In…",
