@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T08:49:17.969Z",
+ "generatedAt": "2026-11-09T09:04:20.927Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -1516,7 +1516,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-09T06:00:00.000Z",
+  "checkedInAt": "2026-11-09T09:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -1537,7 +1537,7 @@
    "emptyRuns": 38,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 26,
+   "runsLastDay": 24,
    "foundLastDay": 2,
    "notedLastDay": 0,
    "benched": 0,
