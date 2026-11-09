@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T22:38:59.611Z",
+ "generatedAt": "2026-11-09T00:04:03.242Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -756,7 +756,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-08T21:00:00.000Z",
+  "checkedInAt": "2026-11-09T00:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -777,7 +777,7 @@
    "emptyRuns": 33,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 15,
+   "runsLastDay": 14,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
@@ -785,32 +785,32 @@
   }
  },
  "scorecard": {
-  "week": "2026-W45",
+  "week": "2026-W46",
   "windowDays": 7,
   "indicators": [
    {
     "label": "Ideas that reach staging, per idea the Scout proposed",
-    "value": 0,
+    "value": 0.13,
     "unit": "ratio",
-    "n": 1,
+    "n": 8,
     "enough": false,
     "minCases": 10,
     "note": "The whole funnel in one number. It moves with the Scout's luck from week to week."
    },
    {
     "label": "Cost of a product that reached staging",
-    "value": null,
+    "value": 7.85,
     "unit": "notional USD",
-    "n": 0,
+    "n": 1,
     "enough": false,
     "minCases": 3,
     "note": "The CLI's own price estimate. On a plan nothing is billed; the real cost is the share of the weekly allowance."
    },
    {
     "label": "Hours from spec to staging (median)",
-    "value": null,
+    "value": 11.3,
     "unit": "hours",
-    "n": 0,
+    "n": 1,
     "enough": false,
     "minCases": 3,
     "note": "Includes waiting for plan limits to reset, so it also measures them."
@@ -826,10 +826,10 @@
    },
    {
     "label": "Open tasks for the owner, per product in progress",
-    "value": null,
+    "value": 50.5,
     "unit": "tasks",
-    "n": 0,
-    "enough": false,
+    "n": 2,
+    "enough": true,
     "minCases": 1,
     "note": "Near-autonomy means this stays low. The hours the staging builds have waited are in \"waiting\"."
    }
