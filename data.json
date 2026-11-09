@@ -1,22 +1,109 @@
 {
- "generatedAt": "2026-11-09T19:08:41.764Z",
+ "generatedAt": "2026-11-09T21:06:28.852Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 21,
+  "total": 22,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 19,
+  "declined": 20,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "creator-archive-exporter-patreon-posts-to-ghost",
+   "title": "Creator Archive Exporter: Patreon posts to Ghost, WordPress or Markdown",
+   "pitch": "For Patreon creators who want a backup of their work or are moving to Ghost, WordPress or their own site. Paste your own Creator's Access Token and get every post (title, HTML body, date, paid flag, tiers, embeds, inline images) as a WordPress WXR file, a Ghost import JSON or a Markdown ZIP.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 2.75 is below the minimum 3.5"
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 2500,
+       "basis": "Bottom-up, with assumptions because I saw no keyword volumes: English queries for exporting, backing up or migrating Patreon posts are assumed at 500-1,500 searches a month worldwide. With a 3-month ramp, about 200 visits a month over months 4-12 gives about 1,800 visits. At 2% conversion and 15 EUR that is about 36 orders or 540 EUR, minus about 10% merchant-of-record fees and a 15 EUR domain, s…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The gap is real: Ghost's guide moves members only, Fourthwall moves posts only into Fourthwall, and the maintained downloader is a technical archiver with no import output. The official v2 posts endpoint makes it buildable without scraping. Demand evidence is thin: one dated complaint inside 90 days, one older forum question and a trickle of DIY exporters.",
+      "summary": "",
+      "concerns": [
+       "Thin demand: only one request dated inside 90 days, and no measured search volume",
+       "Depends on Patreon's v2 API, which Patreon could restrict or switch off. CORS is unverified, so a small Cloudflare Worker proxy is probably needed, and it woul…",
+       "The API has no attachments field and inline images sit on Patreon's CDN, so exports may miss PDFs and ZIPs, and image fetching may break",
+       "Reviewers may count patreon-dl as a solid alternative for the backup part of the job, which would lower competitionGap"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T21:06:28.760Z",
+   "updatedAt": "2026-11-09T21:06:28.760Z",
+   "outcome": null
+  },
   {
    "id": "kap-rechner-fuer-mitarbeiteraktien-rsu-und-espp",
    "title": "KAP-Rechner für Mitarbeiteraktien: RSU- und ESPP-Verkäufe bei Schwab, Morgan Stanley at Work und Fidelity in Anlage-KAP…",
@@ -1951,7 +2038,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-09T18:00:00.000Z",
+  "checkedInAt": "2026-11-09T21:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -1964,19 +2051,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T18:47:27.675Z",
+   "lastRunAt": "2026-11-09T20:48:46.177Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 43,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 44,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 34,
+   "runsLastDay": 35,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-09T20:47:27.675Z"
+   "nextRunAfter": "2026-11-09T22:48:46.177Z"
   }
  },
  "scorecard": {
