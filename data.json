@@ -1,22 +1,196 @@
 {
- "generatedAt": "2026-11-09T09:04:20.927Z",
+ "generatedAt": "2026-11-09T10:51:37.178Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 16,
+  "total": 18,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 14,
+  "declined": 16,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "buerotage-zaehler-homeoffice-und-pendeltage-fuer",
+   "title": "Bürotage-Zähler: Homeoffice- und Pendeltage für die Steuererklärung aus der Google-Maps-Zeitachse",
+   "pitch": "For German employees with hybrid work who must state home-office days (Tagespauschale, 6 EUR a day, up to 210 days) and office days (Entfernungspauschale) in their tax return. Drop the Google Maps Timeline export, mark home and office, and get both counts per year, with weekends and the state's pub…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 2.8 is below the minimum 3.5"
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 150,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 150,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: assume 500-1,500 searches a month from February to July for queries about counting home-office or office days (no keyword data seen). With a ramp, about 4,000 visits in year 1, mostly in the 2027 filing season. About 30% have Timeline data; 4% of those buy the 3.90 EUR proof list, which is about 48 sales or 187 EUR. Tax-software affiliate commissions add maybe 50 EUR (rates not verifie…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The gap is clear: only developer scripts and a general stats page touch the job, none applies German day rules. Demand is indirect (guides urging day lists, a developer's own tool) with no dated request in the window, so demand is scored 2. Static, local processing, runs itself.",
+      "summary": "",
+      "concerns": [
+       "Many users have Timeline switched off or lost history when Google moved it to the phone",
+       "Google may change or restrict the on-device export format again",
+       "Demand is unproven and strongly seasonal",
+       "Must present counts as a record, not tax advice, and leave the final numbers to the user"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T10:51:37.141Z",
+   "updatedAt": "2026-11-09T10:51:37.141Z",
+   "outcome": null
+  },
+  {
+   "id": "fotobuch-pdf-cewe-projektdateien-mcfx-im-browser",
+   "title": "Fotobuch-PDF: CEWE-Projektdateien (.mcfx) im Browser als PDF ansehen und die Fotos sichern",
+   "pitch": "For people who made a photo book in the CEWE desktop editor (also sold through dm, Rossmann and other retailers) and want a PDF copy to share or archive, or want their photos back out of the project. Drop the .mcfx file in the browser and get a PDF preview plus a ZIP of the embedded photos, process…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 2.2 is below the minimum 3.5"
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 150,
+     "upsideEur": 2000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 150,
+       "upsideEur": 2000,
+       "basis": "Bottom-up: assume 300-800 searches a month across DE/NL/AT/CH for queries like 'cewe fotobuch pdf' and 'mcfx öffnen' (no keyword data seen). With a search ramp, about 2,000 visits in year 1; 40% hold a desktop .mcfx; 5% of those pay 4.90 EUR, which is about 40 sales or 196 EUR, minus about 15 EUR domain and 20 EUR fees, about 160 EUR. Cross-check: the three converters have about 82 GitHub stars a…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Live demand is visible in GitHub issues and a release from August to November 2026, but only among technical users; I found no consumer forum request dated in the window. The gap is real for non-technical users because every existing tool is a configured CLI. Fully static, so it runs itself.",
+      "summary": "",
+      "concerns": [
+       "Pages lacking CEWE backgrounds and clipart look worse unless the user points the tool at the CEWE resource folder",
+       "Users of CEWE's online editor or app have no .mcfx file to drop",
+       "CEWE can change the .mcfx format at any time",
+       "Willingness to pay for a PDF copy is unproven"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T10:51:37.132Z",
+   "updatedAt": "2026-11-09T10:51:37.132Z",
+   "outcome": null
+  },
   {
    "id": "gleitklausel-rechner-preisgleitklauseln-mit-dest",
    "title": "Gleitklausel-Rechner: Preisgleitklauseln mit Destatis-Indizes nachrechnen",
@@ -1529,19 +1703,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T08:33:05.189Z",
+   "lastRunAt": "2026-11-09T10:34:24.704Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 38,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 39,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 24,
+   "runsLastDay": 27,
    "foundLastDay": 2,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-09T10:33:05.189Z"
+   "nextRunAfter": "2026-11-09T12:34:24.704Z"
   }
  },
  "scorecard": {
