@@ -1,22 +1,336 @@
 {
- "generatedAt": "2026-11-09T21:11:55.804Z",
+ "generatedAt": "2026-11-09T23:13:00.217Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 22,
+  "total": 25,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 20,
+  "declined": 23,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "na-saldering-check-eigen-p1-data-door-thuisbatte",
+   "title": "Na-saldering-check: eigen P1-data door thuisbatterij en dynamisch contract rekenen",
+   "pitch": "For Dutch households with solar panels, from 1 January 2027 when salderen ends: upload the CSV export from your P1 meter (HomeWizard, Home Assistant, P1 Monitor, grid-operator portal). In the browser it calculates what last year would have cost under a fixed contract with feed-in costs, under a dynamic contract, and with a plug-in or fixed home battery of a chosen size. The file never leaves the …",
+   "platform": "web",
+   "marketLabel": "Germany and Europe",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "origin": "Niche scout",
+   "decision": {
+    "by": "product lead",
+    "reason": "Rejected by the product lead: At least five free, working websites already do the core job: thuisbatterijplanner.nl (in-browser), eerlijkoverthuisbatterijen.nl (already affiliate-monetised), energiedoorgerekend.nl, jeroen.nl Stroomanalyse and the mark-vis simulator all simulate a home battery on uploaded P1/HomeWizard data with dynamic prices, and the first four also apply the post-2027 rules, so this would only be a twist on them.",
+    "at": "2026-11-09T23:12:53.379Z",
+    "detail": []
+   },
+   "trigger": "The Dutch salderingsregeling (net metering for home solar) ends in one step on 2027-01-01; feed-in is then paid at least 50% of the bare supply tariff until 2030, and feed-in costs stay allowed (Rijk…",
+   "window": "Demand peaks from now through 2027: the first months without salderen and the projected 600,000 battery purchases in 2027. It closes if HomeWizard, suppliers or comparison sites add their own upload-…",
+   "score": 3.6,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 4,
+     "success": 1,
+     "monetization": 2.5,
+     "potential": 2.5,
+     "automation": 3.5
+    },
+    "agreement": "low",
+    "disputed": [
+     "risk",
+     "success"
+    ],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6",
+     "risk 4 is above 3.5"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 2.5 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 50,
+     "upsideEur": 1000,
+     "crossVerified": true,
+     "disputed": true,
+     "agreement": "low",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 5000,
+       "basis": "Bottom-up, with my own assumptions: 15,000 visits in the first 12 months (new domain, seeded through the Homey, Tweakers and Reddit communities, peak Jan to Apr 2027). 4% click battery affiliate links with 3% conversion gives 18 sales at about 40 EUR commission (assumed 2 to 4% of 1,000 to 2,000 EUR items) = about 720 EUR. 1.5% click contract affiliates with 10% conversion gives 22 contracts at a…"
+      },
+      {
+       "who": "product",
+       "expectedEur": 50,
+       "upsideEur": 1000,
+       "basis": "Bottom-up: a new domain launching Dec 2026 against keuze.nl, slimster, Anker blogs and at least 5 dedicated free tools. Assume an average of about 150 visits a month over year 1 with a ramp from 0, so 1,800 visits. About 30% finish a simulation (540), about 10% click an affiliate link (54), and about 3% buy a battery, giving 1 to 2 sales at roughly 20-40 EUR commission. Add perhaps 1 to 2 energy-…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The deadline is confirmed by the Rijksoverheid page. The audience is large (3.3M solar homes), and people are building their own P1-based simulations in Homey and in code, which shows the job is not served. Five searches found no public website that takes your own meter export.",
+      "summary": "",
+      "concerns": [
+       "HomeWizard, Dutch suppliers or comparison sites may add their own upload-based simulation",
+       "Many households do not know how to export quarter-hour or hourly data, so the import guide has to be very good",
+       "Energy tax, VAT and supplier feed-in costs change every year, so presets need a yearly update or must be user inputs",
+       "A new domain may not rank before the early-2027 peak"
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "The trigger (salderen ends 2027-01-01, Rijksoverheid) and the demand (600k batteries expected in 2027, Solarmagazine 2026-09-09; a Homey user simulating from P1 data in Aug 2026) are confirmed. But searching as a user turned up thuisbatterijplanner.nl, eerlijkoverthuisbatterijen.nl/bereken, energiedoorgerekend.nl, jeroen.nl/energie/stroomanalyse and mark-vis.github.io/thuisbatterij-simulatie. All are free and live, and between them they cover upload of HomeWizard, DSMR, grid-portal and P1 expor…",
+      "summary": "At least five free, working websites already do the core job: thuisbatterijplanner.nl (in-browser), eerlijkoverthuisbatterijen.nl (already affiliate-monetised), energiedoorgerekend.nl, jeroen.nl Stroomanalyse and the mark-vis simulator all simulate a home battery on uploaded P1/HomeWizard data with…",
+      "concerns": [
+       "Five or more free alternatives cover the exact pitch, including in-browser privacy (thuisbatterijplanner.nl) and affiliate monetisation (eerlijkoverthuisbatter…",
+       "A single calculator does not produce many long-tail data pages, which is the only pattern with traction in the studio",
+       "The energy tax, minimum feed-in and terugleverkosten rules change yearly, and CSV export formats drift, so it needs ongoing maintenance",
+       "Search results for battery queries are dominated by vendors and established comparison sites, so a new domain would struggle to rank before the 2027 buying wav…"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [
+    "timing",
+    "trust-privacy",
+    "no-signup",
+    "niche-focus"
+   ],
+   "factorFit": 0.84,
+   "links": {
+    "repo": "https://github.com/veste-software/na-saldering-check-eigen-p1-data-door-thuisbatte",
+    "preview": "https://veste-software.github.io/na-saldering-check-eigen-p1-data-door-thuisbatte/",
+    "live": null
+   },
+   "createdAt": "2026-11-09T23:06:29.398Z",
+   "updatedAt": "2026-11-09T23:13:00.197Z",
+   "outcome": null
+  },
+  {
+   "id": "lastgang-rechner-was-haette-mich-ein-dynamischer",
+   "title": "Lastgang-Rechner: was hätte mich ein dynamischer Stromtarif gekostet?",
+   "pitch": "For households in Germany and Austria with a smart meter: upload the quarter-hour export from your meter operator's portal (German Messstellenbetreiber, Austrian Netz NÖ, Wiener Netze, Linz Netz and others) or from Home Assistant. In the browser it calculates what the last months would have cost un…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
+    "at": "2026-11-09T23:06:29.429Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.75.",
+     "Scout ratings out of 5: demand 3, competition gap 3, timeliness 2, buildability 4, monetization 2.",
+     "The Scout's own main worry: Voltary already serves German users for free; no-signup and local processing may not be enough to win.",
+     "Expected profit in the first 12 months: 250 EUR (best case 2,500 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 250,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 250,
+       "upsideEur": 2500,
+       "basis": "Bottom-up, with my own assumptions: 8,000 visits in year one (niche query set, slow ramp). 3% click a tariff-comparison affiliate with 8% conversion gives about 19 switches at an assumed 20 to 40 EUR = about 550 EUR, minus 15 EUR domain. Discounted for ramp risk to about 250 EUR. Cross-check: the paying audience is small. Search snippets give conflicting German smart-meter shares of about 4% and …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A dated explicit request (Akkudoktor 2026-09-01), hand billing in Austria (2026-09-07) and two Home Assistant tools launched in October 2026 show the job is live and done by hand. A free account-based tool (Voltary) and the clunky official Austrian route exist, so this is a crowded niche with a checked edge, not an open gap.",
+      "summary": "",
+      "concerns": [
+       "Voltary already serves German users for free; no-signup and local processing may not be enough to win",
+       "German smart-meter penetration is still low, so the audience is small",
+       "Every meter operator exports a different CSV layout, so parsers need upkeep",
+       "Dynamic tariffs often lose against fixed tariffs without flexible loads, so many results will say 'stay', which yields no affiliate click"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T23:06:29.429Z",
+   "updatedAt": "2026-11-09T23:06:29.429Z",
+   "outcome": null
+  },
+  {
+   "id": "lbrn2-page-splitter-make-multi-page-laser-files",
+   "title": "LBRN2 Page Splitter: make multi-page laser files open in older versions",
+   "pitch": "For people who sell laser-cutting designs and the makers who buy them. In the browser, with no upload, it takes a LightBurn 2.2 .lbrn2 file with several Pages and outputs files older versions open correctly (one file per page, or pages placed side by side). It also exports an SVG per page for Glowf…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 1.",
+    "at": "2026-11-09T23:05:33.042Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.75.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 3, buildability 3, monetization 1.",
+     "The Scout's own main worry: LightBurn adds 'save for older versions' itself.",
+     "Expected profit in the first 12 months: 10 EUR (best case 400 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "LightBurn 2.2.00 added multi-page projects (Pages). Files with Pages open in older versions with every page stacked on top of the others, and there is no 'save for older versions' option.",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 1.9,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 1,
+     "potential": 1,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.9 is below 3.6"
+    ],
+    "yearlyCostEur": 12,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.9 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 10,
+     "upsideEur": 400,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 10,
+       "upsideEur": 400,
+       "basis": "Bottom-up: I saw no search-volume data. Assuming 500 to 1,500 global searches a month for lbrn2 viewer and converter terms (unverified) and a six-month search ramp, year one brings about 3,000 visits. At an ad RPM of about 8 EUR that is about 25 EUR, minus a 12 EUR domain. Cross-check: the paying audience for the Pages job is design sellers who use Pages. The evidence shows one seller and 3 votes…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 1,
+      "potential": 1,
+      "automation": 4,
+      "rationale": "The need is real and dated (forum thread and Fider request on 2026-09-23), and no tool offers Pages-to-legacy conversion. But the visible demand is one seller and 3 votes, the general SVG conversion has only weak free options, and the vendor can close the gap in a single release.",
+      "summary": "",
+      "concerns": [
+       "LightBurn adds 'save for older versions' itself",
+       "Very small audience and almost no revenue",
+       "The Pages XML is undocumented; building and testing needs real 2.2 sample files, which someone with LightBurn or its trial must provide",
+       "A later format change could break the parser"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T23:05:33.042Z",
+   "updatedAt": "2026-11-09T23:05:33.042Z",
+   "outcome": null
+  },
   {
    "id": "creator-archive-exporter-patreon-posts-to-ghost",
    "title": "Creator Archive Exporter: Patreon posts to Ghost, WordPress or Markdown",
@@ -2194,19 +2508,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T20:48:46.177Z",
+   "lastRunAt": "2026-11-09T22:52:00.384Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 44,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 45,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 35,
-   "foundLastDay": 1,
+   "runsLastDay": 38,
+   "foundLastDay": 2,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-09T22:48:46.177Z"
+   "nextRunAfter": "2026-11-10T00:52:00.384Z"
   }
  },
  "scorecard": {
