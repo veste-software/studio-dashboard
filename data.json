@@ -1,22 +1,109 @@
 {
- "generatedAt": "2026-11-09T06:56:36.203Z",
+ "generatedAt": "2026-11-09T08:49:17.969Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 15,
+  "total": 16,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 13,
+  "declined": 14,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "gleitklausel-rechner-preisgleitklauseln-mit-dest",
+   "title": "Gleitklausel-Rechner: Preisgleitklauseln mit Destatis-Indizes nachrechnen",
+   "pitch": "For district-heating customers, property managers, purchasers and construction firms in Germany: enter the price formula from your contract, pick the Destatis index series (e.g. Investitionsgüter GP-X008, leichtes Heizöl, Wärmepreisindex, Betonstahl) and the reference months, and the site fetches t…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 3 is below the minimum 3.5"
+   },
+   "trigger": "2026 energy price shock: Destatis reports light heating oil +91.8% and natural gas (distribution) +15.0% year on year in September 2026; district-heating and supply-contract price formulas tied to th…",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.65,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.65 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.65 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: assumed ramp of about 500 visits a month in months 4 to 6 and 2,000 a month in months 7 to 12 gives about 13,500 visits; ads at an assumed 4 EUR RPM give about 55 EUR; 0.05% of visitors buying a 39 EUR yearly plan gives about 7 buyers and 270 EUR; minus about 20 EUR domain and payment fees, roughly 300 EUR. Cross-check: the paying audience is business users (heat suppliers in the low t…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The trigger and the data source are confirmed at Destatis (release 2026-10-20; dl-de/by-2-0 allows commercial reuse with attribution). No calculator or per-series site turned up in five searches, and utilities keep writing lookup guides. Demand is shown by the work utilities and associations do, not by dated user requests, so demand and monetization are scored low.",
+      "summary": "",
+      "concerns": [
+       "No dated user request found; demand is inferred from supplier and association documents",
+       "Laypeople may not be able to transcribe their contract formula; the B2B half carries the revenue",
+       "The AVBFernwärmeV reform, if passed, would make suppliers publish their own calculators",
+       "Destatis free data caps what anyone will pay"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T08:48:47.591Z",
+   "updatedAt": "2026-11-09T08:48:47.591Z",
+   "outcome": null
+  },
   {
    "id": "sepa-formatwechsel-alte-sepa-xml-dateien-im-brow",
    "title": "SEPA-Formatwechsel: alte SEPA-XML-Dateien im Browser auf pain.001.001.09 / pain.008.001.08 umstellen",
@@ -1442,19 +1529,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T06:31:42.666Z",
+   "lastRunAt": "2026-11-09T08:33:05.189Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Global",
-   "nextMarket": "Global",
-   "emptyRuns": 37,
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 38,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 23,
+   "runsLastDay": 26,
    "foundLastDay": 2,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-09T08:31:42.666Z"
+   "nextRunAfter": "2026-11-09T10:33:05.189Z"
   }
  },
  "scorecard": {
