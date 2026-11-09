@@ -1,22 +1,196 @@
 {
- "generatedAt": "2026-11-09T03:01:54.028Z",
+ "generatedAt": "2026-11-09T04:46:36.026Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 11,
+  "total": 13,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 1,
-  "declined": 9,
+  "declined": 11,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "satzungs-check-baumschutz-und-raeumpflicht-je-ge",
+   "title": "Satzungs-Check: Baumschutz und Räumpflicht je Gemeinde",
+   "pitch": "For German homeowners and gardeners: one page per municipality that says whether a tree-protection bylaw (Baumschutzsatzung) applies, from which trunk circumference and for which species, what a permit costs and who issues it, plus the snow-clearing hours from the local street-cleaning bylaw, each …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "score 2.7 is below the minimum 3.5"
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 150,
+     "upsideEur": 1300,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 150,
+       "upsideEur": 1300,
+       "basis": "Bottom-up: I assume (no keyword data available) a ramp to about 2,000 visits a month by months 5 to 12, so about 16,000 visits in year one. Ads at an RPM of about 8 EUR give about 130 EUR. Affiliate and lead clicks at 2% (320 clicks) times a 4% conversion times about 15 EUR give about 190 EUR. Revenue is about 320 EUR minus about 120 EUR a year for the domain and a yearly re-crawl and extraction …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "No nationwide or multi-state lookup exists. The competitors are general guides, one state's list of links and each town's own PDF, so competitionGap is 4. Demand recurs every felling season and winter, but I could not open a request dated within 90 days. Revenue depends on ads and affiliates with modest intent, so the profit is low.",
+      "summary": "",
+      "concerns": [
+       "Extraction errors or outdated entries could lead a user to fell a protected tree and be fined (up to 50,000 EUR); needs dated sources and strong 'check with th…",
+       "Bylaws change several times a year across the country, so yearly re-crawls are needed and towns missed by the pipeline will show wrong 'no bylaw found' results",
+       "For big cities the official page outranks a new site, so traffic depends on small towns",
+       "AI search answers may absorb the general questions"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T04:43:42.337Z",
+   "updatedAt": "2026-11-09T04:43:42.337Z",
+   "outcome": null
+  },
+  {
+   "id": "hs-2028-code-finder-per-code-hs-2022-to-hs-2028",
+   "title": "HS 2028 Code Finder: per-code HS 2022 to HS 2028 correlations plus a private bulk check",
+   "pitch": "For importers, exporters, customs brokers and ERP data teams worldwide who must re-map their HS 2022 product codes before HS 2028 takes effect on 2028-01-01: one page per changed subheading shows the old and new codes, the type of change (1:1, split, merge, partial) and the affected headings, and a…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "decision": {
+    "by": "scout gates",
+    "reason": "flagged for trademark, IP or terms-of-service concerns"
+   },
+   "trigger": "WCO published the HS 2022-2028 correlation tables (April 2026) for the 8th HS revision, which enters into force on 2028-01-01 with 428 new and 172 deleted subheadings",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 3.2,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.2 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: about 700 pages ramping to roughly 300 to 1,000 visits a month by month 12, so about 7,000 to 10,000 visits in year one (assumption: no search-volume data was seen). Ads at about 10 EUR RPM give about 80 EUR. Bulk reports at 29 EUR converting 0.2% of visitors give about 15 to 20 sales, 450 to 580 EUR. Minus about 20 EUR domain and about 10% payment fees, that leaves roughly 450 EUR. Cr…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "Opened sources dated March to August 2026 show vendors and consultancies urging businesses to re-map codes and charging for it. The only free official material is two PDFs, and the free WTO tracker shows no 2028 edition. A search for a sample code found no free per-code HS 2028 mapping page. An Engineering News article on HS 2028 dated 2026-10-23 appeared in search results but could not be opened (403).",
+      "summary": "",
+      "concerns": [
+       "The WTO HS Tracker or big HS lookup sites (Flexport, findhs.codes) add HS 2028 for free during 2027",
+       "WCO copyright and possible EU database rights over the correlation tables and HS descriptions",
+       "Search volume for HS 2028 is unknown and the audience may rely on brokers and ERP vendors instead of searching",
+       "Partial ('ex') correlations need human judgement, so the tool can only flag them, not resolve them"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-09T04:40:49.050Z",
+   "updatedAt": "2026-11-09T04:40:49.050Z",
+   "outcome": null
+  },
   {
    "id": "boxbuch-qr-vorratsliste-fuer-vakuumboxen-nach-de",
    "title": "Boxbuch: QR-Vorratsliste für Vakuumboxen nach dem Aus der ZWILLING-App",
@@ -1062,19 +1236,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T02:25:32.650Z",
+   "lastRunAt": "2026-11-09T04:26:57.428Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Global",
-   "nextMarket": "Global",
-   "emptyRuns": 35,
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 36,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 18,
+   "runsLastDay": 21,
    "foundLastDay": 2,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-09T04:25:32.650Z"
+   "nextRunAfter": "2026-11-09T06:26:57.428Z"
   }
  },
  "scorecard": {
