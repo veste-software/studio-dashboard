@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T07:17:49.675Z",
+ "generatedAt": "2026-11-10T08:24:12.856Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -27,6 +27,30 @@
    "statusLabel": "Paused",
    "prototype": false,
    "origin": "Niche scout",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "affiliate (dog liability insurance), no ads and no cookies at launch Everything free. One box labelled 'Anzeige' per municipality page linking to a Hundehaftpflicht offer via AFFILIATE_HAFTPFLICHT_URL; payouts seen in AWIN listings are 20 € per sale (BavariaDirekt) and 10–35 € per lead (Agila), unv…",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     },
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "orchestrator",
     "reason": "QA still failing after 3 rounds: No municipality data: data/ does not exist (no 396-entry municipalities-nw.json, no per-municipality results, no coverage-nw.md). AC 2, 5 and 6 fail. Needs a run or machine with network access (npm run municipalities, npm run harvest). | No municipality pages are generated, so no page answers 'hund…",
@@ -143,6 +167,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.95 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
@@ -238,6 +282,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.2 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2.",
@@ -334,6 +398,30 @@
    "statusLabel": "Decided against",
    "prototype": false,
    "origin": "Niche scout",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Affiliate links next to the result: plug-in and fixed batteries in the size the simulation recommends (shop partner programs), and the dynamic or fixed energy contract that came out cheapest (Dutch energy affiliate networks). Optionally a paid PDF report (e.g. 4.99 EUR) with month-by-month detail.",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     },
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: At least five free, working websites already do the core job: thuisbatterijplanner.nl (in-browser), eerlijkoverthuisbatterijen.nl (already affiliate-monetised), energiedoorgerekend.nl, jeroen.nl Stroomanalyse and the mark-vis simulator all simulate a home battery on uploaded P1/HomeWizard data with dynamic prices, and the first four also apply the post-2027 rules, so this would only be a twist on them.",
@@ -457,6 +545,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
@@ -552,6 +660,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 1 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 1
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 1.",
@@ -647,6 +775,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1.",
@@ -742,6 +890,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "No payer on record",
+    "why": "no payer is on record (the idea predates the money check)",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.1 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2.",
@@ -837,6 +1005,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.15 of 5, under the 3.5 the studio builds from. Weak spots: monetization 2.",
@@ -932,6 +1120,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.7 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 2.",
@@ -1027,6 +1235,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.8 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 2.",
@@ -1122,6 +1350,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.2 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 2.",
@@ -1217,6 +1465,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 2.",
@@ -1313,6 +1581,30 @@
    "statusLabel": "Decided against",
    "prototype": false,
    "origin": "Niche scout",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Free check and preview: the tool detects the version, lists the problems, and converts files with up to 10 entries. A one-time 9 EUR unlock per club or business per season converts full files, sold through a test-mode payment provider with a license key. Secondary: affiliate links to club software …",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     },
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The deadline that creates the demand was suspended: ebics.de (SEPA LifeCycle, Stand September 2026; confirmed by DKB and GLS) says the old SEPA formats stay temporarily usable after November 2026 with no new end date, and the remaining standing need is covered for free by importing into bank-provided software (Profi cash, VR-NetWorld) or the JAM SEPA-Transfer trial.",
@@ -1435,6 +1727,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.65 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
@@ -1529,6 +1841,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.7 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 2.",
@@ -1624,6 +1956,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "No payer on record",
+    "why": "no payer is on record (the idea predates the money check)",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Flagged for trademark, IP or terms-of-service concerns",
@@ -1720,6 +2072,30 @@
    "statusLabel": "Decided against",
    "prototype": false,
    "origin": "Niche scout",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 1 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "The core is free: scan, list, and calendar reminders exported as .ics. A one-time 3.99 EUR household unlock (Stripe Payment Link in test mode) adds printable QR stickers for boxes without codes and a file/QR transfer of the inventory between two phones. Amazon affiliate links point to replacement b…",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 1
+     },
+     {
+      "who": "product",
+      "rating": 1
+     }
+    ]
+   },
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The trigger is real, but there is no visible live demand, a free and actively maintained vacuum-food inventory app (CASO Food Manager) already covers expiry tracking with QR scanning, and my careful estimate puts first-year profit at about 40 EUR.",
@@ -1841,6 +2217,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 1 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 1
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.65 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 1.",
@@ -1936,6 +2332,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 1 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 1
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.45 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 1.",
@@ -2031,6 +2447,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 2.",
@@ -2127,6 +2563,38 @@
    "statusLabel": "Built, waiting for your launch",
    "prototype": false,
    "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "No payer on record",
+    "why": "no payer is on record (the idea predates the money check)",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "one-off paid pass (freemium: free scan, test copy and reference export; paid full conversion) Umzugspass 9 EUR incl. VAT once: unlimited full conversions for 30 days, no subscription, no account",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     },
+     {
+      "who": "product",
+      "rating": 3
+     },
+     {
+      "who": "analyst",
+      "rating": 2.7
+     },
+     {
+      "who": "skeptic",
+      "rating": 2.7
+     }
+    ]
+   },
    "decision": {
     "by": "review panel",
     "reason": "The review panel declined it on the overall index alone (declined by the review: overall index 2.65 is below 3.6. weakest: potential 2. skeptic: The conversion has not been tested on real Citavi files or in real Zotero. The spec relies on synthetic fixtures derived from reading code;… / Zotero may prompt for missing items or create duplicates when embedded-only citations are not in the user's library, and no ZOTERO_PREF is …; analyst: The new domain will barely be indexed by the November and December 2026 deadlines, so much of the peak demand passes …). Built as a one-day prototype anyway, because the studio had nothing else to build; the prototype is how you judge it. Launching it still needs your approval.",
@@ -2274,6 +2742,30 @@
    "statusLabel": "Paused",
    "prototype": false,
    "origin": "Niche scout",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Free tool with clearly labelled affiliate links Free for users; affiliate commissions from a spare-parts shop and a refurbished-device seller (rates unverified, depend on programs the human joins); optional later paid add-on 'Brief per Einschreiben versenden' at about 4.90 EUR, not in MVP",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     },
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "orchestrator",
     "reason": "QA still failing after 3 rounds: Real EPREL fixture src/fixtures/eprel-1417304.json is missing. SPEC 6.4 (proxy whitelist test on the real record), 6.6 (rendered Bosch/WAJ240L2SN/27.12.2034/München result), 6.7 (/qr/1417304 prerendered with noindex) and 6.11 (real EPREL examples on group pages) are unmet. dist/qr contains only ind…",
@@ -2368,6 +2860,30 @@
    "statusLabel": "Decided against",
    "prototype": false,
    "origin": "Niche scout",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 1 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Near term: clearly labelled sponsorship by registries and domain consultants, and a paid watch list (email digest of changes to chosen strings and look-alike matches for brand counsel, Stripe test mode first). From 2027-2028, when strings are delegated: registrar affiliate links on each string page…",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     },
+     {
+      "who": "product",
+      "rating": 1
+     }
+    ]
+   },
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The core job (who applied for which string, and contention) is already served free by ICANN's APS, gtlds.fyi (launched on Reveal Day with per-name pages and an active developer) and ICANNWiki/registrar lists, leaving only feature twists (change log, look-alike search) with no revenue path before strings launch in 2027-28.",
@@ -2466,6 +2982,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.25 of 5, under the 3.5 the studio builds from. Weak spots: monetization 2.",
@@ -2546,6 +3082,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.4 of 5, under the 3.5 the studio builds from.",
@@ -2626,6 +3182,26 @@
    "status": "declined",
    "statusLabel": "Decided against",
    "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.4 of 5, under the 3.5 the studio builds from.",
@@ -2707,6 +3283,30 @@
    "statusLabel": "Decided against",
    "prototype": false,
    "origin": "Niche scout",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Free audit of the first 25 listings, fully in the browser. A one-time unlock of about 12 EUR (Stripe Payment Link, test mode) for unlimited listings, CSV and PDF export of the to-do list, disclosure-text templates per listing type and saved progress. Plus affiliate links that match the visitor's in…",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     },
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: Etsy's listings CSV cannot reveal whether a listing meets the October 2026 AI rules (unedited real photo, own instructions, disclosure), so the product reduces to keyword triage plus a manual checklist; that is a twist on free checklists and existing shop scanners, while Etsy is extending its own free AI-image warnings to existing listings.",
