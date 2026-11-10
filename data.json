@@ -1,22 +1,329 @@
 {
- "generatedAt": "2026-11-10T00:03:03.476Z",
+ "generatedAt": "2026-11-10T01:16:21.922Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 25,
+  "total": 28,
   "live": 0,
   "staging": 1,
-  "building": 0,
+  "building": 1,
   "queued": 0,
   "parked": 1,
-  "declined": 23,
+  "declined": 25,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "hundesteuer-atlas-der-steuersatz-jeder-gemeinde",
+   "title": "Hundesteuer-Atlas: der Steuersatz jeder Gemeinde aus der eigenen Satzung",
+   "pitch": "For dog owners and people about to get a dog in Germany: one page per municipality with the current and announced dog-tax rates (first and second dog, listed or dangerous dogs), reductions and exemptions, and a link to the bylaw, extracted from municipal bylaws and refreshed every budget season.",
+   "platform": "web",
+   "marketLabel": "Germany and Europe",
+   "status": "building",
+   "statusLabel": "Being built",
+   "prototype": false,
+   "origin": "Niche scout",
+   "decision": {
+    "by": "product lead",
+    "reason": "Picked from the bench: the Scout scored it 3.3, a little under the usual bar, and the studio had nothing else to build. The Product lead read it from scratch and chose to build it. The review panel is skipped; the one-day prototype is how you judge it.",
+    "at": "2026-11-10T01:08:03.646Z",
+    "detail": []
+   },
+   "trigger": "A wave of dog-tax increases for 2027 decided in the Oct-Nov 2026 budget sessions (e.g. Paderborn 72 to 120 EUR from January 2027, final council vote 2026-11-12). This recurs every year.",
+   "window": "Standing gap with a yearly peak: rates change on January 1 after autumn budget votes. The only per-municipality data sets are hand-made and partial (33 or 14 big cities, NRW-only PDFs), and nobody co…",
+   "score": 3.3,
+   "index": {
+    "composite": 2.98,
+    "used": {
+     "risk": 2.5,
+     "success": 3,
+     "monetization": 2.5,
+     "potential": 3,
+     "automation": 3.5
+    },
+    "agreement": "medium",
+    "disputed": [],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.98 is below 3.6"
+    ],
+    "yearlyCostEur": 48,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.98 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 225,
+     "upsideEur": 3500,
+     "crossVerified": true,
+     "disputed": false,
+     "agreement": "high",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: start with about 1,500 municipalities (all of NRW plus towns over 10,000 people), and about 20,000 visits in year one after the search ramp. Liability-insurance affiliate sales at 0.2% x about 12 EUR (commission not verified) give about 480 EUR, and ads at 5 EUR RPM give about 100 EUR, so revenue is about 580 EUR minus about 75 EUR (domain, AI extraction, search API). Cross-check: a ca…"
+      },
+      {
+       "who": "product",
+       "expectedEur": 150,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: about 430 M € of dog tax a year (Destatis 2025) implies 5–6 M taxed dogs and about 0.8–1 M registrations a year (assumption). About 30k 'hundesteuer <ort>' searches a month nationwide (unverified) means about 6–7k in NRW. With 50–60% coverage, a 2–3 month ramp and a 4–5% captured share, that is about 3,000 visits in year 1 (about 5,000 with partial expansion). 3% box CTR × 6% sale rate…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 3,
+      "rationale": "No per-municipality source exists beyond 33 cities and the NRW-only PDFs, and rates are changing for 2027 right now. Bylaws are public documents, so the data can be extracted automatically, but rate changes sometimes sit in budget resolutions, which makes yearly refreshing imperfect.",
+      "summary": "",
+      "concerns": [
+       "Discovering about 10,800 bylaws automatically is hard; coverage may stay patchy",
+       "Rate changes published in budget resolutions can lag the bylaw PDF, so pages go stale",
+       "A per-town dog-tax site may exist that my searches missed",
+       "Insurer and calculator sites with strong domains rank for city-level queries"
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 3,
+      "success": 3,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "I confirmed the Paderborn article (2026-11-05) and found 2027 increases in several other towns. The best calculator covers 33 cities, Omni has state-level values only, and amtsdeutschland shows no amounts. For small towns the SERP shows only bylaw PDFs (often outdated versions) and generic insurer pages. The BdSt publishes one yearly table per state with no pages per town. The gap is real and fits the owner's pipeline strength, but monetisation through one affiliate box is thin, so year-1 profi…",
+      "summary": "No site shows the dog-tax rate of small and mid-sized German municipalities. The SERPs return only bylaw PDFs and generic insurer pages, the trigger (2027 increases such as Paderborn 72→120 €) is confirmed, and an NRW-wide data pipeline fits a one-day prototype.",
+      "concerns": [
+       "Revenue is thin: one affiliate slot, and most visitors already have insurance or only want the number",
+       "Bylaw discovery and regex extraction may cover well under 60% of municipalities; scanned PDFs and amendment-only documents are hard",
+       "For large cities the official city page and local news outrank a new domain; traffic depends on the small-town long tail",
+       "A wrong rate damages trust; validation and the verbatim excerpt reduce but do not remove this risk"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [
+    "no-signup",
+    "single-job"
+   ],
+   "factorFit": 0.5,
+   "links": {
+    "repo": "https://github.com/veste-software/hundesteuer-atlas-der-steuersatz-jeder-gemeinde",
+    "preview": "https://veste-software.github.io/hundesteuer-atlas-der-steuersatz-jeder-gemeinde/",
+    "live": null
+   },
+   "createdAt": "2026-11-10T01:08:03.646Z",
+   "updatedAt": "2026-11-10T01:16:21.881Z",
+   "outcome": null
+  },
+  {
+   "id": "baumschutz-check-darf-ich-diesen-baum-faellen-di",
+   "title": "Baumschutz-Check: darf ich diesen Baum fällen? Die Satzung jeder Gemeinde",
+   "pitch": "For homeowners and gardeners in Germany: choose the municipality and enter the trunk circumference to see whether a local tree-protection bylaw applies, which species and sizes are protected, the fee and replacement duty, and a link to the bylaw and the responsible office, extracted from municipal …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 2.95 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
+    "at": "2026-11-10T01:08:03.615Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.95.",
+     "Scout ratings out of 5: demand 3, competition gap 4, timeliness 2, buildability 3, monetization 2.",
+     "The Scout's own main worry: Telling someone a tree is not protected when it is could lead to fines of up to 50,000 EUR (ARAG); liability and reputation risk.",
+     "Expected profit in the first 12 months: 200 EUR (best case 2,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 75,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 200,
+     "upsideEur": 2000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 200,
+       "upsideEur": 2000,
+       "basis": "Bottom-up: a few hundred to about 1,000 municipalities with a bylaw (count unverified), about 12,000 visits in year one, concentrated October-February. Ads at 5 EUR RPM give about 60 EUR, and job referrals at 0.3% x about 10 EUR (no programme verified) give about 360 EUR, so revenue is about 420 EUR minus 75 EUR running costs. Cross-check: landscaping firms invest in this content, which points to…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "No aggregator exists, and the bylaw values (30 to 120 cm thresholds, species, fees) differ by town. The audience per town is small, and a wrong 'not protected' answer can cost a user a fine, which raises the operating risk.",
+      "summary": "",
+      "concerns": [
+       "Telling someone a tree is not protected when it is could lead to fines of up to 50,000 EUR (ARAG); liability and reputation risk",
+       "Absence of a bylaw is hard to prove automatically, so pages for towns without one are risky or thin",
+       "Seasonal, small per-town traffic",
+       "Bylaw changes (e.g. Bensheim) need regular re-checks"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-10T01:08:03.615Z",
+   "updatedAt": "2026-11-10T01:08:03.615Z",
+   "outcome": null
+  },
+  {
+   "id": "b-plan-atlas-jeder-bebauungsplan-mit-eigener-sei",
+   "title": "B-Plan-Atlas: jeder Bebauungsplan mit eigener Seite, Gemeinde für Gemeinde",
+   "pitch": "For plot buyers, owners, neighbours and architects in Germany: one indexable page per zoning plan (title, number, municipality, legal status, date in force, plan type, link to the official PDF and text) plus a hub per municipality and a feed of plans that newly came into force, built from open stat…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 3.2 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2.",
+    "at": "2026-11-10T01:08:03.494Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.2.",
+     "Scout ratings out of 5: demand 3, competition gap 4, timeliness 2, buildability 4, monetization 3.",
+     "The Scout's own main worry: Municipal pages and PDFs may keep outranking a new aggregator for plan-name queries.",
+     "Expected profit in the first 12 months: 400 EUR (best case 4,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.95,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.95 is below 3.6"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.95 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: visits ramp from about 300/month (months 1-3) to 1,500 (months 4-6) to 4,000 (months 7-12), about 29,000 in year one. Display ads at about 5 EUR RPM give about 150 EUR, and finance or house-building affiliate leads at 0.05% x about 40 EUR give about 580 EUR, so revenue is about 730 EUR minus 60 EUR running costs. Cross-check: the studio's procurement directory had about 286 clicks in 2…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The NRW API gives a clean, licensed, regularly updated dataset with exactly the fields a plan page needs. No free national or private directory turned up in six searches, and plan-level queries return only municipal PDFs. Demand is evergreen but I found no dated request.",
+      "summary": "",
+      "concerns": [
+       "Municipal pages and PDFs may keep outranking a new aggregator for plan-name queries",
+       "A national government portal (DiPlan) may launch and take the queries",
+       "Other states' data is heterogeneous (PDF-only in some), so national coverage takes real work",
+       "Hosting more than 70,000 static pages exceeds free Cloudflare Pages file limits, so it needs a VPS or object storage"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-10T01:08:03.494Z",
+   "updatedAt": "2026-11-10T01:08:03.494Z",
+   "outcome": null
+  },
   {
    "id": "na-saldering-check-eigen-p1-data-door-thuisbatte",
    "title": "Na-saldering-check: eigen P1-data door thuisbatterij en dynamisch contract rekenen",
@@ -2498,8 +2805,13 @@
   "checkedInAt": "2026-11-10T00:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "waiting for the owner",
-  "building": [],
+  "status": "building",
+  "building": [
+   {
+    "title": "Hundesteuer-Atlas: der Steuersatz jeder Gemeinde aus der eigenen Satzung",
+    "stage": "specced"
+   }
+  ],
   "waiting": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
@@ -2508,19 +2820,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-09T22:52:00.384Z",
+   "lastRunAt": "2026-11-10T00:53:07.132Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 45,
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 46,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 35,
+   "runsLastDay": 38,
    "foundLastDay": 2,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-10T00:52:00.384Z"
+   "nextRunAfter": "2026-11-10T02:53:07.132Z"
   }
  },
  "scorecard": {
