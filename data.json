@@ -1,22 +1,148 @@
 {
- "generatedAt": "2026-11-10T21:04:10.486Z",
+ "generatedAt": "2026-11-10T21:34:54.982Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 32,
+  "total": 33,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 2,
-  "declined": 29,
+  "declined": 30,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "pattern-translator-for-knit-and-crochet-designer",
+   "title": "Pattern Translator for knit and crochet designers",
+   "pitch": "For indie knitwear and crochet designers who sell PDF patterns: upload your own pattern and get a ready-to-proofread translation (German, French, Spanish, Dutch, Danish, Italian) that uses the target language's standard craft abbreviations, converts US/UK crochet terms, and checks that every stitch…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An indie knitwear or crochet designer who sells PDF patterns on Ravelry, Etsy, Ribblr or Payhip and wants versions in other languages",
+    "buys": "A translated pattern file with correct standard abbreviations, consistent terms and verified stitch counts, ready for a native test knitter to proofread. It replaces about 160-320 GBP of human translation for a 2,000-4,000-word garment pattern. Free generic translators get abbreviations and US/UK terms wrong.",
+    "model": "one-off",
+    "price": "9 EUR per pattern per language (credit packs), or about 54 EUR a year for a typical designer",
+    "proof": [
+     {
+      "url": "https://www.samlovesyarn.co.uk/services-7",
+      "note": "Opened price list of a UK knitwear tech editor (30 GBP an hour). The search snippet of the same page shows translation at 0.08 GBP per word, minimum 350 words.",
+      "date": "2023-01-01"
+     },
+     {
+      "url": "https://www.fiverr.com/flamin_creator/translate-your-crochet-or-knitting-pattern",
+      "note": "Seen in search results only (Fiverr blocks the fetcher): a gig selling knit and crochet pattern translation. Search snippets show EN-NL gigs up to 50 USD and multi-language projects at 100-200 USD.",
+      "date": "2026-11-10"
+     }
+    ],
+    "nobodyPaysIf": "Designers paste the pattern into ChatGPT or DeepL for free and have a native test knitter fix it, which they need anyway; most designers sell only in English and never translate.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 2.9 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1.",
+    "at": "2026-11-10T21:34:54.115Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.9.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 1, buildability 4, monetization 3.",
+     "The Scout's own main worry: Free ChatGPT or DeepL is good enough for many designers.",
+     "Expected profit in the first 12 months: 800 EUR (best case 6,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 80,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: about 4,000 search visits a year at steady state (assumed). Search ramps over months, so year one averages about 40%, or 1,600 visits. At 2% conversion (assumed) that is 32 payers at about 54 EUR a year, roughly 1,700 EUR revenue, minus about 80 EUR for domain and LLM API and about 6% payment fees, which leaves about 1,500 EUR. Cross-check: no revenue comparable exists. The closest pro…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The payer pays humans today for this exact job, at 0.08 GBP per word or 50 USD and up per pattern, and no dedicated tool exists in the App Store or in search results. But free generic AI covers part of the job, search volume is small, and no request dated inside 90 days was found.",
+      "summary": "",
+      "concerns": [
+       "Free ChatGPT or DeepL is good enough for many designers",
+       "Small audience and a thin search channel",
+       "Translation errors would reach the designer's customers and cause refund requests",
+       "Charts are images and cannot be translated, so only the text side is covered"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-10T21:34:54.115Z",
+   "updatedAt": "2026-11-10T21:34:54.115Z",
+   "outcome": null
+  },
   {
    "id": "site-weather-evidence-rain-day-and-1-in-10-year",
    "title": "Site Weather Evidence: rain-day and 1-in-10-year reports for extension-of-time claims outside the UK",
@@ -3953,19 +4079,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-10T19:18:41.057Z",
+   "lastRunAt": "2026-11-10T21:19:13.370Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Global",
-   "nextMarket": "Global",
-   "emptyRuns": 55,
-   "radius": 1,
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 56,
+   "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 27,
+   "runsLastDay": 28,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-10T21:18:41.057Z"
+   "nextRunAfter": "2026-11-10T23:19:13.370Z"
   }
  },
  "scorecard": {
