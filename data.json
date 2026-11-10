@@ -1,22 +1,145 @@
 {
- "generatedAt": "2026-11-10T09:17:39.841Z",
+ "generatedAt": "2026-11-10T11:27:07.433Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 28,
+  "total": 29,
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 0,
+  "queued": 1,
   "parked": 2,
   "declined": 25,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "gebrauchtwaren-buch-differenzbesteuerung-25a-ust",
+   "title": "Gebrauchtwaren-Buch: Differenzbesteuerung (§25a UStG) für Reseller auf eBay, Vinted, Kleinanzeigen …",
+   "pitch": "For VAT-registered German resellers who buy used goods from private persons: a browser tool that keeps the per-item purchase and sale record §25a requires, writes the purchase receipt (Ankaufbeleg) for a private seller, works out the margin VAT per item or by the Gesamtdifferenz method, and outputs the monthly VAT-return figures and a DATEV booking file. Unlike the only dedicated tool (Vintax), i…",
+   "platform": "web",
+   "marketLabel": "Germany and Europe",
+   "status": "queued",
+   "statusLabel": "In the queue",
+   "prototype": false,
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "a VAT-registered German reseller of used goods (vintage clothing, electronics, books, collectibles) selling on eBay, Vinted, Kleinanzeigen …",
+    "buys": "the per-item §25a record and purchase receipts the tax office needs for the margin scheme (without them it can refuse the scheme, and VAT is due on the full price instead of the margin), plus monthly VAT figures and a DATEV file. This saves the adviser hours spent on single receipts, which lexoffice and sevdesk cannot…",
+    "model": "subscription",
+    "price": "9 EUR a month or 89 EUR a year",
+    "proof": [
+     {
+      "url": "https://apps.shopify.com/vintax",
+      "note": "The same job (margin-scheme VAT per item, purchase register, invoices, DATEV export) sells for 19 USD a month (up to 50 orders), 39 USD (300) and 79 USD (unlimited), for Shopify stores only.",
+      "date": "2026-10-15"
+     }
+    ],
+    "nobodyPaysIf": "At low volume the calculation is simple, and sevdesk itself says an Excel sheet is enough. Many small resellers keep a spreadsheet and leave the rest to their tax adviser, and Kleinunternehmer cannot use §25a at all, which shrinks the paying audience to VAT-registered resellers.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "product lead",
+    "reason": "Picked from the bench: the Scout scored it 3.3, a little under the usual bar, and the studio had nothing else to build. The Product lead has not read it yet. The review panel is skipped; the one-day prototype is how you judge it.",
+    "at": "2026-11-10T11:27:00.091Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "Standing gap: lexoffice and sevdesk users have said for over a year that their tools cannot handle §25a. The first dedicated tool (Vintax) launched on 2026-10-15 but only inside Shopify. It or others…",
+   "score": 3.3,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 30,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 3500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 3500,
+       "basis": "Bottom-up: assume (unverified) that the free receipt and calculator pages reach 400 visits a month after a six-month SEO ramp. Guides from sevdesk, taxfix and Lexware hold the head term. About 1% start a trial and half of those pay 9 EUR a month, so about 2 new subscribers a month from month 6, or about 50 paid subscriber-months in year one. That is about 450 EUR, minus about 50 EUR for Stripe fe…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A paid, brand-new competitor proves the payer exists, and its Shopify-only scope leaves eBay, Vinted and shop resellers unserved. Demand evidence is thin (one older forum ask plus developer and consultant activity in Sept to Nov 2026), and Excel is a real free alternative at low volume.",
+      "summary": "",
+      "concerns": [
+       "Excel plus a tax adviser is good enough for most low-volume resellers",
+       "Vintax or bookkeeping suites may add §25a support for other channels",
+       "Mistakes in the tax logic (mixed baskets, refunds, the Gesamtdifferenz rules) create liability and need careful disclaimers",
+       "Vinted offers no sales export, so sales may need manual entry"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [
+    "niche-focus",
+    "trust-privacy",
+    "free-lead-magnet",
+    "no-signup"
+   ],
+   "factorFit": 0.76,
+   "links": {
+    "repo": "https://github.com/veste-software/gebrauchtwaren-buch-differenzbesteuerung-25a-ust",
+    "preview": "https://veste-software.github.io/gebrauchtwaren-buch-differenzbesteuerung-25a-ust/",
+    "live": null
+   },
+   "createdAt": "2026-11-10T11:27:00.091Z",
+   "updatedAt": "2026-11-10T11:27:07.403Z",
+   "outcome": null
+  },
   {
    "id": "hundesteuer-atlas-der-steuersatz-jeder-gemeinde",
    "title": "Hundesteuer-Atlas: der Steuersatz jeder Gemeinde aus der eigenen Satzung",
@@ -3415,19 +3538,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-10T09:04:46.658Z",
+   "lastRunAt": "2026-11-10T11:07:47.381Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 50,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 51,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 34,
+   "runsLastDay": 35,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-10T11:04:46.658Z"
+   "nextRunAfter": "2026-11-10T17:07:47.381Z"
   }
  },
  "scorecard": {
