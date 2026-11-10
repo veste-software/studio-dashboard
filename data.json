@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T02:18:06.913Z",
+ "generatedAt": "2026-11-10T02:24:01.615Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -131,7 +131,7 @@
     "live": null
    },
    "createdAt": "2026-11-10T01:08:03.646Z",
-   "updatedAt": "2026-11-10T02:18:04.961Z",
+   "updatedAt": "2026-11-10T02:24:00.049Z",
    "outcome": null
   },
   {
@@ -2809,7 +2809,7 @@
   "building": [
    {
     "title": "Hundesteuer-Atlas: der Steuersatz jeder Gemeinde aus der eigenen Satzung",
-    "stage": "qa"
+    "stage": "building"
    }
   ],
   "waiting": [
