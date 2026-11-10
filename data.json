@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T08:24:12.856Z",
+ "generatedAt": "2026-11-10T08:59:44.138Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -317,7 +317,7 @@
    "window": "",
    "score": null,
    "index": {
-    "composite": 2.95,
+    "composite": 2.85,
     "used": {
      "risk": 2,
      "success": 3,
@@ -331,7 +331,7 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 2.95 is below 3.6"
+     "overall index 2.85 is below 3.6"
     ],
     "yearlyCostEur": 60,
     "needsServer": false,
@@ -339,7 +339,7 @@
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 2.95 is below 4",
+      "overall index 2.85 is below 4",
       "potential 3 is below 4"
      ]
     },
@@ -695,7 +695,7 @@
    "window": "",
    "score": null,
    "index": {
-    "composite": 1.9,
+    "composite": 1.85,
     "used": {
      "risk": 2,
      "success": 2,
@@ -709,7 +709,7 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 1.9 is below 3.6"
+     "overall index 1.85 is below 3.6"
     ],
     "yearlyCostEur": 12,
     "needsServer": false,
@@ -717,7 +717,7 @@
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 1.9 is below 4",
+      "overall index 1.85 is below 4",
       "potential 1 is below 4"
      ]
     },
@@ -1040,7 +1040,7 @@
    "window": "",
    "score": null,
    "index": {
-    "composite": 2.65,
+    "composite": 2.6,
     "used": {
      "risk": 2,
      "success": 2,
@@ -1054,7 +1054,7 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 2.65 is below 3.6"
+     "overall index 2.6 is below 3.6"
     ],
     "yearlyCostEur": 40,
     "needsServer": false,
@@ -1062,7 +1062,7 @@
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 2.65 is below 4",
+      "overall index 2.6 is below 4",
       "potential 3 is below 4"
      ]
     },
@@ -1500,7 +1500,7 @@
    "window": "",
    "score": null,
    "index": {
-    "composite": 2.65,
+    "composite": 2.6,
     "used": {
      "risk": 2,
      "success": 2,
@@ -1514,7 +1514,7 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 2.65 is below 3.6"
+     "overall index 2.6 is below 3.6"
     ],
     "yearlyCostEur": 20,
     "needsServer": false,
@@ -1522,7 +1522,7 @@
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 2.65 is below 4",
+      "overall index 2.6 is below 4",
       "potential 3 is below 4"
      ]
     },
@@ -2252,7 +2252,7 @@
    "window": "",
    "score": null,
    "index": {
-    "composite": 2.15,
+    "composite": 2.05,
     "used": {
      "risk": 2,
      "success": 2,
@@ -2266,7 +2266,7 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 2.15 is below 3.6"
+     "overall index 2.05 is below 3.6"
     ],
     "yearlyCostEur": 15,
     "needsServer": false,
@@ -2274,7 +2274,7 @@
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 2.15 is below 4",
+      "overall index 2.05 is below 4",
       "potential 2 is below 4"
      ]
     },
@@ -2367,7 +2367,7 @@
    "window": "",
    "score": null,
    "index": {
-    "composite": 1.9,
+    "composite": 1.85,
     "used": {
      "risk": 2,
      "success": 2,
@@ -2381,7 +2381,7 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 1.9 is below 3.6"
+     "overall index 1.85 is below 3.6"
     ],
     "yearlyCostEur": 15,
     "needsServer": false,
@@ -2389,7 +2389,7 @@
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 1.9 is below 4",
+      "overall index 1.85 is below 4",
       "potential 1 is below 4"
      ]
     },
@@ -3016,7 +3016,7 @@
    "window": "",
    "score": null,
    "index": {
-    "composite": 2.7,
+    "composite": 2.65,
     "used": {
      "risk": 2,
      "success": 3,
@@ -3030,7 +3030,7 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 2.7 is below 3.6"
+     "overall index 2.65 is below 3.6"
     ],
     "yearlyCostEur": 15,
     "needsServer": false,
@@ -3038,7 +3038,7 @@
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 2.7 is below 4",
+      "overall index 2.65 is below 4",
       "potential 2 is below 4"
      ]
     },
@@ -3116,7 +3116,7 @@
    "window": "",
    "score": null,
    "index": {
-    "composite": 2.95,
+    "composite": 2.85,
     "used": {
      "risk": 2,
      "success": 3,
@@ -3130,7 +3130,7 @@
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 2.95 is below 3.6"
+     "overall index 2.85 is below 3.6"
     ],
     "yearlyCostEur": 20,
     "needsServer": false,
@@ -3138,7 +3138,7 @@
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 2.95 is below 4",
+      "overall index 2.85 is below 4",
       "potential 3 is below 4"
      ]
     },
