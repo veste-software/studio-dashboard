@@ -1,22 +1,153 @@
 {
- "generatedAt": "2026-11-10T18:03:37.110Z",
+ "generatedAt": "2026-11-10T19:34:04.094Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 31,
+  "total": 32,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 2,
-  "declined": 28,
+  "declined": 29,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "site-weather-evidence-rain-day-and-1-in-10-year",
+   "title": "Site Weather Evidence: rain-day and 1-in-10-year reports for extension-of-time claims outside the UK",
+   "pitch": "For small builders, subcontractors and planners in Australia, New Zealand, Ireland, Canada, Malaysia and FIDIC markets: enter a site and a period and get a claim-ready PDF of daily rain, wind and temperature against long-term monthly averages and 1-in-10-year values, with the days over the contract…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "a small building contractor or subcontractor (5 to 50 staff) in Australia, New Zealand, Ireland, Canada or a FIDIC market, or the planner o…",
+    "buys": "a claim-ready weather evidence PDF for one site and period: daily rain, wind and temperature against monthly long-term averages and 1-in-10-year values, threshold days counted, sources and station distance stated. It replaces hours of downloading and comparing data by hand, and a refused EOT means liquidated damages f…",
+    "model": "one-off",
+    "price": "39 EUR per report (one site, up to 6 months); 290 EUR a year for unlimited reports",
+    "proof": [
+     {
+      "url": "https://www.jctltd.co.uk/product/location-based-downtime-report",
+      "note": "UK contractors pay 216 GBP + VAT per month per location for the same job (Met Office Downtime Report for EOT claims)",
+      "date": "2026-11-10"
+     },
+     {
+      "url": "https://ehab-auto-new.pages.dev/credits/",
+      "note": "WeatherWise prices historical site weather at 150 credits (1 credit = 1 GBP) and an NEC weather baseline at 350 credits; paid packs from 5,000 GBP",
+      "date": "2026-11-10"
+     },
+     {
+      "url": "https://stormrecord-website.pages.dev/",
+      "note": "US buyers pay 9.99 USD for a single-date weather evidence PDF",
+      "date": "2026-02-19"
+     }
+    ],
+    "nobodyPaysIf": "Small residential builders can list wet dates from free national weather data themselves, which is all a residential claim form asks for. Principals may reject reanalysis-based figures, so only larger commercial claims justify a paid report, and there WeatherWise and claims consultants already sell.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 2.9 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2.",
+    "at": "2026-11-10T19:34:04.033Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.9.",
+     "Scout ratings out of 5: demand 3, competition gap 3, timeliness 2, buildability 3, monetization 3.",
+     "The Scout's own main worry: Small builders use free national rainfall data and will not pay.",
+     "Expected profit in the first 12 months: 1,400 EUR (best case 12,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1400,
+     "upsideEur": 12000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1400,
+       "upsideEur": 12000,
+       "basis": "Bottom-up: an assumed 8,000 search visits a year once location pages rank, times 1% conversion (assumed), gives 80 reports at 39 EUR = 3,120 EUR. Halve that for the first-year ramp, then subtract about 120 EUR running costs and 5% payment fees: about 1,400 EUR. Earning 5,000 EUR a year needs about 128 reports, which the assumed reach does not deliver in year one. Cross-check: the same job sells a…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The payer and price are proven for the exact job in the UK (Met Office/JCT) and the US (StormRecord), and a dated Australian article shows builders racing a 10-business-day claim window with only free raw data. Search demand outside the UK is visible in autocomplete but thin, and a direct UK entrant (WeatherWise) using global ERA5 data exists, so gap and monetization stay at 3.",
+      "summary": "",
+      "concerns": [
+       "Small builders use free national rainfall data and will not pay",
+       "Principals and adjudicators may reject ERA5 reanalysis values; station data licences outside Canada and Ireland are unverified (BoM page returned 403)",
+       "WeatherWise could launch a cheap self-serve global tier",
+       "Low, seasonal search volume outside the UK"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-10T19:34:04.033Z",
+   "updatedAt": "2026-11-10T19:34:04.033Z",
+   "outcome": null
+  },
   {
    "id": "pid-sheet-eu-customs-product-identifiers-from-an",
    "title": "PID Sheet: EU customs product identifiers from any shop's CSV",
@@ -3822,19 +3953,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-10T17:14:06.402Z",
+   "lastRunAt": "2026-11-10T19:18:41.057Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 54,
-   "radius": 2,
+   "nextMarket": "Global",
+   "emptyRuns": 55,
+   "radius": 1,
    "radiusLevels": 4,
-   "runsLastDay": 27,
+   "runsLastDay": 29,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-10T19:14:06.402Z"
+   "nextRunAfter": "2026-11-10T21:18:41.057Z"
   }
  },
  "scorecard": {
