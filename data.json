@@ -1,22 +1,268 @@
 {
- "generatedAt": "2026-11-10T12:15:18.564Z",
+ "generatedAt": "2026-11-10T13:26:42.314Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 29,
+  "total": 31,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 2,
-  "declined": 26,
+  "declined": 28,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "pid-sheet-eu-customs-product-identifiers-from-an",
+   "title": "PID Sheet: EU customs product identifiers from any shop's CSV",
+   "pitch": "For online sellers outside the EU who ship to EU consumers from WooCommerce, BigCommerce, eBay or Etsy. Drop in the product export and the tool checks every item for the three identifiers EU customs has required since 1 November 2026 (M-PID, NS-PID, S-PID). It validates barcodes, fills manufacturer…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An online shop owner outside the EU (UK, US, Switzerland, Norway) on WooCommerce, BigCommerce or eBay with tens to thousands of SKUs who sh…",
+    "buys": "A catalogue in which every item carries the three customs identifiers, with valid barcodes and supplier codes merged in, plus files their carrier accepts. This saves hours of manual spreadsheet work and avoids parcels being held, returned or confiscated at EU customs.",
+    "model": "one-off",
+    "price": "19 EUR per catalogue export (or 9 EUR a month for repeat exports)",
+    "proof": [
+     {
+      "url": "https://apps.shopify.com/mikata-pid-eu-customs-check",
+      "note": "The same job on Shopify sells at 9 USD a month (Pro: bulk fixes, supplier-sheet paste, carrier CSV export); the basic check is free",
+      "date": "2026-10-30"
+     }
+    ],
+    "nobodyPaysIf": "Sellers just type SKU plus a self-assigned or batch code into three spreadsheet columns, or their carrier or shipping app accepts this per shipment. The check itself is offered free (Mikata's free tier), and the hard field (the manufacturer code) has to come from suppliers, which no tool can supply.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 3.2 of 5, under the 3.5 the studio builds from.",
+    "at": "2026-11-10T13:26:42.266Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.2.",
+     "Scout ratings out of 5: demand 3, competition gap 3, timeliness 4, buildability 4, monetization 3.",
+     "The Scout's own main worry: Shipping platforms and carriers may add their own PID checks at label time.",
+     "Expected profit in the first 12 months: 400 EUR (best case 3,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "EU customs made product identifiers (M-PID, NS-PID, and S-PID where one exists) mandatory on B2C import declarations from 1 November 2026. USPS now asks for them per item in Click-N-Ship and its APIs…",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 3000,
+       "basis": "Bottom-up (assumed, no search volumes were seen): about 600 visits a month after a three-month ramp from long-tail queries such as 'NS-PID WooCommerce' and 'eBay product identifier EU'. At 1.5% buying a 19 EUR export, that is about 9 sales a month, or roughly 1,300 EUR over the remaining months before payment fees. Cross-check: the only priced competitor (Mikata, 9 USD a month) launched on 2026-1…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The rule, carrier enforcement (USPS) and seller confusion (eBay community, VAR 2026-10-05) are documented and dated. Shopify is already served, and the non-Shopify segment has only partial tools and no dated WooCommerce request. The job is light enough that many sellers will do it in a spreadsheet.",
+      "summary": "",
+      "concerns": [
+       "Shipping platforms and carriers may add their own PID checks at label time",
+       "Sellers may fill three spreadsheet columns themselves",
+       "Rule details are disputed (the 150 EUR threshold, what to enter for handmade or used goods), and wrong guidance could look like customs advice",
+       "The peak passes before search traffic builds"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-10T13:26:42.266Z",
+   "updatedAt": "2026-11-10T13:26:42.266Z",
+   "outcome": null
+  },
+  {
+   "id": "pattern-print-files-layered-a4-us-letter-a0-copy",
+   "title": "Pattern Print Files: layered A4, US Letter, A0 copy-shop and projector files from one pattern PDF",
+   "pitch": "For indie sewing, bag, toy and cosplay pattern designers who sell PDF patterns: upload one full-size vector pattern PDF and get the full set of customer files (A4 and US Letter tiles with overlap, page labels, assembly map and test square, an A0 copy-shop file and a projector file) with the size la…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An indie sewing-pattern designer who sells PDF patterns on Etsy or their own shop and releases several patterns a year",
+    "buys": "The full customer file set (layered A4 and Letter tiles with overlap, labels, assembly map, A0 copy-shop file, projector file) produced in one step every time a pattern is released or corrected. Without it they either pay a freelancer per pattern or keep several Illustrator files in sync by hand, and that causes error…",
+    "model": "subscription",
+    "price": "39 EUR a year, or 6 EUR per single pattern",
+    "proof": [
+     {
+      "url": "https://www.freelancer.de/projects/tiled-letter-teddy-pattern-reformat",
+      "note": "A designer pays 10-30 USD for exactly this job (tiled A4 and Letter at true scale with a control square). It drew 26 proposals.",
+      "date": "2026-07-10"
+     },
+     {
+      "url": "https://docuslice.com/blog/2026-07-25-How-to-Print-a-Sewing-Pattern-at-Full-Size/",
+      "note": "A tiling app for patterns sells Pro and Pro+ tiers, with vector export paywalled. The post shows no price.",
+      "date": "2026-07-25"
+     }
+    ],
+    "nobodyPaysIf": "Designers already own Illustrator and put up with its layerless tiling, or pay a cheap freelancer once per pattern. A 39 EUR yearly tool only beats that for designers who release or revise several patterns a year.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 2.9 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1.",
+    "at": "2026-11-10T13:25:57.177Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 2.9.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 1, buildability 4, monetization 3.",
+     "The Scout's own main worry: Low search volume: designers may not search for a tool and may just keep using Illustrator.",
+     "Expected profit in the first 12 months: 400 EUR (best case 2,500 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.95,
+    "used": {
+     "risk": 1,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.95 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.95 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: autocomplete shows no suggestions for the projector-file query, so I assume only 100-300 visits a month from designer queries after a 4-month ramp. At 2% buying 39 EUR a year, that is about 20-30 sales in months 5-12, or 800-1,150 EUR gross. Cross-check: buyers pay freelancers only 10-30 USD per pattern (26 bids on one such job), so willingness to pay is low. I halve the conversion to …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 1,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The designer-side job (layered multi-format tiles from one master file) has only partial answers: Illustrator tiling, Acrobat poster printing, a consumer tiling app and a reverse-direction joiner. Freelancers are still paid for it in 2026. Demand is thin and the price ceiling is low, so this is a bench prototype, not a main product.",
+      "summary": "",
+      "concerns": [
+       "Low search volume: designers may not search for a tool and may just keep using Illustrator",
+       "Low price ceiling, set by 10-30 USD freelance jobs",
+       "Layers (OCG) are encoded differently by Illustrator, Inkscape, Affinity and CLO, and some files may lose layers or render differently in some viewers"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-10T13:25:57.177Z",
+   "updatedAt": "2026-11-10T13:25:57.177Z",
+   "outcome": null
+  },
   {
    "id": "gebrauchtwaren-buch-differenzbesteuerung-25a-ust",
    "title": "Gebrauchtwaren-Buch: Differenzbesteuerung (§25a UStG) für Reseller auf eBay, Vinted, Kleinanzeigen …",
@@ -3576,19 +3822,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-10T11:07:47.381Z",
+   "lastRunAt": "2026-11-10T13:10:22.607Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 51,
-   "radius": 1,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 52,
+   "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 32,
+   "runsLastDay": 34,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-10T13:07:47.381Z"
+   "nextRunAfter": "2026-11-10T15:10:22.607Z"
   }
  },
  "scorecard": {
