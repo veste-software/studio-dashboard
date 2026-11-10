@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T12:06:56.585Z",
+ "generatedAt": "2026-11-10T12:15:18.564Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -10,9 +10,9 @@
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 1,
+  "queued": 0,
   "parked": 2,
-  "declined": 25,
+  "declined": 26,
   "nonDigital": 0,
   "worthDomain": 0
  },
@@ -23,14 +23,14 @@
    "pitch": "For VAT-registered German resellers who buy used goods from private persons: a browser tool that keeps the per-item purchase and sale record §25a requires, writes the purchase receipt (Ankaufbeleg) for a private seller, works out the margin VAT per item or by the Gesamtdifferenz method, and outputs the monthly VAT-return figures and a DATEV booking file. Unlike the only dedicated tool (Vintax), i…",
    "platform": "web",
    "marketLabel": "Germany and Europe",
-   "status": "queued",
-   "statusLabel": "In the queue",
+   "status": "declined",
+   "statusLabel": "Decided against",
    "prototype": false,
    "origin": "Niche scout",
    "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "product: Resellers pay for this (Vintax 19 to 79 USD, VinTracker 2.99 to 39.99 EUR, easybill from 9 EUR a month), but those tools already bundle it, so a new one has no clear payer.",
     "legacy": false,
     "payer": "a VAT-registered German reseller of used goods (vintage clothing, electronics, books, collectibles) selling on eBay, Vinted, Kleinanzeigen …",
     "buys": "the per-item §25a record and purchase receipts the tax office needs for the margin scheme (without them it can refuse the scheme, and VAT is due on the full price instead of the margin), plus monthly VAT figures and a DATEV file. This saves the adviser hours spent on single receipts, which lexoffice and sevdesk cannot…",
@@ -45,62 +45,84 @@
     ],
     "nobodyPaysIf": "At low volume the calculation is simple, and sevdesk itself says an Excel sheet is enough. Many small resellers keep a spreadsheet and leave the rest to their tax adviser, and Kleinunternehmer cannot use §25a at all, which shrinks the paying audience to VAT-registered resellers.",
     "claim": "",
-    "checks": [],
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "doubtful",
+      "why": "Resellers pay for this (Vintax 19 to 79 USD, VinTracker 2.99 to 39.99 EUR, easybill from 9 EUR a month), but those tools already bundle it, so a new one has no clear payer.",
+      "rating": 3
+     }
+    ],
     "ratings": [
      {
       "who": "scout",
+      "rating": 3
+     },
+     {
+      "who": "product",
       "rating": 3
      }
     ]
    },
    "decision": {
     "by": "product lead",
-    "reason": "Picked from the bench: the Scout scored it 3.3, a little under the usual bar, and the studio had nothing else to build. The Product lead has not read it yet. The review panel is skipped; the one-day prototype is how you judge it.",
-    "at": "2026-11-10T11:27:00.091Z",
+    "reason": "Rejected by the product lead: The non-Shopify gap the Scout claims is already served by German reseller tools: Resaldo (§25a per item and Gesamtdifferenz, self-issued receipts, eBay import), VinTracker (margin-scheme accounting and receipts from 2.99 EUR a month) and easybill (§25a invoices and DATEV from 9 EUR a month), plus Vintax on Shopify, so our only angle is a twist.",
+    "at": "2026-11-10T12:15:17.099Z",
     "detail": []
    },
    "trigger": "standing need",
    "window": "Standing gap: lexoffice and sevdesk users have said for over a year that their tools cannot handle §25a. The first dedicated tool (Vintax) launched on 2026-10-15 but only inside Shopify. It or others…",
    "score": 3.3,
    "index": {
-    "composite": 2.75,
+    "composite": 2.35,
     "used": {
-     "risk": 2,
+     "risk": 4,
      "success": 2,
      "monetization": 3,
      "potential": 2,
      "automation": 4
     },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
+    "agreement": "low",
+    "disputed": [
+     "risk"
+    ],
+    "crossValidated": true,
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 2.75 is below 3.6"
+     "the payer is doubtful: product: Resellers pay for this (Vintax 19 to 79 USD, VinTracker 2.99 to 39.99 EUR, easybill from 9 EUR a month), but those tools already bundle it, so a new one has no clear p…",
+     "overall index 2.35 is below 3.6",
+     "risk 4 is above 3.5"
     ],
-    "yearlyCostEur": 30,
+    "yearlyCostEur": 45,
     "needsServer": false,
     "invest": {
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
+      "overall index 2.35 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
      ]
     },
     "profit": {
-     "expectedEur": 400,
-     "upsideEur": 3500,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
+     "expectedEur": 100,
+     "upsideEur": 2000,
+     "crossVerified": true,
+     "disputed": true,
+     "agreement": "low",
      "estimates": [
       {
        "who": "scout",
        "expectedEur": 400,
        "upsideEur": 3500,
        "basis": "Bottom-up: assume (unverified) that the free receipt and calculator pages reach 400 visits a month after a six-month SEO ramp. Guides from sevdesk, taxfix and Lexware hold the head term. About 1% start a trial and half of those pay 9 EUR a month, so about 2 new subscribers a month from month 6, or about 50 paid subscriber-months in year one. That is about 450 EUR, minus about 50 EUR for Stripe fe…"
+      },
+      {
+       "who": "product",
+       "expectedEur": 100,
+       "upsideEur": 2000,
+       "basis": "Bottom-up (all inputs are assumptions; I saw no search volumes): the target queries are niche, about 100 to 300 searches a month in total, and the top results are guides from established brands (sevdesk, Lexware, easybill, taxfix). A new site with a ramp gets perhaps 150 visits a month by months 6 to 12. Only part of them are VAT-registered (Kleinunternehmer are excluded), and about 1% convert at…"
       }
      ]
     },
@@ -120,6 +142,22 @@
        "Mistakes in the tax logic (mixed baskets, refunds, the Gesamtdifferenz rules) create liability and need careful disclaimers",
        "Vinted offers no sales export, so sales may need manual entry"
       ]
+     },
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The Shopify thread has one real reseller request from April 2025; the October and November 2026 replies are two developers advertising their own tools, and an ELSTER thread shows people asking about the rule rather than for software. Searching beyond the Scout's list turned up Resaldo (built for exactly this niche, listed September and October 2026), VinTracker and easybill, which already offer §25a records, self-issued receipts and DATEV or adviser exports outside Shopify. GenV and Resell OS c…",
+      "summary": "The non-Shopify gap the Scout claims is already served by German reseller tools: Resaldo (§25a per item and Gesamtdifferenz, self-issued receipts, eBay import), VinTracker (margin-scheme accounting and receipts from 2.99 EUR a month) and easybill (§25a invoices and DATEV from 9 EUR a month), plus V…",
+      "concerns": [
+       "At least three current alternatives (Vintax, Resaldo, VinTracker, easybill) cover the core job, and VinTracker starts at 2.99 EUR a month",
+       "The paying audience is narrow: only VAT-registered resellers buying from private people can use §25a, and most Vinted sellers are Kleinunternehmer",
+       "Small resellers commonly use a spreadsheet plus their tax adviser, and the advisers' DATEV setup covers the booking",
+       "A wrong margin-VAT figure would damage trust and could expose the operator to liability; the tax logic needs expert review"
+      ]
      }
     ]
    },
@@ -137,7 +175,7 @@
     "live": null
    },
    "createdAt": "2026-11-10T11:27:00.091Z",
-   "updatedAt": "2026-11-10T11:27:07.403Z",
+   "updatedAt": "2026-11-10T12:15:17.106Z",
    "outcome": null
   },
   {
@@ -3550,7 +3588,7 @@
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-10T17:07:47.381Z"
+   "nextRunAfter": "2026-11-10T13:07:47.381Z"
   }
  },
  "scorecard": {
