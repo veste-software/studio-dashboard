@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T02:40:18.946Z",
+ "generatedAt": "2026-11-10T02:45:51.472Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -9,9 +9,9 @@
   "total": 28,
   "live": 0,
   "staging": 1,
-  "building": 1,
+  "building": 0,
   "queued": 0,
-  "parked": 1,
+  "parked": 2,
   "declined": 25,
   "nonDigital": 0,
   "worthDomain": 0
@@ -23,14 +23,14 @@
    "pitch": "For dog owners and people about to get a dog in Germany: one page per municipality with the current and announced dog-tax rates (first and second dog, listed or dangerous dogs), reductions and exemptions, and a link to the bylaw, extracted from municipal bylaws and refreshed every budget season.",
    "platform": "web",
    "marketLabel": "Germany and Europe",
-   "status": "building",
-   "statusLabel": "Being built",
+   "status": "parked",
+   "statusLabel": "Paused",
    "prototype": false,
    "origin": "Niche scout",
    "decision": {
-    "by": "product lead",
-    "reason": "Picked from the bench: the Scout scored it 3.3, a little under the usual bar, and the studio had nothing else to build. The Product lead read it from scratch and chose to build it. The review panel is skipped; the one-day prototype is how you judge it.",
-    "at": "2026-11-10T01:08:03.646Z",
+    "by": "orchestrator",
+    "reason": "QA still failing after 3 rounds: No municipality data: data/ does not exist (no 396-entry municipalities-nw.json, no per-municipality results, no coverage-nw.md). AC 2, 5 and 6 fail. Needs a run or machine with network access (npm run municipalities, npm run harvest). | No municipality pages are generated, so no page answers 'hund…",
+    "at": "2026-11-10T02:45:49.863Z",
     "detail": []
    },
    "trigger": "A wave of dog-tax increases for 2027 decided in the Oct-Nov 2026 budget sessions (e.g. Paderborn 72 to 120 EUR from January 2027, final council vote 2026-11-12). This recurs every year.",
@@ -131,7 +131,7 @@
     "live": null
    },
    "createdAt": "2026-11-10T01:08:03.646Z",
-   "updatedAt": "2026-11-10T02:40:17.315Z",
+   "updatedAt": "2026-11-10T02:45:49.863Z",
    "outcome": null
   },
   {
@@ -2805,13 +2805,8 @@
   "checkedInAt": "2026-11-10T00:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "building",
-  "building": [
-   {
-    "title": "Hundesteuer-Atlas: der Steuersatz jeder Gemeinde aus der eigenen Satzung",
-    "stage": "qa"
-   }
-  ],
+  "status": "waiting for the owner",
+  "building": [],
   "waiting": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
