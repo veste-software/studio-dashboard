@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T09:48:40.364Z",
+ "generatedAt": "2026-11-11T11:52:59.747Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -4079,19 +4079,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-11T09:35:42.063Z",
+   "lastRunAt": "2026-11-11T11:38:47.100Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 62,
-   "radius": 2,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 63,
+   "radius": 1,
    "radiusLevels": 4,
-   "runsLastDay": 16,
+   "runsLastDay": 17,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-11T11:35:42.063Z"
+   "nextRunAfter": "2026-11-11T13:38:47.100Z"
   }
  },
  "scorecard": {
