@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T15:01:40.477Z",
+ "generatedAt": "2026-11-11T15:38:03.432Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -4277,119 +4277,189 @@
   ]
  },
  "learning": {
-  "n": 10,
-  "shrink": 0.5,
+  "n": 15,
+  "shrink": 0.6,
   "factors": [
+   {
+    "id": "single-job",
+    "description": "does one job extremely well instead of being a suite",
+    "weight": 1.77,
+    "count": 7
+   },
    {
     "id": "no-signup",
     "description": "usable without an account; registration comes later, to save or to pay",
-    "weight": 1.63,
+    "weight": 1.38,
+    "count": 5
+   },
+   {
+    "id": "ai-native",
+    "description": "uses AI for something that was not possible or affordable before",
+    "weight": 1.38,
     "count": 5
    },
    {
     "id": "instant-value",
     "description": "the visitor gets a useful result within seconds, with no setup",
-    "weight": 1.4,
+    "weight": 1.19,
+    "count": 4
+   },
+   {
+    "id": "timing",
+    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
+    "weight": 1.19,
     "count": 4
    },
    {
     "id": "community",
     "description": "built with or around a community; users contribute or talk about it",
-    "weight": 1.4,
+    "weight": 1.19,
     "count": 4
    },
    {
-    "id": "single-job",
-    "description": "does one job extremely well instead of being a suite",
-    "weight": 1.18,
-    "count": 3
-   },
-   {
-    "id": "timing",
-    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
-    "weight": 1.18,
-    "count": 3
-   },
-   {
-    "id": "trust-privacy",
-    "description": "privacy-first or local processing, or honesty, as a visible difference",
-    "weight": 1.18,
-    "count": 3
+    "id": "design-quality",
+    "description": "clearly better UX and clarity than the category",
+    "weight": 1.19,
+    "count": 4
    },
    {
     "id": "simple-pricing",
     "description": "clear, cheap, transparent pricing, or an ad or affiliate model that fits the visitor intent",
-    "weight": 1.18,
+    "weight": 1.19,
+    "count": 4
+   },
+   {
+    "id": "trust-privacy",
+    "description": "privacy-first or local processing, or honesty, as a visible difference",
+    "weight": 0.99,
     "count": 3
    },
    {
     "id": "low-ops",
     "description": "runs itself with little maintenance or support",
-    "weight": 1.18,
+    "weight": 0.99,
     "count": 3
+   },
+   {
+    "id": "niche-focus",
+    "description": "serves a specific audience or need the generalists ignore",
+    "weight": 0.79,
+    "count": 2
    },
    {
     "id": "share-loop",
     "description": "the output is shareable or embeddable and brings new users (links, cards, badges, scores)",
-    "weight": 0.95,
+    "weight": 0.79,
+    "count": 2
+   },
+   {
+    "id": "data-edge",
+    "description": "unique, curated or fresher data than the alternatives",
+    "weight": 0.79,
     "count": 2
    },
    {
     "id": "integration",
     "description": "lives inside an existing platform or workflow (extension, plugin, bot, API)",
-    "weight": 0.95,
+    "weight": 0.79,
     "count": 2
-   },
-   {
-    "id": "niche-focus",
-    "description": "serves a specific audience or need the generalists ignore",
-    "weight": 0.73,
-    "count": 1
    },
    {
     "id": "seo-engine",
     "description": "many genuinely useful pages that rank for long-tail queries (tools or data, not filler)",
-    "weight": 0.73,
+    "weight": 0.6,
     "count": 1
    },
    {
     "id": "free-lead-magnet",
     "description": "a free tool that feeds a paid product",
-    "weight": 0.73,
-    "count": 1
-   },
-   {
-    "id": "ai-native",
-    "description": "uses AI for something that was not possible or affordable before",
-    "weight": 0.73,
-    "count": 1
-   },
-   {
-    "id": "data-edge",
-    "description": "unique, curated or fresher data than the alternatives",
-    "weight": 0.73,
-    "count": 1
-   },
-   {
-    "id": "design-quality",
-    "description": "clearly better UX and clarity than the category",
-    "weight": 0.73,
+    "weight": 0.6,
     "count": 1
    },
    {
     "id": "retention-loop",
     "description": "a reason to come back (streaks, alerts, a daily puzzle, saved work)",
-    "weight": 0.73,
+    "weight": 0.6,
     "count": 1
    },
    {
     "id": "game-hook",
     "description": "games: short sessions, a simple core loop, instant restart, a shareable score",
-    "weight": 0.73,
+    "weight": 0.6,
     "count": 1
    }
   ],
   "recent": [
+   {
+    "name": "Fastlane",
+    "url": "https://www.usefastlane.ai",
+    "category": "AI short-form marketing video generator and scheduler for s…",
+    "platform": "web",
+    "better": "The user enters their website, Fastlane pulls trending content from their niche and generates matching short videos, and the user swipes right to schedule or left to reject. Captions are written automatically and posts go to TikTok, Instagram and YouTube, live within about five minutes.",
+    "why": "Seen: the team cut a broad marketing tool down to short-form video after about 2,000 customer calls, ran silent usability tests that produced the swipe interface, and offered extra free days for booking a call. Inferred: turning creation into a yes or no decision removes the blank-page problem for …",
+    "lesson": "Reduce the user's job to approving or rejecting AI-made drafts in a swipe or one-click review loop, and cut every feature customers do not mention in calls.",
+    "factors": [
+     "single-job",
+     "design-quality",
+     "ai-native"
+    ]
+   },
+   {
+    "name": "Peec AI",
+    "url": "https://peec.ai",
+    "category": "Analytics showing how a brand appears in ChatGPT, Perplexit…",
+    "platform": "web",
+    "better": "A marketer adds prompts their buyers would ask, and Peec runs them daily across several AI models. It shows the brand's visibility, sentiment and competitor share, plus which source pages shape the answers. Workflows are opinionated and narrow, with unlimited seats and public tiered prices from 95 …",
+    "why": "Seen: the company attributes growth to AI search becoming a priority for brands and to fast customer-driven shipping. Inferred: a brand-new question (are we in the AI answer) appeared with no incumbent tool, and a focused dashboard that queried the models at scale won before the SEO suites adapted.…",
+    "lesson": "When a platform shift creates a new question that businesses must answer, ship a narrow, opinionated monitor for exactly that question with public prices before the incumbent suites bolt it on.",
+    "factors": [
+     "timing",
+     "data-edge",
+     "design-quality"
+    ]
+   },
+   {
+    "name": "Cal AI",
+    "url": "https://www.calai.app",
+    "category": "Photo-based AI calorie tracking app",
+    "platform": "app",
+    "better": "The user snaps a photo of the meal and gets calories, protein, carbs and fat in seconds; barcode scan and text description are fallbacks. The app openly states about 80 percent accuracy.",
+    "why": "Seen: the founder's stated trigger was hating manual logging and asking why he could not just photograph the food; growth came from TikTok fitness creators, micro-influencers and Meta ads funded by early revenue. Inferred: vision models made a ten-second log possible for the first time, which remov…",
+    "lesson": "Look for a tedious manual chore inside a mature category that AI can collapse into a single action, and make that one action the entire first-run experience.",
+    "factors": [
+     "ai-native",
+     "single-job",
+     "design-quality"
+    ]
+   },
+   {
+    "name": "GojiberryAI",
+    "url": "https://gojiberry.ai",
+    "category": "AI sales agent that finds B2B buyers showing intent signals…",
+    "platform": "web",
+    "better": "The user enters their website, the agent learns the business, watches more than 15 buying and social signals (job changes, competitor engagement, funding news), scores prospects against the ideal customer, and drafts and sends outreach by email and social. It claims to go live in about five minutes…",
+    "why": "Seen: the founders first ran the service manually with assistants at a previous company, then pivoted from an AI meeting-notes product that got 2,000 waitlist signups and zero payers. They now market heavily with their own tool, LinkedIn and Reddit content, YouTube and high-volume cold email. Infer…",
+    "lesson": "Charge for a measurable business outcome (meetings, leads, revenue) with one clear public price, and validate it by delivering the result manually before automating it.",
+    "factors": [
+     "ai-native",
+     "single-job",
+     "simple-pricing"
+    ]
+   },
+   {
+    "name": "Turbo AI",
+    "url": "https://www.turbo.ai",
+    "category": "AI study tool that turns lectures, PDFs and videos into not…",
+    "platform": "web",
+    "better": "A student drops in a lecture recording, PDF or YouTube link and gets editable notes plus flashcards, quizzes and even a podcast version in one place. They can let the AI write the notes or write alongside it, and a chat assistant explains terms in context. It runs on web and mobile with notes synce…",
+    "why": "Seen: the output is the study artefact itself, not a transcript, and it spread from friends to classmates and then to other campuses within months. Inferred: students have a recurring, deadline-driven need (exams), so a tool that removes hours of flashcard making converts to a paid plan quickly. Ot…",
+    "lesson": "Turn the raw input a user already has (a file, a link, a recording) into the finished artefact they actually need for their deadline, not an intermediate summary, and price for the recurring deadline.",
+    "factors": [
+     "ai-native",
+     "niche-focus",
+     "single-job"
+    ]
+   },
    {
     "name": "Bank Statement Converter",
     "url": "https://bankstatementconverter.com",
@@ -4497,48 +4567,6 @@
      "timing",
      "integration"
     ]
-   },
-   {
-    "name": "Rybbit",
-    "url": "https://rybbit.com",
-    "category": "open-source cookieless web analytics",
-    "platform": "web",
-    "better": "One dashboard shows sessions, funnels, journeys, retention, session replay, error tracking and web vitals. It needs no cookies, it can be self-hosted from one Docker Compose file, and the hosted plans start at 13 dollars a month.",
-    "why": "Seen: the launch spread through Reddit self-hosting communities, X, Hacker News and Product Hunt, and grew quickly in stars. Inferred: the pitch combined a clearer interface with privacy and self-hosting. That gave three groups a reason to switch: people frustrated with GA4, privacy-minded EU sites…",
-    "lesson": "In a crowded category, ship a feature-dense, privacy-first alternative to a disliked incumbent as open source, and charge for the hosted version.",
-    "factors": [
-     "trust-privacy",
-     "design-quality",
-     "community"
-    ]
-   },
-   {
-    "name": "TrustMRR",
-    "url": "https://trustmrr.com",
-    "category": "database of verified startup revenue with a startup marketp…",
-    "platform": "web",
-    "better": "A founder pastes a read-only payment provider key and gets a public page whose revenue, MRR and 30-day chart refresh hourly and cannot be edited. Visitors browse a leaderboard ranked by MRR with month-over-month growth, filter by category, and see which verified startups are for sale with their pri…",
-    "why": "Seen: it was built in about a day in response to a public debate about faked revenue screenshots, and it earns money from sidebar ad slots and later a marketplace. Inferred: verification turned a contested claim into a trusted, shareable artifact. Founders link to their pages to prove traction, whi…",
-    "lesson": "Where a niche runs on claims nobody can check, build a page that reads the truth from a source of record through a read-only connection, and make each result a public page the owner wants to share.",
-    "factors": [
-     "data-edge",
-     "share-loop",
-     "timing"
-    ]
-   },
-   {
-    "name": "Postiz",
-    "url": "https://postiz.com",
-    "category": "open-source social media scheduler with AI agent access",
-    "platform": "web",
-    "better": "Developers can self-host the full product for free or pay from 29 dollars a month for the hosted cloud. Since early 2026 every plan includes an MCP server, a command line tool for agents, a public API and webhooks. An AI assistant such as Claude or OpenClaw can schedule and publish posts on the use…",
-    "why": "Seen: revenue stayed at roughly 3 to 6 thousand dollars a month for a long time. It jumped after Postiz published an agent command line tool, an MCP server and a skill in the OpenClaw skill registry, and after a viral OpenClaw article named it as the way for agents to post. Seen: the founder says a…",
-    "lesson": "Ship an MCP server, a small command line tool and a clear public API alongside the web UI, and list them where AI agents look for tools, so agents become a channel that brings in users.",
-    "factors": [
-     "integration",
-     "timing",
-     "community"
-    ]
    }
   ],
   "insights": "## Calibration Too early. The portfolio has 1 idea (scouted, rated by 1 agent, composite 2.95) and **0 outcomes**. I cannot say which agent's ratings predict best. Revisit once about 5 shipped products have 4+ weeks of Search Console data. ## What works (only 1 site has numbers: n=1, so a correlation and not a cause) The one site with traction is a German-language programmatic directory of public procurement notices. Over 28 days it had about 286 clicks and 12.1k impressions, average position 15.7, and it is roughly 6 weeks old (age inferred). - Clicks come from **thousands of long-tail detail pages** (one notice per page) ranking in positions 3 to 5 with high CTR. The homepage ranks around 32 and does little. - Queries are very specific: named entities (buyers, companies), classification codes and place names. Rivals cover these thinly. - Near page one: code explainers (\"cpv code ...\") and region hubs (\"ausschreibungen city\"). Hub pages look like the next lever. - Some impressions come from machine-generated queries (long chains of -site: filters). They are worth little, so do not count them as demand. - The last weekly bucket is probably reporting lag, not a drop. ## What to do differently (hypotheses) - Prefer ideas built on **open, regularly updated public data** that yields many distinct, useful pages people search for by name or code, especially in German or other non-English markets. - Each page must carry real data (no thin pages or doorway pages). - Be more cautious with single-job English SaaS tools: we have no traction data for that kind yet. - Do not trust a composite rated by one agent alone. Wait for the blind reviewers.",
@@ -4568,6 +4596,18 @@
    {
     "id": "familiar-interface",
     "description": "Copies the interaction conventions and file formats of an expensive incumbent, without its branding, so switching costs nothing."
+   },
+   {
+    "id": "distribution-first",
+    "description": "The founders already master a repeatable acquisition channel (short-form creators, LinkedIn content, campus word of mouth, paid social) before or while building, and shape the product to fit that chan"
+   },
+   {
+    "id": "self-marketing-product",
+    "description": "A growth or marketing tool that the team uses to acquire its own customers, so every campaign doubles as a live public demo of the product."
+   },
+   {
+    "id": "paid-creator-flywheel",
+    "description": "Early subscription revenue is immediately reinvested into creator and performance ads, so a high-converting paywall becomes the main growth engine."
    }
   ]
  }
