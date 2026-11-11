@@ -1,22 +1,148 @@
 {
- "generatedAt": "2026-11-11T12:03:02.318Z",
+ "generatedAt": "2026-11-11T14:01:36.132Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 33,
+  "total": 34,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 2,
-  "declined": 30,
+  "declined": 31,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "short-answer-coach-for-wset-level-3-wines",
+   "title": "Short Answer Coach for WSET Level 3 Wines",
+   "pitch": "For WSET Level 3 Award in Wines candidates: original practice questions in the four-question, 25-mark short written format, with instant AI marking against marking points that shows which points earned marks and what was missing. Built as one free page per specification topic with one free marked a…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A WSET Level 3 Award in Wines candidate (wine-trade employee, sommelier or serious enthusiast) who has paid for the course and must pass th…",
+    "buys": "Unlimited marked practice of the 25-mark short written questions: original questions for each specification topic, instant marking against marking points, and what was missing. Today they mark themselves against a schedule (ThirtyFifty, NVWA) or wait for a tutor, and free chatbots give generic feedback with no WSET-st…",
+    "model": "one-off",
+    "price": "24 EUR once for 6 months of access",
+    "proof": [
+     {
+      "url": "https://thirtyfifty.co.uk/WSET-L3-Exam-Questions.asp",
+      "note": "Candidates pay £30 for Level 3 mocks to mark themselves (4 short written exams) and £20 for chapter questions",
+      "date": "2026-11-11"
+     },
+     {
+      "url": "https://napavalleywineacademy.com/products/wset-level-3-wine-full-mock-exam-tasting-theory",
+      "note": "Full Level 3 theory and tasting mock kit for 189 USD, seen in a search result (page returned 429 when opened)",
+      "date": "2026-11-11"
+     }
+    ],
+    "nobodyPaysIf": "Candidates paste a question and their answer into a free chatbot, or rely on the mock marking already in their course fee; each candidate is in the market only for the few weeks before the exam.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "scout gates",
+    "reason": "Flagged for trademark, IP or terms-of-service concerns",
+    "at": "2026-11-11T14:01:36.039Z",
+    "detail": [
+     "A trademark, IP or terms-of-service concern stops an idea outright, because a launched product could be taken down.",
+     "Scout ratings out of 5: demand 2, competition gap 4, timeliness 1, buildability 4, monetization 3.",
+     "The Scout's own main worry: Free chatbots look good enough to many candidates.",
+     "Expected profit in the first 12 months: 1,200 EUR (best case 8,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 90,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1200,
+     "upsideEur": 8000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1200,
+       "upsideEur": 8000,
+       "basis": "Bottom-up: 6,000 visits a year at full ramp (assumed), halved for the year-one search ramp, gives 3,000 visits; at 2% conversion (assumed) that is 60 payers x 24 EUR = 1,440 EUR, minus about 100 EUR in merchant-of-record fees, about 60 EUR of LLM calls and a 15 EUR domain, so about 1,260 EUR. Making 5,000 EUR a year needs about 210 payers (about 10,500 visits at 2%), which the channel probably ca…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Paid Level 3 practice exists and is sold for self-marking, which shows candidates spend money on mocks. In two searches nobody marks the written answers. Demand is shown only indirectly (autocomplete, total enrolments, apps released in 2026), and free chatbots are a strong substitute.",
+      "summary": "",
+      "concerns": [
+       "Free chatbots look good enough to many candidates",
+       "The Level 3 audience may be much smaller than assumed (no breakdown by level found)",
+       "Wrong wine facts in AI-written questions or uneven marking would destroy trust",
+       "WSET or a large course provider could ship AI marking themselves"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-11T14:01:36.039Z",
+   "updatedAt": "2026-11-11T14:01:36.039Z",
+   "outcome": null
+  },
   {
    "id": "pattern-translator-for-knit-and-crochet-designer",
    "title": "Pattern Translator for knit and crochet designers",
@@ -4079,19 +4205,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-11T11:38:47.100Z",
+   "lastRunAt": "2026-11-11T13:43:07.371Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 63,
-   "radius": 1,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 64,
+   "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 14,
+   "runsLastDay": 15,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-11T13:38:47.100Z"
+   "nextRunAfter": "2026-11-11T15:43:07.371Z"
   }
  },
  "scorecard": {
