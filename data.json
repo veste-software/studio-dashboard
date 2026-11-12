@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T13:07:08.999Z",
+ "generatedAt": "2026-11-12T13:14:41.619Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -10,13 +10,135 @@
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 5,
+  "queued": 4,
   "parked": 2,
-  "declined": 35,
+  "declined": 36,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "stallkompass-first-wedge",
+   "title": "Stallkompass (first wedge)",
+   "pitch": "Astro static site: stable pages seeded from OpenStreetMap livery and riding tags (name and location only); an operator claim flow with e-mail verification; structured fields for keeping type, price band, services and free places with a 'confirmed on' date that expires after 14 days; a 'place wanted' form (horse type, region, budget, keeping type) that notifies matching claimed stables; region and…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "origin": "Big think",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Free stable profiles; a paid plan for stables with a waiting-list tool, featured placement and an enquiry inbox; later a placement fee on signed boarding contracts and paid listings for pasture and hay.. First revenue: A stable with free places paying for a featured listing in its region.",
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "doubtful",
+      "why": "Stables do pay STALL-FREI.de 69-279 EUR/yr for premium, but its free Basis listing already reaches the owners, so nobody would pay a new site with no traffic.",
+      "rating": 2
+     }
+    ],
+    "ratings": [
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "product lead",
+    "reason": "Rejected by the product lead: STALL-FREI.de already lists about 3,800 stables with monthly prices, free-place counts, 'updated today' timestamps, keeping-type filters and a wanted-ad search agent; the wedge is a twist on it, and a cold-start site cannot reach stables or owners without outreach.",
+    "at": "2026-11-12T13:14:34.933Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "Cheap LLM tooling makes structured stable profiles and waiting-list tools affordable to build without staff, and OpenStreetMap has dedicated tags for livery yards and riding stables to seed a directo…",
+   "score": 5,
+   "index": {
+    "composite": 1.75,
+    "used": {
+     "risk": 4,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 2
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.75 is below 3.6",
+     "risk 4 is above 3.5",
+     "automation 2 is below 3: it would need too much human work"
+    ],
+    "yearlyCostEur": 80,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.75 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 1800,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "product",
+       "expectedEur": 0,
+       "upsideEur": 1800,
+       "basis": "Channel: search for 'stall frei'/'offenstall platz frei', where STALL-FREI.de category pages and ehorses ads rank; a new site starts with OSM pages holding only name and location. Assumed a few thousand visits in year 1, at most a few dozen claimed stables and 0-5 paying at 69-99 EUR (the incumbent's Premium is 69 EUR/yr), so revenue 0-500 EUR against about 80 EUR running costs: about 0. 5,000 EU…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 2,
+      "rationale": "I opened STALL-FREI.de's newest and Offenstall pages: listings show monthly prices, free-place counts and 'diese Stunde/heute aktualisiert' timestamps, Basis listings expire unless renewed every 3 months, and saved searches become wanted ads that e-mail new matches. That covers almost every feature in the wedge. ehorses, landwirt.com, Cylex and Kleinanzeigen also serve the queries, and no 2026 entrant turned up.",
+      "summary": "STALL-FREI.de already lists about 3,800 stables with monthly prices, free-place counts, 'updated today' timestamps, keeping-type filters and a wanted-ad search agent; the wedge is a twist on it, and a cold-start site cannot reach stables or owners without outreach.",
+      "concerns": [
+       "The Scout's gap ('no dates, no structured prices') is contradicted by the incumbent's own listing pages",
+       "Two-sided cold start: OSM seeds have no availability, price or keeping type, so pages are thin until stables claim them, and getting claims needs outreach the …",
+       "Mass-generated location pages match the pattern behind the studio directory's 95% impression drop",
+       "E-mailing unclaimed stables about enquiries risks unsolicited advertising under UWG"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/stallkompass-first-wedge",
+    "preview": "https://veste-software.github.io/stallkompass-first-wedge/",
+    "live": null
+   },
+   "createdAt": "2026-11-12T13:12:09.420Z",
+   "updatedAt": "2026-11-12T13:14:41.557Z",
+   "outcome": null
+  },
   {
    "id": "antwortquote-first-wedge",
    "title": "Antwortquote (first wedge)",
@@ -2441,60 +2563,6 @@
    "createdAt": "2026-11-09T19:01:22.869Z",
    "updatedAt": "2026-11-09T19:01:22.869Z",
    "outcome": null
-  },
-  {
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
-   "origin": "Big think",
-   "trigger": "",
-   "window": "Cheap LLM tooling makes structured stable profiles and waiting-list tools affordable to build without staff, and OpenStreetMap has dedicated tags for livery yards and riding stables to seed a directo…",
-   "index": null,
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "outcome": null,
-   "id": "bet-stallkompass",
-   "title": "Stallkompass",
-   "pitch": "A search for free horse boarding places in Germany, starting with open-stable and retirement places, where stables show free places with a confirmed date, their prices and keeping type, and owners post one search that reaches every matchin… Germany has about 1.2 million horses (FN estimate), and boarding is the biggest recurring cost of keeping one, yet free places are still found through word of…",
-   "platform": "marketplace",
-   "score": 3.5,
-   "earns": "Free stable profiles; a paid plan for stables with a waiting-list tool, featured placement and an enquiry inbox; later a placement fee on signed boarding contracts and paid listings for pasture and hay.. First revenue: A stable with free places paying for a featured listing in its region.. At scale…",
-   "sources": [
-    {
-     "url": "https://www.stall-frei.de/",
-     "note": "Incumbent classifieds for stables, horse shares, pasture and feed; free to list with paid ad options; listings show free-place counts with no dates. Footer © 2…",
-     "date": "2026-11-09"
-    },
-    {
-     "url": "https://www.ehorses.at/kleinanzeigen/stall-frei-weideplatz-pensionspferdehaltung-fuer-junge-aeltere-pensionierte-pferde-oder-sportpferde-die-eine-auszeit-benoe-kaufen-in-14-400-pasek/4874095.html",
-     "note": "ehorses 'Stall frei' results: retirement and pasture places across DE, NL, FR at 50-400 EUR with no period and no posting dates. Page undated; date is when I o…",
-     "date": "2026-11-09"
-    },
-    {
-     "url": "https://equi-pages.de/en/?p=4890",
-     "note": "German warmblood foal registrations fell more than 8% in 2025 and about 18% in two years, a sector trend and a risk.",
-     "date": "2026-03-17"
-    }
-   ],
-   "decision": {
-    "by": "big think",
-    "reason": "Ranked 4 of 8 in the daily ranking: aggregate 2.67 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 600 EUR in the first year, about 30000 EUR if it takes off.",
-    "at": "2026-11-09T16:41:23.035Z",
-    "detail": [
-     "Market: Horse owners looking for a boarding place, and boarding stables, many of them small farms.. About 1.2 million horses in Germany; roughly 2.7 billion EUR a year in boarding fees (estimate)",
-     "The gap: Classifieds earn from ad placements and focus on horse sales, so stable listings are static adverts that stay up after the place is gone. Stable operators fill places by word of mouth and private waiting lists, and nobody collects availability and waiting-list data across stables.",
-     "First wedge: Open-stable (Offenstall, Aktivstall) and retirement places in Germany, where owners search regionally or nationally and keeping type and price matter most.. Astro static site: stable pages seeded from OpenStreetMap livery and riding tags (name and location only); an operator claim flow…",
-     "First test (350 EUR): Landing pages with a stable map for two federal states (Lower Saxony and North Rhine-Westphalia) and the 'place wanted' form; 250 EUR of paid search on the proven queries for three weeks; postal letters to 100 boarding stables offering a free profile.",
-     "Strongest case against: Owners choose stables by trust and visits, and stables keep waiting lists precisely so they can choose their boarders, so they may not want to be found by strangers. Moves happen every few years, so usage is rare and retention weak. STALL-FREI.de has offered almost this sinc…"
-    ]
-   },
-   "createdAt": "2026-11-09T16:41:23.035Z",
-   "updatedAt": "2026-11-09T16:41:23.035Z"
   },
   {
    "marketLabel": "",
