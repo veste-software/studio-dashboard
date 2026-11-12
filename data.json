@@ -1,22 +1,1201 @@
 {
- "generatedAt": "2026-11-12T18:00:33.854Z",
+ "generatedAt": "2026-11-12T18:35:05.823Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 43,
+  "total": 53,
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 1,
+  "queued": 11,
   "parked": 2,
   "declined": 39,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "gradeknit-grade-a-knitting-pattern-into-every-si",
+   "title": "GradeKnit: grade a knitting pattern into every size from one schematic",
+   "pitch": "Indie knitwear designers enter gauge, size chart and the base schematic once. The tool computes stitch and row counts for every size, rounded to the stitch repeat, and exports pattern notation like 'cast on 88 (96, 104, 112) sts'.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "An indie knitwear designer selling sized garment patterns on Ravelry or Etsy",
+    "buys": "Days of spreadsheet work and grading errors across 8-12 sizes before test knitting",
+    "model": "one-off",
+    "price": "29 EUR once",
+    "proof": [
+     {
+      "url": "https://clare-mountain-lphc.squarespace.com/blog/grade-knitting-patterns-spreadsheet",
+      "note": "No paid comparable found; this page shows the free spreadsheet route, which is evidence against the idea",
+      "date": "2025-05-28"
+     }
+    ],
+    "nobodyPaysIf": "Designers build a spreadsheet once for free and reuse it.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:35:05.249Z",
+    "detail": [
+     "Missed the strict bar: score 2.6 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Designers pay 29 EUR once for unlimited graded patterns.",
+   "trigger": "standing need",
+   "window": "A standing gap: designers use self-built spreadsheets, and no dedicated tool was found.",
+   "score": 2.6,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 150,
+     "upsideEur": 1500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 150,
+       "upsideEur": 1500,
+       "basis": "Bottom-up: 1,000 visits (assumed) x 2% = 20 x 29 EUR = 580 EUR at full ramp; year one about 150 EUR after the ramp and fees. 5,000 EUR needs 172 buyers, which is not reachable. No comparable revenue exists."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 5,
+      "rationale": "A real gap, but there is no visible payer and the free spreadsheet route works.",
+      "summary": "",
+      "concerns": [
+       "No payer shown",
+       "A tiny search channel"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:35:05.249Z",
+   "updatedAt": "2026-11-12T18:35:05.249Z",
+   "outcome": null
+  },
+  {
+   "id": "bannertabs-weighted-banner-tables-with-significa",
+   "title": "BannerTabs: weighted banner tables with significance letters from SPSS or CSV, in the browser",
+   "pitch": "Freelance market researchers and small agencies load a .sav or CSV file, define a banner once, and export weighted crosstabs with A/B/C significance letters to Excel and PowerPoint. The data never leaves the machine.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A freelance market researcher or 2-5 person agency running a few surveys a quarter that cannot justify about 3,000 EUR a user a year",
+    "buys": "Client-ready banner tables in hours instead of paying a tab house or a licence",
+    "model": "subscription",
+    "price": "29 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.displayr.com/pricing/",
+      "note": "Researchers pay from 2,919 EUR a user a year for this kind of analysis software",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "SavQuick and MetricGate already offer free browser crosstabs, and Displayr has a free tier.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:35:04.708Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Solo researchers pay 29 EUR a month for weighted banners and branded Excel and PowerPoint export.",
+   "trigger": "standing need",
+   "window": "Standing need, but free browser tools appeared in 2026.",
+   "score": 2,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 2,000 visits (assumed) x 1% = 20 payers at full ramp; year one about 4 payers x 29 EUR x 6 months = 696 EUR, cut to 300 EUR for free competitors. 5,000 EUR needs 15 subscribers all year. Cross-check: Displayr's price shows the high end; no comparable for a cheap tier was seen."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The payer exists, but free browser tools already cover it.",
+      "summary": "",
+      "concerns": [
+       "Free SavQuick and MetricGate",
+       "Statistical correctness needs care",
+       "A small audience"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:35:04.708Z",
+   "updatedAt": "2026-11-12T18:35:04.708Z",
+   "outcome": null
+  },
+  {
+   "id": "wrapfill-extend-an-ebook-cover-into-a-paperback",
+   "title": "WrapFill: extend an ebook cover into a paperback full wrap, artwork included",
+   "pitch": "Indie authors upload their Kindle front cover. The tool computes trim, spine and bleed from page count and paper type, extends the artwork into the spine and back with an image model, leaves room for the blurb and barcode, and exports a print-ready PDF.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A self-published author releasing a paperback of an existing ebook",
+    "buys": "A designer's fee for the full wrap and a print file KDP accepts",
+    "model": "one-off",
+    "price": "9 EUR per cover",
+    "proof": [
+     {
+      "url": "https://bookcoverslab.com/tools/turn-ebook-cover-into-paperback",
+      "note": "A tool for this job sells premium tiers (prices not visible); Fiverr gigs for it appeared in search",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "BookCoversLab's free tier and KDP's own Cover Creator handle most wraps, and plain-color backs are normal.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:35:03.693Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Authors pay 9 EUR per finished wrap; the preview is free.",
+   "trigger": "standing need",
+   "window": "Standing need in a crowded category; no window.",
+   "score": 2,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 150,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 200,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 200,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: 2,000 visits (assumed) x 2% = 40 covers x 9 EUR = 360 EUR, plus a year-one ramp, minus about 150 EUR for API and hosting, gives about 200 EUR. 5,000 EUR needs 556 covers, which is not reachable. Cross-check: no comparable revenue was seen."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The payer is plausible but the category is crowded, autocomplete shows almost no demand, and the AI step adds running costs.",
+      "summary": "",
+      "concerns": [
+       "Crowded",
+       "AI artwork quality at print resolution",
+       "Image-rights questions on generated extensions"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:35:03.693Z",
+   "updatedAt": "2026-11-12T18:35:03.693Z",
+   "outcome": null
+  },
+  {
+   "id": "parttracks-part-predominant-rehearsal-mp3s-from",
+   "title": "PartTracks: part-predominant rehearsal MP3s from a MusicXML score, made in the browser",
+   "pitch": "Choir directors and barbershop or a cappella music teams drop a MusicXML export (MuseScore, Sibelius, Finale) and get one MP3 per voice part (the part loud and centered, the others soft), plus slow versions and count-ins to share with singers.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "The director or music team of a community choir, church choir or barbershop chorus",
+    "buys": "Learning tracks for every new piece without paying a track maker or spending an evening per song exporting parts from MuseScore",
+    "model": "subscription",
+    "price": "39 EUR a year per choir",
+    "proof": [
+     {
+      "url": "https://naturalvoice.net/?p=7773",
+      "note": "A paid service for this job exists; no price is shown",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "MuseScore makes the same mixes for free with some manual work, and many choirs run on volunteer time and tiny budgets.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:34:59.640Z",
+    "detail": [
+     "Missed the strict bar: score 2.25 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Choirs pay 39 EUR a year for unlimited songs; one song is free.",
+   "trigger": "standing need",
+   "window": "Standing need. The paid offers are e-mail services or privately run sites, and MuseScore needs manual mixing per part.",
+   "score": 2.25,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 2,000 visits (assumed) x 1.5% = 30 choirs x 39 EUR = 1,170 EUR at full ramp; year one about 12 choirs = 468 EUR, minus fees, about 400 EUR. 5,000 EUR needs 128 choirs, which is not reachable. Cross-check: no price was visible on any comparable, so willingness to pay is unverified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The job is real and partly paid, but the budgets are tiny and the free workaround is good.",
+      "summary": "",
+      "concerns": [
+       "MuseScore is free",
+       "In-browser audio rendering quality",
+       "Small budgets"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:34:59.640Z",
+   "updatedAt": "2026-11-12T18:34:59.640Z",
+   "outcome": null
+  },
+  {
+   "id": "figfix-resize-resample-and-convert-research-figu",
+   "title": "FigFix: resize, resample and convert research figures to a journal's artwork rules in the browser",
+   "pitch": "Researchers drop their figures, pick the journal, and get compliant files (TIFF, EPS or PDF at the right width, dpi and color mode, LZW-compressed, fonts checked) instead of paying a formatting service per figure. Upside: per-journal spec pages that labs link to.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A researcher, often a non-native-English author who already buys editing services, submitting to a journal with strict artwork rules",
+    "buys": "A compliant figure set before a submission or revision deadline, instead of $75 per figure at LetPub or a technical return from the journal",
+    "model": "one-off",
+    "price": "9 EUR per manuscript (up to 10 figures)",
+    "proof": [
+     {
+      "url": "https://www.letpub.com/figure-formatting-service",
+      "note": "Authors pay from $75 per figure for formatting to journal specs",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "Free checkers already say what is wrong, the fixes take a few clicks in free tools, and the paid services sell redrawing and composites a tool cannot do.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:34:58.106Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Checking is free; fixing and exporting a manuscript's figure set costs 9 EUR once.",
+   "trigger": "standing need",
+   "window": "Closing: FigCheck announces Pro auto-fix tools as 'coming soon', and free checkers already exist.",
+   "score": 2.45,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 5,000 visits (assumed) x 1% = 50 manuscripts x 9 EUR = 450 EUR, minus fees and ramp, about 300 EUR. 5,000 EUR needs 556 paid manuscripts, which this channel cannot reach. Cross-check: LetPub's $75 per figure shows authors pay for formatting, but that price buys human work, so it is not a comparable for a tool."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Authors pay for the job, but free checkers cover most of it, and a free competitor's auto-fix is announced.",
+      "summary": "",
+      "concerns": [
+       "FigCheck Pro may ship first",
+       "Specs drift and need upkeep",
+       "Low price per payer"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:34:58.106Z",
+   "updatedAt": "2026-11-12T18:34:58.106Z",
+   "outcome": null
+  },
+  {
+   "id": "quotebox-drop-in-dxf-instant-quote-for-small-las",
+   "title": "QuoteBox: drop-in DXF instant quote for small laser-cutting shops not on WooCommerce",
+   "pitch": "A small laser, plasma or waterjet shop pastes one script tag into its Wix, Squarespace, Shopify or plain site. Customers drop a DXF, pick material and quantity, see a price from the shop's own rates (cut length, pierces, sheet area) and send the request. Every embedded widget links back and brings the next shop.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An owner-run laser, plasma or waterjet job shop, or a maker business with a CO2 or fiber laser, that quotes DXF jobs by e-mail",
+    "buys": "Hours spent quoting files by hand and jobs lost to instant-quote marketplaces",
+    "model": "subscription",
+    "price": "29 EUR a month",
+    "proof": [
+     {
+      "url": "https://slashdot.org/software/p/Quote-Cut/",
+      "note": "A vendor charges £249-999 a month for DXF instant quoting for shops",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "Quote & Cut's free tier covers 25 quotes a month for WordPress shops, and many owners keep quoting by e-mail because they distrust automatic prices.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:34:56.573Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Shops pay 29 EUR a month for the embeddable quote widget configured with their own rates.",
+   "trigger": "standing need",
+   "window": "Standing need. Quote & Cut (founded 2026) shows vendors are moving in, so the non-WordPress tier may not stay open long.",
+   "score": 2.3,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 1,200 visits (assumed) x 1.5% = 18 shops at full ramp. In year one about 6 shops x 29 EUR x 7 months = 1,218 EUR, minus fees and 60 EUR form relay, about 1,100 EUR, cut to 800 EUR for Quote & Cut's free tier. 5,000 EUR needs 15 shops paying all year, which is not reachable in year one. Cross-check: Quote & Cut's prices show shops pay, but it has 0 reviews, so the customer count is unkn…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The job is paid and the price is visible, but the shop owner must trust automatic prices, and a 2026 entrant already offers a free tier.",
+      "summary": "",
+      "concerns": [
+       "Wrong quotes cause disputes and support load",
+       "Quote & Cut free tier",
+       "Messy DXF files from customers"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:34:56.573Z",
+   "updatedAt": "2026-11-12T18:34:56.573Z",
+   "outcome": null
+  },
+  {
+   "id": "grade-studio-grade-an-existing-sewing-pattern-in",
+   "title": "Grade Studio: grade an existing sewing pattern into a full size run in the browser",
+   "pitch": "For indie PDF sewing-pattern designers: import the base size (SVG or DXF), set grade rules at key points once, and export nested multi-size SVG and DXF plus layered PDFs. Upside: saved grade-rule sets per size chart become templates designers reuse and share.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An indie sewing-pattern business selling PDF patterns on Etsy or its own shop, releasing 4-12 multi-size patterns a year",
+    "buys": "Grading each new pattern into 8-15 sizes, which they now pay a freelance grader for per pattern or spend days on in Illustrator",
+    "model": "subscription",
+    "price": "19 EUR a month or 149 EUR a year",
+    "proof": [
+     {
+      "url": "https://apps.apple.com/app/id6761107964",
+      "note": "A close job: drafting plus grading sells at a $24.99 lifetime unlock, a consumer price that also sets a low ceiling. Fiverr grading gigs appeared in search, but their prices could not be opened.",
+      "date": "2026-11-11"
+     }
+    ],
+    "nobodyPaysIf": "Designers who grade rarely pay a freelancer once per pattern, and SewGrader anchors the price at $24.99 lifetime.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:34:55.365Z",
+    "detail": [
+     "Missed the strict bar: score 2.45 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Designers grade one pattern free with a watermark and pay 149 EUR a year for unlimited graded exports.",
+   "trigger": "standing need",
+   "window": "Standing gap. Designers pay freelance graders or grade by hand in Illustrator, and the new tools draft their own blocks instead of grading a designer's existing pattern.",
+   "score": 2.45,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 2,000 visits (assumed) x 2% = 40 annual subscribers at full ramp. In year one, with a slow search ramp, about 8 x 149 EUR = 1,192 EUR, minus fees, about 1,100 EUR, rounded down to 1,000. 5,000 EUR needs 34 annual subscribers, which the channel may reach only in year two. Cross-check: the only priced comparable is SewGrader at $24.99 lifetime with no ratings yet, so the willingness to p…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A real paid chore with freelancer demand and no browser tool for existing patterns, but the build is harder than most (curve grading, notches, nesting), and the price anchor is low.",
+      "summary": "",
+      "concerns": [
+       "Curve and notch handling is hard to get right",
+       "A low price anchor from consumer apps",
+       "Designers who trust a human grader"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:34:55.365Z",
+   "updatedAt": "2026-11-12T18:34:55.365Z",
+   "outcome": null
+  },
+  {
+   "id": "spotsep-spot-color-separations-and-film-positive",
+   "title": "SpotSep: spot-color separations and film positives in the browser for small screen-print shops",
+   "pitch": "Small and garage screen printers upload a design, pick 1-6 spot inks, and get halftoned separations as print-ready film PDFs. The file is processed locally and paid per job or monthly. Upside: a free 'how many screens is this design' estimator for quotes drives traffic.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A 1-5 person screen-print shop or garage printer doing a few multi-color jobs a month without strong Photoshop skills",
+    "buys": "Separations that now cost a freelancer per design, Separo at $49+ a month, or desktop software plus Photoshop",
+    "model": "subscription",
+    "price": "15 EUR a month or 4 EUR per job",
+    "proof": [
+     {
+      "url": "https://separo.io/",
+      "note": "Shops pay $49-149 a month for this exact job",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "Separo already does it online with a 30-day trial, and searchers type 'online free'. A cheaper copy is not a gap.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:34:55.094Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Shops pay 15 EUR a month, or 4 EUR per job, for spot-color separations with film output.",
+   "trigger": "standing need",
+   "window": "Standing need. The market is crowded with Separo online and established desktop tools, so no window exists beyond a lower price tier.",
+   "score": 2.85,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 700,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 700,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 3,000 visits (assumed) x 1% = 30 payers at full ramp. In year one about 12 pay for an average of 8 months x 15 EUR = 1,440 EUR, minus fees, about 1,380 EUR, which I halve to 700 EUR because Separo competes on the same queries. 5,000 EUR needs 28 shops paying all year, which the channel cannot reach in year one. Cross-check: Separo proves the price ($49-149 a month), but its customer co…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The payer and price are proven by Separo, but the niche already has a solid online leader and several desktop tools, so the only angle is a cheaper tier.",
+      "summary": "",
+      "concerns": [
+       "Separo is solid and online",
+       "Simulated-process quality is hard to match",
+       "Free-intent searches"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:34:55.094Z",
+   "updatedAt": "2026-11-12T18:34:55.094Z",
+   "outcome": null
+  },
+  {
+   "id": "planner-linker-add-tabs-and-page-links-to-a-digi",
+   "title": "Planner Linker: add tabs and page links to a digital planner PDF designed in Canva",
+   "pitch": "For Etsy and Gumroad sellers of digital planners: upload the PDF you designed in Canva or Affinity, mark the tab areas once on a template page, map them to the month, week and day pages, and get a hyperlinked PDF that works in GoodNotes, built in the browser. Upside: a free 'check my planner's links' tool brings in sellers and buyers.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A small Etsy or Gumroad digital-planner shop that designs its own planners in Canva and releases new editions each season",
+    "buys": "The hours of linking hundreds of pages by hand, or the Fiverr fee to have it done, every time a design or year changes",
+    "model": "subscription",
+    "price": "9 EUR a month or 69 EUR a year",
+    "proof": [
+     {
+      "url": "https://payhip.com/b/StpL7",
+      "note": "A close job: a browser planner builder sells at $15.48 per buyer. Fiverr gigs for exactly this job appeared in search, but their prices could not be opened.",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "Sellers learn Keynote's free linking once or buy pre-linked templates, and planners sell for a few dollars, which leaves little budget for tools.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:34:54.382Z",
+    "detail": [
+     "Missed the strict bar: score 3 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Sellers link one planner free with a watermark and subscribe at 69 EUR a year to export clean, unlimited planners.",
+   "trigger": "standing need",
+   "window": "Standing gap with a season: sellers launch next year's planners from October to January. What keeps it open is that the answers today are Fiverr freelancers and guides telling sellers to draw every l…",
+   "score": 3,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1100,
+     "upsideEur": 7000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1100,
+       "upsideEur": 7000,
+       "basis": "Bottom-up: 4,000 visits a year (assumed) x 1.5% = 60 subscribers at full ramp. In year one, with the search ramp and churn, about 25 pay an average of 45 EUR = 1,125 EUR, minus fees, about 1,100 EUR. 5,000 EUR needs about 73 annual subscribers, reachable only if the tutorial pages rank in the top 3. Cross-check: the Payhip builder sells at $15.48 (no sales count) and Fiverr gigs are numerous; I s…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Paid freelancers do this job by the dozen, and no seller-side tool could be confirmed. The payers are small shops with thin margins, and the searchers lean towards free.",
+      "summary": "",
+      "concerns": [
+       "PDF-Linkr or a Canva app may already cover it",
+       "Free-intent searches ('hyperlink digital planner free')",
+       "Link behaviour differs between GoodNotes, Notability and e-ink readers"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:34:54.382Z",
+   "updatedAt": "2026-11-12T18:34:54.382Z",
+   "outcome": null
+  },
+  {
+   "id": "abstract-book-builder-book-of-abstracts-and-prog",
+   "title": "Abstract Book Builder: book of abstracts and program booklet from EasyChair, OpenReview or form exp…",
+   "pitch": "For organizers of small academic conferences and workshops whose submission tool does not make a book of abstracts: drop in the accepted-papers export (EasyChair, OpenReview, Microsoft CMT, Google or Microsoft Forms CSV) and get a print-ready PDF and an editable DOCX with sessions, numbered affiliations and an author index, built in the browser. If it takes off, every printed book carries a small…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "The organizer of a 30-300 person academic workshop or conference run on EasyChair, OpenReview, CMT or a form (a PhD student, postdoc or dep…",
+    "buys": "Hours of copy-paste, affiliation numbering and author indexing in Word or LaTeX before a print deadline, without moving the event to a platform that costs $899+ a year",
+    "model": "one-off",
+    "price": "79 EUR per event",
+    "proof": [
+     {
+      "url": "https://fourwaves.com/pricing/",
+      "note": "Organizers pay $899-2,599 a year for a platform whose feature list includes the abstract booklet. This is the same job, bundled.",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "Academics are used to free tools: a student does it in Word or an Overleaf template, or the event already sits on a platform with a built-in book.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-12T18:34:54.098Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Organizers preview the book free and pay 79 EUR once per event to download the unwatermarked PDF and DOCX.",
+   "trigger": "standing need",
+   "window": "Standing gap. Full platforms (Fourwaves, Dryfta, Ex Ordo, Invajo) build the book only if the organizer moves the whole event onto them. Organizers who stay on EasyChair, OpenReview or a form still co…",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1400,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1400,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 2,000 organizer visits a year (assumed; the queries exist but the volume is unmeasured) x 2% = 40 events x 79 EUR = 3,160 EUR at full ramp. With a half-year search ramp that is about 20 events = 1,580 EUR, minus about 5% payment fees and 20 EUR domain = about 1,400 EUR. 5,000 EUR a year needs 64 paid events, which this channel reaches only if visits triple. Cross-check: Fourwaves sells…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Organizers clearly pay for this job inside platforms, and the export-based segment is unserved by anything I could open. But demand is seasonal per event, and academics lean on free workarounds.",
+      "summary": "",
+      "concerns": [
+       "Organizers do it free in Word or LaTeX",
+       "Many searchers for 'book of abstracts' want to read a published book, not build one",
+       "Export formats differ between tools and change over time"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T18:34:54.098Z",
+   "updatedAt": "2026-11-12T18:34:54.098Z",
+   "outcome": null
+  },
   {
    "id": "haltbar-first-wedge",
    "title": "Haltbar (first wedge)",
@@ -5227,19 +6406,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-12T12:11:40.117Z",
+   "lastRunAt": "2026-11-12T18:15:37.960Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Global",
-   "nextMarket": "Global",
-   "emptyRuns": 75,
-   "radius": 1,
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 76,
+   "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 25,
+   "runsLastDay": 26,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-12T18:11:40.117Z"
+   "nextRunAfter": "2026-11-13T00:15:37.960Z"
   }
  },
  "scorecard": {
