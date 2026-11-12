@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T12:52:39.061Z",
+ "generatedAt": "2026-11-12T12:59:51.525Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -10,13 +10,135 @@
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 7,
+  "queued": 6,
   "parked": 2,
-  "declined": 33,
+  "declined": 34,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "scienceexplorer-open-labs-first-wedge",
+   "title": "ScienceExplorer Open Labs (first wedge)",
+   "pitch": "Topic search listing researchers in Germany with recent papers from existing data, each marked 'status unknown' until the researcher claims the profile and sets 'taking students'. Applicants send a structured intent form with a limit of 3 a week, and supervisors get a weekly digest. There is no free chat and no AI ranking of applicants. Segment: People seeking a PhD place in Germany, starting wit…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "origin": "Big think",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Applicants use it free. Labs and institutions pay for position posts and doctoral schools pay a subscription. Applicants can never buy more messages, because that would bring the spam back.. First revenue: A lab paying about EUR 90 for a position post, priced under FindAPhD's GBP 110.",
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "doubtful",
+      "why": "Labs pay GBP 110 (FindAPhD) or EUR 190 (Informatics Europe) only on boards with an audience; EURAXESS and university portals post free, and applicants pay nothing.",
+      "rating": 2
+     }
+    ],
+    "ratings": [
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "product lead",
+    "reason": "Rejected by the product lead: The only payer is a lab buying position posts, which labs already place free on EURAXESS, DAAD and university portals and pay for only on boards with an audience; open supervisors without a post have nothing to buy, and the search channel reaches applicants (who never pay), not labs.",
+    "at": "2026-11-12T12:59:44.167Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "One University of Chicago professor reports about 20 mostly AI-written e-mails a day and says these are unlikely to get a reply (GradPilot, 31 October 2026). OpenAlex also made the researcher graph c…",
+   "score": 5,
+   "index": {
+    "composite": 1.75,
+    "used": {
+     "risk": 4,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 2
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.75 is below 3.6",
+     "risk 4 is above 3.5",
+     "automation 2 is below 3: it would need too much human work"
+    ],
+    "yearlyCostEur": 150,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.75 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 1500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "product",
+       "expectedEur": 0,
+       "upsideEur": 1500,
+       "basis": "Bottom-up: search queries like 'phd positions in germany' are owned by DAAD, Nature Careers and FindAPhD and bring applicants, who pay nothing by design. Labs, the only payers, are not reached by any self-serve channel, so year 1 is about 0-5 posts at EUR 90, at most EUR 450 revenue against about EUR 150 running cost. EUR 5,000 a year needs about 56 paid posts, which this channel cannot reach. Cr…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 2,
+      "rationale": "The GradPilot evidence is real (31 Oct 2026) but it is one professor's account of 20 AI-written emails a day. The 'taking students' signal already exists free on ELLIS central recruiting for ML/AI and on university availability lists, and Applyindex and SupervisorMatch already do supervisor search and matching. The product needs supervisors to claim profiles, which takes outreach the studio cannot do, plus a moderated inbox carrying applicant CVs.",
+      "summary": "The only payer is a lab buying position posts, which labs already place free on EURAXESS, DAAD and university portals and pay for only on boards with an audience; open supervisors without a post have nothing to buy, and the search channel reaches applicants (who never pay), not labs.",
+      "concerns": [
+       "Two-sided cold start: no supervisors means no value, and nothing reaches supervisors",
+       "Free posting on EURAXESS, DAAD PhDGermany and university portals removes the reason to pay",
+       "Listing named researchers as 'status unknown' invites GDPR objections and needs opt-out handling",
+       "Messaging inbox with applicant CVs needs moderation and a person to run it"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/scienceexplorer-open-labs-first-wedge",
+    "preview": "https://veste-software.github.io/scienceexplorer-open-labs-first-wedge/",
+    "live": null
+   },
+   "createdAt": "2026-11-12T12:57:41.739Z",
+   "updatedAt": "2026-11-12T12:59:51.463Z",
+   "outcome": null
+  },
   {
    "id": "journalcheck-first-wedge",
    "title": "Journalcheck (first wedge)",
@@ -2467,60 +2589,6 @@
    },
    "createdAt": "2026-11-09T16:26:28.536Z",
    "updatedAt": "2026-11-09T16:26:28.536Z"
-  },
-  {
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
-   "origin": "Big think",
-   "trigger": "",
-   "window": "One University of Chicago professor reports about 20 mostly AI-written e-mails a day and says these are unlikely to get a reply (GradPilot, 31 October 2026). OpenAlex also made the researcher graph c…",
-   "index": null,
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "outcome": null,
-   "id": "bet-scienceexplorer-open-labs",
-   "title": "ScienceExplorer Open Labs",
-   "pitch": "A rate-limited way for PhD and postdoc applicants to find active supervisors by topic and reach those who have said they are taking people, built on ScienceExplorer's ranked researcher map. Academic matching still runs on cold e-mail, and AI has made cold e-mail free, so faculty now report floods of identical messages and ignore them. Whoever holds identity data for all researchers can offer the …",
-   "platform": "network",
-   "score": 3.8,
-   "earns": "Applicants use it free. Labs and institutions pay for position posts and doctoral schools pay a subscription. Applicants can never buy more messages, because that would bring the spam back.. First revenue: A lab paying about EUR 90 for a position post, priced under FindAPhD's GBP 110.. At scale: My…",
-   "sources": [
-    {
-     "url": "https://gradpilot.com/news/chatgpt-email-to-professor-phd",
-     "note": "Faculty pages describing AI-written applicant e-mails, including about 20 a day for one professor; individual opinions, not a survey.",
-     "date": "2026-10-31"
-    },
-    {
-     "url": "https://infocons.ro/proeduhub-cati-doctoranzi-sunt-in-europa-si-cati-in-romania-italia-si-belgia/",
-     "note": "About 721,000 doctoral students in the EU in 2023, citing Eurostat.",
-     "date": "2026-08-23"
-    },
-    {
-     "url": "https://euraxess.ec.europa.eu/jobs",
-     "note": "Free posting and thousands of offers from 43+ countries, with no supervisor availability signal shown. Page is undated; date is when I read it.",
-     "date": "2026-11-09"
-    }
-   ],
-   "decision": {
-    "by": "big think",
-    "reason": "Ranked 2 of 8 in the daily ranking: aggregate 2.72 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 400 EUR in the first year, about 40000 EUR if it takes off.",
-    "at": "2026-11-09T16:26:24.668Z",
-    "detail": [
-     "Market: PhD and postdoc applicants on one side, supervisors and doctoral schools on the other. About 7.7 million ranked researchers on the supply side; about 721,000 doctoral students in the EU in 2023 as a measure of demand",
-     "The gap: Job boards sell ads to institutions per vacancy, so they do not carry an individual's 'I am open' signal. University tools stop at the campus edge. AI outreach tools earn by producing more e-mail, which is the opposite of what professors want. A cross-institution profile with a claim step …",
-     "First wedge: People seeking a PhD place in Germany, starting with computer science and biology. Topic search listing researchers in Germany with recent papers from existing data, each marked 'status unknown' until the researcher claims the profile and sets 'taking students'. Applicants send a struc…",
-     "First test (400 EUR): A live page on ScienceExplorer for finding supervisors in Germany by topic, using real data and an honest 'status unknown' label, with a 'taking students' button on claimed profiles. Paid search runs on the proven queries.",
-     "Strongest case against: Professors can ignore e-mail at no cost, and top labs already have too many applicants, so supervisors may never come. Without cold e-mail there is no direct way to tell them, so the open flag could stay empty and the product would become a popular free search with no paying…"
-    ]
-   },
-   "createdAt": "2026-11-09T16:26:24.668Z",
-   "updatedAt": "2026-11-09T16:26:24.668Z"
   },
   {
    "id": "compteur-34-jours-telework-day-log-for-cross-bor",
