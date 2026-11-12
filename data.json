@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T13:39:32.055Z",
+ "generatedAt": "2026-11-12T13:44:41.761Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,53 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "haltbar-first-wedge",
+   "title": "Haltbar (first wedge)",
+   "pitch": "Astro site plus a small app. Users upload the order file from Amazon's own data export (or connect via the portability API once allowlisted). They then see each item's 2-year statutory warranty and return deadlines and recall matches from the EU Safety Gate. At 6, 12 and 24 months they get an e-mail asking 'still working? yes / problem / broken'. Product pages appear only after 10 or more verifie…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "In the queue",
+   "prototype": false,
+   "origin": "Big think",
+   "money": {
+    "level": "unchecked",
+    "label": "No payer on record",
+    "why": "no payer is on record (the idea predates the money check)",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Disclosed affiliate commissions on longer-lasting alternatives, later licensing of anonymised durability data to consumer organisations, insurers, repair networks and manufacturers. First revenue: An affiliate commission when a user replaces a broken product with a recommended durable alternative",
+    "checks": [],
+    "ratings": []
+   },
+   "decision": {
+    "by": "product lead",
+    "reason": "Spec written; waiting for the review.",
+    "at": "2026-11-12T13:44:32.466Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "Amazon's Data Portability API gives authorised third parties consented access to EU customers' data, including an order scope. Fakespot's users are still searching ('fakespot alternative 2026' in aut…",
+   "score": 5,
+   "index": null,
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/haltbar-first-wedge",
+    "preview": "https://veste-software.github.io/haltbar-first-wedge/",
+    "live": null
+   },
+   "createdAt": "2026-11-12T13:44:32.466Z",
+   "updatedAt": "2026-11-12T13:44:41.564Z",
+   "outcome": null
+  },
   {
    "id": "hafenkompass-first-wedge",
    "title": "Hafenkompass (first wedge)",
@@ -870,60 +917,6 @@
    "createdAt": "2026-11-12T12:50:10.953Z",
    "updatedAt": "2026-11-12T12:52:39.016Z",
    "outcome": null
-  },
-  {
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
-   "origin": "Big think",
-   "trigger": "",
-   "window": "Amazon's Data Portability API gives authorised third parties consented access to EU customers' data, including an order scope. Fakespot's users are still searching ('fakespot alternative 2026' in aut…",
-   "index": null,
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "outcome": null,
-   "id": "bet-haltbar",
-   "title": "Haltbar",
-   "pitch": "A free warranty-and-recall tracker for Amazon.de shoppers that imports their orders with their consent and later asks 'is it still working?', turning the answers into purchase-verified durability pages for products. Product reviews are written at unboxing and are for sale: a 2026 Amazon lawsuit describes services that sold 'verified purchase' reviews at $30 each, and Mozilla closed Fakespot in Ju…",
-   "platform": "knowledge",
-   "score": 3.75,
-   "earns": "Disclosed affiliate commissions on longer-lasting alternatives, later licensing of anonymised durability data to consumer organisations, insurers, repair networks and manufacturers. First revenue: An affiliate commission when a user replaces a broken product with a recommended durable alternative. …",
-   "sources": [
-    {
-     "url": "https://developer.amazon.com/docs/amazon-data-portability/developer-data-handling-practices.html",
-     "note": "Amazon Data Portability API: customers must tick a box to authorise a third party; onboarding includes allowlisting and an identity and security assessment",
-     "date": "2025-01-08"
-    },
-    {
-     "url": "https://thedesk.net/2025/05/mozilla-shutting-down-pocket-fakespot/",
-     "note": "Mozilla shuts Fakespot and Review Checker on 1 July because it did not fit a model it could sustain (URL shows May 2025; exact day not shown)",
-     "date": "2025-05-01"
-    },
-    {
-     "url": "https://www.bebolddigital.com/news/amazon-fake-review-lawsuit-2026",
-     "note": "Amazon lawsuit describes services selling verified-purchase reviews at $30 each, plus a May 2026 review-pooling policy change",
-     "date": "2026-08-12"
-    }
-   ],
-   "decision": {
-    "by": "big think",
-    "reason": "Ranked 8 of 8 in the daily ranking: aggregate 2 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 100 EUR in the first year, about 50000 EUR if it takes off.",
-    "at": "2026-11-12T12:48:51.728Z",
-    "detail": [
-     "Market: Online shoppers in Germany, starting with Amazon.de buyers of small electronics and household appliances. tens of millions of people (estimate)",
-     "The gap: Amazon earns from the sellers whose ranking depends on fresh five-star reviews, and affiliate sites earn per sale, so neither wants to publish 'broke after 14 months'. Analysis tools only guessed from review text, and proof of purchase stayed locked inside Amazon until the DMA portability …",
-     "First wedge: Amazon.de buyers of chargers, power banks, headphones and small kitchen appliances, which are cheap, short-lived and often recalled. Astro site plus a small app. Users upload the order file from Amazon's own data export (or connect via the portability API once allowlisted). They then s…",
-     "First test (300 EUR): A one-page site 'Wann endet die Gewährleistung für deine Amazon-Käufe?' with order-file upload, plus search ads on the warranty and fake-review queries for 3 weeks; measure uploads and opt-ins to the 12-month check-in",
-     "Strongest case against: Fakespot had a large audience and still did not fit a sustainable model, and older review communities died. Most people never write reviews, and an upload or connect step cuts that further. Durability data takes one to two years to build while AI shopping assistants answer i…"
-    ]
-   },
-   "createdAt": "2026-11-12T12:48:51.728Z",
-   "updatedAt": "2026-11-12T12:48:51.728Z"
   },
   {
    "id": "no-upload-drawing-ballooning-with-as9102-form-3",
@@ -5246,7 +5239,7 @@
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-12T14:11:40.117Z"
+   "nextRunAfter": "2026-11-12T18:11:40.117Z"
   }
  },
  "scorecard": {
