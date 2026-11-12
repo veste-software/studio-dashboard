@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T12:59:51.525Z",
+ "generatedAt": "2026-11-12T13:07:08.999Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -10,13 +10,135 @@
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 6,
+  "queued": 5,
   "parked": 2,
-  "declined": 34,
+  "declined": 35,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "antwortquote-first-wedge",
+   "title": "Antwortquote (first wedge)",
+   "pitch": "Connect LinkedIn through the portability API, or upload LinkedIn's data export while API access is pending. All past applications appear in a tracker with follow-up reminders and templates for 'keine Rückmeldung nach 2 Wochen'. The user taps reply / no reply / interview / offer for each one. Company pages show response rate and median reply time only once 30 or more verified applications exist. N…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "origin": "Big think",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "product: Trackers with reminders are free (Huntr free plan with up to 100 jobs, JobJump, LoopCV), and kununu (over 1M application reviews) and LinkedIn's review-time badges show employer replies for free.",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Freemium for job seekers (AI follow-ups, ghost-risk check on any posting), later a paid integration with employers' applicant-tracking systems that sends applicants status updates automatically, which raises an employer's real score and never hides it. First revenue: A EUR 6/month premium plan for …",
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "nobody",
+      "why": "Trackers with reminders are free (Huntr free plan with up to 100 jobs, JobJump, LoopCV), and kununu (over 1M application reviews) and LinkedIn's review-time badges show employer replies for free.",
+      "rating": 2
+     }
+    ],
+    "ratings": [
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "product lead",
+    "reason": "Rejected by the product lead: Job seekers already get application trackers free (Huntr, JobJump, LoopCV), and kununu, LinkedIn and LoopCV already publish response data per employer, so nobody would pay 6 EUR a month and the 30-application company pages would not fill up in the first year.",
+    "at": "2026-11-12T13:07:02.526Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "LinkedIn's Member Data Portability API lists a JOB_APPLICATIONS domain (docs updated August 2026). Ghost jobs are a 2026 public issue: 85% of respondents in a 2026 US survey favour regulating them, a…",
+   "score": 5,
+   "index": {
+    "composite": 1.75,
+    "used": {
+     "risk": 4,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 2
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.75 is below 3.6",
+     "risk 4 is above 3.5",
+     "automation 2 is below 3: it would need too much human work"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.75 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "product",
+       "expectedEur": 0,
+       "upsideEur": 500,
+       "basis": "Bottom-up, search channel: the target queries are informational and held by karrierebibel, StepStone, karriere.at, AMS and stellenmarkt.de. A new site might reach about 5,000 visits in year one after the ramp (assumed), with 3% signing up (assumed) and 3% of those paying (assumed): about 5 payers. They stay about 3 months because they stop once hired (assumed), so 5 x 18 EUR = 90 EUR revenue agai…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 2,
+      "rationale": "The LinkedIn JOB_APPLICATIONS data type and the 2026 US ghosting survey are real, but the need is already met for free. kununu rates timely replies from over a million candidate reviews, LinkedIn shows 'Review time is typically 1 week' on postings, and LoopCV already publishes response data per company from tracked applications. The target queries bring people who want quick advice, not buyers, and the core feature needs a user base and LinkedIn approval that do not exist at launch.",
+      "summary": "Job seekers already get application trackers free (Huntr, JobJump, LoopCV), and kununu, LinkedIn and LoopCV already publish response data per employer, so nobody would pay 6 EUR a month and the 30-application company pages would not fill up in the first year.",
+      "concerns": [
+       "Free trackers with follow-up reminders already exist (Huntr, JobJump, LoopCV, Kickresume), and any chatbot writes a follow-up email for free",
+       "kununu, LinkedIn's responsiveness insights and LoopCV company pages already cover employer response data",
+       "Cold start: company pages need 30 verified applications each, which very few employers would reach in year one",
+       "LinkedIn must approve third-party access to the portability API, with no published criteria or timeline"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/antwortquote-first-wedge",
+    "preview": "https://veste-software.github.io/antwortquote-first-wedge/",
+    "live": null
+   },
+   "createdAt": "2026-11-12T13:04:51.946Z",
+   "updatedAt": "2026-11-12T13:07:08.971Z",
+   "outcome": null
+  },
   {
    "id": "scienceexplorer-open-labs-first-wedge",
    "title": "ScienceExplorer Open Labs (first wedge)",
@@ -260,60 +382,6 @@
    "createdAt": "2026-11-12T12:50:10.953Z",
    "updatedAt": "2026-11-12T12:52:39.016Z",
    "outcome": null
-  },
-  {
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
-   "origin": "Big think",
-   "trigger": "",
-   "window": "LinkedIn's Member Data Portability API lists a JOB_APPLICATIONS domain (docs updated August 2026). Ghost jobs are a 2026 public issue: 85% of respondents in a 2026 US survey favour regulating them, a…",
-   "index": null,
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "outcome": null,
-   "id": "bet-antwortquote",
-   "title": "Antwortquote",
-   "pitch": "A free application tracker for EU job seekers that imports their LinkedIn applications with consent and turns their outcomes into verified response rates and reply times for each employer. Job seekers apply into silence: in a 2026 US survey, 93% had at least one application never answered and 69% had applied to jobs they suspected were not real. Job boards are paid by employers, so they show posi…",
-   "platform": "knowledge",
-   "score": 3.95,
-   "earns": "Freemium for job seekers (AI follow-ups, ghost-risk check on any posting), later a paid integration with employers' applicant-tracking systems that sends applicants status updates automatically, which raises an employer's real score and never hides it. First revenue: A EUR 6/month premium plan for …",
-   "sources": [
-    {
-     "url": "https://learn.microsoft.com/en-us/linkedin/dma/member-data-portability/shared/snapshot-domain",
-     "note": "LinkedIn's DMA Member Snapshot domains include JOB_APPLICATIONS ('jobs that have been applied to by the user in the past') and SAVED_JOBS",
-     "date": "2026-08-19"
-    },
-    {
-     "url": "https://allwork.space/2026/09/66-of-job-seekers-have-been-ghosted-by-employers-during-the-hiring-process/",
-     "note": "NumberBarn US survey: 93% had an application never answered, 66% ghosted after an interview, 69% applied to jobs they suspected were not real, 85% favour regul…",
-     "date": "2026-09-30"
-    },
-    {
-     "url": "https://fortune.com/2025/02/02/linkedin-indeed-greenhouse-job-seekers-likely-response-interviews/",
-     "note": "Indeed's responsive-employer badge and median response time labels; LinkedIn testing responsiveness insights; Greenhouse testing badges",
-     "date": "2025-02-02"
-    }
-   ],
-   "decision": {
-    "by": "big think",
-    "reason": "Ranked 3 of 8 in the daily ranking: aggregate 2.68 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 300 EUR in the first year, about 100000 EUR if it takes off.",
-    "at": "2026-11-12T12:48:55.771Z",
-    "detail": [
-     "Market: Job seekers in Germany and the EU, starting with office and tech applicants who apply through LinkedIn. tens of millions of job seekers a year in the EU (estimate)",
-     "The gap: Job boards earn from employers, so they highlight good responders but will not publish that a paying customer ignores most applicants. Review sites without proof of application are easy to game. LinkedIn's DMA portability makes applications provable for EU members.",
-     "First wedge: German-speaking job seekers in DACH who apply through LinkedIn, matching the API's EU/EEA/CH limit. Connect LinkedIn through the portability API, or upload LinkedIn's data export while API access is pending. All past applications appear in a tracker with follow-up reminders and templat…",
-     "First test (300 EUR): A one-page site 'Bewerbung keine Rückmeldung? Importiere deine LinkedIn-Bewerbungen und sieh, welche Firmen antworten' with a working import of the LinkedIn data export, plus search ads on the top queries for 3 weeks; count sign-ups and uploads",
-     "Strongest case against: LinkedIn could ship public responsiveness data itself (it is already testing insights) or refuse API approval, and Indeed already shows median response times. Many applications do not go through LinkedIn, so the data covers only a slice. Job seekers churn once hired, so subs…"
-    ]
-   },
-   "createdAt": "2026-11-12T12:48:55.771Z",
-   "updatedAt": "2026-11-12T12:48:55.771Z"
   },
   {
    "marketLabel": "",
