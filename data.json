@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T13:31:13.425Z",
+ "generatedAt": "2026-11-12T13:39:32.055Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -10,13 +10,135 @@
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 2,
+  "queued": 1,
   "parked": 2,
-  "declined": 38,
+  "declined": 39,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "hafenkompass-first-wedge",
+   "title": "Hafenkompass (first wedge)",
+   "pitch": "Astro static site: one page per harbour seeded from OpenStreetMap marina data (ODbL) plus facts extracted from public fee schedules and harbour rules (price per m2, waiting-list rules, whether subletting is allowed, contact), each fact with source link and date; a 'berth wanted' form (boat size, region, season) that feeds a public demand count per harbour and sends alerts; a claim flow for operat…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "origin": "Big think",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Paid featured listings and an enquiry inbox for commercial marinas with free capacity; a premium plan for boat owners (instant multi-region alerts, waiting-list tracker); a transaction fee on season sublets and swaps where harbour rules allow, collected through a payment processor.. First revenue: …",
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "doubtful",
+      "why": "BerthFinder covers Germany with free berth requests and space alerts and free marina listings (5% of stays); boaters pay only harbours' own list fees (EUR 25-80).",
+      "rating": 2
+     }
+    ],
+    "ratings": [
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "product lead",
+    "reason": "Rejected by the product lead: The berth shortage is real, but no payer is shown: BerthFinder already lists German marinas and sends free berth requests and alerts, free for boaters and free to list for marinas (5% of stays), and the few marinas with free berths could only be won by outreach the studio cannot do.",
+    "at": "2026-11-12T13:39:24.408Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "Scarcity is rising and visible (Bregenz list grew from about 440 in 2019 to about 1,500; YACHT April 2026 survey), harbours now charge just to stay on lists, and cheap LLM extraction makes it feasibl…",
+   "score": 5,
+   "index": {
+    "composite": 2,
+    "used": {
+     "risk": 4,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 2
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2 is below 3.6",
+     "risk 4 is above 3.5",
+     "automation 2 is below 3: it would need too much human work"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 1500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "product",
+       "expectedEur": 0,
+       "upsideEur": 1500,
+       "basis": "Bottom-up: search is the only channel and free yacht.de survey articles lead the queries. Assumed (not measured) 10,000 visits in year 1 after a ramp. Boater premium at 29 EUR/yr at an assumed 0.3% gives about 30 payers and 870 EUR, but there is no comparable price because BerthFinder is free to boaters. Marinas: 0-3 at about 240 EUR/yr without outreach (0-720 EUR), against about 120 EUR running …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 2,
+      "rationale": "The YACHT evidence holds: 69% of SH harbours are full, 486 free permanent berths across 83 Baltic marinas, and the Bregenz list grew from about 440 to 1,500 people with a 30 EUR/yr fee. But the core loop (one request reaching many marinas, alerts when space opens) already exists free at BerthFinder, and the ADAC Skipper-Portal, mvp.de and YACHT's free annual report cover the directory and price data. Swaps and sublets are mostly barred by harbour rules, and the few marinas with spare capacity a…",
+      "summary": "The berth shortage is real, but no payer is shown: BerthFinder already lists German marinas and sends free berth requests and alerts, free for boaters and free to list for marinas (5% of stays), and the few marinas with free berths could only be won by outreach the studio cannot do.",
+      "concerns": [
+       "No third party anywhere charges boaters for berth search; the fees they pay go to the harbour that owns the queue",
+       "Few marinas have free capacity, they list free elsewhere, and winning them needs outreach",
+       "A two-sided marketplace with a cold start: the demand counts mean nothing until both sides arrive",
+       "Harbour rules (e.g. Konstanz: one berth per person, allocated from an application list) mostly bar swaps and sublets, so the transaction fee is unlikely"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/hafenkompass-first-wedge",
+    "preview": "https://veste-software.github.io/hafenkompass-first-wedge/",
+    "live": null
+   },
+   "createdAt": "2026-11-12T13:36:16.429Z",
+   "updatedAt": "2026-11-12T13:39:31.989Z",
+   "outcome": null
+  },
   {
    "id": "pachtradar-first-wedge",
    "title": "Pachtradar (first wedge)",
@@ -2807,60 +2929,6 @@
    "createdAt": "2026-11-09T19:01:22.869Z",
    "updatedAt": "2026-11-09T19:01:22.869Z",
    "outcome": null
-  },
-  {
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
-   "origin": "Big think",
-   "trigger": "",
-   "window": "Scarcity is rising and visible (Bregenz list grew from about 440 in 2019 to about 1,500; YACHT April 2026 survey), harbours now charge just to stay on lists, and cheap LLM extraction makes it feasibl…",
-   "index": null,
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "outcome": null,
-   "id": "bet-hafenkompass",
-   "title": "Hafenkompass",
-   "pitch": "A map of every harbour and marina with berth prices, waiting-list rules and free places, where boat owners post one berth search that reaches many harbours and berth holders offer swaps and unused seasons, starting in Germany and on Lake C… Europe has over 6 million boats and about 1 million berths. In Germany there are almost twice as many boats as berths, and berths are handed out through hundr…",
-   "platform": "marketplace",
-   "score": 3.7,
-   "earns": "Paid featured listings and an enquiry inbox for commercial marinas with free capacity; a premium plan for boat owners (instant multi-region alerts, waiting-list tracker); a transaction fee on season sublets and swaps where harbour rules allow, collected through a payment processor.. First revenue: …",
-   "sources": [
-    {
-     "url": "https://www.yacht.de/reisen-chartern/deutschland/ostsee-haefen-2026-liegeplatz-suche-in-sh-braucht-geduld/",
-     "note": "69% of surveyed Schleswig-Holstein harbours have no free permanent berth; only 14 reported free boxes; five large facilities hold about a quarter of free place…",
-     "date": "2026-04-05"
-    },
-    {
-     "url": "https://www.yacht.de/reisen-chartern/deutschland/gebuehrenkeule-am-bodensee-bregenz-kassiert-45-000-euro-fuer-liegeplatz-warteliste/",
-     "note": "Bregenz waiting list about 1,500 (about 440 in 2019), 30 EUR yearly fee to stay listed, waits of 10-25 years; over 52,000 boats vs about 28,000 berths on Lake …",
-     "date": "2025-12-18"
-    },
-    {
-     "url": "https://europeanboatingindustry.eu/about-the-industry/facts-and-figures",
-     "note": "Over 6 million boats, 10,000 marinas, over 1 million berths, 36 million boaters in Europe. Page undated (footer 2026); date is when I opened it.",
-     "date": "2026-11-09"
-    }
-   ],
-   "decision": {
-    "by": "big think",
-    "reason": "Ranked 7 of 8 in the daily ranking: aggregate 2.2 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 200 EUR in the first year, about 20000 EUR if it takes off.",
-    "at": "2026-11-09T16:41:19.378Z",
-    "detail": [
-     "Market: Recreational boat owners and would-be buyers in Germany, Austria and Switzerland, then Europe; harbour operators, marinas and boat clubs.. Over 6 million boats and over 1 million berths in Europe; roughly 2 billion EUR a year in berth fees (estimate)",
-     "The gap: Berths are allocated by hundreds of independent operators under their own waiting-list rules, so no operator has the mandate or incentive to publish cross-harbour data, full harbours never advertise, and classifieds sites earn from dealer ads rather than allocation.",
-     "First wedge: Permanent and seasonal berths on Lake Constance, the Bavarian lakes and the German Baltic coast (Schleswig-Holstein, Mecklenburg-Vorpommern), for boats of 6-14 m.. Astro static site: one page per harbour seeded from OpenStreetMap marina data (ODbL) plus facts extracted from public fee …",
-     "First test (400 EUR): Landing pages for Lake Constance and the Schleswig-Holstein coast with a real harbour map for one region and the 'berth wanted' form; 300 EUR of paid search on the proven queries over three weeks in winter; postal letters to 50 harbours asking whether they would publish free p…",
-     "Strongest case against: The constraint is physical: with almost twice as many boats as berths, a platform cannot create supply, and full harbours have no reason to list. Allocation follows municipal and club rules by application date that a marketplace cannot override, and many harbour rules forbid…"
-    ]
-   },
-   "createdAt": "2026-11-09T16:41:19.378Z",
-   "updatedAt": "2026-11-09T16:41:19.378Z"
   },
   {
    "id": "compteur-34-jours-telework-day-log-for-cross-bor",
