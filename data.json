@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T13:22:01.671Z",
+ "generatedAt": "2026-11-12T13:31:13.425Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -10,13 +10,135 @@
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 3,
+  "queued": 2,
   "parked": 2,
-  "declined": 37,
+  "declined": 38,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "pachtradar-first-wedge",
+   "title": "Pachtradar (first wedge)",
+   "pitch": "A rent check for a parcel using published statistics and open-licensed geodata, an owner-started tender that shows only the municipality until the owner agrees, and radius alerts for farmers. Segment: Non-farming owners in Bavaria whose lease is ending. This is the first wedge of a larger bet, \"Pachtradar\": A rent check and open tender for ordinary farmland leases in Germany, where an owner whose…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "origin": "Big think",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "product: Every owner route is free: Kleinanzeigen listings, Enlapa and landverpachten.de (free for owners), and the rechner-portal.de Pachtpreis-Rechner; I found no German page where an owner pays for a lease tender.",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "The rent check is free and farmers use alerts free. Owners pay a flat tender fee, and energy developers pay a subscription to see parcels whose owners opted in.. First revenue: An owner paying about EUR 79 for a tender.",
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "nobody",
+      "why": "Every owner route is free: Kleinanzeigen listings, Enlapa and landverpachten.de (free for owners), and the rechner-portal.de Pachtpreis-Rechner; I found no German page where an owner pays for a lease tender.",
+      "rating": 2
+     }
+    ],
+    "ratings": [
+     {
+      "who": "product",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "product lead",
+    "reason": "Rejected by the product lead: No owner is shown paying for this job: farmers already chase scarce Bavarian land on free classifieds, five or more solar and storage land brokers are free for owners, and a free lease-price calculator and local rent tables already answer the price question.",
+    "at": "2026-11-12T13:31:06.638Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "Rents rose 9% from 2020 to 2023. Stand-alone battery storage has had a privileged planning route since 23 December 2025, and people now search 'acker verpachten für batteriespeicher', so owners want …",
+   "score": 5,
+   "index": {
+    "composite": 1.75,
+    "used": {
+     "risk": 4,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 2
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.75 is below 3.6",
+     "risk 4 is above 3.5",
+     "automation 2 is below 3: it would need too much human work"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.75 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 2000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "product",
+       "expectedEur": 0,
+       "upsideEur": 2000,
+       "basis": "Bottom-up: search only, assumed 1,500 owner visits in year 1 x 0.5% (assumed; no paid comparable exists) = about 7 tenders x 79 EUR = about 590 EUR gross, minus about 85 EUR for hosting, domain and Stripe fees, so about 500 EUR. Cross-check: no priced comparable found anywhere; landwirt.com carries only 15 lease listings across Germany and Kleinanzeigen Bayern is mostly farmers looking for land, …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 2,
+      "rationale": "Kleinanzeigen Bayern shows 139 'acker pachten' results, 8 of the first 10 from farmers seeking land, so owners are found without paying. The energy angle has five or more free brokers (Enlapa, landverpachten.de, Agrario Energy, Landacquisition.com, flaechenverpachten.de) paid by developers, and the rent check is covered by a free calculator dated October 2026 and free Gutachterausschuss tables. This repeats the studio's pattern of free tools already doing the job, plus a two-sided marketplace w…",
+      "summary": "No owner is shown paying for this job: farmers already chase scarce Bavarian land on free classifieds, five or more solar and storage land brokers are free for owners, and a free lease-price calculator and local rent tables already answer the price question.",
+      "concerns": [
+       "Owner side is free everywhere; no price proof for a 79 EUR tender",
+       "Two-sided liquidity: thin online lease market (15 listings Germany-wide on landwirt.com)",
+       "Ownership verification, bid disputes and owner support need a person",
+       "Parcel-owner linkage is personal data; Tillable-style backlash risk"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/pachtradar-first-wedge",
+    "preview": "https://veste-software.github.io/pachtradar-first-wedge/",
+    "live": null
+   },
+   "createdAt": "2026-11-12T13:27:02.063Z",
+   "updatedAt": "2026-11-12T13:31:13.395Z",
+   "outcome": null
+  },
   {
    "id": "nachfolgeradar-first-wedge",
    "title": "Nachfolgeradar (first wedge)",
@@ -2739,60 +2861,6 @@
    },
    "createdAt": "2026-11-09T16:41:19.378Z",
    "updatedAt": "2026-11-09T16:41:19.378Z"
-  },
-  {
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
-   "origin": "Big think",
-   "trigger": "",
-   "window": "Rents rose 9% from 2020 to 2023. Stand-alone battery storage has had a privileged planning route since 23 December 2025, and people now search 'acker verpachten für batteriespeicher', so owners want …",
-   "index": null,
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "outcome": null,
-   "id": "bet-pachtradar",
-   "title": "Pachtradar",
-   "pitch": "A rent check and open tender for ordinary farmland leases in Germany, where an owner whose lease is ending can see fair prices and reach nearby farmers. About 60% of German farmland is leased, yet ordinary leases mostly pass by word of mouth (my reading: I found no general lease marketplace). Owners face a wide price spread: an average rent of EUR 357 per hectare, new arable contracts around EUR …",
-   "platform": "marketplace",
-   "score": 3.75,
-   "earns": "The rent check is free and farmers use alerts free. Owners pay a flat tender fee, and energy developers pay a subscription to see parcels whose owners opted in.. First revenue: An owner paying about EUR 79 for a tender.. At scale: My estimate for Germany: about 1M hectares re-let a year at an assum…",
-   "sources": [
-    {
-     "url": "https://www.topagrar.com/betriebsleitung/news/pachtpreise-fuer-agrarflaechen-in-letzten-jahren-um-9-gestiegen-a-20002119.html",
-     "note": "9.9 million leased hectares, about 60% of farmland, average EUR 357 per hectare, new arable contracts around EUR 1,000 by editorial estimate.",
-     "date": "2024-04-14"
-    },
-    {
-     "url": "https://reduco.ai/blog/solar/solarpark-flaeche-verpachten-pacht",
-     "note": "Solar rents around EUR 2,500 to 4,500 per hectare, 7 to 13 times farmland rent, by industry figures; advises comparing offers.",
-     "date": "2026-09-05"
-    },
-    {
-     "url": "https://www.topagrar.com/energie/news/marktplatz-fur-solarparkflachen-20010754.html",
-     "note": "Enlapa's model: free for owners, developer commission, about 60 hectares a month added, and its claims of aggressive land-securing teams.",
-     "date": "2025-01-20"
-    }
-   ],
-   "decision": {
-    "by": "big think",
-    "reason": "Ranked 6 of 8 in the daily ranking: aggregate 2.3 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 300 EUR in the first year, about 80000 EUR if it takes off.",
-    "at": "2026-11-09T16:26:33.907Z",
-    "detail": [
-     "Market: Non-farming and inheriting landowners with a lease ending, and farmers looking for land. About EUR 3.5B a year in farmland rent in Germany",
-     "The gap: An ordinary lease brings about a tenth of the rent of a solar lease, so commission-based energy firms have no reason to serve it. Sitting tenants benefit from opaque prices, so I would not expect them to build open tenders. Published statistics stop at state-level averages (my reading of t…",
-     "First wedge: Non-farming owners in Bavaria whose lease is ending. A rent check for a parcel using published statistics and open-licensed geodata, an owner-started tender that shows only the municipality until the owner agrees, and radius alerts for farmers.",
-     "First test (300 EUR): A working rent check for Bavaria built from public statistics, with a tender request form and a farmer alert form, promoted by paid search on the proven queries.",
-     "Strongest case against: Leases change hands rarely and on trust; many owners would rather keep a farmer they know than gain 20% more rent. Farmers lose from transparent rents and could turn on it publicly, as they did on Tillable in the US, and without farmers there is no tender. US players with fu…"
-    ]
-   },
-   "createdAt": "2026-11-09T16:26:33.907Z",
-   "updatedAt": "2026-11-09T16:26:33.907Z"
   },
   {
    "id": "compteur-34-jours-telework-day-log-for-cross-bor",
