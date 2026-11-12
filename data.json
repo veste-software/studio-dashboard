@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T21:38:05.899Z",
+ "generatedAt": "2026-11-12T21:56:56.550Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -169,7 +169,7 @@
     "live": null
    },
    "createdAt": "2026-11-12T21:14:21.551Z",
-   "updatedAt": "2026-11-12T21:38:01.221Z",
+   "updatedAt": "2026-11-12T21:56:54.442Z",
    "outcome": null
   },
   {
@@ -10052,7 +10052,7 @@
   "building": [
    {
     "title": "Amazon-Abrechnung zu DATEV: Settlement-Bericht im Browser in einen DATEV-Buchungsstapel umwandeln",
-    "stage": "planned"
+    "stage": "seo"
    }
   ],
   "waiting": [
