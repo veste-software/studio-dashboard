@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T23:01:16.970Z",
+ "generatedAt": "2026-11-12T23:03:29.303Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -9,9 +9,9 @@
   "total": 83,
   "live": 0,
   "staging": 1,
-  "building": 1,
+  "building": 0,
   "queued": 39,
-  "parked": 0,
+  "parked": 1,
   "declined": 42,
   "nonDigital": 0,
   "worthDomain": 0
@@ -23,8 +23,8 @@
    "pitch": "For German Amazon sellers whose tax advisor books in DATEV and who rely on DATEV's Zahlungsdatenservice für Amazon (end 2027-08-15, known data gaps): upload the Amazon settlement report and download a checked DATEV EXTF booking batch (sales, fees, refunds, payout reconciliation) without granting API access. If it takes off it becomes the settlement-to-DATEV converter for every marketplace (eBay, …",
    "platform": "web",
    "marketLabel": "Germany and Europe",
-   "status": "building",
-   "statusLabel": "Being built",
+   "status": "parked",
+   "statusLabel": "Paused",
    "prototype": false,
    "origin": "Niche scout",
    "money": {
@@ -70,9 +70,9 @@
     ]
    },
    "decision": {
-    "by": "daily pool",
-    "reason": "Built as the day's prototype: ranked first in the daily pool (aggregate 3.65 of 5 by 3 independent rankers). The studio builds the best candidate of the day whatever its score; it missed the strict bar because: score 3 is below the minimum 3.5.",
-    "at": "2026-11-12T21:14:21.551Z",
+    "by": "orchestrator",
+    "reason": "QA still failing after 3 rounds: Legal pages: the impressum page does not show \"HRB 4400\" (the company text was changed or not used). Show src/content/legal/impressum.<lang>.html and datenschutz.<lang>.html unchanged on /impressum and /datenschutz (see src/content/legal/LEGAL.md). | Legal pages: the impressum page does not show \"D…",
+    "at": "2026-11-12T23:03:27.428Z",
     "detail": []
    },
    "trigger": "DATEV stops development, maintenance and service of its Zahlungsdatenservice für Amazon (Art.-Nr. 20496) on 2027-08-15 (end date; announcement date not shown) and already warns of balance differences…",
@@ -169,7 +169,7 @@
     "live": null
    },
    "createdAt": "2026-11-12T21:14:21.551Z",
-   "updatedAt": "2026-11-12T23:01:15.284Z",
+   "updatedAt": "2026-11-12T23:03:27.428Z",
    "outcome": null
   },
   {
@@ -10048,13 +10048,8 @@
   "checkedInAt": "2026-11-12T21:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "building",
-  "building": [
-   {
-    "title": "Amazon-Abrechnung zu DATEV: Settlement-Bericht im Browser in einen DATEV-Buchungsstapel umwandeln",
-    "stage": "qa"
-   }
-  ],
+  "status": "waiting for the owner",
+  "building": [],
   "waiting": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
