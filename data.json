@@ -1,22 +1,252 @@
 {
- "generatedAt": "2026-11-12T12:30:13.934Z",
+ "generatedAt": "2026-11-12T12:52:39.061Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 35,
+  "total": 43,
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 0,
+  "queued": 7,
   "parked": 2,
-  "declined": 32,
+  "declined": 33,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "journalcheck-first-wedge",
+   "title": "Journalcheck (first wedge)",
+   "pitch": "On ScienceExplorer: a fact page for the ~20,000 journals with the most recent papers in OpenAlex (indexing signals, retractions, submission-to-acceptance time where metadata has it, article fee, volume trend, open citation metric, link to Think.Check.Submit) plus a 2-minute structured 'log my submission' form for signed-in researchers; pages with too little data stay noindex. Segment: English-spe…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "prototype": false,
+   "origin": "Big think",
+   "money": {
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "product: SciRev, SCImago and the OpenAlex-based journalmetrics.org give these journal facts free; Cabells is sold to institutions and Editage's $149 is expert journal matching, a different job.",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Free pages with labelled sponsored placements for lab and research suppliers, a paid researcher alert plan, and a paid journal watchlist with API access for research offices and libraries. First revenue: A self-serve EUR 29/month research-office plan: a watchlist that alerts when a journal is disco…",
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "nobody",
+      "why": "SciRev, SCImago and the OpenAlex-based journalmetrics.org give these journal facts free; Cabells is sold to institutions and Editage's $149 is expert journal matching, a different job.",
+      "rating": 1
+     }
+    ],
+    "ratings": [
+     {
+      "who": "product",
+      "rating": 1
+     }
+    ]
+   },
+   "decision": {
+    "by": "product lead",
+    "reason": "Rejected by the product lead: Free journal fact pages already serve every target query (journalmetrics.org on OpenAlex with 22,642 journals, Manusights, SciRev, SCImago, Master Journal List, DOAJ), and no self-serve payer exists: researchers get it free and the only paid tools are institutional (Cabells) or expert services (Editage $149) for a different job.",
+    "at": "2026-11-12T12:52:32.823Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "Licence cancellations from 2025 to 2027 under the open research information movement; OpenAlex now covers about 278 million works; AI makes extracting review times and fees from metadata cheap.",
+   "score": 5,
+   "index": {
+    "composite": 1.4,
+    "used": {
+     "risk": 4,
+     "success": 1,
+     "monetization": 1,
+     "potential": 2,
+     "automation": 2
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.4 is below 3.6",
+     "risk 4 is above 3.5",
+     "automation 2 is below 3: it would need too much human work"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.4 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 300,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "product",
+       "expectedEur": 0,
+       "upsideEur": 300,
+       "basis": "Bottom-up: the channel is search, and every target query is held by free incumbents (library guides, journalmetrics.org, Manusights, casrai.org, Editage). Researchers who arrive pay 0 because SCImago, SciRev and journalmetrics.org answer free. The only named paid item is a 29 EUR/month research-office watchlist (348 EUR/yr). 5,000 EUR/yr needs about 15 offices, and search cannot reach institution…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 1,
+      "monetization": 1,
+      "potential": 2,
+      "automation": 2,
+      "rationale": "The Maastricht evidence is real (28 May 2026, Scopus ends 1 Jan 2027), but it shows institutions moving to free open data, not researchers paying. journalmetrics.org already builds OpenAlex journal pages (22,642 journals, August 2026 snapshot), Manusights ranks for 'is mdpi predatory' and 'X review time', and SciRev, SCImago, MJL, DOAJ and the open-source Aletheia-Probe cover the rest free. The income options are ads (sponsored placements) or an institutional watchlist with no self-serve compar…",
+      "summary": "Free journal fact pages already serve every target query (journalmetrics.org on OpenAlex with 22,642 journals, Manusights, SciRev, SCImago, Master Journal List, DOAJ), and no self-serve payer exists: researchers get it free and the only paid tools are institutional (Cabells) or expert services (Edi…",
+      "concerns": [
+       "At least six free, working alternatives already rank for every target query",
+       "No self-serve payer: researchers use free tools, and research offices buy through institutional procurement that search does not reach",
+       "Author submission reports need moderation against paper mills and gaming, so it does not run itself",
+       "Pages that signal 'predatory' invite legal threats from publishers"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/journalcheck-first-wedge",
+    "preview": "https://veste-software.github.io/journalcheck-first-wedge/",
+    "live": null
+   },
+   "createdAt": "2026-11-12T12:50:10.953Z",
+   "updatedAt": "2026-11-12T12:52:39.016Z",
+   "outcome": null
+  },
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "trigger": "",
+   "window": "LinkedIn's Member Data Portability API lists a JOB_APPLICATIONS domain (docs updated August 2026). Ghost jobs are a 2026 public issue: 85% of respondents in a 2026 US survey favour regulating them, a…",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-antwortquote",
+   "title": "Antwortquote",
+   "pitch": "A free application tracker for EU job seekers that imports their LinkedIn applications with consent and turns their outcomes into verified response rates and reply times for each employer. Job seekers apply into silence: in a 2026 US survey, 93% had at least one application never answered and 69% had applied to jobs they suspected were not real. Job boards are paid by employers, so they show posi…",
+   "platform": "knowledge",
+   "score": 3.95,
+   "earns": "Freemium for job seekers (AI follow-ups, ghost-risk check on any posting), later a paid integration with employers' applicant-tracking systems that sends applicants status updates automatically, which raises an employer's real score and never hides it. First revenue: A EUR 6/month premium plan for …",
+   "sources": [
+    {
+     "url": "https://learn.microsoft.com/en-us/linkedin/dma/member-data-portability/shared/snapshot-domain",
+     "note": "LinkedIn's DMA Member Snapshot domains include JOB_APPLICATIONS ('jobs that have been applied to by the user in the past') and SAVED_JOBS",
+     "date": "2026-08-19"
+    },
+    {
+     "url": "https://allwork.space/2026/09/66-of-job-seekers-have-been-ghosted-by-employers-during-the-hiring-process/",
+     "note": "NumberBarn US survey: 93% had an application never answered, 66% ghosted after an interview, 69% applied to jobs they suspected were not real, 85% favour regul…",
+     "date": "2026-09-30"
+    },
+    {
+     "url": "https://fortune.com/2025/02/02/linkedin-indeed-greenhouse-job-seekers-likely-response-interviews/",
+     "note": "Indeed's responsive-employer badge and median response time labels; LinkedIn testing responsiveness insights; Greenhouse testing badges",
+     "date": "2025-02-02"
+    }
+   ],
+   "decision": {
+    "by": "big think",
+    "reason": "Ranked 3 of 8 in the daily ranking: aggregate 2.68 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 300 EUR in the first year, about 100000 EUR if it takes off.",
+    "at": "2026-11-12T12:48:55.771Z",
+    "detail": [
+     "Market: Job seekers in Germany and the EU, starting with office and tech applicants who apply through LinkedIn. tens of millions of job seekers a year in the EU (estimate)",
+     "The gap: Job boards earn from employers, so they highlight good responders but will not publish that a paying customer ignores most applicants. Review sites without proof of application are easy to game. LinkedIn's DMA portability makes applications provable for EU members.",
+     "First wedge: German-speaking job seekers in DACH who apply through LinkedIn, matching the API's EU/EEA/CH limit. Connect LinkedIn through the portability API, or upload LinkedIn's data export while API access is pending. All past applications appear in a tracker with follow-up reminders and templat…",
+     "First test (300 EUR): A one-page site 'Bewerbung keine Rückmeldung? Importiere deine LinkedIn-Bewerbungen und sieh, welche Firmen antworten' with a working import of the LinkedIn data export, plus search ads on the top queries for 3 weeks; count sign-ups and uploads",
+     "Strongest case against: LinkedIn could ship public responsiveness data itself (it is already testing insights) or refuse API approval, and Indeed already shows median response times. Many applications do not go through LinkedIn, so the data covers only a slice. Job seekers churn once hired, so subs…"
+    ]
+   },
+   "createdAt": "2026-11-12T12:48:55.771Z",
+   "updatedAt": "2026-11-12T12:48:55.771Z"
+  },
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "trigger": "",
+   "window": "Amazon's Data Portability API gives authorised third parties consented access to EU customers' data, including an order scope. Fakespot's users are still searching ('fakespot alternative 2026' in aut…",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-haltbar",
+   "title": "Haltbar",
+   "pitch": "A free warranty-and-recall tracker for Amazon.de shoppers that imports their orders with their consent and later asks 'is it still working?', turning the answers into purchase-verified durability pages for products. Product reviews are written at unboxing and are for sale: a 2026 Amazon lawsuit describes services that sold 'verified purchase' reviews at $30 each, and Mozilla closed Fakespot in Ju…",
+   "platform": "knowledge",
+   "score": 3.75,
+   "earns": "Disclosed affiliate commissions on longer-lasting alternatives, later licensing of anonymised durability data to consumer organisations, insurers, repair networks and manufacturers. First revenue: An affiliate commission when a user replaces a broken product with a recommended durable alternative. …",
+   "sources": [
+    {
+     "url": "https://developer.amazon.com/docs/amazon-data-portability/developer-data-handling-practices.html",
+     "note": "Amazon Data Portability API: customers must tick a box to authorise a third party; onboarding includes allowlisting and an identity and security assessment",
+     "date": "2025-01-08"
+    },
+    {
+     "url": "https://thedesk.net/2025/05/mozilla-shutting-down-pocket-fakespot/",
+     "note": "Mozilla shuts Fakespot and Review Checker on 1 July because it did not fit a model it could sustain (URL shows May 2025; exact day not shown)",
+     "date": "2025-05-01"
+    },
+    {
+     "url": "https://www.bebolddigital.com/news/amazon-fake-review-lawsuit-2026",
+     "note": "Amazon lawsuit describes services selling verified-purchase reviews at $30 each, plus a May 2026 review-pooling policy change",
+     "date": "2026-08-12"
+    }
+   ],
+   "decision": {
+    "by": "big think",
+    "reason": "Ranked 8 of 8 in the daily ranking: aggregate 2 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 100 EUR in the first year, about 50000 EUR if it takes off.",
+    "at": "2026-11-12T12:48:51.728Z",
+    "detail": [
+     "Market: Online shoppers in Germany, starting with Amazon.de buyers of small electronics and household appliances. tens of millions of people (estimate)",
+     "The gap: Amazon earns from the sellers whose ranking depends on fresh five-star reviews, and affiliate sites earn per sale, so neither wants to publish 'broke after 14 months'. Analysis tools only guessed from review text, and proof of purchase stayed locked inside Amazon until the DMA portability …",
+     "First wedge: Amazon.de buyers of chargers, power banks, headphones and small kitchen appliances, which are cheap, short-lived and often recalled. Astro site plus a small app. Users upload the order file from Amazon's own data export (or connect via the portability API once allowlisted). They then s…",
+     "First test (300 EUR): A one-page site 'Wann endet die Gewährleistung für deine Amazon-Käufe?' with order-file upload, plus search ads on the warranty and fake-review queries for 3 weeks; measure uploads and opt-ins to the 12-month check-in",
+     "Strongest case against: Fakespot had a large audience and still did not fit a sustainable model, and older review communities died. Most people never write reviews, and an upload or connect step cuts that further. Durability data takes one to two years to build while AI shopping assistants answer i…"
+    ]
+   },
+   "createdAt": "2026-11-12T12:48:51.728Z",
+   "updatedAt": "2026-11-12T12:48:51.728Z"
+  },
   {
    "id": "no-upload-drawing-ballooning-with-as9102-form-3",
    "title": "No-upload drawing ballooning with AS9102 Form 3 export for small machine shops",
@@ -2021,6 +2251,276 @@
    "createdAt": "2026-11-09T19:01:22.869Z",
    "updatedAt": "2026-11-09T19:01:22.869Z",
    "outcome": null
+  },
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "trigger": "",
+   "window": "Cheap LLM tooling makes structured stable profiles and waiting-list tools affordable to build without staff, and OpenStreetMap has dedicated tags for livery yards and riding stables to seed a directo…",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-stallkompass",
+   "title": "Stallkompass",
+   "pitch": "A search for free horse boarding places in Germany, starting with open-stable and retirement places, where stables show free places with a confirmed date, their prices and keeping type, and owners post one search that reaches every matchin… Germany has about 1.2 million horses (FN estimate), and boarding is the biggest recurring cost of keeping one, yet free places are still found through word of…",
+   "platform": "marketplace",
+   "score": 3.5,
+   "earns": "Free stable profiles; a paid plan for stables with a waiting-list tool, featured placement and an enquiry inbox; later a placement fee on signed boarding contracts and paid listings for pasture and hay.. First revenue: A stable with free places paying for a featured listing in its region.. At scale…",
+   "sources": [
+    {
+     "url": "https://www.stall-frei.de/",
+     "note": "Incumbent classifieds for stables, horse shares, pasture and feed; free to list with paid ad options; listings show free-place counts with no dates. Footer © 2…",
+     "date": "2026-11-09"
+    },
+    {
+     "url": "https://www.ehorses.at/kleinanzeigen/stall-frei-weideplatz-pensionspferdehaltung-fuer-junge-aeltere-pensionierte-pferde-oder-sportpferde-die-eine-auszeit-benoe-kaufen-in-14-400-pasek/4874095.html",
+     "note": "ehorses 'Stall frei' results: retirement and pasture places across DE, NL, FR at 50-400 EUR with no period and no posting dates. Page undated; date is when I o…",
+     "date": "2026-11-09"
+    },
+    {
+     "url": "https://equi-pages.de/en/?p=4890",
+     "note": "German warmblood foal registrations fell more than 8% in 2025 and about 18% in two years, a sector trend and a risk.",
+     "date": "2026-03-17"
+    }
+   ],
+   "decision": {
+    "by": "big think",
+    "reason": "Ranked 4 of 8 in the daily ranking: aggregate 2.67 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 600 EUR in the first year, about 30000 EUR if it takes off.",
+    "at": "2026-11-09T16:41:23.035Z",
+    "detail": [
+     "Market: Horse owners looking for a boarding place, and boarding stables, many of them small farms.. About 1.2 million horses in Germany; roughly 2.7 billion EUR a year in boarding fees (estimate)",
+     "The gap: Classifieds earn from ad placements and focus on horse sales, so stable listings are static adverts that stay up after the place is gone. Stable operators fill places by word of mouth and private waiting lists, and nobody collects availability and waiting-list data across stables.",
+     "First wedge: Open-stable (Offenstall, Aktivstall) and retirement places in Germany, where owners search regionally or nationally and keeping type and price matter most.. Astro static site: stable pages seeded from OpenStreetMap livery and riding tags (name and location only); an operator claim flow…",
+     "First test (350 EUR): Landing pages with a stable map for two federal states (Lower Saxony and North Rhine-Westphalia) and the 'place wanted' form; 250 EUR of paid search on the proven queries for three weeks; postal letters to 100 boarding stables offering a free profile.",
+     "Strongest case against: Owners choose stables by trust and visits, and stables keep waiting lists precisely so they can choose their boarders, so they may not want to be found by strangers. Moves happen every few years, so usage is rare and retention weak. STALL-FREI.de has offered almost this sinc…"
+    ]
+   },
+   "createdAt": "2026-11-09T16:41:23.035Z",
+   "updatedAt": "2026-11-09T16:41:23.035Z"
+  },
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "trigger": "",
+   "window": "Scarcity is rising and visible (Bregenz list grew from about 440 in 2019 to about 1,500; YACHT April 2026 survey), harbours now charge just to stay on lists, and cheap LLM extraction makes it feasibl…",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-hafenkompass",
+   "title": "Hafenkompass",
+   "pitch": "A map of every harbour and marina with berth prices, waiting-list rules and free places, where boat owners post one berth search that reaches many harbours and berth holders offer swaps and unused seasons, starting in Germany and on Lake C… Europe has over 6 million boats and about 1 million berths. In Germany there are almost twice as many boats as berths, and berths are handed out through hundr…",
+   "platform": "marketplace",
+   "score": 3.7,
+   "earns": "Paid featured listings and an enquiry inbox for commercial marinas with free capacity; a premium plan for boat owners (instant multi-region alerts, waiting-list tracker); a transaction fee on season sublets and swaps where harbour rules allow, collected through a payment processor.. First revenue: …",
+   "sources": [
+    {
+     "url": "https://www.yacht.de/reisen-chartern/deutschland/ostsee-haefen-2026-liegeplatz-suche-in-sh-braucht-geduld/",
+     "note": "69% of surveyed Schleswig-Holstein harbours have no free permanent berth; only 14 reported free boxes; five large facilities hold about a quarter of free place…",
+     "date": "2026-04-05"
+    },
+    {
+     "url": "https://www.yacht.de/reisen-chartern/deutschland/gebuehrenkeule-am-bodensee-bregenz-kassiert-45-000-euro-fuer-liegeplatz-warteliste/",
+     "note": "Bregenz waiting list about 1,500 (about 440 in 2019), 30 EUR yearly fee to stay listed, waits of 10-25 years; over 52,000 boats vs about 28,000 berths on Lake …",
+     "date": "2025-12-18"
+    },
+    {
+     "url": "https://europeanboatingindustry.eu/about-the-industry/facts-and-figures",
+     "note": "Over 6 million boats, 10,000 marinas, over 1 million berths, 36 million boaters in Europe. Page undated (footer 2026); date is when I opened it.",
+     "date": "2026-11-09"
+    }
+   ],
+   "decision": {
+    "by": "big think",
+    "reason": "Ranked 7 of 8 in the daily ranking: aggregate 2.2 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 200 EUR in the first year, about 20000 EUR if it takes off.",
+    "at": "2026-11-09T16:41:19.378Z",
+    "detail": [
+     "Market: Recreational boat owners and would-be buyers in Germany, Austria and Switzerland, then Europe; harbour operators, marinas and boat clubs.. Over 6 million boats and over 1 million berths in Europe; roughly 2 billion EUR a year in berth fees (estimate)",
+     "The gap: Berths are allocated by hundreds of independent operators under their own waiting-list rules, so no operator has the mandate or incentive to publish cross-harbour data, full harbours never advertise, and classifieds sites earn from dealer ads rather than allocation.",
+     "First wedge: Permanent and seasonal berths on Lake Constance, the Bavarian lakes and the German Baltic coast (Schleswig-Holstein, Mecklenburg-Vorpommern), for boats of 6-14 m.. Astro static site: one page per harbour seeded from OpenStreetMap marina data (ODbL) plus facts extracted from public fee …",
+     "First test (400 EUR): Landing pages for Lake Constance and the Schleswig-Holstein coast with a real harbour map for one region and the 'berth wanted' form; 300 EUR of paid search on the proven queries over three weeks in winter; postal letters to 50 harbours asking whether they would publish free p…",
+     "Strongest case against: The constraint is physical: with almost twice as many boats as berths, a platform cannot create supply, and full harbours have no reason to list. Allocation follows municipal and club rules by application date that a marketplace cannot override, and many harbour rules forbid…"
+    ]
+   },
+   "createdAt": "2026-11-09T16:41:19.378Z",
+   "updatedAt": "2026-11-09T16:41:19.378Z"
+  },
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "trigger": "",
+   "window": "Rents rose 9% from 2020 to 2023. Stand-alone battery storage has had a privileged planning route since 23 December 2025, and people now search 'acker verpachten für batteriespeicher', so owners want …",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-pachtradar",
+   "title": "Pachtradar",
+   "pitch": "A rent check and open tender for ordinary farmland leases in Germany, where an owner whose lease is ending can see fair prices and reach nearby farmers. About 60% of German farmland is leased, yet ordinary leases mostly pass by word of mouth (my reading: I found no general lease marketplace). Owners face a wide price spread: an average rent of EUR 357 per hectare, new arable contracts around EUR …",
+   "platform": "marketplace",
+   "score": 3.75,
+   "earns": "The rent check is free and farmers use alerts free. Owners pay a flat tender fee, and energy developers pay a subscription to see parcels whose owners opted in.. First revenue: An owner paying about EUR 79 for a tender.. At scale: My estimate for Germany: about 1M hectares re-let a year at an assum…",
+   "sources": [
+    {
+     "url": "https://www.topagrar.com/betriebsleitung/news/pachtpreise-fuer-agrarflaechen-in-letzten-jahren-um-9-gestiegen-a-20002119.html",
+     "note": "9.9 million leased hectares, about 60% of farmland, average EUR 357 per hectare, new arable contracts around EUR 1,000 by editorial estimate.",
+     "date": "2024-04-14"
+    },
+    {
+     "url": "https://reduco.ai/blog/solar/solarpark-flaeche-verpachten-pacht",
+     "note": "Solar rents around EUR 2,500 to 4,500 per hectare, 7 to 13 times farmland rent, by industry figures; advises comparing offers.",
+     "date": "2026-09-05"
+    },
+    {
+     "url": "https://www.topagrar.com/energie/news/marktplatz-fur-solarparkflachen-20010754.html",
+     "note": "Enlapa's model: free for owners, developer commission, about 60 hectares a month added, and its claims of aggressive land-securing teams.",
+     "date": "2025-01-20"
+    }
+   ],
+   "decision": {
+    "by": "big think",
+    "reason": "Ranked 6 of 8 in the daily ranking: aggregate 2.3 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 300 EUR in the first year, about 80000 EUR if it takes off.",
+    "at": "2026-11-09T16:26:33.907Z",
+    "detail": [
+     "Market: Non-farming and inheriting landowners with a lease ending, and farmers looking for land. About EUR 3.5B a year in farmland rent in Germany",
+     "The gap: An ordinary lease brings about a tenth of the rent of a solar lease, so commission-based energy firms have no reason to serve it. Sitting tenants benefit from opaque prices, so I would not expect them to build open tenders. Published statistics stop at state-level averages (my reading of t…",
+     "First wedge: Non-farming owners in Bavaria whose lease is ending. A rent check for a parcel using published statistics and open-licensed geodata, an owner-started tender that shows only the municipality until the owner agrees, and radius alerts for farmers.",
+     "First test (300 EUR): A working rent check for Bavaria built from public statistics, with a tender request form and a farmer alert form, promoted by paid search on the proven queries.",
+     "Strongest case against: Leases change hands rarely and on trust; many owners would rather keep a farmer they know than gain 20% more rent. Farmers lose from transparent rents and could turn on it publicly, as they did on Tillable in the US, and without farmers there is no tender. US players with fu…"
+    ]
+   },
+   "createdAt": "2026-11-09T16:26:33.907Z",
+   "updatedAt": "2026-11-09T16:26:33.907Z"
+  },
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "trigger": "",
+   "window": "KfW reported in January 2026 that closure plans outnumber handover plans for the first time, and 57% of SME owners are now 55 or older. UniCredit's board member says the matching market is fragmented…",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-nachfolgeradar",
+   "title": "Nachfolgeradar",
+   "pitch": "A self-serve marketplace where owners of very small German firms, starting with skilled trades, list a business anonymously and buyers save searches and get alerts. Germany has more owners leaving than its current system can match: KfW counts about 545,000 seeking a successor by the end of 2029, and closure plans now slightly outnumber handover plans. Small deals are too small for advisers, banks…",
+   "platform": "marketplace",
+   "score": 3.85,
+   "earns": "Basic listing free; paid verified and featured listings; paid buyer alerts; optional flat closing service later if a lawyer clears it.. First revenue: An owner paying about EUR 149 for a verified, featured listing.. At scale: My estimate for Germany: 20,000 listings x EUR 249 = EUR 5M; 25,000 buyer…",
+   "sources": [
+    {
+     "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_876352.html",
+     "note": "545,000 owners seek a successor and 569,000 plan to close by end of 2029; 57% of owners are 55 or older.",
+     "date": "2026-01-09"
+    },
+    {
+     "url": "https://www.nexxt-change.org/",
+     "note": "22,300 placements since 2006, 431 regional partners, free listing; news item on a change of operator dated 18 August 2026.",
+     "date": "2026-08-18"
+    },
+    {
+     "url": "https://www.boersen-zeitung.de/banken-finanzen/deal-dating-im-mittelstand",
+     "note": "HVB Dealsync: EBITDA up to EUR 20M, about 1,500 leads, expert check on each match, first deals expected in 2026.",
+     "date": "2025-12-29"
+    }
+   ],
+   "decision": {
+    "by": "big think",
+    "reason": "Ranked 5 of 8 in the daily ranking: aggregate 2.65 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 800 EUR in the first year, about 50000 EUR if it takes off.",
+    "at": "2026-11-09T16:26:28.536Z",
+    "detail": [
+     "Market: Owners of small German firms who want to hand over, and people or firms who want to buy one. About 109,000 owners a year seeking a successor through 2029; about EUR 6.5B a year in possible deal value (estimate)",
+     "The gap: A ministry-backed free board works through partners and does not sell or chase conversions. Advisers and banks earn too little on very small deals (my judgement). Paid boards charge per listing and have stayed small. Nobody earns by carrying a sub-EUR 2M trade business through to a first c…",
+     "First wedge: Skilled-trade and small local service firms in Bavaria with revenue under about EUR 2M. Saved buyer searches and alerts, a guided anonymous listing with an AI-drafted exposé, NDA-gated contact, an arithmetic price range from published KfW multiples, and a directory of existing boards w…",
+     "First test (400 EUR): A working page for Bavaria with saved buyer searches, a guided listing and the price range, which says openly that the marketplace is new. Paid search runs on the proven queries.",
+     "Strongest case against: Buyers may be the real shortage, not matching. DIHK reports that the gap between ready firms and interested successors has nearly doubled since 2019, with three to four firms per interested person in some sectors, and another board does not create buyers. nexxt-change is fre…"
+    ]
+   },
+   "createdAt": "2026-11-09T16:26:28.536Z",
+   "updatedAt": "2026-11-09T16:26:28.536Z"
+  },
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "trigger": "",
+   "window": "One University of Chicago professor reports about 20 mostly AI-written e-mails a day and says these are unlikely to get a reply (GradPilot, 31 October 2026). OpenAlex also made the researcher graph c…",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-scienceexplorer-open-labs",
+   "title": "ScienceExplorer Open Labs",
+   "pitch": "A rate-limited way for PhD and postdoc applicants to find active supervisors by topic and reach those who have said they are taking people, built on ScienceExplorer's ranked researcher map. Academic matching still runs on cold e-mail, and AI has made cold e-mail free, so faculty now report floods of identical messages and ignore them. Whoever holds identity data for all researchers can offer the …",
+   "platform": "network",
+   "score": 3.8,
+   "earns": "Applicants use it free. Labs and institutions pay for position posts and doctoral schools pay a subscription. Applicants can never buy more messages, because that would bring the spam back.. First revenue: A lab paying about EUR 90 for a position post, priced under FindAPhD's GBP 110.. At scale: My…",
+   "sources": [
+    {
+     "url": "https://gradpilot.com/news/chatgpt-email-to-professor-phd",
+     "note": "Faculty pages describing AI-written applicant e-mails, including about 20 a day for one professor; individual opinions, not a survey.",
+     "date": "2026-10-31"
+    },
+    {
+     "url": "https://infocons.ro/proeduhub-cati-doctoranzi-sunt-in-europa-si-cati-in-romania-italia-si-belgia/",
+     "note": "About 721,000 doctoral students in the EU in 2023, citing Eurostat.",
+     "date": "2026-08-23"
+    },
+    {
+     "url": "https://euraxess.ec.europa.eu/jobs",
+     "note": "Free posting and thousands of offers from 43+ countries, with no supervisor availability signal shown. Page is undated; date is when I read it.",
+     "date": "2026-11-09"
+    }
+   ],
+   "decision": {
+    "by": "big think",
+    "reason": "Ranked 2 of 8 in the daily ranking: aggregate 2.72 of 5 by 3 rankers (including a Big-bet bonus of 0.3); the rankers estimate about 400 EUR in the first year, about 40000 EUR if it takes off.",
+    "at": "2026-11-09T16:26:24.668Z",
+    "detail": [
+     "Market: PhD and postdoc applicants on one side, supervisors and doctoral schools on the other. About 7.7 million ranked researchers on the supply side; about 721,000 doctoral students in the EU in 2023 as a measure of demand",
+     "The gap: Job boards sell ads to institutions per vacancy, so they do not carry an individual's 'I am open' signal. University tools stop at the campus edge. AI outreach tools earn by producing more e-mail, which is the opposite of what professors want. A cross-institution profile with a claim step …",
+     "First wedge: People seeking a PhD place in Germany, starting with computer science and biology. Topic search listing researchers in Germany with recent papers from existing data, each marked 'status unknown' until the researcher claims the profile and sets 'taking students'. Applicants send a struc…",
+     "First test (400 EUR): A live page on ScienceExplorer for finding supervisors in Germany by topic, using real data and an honest 'status unknown' label, with a 'taking students' button on claimed profiles. Paid search runs on the proven queries.",
+     "Strongest case against: Professors can ignore e-mail at no cost, and top labs already have too many applicants, so supervisors may never come. Without cold e-mail there is no direct way to tell them, so the open flag could stay empty and the product would become a popular free search with no paying…"
+    ]
+   },
+   "createdAt": "2026-11-09T16:26:24.668Z",
+   "updatedAt": "2026-11-09T16:26:24.668Z"
   },
   {
    "id": "compteur-34-jours-telework-day-log-for-cross-bor",
