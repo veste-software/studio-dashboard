@@ -1,22 +1,143 @@
 {
- "generatedAt": "2026-11-12T04:16:59.274Z",
+ "generatedAt": "2026-11-12T06:20:25.301Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 34,
+  "total": 35,
   "live": 0,
   "staging": 1,
   "building": 0,
   "queued": 0,
   "parked": 2,
-  "declined": 31,
+  "declined": 32,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "no-upload-drawing-ballooning-with-as9102-form-3",
+   "title": "No-upload drawing ballooning with AS9102 Form 3 export for small machine shops",
+   "pitch": "For quality staff at small CNC job shops supplying aerospace, defence, automotive or medical customers: open the customer's PDF drawing in the browser, number every characteristic (auto-detected from the text layer, OCR for scans, click to add the rest), and export a ballooned PDF plus an AS9102 Fo…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "declined",
+   "statusLabel": "Decided against",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "The quality manager or owner of a small CNC job shop (about 5 to 50 people) that must deliver AS9102 or PPAP first article reports with bal…",
+    "buys": "Hours per part: numbering every dimension on the customer's PDF and typing each one into the Form 3 or characteristic list by hand (a DISCUS case study cites nearly 90 minutes per report before software). A late or rejected FAIR holds up shipment and payment. The free route is Acrobat stamps plus Excel, which is exact…",
+    "model": "subscription",
+    "price": "39 EUR a month or 390 EUR a year per seat",
+    "proof": [
+     {
+      "url": "https://tolr-site.pages.dev/pricing",
+      "note": "A self-serve tool for the same job charges 59 USD a month (Solo) and 129 USD a month (Team), cancel anytime; no date on page",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "Shops with ERP inspection modules (ProShop with GroundControl) or existing InspectionXpert or DISCUS licences won't add another tool. Shops without controlled drawings will take Tolr or QA-Report's free tier. And customers who accept hand-made Excel forms leave a shop little reason to pay for anything.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 4
+     }
+    ]
+   },
+   "decision": {
+    "by": "scout gates",
+    "reason": "Scout rating 3.1 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 1.",
+    "at": "2026-11-12T06:20:25.236Z",
+    "detail": [
+     "The Scout rates every idea from 1 to 5 on demand, competition gap, timeliness, buildability and monetization. The studio builds an idea whose average is at least 3.5 and keeps a near-miss from 3.3 on a bench for 7 days, to be built as a one-day prototype only when nothing else is waiting. This one averaged 3.1.",
+     "Scout ratings out of 5: demand 3, competition gap 3, timeliness 1, buildability 3, monetization 4.",
+     "The Scout's own main worry: The job as a whole is crowded (more than 3 solid tools); the no-upload segment may be too small, or ITAR shops may simply buy GroundControl or a desktop tool.",
+     "Expected profit in the first 12 months: 2,500 EUR (best case 20,000 EUR), the Scout's own estimate and not cross-checked. Profit is not a condition of this check: an idea passes on its ratings, and profit only orders the ideas that passed and the near-misses on the bench. So this figure could not save the idea."
+    ]
+   },
+   "trigger": "standing need",
+   "window": "",
+   "score": null,
+   "index": {
+    "composite": 3.3,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 4,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.3 is below 3.6"
+    ],
+    "yearlyCostEur": 40,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.3 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2500,
+     "upsideEur": 20000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2500,
+       "upsideEur": 20000,
+       "basis": "Bottom-up: assumed 2,000 search visits in year one (vendor-dominated results, new domain, ramp) times 1% to a paid seat = 20 seats. Most arrive in the second half, so about 4 paid months each at 39 EUR, roughly 3,100 EUR; minus about 6% payment fees and 40 EUR running cost that is about 2,900 EUR, rounded down to 2,500 for churn. 5,000 EUR a year needs about 11 seats on a running basis, which the…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 4,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The payer and the price for this exact job are shown on a self-serve competitor's pricing page, and vendor content shows active buying in 2026. The gap is narrow: a cheap tier that never uploads the drawing. Demand from that segment is inferred from vendors' ITAR marketing, not from a dated shop complaint.",
+      "summary": "",
+      "concerns": [
+       "The job as a whole is crowded (more than 3 solid tools); the no-upload segment may be too small, or ITAR shops may simply buy GroundControl or a desktop tool",
+       "In-browser auto-detection (GD&T symbol fonts, raster scans with tesseract.js) may fall well short of QA-Report Pro's AI auto-ballooning, leaving mostly manual …",
+       "Search results are dominated by vendors and the volume is unmeasured; 4 of 10 autocomplete variants ask for free tools",
+       "Customers may demand Net-Inspect uploads or their own report templates"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-12T06:20:25.236Z",
+   "updatedAt": "2026-11-12T06:20:25.236Z",
+   "outcome": null
+  },
   {
    "id": "short-answer-coach-for-wset-level-3-wines",
    "title": "Short Answer Coach for WSET Level 3 Wines",
@@ -4192,7 +4313,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-12T03:00:00.000Z",
+  "checkedInAt": "2026-11-12T06:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -4205,19 +4326,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-12T03:57:30.185Z",
+   "lastRunAt": "2026-11-12T06:02:04.070Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Global",
-   "nextMarket": "Global",
-   "emptyRuns": 71,
-   "radius": 1,
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 72,
+   "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 22,
+   "runsLastDay": 23,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-12T05:57:30.185Z"
+   "nextRunAfter": "2026-11-12T08:02:04.070Z"
   }
  },
  "scorecard": {
