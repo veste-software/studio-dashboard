@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T21:30:23.729Z",
+ "generatedAt": "2026-11-13T21:41:41.498Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -164,7 +164,7 @@
     "live": null
    },
    "createdAt": "2026-11-13T21:18:10.463Z",
-   "updatedAt": "2026-11-13T21:30:23.664Z",
+   "updatedAt": "2026-11-13T21:41:39.157Z",
    "outcome": null
   },
   {
@@ -10472,7 +10472,7 @@
   "building": [
    {
     "title": "GAEB-Angebot im Browser: X83-Leistungsverzeichnis bepreisen und als X84 abgeben",
-    "stage": "specced"
+    "stage": "planned"
    }
   ],
   "waiting": [
