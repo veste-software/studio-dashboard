@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T23:06:39.548Z",
+ "generatedAt": "2026-11-13T23:13:34.404Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -164,7 +164,7 @@
     "live": null
    },
    "createdAt": "2026-11-13T21:18:10.463Z",
-   "updatedAt": "2026-11-13T23:06:38.112Z",
+   "updatedAt": "2026-11-13T23:13:33.008Z",
    "outcome": null
   },
   {
