@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T06:02:34.396Z",
+ "generatedAt": "2026-11-14T09:24:43.854Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,2365 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "pflanzenschutz-aufzeichnung-fuer-lohnunternehmer",
+   "title": "Pflanzenschutz-Aufzeichnung für Lohnunternehmer: elektronisch und maschinenlesbar für viele Auftrag…",
+   "pitch": "For contractors and service firms that spray for many clients (agricultural contractors, vineyard and orchard services, nurseries): record each application with the fields required since 2026 (approval number, EPPO crop code, BBCH growth stage, mapped area) and hand each client a machine-readable record, as required from 2027-01-01.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 1 of 5",
+    "legacy": false,
+    "payer": "Agricultural contractor or spraying service with 20 to 200 client farms",
+    "buys": "Records per client in the required machine-readable form, without keying them in twice",
+    "model": "subscription",
+    "price": "19 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.drweb.de/pflanzenschutz-aufzeichnung-digital-2027-jki-app/",
+      "note": "Shows the duty and the free official app; no paid price was found, which counts against the idea",
+      "date": "2026-11-01"
+     }
+    ],
+    "nobodyPaysIf": "The free official DiPAgE app and existing farm and fleet software already cover the duty.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 1
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:43.505Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Contractors would pay 19 EUR a month for records split per client; very weak against a free official app.",
+   "trigger": "From 2027-01-01, professional users must keep plant-protection records in electronic, machine-readable form (EU 2023/564, postponed by 2025/2203); PDF does not count",
+   "window": "Seven weeks to the cut-over, but the free JKI web app DiPAgE (released 2026-10-30) already serves single farms. Only the contractor with many clients is open, and farm software covers much of that.",
+   "score": 2,
+   "index": {
+    "composite": 1.6,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 1,
+     "potential": 1,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.6 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.6 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 1500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 0,
+       "upsideEur": 1500,
+       "basis": "Bottom-up: 1,000 visits a year (assumed) x 1% (assumed) = 10 payers x 228 EUR = 2,280 EUR at best, but a free official tool and farm software leave no visible payer, so 0 EUR expected. 5,000 EUR needs 22 payers, not reachable. Cross-check: none."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 1,
+      "potential": 1,
+      "automation": 5,
+      "rationale": "The duty is real and dated, but a free government app serves it; listed only to complete the pool, with honest low scores.",
+      "summary": "",
+      "concerns": [
+       "Free official alternative",
+       "No payer seen"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:43.505Z",
+   "updatedAt": "2026-11-14T09:24:43.505Z",
+   "outcome": null
+  },
+  {
+   "id": "ksk-meldung-fuer-firmen-die-kreative-beauftragen",
+   "title": "KSK-Meldung für Firmen, die Kreative beauftragen: abgabepflichtige Honorare aus dem Buchungsexport …",
+   "pitch": "For small German agencies, shops and publishers that buy design, photography, text or music from freelancers: import a bookings or bank export, flag the fees subject to the artists' social-insurance levy (Künstlersozialabgabe), apply the 1,000 EUR de-minimis limit and the 2027 rate of 5.0%, and prepare the yearly report and a record for a pension-insurance audit.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Owner of a small German agency, online shop or publisher that buys creative work from freelancers",
+    "buys": "The list of fees subject to the levy, the yearly report and the payment schedule, so that a pension-insurance audit finds no unreported fees",
+    "model": "subscription",
+    "price": "49 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.haufe.de/personal/entgelt/kuenstlersozialabgabe-neuer-abgabensatz-liegt-vor_78_421266.html",
+      "note": "Shows the duty and the rate; no price page for a levy tool was found",
+      "date": "2026-07-16"
+     }
+    ],
+    "nobodyPaysIf": "The report is one sum per category that accountants and accounting software already handle, and an AI assistant given a bank export finds the same freelancers.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:42.889Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "49 EUR a year for the yearly report and audit record; weak, because accounting software and AI assistants cover most of it.",
+   "trigger": "Levy rate rises from 4.9% (2026) to 5.0% in 2027; de-minimis limit of 1,000 EUR a year since 2026",
+   "window": "A standing yearly report of the previous year's fees; the yearly rate and limit changes renew the question.",
+   "score": 2.45,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 6,000 visits a year (assumed) x 0.5% (assumed) = 30 payers x 49 EUR = 1,470 EUR at full run rate; in the first year with the ramp about 10 payers = 490 EUR, minus fees = about 400 EUR. 5,000 EUR a year needs 103 payers, beyond this channel. Cross-check: none."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Clear, recurring search interest, but the job is a simple sum that accounting software and AI assistants already do.",
+      "summary": "",
+      "concerns": [
+       "Free alternatives cover it",
+       "Classifying fees is close to legal advice"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:42.889Z",
+   "updatedAt": "2026-11-14T09:24:42.889Z",
+   "outcome": null
+  },
+  {
+   "id": "sora-2-5-umstellung-fuer-drohnenbetreiber-besteh",
+   "title": "SORA-2.5-Umstellung für Drohnenbetreiber: bestehende SORA-2.0-Genehmigung in einen 2.5-Antrag überf…",
+   "pitch": "For commercial drone operators in Germany whose SORA 2.0 operating authorisations the aviation authority (LBA) extends only to 2027-12-31: map the old operations concept and mitigations to SORA 2.5's ten steps, 17 safety objectives (OSOs) and new ground-risk model, and produce a draft compliance matrix and checklist for the LBA forms.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Owner of a commercial drone service (inspection, survey, agriculture) in Germany with a specific-category authorisation",
+    "buys": "A renewal file in SORA 2.5 form without paying a consultant to redo the risk assessment",
+    "model": "one-off",
+    "price": "149 EUR per authorisation",
+    "proof": [
+     {
+      "url": "https://www.drohnen.de/69854/sora-2-5-neue-eu-regeln-fuer-drohnen-risikobewertung-jetzt-gueltig/",
+      "note": "Shows the required switch and the LBA forms; no consultant or tool price was found",
+      "date": "2025-10-15"
+     }
+    ],
+    "nobodyPaysIf": "EASA's eSORA may open free to all operators, consultants bundle renewals with other services, and the number of German SORA authorisations is small.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:42.293Z",
+    "detail": [
+     "Missed the strict bar: score 2.45 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A one-off 149 EUR renewal pack per authorisation; no price page for consultants was opened.",
+   "trigger": "LBA: from 2026-01-01 new applications must use SORA 2.5; existing SORA 2.0 authorisations are extended at most to 2027-12-31, after which renewal needs a switch to SORA 2.5",
+   "window": "Renewals pile up during 2027 ahead of the 2027-12-31 limit. EASA plans to open its eSORA tool to all operators 'in the near future', which would close the gap.",
+   "score": 2.45,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 800 visits a year (assumed) x 2% (assumed) = 16 buyers x 149 EUR = 2,384 EUR at full run rate; in the first year with the ramp about 3 to 5 buyers = about 450 to 750 EUR before fees, so about 300 EUR expected. 5,000 EUR needs 34 buyers, out of reach. Cross-check: none; neither the number of German SORA authorisations nor any consultant price was found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A dated, official transition with a business payer, but a tiny audience and a possible free official tool.",
+      "summary": "",
+      "concerns": [
+       "eSORA opens for free",
+       "A wrong safety argument could harm operations"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:42.293Z",
+   "updatedAt": "2026-11-14T09:24:42.293Z",
+   "outcome": null
+  },
+  {
+   "id": "mvo-umstieg-fuer-kleine-maschinenbauer-konformit",
+   "title": "MVO-Umstieg für kleine Maschinenbauer: Konformitätserklärung und CE-Akte von 2006/42/EG auf die Mas…",
+   "pitch": "For small machine builders and special-machine shops in Germany, Austria and Switzerland: take an existing CE file and declaration under the Machinery Directive and get a list of what changes for machines placed on the market from 2027-01-20 (declaration contents, Annex I parts A and B, cyber and software requirements, digital manuals), plus a new declaration filled in from the old one.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Managing director or design engineer of a 5 to 50 person machine builder that writes its own CE files",
+    "buys": "A correct new declaration and a list of gaps per machine family before 2027-01-20, without buying a CE suite",
+    "model": "one-off",
+    "price": "149 EUR once per company",
+    "proof": [
+     {
+      "url": "https://www.weka.de/produktsicherheit/die-neue-maschinenverordnung-eu-verordnung-2023-1230-ab-wann-gilt-sie/",
+      "note": "Firms pay 569 to 629 EUR a year for online CE guidance that covers the regulation",
+      "date": "2025-02-18"
+     }
+    ],
+    "nobodyPaysIf": "The declaration change is a template edit that WEKA, IBF, the chambers and AI assistants already explain; firms that care own Safexpert or WEKA, and the rest copy a chamber leaflet.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:41.973Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "A one-off 149 EUR migration pack per company; weak because free guidance and suites cover it.",
+   "trigger": "Machinery Regulation (EU) 2023/1230 replaces Directive 2006/42/EC for machines placed on the market from 2027-01-20; no postponement found",
+   "window": "About nine weeks to the cut-over. After it, demand shrinks to new machines only, and the big CE suites already include the new regulation.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 2,000 visits a year (assumed) x 1% (assumed) = 20 buyers x 149 EUR = 2,980 EUR at full run rate, but a new site will not rank before the 2027-01-20 deadline, so the first year gets perhaps 3 to 5 buyers = about 300 to 700 EUR before fees. 5,000 EUR needs 34 buyers, out of reach. Cross-check: WEKA's 629 EUR a year guides show firms pay for CE help; no figure for a one-off migration was …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A firm deadline with business payers, but crowded with suites and free help, and the window closes before search traffic arrives.",
+      "summary": "",
+      "concerns": [
+       "Crowded",
+       "AI can rewrite a declaration",
+       "Deadline too close for search"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:41.973Z",
+   "updatedAt": "2026-11-14T09:24:41.973Z",
+   "outcome": null
+  },
+  {
+   "id": "spendenmeldung-fuer-kleine-spendenbeguenstigte-v",
+   "title": "Spendenmeldung für kleine spendenbegünstigte Vereine in Österreich: Spenderliste prüfen, FinanzOnli…",
+   "pitch": "For the treasurer of an Austrian association whose donations are tax-deductible: import the donor list, check names and dates of birth, total the year per donor, and prepare the file for the FinanzOnline upload before the end-of-February deadline, with a record of what was sent.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Treasurer of an Austrian association with tax-deductible donations and 50 to 1,000 private donors (sports club, animal shelter, volunteer g…",
+    "buys": "The yearly donor report filed correctly and on time, which keeps the deductibility status, instead of typing hundreds of donors into a web form or paying the tax adviser for it",
+    "model": "subscription",
+    "price": "79 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.bmf.gv.at/themen/steuern/spenden-gemeinnuetzigkeit/spendenbeguenstigung-neu.html",
+      "note": "Shows the duty and the paid tax-adviser role; no price page for the report itself was found",
+      "date": "2026-10-22"
+     }
+    ],
+    "nobodyPaysIf": "Most clubs have few donors and use the free web form; larger ones already have donor software or let the tax adviser who signs the yearly confirmation send it. If the upload needs the encrypted vbPK, a static tool cannot produce it.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:41.606Z",
+    "detail": [
+     "Missed the strict bar: score 2.45 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Clubs pay 79 EUR a year to prepare and archive the donor report.",
+   "trigger": "The 2024 non-profit reform (Gemeinnützigkeitsreform) opened donation deductibility to all charitable purposes, including sport. Every eligible organisation must send the previous year's donations per…",
+   "window": "A yearly deadline; the next is 2027-02-28. The finance ministry (BMF) page, updated 2026-10-22, names a webservice, a file upload and a web form as the only channels; one search found no small-club t…",
+   "score": 2.45,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 600,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 600,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 1,500 visits a year (assumed) x 3% (assumed) = 45 payers x 79 EUR = 3,555 EUR at full run rate; with the ramp before the first February only about 10 payers = 790 EUR, minus fees = about 600 EUR. 5,000 EUR a year needs 64 payers. Cross-check: none; neither the number of eligible associations nor any comparable tool's revenue was found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A real yearly duty with a penalty, but the file format and the vbPK requirement are unverified and the payer is a volunteer treasurer.",
+      "summary": "",
+      "concerns": [
+       "The upload may require the vbPK from a government service, which needs a server and credentials",
+       "Tax advisers already handle it"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:41.606Z",
+   "updatedAt": "2026-11-14T09:24:41.606Z",
+   "outcome": null
+  },
+  {
+   "id": "brennbuch-fuer-abfindungs-und-kleinbrenner-ueber",
+   "title": "Brennbuch für Abfindungs- und Kleinbrenner: Überwachungsbuch, Alkoholsteuer-Sätze 2027 und Monatsan…",
+   "pitch": "For small fruit-schnapps distillers in Austria (flat-rate 'Abfindung' distillers, and sealed distilleries up to 400 l of pure alcohol) and small craft distilleries in Germany: keep the monitoring or operating book, apply the reduced rates (54% and 90% in Austria, new 2027 amounts), and get the monthly figures for the declaration and a record for the yearly stock count.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Austrian farm distiller (Abfindungsbrenner) or small sealed distillery that sells schnapps, or a German craft distillery with a tax warehou…",
+    "buys": "A correct monitoring book and the right reduced rate per litre under the 2027 amounts, avoiding back taxes at an inspection",
+    "model": "subscription",
+    "price": "39 EUR a year",
+    "proof": [
+     {
+      "url": "https://breww.com/pricing/",
+      "note": "Near job: small drink producers pay an EUR subscription for excise reporting software; no priced distillery-book tool was found",
+      "date": "2026-11-14"
+     }
+    ],
+    "nobodyPaysIf": "Farm distillers file once or twice a year in the free ELISA system, keep a paper book the customs office accepts, and pay little tax, so 39 EUR is a large share of their duty.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:41.077Z",
+    "detail": [
+     "Missed the strict bar: score 2.55 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Distillers pay 39 EUR a year for the book and the rate maths; this could be bundled with the beer and coffee books as one excise book for small producers.",
+   "trigger": "Austria: ELISA replaces EKA for Abfindung declarations from 2026-11-04, and the alcohol tax rate rises to 1,560 EUR per 100 l of pure alcohol from 2027-01-01 (reduced 842.40 and 1,404 EUR)",
+   "window": "The new ELISA system and the 2027 rates change every Austrian distiller's routine this winter. The declaration itself is free in ELISA and FinanzOnline, so only the record-keeping and the rate maths …",
+   "score": 2.55,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 2,000 visits a year (assumed) x 2% (assumed) = 40 payers x 39 EUR = 1,560 EUR at full run rate; in the first year about 15 to 20 payers = 600 to 780 EUR, minus fees = about 500 EUR. 5,000 EUR a year needs 128 payers, beyond this channel. Cross-check: none; the number of Austrian Abfindung distillers was not verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The trigger is fresh and official, but filing is free and payers are price-sensitive farmers.",
+      "summary": "",
+      "concerns": [
+       "Low price ceiling",
+       "The official systems may add record features"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:41.077Z",
+   "updatedAt": "2026-11-14T09:24:41.077Z",
+   "outcome": null
+  },
+  {
+   "id": "pif-mappe-fuer-kosmetikmanufakturen-produktinfor",
+   "title": "PIF-Mappe für Kosmetikmanufakturen: Produktinformationsdatei, Chargenprotokolle und CPNP-Daten an e…",
+   "pitch": "For small cosmetics makers in the EU who must keep a product information file (PIF) for every product: a browser workspace that assembles the PIF sections that Regulation 1223/2009 requires (description, safety report, manufacturing method and GMP statement, proof of claims, animal-testing data), keeps batch records and ties each product to its CPNP notification, so that an inspection or a new as…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Owner of a small soap or cosmetics brand in the EU with 5 to 50 products",
+    "buys": "A complete, inspection-ready PIF per product and batch records, without paying a service about 85 USD per PIF each time a recipe or supplier changes",
+    "model": "subscription",
+    "price": "79 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.certifiedcosmetics.com/de/?p=33620",
+      "note": "PIF compilation sold at 85.23 USD per product",
+      "date": "2026-11-14"
+     }
+    ],
+    "nobodyPaysIf": "Makers keep the PIF as a folder of Word files that the assessor started, and the assessor's report is the expensive part anyway, so a folder tool saves little money.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:40.571Z",
+    "detail": [
+     "Missed the strict bar: score 2.75 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Makers pay 79 EUR a year for a self-kept PIF and batch-record folder, less than one paid PIF per product.",
+   "trigger": "The fragrance-allergen update (Regulation 2023/1545) requires the PIF and CPSR of every scented product to be updated, for all products on the market by 2028-07-31",
+   "window": "The allergen update makes every maker reopen each PIF before 2028-07-31. Services sell PIF compilation per product; no self-serve maker tool was found (not searched in depth).",
+   "score": 2.75,
+   "index": {
+    "composite": 2.95,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.95 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.95 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 8000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 8000,
+       "basis": "Bottom-up: 3,000 visits a year (assumed) x 1.5% (assumed) = 45 payers x 79 EUR = 3,555 EUR at full run rate; in the first year with the ramp about 15 to 20 payers = 1,200 to 1,580 EUR, minus fees = about 1,000 EUR. 5,000 EUR a year needs 64 payers, above this channel's first-year reach. Cross-check: the service price of 85 USD per PIF shows makers pay for the file, but no comparable tool's revenu…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "Payers already spend on PIFs, but the costly part (the assessor's signature) stays a human service.",
+      "summary": "",
+      "concerns": [
+       "Maker inventory and batch apps may already cover batch records",
+       "Overlaps with the allergen tool; best as a bundle"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:40.571Z",
+   "updatedAt": "2026-11-14T09:24:40.571Z",
+   "outcome": null
+  },
+  {
+   "id": "roestbuch-und-kaffeesteuer-fuer-kleine-roesterei",
+   "title": "Röstbuch und Kaffeesteuer für kleine Röstereien: Röstprotokoll, Lagerbuch und Werte für Formular 18…",
+   "pitch": "For small German coffee roasteries with a coffee-tax warehouse permit: record each roast (green and roasted weight, batch), get the monthly storage-book totals and the figures for customs form 1807 (including relief for destroyed coffee), and keep an inspection-ready record and the annual stock count.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Owner of a small German coffee roastery with a tax warehouse permit, roasting a few hundred kg to a few tonnes a month",
+    "buys": "A roast book and storage book that customs accepts, the monthly form 1807 figures including relief for destroyed coffee, and the annual stock count, ready for unannounced inspections that can end in fines up to 8,000 EUR",
+    "model": "subscription",
+    "price": "15 EUR a month or 150 EUR a year",
+    "proof": [
+     {
+      "url": "https://breww.com/pricing/",
+      "note": "Near job: small drink producers (breweries) pay a monthly EUR subscription for software that builds their excise report; no priced coffee-tax tool was found",
+      "date": "2026-11-14"
+     }
+    ],
+    "nobodyPaysIf": "Roasters keep an Excel sheet or a Cropster export that their customs office accepted years ago, some offices demand handwritten books, and the monthly tax is one multiplication.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:34.055Z",
+    "detail": [
+     "Missed the strict bar: score 2.6 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Roasters pay 150 EUR a year for the roast and storage book and the monthly form figures.",
+   "trigger": "standing need",
+   "window": "A standing monthly duty. A leading roaster's guide says no brochure or course exists and names no software, and two searches found no tool. Nothing suggests anyone is building one.",
+   "score": 2.6,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 1,200 visits a year (assumed) x 3% (assumed) = 36 payers at full run rate x 150 EUR = 5,400 EUR. In the first year, with the ramp, about 8 to 10 payers = 1,200 to 1,500 EUR, minus domain and fees = about 800 EUR. 5,000 EUR a year needs 34 payers, close to the channel's full reach. Cross-check: none; no priced coffee-tax tool and no roastery count were found, only the brewery analog."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A real duty with fines and no tool, but the payer and their willingness to pay are unconfirmed and the audience is small.",
+      "summary": "",
+      "concerns": [
+       "Tiny audience",
+       "Customs offices differ on accepted formats",
+       "Excel works well enough"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:34.055Z",
+   "updatedAt": "2026-11-14T09:24:34.055Z",
+   "outcome": null
+  },
+  {
+   "id": "biersteuer-buch-fuer-kleinbrauereien-sudbuch-mon",
+   "title": "Biersteuer-Buch für Kleinbrauereien: Sudbuch, Monatsmengen nach Grad Plato und Steuerstaffel, auf D…",
+   "pitch": "For German-speaking micro and craft breweries: record brews, packaging, removals and returns, and get each month's taxable hectolitres grouped by degree Plato with the small-brewery rate scale, ready to enter in the customs declaration, plus a book for inspections. Austrian and Swiss beer-tax rules follow as a second step.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Owner of a German micro or craft brewery (under about 5,000 hl a year) that brews, packages and sells itself",
+    "buys": "Monthly duty quantities by Plato with the small-brewery rate applied correctly, and a brew and removal book that survives a customs inspection, without buying an ERP",
+    "model": "subscription",
+    "price": "19 EUR a month or 190 EUR a year",
+    "proof": [
+     {
+      "url": "https://breww.com/pricing/",
+      "note": "Breweries pay a monthly EUR subscription for software that builds this report (base price set by output; add-ons 19.99 to 39.99 EUR a month)",
+      "date": "2026-11-14"
+     }
+    ],
+    "nobodyPaysIf": "Small brewers already keep a spreadsheet that works, the declaration takes 20 minutes a month, and those who want software buy an ERP that also does stock and sales.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:33.268Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Breweries pay 190 EUR a year for the book and the monthly duty figures.",
+   "trigger": "standing need",
+   "window": "A standing monthly duty. The only tools found that build the German report are English-language brewery ERPs (Breww, Brewman Germany), so a German-language book on its own stays open until one of the…",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1500,
+     "upsideEur": 8000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1500,
+       "upsideEur": 8000,
+       "basis": "Bottom-up: 1,500 visits a year (assumed) x 3% (assumed) = 45 payers at full run rate x 190 EUR = 8,550 EUR. After the search ramp, the first year reaches about 10 to 15 payers = 1,900 to 2,850 EUR, minus domain and fees = about 1,500 EUR. 5,000 EUR a year needs 27 payers, plausible only in year two. Cross-check: Breww shows that breweries pay for this report inside an ERP, but its revenue and Ger…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A real monthly duty with exact rules and a paid comparable; the gap is language and size, not absence.",
+      "summary": "",
+      "concerns": [
+       "Small audience",
+       "The spreadsheet habit",
+       "Breww could add German"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:33.268Z",
+   "updatedAt": "2026-11-14T09:24:33.268Z",
+   "outcome": null
+  },
+  {
+   "id": "allergen-deklaration-fuer-seifen-und-kosmetikman",
+   "title": "Allergen-Deklaration für Seifen- und Kosmetikmanufakturen: die 82 Duftstoff-Allergene aus Lieferant…",
+   "pitch": "For small soap and natural-cosmetics makers in the EU: enter the recipe and each fragrance or essential oil's supplier allergen sheet, choose rinse-off or leave-on, and get the allergens to declare under Regulation (EU) 2023/1545 (thresholds, group names, order), a label-ready INCI line and a calculation sheet for the PIF and the safety assessor. If it takes off, it becomes the maker's recipe fil…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Owner of a small soap or natural-cosmetics brand (1 to 5 people, 5 to 50 products, selling on Etsy, its own shop or markets) in Germany, Au…",
+    "buys": "A correct allergen declaration for each product and scent variant, recomputed whenever a supplier sheet changes, plus a calculation record for the PIF. It prevents wrong labels and objections from market surveillance, and saves paying the assessor to redo the maths for every variant.",
+    "model": "subscription",
+    "price": "99 EUR a year (or 12 EUR a month)",
+    "proof": [
+     {
+      "url": "https://www.certifiedcosmetics.com/de/?p=33620",
+      "note": "Makers already pay per product: CPSR for bar soap 170.47 USD, variants +142.06 USD each, PIF 85.23 USD, CPNP notification 28.41 USD (page undated; prices valid to 2027-12-31)",
+      "date": "2026-11-14"
+     }
+    ],
+    "nobodyPaysIf": "The safety assessor already does the allergen breakdown inside the paid CPSR, and suppliers increasingly send ready allergen sheets, so a maker with five products may recompute once in a spreadsheet and never come back.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:32.552Z",
+    "detail": [
+     "Missed the strict bar: score 3.45 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Makers pay 99 EUR a year to keep every recipe's allergen calculation, label line and PIF sheet current; the first product is free.",
+   "trigger": "Regulation (EU) 2023/1545: cosmetics first placed on the market from 2026-07-31 must declare the extended list of 82 fragrance allergens; all products made available from 2028-07-31",
+   "window": "New products must comply since 2026-07-31 and every product still on sale by 2028-07-31, so makers relabel their whole range over the next 20 months. Two searches (German and English) found no calcul…",
+   "score": 3.45,
+   "index": {
+    "composite": 3.2,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.2 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2500,
+     "upsideEur": 15000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2500,
+       "upsideEur": 15000,
+       "basis": "Bottom-up: 5,000 search visits a year once ranked (assumed) x 1.5% (assumed) = 75 payers x 99 EUR = 7,400 EUR at full run rate. With the search ramp, the first 12 months reach about 30 payers = about 3,000 EUR, minus 20 EUR domain and about 6% payment fees = about 2,500 EUR. 5,000 EUR a year needs 51 payers, which this channel reaches only in year two. Cross-check: no comparable tool's revenue wa…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "The duty is in force and dated at an official agency page; the regulation contains a fixed list and exact rules, which an AI chat guesses badly. No live tool for makers was found, but the payer may lean on the assessor instead.",
+      "summary": "",
+      "concerns": [
+       "The assessor's CPSR already covers the calculation for many makers",
+       "Small makers are price-sensitive and may compute once",
+       "Formulation software (for example Coptis-type suites) was not checked"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:32.552Z",
+   "updatedAt": "2026-11-14T09:24:32.552Z",
+   "outcome": null
+  },
+  {
+   "id": "drop-in-background-removal-api-for-scripts-and-i",
+   "title": "Drop-in background-removal API for scripts and integrations that called remove.bg",
+   "pitch": "For developers and small agencies with scripts, Zapier steps or plugins that call the remove.bg API: the same request fields and response format at a new host, so only the base URL and key change before 2026-12-01; prepaid packs.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Developer or small agency with a remove.bg integration in production",
+    "buys": "No code changes beyond the base URL",
+    "model": "subscription",
+    "price": "20 EUR per prepaid pack, about 3 packs a year",
+    "proof": [
+     {
+      "url": "https://shutdownwatch.com/",
+      "note": "Confirms paid API users are displaced; no competitor price page opened",
+      "date": "2026-11-12"
+     }
+    ],
+    "nobodyPaysIf": "Four funded APIs already court these developers, and Pixelcut is nearly compatible.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:33.374Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Prepaid 20 EUR packs at about 0.01 EUR per image.",
+   "trigger": "remove.bg self-service API stops accepting requests on 2026-12-01",
+   "window": "Two weeks before the cut-off; after that, broken integrations are fixed or abandoned.",
+   "score": 2.05,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 3,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 300,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 100,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 100,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 1,000 visits x 1% = 10 developers x 60 EUR = 600 EUR, minus about 300 EUR inference and hosting: about 100 EUR (ramp ignored as the window is two weeks). 5,000 EUR needs about 83 paying developers, which is not reachable. No comparable verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "A real breakage date, but a crowded API market with funded players and running costs.",
+      "summary": "",
+      "concerns": [
+       "GPU costs",
+       "Funded competitors",
+       "Using the remove.bg name in marketing needs care (nominative use only)"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:33.374Z",
+   "updatedAt": "2026-11-14T09:23:33.374Z",
+   "outcome": null
+  },
+  {
+   "id": "bulk-product-cut-outs-in-the-browser-after-remov",
+   "title": "Bulk product cut-outs in the browser after remove.bg closes, one-off licence",
+   "pitch": "For small shop owners who used remove.bg credits for product photos: drop a folder, get transparent PNGs or white-background JPGs in batch, processed on their own machine with an MIT-licensed model, with no per-image credits. Pay once.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Small e-commerce seller who bought remove.bg credits for product photos",
+    "buys": "Unlimited batch cut-outs without monthly credits",
+    "model": "one-off",
+    "price": "39 EUR once",
+    "proof": [
+     {
+      "url": "https://alternativeto.net/news/2026/9/end-of-an-era-remove-bg-shuts-down-standalone-service-and-moves-to-the-canva-ecosystem/",
+      "note": "Confirms a paid-credit user base is displaced; no competitor price page was opened",
+      "date": "2026-09-14"
+     }
+    ],
+    "nobodyPaysIf": "Free browser background removers and free tiers (Pixelcut, Canva) already cover most sellers.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:32.391Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
+    ]
+   },
+   "earns": "One-off 39 EUR licence for unlimited local batches; free single images.",
+   "trigger": "remove.bg closes its standalone site, self-service API and plugins on 2026-12-01; users are sent to Canva and Leonardo.Ai; unused pay-as-you-go credits expire",
+   "window": "Peaks around 2026-12-01; competitors launched within days (LassoCut 2026-11-09).",
+   "score": 2.4,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 8,000 visits (assumed) x 0.3% = 24 x 39 EUR = 936 EUR; ramp and competition give about 300 EUR. 5,000 EUR needs 129 licences, which is unreachable against free tools. No comparable revenue verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A real displaced paying base, but a very crowded field with free tiers.",
+      "summary": "",
+      "concerns": [
+       "Free alternatives",
+       "Model quality vs commercial APIs",
+       "Large model download in the browser"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:32.391Z",
+   "updatedAt": "2026-11-14T09:23:32.391Z",
+   "outcome": null
+  },
+  {
+   "id": "own-domain-film-rentals-for-former-vimeo-on-dema",
+   "title": "Own-domain film rentals for former Vimeo On Demand sellers",
+   "pitch": "For indie filmmakers and fitness or yoga teachers whose Vimeo On Demand storefront goes dark on 2026-11-20: a static rental and purchase page on their own domain with Stripe checkout and time-limited streaming via Bunny Stream signed URLs, flat monthly price.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Indie filmmaker or instructor selling a handful of titles as rentals or purchases",
+    "buys": "Keeping sales alive on their own domain without a platform revenue share",
+    "model": "subscription",
+    "price": "9 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.dacast.com/blog/vimeo-on-demand-alternatives/",
+      "note": "Sellers pay 6 to 39 USD a month for comparable hosting and selling",
+      "date": "2026-10-06"
+     }
+    ],
+    "nobodyPaysIf": "Livid, Gumlet and others already serve this at similar prices, and vendors are courting these sellers directly.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:31.721Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
+    ]
+   },
+   "earns": "9 EUR a month flat plus Stripe fees paid by the seller.",
+   "trigger": "Vimeo On Demand: purchases stopped 2026-09-21, storefronts and viewer access end 2026-11-20; Vimeo points sellers to Vimeo OTT",
+   "window": "Six days to shutdown; sellers without a new home after that stay in the market, but vendors are already courting them.",
+   "score": 2.6,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 150,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 2,000 visits (assumed) x 1% = 20 sellers x 108 EUR = 2,160 EUR at run-rate; about half in year one minus serverless and video costs: about 300 EUR. 5,000 EUR needs 46 sellers. No comparable revenue verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "Paying sellers are displaced, but the market is crowded and the shutdown is days away.",
+      "summary": "",
+      "concerns": [
+       "Crowded",
+       "Video delivery and piracy support load",
+       "Too late for the deadline itself"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:31.721Z",
+   "updatedAt": "2026-11-14T09:23:31.721Z",
+   "outcome": null
+  },
+  {
+   "id": "retired-zendesk-apps-restore-pack-assignment-con",
+   "title": "Retired Zendesk Apps Restore Pack: Assignment Control, Project Management and Attachment Manager be…",
+   "pitch": "One Marketplace app that brings back three discontinued Built-by-Zendesk apps: hide groups or agents from the assignee field by role, brand or form; linked child tickets with roll-up status; and bulk attachment management. For admins who do not want to rebuild them with App Builder recipes.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Zendesk admin of a 10 to 100 agent account that relied on the retired apps",
+    "buys": "Restored rules without building and maintaining App Builder apps",
+    "model": "subscription",
+    "price": "15 EUR a month",
+    "proof": [
+     {
+      "url": "https://supportapps.org/zendesk/proactive-bulk-tickets",
+      "note": "Near job: a paid Marketplace app replacing Zendesk functionality at 99 USD a month and up",
+      "date": "2025-06-16"
+     }
+    ],
+    "nobodyPaysIf": "The originals were free, Zendesk ships free recipes and native workarounds, and admins expect it free.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:31.323Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "15 EUR a month per Zendesk account.",
+   "trigger": "Zendesk discontinued Assignment Control, Project Management and Attachment Manager (and others); they stopped working on 2026-10-21",
+   "window": "Open while admins live with the workarounds; it closes if App Builder recipes prove good enough.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 1,000 visits (assumed) x 1.5% = 15 accounts x 180 EUR = 2,700 EUR at run-rate; about half in year one, cut further for free recipes: about 500 EUR. 5,000 EUR needs 28 accounts. No comparable found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Real removal, but the originals were free and Zendesk publishes free build-it-yourself recipes.",
+      "summary": "",
+      "concerns": [
+       "Users expect it free",
+       "Three features means not single-job",
+       "App Builder makes it AI-doable inside Zendesk"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:31.323Z",
+   "updatedAt": "2026-11-14T09:23:31.323Z",
+   "outcome": null
+  },
+  {
+   "id": "businessvision-history-archive-keep-the-transact",
+   "title": "BusinessVision History Archive: keep the transaction history Sage's export cannot give you",
+   "pitch": "For Canadian distributors and small firms on Sage BusinessVision, which retires 2026-12-31 with payroll updates ending: a small Windows extractor reads the Pervasive database over ODBC and produces a read-only, searchable archive of GL, AR, AP, orders and inventory history (PDF and CSV), plus opening-balance import files for Sage 50, QuickBooks Online or Xero.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Owner or controller of a Canadian small business on BusinessVision",
+    "buys": "Keeping years of transaction history readable after leaving BusinessVision, without paying a consultant to extract it",
+    "model": "one-off",
+    "price": "299 EUR once per company",
+    "proof": [
+     {
+      "url": "https://clonepartner.com/blog/sage-businessvision-end-of-life-2026-data-migration-guide.md",
+      "note": "Sage Expert Services and partners charge for migration, and ClonePartner sells fixed-price proposals; no amounts shown",
+      "date": "2026-11-09"
+     }
+    ],
+    "nobodyPaysIf": "The new vendor or the accountant does the conversion as part of the switch, and firms keep the old BusinessVision install for read-only lookups.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:30.688Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "One-off 299 EUR per company file for the archive and import files.",
+   "trigger": "Sage BusinessVision retires 2026-12-31 (all editions); Sage's own export covers master lists only; transactions and history need ODBC extraction",
+   "window": "Six weeks to retirement and then a long tail: the software keeps running but payroll and tax tables stop, so firms move in Q1 2027 and must keep records for years.",
+   "score": 2.5,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 600,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 600,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 800 visits (assumed) x 2% = 16 x 299 EUR = 4,784 EUR at best; build risk and a ramp cut year one to about 600 EUR after the signing-certificate cost. 5,000 EUR needs 17 payers, which is within reach only if the build works. No comparable revenue was found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "A dated retirement and a documented export gap, but paid services crowd it and the Pervasive schema and DDF handling are hard to build without sample data.",
+      "summary": "",
+      "concerns": [
+       "No sample databases to build against",
+       "A Windows desktop component, not a static site",
+       "Small Canadian audience"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:30.688Z",
+   "updatedAt": "2026-11-14T09:23:30.688Z",
+   "outcome": null
+  },
+  {
+   "id": "proactive-tickets-lite-for-zendesk-bulk-outbound",
+   "title": "Proactive Tickets Lite for Zendesk: bulk outbound tickets at a flat small-team price",
+   "pitch": "For small support teams that used Zendesk's free Proactive Tickets app (stopped 2026-10-21) to notify a list of customers: upload a CSV or pick an organisation and create one ticket per customer from a macro, flat price. Upside: saved audiences and recurring notices.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Support lead of a 3 to 20 agent Zendesk team that sends occasional outbound notices (outages, recalls, policy changes)",
+    "buys": "Sending one ticket per affected customer without scripting the API",
+    "model": "subscription",
+    "price": "29 EUR a month",
+    "proof": [
+     {
+      "url": "https://supportapps.org/zendesk/proactive-bulk-tickets",
+      "note": "Teams pay 99 to 349 USD a month for the same job (16 reviews)",
+      "date": "2025-06-16"
+     }
+    ],
+    "nobodyPaysIf": "Cheaper than Sparkly is not a gap: teams that need it pay Sparkly, and those that do not build the free App Builder recipe.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:29.672Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "29 EUR a month flat per Zendesk account.",
+   "trigger": "Zendesk discontinued its Proactive Tickets app; it stopped working on 2026-10-21 and Zendesk points to the API or App Builder",
+   "window": "Open while former free-app users look for a replacement; Sparkly's app already serves teams that can pay 99 USD a month.",
+   "score": 2.7,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 700,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 700,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 1,000 visits (assumed) x 1% = 10 accounts x 348 EUR = 3,480 EUR at run-rate; about half in year one minus fees: about 1,500 EUR, cut to 700 for the head-on competitor. 5,000 EUR a year needs 15 accounts. Cross-check: the leader has 16 reviews in six years, so the market is small."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Proven willingness to pay (99 USD a month app) but a solid incumbent and a free build-it-yourself route.",
+      "summary": "",
+      "concerns": [
+       "Price is the only difference",
+       "Tiny market",
+       "Zendesk could add a native feature"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:29.672Z",
+   "updatedAt": "2026-11-14T09:23:29.672Z",
+   "outcome": null
+  },
+  {
+   "id": "publisher-rescue-open-a-whole-folder-of-pub-file",
+   "title": "Publisher Rescue: open a whole folder of .pub files without Publisher and get editable Word and Pow…",
+   "pitch": "For church offices, schools, clubs and small businesses with years of Publisher newsletters and flyers that Microsoft 365 stopped opening on 2026-10-01: drop a folder in the browser and get print PDFs plus editable DOCX and PPTX (which Canva and PowerPoint open), with nothing uploaded. Upside: a shareable 'rescued 340 files' result and a template library for former Publisher users.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Church or school office administrator, or a small-business owner, with a folder of hundreds of .pub files",
+    "buys": "Not rebuilding years of newsletters and templates by hand or paying a freelancer per file",
+    "model": "one-off",
+    "price": "29 EUR once",
+    "proof": [
+     {
+      "url": "https://fiverr.com/stephen_bowe/edit-convert-and-do-any-microsoft-publisher-job-in-24-hours",
+      "note": "Fiverr gig to convert or edit Publisher jobs; search snippets show Publisher/PDF-to-Canva or Word conversion gigs at about 50-100 USD. Seen in search results only: Fiverr refuses the fetcher.",
+      "date": "2026-11-14"
+     }
+    ],
+    "nobodyPaysIf": "LibreOffice and Affinity open .pub files free and most people only need a PDF of a few files.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:29.055Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Free single-file conversion; a one-off 29 EUR batch licence for whole folders with editable DOCX and PPTX output.",
+   "trigger": "Microsoft Publisher removed from Microsoft 365 from 2026-10-01; subscribers can no longer open or edit .pub files in Publisher; perpetual Office 2021 support ended 2026-10-13",
+   "window": "Standing for years: the files stay on disks and OneDrive, and Microsoft's bulk script needs a licensed Publisher, which most users no longer have.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.85,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.85 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.85 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 700,
+     "upsideEur": 10000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 700,
+       "upsideEur": 10000,
+       "basis": "Bottom-up: 10,000 visits (assumed) x 0.5% = 50 licences x 29 EUR = 1,450 EUR; ramp halves it, minus fees: about 700 EUR. 5,000 EUR a year needs 173 licences, which this channel is unlikely to reach in year one. Cross-check: Fiverr gigs at about 50-100 USD show some pay per job, but no comparable tool revenue was found. Free tools make the low figure the honest one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "Large stranded user base and live searches, but two free desktop tools already open .pub files, so payment depends on batch and editable output.",
+      "summary": "",
+      "concerns": [
+       "libmspub fidelity on complex layouts",
+       "Free alternatives cover single files",
+       "Converting to PPTX with editable text boxes is real engineering"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:29.055Z",
+   "updatedAt": "2026-11-14T09:23:29.055Z",
+   "outcome": null
+  },
+  {
+   "id": "sell-full-export-the-activities-calls-emails-and",
+   "title": "Sell Full Export: the activities, calls, emails and documents Zendesk Sell's own export leaves out",
+   "pitch": "For small sales teams leaving Zendesk Sell before data is deleted on 2027-08-31: connect with an API token, pull what the native CSV export excludes (activity history, appointments, call logs, emails, documents), and get a browsable archive plus import files for HubSpot, Pipedrive, Zoho or Salesforce with links between records kept. Upside: the same 'what your export leaves out' engine applies to…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Owner or sales ops lead of a 3 to 30 seat Zendesk Sell team",
+    "buys": "Keeping the customer history (calls, emails, meetings, files) that the native export drops before Zendesk deletes it; losing it means losing deal context for every account",
+    "model": "one-off",
+    "price": "149 EUR once per account",
+    "proof": [
+     {
+      "url": "https://www.salesforce.com/small-business/sales/zendesk-sell/",
+      "note": "These teams pay 25 to 550 USD per user per month for a CRM, and vendors compete for them with migration help. No paid migration-tool price was opened, so the price is not proven.",
+      "date": "2026-11-14"
+     }
+    ],
+    "nobodyPaysIf": "The destination CRM (Salesforce, Zoho, HubSpot partners) migrates them free to win the account, or the team decides the old activity history is not worth keeping.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:28.705Z",
+    "detail": [
+     "Missed the strict bar: score 2.85 is below the minimum 3.5"
+    ]
+   },
+   "earns": "One-off 149 EUR per Sell account for the full export and import files; free preview of record counts.",
+   "trigger": "Zendesk Sell end of life: data deleted when the subscription ends or on 2027-08-31, whichever comes first; the native export excludes activity history, appointments, emails, call logs and documents",
+   "window": "Until 2027-08-31, and earlier for each team whose subscription ends; demand grows as the date nears.",
+   "score": 2.85,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 30,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1500,
+     "upsideEur": 9000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1500,
+       "upsideEur": 9000,
+       "basis": "Bottom-up: 1,500 visits (assumed) x 2% = 30 accounts x 149 EUR = 4,470 EUR, with year one at about half given the ramp, minus fees: about 1,500 EUR. 5,000 EUR a year needs 34 accounts. No comparable's revenue or customer count was found; the Sell customer base is unknown, so both methods are weak."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A dated deletion deadline and a documented gap in the native export, but free vendor migrations compete and API coverage of emails and documents is unverified.",
+      "summary": "",
+      "concerns": [
+       "The Sell API may not expose emails or documents",
+       "CRM vendors give migrations away",
+       "The number of Sell customers is unknown"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:28.705Z",
+   "updatedAt": "2026-11-14T09:23:28.705Z",
+   "outcome": null
+  },
+  {
+   "id": "ticket-archive-for-zendesk-bulk-ticket-history-p",
+   "title": "Ticket Archive for Zendesk: bulk ticket-history PDFs after Print Ticket History was switched off",
+   "pitch": "A Zendesk Marketplace app for support teams that must hand over full ticket histories (chargebacks, legal holds, audits, customer data requests): select tickets by search, view or requester, and get a paginated PDF evidence pack with internal notes and side conversations, built in the agent's browser with no batch cap. Upside: scheduled archive packs and per-customer exports become the default re…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Support lead or admin of a 5 to 50 agent Zendesk account that handles chargebacks, disputes or regulated customer records",
+    "buys": "Evidence packs produced in minutes instead of printing tickets one by one, now that the free app stopped working; a lost chargeback or a missed legal-hold request costs more than a year of the app",
+    "model": "subscription",
+    "price": "19 EUR a month per Zendesk account",
+    "proof": [
+     {
+      "url": "https://supportapps.org/zendesk/export-tickets-as-pdf",
+      "note": "Teams already pay for a ticket-to-PDF app (marked paid, 113+ installs); its exact price is on the vendor site and was not opened",
+      "date": "2025-12-02"
+     }
+    ],
+    "nobodyPaysIf": "Most teams print a ticket or two a month and the free 50-ticket app or single-ticket print is enough; only teams with recurring bulk needs pay.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:27.449Z",
+    "detail": [
+     "Missed the strict bar: score 2.95 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Flat 19 EUR a month per Zendesk account, billed after a free trial.",
+   "trigger": "Zendesk discontinued its Print Ticket History app: removed from the Marketplace 2026-04-07, stopped working 2026-10-21; Zendesk says bulk printing is not supported natively",
+   "window": "Open now that the free app is gone; it closes if Zendesk adds native bulk print or the two existing apps lift their limits.",
+   "score": 2.95,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1300,
+     "upsideEur": 7000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1300,
+       "upsideEur": 7000,
+       "basis": "Bottom-up: 1,500 Marketplace visits (assumed) x 1.5% = 22 accounts x 228 EUR a year = about 5,000 EUR at full run-rate. Accounts arrive through the year, so year one collects about half; minus fees, about 1,300 EUR. Cross-check: the leader gained about 40 installs a year, so 22 paid accounts would mean taking half of its yearly flow, which is optimistic. 5,000 EUR a year needs 22 accounts. The Ma…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Zendesk itself removed the free tool and said bulk printing is not supported. One paid competitor proves teams pay, but install counts show a small niche.",
+      "summary": "",
+      "concerns": [
+       "Small market: about 40 installs a year for the leader",
+       "Zendesk may add native bulk print",
+       "Marketplace approval time"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:27.449Z",
+   "updatedAt": "2026-11-14T09:23:27.449Z",
+   "outcome": null
+  },
+  {
+   "id": "vimeo-exit-for-wordpress-move-the-whole-library",
+   "title": "Vimeo Exit for WordPress: move the whole library to Bunny Stream and rewrite every Vimeo embed",
+   "pitch": "For WordPress site owners (course creators, churches, small studios) whose Vimeo renewal just jumped: copy every video, title, thumbnail and caption to Bunny Stream, then swap every Vimeo embed, shortcode and oEmbed link across posts and lessons, with a dry run and one-click rollback. If it takes off, the same engine adds Kajabi, Teachable and Squarespace embed lists and Cloudflare Stream as a ta…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "Owner of a WordPress course, church or studio site with 50 to 2,000 Vimeo videos whose renewal went up several times",
+    "buys": "Getting off Vimeo before the next renewal without editing hundreds of posts by hand or paying a developer; each month on the new Vimeo price costs more than the licence",
+    "model": "one-off",
+    "price": "49 EUR once per site",
+    "proof": [
+     {
+      "url": "https://www.trustpilot.com/review/vimeo.com",
+      "note": "Shows these payers already pay Vimeo GBP 288 to several thousand a year and are leaving over the renewal; this is proof of budget and motive, not a price for the migration itself",
+      "date": "2026-11-14"
+     },
+     {
+      "url": "https://www.dacast.com/blog/vimeo-on-demand-alternatives/",
+      "note": "Destination hosts charge 6 to 39 USD a month, so the payer moves to a paid host anyway",
+      "date": "2026-10-06"
+     }
+    ],
+    "nobodyPaysIf": "Bunny's free CLI plus a free search-and-replace plugin is enough for anyone slightly technical, and Bunny or another host may ship an embed rewriter free to win these customers.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:23:26.883Z",
+    "detail": [
+     "Missed the strict bar: score 3.2 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Free WordPress.org plugin that scans the site and counts Vimeo embeds; a one-off 49 EUR Pro licence runs the copy and the rewrite.",
+   "trigger": "Vimeo (owned by Bending Spoons) renewals rising many times over; dated Trustpilot complaints Oct-Nov 2026 (USD 150/yr to about USD 6K, GBP 288 to GBP 950, about ten times the agreed fee)",
+   "window": "Standing for as long as Vimeo keeps repricing small accounts at renewal: 796 Trustpilot reviews in the last 12 months. Bunny's free tool covers the copy but leaves embed replacement to the user, and …",
+   "score": 3.2,
+   "index": {
+    "composite": 3.2,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.2 is below 3.6"
+    ],
+    "yearlyCostEur": 30,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.2 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1700,
+     "upsideEur": 12000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1700,
+       "upsideEur": 12000,
+       "basis": "Bottom-up: 5,000 visits a year (assumed) at 2% (assumed) = 100 licences x 49 EUR = 4,900 EUR. Search needs months to ramp, so roughly half lands in year one: about 2,400 EUR, minus payment fees and the domain, gives about 1,700 EUR. Reaching 5,000 EUR a year needs 103 licences, which this channel only reaches in a good year. Cross-check: no comparable migration product's revenue was verified; the…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "Dated, loud complaints from customers who already pay Vimeo hundreds to thousands a year, and a free copy tool that stops short of the step non-technical users fear most.",
+      "summary": "",
+      "concerns": [
+       "Bunny or Gumlet could add an embed rewriter for free",
+       "Vimeo download access needs a paid Vimeo plan, which most payers have but some have just cancelled",
+       "Embeds inside page builders (Elementor, Divi) are stored in many formats"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:23:26.883Z",
+   "updatedAt": "2026-11-14T09:23:26.883Z",
+   "outcome": null
+  },
   {
    "id": "rules-desk-an-official-rules-answer-page-behind",
    "title": "Rules Desk: an official rules-answer page behind a QR code for small board game publishers",
@@ -2551,2362 +4910,6 @@
    },
    "createdAt": "2026-11-13T21:18:10.463Z",
    "updatedAt": "2026-11-14T00:03:55.292Z",
-   "outcome": null
-  },
-  {
-   "id": "tapas-move-kit-a-series-backup-own-reading-page",
-   "title": "Tapas Move Kit: a series backup, own reading page and reader handoff for creators before Tapas clos…",
-   "pitch": "For webcomic and web-novel creators leaving Tapas: build a clean archive of your own episode files in reading order with metadata. It generates a self-hosted reading site and a 'we moved' page with links to your new platform (WEBTOON Canvas, GlobalComix, Lemoon) and a mailing-list sign-up, so readers follow you. If it takes off, it becomes a portable home for creators facing any platform closure.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 1 of 5",
-    "legacy": false,
-    "payer": "an independent comic or novel creator who earned on Tapas and wants to keep their readers",
-    "buys": "an own-domain reading site and reader handoff without paying a web designer",
-    "model": "one-off",
-    "price": "19 EUR once",
-    "proof": [
-     {
-      "url": "https://www.comicsbeat.com/tapas-update-shut-down-creators/",
-      "note": "No page shows creators paying for this; the destination platforms are free. Payer unconfirmed",
-      "date": "2026-10-01"
-     }
-    ],
-    "nobodyPaysIf": "Creators move to free platforms (GlobalComix, WEBTOON Canvas) and post a link on social media.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 1
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:18:10.362Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "19 EUR once for the generated reading site and handoff page; most creators will choose free platforms instead.",
-   "trigger": "Tapas (Kakao) ends service on 2026-03-31 at 23:59 PT; Ink sales stopped 2026-10-01; no export for creators announced",
-   "window": "Until 2027-03-31; readers scatter after that.",
-   "score": 2.1,
-   "index": {
-    "composite": 1.6,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 1,
-     "potential": 1,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.6 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.6 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 50,
-     "upsideEur": 1000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 50,
-       "upsideEur": 1000,
-       "basis": "Bottom-up: 3,000 visits (assumed) x 1% x 19 EUR = 570 EUR at best; free destinations make conversion lower, so about 50 EUR. Cross-check: no comparable found. 5,000 EUR needs 263 payers, which is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 1,
-      "potential": 1,
-      "automation": 4,
-      "rationale": "A real closure with worried creators, but free platforms cover the need and creators earn little.",
-      "summary": "",
-      "concerns": [
-       "Free alternatives",
-       "Low-income payer"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:18:10.362Z",
-   "updatedAt": "2026-11-13T21:18:10.362Z",
-   "outcome": null
-  },
-  {
-   "id": "extension-exit-a-migration-plan-and-configuratio",
-   "title": "Extension Exit: a migration plan and configuration backup for every Firebase Extension before 2027-…",
-   "pitch": "For developers and small agencies maintaining Firebase apps that use Extensions (payments, email, image resizing): upload firebase.json and the extensions folder. For each extension you get the replacement path (Google's function kit or the open-source code to deploy as your own functions), the parameters and secrets to carry over, and a deploy checklist, so nothing is lost when management and co…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 1 of 5",
-    "legacy": false,
-    "payer": "an agency or freelancer maintaining several client apps on Firebase",
-    "buys": "a per-project migration plan instead of reading each extension's source and docs",
-    "model": "one-off",
-    "price": "29 EUR once per project",
-    "proof": [
-     {
-      "url": "https://shutdownwatch.com/",
-      "note": "No page was found where anyone pays for this job; listed only to fill the pool, payer unconfirmed",
-      "date": "2026-11-12"
-     }
-    ],
-    "nobodyPaysIf": "Google publishes free migration guides and kits, and developers use AI assistants for the rest.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 1
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:18:09.806Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "29 EUR once per project for the full plan; the per-extension index pages are free.",
-   "trigger": "Firebase Extensions service is deprecated and shuts down on 2027-03-31: no more updates, reconfiguration, uninstall or config download; runtimes may later be retired",
-   "window": "Until 2027-03-31; legacy runtimes may break installed extensions later.",
-   "score": 1.9,
-   "index": {
-    "composite": 1.6,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 1,
-     "potential": 1,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.6 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.6 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 100,
-     "upsideEur": 1500,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 100,
-       "upsideEur": 1500,
-       "basis": "Bottom-up: 2,000 visits (assumed) x 1% x 29 EUR = 580 EUR at full ramp; with the ramp and a free official path about 100 EUR. Cross-check: no comparable or price found. 5,000 EUR needs 173 payers, which is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 1,
-      "potential": 1,
-      "automation": 4,
-      "rationale": "The trigger is real but Google provides the migration path free; there is no shown payer.",
-      "summary": "",
-      "concerns": [
-       "Free official guidance",
-       "No payer evidence"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:18:09.806Z",
-   "updatedAt": "2026-11-13T21:18:09.806Z",
-   "outcome": null
-  },
-  {
-   "id": "chatkit-rescue-keep-a-website-s-ai-assistant-run",
-   "title": "ChatKit Rescue: keep a website's AI assistant running after OpenAI Agent Builder shuts on 2026-11-30",
-   "pitch": "For small businesses and agencies whose site chat widget runs on an Agent Builder workflow: paste the Agents SDK code that Agent Builder exports and get a ready-to-deploy serverless backend that serves the same agent to the existing ChatKit widget, with prompts kept in your own config. One-click deploy instructions are included. If it takes off, it becomes a home for small agents moving off any h…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a small business or agency with an Agent Builder-powered chat widget on a live website",
-    "buys": "a working site assistant on 1 December without rebuilding it on a 120 USD a month platform",
-    "model": "one-off",
-    "price": "49 EUR once per agent",
-    "proof": [
-     {
-      "url": "https://www.chatbase.co/pricing",
-      "note": "Businesses pay 120 to 400 USD a month for a hosted site chatbot",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "Anyone who built with Agent Builder can ask a coding assistant to deploy the exported SDK code, and the deadline is too close for search to deliver buyers.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:18:07.464Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "49 EUR once per agent for the generated backend and deploy guide; the business pays its own API costs.",
-   "trigger": "OpenAI shuts Agent Builder, Evals and reusable prompt objects on 2026-11-30; ChatKit embeds that pass a workflow ID are expected to break",
-   "window": "17 days to the cutoff, then broken widgets on live sites; very short.",
-   "score": 2.4,
-   "index": {
-    "composite": 1.75,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.75 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 200,
-     "upsideEur": 2500,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 200,
-       "upsideEur": 2500,
-       "basis": "Bottom-up: 2,000 visits (assumed) x 1.5% x 49 EUR = 1,470 EUR at best; the cutoff is 17 days away, so search barely helps: about 200 EUR. Cross-check: no comparable found. 5,000 EUR needs 102 payers, which is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 4,
-      "rationale": "Real breakage for live sites, but an almost closed window and a free official path.",
-      "summary": "",
-      "concerns": [
-       "Window too short for search",
-       "Coding assistants do this free",
-       "Behaviour after the cutoff is unconfirmed"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:18:07.464Z",
-   "updatedAt": "2026-11-13T21:18:07.464Z",
-   "outcome": null
-  },
-  {
-   "id": "magento-upgrade-readiness-an-upgrade-report-from",
-   "title": "Magento Upgrade Readiness: an upgrade report from composer.lock before Open Source 2.4.7 support en…",
-   "pitch": "For Magento Open Source and Adobe Commerce merchants and small agencies: upload composer.lock and get, per installed extension, whether a release exists for 2.4.8 and PHP 8.3, the latest version, an abandoned flag, a replacement suggestion and an effort estimate, plus the version deadlines that apply. PHP 8.2 reaches end of life on 2026-12-31, Open Source 2.4.7 support ends on 2027-05-31, and Ado…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a Magento merchant's owner or a small Magento agency planning an upgrade",
-    "buys": "a quick, defensible scope for the upgrade instead of paying an agency's discovery hours",
-    "model": "one-off",
-    "price": "49 EUR per report",
-    "proof": [
-     {
-      "url": "https://angeo.dev/adobe-commerce-2-4-7-end-of-life-options/",
-      "note": "Shows merchants spend heavily on the platform (Adobe licence estimates around $40K a year); no price for an audit was found, so the payer is unconfirmed",
-      "date": "2026-10-07"
-     }
-    ],
-    "nobodyPaysIf": "Adobe's free Upgrade Compatibility Tool and composer's own output give developers most of this, and agencies bundle the audit into the upgrade quote.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:18:06.697Z",
-    "detail": [
-     "Missed the strict bar: score 2.45 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A free summary, with 49 EUR per full report; agencies buy packs.",
-   "trigger": "Magento Open Source 2.4.7 standard support ends 2027-05-31; 2.4.4 and 2.4.5 security-only support ends 2027-05-31 with Cloud enforcement from 2027-06-01; PHP 8.2 reaches end of life on 2026-12-31",
-   "window": "Deadlines through mid-2027, and every Magento minor release repeats the need.",
-   "score": 2.45,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 3,000 visits (assumed) x 1% x 49 EUR = 1,470 EUR at full ramp; with the ramp about 400 EUR minus 40 EUR costs. Cross-check: no price for this exact job was found, and private Marketplace extensions are not in Packagist, which caps accuracy; use 300 EUR. 5,000 EUR needs 102 reports, which is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "Real deadlines and a payer with a budget; the free official tool and agencies weaken it.",
-      "summary": "",
-      "concerns": [
-       "Paid Marketplace extensions are not on public Packagist",
-       "Keeping the compatibility index current needs automation"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:18:06.697Z",
-   "updatedAt": "2026-11-13T21:18:06.697Z",
-   "outcome": null
-  },
-  {
-   "id": "pipedream-exit-turn-the-official-workflows-expor",
-   "title": "Pipedream Exit: turn the official Workflows export into n8n workflows and a re-connect checklist",
-   "pitch": "For teams on paid Pipedream Workflows plans before the 2027-03-31 stop: upload the export ZIP. You get n8n workflow JSON for triggers, HTTP and JavaScript steps, a list of every redacted secret, connected account and data store to recreate, and a status per workflow. It runs in the browser and nothing is uploaded. If it takes off, the same converter serves Val Town users (closing 2027-01-10) and …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a small SaaS company or agency running 20 to 200 workflows on a paid Pipedream plan",
-    "buys": "days of manual rebuilding saved and nothing forgotten before data deletion",
-    "model": "one-off",
-    "price": "79 EUR once per project",
-    "proof": [
-     {
-      "url": "https://pipedream.com/pricing",
-      "note": "Pipedream's customers pay from $99 a month (billed yearly) for its platform; this shows the payer's budget, not a price for migration",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "Developers paste the export JSON into a coding agent (Webhook Relay ships free skills for this) or use Workflow Exit.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:18:05.154Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "A free per-workflow report; 79 EUR once per project for the n8n conversion.",
-   "trigger": "Pipedream Workflows and String stop on 2027-03-31; all Workflows data, credentials and OAuth tokens are deleted by 2027-04-30",
-   "window": "Until 2027-04-30; nothing after.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 2500,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 2500,
-       "basis": "Bottom-up: 3,000 visits (assumed) x 1.5% x 79 EUR = 3,555 EUR at full ramp; with 4.5 months left and a search ramp take about a tenth, 350 EUR minus 20 EUR costs. Cross-check: no comparable revenue was found and a converter already exists; 5,000 EUR needs 63 payers, which is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 4,
-      "rationale": "The trigger and the export format are well documented; a competitor and AI agents cover the same job.",
-      "summary": "",
-      "concerns": [
-       "Coding agents do this for free",
-       "Workflow Exit already exists",
-       "One-time market"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:18:05.154Z",
-   "updatedAt": "2026-11-13T21:18:05.154Z",
-   "outcome": null
-  },
-  {
-   "id": "cra-clock-24-hour-72-hour-and-14-day-vulnerabili",
-   "title": "CRA Clock: 24-hour, 72-hour and 14-day vulnerability report drafts and records for small makers sel…",
-   "pitch": "For small hardware and software makers anywhere (US, UK, Asia, EU) whose products are on the EU market: register each product and its components once. When an actively exploited vulnerability hits, the tool runs the 24h/72h/14-day reporting clock, drafts each notification with the required fields and keeps a dated record; components are checked daily against the CISA KEV list. If it takes off, th…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "a maker of connected devices or commercial software with 1 to 20 products sold in the EU and 2 to 50 staff",
-    "buys": "meeting a 24-hour legal reporting duty, with a dated record for market surveillance, without a 149 EUR a month platform",
-    "model": "subscription",
-    "price": "19 EUR a month",
-    "proof": [
-     {
-      "url": "https://verimu.com/pricing",
-      "note": "Starter 49 EUR a month and Professional 149 EUR a month, the latter with the 24h-72h-14d workflow",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "Exploited vulnerabilities are rare for small makers, so a monthly fee for a clock that may never run feels like optional insurance; free SBOM and CVE tools plus ENISA's own form cover most of it.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:18:04.226Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Makers pay 19 EUR a month for the register, KEV watch and report drafts, an eighth of the incumbent's plan.",
-   "trigger": "The Cyber Resilience Act's Article 14 duty to report actively exploited vulnerabilities and severe incidents applies from 2026-09-11, including to products already on the market",
-   "window": "The duty is permanent, and full CRA obligations (SBOM, CE marking) follow on 2027-12-11, so need keeps growing; the risk is that SBOM vendors bundle this.",
-   "score": 2.5,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 60,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 5000,
-       "basis": "Bottom-up: 3,000 visits (assumed) x 1% x 19 EUR x about 6 paid months in year one = 3,420 EUR at full ramp; with the search ramp take a sixth, about 570 EUR, minus 60 EUR costs. Cross-check: Verimu prices the workflow at 149 EUR a month, but no customer count was found; use 300 EUR. 5,000 EUR needs 22 yearly subscribers, which is possible only if the pages rank."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "A law in force with a priced competitor; the job is rare per customer, which weakens a subscription.",
-      "summary": "",
-      "concerns": [
-       "Must not read as legal advice; drafts only",
-       "Incumbents can drop prices",
-       "Low urgency until a maker is hit"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:18:04.226Z",
-   "updatedAt": "2026-11-13T21:18:04.226Z",
-   "outcome": null
-  },
-  {
-   "id": "script-tag-deadline-scan-a-no-install-check-of-a",
-   "title": "Script Tag Deadline Scan: a no-install check of any Shopify store before script tags stop on 2027-0…",
-   "pitch": "Agencies and merchants paste a store URL and see in seconds every app script still injected through script tags (read from the public storefront), the app behind each and the replacement (app embed, web pixel or new app). Agencies buy multi-store reports for their clients, and each shared report link brings in the next agency.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a Shopify agency or freelancer looking after 10 to 50 client stores",
-    "buys": "a client-ready report per store showing what breaks on 2027-03-01, which they turn into paid upgrade work, without installing an app in every client store",
-    "model": "one-off",
-    "price": "49 EUR for 25 store reports",
-    "proof": [
-     {
-      "url": "https://apps.shopify.com/embedready",
-      "note": "Merchants are asked to pay $9.99 a month for the same check on one store",
-      "date": "2026-10-08"
-     }
-    ],
-    "nobodyPaysIf": "Shopify emails merchants, EmbedReady's free plan shows the first tag, and an agency developer can read the page source in a minute.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:59.080Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "A free single-store scan; agencies pay 49 EUR for a 25-store pack of client-ready reports.",
-   "trigger": "Shopify stops injecting script tags into storefronts on 2027-03-01; creating or updating them has failed since 2026-10-01",
-   "window": "Until March 2027, then a few months of 'why did X stop working' searches.",
-   "score": 2.65,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: 4,000 visits (assumed) x 1.5% (assumed) x 49 EUR = 2,940 EUR at full ramp. The deadline is 3.5 months away, so take a quarter: about 700 EUR. Cross-check: EmbedReady has 0 reviews five weeks after launch, a sign of weak paid uptake, so use 300 EUR. 5,000 EUR needs 102 agency packs, which is not reachable before March."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The trigger is real and documented; two paid apps already serve it, and agencies can check by hand.",
-      "summary": "",
-      "concerns": [
-       "Unverified: that every script-tag URL shows up in the storefront HTML",
-       "Fetching storefront HTML needs a serverless relay",
-       "Value ends in March 2027"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:59.080Z",
-   "updatedAt": "2026-11-13T21:17:59.080Z",
-   "outcome": null
-  },
-  {
-   "id": "gpt-rehome-keep-a-public-custom-gpt-alive-after",
-   "title": "GPT Rehome: keep a public custom GPT alive after 2026-12-11 as a shareable chat page on your own AP…",
-   "pitch": "For coaches, consultants, teachers and small firms who shared a custom GPT with clients or the public: paste the instructions, conversation starters and knowledge files to get a hosted public chat page and embed with the same name and starters. It runs on your own OpenAI or Anthropic key, for one payment. If it takes off, every rehomed page carries a small 'made with' link back.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a coach, consultant, trainer or small firm whose clients or audience used a shared GPT link",
-    "buys": "keeping their tool and a public link alive for people without ChatGPT accounts, without a 120 USD a month chatbot plan",
-    "model": "one-off",
-    "price": "39 EUR once per assistant, own API key",
-    "proof": [
-     {
-      "url": "https://www.chatbase.co/pricing",
-      "note": "Businesses pay 120 USD (Basic) or 400 USD (Business) a month for a hosted custom chatbot",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "Most GPT creators had free users and will move to Projects, Gems or a free bot platform, or let the GPT die.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:58.181Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Creators pay 39 EUR once and bring their own API key, so running costs stay near zero.",
-   "trigger": "OpenAI retires custom GPTs: they stop running on 2026-12-11, GPT pages become inaccessible and the GPT Store listing has no equivalent; Projects cannot be shared publicly",
-   "window": "Four weeks to the cutoff, then a tail of creators whose shared links died; chatbot vendors will add 'import your GPT' soon.",
-   "score": 2.65,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 3,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 120,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 400,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 400,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 8,000 visits (assumed) x 1% (assumed) x 39 EUR = 3,120 EUR at full ramp. The cutoff is 4 weeks away and search needs months, so take a sixth: about 500 EUR minus 120 EUR for hosting and storage, about 400 EUR. Cross-check: Chatbase charges 120 USD a month, which shows businesses pay for hosted assistants, but the payers here are mostly small creators and free alternatives exist. 5,000 …"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 3,
-      "rationale": "Huge trigger, weak payer: most GPT owners are hobbyists, and the business owners can afford Chatbase or Pickaxe.",
-      "summary": "",
-      "concerns": [
-       "Free alternatives (Projects, Gems)",
-       "Abuse of public chat pages",
-       "Security of stored API keys"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:58.181Z",
-   "updatedAt": "2026-11-13T21:17:58.181Z",
-   "outcome": null
-  },
-  {
-   "id": "quip-exit-bulk-export-of-a-whole-quip-site-to-sh",
-   "title": "Quip Exit: bulk export of a whole Quip site to SharePoint, Google Drive or Notion, with folders, co…",
-   "pitch": "For teams whose Salesforce Quip subscription cannot renew after 2027-03-01: paste a Quip API token and pick folders. Documents become DOCX, HTML or Markdown and spreadsheets become XLSX; the folder tree is rebuilt, inline comments are saved and internal Quip links are rewritten to the new paths, ready for SharePoint, Google Drive or Notion. If it takes off, it becomes the reference 'leaving Quip'…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "a team lead or Salesforce admin at a small or mid-size company with a few hundred to a few thousand Quip documents",
-    "buys": "a complete, structured export to the destination they chose, without a $500+ service or days of one-by-one manual exports that lose comments",
-    "model": "one-off",
-    "price": "149 EUR once per workspace (up to 2,000 documents)",
-    "proof": [
-     {
-      "url": "https://clonepartner.com/blog/quip-end-of-life-playbook-2027-choosing-your-migration-destination.md",
-      "note": "ClonePartner sells this migration at a fixed price from $500 per project",
-      "date": "2026-05-08"
-     }
-    ],
-    "nobodyPaysIf": "Companies on Quip are mostly Salesforce customers: they take Salesforce's free Slack canvas flow, have IT script the Quip API with an AI assistant, or buy through procurement instead of with a card.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Ranked 24 of 30 in the daily ranking: aggregate 2.45 of 5 by 2 rankers; the rankers estimate about 400 EUR in the first year, about 4000 EUR if it takes off.",
-    "at": "2026-11-13T21:17:57.432Z",
-    "detail": [
-     "Missed the strict bar: score 3.1 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A free dry run counts documents, comments and links; the full export costs 149 EUR per workspace, against a $500+ service.",
-   "trigger": "Salesforce retires all Quip products: subscriptions cannot renew after 2027-03-01, then 90 days read-only, then logins blocked and data deleted; no bulk export in the UI and manual export drops comme…",
-   "window": "Each customer's deadline is their renewal date (no later than 2027-03-01) plus 90 days read-only, so the need peaks between now and mid-2027 and then ends.",
-   "score": 3.1,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 700,
-     "upsideEur": 9000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 700,
-       "upsideEur": 9000,
-       "basis": "Bottom-up: 3,000 visits a year (assumed) x 2% (assumed) x 149 EUR = 8,940 EUR at full ramp. The need ends by mid-2027 and search pages take months to rank, so take about a tenth: roughly 900 EUR minus costs, about 700 EUR. Cross-check: ClonePartner sells the job from $500, so 149 EUR is well under the going price, but no count of Quip customers was found. 5,000 EUR needs 34 payers; that is reacha…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A hard retirement with real data loss, a priced service and no self-serve tool for three major destinations. The buyers sit inside Salesforce accounts and may not pay by card.",
-      "summary": "",
-      "concerns": [
-       "Quip API CORS is unverified; a serverless relay may be needed",
-       "API rate limits make large exports slow",
-       "Salesforce may improve its own export"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:57.432Z",
-   "updatedAt": "2026-11-13T21:17:57.432Z",
-   "outcome": null
-  },
-  {
-   "id": "builder-exit-turn-a-closing-website-builder-s-ex",
-   "title": "Builder Exit: turn a closing website builder's export into a live, self-contained site (Solo, Weebl…",
-   "pitch": "For small-business owners whose website builder is closing (Mozilla Solo deletes all sites on 2026-11-30; Weebly ends logins in 67 countries on 2026-12-26): upload the builder's export ZIP and get back a self-contained static site. It fetches the images Solo leaves out, pulls in builder CDN assets, swaps dead forms, keeps the old URLs and comes with steps to host it free on your own domain. If it…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the owner of a small-business, freelancer or club website built on a closing builder (paid Solo Pro/Grow or Weebly plans) who would otherwi…",
-    "buys": "a working copy of their existing site with images, pages and URLs intact, without rebuilding from scratch or paying a freelancer 35 to 499 USD",
-    "model": "one-off",
-    "price": "29 EUR once per site",
-    "proof": [
-     {
-      "url": "https://block.fiverr.com/gigs/weebly-to-wordpress",
-      "note": "Search result: gigs sell Weebly-to-WordPress moves from $35 and $90 (snippet seen, page not opened because the fetcher cannot read Fiverr)",
-      "date": "2026-11-13"
-     },
-     {
-      "url": "https://kompozy.io/news/mozilla-solo-ai-website-builder-shutdown",
-      "note": "Solo users were paying Pro and Grow subscribers, so the payer has a card and a site at stake",
-      "date": "2026-10-02"
-     }
-    ],
-    "nobodyPaysIf": "Most owners of tiny builder sites rebuild for free on another builder's free plan or let the site go; Weebly users already lost their live site in September and many have moved on.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:56.420Z",
-    "detail": [
-     "Missed the strict bar: score 3.2 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Site owners pay 29 EUR once per rescued site after a free preview; per-builder exit pages bring in the next wave at each closure.",
-   "trigger": "Mozilla Solo deletes every site and all data on 2026-11-30 (its export is a static snapshot without images); Weebly unpublished sites in 67 countries on 2026-09-27 and ends account access on 2026-12-…",
-   "window": "Solo closes in 17 days and Weebly logins end in 6 weeks, so the first version must ship within days. After that the product lives on later closures: Hocoos (2026-04), Sitebeat (2025-12), AppDrag (202…",
-   "score": 3.2,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 6,000 visits a year (assumed; Weebly alone shows 5 export autocomplete variants) x 3% (assumed) x 29 EUR = 5,220 EUR at full ramp. Both current deadlines fall in the first 6 weeks, before search traffic builds, so take about a sixth: roughly 850 EUR minus 30 EUR running costs and fees. Cross-check: freelancers sell the same move from $35 and agencies from $499 (search snippets), so the…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "Paid users with a site at stake and dated closure notices are verified. The free alternatives (rebuild on another builder, host the raw ZIP) are real, and the size of the audience is unknown.",
-      "summary": "",
-      "concerns": [
-       "Weebly users lost their live site in September and many have already rebuilt",
-       "The Weebly archive may already work as-is, which would shrink the value to Solo-like cases",
-       "Fetching remote assets needs a small serverless proxy because of CORS"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:56.420Z",
-   "updatedAt": "2026-11-13T21:17:56.420Z",
-   "outcome": null
-  },
-  {
-   "id": "entsende-mappe-fuer-montagebetriebe-meldungen-un",
-   "title": "Entsende-Mappe für Montagebetriebe: Meldungen und Unterlagen für Einsätze in Österreich, der Schwei…",
-   "pitch": "For German trade and installation firms that send staff to jobs in Austria, Switzerland or France: they enter the job once and get the data per country (ZKO3 in Austria, EasyGov at least eight days ahead in Switzerland, SIPSI plus a representative in France), a document checklist (A1, contract, payslips) and deadline reminders.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A German trade or installation firm with 5 to 50 staff that does jobs in Austria, Switzerland or France several times a year",
-    "buys": "Correct notifications and a complete document set on site, avoiding fines and job stops at inspections",
-    "model": "subscription",
-    "price": "99 EUR a year",
-    "proof": [
-     {
-      "url": "https://arlettipartners.com/de/neue-bestimmungen-fuer-die-entsendung-von-arbeitnehmern-nach-oesterreich/",
-      "note": "Firms pay consultants for posting compliance (quote on request, no price shown)",
-      "date": "2026-10-13"
-     }
-    ],
-    "nobodyPaysIf": "The national portals are free and the office clerk files a few postings a year by hand; the EU portal may simplify it further.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:54.399Z",
-    "detail": [
-     "Missed the strict bar: score 2.45 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Yearly fee for multi-country posting folders and reminders, cheaper than a consultant's quote.",
-   "trigger": "standing need; the EU Parliament confirmed an optional EU-wide digital posting declaration portal on 2026-10-21, with no start date",
-   "window": "Open until the optional EU portal launches and is joined by these countries; Switzerland is outside the EU and will keep its own system.",
-   "score": 2.45,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 1,500 visits, with the ramp leaving about 750 effective, at 1% gives about 7 payers x 99 EUR = 693 EUR, minus costs, so about 300 EUR after ramp losses. Reaching 5,000 EUR needs 51 payers, which the channel cannot reach. Cross-check: no price found for a comparable service."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "A real recurring paperwork job across countries, but free portals, no price evidence and an EU portal on the way.",
-      "summary": "",
-      "concerns": [
-       "Country rules change and must be kept up to date (lowers automation)",
-       "EU e-declaration portal"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:54.399Z",
-   "updatedAt": "2026-11-13T21:17:54.399Z",
-   "outcome": null
-  },
-  {
-   "id": "e-rechnung-aus-pdf-fuer-betriebe-ueber-800-000-u",
-   "title": "E-Rechnung aus PDF für Betriebe über 800.000 € Umsatz mit Alt-Software: Tagesrechnungen in ZUGFeRD/…",
-   "pitch": "For firms above 800k EUR turnover that must issue e-invoices from 2027-01-01 but still write invoices in Word or a discontinued desktop program. They drop the day's PDF invoices, the browser reads the fields with a layout template set up once, the user confirms, and the tool outputs ZUGFeRD or XRechnung checked against the official rules, with a GoBD log.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A firm above 800k EUR turnover still invoicing from Word or an unsupported desktop program",
-    "buys": "Valid e-invoices without replacing its invoicing program before 2027-01-01",
-    "model": "subscription",
-    "price": "15 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.easybill.de/preise",
-      "note": "Firms pay 12 to 45 EUR a month for invoicing with XRechnung and ZUGFeRD (page dated 2026-03-26), but a free plan exists",
-      "date": "2026-03-26"
-     }
-    ],
-    "nobodyPaysIf": "easybill's free plan and other free generators already create e-invoices, so switching is cheaper than converting.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:54.067Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Monthly fee for batch PDF-to-e-invoice conversion that keeps the old program running; weak against free tools.",
-   "trigger": "From 2027-01-01, firms with prior-year turnover above 800,000 EUR must issue e-invoices for domestic B2B sales; no postponement was found",
-   "window": "Seven weeks to the start date for the over-800k group; from 2028 for all firms.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.15,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.15 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.15 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 400,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 400,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: 4,000 visits, but a new site will hardly rank against big vendors, so about 1,500 effective; at 0.3% that gives about 5 payers x 180 EUR = 900 EUR, minus churn and costs, so about 400 EUR. Reaching 5,000 EUR needs 28 payers. Cross-check: easybill's prices show payment for invoicing, but its free plan undercuts a converter."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "Huge, dated demand, but free and cheap tools serve it; only the convert-old-PDFs angle is different.",
-      "summary": "",
-      "concerns": [
-       "Free alternatives",
-       "Converting PDFs reliably needs a layout template per invoice design"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:54.067Z",
-   "updatedAt": "2026-11-13T21:17:54.067Z",
-   "outcome": null
-  },
-  {
-   "id": "cbam-waechter-fuer-importeure-an-der-50-tonnen-s",
-   "title": "CBAM-Wächter für Importeure an der 50-Tonnen-Schwelle: Mengen verfolgen, Jahreserklärung 2026 vorbe…",
-   "pitch": "For SMEs importing steel, aluminium or fasteners near the 50 t de-minimis line: it tracks cumulative CBAM tonnage from customs import lists, warns before the threshold is crossed, and for those above it prepares the first annual declaration (2026 imports, due 2027-09-30) and a certificate cost estimate.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small importer of steel, aluminium or fastener goods with 30 to 300 t of CBAM goods a year",
-    "buys": "Avoiding a penalty for crossing 50 t without authorisation, and a correct first declaration",
-    "model": "subscription",
-    "price": "49 EUR a month",
-    "proof": [
-     {
-      "url": "https://cbamguide.com/software/pricing/",
-      "note": "Importers pay 79 to 199 EUR a month (CbamTrack) or 1,990 EUR a year (Dubrink) for the same job",
-      "date": "2026-10-23"
-     }
-    ],
-    "nobodyPaysIf": "Several tools have free tiers, and importers under 50 t need nothing.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:53.311Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Monthly fee for threshold tracking and the declaration file; in practice it competes on price with many existing tools.",
-   "trigger": "CBAM certificate sales start in February 2027 and the first annual declaration for 2026 imports is due 2027-09-30",
-   "window": "Until 2027-09-30 for the first declaration, but the market already has about 39 vendors.",
-   "score": 2.25,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 200,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 200,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 1,500 visits, with the ramp leaving about 750 effective, at 0.5% gives about 4 payers paying for part of the year, about 600 EUR, minus costs and churn, so about 200 EUR. Reaching 5,000 EUR needs 9 full-year payers. Cross-check: competitors' public prices show payment, but free tiers cap what a newcomer can charge."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A dated duty with published prices, but 39 vendors and free tiers leave no gap.",
-      "summary": "",
-      "concerns": [
-       "Extremely crowded",
-       "Customs data import formats vary"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:53.311Z",
-   "updatedAt": "2026-11-13T21:17:53.311Z",
-   "outcome": null
-  },
-  {
-   "id": "kassendaten-archiv-beim-kassenwechsel-dsfinv-k-e",
-   "title": "Kassendaten-Archiv beim Kassenwechsel: DSFinV-K-Export prüfen und prüffähig für 8 Jahre ablegen",
-   "pitch": "For shops, cafés and market traders who change their POS vendor or whose vendor stops: upload the DSFinV-K export once, and the browser checks it for completeness (all cash closings, TSE signatures, required tables). It builds a read-only, searchable archive with a checksum log and an auditor-ready package, stored with the merchant.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A shop, café or market trader with 1 to 3 tills who changes POS vendor or whose vendor quits",
-    "buys": "An audit-proof copy of years of till data the old vendor no longer hosts, avoiding tax estimates and fines",
-    "model": "one-off",
-    "price": "89 EUR once per till",
-    "proof": [
-     {
-      "url": "https://www.datev.de/web/de/shop/produkt-details/datev-kassenarchiv-online-97337",
-      "note": "Merchants pay DATEV for the same job (10-year cash-data archive); the price was not visible on the page",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "Merchants simply keep the export ZIP on a disk, or their tax advisor uses DATEV, which already accepts manual uploads.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:51.685Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "A one-off fee per till for a validated archive the merchant keeps.",
-   "trigger": "standing need",
-   "window": "A standing need: every POS change needs the old data kept for years. The DSFinV-K 3.0 spec (published 2026-10-30, binding from 2029) will cause more vendor switches.",
-   "score": 1.85,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: 1,000 visits, with the ramp leaving about 500 effective, at 1% gives 5 payers x 89 EUR = 445 EUR, minus costs, so about 300 EUR. Reaching 5,000 EUR needs 57 payers, which the channel cannot reach. Cross-check: DATEV's price is not public, and an empty autocomplete points to low demand."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 5,
-      "rationale": "The duty is real and fines are high, but DATEV already accepts manual uploads and searches are rare.",
-      "summary": "",
-      "concerns": [
-       "DATEV covers it",
-       "Very low search demand"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:51.685Z",
-   "updatedAt": "2026-11-13T21:17:51.685Z",
-   "outcome": null
-  },
-  {
-   "id": "uebernachtungsteuer-meldung-fuer-kleine-gastgebe",
-   "title": "Übernachtungsteuer-Meldung für kleine Gastgeber: Quartalswerte aus Buchungsexporten, zuerst Stuttga…",
-   "pitch": "For private hosts and small guesthouses in cities that newly charge an overnight tax (Stuttgart since 2026-07-01, 3 EUR per person and night, quarterly digital filing). It imports Airbnb, Booking.com or channel-manager CSV exports, applies the city's exemptions (minors, school groups), produces the quarterly figures and a per-stay record for audits, and adds more cities from their bylaws.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A private host or small guesthouse with 1 to 10 units in a city with an overnight tax",
-    "buys": "Correct quarterly figures and a per-stay record instead of hand counting, avoiding tax estimates and late fees",
-    "model": "subscription",
-    "price": "49 EUR a year",
-    "proof": [
-     {
-      "url": "https://www.stuttgart.de/service/aktuelle-meldungen/2026/februar/stuttgart-fuehrt-uebernachtungssteuer-ein-buergermeister-sieht-klare-perspektive-fuer-stadt-wirtschaft-und-tourismus",
-      "note": "Shows the paid duty and quarterly filing; no page was found where anyone pays for a tool for this job, which is a weakness",
-      "date": "2026-02-26"
-     }
-    ],
-    "nobodyPaysIf": "The computation is persons times nights times 3 EUR, which a host does in a spreadsheet or with an AI assistant in minutes.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:51.355Z",
-    "detail": [
-     "Missed the strict bar: score 2.55 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Hosts with several units pay a yearly fee for computed quarterly figures and an audit record.",
-   "trigger": "Stuttgart city council adopted an overnight tax on 2026-02-26, in force from 2026-07-01, 3 EUR per person and night, filed quarterly and digitally by hotels and private hosts",
-   "window": "Recurring quarterly duty; new hosts in Stuttgart are setting up their routine now, and other Baden-Württemberg towns (Ludwigsburg, Tübingen, Karlsruhe, Heidelberg appeared in search) have similar tax…",
-   "score": 2.55,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: 2,000 visits, with the ramp leaving about 1,000 effective, at 1% (assumed) gives 10 payers x 49 EUR = 490 EUR, minus about 20 EUR in costs and fees, so about 300 EUR after ramp losses. Reaching 5,000 EUR needs 102 payers, which the channel cannot reach. Cross-check: no comparable found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The duty is real and recurring, but the calculation is simple, so a payer is not shown.",
-      "summary": "",
-      "concerns": [
-       "Too simple to pay for",
-       "Each city's rules differ and must be kept up to date"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:51.355Z",
-   "updatedAt": "2026-11-13T21:17:51.355Z",
-   "outcome": null
-  },
-  {
-   "id": "eudr-erklaerung-fuer-klein-und-kleinstbetriebe-g",
-   "title": "EUDR-Erklärung für Klein- und Kleinstbetriebe: Geodaten prüfen, Risikoakte und TRACES-Daten auf Deu…",
-   "pitch": "For micro and small operators first placing EUDR goods on the EU market: timber, furniture and flooring importers (EUTR-covered small firms already from 2026-12-30), then small coffee and cocoa importers (2027-06-30). They upload plot GeoJSON or KML, the browser checks the format (six decimals, polygons) and overlays free forest-map layers, and the tool builds the risk-assessment file and the dat…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A micro or small timber, furniture or flooring importer, or a small green-coffee or cocoa importer, that places EUDR goods first on the EU …",
-    "buys": "A defensible due-diligence file and correct TRACES data, avoiding seized goods and fines",
-    "model": "subscription",
-    "price": "39 EUR a month",
-    "proof": [
-     {
-      "url": "https://integritynext.com/esg-solutions/eudr-deforestation-regulation/eudr-starter",
-      "note": "SMEs buy a fixed-price annual EUDR package (amount on request)",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "Micro and small firms only need a simplified one-time declaration that TRACES accepts for free, and suppliers often hand over the geodata.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-13T21:17:50.870Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small importers pay a monthly self-serve fee for the German file workflow, instead of a demo-led yearly contract.",
-   "trigger": "EUDR applies to large and medium operators from 2026-12-30 and to most micro and small firms from 2027-06-30 (Regulation 2025/2650); the Commission confirmed in May 2026 that it will not reopen the r…",
-   "window": "Seven weeks to the first date and seven months to the small-firm date; small firms will choose a routine in that time.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: 3,000 visits, with the ramp leaving about 1,500 effective, at 0.4% (assumed) gives 6 payers; most pay only a few months, so about 1,000 EUR, minus costs, about 800 EUR. Reaching 5,000 EUR needs 11 full-year payers. Cross-check: no vendor publishes a price, so this could not be cross-checked."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The duty is in force and dated, with clear how-to demand, but free official tools and a simplified small-firm path cut willingness to pay, and many vendors exist.",
-      "summary": "",
-      "concerns": [
-       "Free TRACES and the simplified declaration",
-       "Many paid vendors",
-       "Further EU simplification"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:50.870Z",
-   "updatedAt": "2026-11-13T21:17:50.870Z",
-   "outcome": null
-  },
-  {
-   "id": "cra-kit-fuer-kleine-software-anbieter-sbom-secur",
-   "title": "CRA-Kit für kleine Software-Anbieter: SBOM, security.txt, Meldeprozess und Komponenten-Überwachung …",
-   "pitch": "For one- to five-person firms selling commercial plugins, themes or desktop apps to EU customers, which count as manufacturers under the CRA. It reads lockfiles (composer.lock, package-lock, requirements) in the browser, produces a CycloneDX SBOM, security.txt, a vulnerability-handling policy and a support-period statement, watches the components against OSV and starts the 24h ENISA clock with dr…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A one- to five-person company selling a commercial plugin, theme or desktop app to EU customers",
-    "buys": "Maintained CRA documents and a monitored 24h reporting process, instead of building them by hand",
-    "model": "subscription",
-    "price": "19 EUR a month per product",
-    "proof": [
-     {
-      "url": "https://craready.pages.dev/",
-      "note": "A close job (SBOM, vulnerability monitoring, ENISA templates) sells at 299 EUR a month for devices",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "Developers already use free SBOM generators, Dependabot and OSV, and AI assistants draft the policies, so the paid remainder is thin.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Ranked 13 of 30 in the daily ranking: aggregate 2.88 of 5 by 2 rankers; the rankers estimate about 400 EUR in the first year, about 5000 EUR if it takes off.",
-    "at": "2026-11-13T21:17:50.272Z",
-    "detail": [
-     "Missed the strict bar: score 2.9 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Indie software sellers pay a small monthly fee for maintained CRA documents and component monitoring with the report clock.",
-   "trigger": "CRA reporting duties apply since September 2026; core requirements from 2027-12-11",
-   "window": "Until 2027-12-11; free checkers are already appearing (a Show HN on 2026-10-29), so the docs-plus-monitoring bundle must ship soon.",
-   "score": 2.9,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 60,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 10000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 10000,
-       "basis": "Bottom-up: 4,000 visits, with the ramp leaving about 2,000 effective, at 0.5% (assumed) gives 10 payers x 228 EUR = 2,280 EUR, minus about 60 EUR for a scheduled serverless job and fees, then rounded down for churn, so about 1,000 EUR. Reaching 5,000 EUR needs 22 payers. Cross-check: no comparable revenue was found; free tooling sets a low anchor, so the lower figure is used."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "Dated developer demand on HN and a duty that is in force; developers are used to free tools, so willingness to pay is doubtful.",
-      "summary": "",
-      "concerns": [
-       "Free SBOM and scanning tools",
-       "Unclear CRA scope for some software (SaaS is mostly excluded)"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:50.272Z",
-   "updatedAt": "2026-11-13T21:17:50.272Z",
-   "outcome": null
-  },
-  {
-   "id": "batteriepass-werkstatt-digitaler-batteriepass-mi",
-   "title": "Batteriepass-Werkstatt: digitaler Batteriepass mit QR-Code für Fahrradwerkstätten, kleine E-Bike-Ma…",
-   "pitch": "For bike workshops that build e-bike batteries from cells, small LMT brands and electricians who assemble home storage over 2 kWh from cells: a guided per-battery passport with the Annex XIII fields, a QR code and a hosted public page, plus a check of whether a repaired battery counts as newly placed on the market. If it takes off it becomes the standard passport for small German battery builders…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A bike workshop or small e-bike/LMT brand that builds or imports a few dozen batteries a year, or an electrician who assembles storage syst…",
-    "buys": "A valid passport and QR code per battery so the battery may be sold after 2027-02-18 without market-surveillance action",
-    "model": "subscription",
-    "price": "19 EUR a month for up to 20 passports",
-    "proof": [
-     {
-      "url": "https://dpphero.com/",
-      "note": "DPP Hero: Starter 49 EUR a month (100 passes), Business 99 EUR, Scale 249 EUR, excluding VAT",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "DPP Hero already does this with a free first pass, and many workshops will stop assembling batteries rather than take on producer duties.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Ranked 27 of 30 in the daily ranking: aggregate 2.4 of 5 by 2 rankers; the rankers estimate about 300 EUR in the first year, about 8000 EUR if it takes off.",
-    "at": "2026-11-13T21:17:49.328Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Workshops pay a small monthly plan for a few passports a month; the free first passport is the lead magnet.",
-   "trigger": "From 2027-02-18 every LMT battery, industrial battery over 2 kWh and EV battery placed on the EU market needs a digital battery passport (Regulation 2023/1542 Art. 77)",
-   "window": "Three months to the start date; workshops that build batteries from cells must decide now. After that, the market settles on whoever they found first.",
-   "score": 3.25,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 120,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1200,
-     "upsideEur": 12000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1200,
-       "upsideEur": 12000,
-       "basis": "Bottom-up: 4,000 visits, with the ramp leaving about 2,000 effective, at 0.5% (assumed, lower because DPP Hero exists) gives 10 payers x 228 EUR = 2,280 EUR, minus 120 EUR hosting with access control and fees, then rounded down for churn, so about 1,200 EUR. Reaching 5,000 EUR needs 22 payers, which is unlikely in year 1. Cross-check: DPP Hero's public prices show willingness to pay, but its cust…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The duty and date are confirmed by the IHK and the trade press, and a payer price is public. A cheap, solid German competitor already exists.",
-      "summary": "",
-      "concerns": [
-       "DPP Hero covers the same payer",
-       "Restricted passport fields need access control (serverless auth)",
-       "Passport pages must stay online for years"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:49.328Z",
-   "updatedAt": "2026-11-13T21:17:49.328Z",
-   "outcome": null
-  },
-  {
-   "id": "tacho-akte-fuer-transporter-fahrerkarten-und-fah",
-   "title": "Tacho-Akte für Transporter: Fahrerkarten- und Fahrzeugdaten im Browser auswerten, Download-Fristen …",
-   "pitch": "For courier and transport firms with 1 to 10 vans of 2.5 to 3.5 t on paid cross-border runs, newly bound by tachograph rules since 2026-07-01. They load the .DDD files from the driver card (every 28 days) and the vehicle unit (every 90 days), and the browser checks driving and rest times against Regulation 561/2006, warns before download deadlines and keeps an organised one-year archive locally, …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A courier or transport firm with 1 to 10 vans of 2.5 to 3.5 t doing paid cross-border or cabotage runs",
-    "buys": "The required 28-day and 90-day download archive and an infringement check, avoiding 1,500 to 4,500 EUR fines and impounding without buying hardware per van",
-    "model": "subscription",
-    "price": "99 EUR a year for up to 5 vans",
-    "proof": [
-     {
-      "url": "https://www.softguide.de/programm/huss-tacho-fernauslesen-mit-fahrzeugortung-optional",
-      "note": "Firms pay 6.75 EUR per vehicle per month plus 3 EUR per driver card per month for archive and analysis (plus hardware)",
-      "date": "2024-10-17"
-     }
-    ],
-    "nobodyPaysIf": "Firms use the free software that came with their card reader and rarely face audits, or they buy telematics that bundles remote download.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Ranked 3 of 30 in the daily ranking: aggregate 3.25 of 5 by 2 rankers; the rankers estimate about 1500 EUR in the first year, about 10000 EUR if it takes off.",
-    "at": "2026-11-13T21:17:48.685Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Van operators pay a small yearly fee for the archive, the deadline alerts and the infringement report, instead of a telematics bundle per vehicle.",
-   "trigger": "Since 2026-07-01, vans over 2.5 t up to 3.5 t in paid international transport or cabotage need a smart tachograph v2 and fall under driving and rest time rules, including reading out and archiving da…",
-   "window": "Newly affected firms are choosing tools now; a third had not even retrofitted by late July 2026. Once they buy telematics bundles, they are locked in.",
-   "score": 2.85,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1500,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1500,
-       "upsideEur": 15000,
-       "basis": "Bottom-up: 5,000 visits in year 1, with the ramp leaving about 2,000 effective, at 1% (assumed) gives 20 payers x 99 EUR = 1,980 EUR, minus fees and 30 EUR in costs, so about 1,500 EUR. Reaching 5,000 EUR needs 51 payers, which the channel is unlikely to reach in year 1. Cross-check: HUSS charges about 117 EUR a year per vehicle plus hardware, but no customer counts were found; the expert intervi…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The duty, deadline and fines are confirmed by trade press dated 2026-07-29. The category is mature and crowded, so only the small-van price point is new.",
-      "summary": "",
-      "concerns": [
-       "Many existing tools",
-       "Parsing gen2v2 .DDD files correctly is hard and errors carry liability",
-       "Archive duties may favour server-based storage"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:48.685Z",
-   "updatedAt": "2026-11-13T21:17:48.685Z",
-   "outcome": null
-  },
-  {
-   "id": "cra-akte-cyber-resilience-act-dokumentation-und",
-   "title": "CRA-Akte: Cyber-Resilience-Act-Dokumentation und 24-Stunden-Meldeuhr für Hersteller mit 1 bis 3 ver…",
-   "pitch": "For small makers and importers of connected devices (smart-home gadgets, maker kits, small machine builders with firmware) selling in the EU: a German browser tool that builds the CRA file per product. It produces an SBOM from firmware or package manifests processed locally, an Annex I checklist, a vulnerability-handling policy, a support-period statement and a draft EU declaration, and runs the …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small manufacturer or importer of 1 to 3 connected devices sold in the EU, such as a smart-home gadget brand, a maker-kit seller or a sma…",
-    "buys": "A complete CRA technical file and a 24h/72h/14-day reporting workflow. Without it the product cannot carry CE marking after 2027-12-11, and missed reports risk fines; it saves days of consultant time",
-    "model": "subscription",
-    "price": "290 EUR a year per product",
-    "proof": [
-     {
-      "url": "https://craready.pages.dev/",
-      "note": "CRAready sells the same job (SBOM, monitoring, ENISA report templates) at 299 EUR a month for up to 3 products",
-      "date": "2026-11-13"
-     }
-    ],
-    "nobodyPaysIf": "A one-product maker finds the free Eclipse and EU toolbox templates plus an AI assistant good enough, or needs a consultant anyway for the conformity assessment.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "decision": {
-    "by": "daily pool",
-    "reason": "Ranked 4 of 30 in the daily ranking: aggregate 3.18 of 5 by 2 rankers; the rankers estimate about 800 EUR in the first year, about 12000 EUR if it takes off.",
-    "at": "2026-11-13T21:17:47.652Z",
-    "detail": [
-     "Missed the strict bar: score 3.1 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small device makers pay a yearly fee per product for the CRA file and the incident clock, far below CRAready's 299 EUR a month.",
-   "trigger": "CRA reporting duties for manufacturers (24h early warning on actively exploited vulnerabilities) apply since September 2026; the core requirements apply from 2027-12-11",
-   "window": "About 13 months until 2027-12-11, when products without CRA conformity can no longer be placed on the EU market. Priced tools aim at mid-size firms (CRAready from 299 EUR a month), so a one-product m…",
-   "score": 3.1,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2500,
-     "upsideEur": 25000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2500,
-       "upsideEur": 25000,
-       "basis": "Bottom-up: 5,000 search visits in year 1 with a ramp, so about 2,500 effective, at 0.5% (assumed) gives about 12 payers x 290 EUR = 3,480 EUR, minus about 150 EUR in fees and 40 EUR in costs, so about 2,500 EUR (rounded down for the ramp). Reaching 5,000 EUR needs 18 payers, which this channel reaches only in a good year. Cross-check: CRAready shows a market price of 299 EUR a month, but no custo…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The duty is real and dated (IHK, 2026-10-16) and people are asking now (HN, Sept-Oct 2026). The one priced tool is expensive, but free toolkits exist and small makers may not pay.",
-      "summary": "",
-      "concerns": [
-       "Free EU and Eclipse toolkits plus AI drafts may be enough",
-       "Liability if the generated file is incomplete",
-       "Firmware SBOM extraction in the browser is hard to do well"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-13T21:17:47.652Z",
-   "updatedAt": "2026-11-13T21:17:47.652Z",
    "outcome": null
   },
   {
@@ -10495,7 +10498,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-14T06:00:00.000Z",
+  "checkedInAt": "2026-11-14T09:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -10508,19 +10511,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-14T02:59:08.606Z",
+   "lastRunAt": "2026-11-14T09:02:45.375Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 82,
-   "radius": 2,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 83,
+   "radius": 1,
    "radiusLevels": 4,
-   "runsLastDay": 9,
+   "runsLastDay": 11,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-14T04:59:08.606Z"
+   "nextRunAfter": "2026-11-14T11:02:45.375Z"
   }
  },
  "scorecard": {

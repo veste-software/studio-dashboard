@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-NKUVeBC7qv+jYUtb4Y8p3nNkDGotBbKicLiDGA4Nygg='; style-src 'sha256-q2sSCZF1/AM0NrYIUP/3sBm0rDS4CfgMdiqSQjoiF0U='; connect-src https://studio-console.data-vestesoftware.workers.dev; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-BcyDZGWTOQ6r6EsjTpAGoNQwFqoFpOxX+fWH/AIFUpQ='; style-src 'sha256-XkQC+9KMqtelSrj6HOpXCp8n+8fJTh0vqH3tNr0CRA8='; connect-src https://studio-console.data-vestesoftware.workers.dev; base-uri 'none'; form-action 'none'">
 <title>Studio console</title>
 <style>
 :root {
@@ -53,6 +53,16 @@ a { color: var(--accent); }
 details { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 16px; }
 summary { cursor: pointer; font-weight: 600; }
 #log { list-style: none; padding: 0; margin: 0; }
+.rec { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 10px 0; background: var(--bg); }
+.rec.pursue { background: var(--good-bg); border-color: var(--good); }
+.rec.drop { background: var(--bad-bg); border-color: var(--bad); }
+.rec.call { background: var(--warn-bg); border-color: var(--warn); }
+.rec b { display: block; }
+.rec h4 { margin: 8px 0 2px; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.rec ul { margin: 2px 0 4px; padding-left: 18px; color: var(--ink); font-size: 13px; }
+.sec { margin: 6px 0; padding: 6px 12px; }
+.sec summary { font-size: 14px; }
+.sec p { margin: 6px 0; font-size: 13px; }
 </style>
 </head>
 <body>
@@ -253,6 +263,31 @@ summary { cursor: pointer; font-weight: 600; }
     return b;
   }
 
+  function lineEl(l) {
+    var a = l.url ? safeLink(l.url, ' open') : null;
+    var p = h('p', { text: l.text });
+    if (a) p.append(a);
+    return p;
+  }
+  function recBox(r) {
+    if (!r) return null;
+    var kids = [h('b', { text: r.headline })];
+    [['For', r.for], ['Against', r.against], ['Not known', r.unknown]].forEach(function (g) {
+      if (!g[1] || !g[1].length) return;
+      kids.push(h('h4', { text: g[0] }));
+      kids.push(h('ul', {}, g[1].map(function (t) { return h('li', { text: t }); })));
+    });
+    kids.push(h('div', { class: 'muted', text: r.note }));
+    return h('div', { class: 'rec ' + (r.verdict === 'your call' ? 'call' : r.verdict) }, kids);
+  }
+  function sectionEls(secs) {
+    return (secs || []).map(function (sec) {
+      var el = h('details', { class: 'sec' }, [h('summary', { text: sec.label })].concat((sec.lines || []).map(lineEl)));
+      if (sec.open) el.setAttribute('open', '');
+      return el;
+    });
+  }
+
   function card(d) {
     var values = {};
     var fields = [];
@@ -264,8 +299,9 @@ summary { cursor: pointer; font-weight: 600; }
       h('span', { class: 'kind ' + d.kind, text: d.kind === 'launch' ? 'Ready to launch' : d.kind === 'prototype' ? 'One-day prototype' : d.kind === 'idea' ? 'Idea to approve' : d.kind === 'parked' ? 'Paused' : 'Task for you' }),
       h('h3', { text: d.title }),
       h('p', { text: d.text }),
+      recBox(d.recommendation),
       h('ul', {}, (d.facts || []).map(function (t) { return h('li', { text: t }); })),
-    ];
+    ].concat(sectionEls(d.sections));
     if (links.length) kids.push(linkLine);
     if (fields.length) kids.push(h('div', { class: 'row' }, fields));
     kids.push(h('div', { class: 'row' }, d.actions.map(function (a) { return actionButton(d, a, values); })));
