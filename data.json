@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T09:24:43.854Z",
+ "generatedAt": "2026-11-14T09:25:33.989Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -39,7 +39,10 @@
      {
       "url": "https://www.drweb.de/pflanzenschutz-aufzeichnung-digital-2027-jki-app/",
       "note": "Shows the duty and the free official app; no paid price was found, which counts against the idea",
-      "date": "2026-11-01"
+      "date": "2026-11-01",
+      "ageDays": 13,
+      "age": "13 days old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "The free official DiPAgE app and existing farm and fleet software already cover the duty.",
@@ -52,6 +55,59 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    },
+    "pay": {
+     "days": 13,
+     "age": "newest source 13 days old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.drweb.de/pflanzenschutz-aufzeichnung-digital-2027-jki-app/",
+     "note": "Paper no longer enough from 2027-01-01; the JKI (Germany's federal crop research institute) released the free browser app DiPAgE on 2026-10-30, no account, data on the device",
+     "date": "2026-11-01",
+     "ageDays": 13,
+     "age": "13 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'pflanzenschutz aufzeichnung elektronisch 2027'",
+    "first100": "Contractors who find that DiPAgE does not split records per client would search for an alternative; unproven.",
+    "proof": [
+     {
+      "url": "https://www.drweb.de/pflanzenschutz-aufzeichnung-digital-2027-jki-app/",
+      "note": "Articles about the free JKI app rank for the topic",
+      "date": "2026-11-01",
+      "ageDays": 13,
+      "age": "13 days old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "JKI DiPAgE",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Farm management software",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -156,7 +212,10 @@
      {
       "url": "https://www.haufe.de/personal/entgelt/kuenstlersozialabgabe-neuer-abgabensatz-liegt-vor_78_421266.html",
       "note": "Shows the duty and the rate; no price page for a levy tool was found",
-      "date": "2026-07-16"
+      "date": "2026-07-16",
+      "ageDays": 121,
+      "age": "4 months old",
+      "tier": "ok"
      }
     ],
     "nobodyPaysIf": "The report is one sum per category that accountants and accounting software already handle, and an AI assistant given a bank export finds the same freelancers.",
@@ -169,6 +228,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 121,
+     "age": "newest source 4 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.haufe.de/personal/entgelt/kuenstlersozialabgabe-neuer-abgabensatz-liegt-vor_78_421266.html",
+     "note": "Rate 5.0% in 2027 (4.9% in 2026), de-minimis limit 1,000 EUR a year since 2026-01-01, paid by companies that use artistic services",
+     "date": "2026-07-16",
+     "ageDays": 121,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=k%C3%BCnstlersozialabgabe",
+     "note": "10 variants, including 'meldung', '2027', 'freibetrag', 'buchen skr03/skr04'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'künstlersozialabgabe meldung', 'künstlersozialabgabe 2027'",
+    "first100": "Owners who search in February and March how to file the KSK report use a free checker that says whether they owe the levy, then pay to have their export classified.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=k%C3%BCnstlersozialabgabe",
+      "note": "Autocomplete shows reporting and 2027 intent",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Accounting software with KSK accounts (SKR03/SKR0…",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Rechner-Hub KSK guide",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -273,7 +393,10 @@
      {
       "url": "https://www.drohnen.de/69854/sora-2-5-neue-eu-regeln-fuer-drohnen-risikobewertung-jetzt-gueltig/",
       "note": "Shows the required switch and the LBA forms; no consultant or tool price was found",
-      "date": "2025-10-15"
+      "date": "2025-10-15",
+      "ageDays": 395,
+      "age": "13 months old",
+      "tier": "old"
      }
     ],
     "nobodyPaysIf": "EASA's eSORA may open free to all operators, consultants bundle renewals with other services, and the number of German SORA authorisations is small.",
@@ -286,6 +409,62 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 317,
+     "age": "newest source 10 months old",
+     "tier": "ok",
+     "n": 2
+    },
+    "pay": {
+     "days": 395,
+     "age": "newest source 13 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.drohnen.de/69854/sora-2-5-neue-eu-regeln-fuer-drohnen-risikobewertung-jetzt-gueltig/",
+     "note": "LBA transition: SORA 2.5 mandatory for new applications from 2026-01-01, SORA 2.0 permits extended at most to 2027-12-31; 10 steps, 17 OSOs, new ground-risk model",
+     "date": "2025-10-15",
+     "ageDays": 395,
+     "age": "13 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.easa.europa.eu/en/node/142565",
+     "note": "EASA: the eSORA tool is at first accessible only to member states and IAM Hub task force members; opening to all operators planned",
+     "date": "2025-10-09",
+     "ageDays": 401,
+     "age": "13 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'sora 2.5 antrag', 'sora 2.5 umstellung'",
+    "first100": "Operators who prepare their 2027 renewal search for the SORA 2.5 switch, use the free mapping guide, and buy the draft pack.",
+    "proof": [
+     {
+      "url": "https://www.drohnen.de/69854/sora-2-5-neue-eu-regeln-fuer-drohnen-risikobewertung-jetzt-gueltig/",
+      "note": "A news article ranks for the switch; no tool among the results",
+      "date": "2025-10-15",
+      "ageDays": 395,
+      "age": "13 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "EASA eSORA",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -390,7 +569,10 @@
      {
       "url": "https://www.weka.de/produktsicherheit/die-neue-maschinenverordnung-eu-verordnung-2023-1230-ab-wann-gilt-sie/",
       "note": "Firms pay 569 to 629 EUR a year for online CE guidance that covers the regulation",
-      "date": "2025-02-18"
+      "date": "2025-02-18",
+      "ageDays": 634,
+      "age": "21 months old",
+      "tier": "old"
      }
     ],
     "nobodyPaysIf": "The declaration change is a template edit that WEKA, IBF, the chambers and AI assistants already explain; firms that care own Safexpert or WEKA, and the rest copy a chamber leaflet.",
@@ -403,6 +585,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 634,
+     "age": "newest source 21 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.weka.de/produktsicherheit/die-neue-maschinenverordnung-eu-verordnung-2023-1230-ab-wann-gilt-sie/",
+     "note": "Confirms 2027-01-20, new declaration contents and digital manual rules; WEKA sells online CE guides at 629 and 569 EUR a year",
+     "date": "2025-02-18",
+     "ageDays": 634,
+     "age": "21 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.ibf-solutions.com/fachbeitraege/neue-maschinenverordnung",
+     "note": "The date of placing on the market decides; declarations must follow the new regulation; Safexpert 9.1 has a guide for it, 60-day free demo",
+     "date": "2026-10-20",
+     "ageDays": 25,
+     "age": "4 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'konformitätserklärung maschinenverordnung muster', 'maschinenverordnung 2027'",
+    "first100": "Engineers who search for a new declaration template before 2027-01-20 use the free comparison and buy the filled-in pack.",
+    "proof": [
+     {
+      "url": "https://www.ibf-solutions.com/fachbeitraege/neue-maschinenverordnung",
+      "note": "Vendor and publisher articles rank for the switch; the search intent is commercial",
+      "date": "2026-10-20",
+      "ageDays": 25,
+      "age": "4 weeks old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Safexpert (IBF)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "WEKA Manager CE and WEKA online guides",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Chamber leaflets and free templates",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -508,7 +756,10 @@
      {
       "url": "https://www.bmf.gv.at/themen/steuern/spenden-gemeinnuetzigkeit/spendenbeguenstigung-neu.html",
       "note": "Shows the duty and the paid tax-adviser role; no price page for the report itself was found",
-      "date": "2026-10-22"
+      "date": "2026-10-22",
+      "ageDays": 23,
+      "age": "3 weeks old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Most clubs have few donors and use the free web form; larger ones already have donor software or let the tax adviser who signs the yearly confirmation send it. If the upload needs the encrypted vbPK, a static tool cannot produce it.",
@@ -521,6 +772,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 23,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 23,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.bmf.gv.at/themen/steuern/spenden-gemeinnuetzigkeit/spendenbeguenstigung-neu.html",
+     "note": "BMF: report by the end of February, name and date of birth needed, FinanzOnline only (webservice, file upload, web form), status revoked or a 20% surcharge if not filed, yearly confirmation by a tax …",
+     "date": "2026-10-22",
+     "ageDays": 23,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://kpmg.com/at/de/media/newsletter/tax-news/2024/02/tn-kmu-meldung-von-spenden.html",
+     "note": "KPMG: organisations report each donor's yearly total via FinanzOnline, identified with the encrypted tax ID (vbPK); without name and birth date no automatic deduction",
+     "date": "2024-02-21",
+     "ageDays": 997,
+     "age": "2 years 9 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'spendenmeldung finanzonline verein', 'spenden datenübermittlung verein'",
+    "first100": "Treasurers who search in January and February how to report donations in bulk find the guide and checker, then pay to generate and archive the file.",
+    "proof": [
+     {
+      "url": "https://www.bmf.gv.at/themen/steuern/spenden-gemeinnuetzigkeit/spendenbeguenstigung-neu.html",
+      "note": "The official page that ranks; it explains the channels but offers no bulk tool",
+      "date": "2026-10-22",
+      "ageDays": 23,
+      "age": "3 weeks old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "FinanzOnline web form",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Tax adviser (Steuerberater)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -625,7 +937,10 @@
      {
       "url": "https://breww.com/pricing/",
       "note": "Near job: small drink producers pay an EUR subscription for excise reporting software; no priced distillery-book tool was found",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Farm distillers file once or twice a year in the free ELISA system, keep a paper book the customs office accepts, and pay little tax, so 39 EUR is a large share of their duty.",
@@ -638,6 +953,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 10,
+     "age": "newest source 10 days old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/verbrauchsteuern_und_energieabgaben/alkoholsteuer.html",
+     "note": "Austrian business service portal (USP): monthly declaration by the 25th, reduced 54% rate up to 400 l (sealed) or 100 l (Abfindung), 90% above, 2027 rates, mandatory operating book or monitoring book…",
+     "date": "2026-11-03",
+     "ageDays": 11,
+     "age": "11 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.bayernportal.de/dokumente/leistung/4346451513224",
+     "note": "Germany: monthly alcohol tax return (form 1272 with 1278) by the 10th, filed online via the Zoll-Portal, late-payment surcharges",
+     "date": "2026-08-16",
+     "ageDays": 90,
+     "age": "3 months old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'alkoholsteuer 2027', 'elisa abfindungsanmeldung', 'überwachungsbuch abfindung'",
+    "first100": "Distillers who search the 2027 rates and the new ELISA procedure find a free rate page, then pay to keep the book.",
+    "proof": [
+     {
+      "url": "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/verbrauchsteuern_und_energieabgaben/alkoholsteuer.html",
+      "note": "The official page that ranks for the topic; no tool among the results",
+      "date": "2026-11-03",
+      "ageDays": 11,
+      "age": "11 days old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "ELISA via FinanzOnline (AT)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Zoll-Portal (DE)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -742,7 +1118,10 @@
      {
       "url": "https://www.certifiedcosmetics.com/de/?p=33620",
       "note": "PIF compilation sold at 85.23 USD per product",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Makers keep the PIF as a folder of Word files that the assessor started, and the assessor's report is the expensive part anyway, so a folder tool saves little money.",
@@ -755,6 +1134,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.certifiedcosmetics.com/de/?p=33620",
+     "note": "Paid per-product services: PIF 85.23 USD, CPNP 28.41 USD, CPSR 170.47 USD, formula pre-screening 75 EUR (undated)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://ceway.eu/news/eu-fragrance-allergen-labelling-what-beauty-brands-need-to-do-before-july-31-2026/",
+     "note": "Brands must update their PIF and CPSR and amend labels and CPNP notifications for the allergen change",
+     "date": "2026-05-29",
+     "ageDays": 169,
+     "age": "6 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'produktinformationsdatei kosmetik vorlage', 'chargenprotokoll kosmetik vorlage', 'pif kosmetik'",
+    "first100": "Makers who look for a PIF or batch-record template use the free template, then pay to keep all products and batches in one folder; could be sold as a bundle with the allergen tool.",
+    "proof": [
+     {
+      "url": "https://www.certifiedcosmetics.com/de/?p=33620",
+      "note": "A paid-service page ranks for a German search on soap safety assessment prices, so the intent is commercial",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Certified Cosmetics",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Ceway",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -859,7 +1299,10 @@
      {
       "url": "https://breww.com/pricing/",
       "note": "Near job: small drink producers (breweries) pay a monthly EUR subscription for software that builds their excise report; no priced coffee-tax tool was found",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Roasters keep an Excel sheet or a Cropster export that their customs office accepted years ago, some offices demand handwritten books, and the monthly tax is one multiplication.",
@@ -872,6 +1315,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://kaffeemacher.de/blogs/kaffeewissen/die-kaffeesteuer",
+     "note": "Roaster's guide: tax warehouse permit, form 1807 by the 10th, roast book and storage book in a format each customs office decides (handwritten in Saarland), annual stock count, fines up to 8,000 EUR,…",
+     "date": "2024-01-03",
+     "ageDays": 1046,
+     "age": "2 years 10 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kaffeesteuer",
+     "note": "10 variants, including 'kaffeesteuer anmeldung', 'kaffeesteuer pro kg', 'kaffeesteuerverordnung'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'kaffeesteuer anmeldung', 'röstbuch vorlage', 'kaffeesteuer rösterei'",
+    "first100": "New roasters who apply for their permit search for 'kaffeesteuer anmeldung' and 'röstbuch', use the free template page, and pay to keep the monthly book.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kaffeesteuer",
+      "note": "Autocomplete includes 'kaffeesteuer anmeldung'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Cropster",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Zoll form 1807 (online)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Steuerschroeder Kaffeesteuer-Rechner",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -977,7 +1486,10 @@
      {
       "url": "https://breww.com/pricing/",
       "note": "Breweries pay a monthly EUR subscription for software that builds this report (base price set by output; add-ons 19.99 to 39.99 EUR a month)",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Small brewers already keep a spreadsheet that works, the declaration takes 20 minutes a month, and those who want software buy an ERP that also does stock and sales.",
@@ -990,6 +1502,80 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://breww.com/docs/german-beer-duty/",
+     "note": "A paid UK brewery ERP builds a German beer-duty report 'in the same shape as the official beer tax declaration', grouped by Plato and type; it does not file (page undated)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://breww.com/pricing/",
+     "note": "Priced by annual hectolitres, billing in EUR with SEPA, add-ons 19.99 EUR per user and 39.99 EUR per vehicle a month; German language not mentioned (undated)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.bazg.admin.ch/de/biersteuer-informationen-und-steuersaetze",
+     "note": "Swiss customs (BAZG): reduced rates for independent breweries under 55,000 hl a year; register of taxable breweries dated 2026-09-10",
+     "date": "2026-09-10",
+     "ageDays": 65,
+     "age": "2 months old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'biersteuer anmeldung kleinbrauerei', 'biersteuer berechnen', 'sudbuch vorlage'",
+    "first100": "Brewers who search how to compute beer tax by Plato land on a free rate-scale page and a free brew-book template, then pay to keep the book and the monthly figures.",
+    "proof": [
+     {
+      "url": "https://breww.com/docs/german-beer-duty/",
+      "note": "An English vendor page ranks for a German beer-duty software search, so the German results lack a German tool",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Breww",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Brewman Germany (Premier Systems)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Zoll online declaration",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -1095,7 +1681,10 @@
      {
       "url": "https://www.certifiedcosmetics.com/de/?p=33620",
       "note": "Makers already pay per product: CPSR for bar soap 170.47 USD, variants +142.06 USD each, PIF 85.23 USD, CPNP notification 28.41 USD (page undated; prices valid to 2027-12-31)",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "The safety assessor already does the allergen breakdown inside the paid CPSR, and suppliers increasingly send ready allergen sheets, so a maker with five products may recompute once in a spreadsheet and never come back.",
@@ -1108,6 +1697,80 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.ages.at/mensch/kosmetik/kosmetik-informationen-fuer-unternehmen/neue-duftstoffregulierung-in-der-kosmetik",
+     "note": "Austrian food and health agency (AGES): 82 substances, deadlines 2026-07-31 for new products and 2028-07-31 for all, label must be on the product, worst-case estimates for natural materials, mandator…",
+     "date": "2026-02-23",
+     "ageDays": 264,
+     "age": "9 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://ceway.eu/news/eu-fragrance-allergen-labelling-what-beauty-brands-need-to-do-before-july-31-2026/",
+     "note": "Compliance firm's checklist: get supplier allergen documents, check finished-product concentrations, update PIF and CPSR, labels and CPNP; sells this as a service on quote only, with no calculator",
+     "date": "2026-05-29",
+     "ageDays": 169,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=allergene%20kosmetik",
+     "note": "10 autocomplete variants, among them 'allergene kosmetik liste', 'deklarationspflichtige allergene kosmetik', 'kosmetik allergene kennzeichnung', 'neue allergene kosmetik'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "German queries 'allergene kosmetik liste', 'deklarationspflichtige allergene kosmetik', 'kosmetik allergene kennzeichnung', plus one page per allergen and per common essential oil",
+    "first100": "Makers who search which allergens they must declare land on per-allergen and per-oil pages (for example linalool in lavender oil), calculate one product free, and subscribe to save their range and export PIF sheets.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=allergene%20kosmetik",
+      "note": "Autocomplete shows list, declaration and labelling intent",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Ceway",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Certified Cosmetics (CPSR service)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "82 Allergen Checker (rootsbybenda.pages.dev)",
+     "verdict": "abandoned",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -1213,7 +1876,10 @@
      {
       "url": "https://shutdownwatch.com/",
       "note": "Confirms paid API users are displaced; no competitor price page opened",
-      "date": "2026-11-12"
+      "date": "2026-11-12",
+      "ageDays": 2,
+      "age": "2 days old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Four funded APIs already court these developers, and Pixelcut is nearly compatible.",
@@ -1226,6 +1892,77 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 2,
+     "age": "newest source 2 days old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://shutdownwatch.com",
+     "note": "remove.bg shutdown Dec 1",
+     "date": "2026-11-12",
+     "ageDays": 2,
+     "age": "2 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[search]=remove.bg&request[per_page]=30",
+     "note": "Plugins that call the remove.bg API (about 240 active installs in total) will break",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'remove.bg api alternative', 'remove.bg api compatible'",
+    "first100": "Developers whose calls start failing search for a compatible API.",
+    "proof": [
+     {
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[search]=remove.bg&request[per_page]=30",
+      "note": "Integrations depending on the API exist",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Leonardo.Ai API (official migration)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Pixelcut API",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Photoroom API",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Claid API",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -1331,7 +2068,10 @@
      {
       "url": "https://alternativeto.net/news/2026/9/end-of-an-era-remove-bg-shuts-down-standalone-service-and-moves-to-the-canva-ecosystem/",
       "note": "Confirms a paid-credit user base is displaced; no competitor price page was opened",
-      "date": "2026-09-14"
+      "date": "2026-09-14",
+      "ageDays": 61,
+      "age": "2 months old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Free browser background removers and free tiers (Pixelcut, Canva) already cover most sellers.",
@@ -1344,6 +2084,77 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 61,
+     "age": "newest source 2 months old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://alternativeto.net/news/2026/9/end-of-an-era-remove-bg-shuts-down-standalone-service-and-moves-to-the-canva-ecosystem/",
+     "note": "remove.bg standalone site closes 2026-12-01; functionality moves into Canva",
+     "date": "2026-09-14",
+     "ageDays": 61,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://shutdownwatch.com",
+     "note": "remove.bg: last export day and shutdown Dec 1",
+     "date": "2026-11-12",
+     "ageDays": 2,
+     "age": "2 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'remove.bg alternative', 'bulk background remover'",
+    "first100": "Sellers searching for a remove.bg replacement try a free image, then buy for batches.",
+    "proof": [
+     {
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[search]=remove.bg&request[per_page]=30",
+      "note": "New listings target remove.bg migrants (LassoCut updated 2026-11-09, iTransparent 2026-11-08)",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Leonardo.Ai / Canva (official path)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Photoroom",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Pixelcut",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "LassoCut",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -1449,7 +2260,10 @@
      {
       "url": "https://www.dacast.com/blog/vimeo-on-demand-alternatives/",
       "note": "Sellers pay 6 to 39 USD a month for comparable hosting and selling",
-      "date": "2026-10-06"
+      "date": "2026-10-06",
+      "ageDays": 39,
+      "age": "6 weeks old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Livid, Gumlet and others already serve this at similar prices, and vendors are courting these sellers directly.",
@@ -1462,6 +2276,77 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 39,
+     "age": "newest source 6 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.dacast.com/blog/vimeo-on-demand-alternatives/",
+     "note": "Shutdown timeline and alternatives with prices (Dacast 39, Livid 10, Gumlet from 6, Wistia 19 USD a month)",
+     "date": "2026-10-06",
+     "ageDays": 39,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://shutdownwatch.com",
+     "note": "Vimeo On Demand: last export day and shutdown on Nov 20",
+     "date": "2026-11-12",
+     "ageDays": 2,
+     "age": "2 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'vimeo on demand alternative', 'sell film rentals on my website'",
+    "first100": "Sellers searching for an On Demand replacement after the shutdown find a one-page setup guide. 100 is unlikely.",
+    "proof": [
+     {
+      "url": "https://www.dacast.com/blog/vimeo-on-demand-alternatives/",
+      "note": "Competitors already rank for the query",
+      "date": "2026-10-06",
+      "ageDays": 39,
+      "age": "6 weeks old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Dacast",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Livid",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "MediaZilla",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Vimeo OTT",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -1567,7 +2452,10 @@
      {
       "url": "https://supportapps.org/zendesk/proactive-bulk-tickets",
       "note": "Near job: a paid Marketplace app replacing Zendesk functionality at 99 USD a month and up",
-      "date": "2025-06-16"
+      "date": "2025-06-16",
+      "ageDays": 516,
+      "age": "17 months old",
+      "tier": "old"
      }
     ],
     "nobodyPaysIf": "The originals were free, Zendesk ships free recipes and native workarounds, and admins expect it free.",
@@ -1580,6 +2468,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 24,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 516,
+     "age": "newest source 17 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://support.zendesk.com/hc/en-us/articles/10479808424986",
+     "note": "Replacements are workarounds: private groups and role restrictions, side conversations, native redaction, plus App Builder recipes",
+     "date": "2026-04-07",
+     "ageDays": 221,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://supportapps.org/zendesk/proactive-bulk-tickets",
+     "note": "Shows Zendesk admins pay monthly for apps that replace a retired free app (near job)",
+     "date": "2025-06-16",
+     "ageDays": 516,
+     "age": "17 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Zendesk Marketplace search 'assignment', 'assignee', 'child ticket', 'attachment'",
+    "first100": "Admins whose assignment rules vanished search the Marketplace for 'assignment' and install the trial.",
+    "proof": [
+     {
+      "url": "https://supportapps.org/zendesk/proactive-bulk-tickets",
+      "note": "Marketplace category pages carry paid apps with reviews",
+      "date": "2025-06-16",
+      "ageDays": 516,
+      "age": "17 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Native private groups and role restrictions",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Zendesk App Builder recipes",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Assignment Control (original, retired)",
+     "verdict": "abandoned",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -1685,7 +2639,10 @@
      {
       "url": "https://clonepartner.com/blog/sage-businessvision-end-of-life-2026-data-migration-guide.md",
       "note": "Sage Expert Services and partners charge for migration, and ClonePartner sells fixed-price proposals; no amounts shown",
-      "date": "2026-11-09"
+      "date": "2026-11-09",
+      "ageDays": 5,
+      "age": "5 days old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "The new vendor or the accountant does the conversion as part of the switch, and firms keep the old BusinessVision install for read-only lookups.",
@@ -1698,6 +2655,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 5,
+     "age": "newest source 5 days old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://communityhub.sage.com/ca/sage_businessvision/f/announcements/274944/sage-businessvision-retirement-reminder",
+     "note": "Retirement on 2026-12-31 for all editions; points to Sage 50 and Sage 300; replies disabled. The page says '1 month ago', so the date is approximate.",
+     "date": "2026-10-14",
+     "ageDays": 31,
+     "age": "4 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://clonepartner.com/blog/sage-businessvision-end-of-life-2026-data-migration-guide.md",
+     "note": "Built-in export covers master files; transactions and history need ODBC/Pervasive extraction with DDF files; names paid services",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'sage businessvision end of life', 'businessvision data migration', 'export businessvision history'",
+    "first100": "Controllers searching what happens to their history after the retirement run a free record count and buy the archive. 100 payers is unlikely in a year.",
+    "proof": [
+     {
+      "url": "https://clonepartner.com/blog/sage-businessvision-end-of-life-2026-data-migration-guide.md",
+      "note": "Vendors publish migration guides for this query, so it is searched",
+      "date": "2026-11-09",
+      "ageDays": 5,
+      "age": "5 days old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Spire (BusinessVision conversion)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "ClonePartner migration service",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Sage 50 Expert Services and Sage partners (Greytr…",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -1803,7 +2826,10 @@
      {
       "url": "https://supportapps.org/zendesk/proactive-bulk-tickets",
       "note": "Teams pay 99 to 349 USD a month for the same job (16 reviews)",
-      "date": "2025-06-16"
+      "date": "2025-06-16",
+      "ageDays": 516,
+      "age": "17 months old",
+      "tier": "old"
      }
     ],
     "nobodyPaysIf": "Cheaper than Sparkly is not a gap: teams that need it pay Sparkly, and those that do not build the free App Builder recipe.",
@@ -1816,6 +2842,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 24,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 516,
+     "age": "newest source 17 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://support.zendesk.com/hc/en-us/articles/10479808424986",
+     "note": "Proactive Tickets discontinued; replacement is the bulk-create API or an App Builder recipe",
+     "date": "2026-04-07",
+     "ageDays": 221,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://supportapps.org/zendesk/proactive-bulk-tickets",
+     "note": "Sparkly Proactive Bulk Tickets: 99/199/349 tiers, 5.0 from 16 reviews, last updated 2025-06-16",
+     "date": "2025-06-16",
+     "ageDays": 516,
+     "age": "17 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Zendesk Marketplace search 'proactive', 'bulk tickets', 'outbound'",
+    "first100": "Teams whose free app stopped search the Marketplace for 'proactive' and pick the cheaper flat-price option. 100 is not reachable in year one.",
+    "proof": [
+     {
+      "url": "https://supportapps.org/zendesk/proactive-bulk-tickets",
+      "note": "The category exists in the Marketplace with paid tiers and reviews",
+      "date": "2025-06-16",
+      "ageDays": 516,
+      "age": "17 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Sparkly Proactive Bulk Tickets",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Zendesk App Builder recipe and bulk-create API",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -1921,7 +3008,10 @@
      {
       "url": "https://fiverr.com/stephen_bowe/edit-convert-and-do-any-microsoft-publisher-job-in-24-hours",
       "note": "Fiverr gig to convert or edit Publisher jobs; search snippets show Publisher/PDF-to-Canva or Word conversion gigs at about 50-100 USD. Seen in search results only: Fiverr refuses the fetcher.",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "LibreOffice and Affinity open .pub files free and most people only need a PDF of a few files.",
@@ -1934,6 +3024,80 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://support.microsoft.com/en-gb/publisher",
+     "note": "Microsoft: subscribers can no longer open or edit Publisher files in Publisher; the bulk PowerShell script needs a licensed Publisher; third-party conversion varies in quality. Page undated; date sho…",
+     "date": "2026-10-01",
+     "ageDays": 44,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/answers/questions/5852051/after-this-date-you-will-no-longer-be-able-to-open",
+     "note": "User upset about being locked out of their own .pub files; replies through 2026-04-09",
+     "date": "2026-04-06",
+     "ageDays": 222,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=convert%20pub%20file%20to",
+     "note": "10 autocomplete variants: to pdf, word, powerpoint, jpg, excel, 'pdf online free'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'convert pub file to word', 'convert pub file to powerpoint', 'open pub file without publisher'",
+    "first100": "People who find their .pub files no longer open search 'convert pub file to word', convert one file free, then buy the batch licence for the rest of the folder.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=convert%20pub%20file%20to",
+      "note": "10 live autocomplete variants for the exact query",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "LibreOffice Draw (libmspub import)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Affinity (free under Canva)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Free online converters ('convert pub file to pdf …",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2039,7 +3203,10 @@
      {
       "url": "https://www.salesforce.com/small-business/sales/zendesk-sell/",
       "note": "These teams pay 25 to 550 USD per user per month for a CRM, and vendors compete for them with migration help. No paid migration-tool price was opened, so the price is not proven.",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "The destination CRM (Salesforce, Zoho, HubSpot partners) migrates them free to win the account, or the team decides the old activity history is not worth keeping.",
@@ -2052,6 +3219,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.salesforce.com/small-business/sales/zendesk-sell/",
+     "note": "Sell retirement: deletion on subscription end or 2027-08-31; native export includes leads, contacts, deals, notes and tasks but excludes activity history, appointments, emails, call logs and document…",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://help.zoho.com/portal/en-gb/community/topic/important-update-zendesk-sell-announced-end-of-life",
+     "note": "Zoho confirms Sell EOL on 2027-08-31 and retired its Sell connector on 2025-10-01; points users to support for export help. Page undated; date shown is the fetch date.",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'zendesk sell export', 'zendesk sell end of life', 'zendesk sell migration to hubspot/pipedrive'",
+    "first100": "Admins searching how to export everything from Sell find a page listing exactly what the native export drops, run a free count of their missing records, and pay to export them.",
+    "proof": [
+     {
+      "url": "https://www.salesforce.com/small-business/sales/zendesk-sell/",
+      "note": "Salesforce runs a dedicated page targeting these searchers, so the query exists and vendors bid for it",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Zendesk Sell native export",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Salesforce switcher offer (migration specialist, …",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2157,7 +3385,10 @@
      {
       "url": "https://supportapps.org/zendesk/export-tickets-as-pdf",
       "note": "Teams already pay for a ticket-to-PDF app (marked paid, 113+ installs); its exact price is on the vendor site and was not opened",
-      "date": "2025-12-02"
+      "date": "2025-12-02",
+      "ageDays": 347,
+      "age": "11 months old",
+      "tier": "ok"
      }
     ],
     "nobodyPaysIf": "Most teams print a ticket or two a month and the free 50-ticket app or single-ticket print is enough; only teams with recurring bulk needs pay.",
@@ -2170,6 +3401,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 24,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 347,
+     "age": "newest source 11 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://support.zendesk.com/hc/en-us/articles/10479808424986",
+     "note": "Lists the discontinued apps; for Print Ticket History it says use single-ticket print plus the Incremental Exports API, and bulk printing is not supported",
+     "date": "2026-04-07",
+     "ageDays": 221,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://supportapps.org/zendesk/export-tickets-as-pdf",
+     "note": "Knots Export Tickets as PDF: paid, 14-day trial, 113+ installs, no reviews, last updated 2025-12-02; ships files to FTP, SFTP or cloud storage",
+     "date": "2025-12-02",
+     "ageDays": 347,
+     "age": "11 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Zendesk Marketplace, Support apps, searches for 'pdf', 'print', 'export'",
+    "first100": "Admins whose Print Ticket History app stopped on 2026-10-21 search the Marketplace for 'print' and install the trial. Reaching 100 accounts would take several years.",
+    "proof": [
+     {
+      "url": "https://supportapps.org/zendesk/export-tickets-as-pdf",
+      "note": "Marketplace listings carry install counts, trials and paid labels, so admins look there",
+      "date": "2025-12-02",
+      "ageDays": 347,
+      "age": "11 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Knots Export Tickets as PDF",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "PDF Export Download for Tickets",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Zendesk native print plus Incremental Exports API",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2275,12 +3572,18 @@
      {
       "url": "https://www.trustpilot.com/review/vimeo.com",
       "note": "Shows these payers already pay Vimeo GBP 288 to several thousand a year and are leaving over the renewal; this is proof of budget and motive, not a price for the migration itself",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      },
      {
       "url": "https://www.dacast.com/blog/vimeo-on-demand-alternatives/",
       "note": "Destination hosts charge 6 to 39 USD a month, so the payer moves to a paid host anyway",
-      "date": "2026-10-06"
+      "date": "2026-10-06",
+      "ageDays": 39,
+      "age": "6 weeks old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Bunny's free CLI plus a free search-and-replace plugin is enough for anyone slightly technical, and Bunny or another host may ship an embed rewriter free to win these customers.",
@@ -2293,6 +3596,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.trustpilot.com/review/vimeo.com",
+     "note": "TrustScore 2.8, 1,841 reviews, 796 in the last 12 months; renewal complaints dated 2026-10-14, 2026-11-10 and 2026-11-11",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.dacast.com/blog/vimeo-on-demand-alternatives/",
+     "note": "Says some Vimeo customers faced increases of up to 2,400 percent after the Bending Spoons takeover; lists hosting alternatives with prices",
+     "date": "2026-10-06",
+     "ageDays": 39,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'migrate from vimeo to bunny stream', 'replace vimeo embeds wordpress', 'vimeo alternative price increase', plus the WordPress.org plugin directory",
+    "first100": "Site owners search how to leave Vimeo after a renewal email, land on a guide page with a free embed scanner, see how many embeds they have, and buy the licence to run the move.",
+    "proof": [
+     {
+      "url": "https://www.trustpilot.com/review/vimeo.com",
+      "note": "Customers are actively looking for a way out (dated complaints). The migration query is ranked by bunny.net and hackceleration.com in the search results I saw (not opened).",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Bunny vimeo2bunny CLI",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Media Stream (Bunny Stream Video Offload) plugin",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Bunny migration guide",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2398,7 +3767,10 @@
      {
       "url": "https://itunes.apple.com/lookup?id=6756893934",
       "note": "A consumer rules app charges a premium purchase (price not shown); no publisher-side price found",
-      "date": "2025-12-27"
+      "date": "2025-12-27",
+      "ageDays": 322,
+      "age": "11 months old",
+      "tier": "ok"
      }
     ],
     "nobodyPaysIf": "Players paste the rulebook into a general AI assistant for free, and publishers already answer on BoardGameGeek forums.",
@@ -2411,6 +3783,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 322,
+     "age": "newest source 11 months old",
+     "tier": "ok",
+     "n": 2
+    },
+    "pay": {
+     "days": 322,
+     "age": "newest source 11 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://itunes.apple.com/lookup?id=6756893934",
+     "note": "RuleBot consumer rules app, released 2025-12-27, 0 ratings; full access needs a premium purchase; nothing for publishers",
+     "date": "2025-12-27",
+     "ageDays": 322,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.toysnplaythings.media/pictionary-first-game-to-tie-in-with-ai/",
+     "note": "Mattel's Pictionary Vs AI links box to an AI web game; publishers use digital companions for engagement (not rules)",
+     "date": "2023-09-27",
+     "ageDays": 1144,
+     "age": "3 years 2 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'board game rules qr code', publisher-facing articles",
+    "first100": "Publishers searching for rulebook QR ideas set up one free game page and pay to add the catalogue and reports.",
+    "proof": [
+     {
+      "url": "https://www.toysnplaythings.media/pictionary-first-game-to-tie-in-with-ai/",
+      "note": "Publishers put QR-linked digital companions in boxes",
+      "date": "2023-09-27",
+      "ageDays": 1144,
+      "age": "3 years 2 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "RuleBot",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "BG Rules: Board Game Helper",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "rulespal.com",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2516,7 +3954,10 @@
      {
       "url": "https://oatear.github.io/cider-docs/docs/exports/tts-export",
       "note": "Free (donation-funded) tool covering part of the job: proof against a price; no paid price page could be opened",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Free tools (Cider, nanDECK, Prototypical) and paid Component Studio already cover most of it.",
@@ -2529,6 +3970,77 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://github.com/ErikRoelofs/prototypical/blob/master/readme.md",
+     "note": "Prototypical: spreadsheet to TTS save, Python required, rough output, no print sheets (undated, opened)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://oatear.github.io/cider-docs/docs/exports/tts-export",
+     "note": "Cider: TTS card sheets (10x7, 4096 px) and PDF card sheet; no bleed or print-shop templates mentioned (undated, (c) 2025)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'tabletop simulator deck from csv', 'makeplayingcards template bleed'",
+    "first100": "Designers searching printer templates use the free TTS export and pay for print-shop files before ordering.",
+    "proof": [
+     {
+      "url": "https://github.com/ErikRoelofs/prototypical/blob/master/readme.md",
+      "note": "Designers build and publish tools for this job, so the need is real",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Component Studio",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Dextrous",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Cider",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Prototypical",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2634,7 +4146,10 @@
      {
       "url": "https://foundryvtt.com/packages/bindery-pdf-importer",
       "note": "Free module asking for optional Patreon support (proof of a free norm, not of a price); a Fiverr gig for adapting adventures to Foundry was seen in search but could not be opened",
-      "date": "2026-10-17"
+      "date": "2026-10-17",
+      "ageDays": 28,
+      "age": "4 weeks old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Foundry users expect free community modules, and an AI parse that still needs fixes may not feel worth paying for.",
@@ -2647,6 +4162,85 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 28,
+     "age": "newest source 4 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=foundry%20vtt%20pdf",
+     "note": "Autocomplete: 'foundry vtt pdf import', '... 5e', '... pf2e', 'pdfoundry'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://foundryvtt.com/packages/bindery-pdf-importer",
+     "note": "Bindery imports PDF images as scenes and handouts only, no actors or items; updated about 4 weeks before 2026-11-14 (approximate date)",
+     "date": "2026-10-17",
+     "ageDays": 28,
+     "age": "4 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://foundryvtt.com/packages/dynamic-adventure-journal-builder",
+     "note": "Journals only, rules set by font size and regex; v1.1.0 about 4 months before 2026-11-14 (approximate date)",
+     "date": "2026-07-07",
+     "ageDays": 130,
+     "age": "4 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "directory",
+    "where": "foundryvtt.com package listing (free submission) plus 'foundry vtt pdf import' searches",
+    "first100": "GMs browsing the Foundry package list or searching 'pdf import 5e' convert the first chapter free and pay to export the whole adventure.",
+    "proof": [
+     {
+      "url": "https://foundryvtt.com/packages/bindery-pdf-importer",
+      "note": "Third-party importers are listed in the official package directory",
+      "date": "2026-10-17",
+      "ageDays": 28,
+      "age": "4 weeks old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Bindery PDF Asset Importer",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Dynamic Adventure Journal Builder",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "PDF to Foundry",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Shadowdark PDF Importer",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2752,7 +4346,10 @@
      {
       "url": "https://store.steampowered.com/search/?term=backgammon",
       "note": "Backgammon games sell on Steam at 3.29-24.50 EUR",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Three backgammon twists will likely launch first, and mobile backgammon players expect free online play.",
@@ -2765,6 +4362,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://store.steampowered.com/search/?term=backgammon",
+     "note": "Deckgammon (demo 2026-04-20, coming soon), Cursed Backgammon (TBA), Grand Gammon (coming soon); classic titles at 3.29-24.50 EUR",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://itunes.apple.com/search?term=backgammon&country=us&entity=software&limit=15",
+     "note": "Backgammon - Lord of the Board 88,753 ratings, Easybrain 85,257, Optime 80,267, all updated in 2026; none a roguelike",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Steam tags Board Game + Roguelike, Steam search 'backgammon'",
+    "first100": "Players searching 'backgammon' on Steam or following roguelike deckbuilders wishlist from a Next Fest demo.",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/search/?term=backgammon",
+      "note": "The query returns 43 titles in the store",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Deckgammon",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Cursed Backgammon",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Grand Gammon",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2869,7 +4532,10 @@
      {
       "url": "https://segwise.ai/blog/playable-ad-specs-by-network-2026.md",
       "note": "External playable production runs about $3,000-5,000 per creative (a nearby paid job, not a tool price)",
-      "date": "2026-09-18"
+      "date": "2026-09-18",
+      "ageDays": 57,
+      "age": "8 weeks old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "The network test tools are free and a free CLI packages builds; teams that ship only to AppLovin and Unity will not pay.",
@@ -2882,6 +4548,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 57,
+     "age": "newest source 8 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://segwise.ai/blog/playable-ad-specs-by-network-2026.md",
+     "note": "Eight networks with different file types, size caps, MRAID rules and CTA calls; long list of what breaks on upload; external production about $3,000-5,000 per playable",
+     "date": "2026-09-18",
+     "ageDays": 57,
+     "age": "8 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://doc.playturbo.com/export-and-deployment/playable-upload-specifications-for-networks",
+     "note": "Playturbo exports its own projects for 26 channels; validation relies on each network's own test tool; no third-party build checks (undated page, opened)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'playable ads html5', per-network requirement queries",
+    "first100": "Developers searching a network's playable requirements land on a spec page with a free single-network check and subscribe for all networks and fixed packages.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=playable%20ads%20html5",
+      "note": "Autocomplete: 'playable ads html5 tutorial', 'playable ads html5', 'playable ads examples'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "@smoud/playable-scripts",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Playturbo",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Network test tools (AppLovin, Mintegral, Liftoff …",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -2987,7 +4719,10 @@
      {
       "url": "https://chessmanager.com/",
       "note": "Premium web pairing with TRF export at $97 a year",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "ChessManager's free tier plus a phone hotspot covers most venues, and US directors already own SwissSys or WinTD.",
@@ -3000,6 +4735,77 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://chessmanager.com",
+     "note": "Web-based, server-based pairing (needs internet), Premium $97/year with TRF export, 98,400+ players and organizers, 137,200+ tournaments",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://itunes.apple.com/search?term=chess%20tournament%20pairing&country=us&entity=software&limit=10",
+     "note": "Only two iOS apps do Swiss pairing: Chess Tournament Manager Pro (13 ratings, updated 2026-11-06, Dutch Swiss behind Premium, PDF only) and ChessClub.io (updated 2020); none exports TRF",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'chess pairing software mac', 'swiss pairing offline', 'chess tournament software chromebook'",
+    "first100": "Directors on Macs or Chromebooks searching for pairing software try a free event of up to 20 players and buy the yearly licence for rated events.",
+    "proof": [
+     {
+      "url": "https://itunes.apple.com/search?term=chess%20tournament%20pairing&country=us&entity=software&limit=10",
+      "note": "The store search shows thin, outdated options for Swiss pairing on Apple devices",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "ChessManager",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Swiss-Manager",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "SwissSys 9.0",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Chess Tournament Manager Pro",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -3105,7 +4911,10 @@
      {
       "url": "https://store.steampowered.com/search/?term=cribbage",
       "note": "Cribbage games sell on Steam at 4.99-10.25 EUR",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Cribbage players are used to free ad-supported apps, Balatro-like fans may find cribbage niche, and one of the 2026 cribbage releases may already be this game.",
@@ -3118,6 +4927,77 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://itunes.apple.com/search?term=cribbage&country=us&entity=software&limit=25",
+     "note": "Cribbage Pro 60,434 ratings (updated 2026-11-13), Cribbage Classic 31,516, Ultimate Cribbage 30,807; none described as roguelike",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/search/?term=cribbage",
+     "note": "21 cribbage titles; 2026 releases priced 5.19-10.25 EUR (Just Cribbage, Cull The Crib, Double Skunk); no title named as a roguelike",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Steam tags Card Game + Roguelike Deckbuilder, Steam search 'cribbage'; App Store/Play search 'cribbage'",
+    "first100": "Players searching 'cribbage' on Steam or wishlisting roguelike deckbuilders find the page during a Next Fest demo and buy at launch.",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/search/?term=cribbage",
+      "note": "Steam search lists cribbage games, so the query exists in the store",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Double Skunk",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Cull The Crib",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Crown Cribbage",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Cribbage Pro",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -3223,7 +5103,10 @@
      {
       "url": "https://dev.to/vulcanwm/introducing-gamegift-create-and-gift-personalised-games-in-minutes-5bng",
       "note": "A personalised browser game sold at GBP 5 per game",
-      "date": "2024-09-08"
+      "date": "2024-09-08",
+      "ageDays": 797,
+      "age": "2 years 2 months old",
+      "tier": "old"
      }
     ],
     "nobodyPaysIf": "Gift buyers prefer physical gifts, and an AI assistant can already write a simple personalised HTML game for free.",
@@ -3236,6 +5119,80 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 797,
+     "age": "newest source 2 years 2 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=personalized%20video%20game",
+     "note": "Autocomplete shows 'personalized video game gift', 'custom video game gift', 'personalized video game for father's day'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://dev.to/vulcanwm/introducing-gamegift-create-and-gift-personalised-games-in-minutes-5bng",
+     "note": "GameGift: three simple templates (clicker, dodge, shooter), image swap, GBP 5 per game, share URL",
+     "date": "2024-09-08",
+     "ageDays": 797,
+     "age": "2 years 2 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.well-played.com.au/made-in-australia-we-talk-heart2game-with-amelus-digital/",
+     "note": "Heart2Game: hand-made platformer gifts in four tiers, made by the founder from an order form",
+     "date": "2018-12-21",
+     "ageDays": 2885,
+     "age": "7 years 11 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'personalized video game gift', 'custom video game gift', seasonal gift queries",
+    "first100": "Gift searchers in December and February land on template pages (for him, for mum, Father's Day), build a game with a free preview and pay to unlock the link and download.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=personalized%20video%20game",
+      "note": "10 autocomplete variants with gift intent",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "GameGift",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Heart2Game",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Fiverr custom game gigs",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -3341,7 +5298,10 @@
      {
       "url": "https://label-engine.com/pricing.php",
       "note": "Royalty accounting for music labels sold at $49 a month or $499 a year (Label Services plan) - the same statement job in a neighbouring industry",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Only a few hundred small publishers exist and those with many titles already use their accountant or ERP; rev-share teams may stay on a free spreadsheet.",
@@ -3354,6 +5314,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://gamegrowthadvisor.com/blog/2026-08-18-indie-game-publisher-recoup-clause-negotiation-guide-2026/",
+     "note": "Audit rights in 88.4% of advance deals; 'An unauditable recoup statement is not a statement'; separate accounting per title and platform; recoup model built 'in a spreadsheet' (free Publisher Deal Ki…",
+     "date": "2026-08-18",
+     "ageDays": 88,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://legalmoveslawfirm.com/royalty-calculator/",
+     "note": "Free pre-signing royalty/recoup estimator; one-off estimate only, no periodic statements (undated, (c) 2026)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'game publisher royalty statement', 'recoupment statement indie game', 'revenue share calculator steam'",
+    "first100": "Publishers and developers searching for statement templates find a free statement generator for one title and upgrade when they need several titles and partners.",
+    "proof": [
+     {
+      "url": "https://gamegrowthadvisor.com/blog/2026-08-18-indie-game-publisher-recoup-clause-negotiation-guide-2026/",
+      "note": "Deal-guide pages on recoup and statements are published and offer a free spreadsheet to searchers",
+      "date": "2026-08-18",
+      "ageDays": 88,
+      "age": "3 months old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Legal Moves royalty & recoupment calculator",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Publisher Deal Kit spreadsheet",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Label Engine accounting",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -3459,7 +5485,10 @@
      {
       "url": "https://www.a2xaccounting.com/pricing",
       "note": "Payout-report-to-accounting journals sold from US$29/month per channel (Amazon, Shopify, Etsy, eBay, PayPal; Walmart US$79)",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Most one-person studios book one Steam deposit a month as a single line and let the accountant sort it at year end; only studios with several stores, currencies or titles feel the pain.",
@@ -3472,6 +5501,93 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://beancount.io/blog/2026/07/09/steam-revenue-share-indie-game-developer-bookkeeping-guide",
+     "note": "Steam bookkeeping pains: dashboard is not books, refunds as recurring cost, USD conversion at Valve's rate, payout ~30 days after month with $100 minimum, 0-30% withholding; names no connector (page …",
+     "date": "2026-07-09",
+     "ageDays": 128,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://beancount.io/blog/2026/08/14/app-store-payout-reconciliation-indie-developer-take-home-guide",
+     "note": "App Store/Google Play payout pains: FX spread with no invoice, Apple fiscal months, payment thresholds, refunds, withholding, clearing account; names no automation tool (date from URL path)",
+     "date": "2026-08-14",
+     "ageDays": 92,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.a2xaccounting.com/pricing",
+     "note": "A2X charges from US$29/month per channel for payout-to-ledger journals; channels listed exclude Steam, App Store, Google Play",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://linkmybooks.com/pricing",
+     "note": "Link My Books supports Amazon, eBay, Shopify, Etsy, Walmart, TikTok Shop, WooCommerce, Square into Xero/QBO; no game or app store",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Queries such as 'steam revenue bookkeeping', 'record app store payments in xero', 'google play payout quickbooks'; later the Xero App Store",
+    "first100": "Studio owners and bookkeepers searching how to book Steam or App Store payouts land on one guide-plus-tool page per store and per ledger, preview the first month's journal free and subscribe to download or post it.",
+    "proof": [
+     {
+      "url": "https://beancount.io/blog/2026/07/09/steam-revenue-share-indie-game-developer-bookkeeping-guide",
+      "note": "Guide pages on this exact question are published and rank in web search; none links to a tool",
+      "date": "2026-07-09",
+      "ageDays": 128,
+      "age": "4 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "A2X",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Link My Books",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Taxomate",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Beancount import pipeline",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -3577,7 +5693,10 @@
      {
       "url": "https://www.allinvestview.com/",
       "note": "Multi-country investor tax tool sells plans from 6.99 USD a month",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Curvo and tobcalc are free and will likely add IBKR and Trade Republic.",
@@ -3590,6 +5709,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://curvo.eu/meerwaardebelasting-berekenen/nl",
+     "note": "Free calculator without account; reads only DEGIRO, Bolero and Saxo exports; IBKR and Trade Republic not listed",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.allinvestview.com/",
+     "note": "Footer links a 2026 Belgium capital gains tool; Belgium not among the countries with full reports",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.be: 'meerwaardebelasting broker', 'tob aangifte broker'",
+    "first100": "IBKR users who find Curvo does not read their export search again and land on a broker-specific page.",
+    "proof": [
+     {
+      "url": "https://curvo.eu/meerwaardebelasting-berekenen/nl",
+      "note": "A free tool already ranks for the job",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Curvo calculator",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "tobcalc (via Curvo)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "AllInvestView Belgium tool",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -3694,7 +5879,10 @@
      {
       "url": "https://wirtschaftsfoerderung-ak.de/wp-content/uploads/2026/05/Stromsteuer_Erstattung_KMU.pdf",
       "note": "Lists paid consultants for the job (prices not shown); no price page was found",
-      "date": "2026-05-01"
+      "date": "2026-05-01",
+      "ageDays": 197,
+      "age": "6 months old",
+      "tier": "ok"
      }
     ],
     "nobodyPaysIf": "Filing is free, chamber and supplier guides explain it, and firms let their tax adviser or energy supplier do it.",
@@ -3707,6 +5895,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 197,
+     "age": "newest source 6 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://wirtschaftsfoerderung-ak.de/wp-content/uploads/2026/05/Stromsteuer_Erstattung_KMU.pdf",
+     "note": "Regional business-development PDF for small firms (path dated May 2026) with a calculator script: (kWh/1000)*20 - 250, not worth it under 12,500 kWh; links to consultants (energie-consulting.com, ten…",
+     "date": "2026-05-01",
+     "ageDays": 197,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://1komma5.com/de/b2b/energie/stromsteuerrueckerstattung/",
+     "note": "Explains eligibility (producing sector, 12,500 kWh minimum) and the yearly cut-off; no fee shown (updated 2025-09-10)",
+     "date": "2025-09-10",
+     "ageDays": 430,
+     "age": "14 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de: 'stromsteuer erstattung antrag 2025', 'stromsteuer rückerstattung handwerk'",
+    "first100": "Bakers and workshop owners who read a trade-press reminder in December search for the application and buy the checklist.",
+    "proof": [
+     {
+      "url": "https://1komma5.com/de/b2b/energie/stromsteuerrueckerstattung/",
+      "note": "Companies publish guides for these queries to win business clients",
+      "date": "2025-09-10",
+      "ageDays": 430,
+      "age": "14 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Zoll-Portal form and free calculators (stromsteue…",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Energy suppliers' guides",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -3812,7 +6061,10 @@
      {
       "url": "https://ie.trustpilot.com/review/glowclp.co.uk",
       "note": "Makers paid a CLP label service (42 reviews); price not shown",
-      "date": "2024-04-29"
+      "date": "2024-04-29",
+      "ageDays": 929,
+      "age": "2 years 7 months old",
+      "tier": "old"
      }
     ],
     "nobodyPaysIf": "A free browser tool already does the mixture maths, suppliers hand out label text per oil, and most makers sell only in their own language.",
@@ -3825,6 +6077,77 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 929,
+     "age": "newest source 2 years 7 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://maker-label-studio.vercel.app/eu-clp/",
+     "note": "Free browser CLP label tool for indie makers; computes allergen share and classification; page is English-only and names no other label language",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://ie.trustpilot.com/review/glowclp.co.uk",
+     "note": "A paid CLP label service for candle and wax-melt sellers has 42 reviews (4.8), none in the last 12 months; newest 2024-04-29",
+     "date": "2024-04-29",
+     "ageDays": 929,
+     "age": "2 years 7 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de/.fr/.nl: 'clp etikett kerze', 'étiquette clp bougie'",
+    "first100": "German and French makers searching how to make a CLP label get a free label and pay for the multi-language pack when they start shipping abroad.",
+    "proof": [
+     {
+      "url": "https://maker-label-studio.vercel.app/eu-clp/",
+      "note": "The free incumbent is English-only, leaving non-English queries open",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "EU CLP Pro Label Studio",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Supplies for Candles templates",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Glow CLP",
+     "verdict": "abandoned",
+     "note": ""
+    },
+    {
+     "name": "Biorius candle compliance",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -3930,7 +6253,10 @@
      {
       "url": "https://www.moneyviz.it/",
       "note": "Same job paid in Italy (53-529 EUR per year); no Czech price page found",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "The time test and the 100,000 CZK exemption mean most long-term investors owe nothing, and XTB and Trading 212 already hand out a Czech report.",
@@ -3943,6 +6269,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.e15.cz/zdaneni-akcii-dividend-danove-priznani-2026",
+     "note": "Published 2026-04-27: explains the time test, the 100k CZK limit and dividend credit; XTB and Trading 212 supply a tax report; only NeoTax's online form is named as a tool",
+     "date": "2026-04-27",
+     "ageDays": 201,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.allinvestview.com/",
+     "note": "Multi-country tool lists no Czech rules",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.cz: 'daňové přiznání interactive brokers', 'časový test akcie'",
+    "first100": "IBKR users searching how to file in March land on a guide page with the calculator.",
+    "proof": [
+     {
+      "url": "https://www.e15.cz/zdaneni-akcii-dividend-danove-priznani-2026",
+      "note": "Major news site ranks with a guide, not a tool",
+      "date": "2026-04-27",
+      "ageDays": 201,
+      "age": "7 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "XTB tax report",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "NeoTax online form (with e15)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -4047,7 +6434,10 @@
      {
       "url": "https://flashfiscal.com/",
       "note": "149-199 EUR per year for the same job",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "FlashFiscal already serves this with a result guarantee and good reviews; a newcomer can only win on privacy and price.",
@@ -4060,6 +6450,67 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://flashfiscal.com/",
+     "note": "Leader: 149-199 EUR per year, 15 broker imports, 6,000+ accounts, Trustpilot 4.7 from 80 reviews; statements are uploaded",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://community.finary.com/t/declaration-dimpot-ibkr/35540",
+     "note": "April 2026 thread: an IBKR user's own recalculation differs from IBKR's figure (583 vs ~200 EUR); FIFO vs PMP confusion",
+     "date": "2026-04-24",
+     "ageDays": 204,
+     "age": "7 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.fr: 'déclaration impôts broker', '2074 cmv broker'",
+    "first100": "Privacy-minded investors searching '2074 cmv broker' pick a tool that keeps files on their own device.",
+    "proof": [
+     {
+      "url": "https://community.finary.com/t/declaration-dimpot-ibkr/35540",
+      "note": "Investors ask how to declare IBKR",
+      "date": "2026-04-24",
+      "ageDays": 204,
+      "age": "7 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "FlashFiscal",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "AllInvestView",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -4164,7 +6615,10 @@
      {
       "url": "https://www.softguide.de/programm/u-modul-dac-6",
       "note": "Same job sold at 2,400 EUR a year",
-      "date": "2024-12-02"
+      "date": "2024-12-02",
+      "ageDays": 712,
+      "age": "1 year 11 months old",
+      "tier": "old"
      }
     ],
     "nobodyPaysIf": "Small operators hand the job to a Steuerberater who already licenses an enterprise tool; the number of small reporting platforms is unverified and may be a few hundred.",
@@ -4177,6 +6631,77 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 712,
+     "age": "newest source 1 year 11 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/u-modul-dac-6",
+     "note": "U2 DAC7 module: 2,400 EUR a year plus VAT; creates and validates the BZSt XML; targets international companies and auditors or tax advisers (updated 2024-12-02)",
+     "date": "2024-12-02",
+     "ageDays": 712,
+     "age": "1 year 11 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=de&q=dac7%20meldung%20",
+     "note": "Autocomplete: 'dac7 meldung österreich', 'dac7 meldung', 'dac7 meldung vinted'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de and .at: 'dac7 meldung erstellen', 'dac7 xml', 'dac7 meldung österreich'",
+    "first100": "Operators searching 'dac7 meldung erstellen' in January upload their CSV, see validation errors free, and pay to download the XML.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=de&q=dac7%20meldung%20",
+      "note": "Three autocomplete variants",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "U2 DAC7 (Universal Units)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Forvis Mazars DAC7 Tool",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "WTS DAC 7-Lösung",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Rödl DAC7 Suite",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -4282,12 +6807,18 @@
      {
       "url": "https://flashfiscal.com/",
       "note": "Same job in France: 149-199 EUR per year",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      },
      {
       "url": "https://www.moneyviz.it/",
       "note": "Same job in Italy: 53-529 EUR per year, 11,000+ clients",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Locals with few sales fill Anexo J by hand, and foreign residents with larger portfolios already pay an accountant.",
@@ -4300,6 +6831,72 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://crncontabilidade.pt/blog/mais-valias-de-acoes-e-etf-no-irs-2026-como-declarar-no-anexo-j/",
+     "note": "Published 2026-07-17: foreign brokers do not report to the AT; the taxpayer must compute FIFO gains with per-date exchange rates; the firm sells this as a service (no price)",
+     "date": "2026-07-17",
+     "ageDays": 120,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.allinvestview.com/",
+     "note": "Multi-country investor tax tool lists 14 countries; Portugal is not among them",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.pt in Portuguese and English: 'anexo j degiro', 'portugal capital gains degiro'",
+    "first100": "Residents searching 'anexo j broker' in April and May use the free preview and pay to download the filled lines.",
+    "proof": [
+     {
+      "url": "https://crncontabilidade.pt/blog/mais-valias-de-acoes-e-etf-no-irs-2026-como-declarar-no-anexo-j/",
+      "note": "Accountants publish 2026 guides for these queries to win clients",
+      "date": "2026-07-17",
+      "ageDays": 120,
+      "age": "4 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "CRN Contabilidade (accountant service)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Portal das Finanças guidance",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "AllInvestView",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -4405,12 +7002,18 @@
      {
       "url": "https://bubbletax.de/",
       "note": "Same job for IBKR: from 39 EUR, 2,000+ reports sold",
-      "date": "2026-09-01"
+      "date": "2026-09-01",
+      "ageDays": 74,
+      "age": "2 months old",
+      "tier": "fresh"
      },
      {
       "url": "https://klyris.de/",
       "note": "249 EUR per tax year for IBKR derivatives",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Most Trading 212 and XTB accounts are small, stay under the 1,000 EUR Sparer-Pauschbetrag and need two numbers typed by hand; AllInvestView may already cover them.",
@@ -4423,6 +7026,93 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://forum.portfolio-performance.info/t/deutsche-steuererklarung-fur-interactive-brokers/23691",
+     "note": "Thread 2023-04-12 to 2026-07-30: users call the broker's 'informativer Steuerbericht' unusable and faulty (2026-01-12); one used paid BubbleTax (2026-01-08)",
+     "date": "2026-07-30",
+     "ageDays": 107,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://bubbletax.de/",
+     "note": "Stand September 2026: 3,000+ registered users, 2,000+ sold reports, from 39 EUR; only IBKR and IBKR-based brokers",
+     "date": "2026-09-01",
+     "ageDays": 74,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://klyris.de/",
+     "note": "IBKR derivatives tax tool, 249 EUR per tax year, browser-local, paid launch planned for winter 2026/27; no KAP-INV",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de: 'broker steuererklärung anlage kap', 'vorabpauschale ausländischer broker'",
+    "first100": "Investors searching 'broker anlage kap' in spring find a per-broker guide and pay for the report after a free preview.",
+    "proof": [
+     {
+      "url": "https://forum.portfolio-performance.info/t/deutsche-steuererklarung-fur-interactive-brokers/23691",
+      "note": "Investors ask in forums how to file foreign-broker income",
+      "date": "2026-07-30",
+      "ageDays": 107,
+      "age": "4 months old",
+      "tier": "ok"
+     },
+     {
+      "url": "https://bubbletax.de/",
+      "note": "A comparable product reached 3,000+ registered users in this channel",
+      "date": "2026-09-01",
+      "ageDays": 74,
+      "age": "2 months old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "BubbleTax",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Klyris",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "AllInvestView",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Portfolio Performance",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -4528,17 +7218,26 @@
      {
       "url": "https://www.datalevel.ch/",
       "note": "A paid IBKR e-tax statement exists in Switzerland (price not public)",
-      "date": "2025-10-01"
+      "date": "2025-10-01",
+      "ageDays": 409,
+      "age": "13 months old",
+      "tier": "old"
      },
      {
       "url": "https://bubbletax.de/",
       "note": "German equivalent for IBKR: from 39 EUR, 2,000+ reports sold (Stand September 2026)",
-      "date": "2026-09-01"
+      "date": "2026-09-01",
+      "ageDays": 74,
+      "age": "2 months old",
+      "tier": "fresh"
      },
      {
       "url": "https://www.moneyviz.it/",
       "note": "Italian equivalent: 11,000+ clients, 53-529 EUR per year",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Investors with a few ETFs type five lines in ten minutes, keen ones use the free OpenSteuerAuszug, and a canton that refuses self-made statements removes the value.",
@@ -4551,6 +7250,101 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    }
+   },
+   "sources": [
+    {
+     "url": "https://forum.mustachianpost.com/t/opensteuerauszug-generate-your-own-etax-esteuerauszug-for-ibkr-schwab-and-others/18288",
+     "note": "Thread opened 2026-02-18 (replies from 2026-01-15/16): author says 'This is for tinkerers' and points to datalevel 'if you want polish'; ZH and BS accepted generated files, some cantons refuse",
+     "date": "2026-02-18",
+     "ageDays": 269,
+     "age": "9 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.mustachianpost.com/de/wo-finde-ich-bei-interactive-brokers-informationen-zu-meinen-steuern/",
+     "note": "Guide updated 2026-10-11: IBKR gives no Swiss tax documents; tells readers to type every transaction into VaudTax by hand",
+     "date": "2026-10-11",
+     "ageDays": 34,
+     "age": "5 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.datalevel.ch/",
+     "note": "News from October 2025 (day not shown): datalevel offers a paid Swiss e-tax statement for IBKR clients from tax year 2025; no price published",
+     "date": "2025-10-01",
+     "ageDays": 409,
+     "age": "13 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=ch&q=steuerauszug%20interactive%20brokers",
+     "note": "Autocomplete: 'interactive brokers e steuerauszug', 'interactive brokers steuerauszug schweiz'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.ch: 'interactive brokers e steuerauszug', 'steuerauszug interactive brokers schweiz', 'broker steuerauszug'",
+    "first100": "Investors searching 'interactive brokers e steuerauszug' in February find a page that builds the file in the browser and pay at download.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=ch&q=steuerauszug%20interactive%20brokers",
+      "note": "Three autocomplete variants for the exact job",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.mustachianpost.com/de/wo-finde-ich-bei-interactive-brokers-informationen-zu-meinen-steuern/",
+      "note": "A large Swiss investor blog ranks with a manual-entry guide, not a tool",
+      "date": "2026-10-11",
+      "ageDays": 34,
+      "age": "5 weeks old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "datalevel",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "OpenSteuerAuszug",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "IBKR eTax Statement (J. von Scheidt)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "AllInvestView",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -4656,17 +7450,26 @@
      {
       "url": "https://www.blockpit.io/de-at/preise",
       "note": "Austrians pay 49-549 EUR per tax year for the same kind of report for crypto",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      },
      {
       "url": "https://www.moneyviz.it/",
       "note": "Italian equivalent for foreign brokers: 11,000+ clients, 53-529 EUR per account and year (page updated November 2026)",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      },
      {
       "url": "https://flashfiscal.com/",
       "note": "French equivalent: 149-199 EUR per year, 6,000+ accounts",
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Austrian investors switch to a steuereinfach broker (Flatex, DADAT, Trade Republic now) instead of paying, or hold a few ETFs and type the numbers in twenty minutes or leave it to a Steuerberater.",
@@ -4679,6 +7482,96 @@
      }
     ]
    },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.broker-test.at/steuern/kapitalertraege-von-auslandsdepots-versteuern/",
+     "note": "Lists ten non-steuereinfach brokers (IBKR, Scalable, DEGIRO, Lynx, CapTrader, eToro...) whose clients must self-declare in E1kv; names no software and suggests an own spreadsheet; warns of CRS report…",
+     "date": "2025-01-28",
+     "ageDays": 655,
+     "age": "22 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=at&q=e1kv%20",
+     "note": "Autocomplete: e1kv formular, e1kv 2025, e1kv ausfüllhilfe 2025, e1kv finanzonline (10 variants)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.allinvestview.com/",
+     "note": "Largest multi-country investor tax tool names 14 countries with coded rules; Austria is not among them",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.blockpit.io/de-at/preise",
+     "note": "Austrians pay 49-549 EUR per tax year for a crypto tax report; no stocks or ETFs mentioned",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.at: 'e1kv ausfüllhilfe', 'e1kv broker', 'auslandsdepot steuer', 'ausschüttungsgleiche erträge berechnen'",
+    "first100": "Investors who search 'e1kv their broker' between February and June land on a per-broker guide, run the free analysis in the browser and pay to download the E1kv sheet.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=at&q=e1kv%20",
+      "note": "10 autocomplete variants incl. 'e1kv ausfüllhilfe 2025'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=at&q=auslandsdepot%20steuer%20",
+      "note": "'auslandsdepot steuer' is a suggested query (only one variant, weak)",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Blockpit",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "AllInvestView",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "OeKB fund tax data (my.oekb.at)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "daily pool",
     "reason": "Waiting for the next daily ranking.",
@@ -4785,7 +7678,10 @@
      {
       "url": "https://www.streit-software.de/wissen/gaeb-konverter",
       "note": "Bidders pay 120 EUR (GAEB-Online), 125-600 EUR (Wingaebxml, X83/X84) or 99 EUR+ (T&T) for this job",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "ageDays": 1,
+      "age": "from today",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "The free WebGAEB or a trial of a trade suite already lets them enter prices and export X84, or the trade does so few tenders that a one-off desktop licence is cheaper over three years.",
@@ -4809,6 +7705,89 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 1,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 1,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.streit-software.de/wissen/gaeb-konverter",
+     "note": "Comparison of 9 GAEB tools with prices: GAEB-Online 120/180 EUR (Windows 10/11), Wingaebxml Bietertool 125-600 EUR (X83/X84 explicit), T&T 99-2,499 EUR, DanglIT WebGAEB free in the browser with a sin…",
+     "date": "2026-11-13",
+     "ageDays": 1,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=gaeb%20x84",
+     "note": "10 autocomplete variants: x84 datei, in x83 umwandeln, in excel umwandeln, öffnen, einlesen, konverter, x83 x84",
+     "date": "2026-11-13",
+     "ageDays": 1,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.softguide.de/programm/gaeblv",
+     "note": "Search result seen (not opened): mein.gaeb-365.online, a GAEB tool for trades that also handles Formblatt 221",
+     "date": "2026-11-13",
+     "ageDays": 1,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "German queries such as 'gaeb x84 erstellen', 'x83 datei öffnen', 'gaeb x84 konverter'",
+    "first100": "A tradesperson who just downloaded tender documents searches for how to open the X83 or create an X84, prices the positions in the browser, and pays when exporting.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=gaeb%20x84",
+      "note": "10 suggestions around opening, converting and creating X84",
+      "date": "2026-11-13",
+      "ageDays": 1,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Wingaebxml Bietertool",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "GAEB-Online 2025",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "T&T Datentechnik GAEB-Konverter",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "DanglIT WebGAEB",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Trade software suites (e.g. STREIT)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "orchestrator",
     "reason": "QA still failing after 3 rounds: X84 output and synthetic X83 fixtures are not validated against the official GAEB XSDs. tests/fixtures/gaeb/official/ does not exist, xmllint is not installed, npm run test:schema cannot pass, and element names and order for UP, IT, Totals, CTR and the alternative marker are still XSD-TODO. Taking …",
@@ -4935,7 +7914,10 @@
      {
       "url": "https://www.getly.store/alternatives/teachers-pay-teachers",
       "note": "Sellers already pay for the selling job: Exclusive $59.95 a year, Basic $29 one-time plus $0.30 per resource (a nearby job, not this tool)",
-      "date": "2026-10-22"
+      "date": "2026-10-22",
+      "ageDays": 23,
+      "age": "3 weeks old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Most sellers accept Exclusive by default (the intro 80% rate makes that easy) and never move, and those who leave re-list only a few bestsellers by hand.",
@@ -4959,6 +7941,74 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 1,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 23,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.getly.store/alternatives/teachers-pay-teachers",
+     "note": "TPT facts checked 2026-10-22: Premium retired 2026-10-01; Basic 55% plus $0.30; Exclusive $59.95/yr, 77.5%, TPT-only; former Premium sellers drop to Basic on 2027-01-01. Names Etsy, Payhip, Gumroad a…",
+     "date": "2026-10-22",
+     "ageDays": 23,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.change.org/p/teachers-pay-teachers-reconsider-the-new-seller-terms-restricting-off-platform-sales",
+     "note": "Petition created 2026-10-01 with 1,515 verified signatures against the exclusivity and payout cut; sellers fear losing their own sites, memberships and email lists.",
+     "date": "2026-10-01",
+     "ageDays": 44,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=tpt%20exclusive",
+     "note": "10 autocomplete variants: 'tpt exclusive seller', '... terms', '... program', '... reddit', '... membership'.",
+     "date": "2026-11-13",
+     "ageDays": 1,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google: 'tpt exclusive seller', 'tpt exclusive seller terms', 'tpt exclusive seller reddit', 'tpt basic vs exclusive'",
+    "first100": "Sellers searching the new terms in November and December run the free comparison on their own sales CSV, then pay to generate the store import files.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=tpt%20exclusive",
+      "note": "Ten live autocomplete variants for the new terms",
+      "date": "2026-11-13",
+      "ageDays": 1,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Getly",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Payhip, Etsy, Gumroad (destination stores)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The Basic-vs-Exclusive maths is already served by free working calculators (classroomreview.games, graphene-edu) and Signal Loom's export reader. The catalogue move cannot be a real import for Payhip, and an AI assistant does the Shopify/Woo file conversion. Searches are crowded and the deadline is seven weeks away, so no payer at 29 EUR is shown.",
@@ -5095,12 +8145,18 @@
      {
       "url": "https://www.amainvoice.de/en/datev-amazon-integration",
       "note": "Amainvoice charges from 39 EUR a month (200 documents) up to 599 EUR a month and claims 2,700+ sellers for Amazon-to-DATEV preparation. Undated page (copyright 2025), opened 2026-11-12.",
-      "date": "2026-11-12"
+      "date": "2026-11-12",
+      "ageDays": 2,
+      "age": "2 days old",
+      "tier": "fresh"
      },
      {
       "url": "https://www.datev.de/web/de/marktplatz/datev-zahlungsdatenservice-fuer-amazon",
       "note": "DATEV's own service costs from 1.36 EUR a month. This shows that the payer exists and also how low the price anchor is.",
-      "date": "2026-11-12"
+      "date": "2026-11-12",
+      "ageDays": 2,
+      "age": "2 days old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "DATEV's Datenservice Zahlungsdienstleister turns out to be a cheap drop-in successor, or tax advisors simply move their clients to Amainvoice or Taxdoo, so a small converter is never chosen.",
@@ -5124,6 +8180,84 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 2,
+     "age": "newest source 2 days old",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.datev.de/web/de/marktplatz/datev-zahlungsdatenservice-fuer-amazon",
+     "note": "DATEV warns of balance differences, outdated and missing data. Price from 1.36 EUR a month, end of service 2027-08-15, no successor named on the page. Undated page, opened 2026-11-12.",
+     "date": "2026-11-12",
+     "ageDays": 2,
+     "age": "2 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.datev.de/web/de/berufsgruppenuebergreifend/nachrichten/rund-um-die-datev-programme/kuendigungen-und-leistungsaenderungen-von-produkten/",
+     "note": "DATEV's discontinuation list: 'DATEV Zahlungsdatenservice für Amazon: 15.08.2027, discontinued'. Customer letters dated October 2026.",
+     "date": "2026-11-12",
+     "ageDays": 2,
+     "age": "2 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=amazon%20datev",
+     "note": "10 autocomplete variants, including 'amazon datev export', 'datev amazon zahlungsdatenservice' and 'datev amazon buchen'",
+     "date": "2026-11-12",
+     "ageDays": 2,
+     "age": "2 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de queries 'datev amazon zahlungsdatenservice', 'amazon datev export', 'datev amazon buchen'",
+    "first100": "Sellers and tax-office staff search for the discontinued service's name or 'amazon datev export', try one month's settlement file free in the browser, and subscribe when the batch imports cleanly.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=amazon%20datev",
+      "note": "10 autocomplete suggestions around Amazon and DATEV, including the name of the discontinued service",
+      "date": "2026-11-12",
+      "ageDays": 2,
+      "age": "2 days old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Amainvoice",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Taxdoo",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "DATEV Datenservice Zahlungsdienstleister (Amazon …",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "DATEV Zahlungsdatenservice für Amazon",
+     "verdict": "abandoned",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "orchestrator",
     "reason": "QA still failing after 3 rounds: Legal pages: the impressum page does not show \"HRB 4400\" (the company text was changed or not used). Show src/content/legal/impressum.<lang>.html and datenschutz.<lang>.html unchanged on /impressum and /datenschutz (see src/content/legal/LEGAL.md). | Legal pages: the impressum page does not show \"D…",
@@ -5261,6 +8395,57 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 9,
+     "age": "newest source 9 days old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.nw.de/lokal/kreis_paderborn/paderborn/24455572_Hoehere-Hundesteuer-fuer-Paderborn-Politiker-beschliessen-deutliche-Erhoehung.html",
+     "note": "Paderborn raises the first-dog tax from 72 to 120 EUR from January 2027 (unchanged since 2000). An online petition against it ran until 11 November.",
+     "date": "2026-11-05",
+     "ageDays": 9,
+     "age": "9 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.deutschland-rechner.de/hundesteuer-rechner",
+     "note": "The best calculator found covers only 33 large cities (checked 2026-10-17) and lists 2027 rates for Hamburg, Munich and Nuremberg. Other municipalities are not covered.",
+     "date": "2026-10-17",
+     "ageDays": 28,
+     "age": "4 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "deutschland-rechner.de Hundesteuer-Rechner",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "finanz.de Hundesteuer",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Bund der Steuerzahler NRW Hundesteuervergleich",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Omni Calculator Hundesteuer-Rechner",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "operator",
     "reason": "Decided against it in the console",
@@ -5402,6 +8587,73 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 22,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/recht-auf-reparatur-mehr-rechte-seit-31-juli-2026-124253",
+     "note": "Rules since 31 July 2026: the period runs from when the last unit of a model was placed on the market. The page does not explain how to find that date and offers neither a sample letter nor a calcula…",
+     "date": "2026-08-07",
+     "ageDays": 99,
+     "age": "3 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.t-online.de/heim-garten/haushaltstipps/haushaltsgeraete/id_101368584/recht-auf-reparatur-fuer-diese-geraete-muessen-hersteller-ersatzteile-liefern.html",
+     "note": "National consumer outlet: purchase date is irrelevant, the period starts with the model's last unit on the market. No way to check that date, no tool, no database, no letter.",
+     "date": "2026-08-01",
+     "ageDays": 105,
+     "age": "3 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.biallo.de/verbraucherschutz/news/aenderungen-im-november-2026-das-aendert-sich-fuer-sie-und-ihr-geld/",
+     "note": "New German eco-design law takes effect in November 2026: durability, spare-parts and digital product passport requirements apply step by step per product group (keeps the topic current).",
+     "date": "2026-10-23",
+     "ageDays": 22,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://apify.com/promptica/eprel-etichette-energetiche",
+     "note": "Third-party documentation of the public EPREL endpoint /api/products/{productGroup} with per-model fields incl. onMarketStartDate and onMarketEndDate (sample shows the placeholder 2050-12-31), descri…",
+     "date": "2026-07-11",
+     "ageDays": 126,
+     "age": "4 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Verbraucherzentrale explainer",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "EPREL (EU energy label database)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Bosch/BSH spare-parts search",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "ersatzteilshop.de model pages",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "operator",
     "reason": "Decided against it in the console",
@@ -5523,6 +8775,55 @@
      }
     ]
    },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 94,
+     "age": "newest source 3 months old",
+     "tier": "ok",
+     "n": 3
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://developer.amazon.com/docs/amazon-data-portability/developer-data-handling-practices.html",
+     "note": "Amazon Data Portability API: customers must tick a box to authorise a third party; onboarding includes allowlisting and an identity and security assessment",
+     "date": "2025-01-08",
+     "ageDays": 675,
+     "age": "22 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://thedesk.net/2025/05/mozilla-shutting-down-pocket-fakespot/",
+     "note": "Mozilla shuts Fakespot and Review Checker on 1 July because it did not fit a model it could sustain (URL shows May 2025; exact day not shown)",
+     "date": "2025-05-01",
+     "ageDays": 562,
+     "age": "18 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.bebolddigital.com/news/amazon-fake-review-lawsuit-2026",
+     "note": "Amazon lawsuit describes services selling verified-purchase reviews at $30 each, plus a May 2026 review-pooling policy change",
+     "date": "2026-08-12",
+     "ageDays": 94,
+     "age": "3 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Amazon customer reviews",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Fakespot (Mozilla)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: Nobody pays: the product is free to shoppers and earns only a ~3% Amazon affiliate commission on replacements, while Amazon already emails recall alerts and free sites answer the warranty question.",
@@ -5644,6 +8945,63 @@
      }
     ]
    },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 5,
+     "age": "newest source 5 days old",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.yacht.de/reisen-chartern/deutschland/ostsee-haefen-2026-liegeplatz-suche-in-sh-braucht-geduld/",
+     "note": "69% of surveyed Schleswig-Holstein harbours have no free permanent berth; only 14 reported free boxes; five large facilities hold about a quarter of free place…",
+     "date": "2026-04-05",
+     "ageDays": 223,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.yacht.de/reisen-chartern/deutschland/gebuehrenkeule-am-bodensee-bregenz-kassiert-45-000-euro-fuer-liegeplatz-warteliste/",
+     "note": "Bregenz waiting list about 1,500 (about 440 in 2019), 30 EUR yearly fee to stay listed, waits of 10-25 years; over 52,000 boats vs about 28,000 berths on Lake …",
+     "date": "2025-12-18",
+     "ageDays": 331,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://europeanboatingindustry.eu/about-the-industry/facts-and-figures",
+     "note": "Over 6 million boats, 10,000 marinas, over 1 million berths, 36 million boaters in Europe. Page undated (footer 2026); date is when I opened it.",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.boat24.com/en/berths/liegeplatz-1200-x-400m/detail/168301/",
+     "note": "Incumbent berth ad: Flensburg marina, price on request, text says fully booked for 2022 with a waiting list, so stale and static. Page undated; date is when I …",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "boat24 (berths section)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Municipal and club harbour waiting lists (e.g. Ko…",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The berth shortage is real, but no payer is shown: BerthFinder already lists German marinas and sends free berth requests and alerts, free for boaters and free to list for marinas (5% of stays), and the few marinas with free berths could only be won by outreach the studio cannot do.",
@@ -5766,6 +9124,63 @@
      }
     ]
    },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 70,
+     "age": "newest source 2 months old",
+     "tier": "fresh",
+     "n": 6
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.topagrar.com/betriebsleitung/news/pachtpreise-fuer-agrarflaechen-in-letzten-jahren-um-9-gestiegen-a-20002119.html",
+     "note": "9.9 million leased hectares, about 60% of farmland, average EUR 357 per hectare, new arable contracts around EUR 1,000 by editorial estimate.",
+     "date": "2024-04-14",
+     "ageDays": 944,
+     "age": "2 years 7 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://reduco.ai/blog/solar/solarpark-flaeche-verpachten-pacht",
+     "note": "Solar rents around EUR 2,500 to 4,500 per hectare, 7 to 13 times farmland rent, by industry figures; advises comparing offers.",
+     "date": "2026-09-05",
+     "ageDays": 70,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.topagrar.com/energie/news/marktplatz-fur-solarparkflachen-20010754.html",
+     "note": "Enlapa's model: free for owners, developer commission, about 60 hectares a month added, and its claims of aggressive land-securing teams.",
+     "date": "2025-01-20",
+     "ageDays": 663,
+     "age": "22 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.roedl.com/insights/batteriespeicher-privilegierung-aussenbereich/",
+     "note": "Battery storage privileged under section 35 BauGB since 23 December 2025, with further changes pending.",
+     "date": "2026-05-28",
+     "ageDays": 170,
+     "age": "6 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Enlapa",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Logic Energy (developer guides)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: No owner is shown paying for this job: farmers already chase scarce Bavarian land on free classifieds, five or more solar and storage land brokers are free for owners, and a free lease-price calculator and local rent tables already answer the price question.",
@@ -5888,6 +9303,68 @@
      }
     ]
    },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 5,
+     "age": "newest source 5 days old",
+     "tier": "fresh",
+     "n": 6
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_876352.html",
+     "note": "545,000 owners seek a successor and 569,000 plan to close by end of 2029; 57% of owners are 55 or older.",
+     "date": "2026-01-09",
+     "ageDays": 309,
+     "age": "10 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.nexxt-change.org/",
+     "note": "22,300 placements since 2006, 431 regional partners, free listing; news item on a change of operator dated 18 August 2026.",
+     "date": "2026-08-18",
+     "ageDays": 88,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.boersen-zeitung.de/banken-finanzen/deal-dating-im-mittelstand",
+     "note": "HVB Dealsync: EBITDA up to EUR 20M, about 1,500 leads, expert check on each match, first deals expected in 2026.",
+     "date": "2025-12-29",
+     "ageDays": 320,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://boersen-zeitung.de/banken-finanzen/ki-als-dealmaker-bei-der-firmennachfolge",
+     "note": "A UniCredit board member calls the matching market fragmented and says potential buyers often stay invisible.",
+     "date": "2026-03-05",
+     "ageDays": 254,
+     "age": "8 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "nexxt-change",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Deutsche Unternehmerbörse (DUB)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Dealsync (HVB)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: Sellers already list free and anonymously on nexxt-change (8,000+ listings), DUB (free for sellers, 5,000+) and the Bavarian craft chambers' own Betriebsbörse, so no owner would pay EUR 149 to list on a new board that has no buyers.",
@@ -6010,6 +9487,63 @@
      }
     ]
    },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 5,
+     "age": "newest source 5 days old",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.stall-frei.de/",
+     "note": "Incumbent classifieds for stables, horse shares, pasture and feed; free to list with paid ad options; listings show free-place counts with no dates. Footer © 2…",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.ehorses.at/kleinanzeigen/stall-frei-weideplatz-pensionspferdehaltung-fuer-junge-aeltere-pensionierte-pferde-oder-sportpferde-die-eine-auszeit-benoe-kaufen-in-14-400-pasek/4874095.html",
+     "note": "ehorses 'Stall frei' results: retirement and pasture places across DE, NL, FR at 50-400 EUR with no period and no posting dates. Page undated; date is when I o…",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://equi-pages.de/en/?p=4890",
+     "note": "German warmblood foal registrations fell more than 8% in 2025 and about 18% in two years, a sector trend and a risk.",
+     "date": "2026-03-17",
+     "ageDays": 242,
+     "age": "8 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://wiki.openstreetmap.org/wiki/Tag:leisure=horse_riding",
+     "note": "OpenStreetMap tags for riding stables and livery yards (amenity=animal_boarding + animal_boarding=horse) that can seed the directory under ODbL. Page undated; …",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "STALL-FREI.de",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "ehorses ('Stall frei' category)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: STALL-FREI.de already lists about 3,800 stables with monthly prices, free-place counts, 'updated today' timestamps, keeping-type filters and a wanted-ad search agent; the wedge is a twist on it, and a cold-start site cannot reach stables or owners without outreach.",
@@ -6132,6 +9666,60 @@
      }
     ]
    },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 45,
+     "age": "newest source 6 weeks old",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://learn.microsoft.com/en-us/linkedin/dma/member-data-portability/shared/snapshot-domain",
+     "note": "LinkedIn's DMA Member Snapshot domains include JOB_APPLICATIONS ('jobs that have been applied to by the user in the past') and SAVED_JOBS",
+     "date": "2026-08-19",
+     "ageDays": 87,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://allwork.space/2026/09/66-of-job-seekers-have-been-ghosted-by-employers-during-the-hiring-process/",
+     "note": "NumberBarn US survey: 93% had an application never answered, 66% ghosted after an interview, 69% applied to jobs they suspected were not real, 85% favour regul…",
+     "date": "2026-09-30",
+     "ageDays": 45,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://fortune.com/2025/02/02/linkedin-indeed-greenhouse-job-seekers-likely-response-interviews/",
+     "note": "Indeed's responsive-employer badge and median response time labels; LinkedIn testing responsiveness insights; Greenhouse testing badges",
+     "date": "2025-02-02",
+     "ageDays": 650,
+     "age": "21 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Indeed",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "LinkedIn",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Self-reported ghosting boards",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: Job seekers already get application trackers free (Huntr, JobJump, LoopCV), and kununu, LinkedIn and LoopCV already publish response data per employer, so nobody would pay 6 EUR a month and the 30-application company pages would not fill up in the first year.",
@@ -6254,6 +9842,73 @@
      }
     ]
    },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 5,
+     "age": "newest source 5 days old",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://gradpilot.com/news/chatgpt-email-to-professor-phd",
+     "note": "Faculty pages describing AI-written applicant e-mails, including about 20 a day for one professor; individual opinions, not a survey.",
+     "date": "2026-10-31",
+     "ageDays": 14,
+     "age": "2 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://infocons.ro/proeduhub-cati-doctoranzi-sunt-in-europa-si-cati-in-romania-italia-si-belgia/",
+     "note": "About 721,000 doctoral students in the EU in 2023, citing Eurostat.",
+     "date": "2026-08-23",
+     "ageDays": 83,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://euraxess.ec.europa.eu/jobs",
+     "note": "Free posting and thousands of offers from 43+ countries, with no supervisor availability signal shown. Page is undated; date is when I read it.",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.hunted.space/product/supervisormatch",
+     "note": "AI supervisor matching for applicants, 0 upvotes on the listing and nothing on professor opt-in. Page is undated; date is when I read it.",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "EURAXESS",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "FindAPhD",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "SupervisorMatch",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "PhD-Match (University of Melbourne)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The only payer is a lab buying position posts, which labs already place free on EURAXESS, DAAD and university portals and pay for only on boards with an audience; open supervisors without a post have nothing to buy, and the search channel reaches applicants (who never pay), not labs.",
@@ -6376,6 +10031,65 @@
      }
     ]
    },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 170,
+     "age": "newest source 6 months old",
+     "tier": "ok",
+     "n": 3
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.utwente.nl/en/education/student-services/news-events/news/2025/11/622976/web-of-science-licence-will-end-on-31-december-2025",
+     "note": "University of Twente ends its Web of Science licence, including Journal Citation Reports, on 31 Dec 2025 after weighing costs, citing open research information",
+     "date": "2025-11-21",
+     "ageDays": 358,
+     "age": "12 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://library.maastrichtuniversity.nl/news/investing-in-open-research-information-openalex-partnership-and-end-of-scopus-license/",
+     "note": "Maastricht cancels Scopus from 1 Jan 2027 because usage fell while costs rose sharply, and takes an OpenAlex partner subscription",
+     "date": "2026-05-28",
+     "ageDays": 170,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://dailynous.com/2025/09/22/what-will-academia-edu-do-with-its-new-rights-to-your-name-likeness-and-voice/",
+     "note": "Academia.edu terms claimed rights to members' name and likeness; users cancelled and deleted accounts; the founder narrowed the clause",
+     "date": "2025-09-22",
+     "ageDays": 418,
+     "age": "14 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Clarivate Web of Science / Journal Citation Repor…",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Elsevier Scopus",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "SciRev",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Academia.edu",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: Free journal fact pages already serve every target query (journalmetrics.org on OpenAlex with 22,642 journals, Manusights, SciRev, SCImago, Master Journal List, DOAJ), and no self-serve payer exists: researchers get it free and the only paid tools are institutional (Cabells) or expert services (Editage $149) for a different job.",
@@ -6483,7 +10197,10 @@
      {
       "url": "https://tolr-site.pages.dev/pricing",
       "note": "A self-serve tool for the same job charges 59 USD a month (Solo) and 129 USD a month (Team), cancel anytime; no date on page",
-      "date": "2026-11-12"
+      "date": "2026-11-12",
+      "ageDays": 2,
+      "age": "2 days old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Shops with ERP inspection modules (ProShop with GroundControl) or existing InspectionXpert or DISCUS licences won't add another tool. Shops without controlled drawings will take Tolr or QA-Report's free tier. And customers who accept hand-made Excel forms leave a shop little reason to pay for anything.",
@@ -6496,6 +10213,24 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": {
+     "days": 2,
+     "age": "newest source 2 days old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.1 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 1.",
@@ -6604,12 +10339,18 @@
      {
       "url": "https://thirtyfifty.co.uk/WSET-L3-Exam-Questions.asp",
       "note": "Candidates pay £30 for Level 3 mocks to mark themselves (4 short written exams) and £20 for chapter questions",
-      "date": "2026-11-11"
+      "date": "2026-11-11",
+      "ageDays": 3,
+      "age": "3 days old",
+      "tier": "fresh"
      },
      {
       "url": "https://napavalleywineacademy.com/products/wset-level-3-wine-full-mock-exam-tasting-theory",
       "note": "Full Level 3 theory and tasting mock kit for 189 USD, seen in a search result (page returned 429 when opened)",
-      "date": "2026-11-11"
+      "date": "2026-11-11",
+      "ageDays": 3,
+      "age": "3 days old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Candidates paste a question and their answer into a free chatbot, or rely on the mock marking already in their course fee; each candidate is in the market only for the few weeks before the exam.",
@@ -6622,6 +10363,24 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": {
+     "days": 3,
+     "age": "newest source 3 days old",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Flagged for trademark, IP or terms-of-service concerns",
@@ -6730,12 +10489,18 @@
      {
       "url": "https://www.samlovesyarn.co.uk/services-7",
       "note": "Opened price list of a UK knitwear tech editor (30 GBP an hour). The search snippet of the same page shows translation at 0.08 GBP per word, minimum 350 words.",
-      "date": "2023-01-01"
+      "date": "2023-01-01",
+      "ageDays": 1413,
+      "age": "3 years 10 months old",
+      "tier": "old"
      },
      {
       "url": "https://www.fiverr.com/flamin_creator/translate-your-crochet-or-knitting-pattern",
       "note": "Seen in search results only (Fiverr blocks the fetcher): a gig selling knit and crochet pattern translation. Search snippets show EN-NL gigs up to 50 USD and multi-language projects at 100-200 USD.",
-      "date": "2026-11-10"
+      "date": "2026-11-10",
+      "ageDays": 4,
+      "age": "4 days old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Designers paste the pattern into ChatGPT or DeepL for free and have a native test knitter fix it, which they need anyway; most designers sell only in English and never translate.",
@@ -6748,6 +10513,24 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": {
+     "days": 4,
+     "age": "newest source 4 days old",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.9 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1.",
@@ -6856,17 +10639,26 @@
      {
       "url": "https://www.jctltd.co.uk/product/location-based-downtime-report",
       "note": "UK contractors pay 216 GBP + VAT per month per location for the same job (Met Office Downtime Report for EOT claims)",
-      "date": "2026-11-10"
+      "date": "2026-11-10",
+      "ageDays": 4,
+      "age": "4 days old",
+      "tier": "fresh"
      },
      {
       "url": "https://ehab-auto-new.pages.dev/credits/",
       "note": "WeatherWise prices historical site weather at 150 credits (1 credit = 1 GBP) and an NEC weather baseline at 350 credits; paid packs from 5,000 GBP",
-      "date": "2026-11-10"
+      "date": "2026-11-10",
+      "ageDays": 4,
+      "age": "4 days old",
+      "tier": "fresh"
      },
      {
       "url": "https://stormrecord-website.pages.dev/",
       "note": "US buyers pay 9.99 USD for a single-date weather evidence PDF",
-      "date": "2026-02-19"
+      "date": "2026-02-19",
+      "ageDays": 268,
+      "age": "9 months old",
+      "tier": "ok"
      }
     ],
     "nobodyPaysIf": "Small residential builders can list wet dates from free national weather data themselves, which is all a residential claim form asks for. Principals may reject reanalysis-based figures, so only larger commercial claims justify a paid report, and there WeatherWise and claims consultants already sell.",
@@ -6879,6 +10671,24 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": {
+     "days": 4,
+     "age": "newest source 4 days old",
+     "tier": "fresh",
+     "n": 3
+    }
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.9 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2.",
@@ -6987,7 +10797,10 @@
      {
       "url": "https://apps.shopify.com/mikata-pid-eu-customs-check",
       "note": "The same job on Shopify sells at 9 USD a month (Pro: bulk fixes, supplier-sheet paste, carrier CSV export); the basic check is free",
-      "date": "2026-10-30"
+      "date": "2026-10-30",
+      "ageDays": 15,
+      "age": "2 weeks old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "Sellers just type SKU plus a self-assigned or batch code into three spreadsheet columns, or their carrier or shipping app accepts this per shipment. The check itself is offered free (Mikata's free tier), and the hard field (the manufacturer code) has to come from suppliers, which no tool can supply.",
@@ -7000,6 +10813,24 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": {
+     "days": 15,
+     "age": "newest source 2 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.2 of 5, under the 3.5 the studio builds from.",
@@ -7108,12 +10939,18 @@
      {
       "url": "https://www.freelancer.de/projects/tiled-letter-teddy-pattern-reformat",
       "note": "A designer pays 10-30 USD for exactly this job (tiled A4 and Letter at true scale with a control square). It drew 26 proposals.",
-      "date": "2026-07-10"
+      "date": "2026-07-10",
+      "ageDays": 127,
+      "age": "4 months old",
+      "tier": "ok"
      },
      {
       "url": "https://docuslice.com/blog/2026-07-25-How-to-Print-a-Sewing-Pattern-at-Full-Size/",
       "note": "A tiling app for patterns sells Pro and Pro+ tiers, with vector export paywalled. The post shows no price.",
-      "date": "2026-07-25"
+      "date": "2026-07-25",
+      "ageDays": 112,
+      "age": "4 months old",
+      "tier": "ok"
      }
     ],
     "nobodyPaysIf": "Designers already own Illustrator and put up with its layerless tiling, or pay a cheap freelancer once per pattern. A 39 EUR yearly tool only beats that for designers who release or revise several patterns a year.",
@@ -7126,6 +10963,24 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": {
+     "days": 112,
+     "age": "newest source 4 months old",
+     "tier": "ok",
+     "n": 2
+    }
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.9 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1.",
@@ -7234,7 +11089,10 @@
      {
       "url": "https://apps.shopify.com/vintax",
       "note": "The same job (margin-scheme VAT per item, purchase register, invoices, DATEV export) sells for 19 USD a month (up to 50 orders), 39 USD (300) and 79 USD (unlimited), for Shopify stores only.",
-      "date": "2026-10-15"
+      "date": "2026-10-15",
+      "ageDays": 30,
+      "age": "4 weeks old",
+      "tier": "fresh"
      }
     ],
     "nobodyPaysIf": "At low volume the calculation is simple, and sevdesk itself says an Excel sheet is enough. Many small resellers keep a spreadsheet and leave the rest to their tax adviser, and Kleinunternehmer cannot use §25a at all, which shrinks the paying audience to VAT-registered resellers.",
@@ -7258,6 +11116,75 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 13,
+     "age": "newest source 13 days old",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 30,
+     "age": "newest source 4 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://community.shopify.com/t/differenzbesteuerung-buchhaltung-und-software/410945",
+     "note": "A reseller who buys from private persons uploads every receipt by hand to DATEV via a tax adviser and asks for software. Replies say lexoffice and sevdesk cannot map §25a. Original post 2025-04-25; r…",
+     "date": "2026-11-01",
+     "ageDays": 13,
+     "age": "13 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.yagemi.de/blog/erp-warenwirtschaft/differenzbesteuerung-gebrauchtwaren/",
+     "note": "Consultant article (status September 2026) on what inventory software must do for §25a: per-item purchase prices, a separate tax key, an invoice without VAT shown, a DATEV handover. It also says impr…",
+     "date": "2026-09-08",
+     "ageDays": 67,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://apps.shopify.com/vintax",
+     "note": "Vintax: Margin Scheme VAT, launched 2026-10-15, 0 reviews. A new paid tool for exactly this job (purchase register, per-item margin VAT, invoices, DATEV export), but for Shopify stores only.",
+     "date": "2026-10-15",
+     "ageDays": 30,
+     "age": "4 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Vintax: Margin Scheme VAT (Shopify app)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Xentral Differenzbesteuerung module",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "lexoffice / sevdesk",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Export für DATEV (Shopify app)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "deutschland-rechner Differenzbesteuerung-Rechner",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The non-Shopify gap the Scout claims is already served by German reseller tools: Resaldo (§25a per item and Gesamtdifferenz, self-issued receipts, eBay import), VinTracker (margin-scheme accounting and receipts from 2.99 EUR a month) and easybill (§25a invoices and DATEV from 9 EUR a month), plus Vintax on Shopify, so our only angle is a twist.",
@@ -7401,6 +11328,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.95 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
@@ -7516,6 +11456,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.2 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2.",
@@ -7636,6 +11589,78 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://community.homey.app/t/is-de-homewizard-batterij-iets-voor-mij/113158?page=4",
+     "note": "A user builds a Homey flow that reads his P1 meter every minute and simulates a home battery, to see from his own P1 data whether a battery pays off, because salderen ends on 2027-01-01. No website i…",
+     "date": "2026-08-17",
+     "ageDays": 89,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://solarmagazine.nl/nieuws-zonne-energie/i44728/prinsjesdag-afschaffen-btw-op-thuisbatterij-kost-overheid-1-tot-2-miljard-euro",
+     "note": "About 3.3 million Dutch homes have solar panels. The base scenario expects 600,000 new home batteries in 2027, tied to the end of salderen, with 37,600 plug-in batteries sold in Q2 2026. Zero VAT on …",
+     "date": "2026-09-09",
+     "ageDays": 66,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://community.homey.app/t/financieel-voordeel-vast-vs-dynamisch-energiecontract/133866",
+     "note": "Standing need: a user wants to compare fixed and dynamic contracts on his own HomeWizard P1 data, including taxes. Replies use Homey flows, CSV exports and a daily spreadsheet, and name no website.",
+     "date": "2025-04-01",
+     "ageDays": 592,
+     "age": "19 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://git.michielb.nl/michielb/pluginbattery/src/branch/main/README.md",
+     "note": "A developer wrote his own backtest of what a home battery would actually have saved, on P1 data and historical prices, because vendor quotes were not trusted. These are scripts plus a Flask app, not …",
+     "date": "2026-04-30",
+     "ageDays": 198,
+     "age": "7 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Homey community DIY flows (virtual battery)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "pluginbattery (Michiel Berger)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "HomeWizard Energy app",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Comparison sites (Overstappen.nl, Gaslicht)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Dutch Home Battery ROI Calculator (thuisaccu.page…",
+     "verdict": "abandoned",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: At least five free, working websites already do the core job: thuisbatterijplanner.nl (in-browser), eerlijkoverthuisbatterijen.nl (already affiliate-monetised), energiedoorgerekend.nl, jeroen.nl Stroomanalyse and the mark-vis simulator all simulate a home battery on uploaded P1/HomeWizard data with dynamic prices, and the first four also apply the post-2027 rules, so this would only be a twist on them.",
@@ -7779,6 +11804,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
@@ -7894,6 +11932,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 1.",
@@ -8009,6 +12060,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.75 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1.",
@@ -8124,6 +12188,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.1 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2.",
@@ -8239,6 +12316,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.15 of 5, under the 3.5 the studio builds from. Weak spots: monetization 2.",
@@ -8354,6 +12444,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.7 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 2.",
@@ -8469,6 +12572,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.8 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 2.",
@@ -8584,6 +12700,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.2 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 2.",
@@ -8699,6 +12828,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 2.",
@@ -8819,6 +12961,78 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 5
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://cn.wordpress.org/plugins/beitrag-steward/",
+     "note": "New WordPress plugin for Vereine (v0.1.2, under 10 installs) built for this deadline. It states that from 15 November 2026 banks stop accepting pain.008.002.02/.003.02/.001.02 under DFÜ Anlage 3 v26.…",
+     "date": "2026-08-21",
+     "ageDays": 85,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://api.github.com/search/issues?q=pain.008.001.08+OR+pain.001.001.09+type:issue&sort=created&order=desc",
+     "note": "Dated issues showing the migration underway now: a member-management tool adding pain.008.001.08 per DFÜ 3.7 (MirkoSc/mitgliederverwaltung #30, 2026-10-28), a project asking which pain.001 version ba…",
+     "date": "2026-10-28",
+     "ageDays": 17,
+     "age": "2 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.commerzbank.de/service/informationen-zur-abschaltung-von-sepa-altformaten-bei-ebics/",
+     "note": "Bank notice: versions 2.9 and older not accepted since March 2026; from November 2026 probably only 3.7+; DTAZV ends November 2026; customers on 3.6 or older should update. The page shows no date (fe…",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.jam-software.com/sepa-transfer/old-formats",
+     "note": "Vendor page pitching its paid SEPA-Transfer as the converter for older SEPA XML from club, ERP and accounting software. Says DFÜ Anlage 3 v26.11 is valid from 15 November 2026. Page shows no date (fe…",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "JAM Software SEPA-Transfer",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "BL CSV-SEPA Converter (business-logics)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Mobilefish free SEPA XML validation",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Beitrag Steward (WordPress plugin)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "SEPA converter by Gerald Neher (Payhip)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The deadline that creates the demand was suspended: ebics.de (SEPA LifeCycle, Stand September 2026; confirmed by DKB and GLS) says the old SEPA formats stay temporarily usable after November 2026 with no new end date, and the remaining standing need is covered for free by importing into bank-provided software (Profi cash, VR-NetWorld) or the JAM SEPA-Transfer trial.",
@@ -8961,6 +13175,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.65 of 5, under the 3.5 the studio builds from. Weak spots: timeliness 2, monetization 2.",
@@ -9075,6 +13302,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.7 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 2.",
@@ -9190,6 +13430,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Flagged for trademark, IP or terms-of-service concerns",
@@ -9310,6 +13563,78 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 5,
+     "age": "newest source 5 days old",
+     "tier": "fresh",
+     "n": 5
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.zwilling.com/de/magazin/faqs-app-exit.html",
+     "note": "Official FAQ: the app ends 2026-12-31; FRESH & SAVE inventory, reminders and QR/NFC links stop; 'momentan gibt es dafür keine Alternative'; no data export, users are told to take screenshots. The pag…",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://appgoblin.info/apps/com.zwilling.rapier",
+     "note": "Android app: 116K+ installs, 4K ratings (4.6), store listing updated 2026-10-23 with the note that the app will be retired on December 31.",
+     "date": "2026-10-23",
+     "ageDays": 22,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://appgoblin.info/apps/1583180442",
+     "note": "iOS app: 8.5K ratings (4.74), about 424K installs and about 32K monthly users (AppGoblin estimates), last updated 2026-11-01.",
+     "date": "2026-11-01",
+     "ageDays": 13,
+     "age": "13 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.zwilling.com/jp/customer-service/information/information-app-discontinuation-notice-2026.html",
+     "note": "Japanese notice: service ends 2026-12-31, the QR and NFC functions of FRESH & SAVE stop working, no replacement app is planned. Undated; accessed 2026-11-09.",
+     "date": "2026-11-09",
+     "ageDays": 5,
+     "age": "5 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "ZWILLING App",
+     "verdict": "abandoned",
+     "note": ""
+    },
+    {
+     "name": "Lomi Labels",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Stökk",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Fridge Assistant (Home Assistant integration)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Mein Inventar (QR box app)",
+     "verdict": "abandoned",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The trigger is real, but there is no visible live demand, a free and actively maintained vacuum-food inventory app (CASO Food Manager) already covers expiry tracking with QR scanning, and my careful estimate puts first-year profit at about 40 EUR.",
@@ -9451,6 +13776,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.65 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 2, monetization 1.",
@@ -9566,6 +13904,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 2.45 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, timeliness 1, monetization 1.",
@@ -9681,6 +14032,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3 of 5, under the 3.5 the studio builds from. Weak spots: demand 2, monetization 2.",
@@ -9809,6 +14173,68 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 6,
+     "age": "newest source 6 days old",
+     "tier": "fresh",
+     "n": 5
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.uni-muenster.de/ZBSoz/bibliothek/aktuell/nachricht/3269",
+     "note": "Uni Münster reminder: campus licence ends 31.12.2026 and will not be renewed because costs rose sharply. Projects become inaccessible; check the transfer to Zotero before the licence ends.",
+     "date": "2026-10-26",
+     "ageDays": 19,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://thesisdraft.com/de/blog/citavi-word-zitate-retten/",
+     "note": "Article on rescuing Citavi citations in Word: a Citavi citation is a field function that nobody can resolve without Citavi. 'Wir haben dafür kein Werkzeug' (we have no tool for this); the advice is t…",
+     "date": "2026-08-16",
+     "ageDays": 90,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/benedikt-e/literaturverwaltungsmigration/main/README.md",
+     "note": "Windows workaround repo for moving a Citavi library to Zotero (created 2026-09-19, last push 2026-10-01). Its author says citations set with the Citavi Word add-in cannot be converted and must be re-…",
+     "date": "2026-09-19",
+     "ageDays": 56,
+     "age": "8 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://sub.uni-goettingen.de/en/studying/courses/switching-from-citavi-to-zotero",
+     "note": "SUB Göttingen guide: licence ends 30.11.2026; 'Citavi citations can't be automatically linked to Zotero'; students with many references must reset all citations or buy a private licence. The page is …",
+     "date": "2026-11-08",
+     "ageDays": 6,
+     "age": "6 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "CiteMigrate",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "literaturverwaltungsmigration (benedikt-e)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Zotero's built-in Citavi project import",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "review panel",
     "reason": "The review panel declined it on the overall index alone (declined by the review: overall index 2.65 is below 3.6. weakest: potential 2. skeptic: The conversion has not been tested on real Citavi files or in real Zotero. The spec relies on synthetic fixtures derived from reading code;… / Zotero may prompt for missing items or create duplicates when embedded-only citations are not in the user's library, and no ZOTERO_PREF is …; analyst: The new domain will barely be indexed by the November and December 2026 deadlines, so much of the peak demand passes …). Built as a one-day prototype anyway, because the studio had nothing else to build; the prototype is how you judge it. Launching it still needs your approval.",
@@ -9980,6 +14406,78 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 32,
+     "age": "newest source 5 weeks old",
+     "tier": "fresh",
+     "n": 5
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en",
+     "note": "Official Reveal Day notice: 1,615 applications (333 brand, 16 community, 21 IDN), contention-set CSV, APS listing, String Confirmation Day 2026-11-17, comment and objection period 2026-11-17 to 2027-…",
+     "date": "2026-10-07",
+     "ageDays": 38,
+     "age": "5 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://newgtldprogram.icann.org/en/application-rounds/round2/reveal-day-contention-sets.csv",
+     "note": "Machine-readable public data: 263 contention sets with application ID, organisation and string (header '#','Application ID','Org Name','Applied-for string(s)'), so the pipeline is feasible",
+     "date": "2026-10-07",
+     "ageDays": 38,
+     "age": "5 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://webhosting.today/2026/10/13/icann-published-1615-gtld-applications-the-hosting-strings-were-taken-in-2012-and-this-rounds-fight-is-over-agent/",
+     "note": "Most contested strings (.agent 13, .bit 11, .api/.brand/.hub 10). Data gaps in the official export: Identity Digital's 216 applications are spread over 28 entities, replacement swaps are not yet refl…",
+     "date": "2026-10-13",
+     "ageDays": 32,
+     "age": "5 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.gtlaw.com/en/insights/2026/10/icann-reveal-day-2026-new-gtld-application-deadlines",
+     "note": "Law firm tells brand owners to check whether strings 'match or resemble' their marks, to recheck on 2026-11-17, and to file singular/plural notifications within 30 days and objections by 2027-03-16",
+     "date": "2026-10-06",
+     "ageDays": 39,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "ICANN Application Publication and Statistics (APS)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Register.Domains blog list",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "OSIR list of 2026 applications",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "The gTLD Blog",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Domgate trademark watching",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: The core job (who applied for which string, and contention) is already served free by ICANN's APS, gtlds.fyi (launched on Reveal Day with per-name pages and an active developer) and ICANNWiki/registrar lists, leaving only feature twists (change log, look-alike search) with no revenue path before strings launch in 2027-28.",
@@ -10098,6 +14596,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.25 of 5, under the 3.5 the studio builds from. Weak spots: monetization 2.",
@@ -10198,6 +14709,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.4 of 5, under the 3.5 the studio builds from.",
@@ -10298,6 +14822,19 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": null,
+     "age": "no dated source",
+     "tier": "unknown",
+     "n": 0
+    },
+    "pay": null
+   },
+   "sources": [],
+   "marketing": null,
+   "alternatives": [],
    "decision": {
     "by": "scout gates",
     "reason": "Scout rating 3.4 of 5, under the 3.5 the studio builds from.",
@@ -10403,6 +14940,70 @@
      }
     ]
    },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 22,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.valueaddedresource.net/etsy-bans-ai-patterns/",
+     "note": "Seller-news site: the exact changes; existing listings must be updated with no deadline; sellers worry about false flags and weak appeals; Etsy plans to extend AI-image tips to existing listings; no …",
+     "date": "2026-10-22",
+     "ageDays": 23,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.inkfluenceai.com/blog/etsy-ai-rules-update-october-2026",
+     "note": "Detailed rule summary citing Etsy's Seller Handbook post of 22 Oct 2026; recommends that sellers audit existing listings with a manual six-point checklist; no audit tool exists",
+     "date": "2026-10-22",
+     "ageDays": 23,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://iscompliant.app/Blog/etsy-creativity-standards-pod-sellers-guide",
+     "note": "Competitor's guide to the AI and creativity rules, updated the day after the announcement; its homepage sells per-listing compliance scans at 19.99 and 39.99 USD a month, which shows sellers pay for …",
+     "date": "2026-10-23",
+     "ageDays": 22,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Listing Compliance Shield (iscompliant.app)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "InsightAgent Etsy Listing Checker",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Stallscore",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Unflagged (seen only in a roundup, not opened)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Etsy's own warnings in the listing form",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
    "decision": {
     "by": "product lead",
     "reason": "Rejected by the product lead: Etsy's listings CSV cannot reveal whether a listing meets the October 2026 AI rules (unedited real photo, own instructions, disclosure), so the product reduces to keyword triage plus a manual checklist; that is a twist on free checklists and existing shop scanners, while Etsy is extending its own free AI-image warnings to existing listings.",
