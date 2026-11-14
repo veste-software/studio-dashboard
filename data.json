@@ -1,22 +1,2102 @@
 {
- "generatedAt": "2026-11-14T18:01:48.441Z",
+ "generatedAt": "2026-11-14T20:08:13.253Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 86,
+  "total": 88,
   "live": 0,
   "staging": 1,
   "building": 0,
-  "queued": 40,
+  "queued": 42,
   "parked": 2,
   "declined": 43,
   "nonDigital": 0,
   "worthDomain": 0
  },
  "projects": [
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "kind": "big",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 5
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.gov.uk/government/news/cma-concludes-market-investigation-with-major-reforms-to-veterinary-sector",
+     "note": "UK CMA final decision: under 40% of practices show prices online; mandated standard price lists and price comparison via the regulator's Find a Vet shared with…",
+     "date": "2026-03-24",
+     "ageDays": 235,
+     "age": "8 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://yougov.com/de-de/artikel/55305-die-mehrheit-deutscher-hunde-und-katzenbesitzer-hat-keine-tierversicherung",
+     "note": "Representative survey of 2,170 people in Germany: 81% of dog and cat owners say vet costs rose sharply and are too high; 56% worry about affording emergency tr…",
+     "date": "2026-08-06",
+     "ageDays": 100,
+     "age": "3 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://onlinemarktplatz.de/266921/heimtiermarkt-2025/",
+     "note": "IVH/ZZF data: 33.4 million pets in German households in 2025, 43% of households, 15.7 million cats and 10 million dogs.",
+     "date": "2026-05-04",
+     "ageDays": 194,
+     "age": "6 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [],
+   "trigger": "",
+   "window": "AI reads a photographed bill and maps it to fee positions; vet costs are a mainstream topic (ZDF, September 2026; YouGov, August 2026: 81% say too high, 56% worry about emergency costs); the UK CMA f…",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-tierarztpreis",
+   "title": "Tierarztpreis",
+   "pitch": "A free check for vet bills in Germany: pet owners upload a bill, an AI explains each GOT fee line and factor, and every anonymised bill builds an open index of what practices nearby actually charge for castration, dental cleaning, X-rays a… Vet prices in Germany rose with the 2022 fee schedule reform, 81% of dog and cat owners say costs are too high, and nobody publishes what practices actually c…",
+   "platform": "knowledge",
+   "money": null,
+   "score": 4.15,
+   "earns": "Free for owners. Practices pay a subscription for a verified profile with their own price list, opening hours and a booking link, with no pay-for-ranking; clearly labelled referrals to pet insurers and instalment providers when a bill is high, as a pure referral without advice.. First revenue: A re…",
+   "decision": {
+    "by": "big think",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T20:08:08.736Z",
+    "detail": [
+     "Market: Dog and cat owners in Germany, later Austria and other European markets. 43% of German households keep a pet; 15.7 million cats and 10 million dogs in 2025, roughly 17 million households",
+     "The gap: Under a 1x to 3x fee schedule (4x in emergency service) practices have no reason to publish prices, insurers profit from cost fear, and directories are paid by practices. Even in the UK the regulator found under 40% of practices show prices online and had to mandate it.",
+     "First wedge: Cat and dog owners in Germany with a bill or estimate for a planned procedure (castration, dental cleaning, X-ray) or an emergency-service bill. Astro site with a Preact upload island: a photo or PDF of the bill goes in; the AI extracts fee positions, factors and flat fees, explains ea…",
+     "First test (300 EUR): A one-page German site with a working bill explainer for castration, dental and emergency bills, Google Ads on the confirmed vet-cost queries for three weeks, counting bills uploaded and the share consenting to share anonymised prices.",
+     "Strongest case against: Owners need a price only once or twice a year and may not upload bills; prices vary with animal, weight and complications, so medians can mislead; the vet profession and chambers may push back hard and practices could flood the index with fake cheap bills; insurers' fee tabl…"
+    ]
+   },
+   "createdAt": "2026-11-14T20:08:08.736Z",
+   "updatedAt": "2026-11-14T20:08:08.736Z"
+  },
+  {
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
+   "origin": "Big think",
+   "kind": "big",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 6
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.test.de/Einbau-von-Waermepumpen-Lueckenhafte-Angebote-riesige-Kostenspanne-6228678-0/",
+     "note": "Stiftung Warentest on 160 quotes collected by VZ RLP: about 20,000 to more than 60,000 euros for the same job, average about 36,000; only about a quarter compl…",
+     "date": "2025-06-25",
+     "ageDays": 507,
+     "age": "17 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.finanztip.de/daily/web/bis-zu-300-prozent-preisunterschied-so-vergleichst-du-waermepumpen-angebote/",
+     "note": "Verbraucherzentrale energy advice evaluated more than 2,000 heat pump quotes over 18 months; up to 300% price differences; missing items can add more than 10,0…",
+     "date": "2026-10-02",
+     "ageDays": 43,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.solarserver.de/2026/01/27/bwp-waermepumpen-absatz-um-55-prozent-in-2025-gestiegen/",
+     "note": "BWP: 299,000 heating heat pumps sold in 2025 (+55%), 288,000 KfW grant commitments; warns a reformed buildings energy law could slow investment.",
+     "date": "2026-01-27",
+     "ageDays": 291,
+     "age": "10 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [],
+   "trigger": "",
+   "window": "AI reads and itemises a quote PDF or photo cheaply, so a check that needed an adviser costs cents; heat pump sales rose 55% in 2025; the EU Data Act (applicable since September 2025, from memory) let…",
+   "index": null,
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "outcome": null,
+   "id": "bet-angebotsklar",
+   "title": "Angebotsklar",
+   "pitch": "A free check for heat pump and solar quotes in Germany: owners upload a quote, an AI itemises it and flags missing items, compares it with an open price index built from everyone's anonymised quotes, and fair-priced installers can bid on c… The heat pump is the biggest purchase many owners make after the house, and the same job is quoted between about 20,000 and more than 60,000 euros. Judging a …",
+   "platform": "knowledge",
+   "money": null,
+   "score": 3.95,
+   "earns": "Free for owners. Installers pay a fixed fee to receive a complete, anonymised job (house data plus checked quote) and submit a counter-offer; later a paid premium check with a human adviser and labelled financing referrals.. First revenue: A per-bid fee from an installer bidding on a posted job (pr…",
+   "decision": {
+    "by": "big think",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T20:08:03.892Z",
+    "detail": [
+     "Market: House owners in Germany comparing quotes for air-to-water heat pumps, then PV and batteries. About 299,000 heating heat pumps sold in 2025 and 288,000 KfW grant commitments; roughly 8 to 11 billion euros a year in heat pump jobs, before PV",
+     "The gap: Everyone who sees many quotes is either paid by installers or selling installations, so cannot publish who is expensive, or is a publicly funded adviser that works case by case and publishes only one-off averages. Nobody has an incentive to turn quotes into a live public index.",
+     "First wedge: Owners of single-family houses holding at least one air-to-water heat pump quote, nationwide in German. Astro site with a Preact upload island: upload a quote, AI extracts line items (unit, kW, foundation, electrics, hydraulic balancing, radiators, removal of old boiler), flags missing…",
+     "First test (400 EUR): A one-page German site with a working quote-upload prototype, Google Ads on the confirmed 'angebot prüfen' queries for three weeks, counting uploads and how many uploaders opt in to receive a counter-offer.",
+     "Strongest case against: The Verbraucherzentrale already checks quotes for free with a real adviser and commercial players do free checks too, so owners may not need another. Houses differ, so a price index may be too noisy to beat one adviser. Installers are scarce and busy and may not pay to bid. …"
+    ]
+   },
+   "createdAt": "2026-11-14T20:08:03.892Z",
+   "updatedAt": "2026-11-14T20:08:03.892Z"
+  },
+  {
+   "id": "futtermittel-etikett-fuer-hundekeks-manufakturen",
+   "title": "Futtermittel-Etikett für Hundekeks-Manufakturen: Zusammensetzung, analytische Bestandteile und Pfli…",
+   "pitch": "For small businesses that sell home-baked dog treats: enter the recipe, the tool estimates crude protein, fat, fibre, ash and moisture from ingredient values, orders the composition, and prints a label with the mandatory particulars for a complementary feed, with a clear note on when a lab analysis is needed.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small business selling dog treats at markets, in pet shops or online",
+    "buys": "The mandatory particulars without a lab analysis per variety",
+    "model": "one-off",
+    "price": "39 EUR once",
+    "proof": [
+     {
+      "url": "https://www.ages.at/tier/futtermittel/service-und-analytik/heimtierfutter",
+      "note": "Paid lab analyses for pet food exist; the price list was not opened",
+      "date": "2026-11-13",
+      "ageDays": 1,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Small bakers copy values from similar products or test one variety in a lab, and for most it is a hobby with little turnover.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 1,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=hundekekse%20verkaufen",
+     "note": "Autocomplete: 'vorschriften', 'selbstgemachte hundekekse verkaufen', 'backen und verkaufen'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.ages.at/tier/futtermittel/service-und-analytik/heimtierfutter",
+     "note": "AGES offers pet-food analyses (moisture, crude protein, fibre, fat) with a price list PDF (not opened)",
+     "date": "2026-11-13",
+     "ageDays": 1,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de: 'hundekekse verkaufen vorschriften'",
+    "first100": "Makers who search the rules for selling dog treats read a free guide page and buy the label tool.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=hundekekse%20verkaufen",
+      "note": "Four autocomplete variants including 'vorschriften'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Feed labs (AGES and private labs)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Rezeptrechner",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:46.643Z",
+    "detail": [
+     "Missed the strict bar: score 2.4 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Treat makers pay once for labels for all their varieties.",
+   "trigger": "standing need",
+   "window": "Standing: no feed-label tool for small makers was found in one search.",
+   "score": 2.4,
+   "index": {
+    "composite": 1.75,
+    "used": {
+     "risk": 3,
+     "success": 1,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.75 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 200,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 200,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: 2,000 visits (assumed) x 1.5% = 30 payers x 39 EUR = 1,170 EUR at run-rate; year 1 about 25%, about 290 EUR, minus costs, about 200 EUR. 5,000 EUR needs 128 payers; not reachable. Cross-check: none found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 1,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 4,
+      "rationale": "A real labelling duty and no tool found, but the payer is mostly hobbyists and the ingredient data is a problem.",
+      "summary": "",
+      "concerns": [
+       "Crude fibre values are not the dietary fibre in food tables, so data may be missing",
+       "Declared values must stay within feed tolerances",
+       "Mostly hobby sellers"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:46.643Z",
+   "updatedAt": "2026-11-14T19:52:46.643Z",
+   "outcome": null
+  },
+  {
+   "id": "pflanzenpass-etiketten-und-aufzeichnungen-fuer-k",
+   "title": "Pflanzenpass-Etiketten und Aufzeichnungen für kleine Gärtnereien und Online-Pflanzenhändler",
+   "pitch": "For registered small nurseries and online sellers of passport-requiring plants: print plant passport labels in the prescribed layout (EU flag, A species, B registration number, C traceability code, D country of origin) on common label sheets, and keep the register of incoming and outgoing plants that the authority asks for.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small nursery or online seller of rare houseplants that is registered and authorised to issue plant passports",
+    "buys": "Correct passports and records without a nursery ERP",
+    "model": "one-off",
+    "price": "49 EUR once",
+    "proof": [
+     {
+      "url": "https://ooe.lko.at/pflanzenpass+2400+3863832",
+      "note": "Shows the duty and free templates; no price for a tool was found",
+      "date": "2023-09-05",
+      "ageDays": 1166,
+      "age": "3 years 2 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "Free authority templates and any label program are enough; the layout is simple.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 1166,
+     "age": "newest source 3 years 2 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=pflanzenpass",
+     "note": "Autocomplete includes 'pflanzenpass vorlage', 'betriebsnummer suchen', 'kontrolle'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://ooe.lko.at/pflanzenpass+2400+3863832",
+     "note": "Traders of passport goods must be registered and issuers authorised; templates for record-keeping offered, documents marked 2026",
+     "date": "2023-09-05",
+     "ageDays": 1166,
+     "age": "3 years 2 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de/.at: 'pflanzenpass vorlage'",
+    "first100": "Sellers searching for a plant passport template preview one label free and pay to print sheets.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=pflanzenpass",
+      "note": "Ten autocomplete variants including 'vorlage'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Dataflor Business plant labels",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "NiceLabel / BarTender",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Chamber templates (LK Oberösterreich)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:46.209Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small nurseries pay once for passport label printing and a simple register.",
+   "trigger": "standing need",
+   "window": "Standing duty since EU regulation 2016/2031 (December 2019); what keeps it open is that only nursery ERPs and generic label software serve it.",
+   "score": 2.35,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 200,
+     "upsideEur": 2000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 200,
+       "upsideEur": 2000,
+       "basis": "Bottom-up: 2,000 visits (assumed) x 1% = 20 payers x 49 EUR = 980 EUR at run-rate; year 1 about 30%, about 290 EUR, minus costs, about 200 EUR. 5,000 EUR needs 102 payers; not reachable. Cross-check: no price for a comparable tool found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 4,
+      "rationale": "A real official format, but free templates and generic label software probably cover it.",
+      "summary": "",
+      "concerns": [
+       "Free templates exist",
+       "Most searches are about reading passports"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:46.209Z",
+   "updatedAt": "2026-11-14T19:52:46.209Z",
+   "outcome": null
+  },
+  {
+   "id": "kellerbuch-digital-fuer-kleine-weinbaubetriebe-u",
+   "title": "Kellerbuch digital für kleine Weinbaubetriebe und Heurige in Österreich",
+   "pitch": "For small Austrian winegrowers and Heurigen who keep their cellar book (Ein- und Ausgangsbücher under § 31 Weingesetz) on paper or in Excel: record intakes, blends, bottlings and sales per tank, keep a running stock, and print for the federal cellar inspection; works offline in the cellar.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "An Austrian winegrower with own bottling and 1 to 10 hectares",
+    "buys": "An up-to-date, inspection-ready cellar book without paper",
+    "model": "subscription",
+    "price": "99 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.usp.gv.at/themen/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
+      "note": "Shows the duty only; no price for a comparable tool was found",
+      "date": "2026-01-01",
+      "ageDays": 317,
+      "age": "10 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Small wineries have kept the cellar book on paper for decades at no cost, and chamber templates may exist (not checked).",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 317,
+     "age": "newest source 10 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.usp.gv.at/themen/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
+     "note": "Everyone who puts wine on the market must keep Ein- und Ausgangsbücher (Kellerbuch), kept constantly up to date for the Bundeskellereiinspektion",
+     "date": "2026-01-01",
+     "ageDays": 317,
+     "age": "10 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kellerbuch%20wein",
+     "note": "Autocomplete includes 'kellerbuch wein app' and 'weinbuchführung kellerbuch'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.at: 'kellerbuch wein app', 'kellerbuch weinbau'",
+    "first100": "Winegrowers searching for a cellar book app try it on one vintage free and pay to keep more than three tanks.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kellerbuch%20wein",
+      "note": "Six autocomplete variants including 'app'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Hamburger Software wine bookkeeping add-on",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "360Winery",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:45.943Z",
+    "detail": [
+     "Missed the strict bar: score 2.25 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small wineries pay a yearly fee for a digital, inspection-ready cellar book.",
+   "trigger": "standing need",
+   "window": "Standing duty for everyone who puts wine on the market in Austria; no Austrian price-listed tool was found in one search.",
+   "score": 2.25,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 1,500 visits (assumed) x 2% = 30 payers x 99 EUR = 2,970 EUR at run-rate; year 1 reaches about 15%, about 450 EUR, minus costs, about 300 EUR. 5,000 EUR needs 51 payers; not reachable in year 1. Cross-check: no comparable price found; not verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A clear legal duty and an 'app' query, but no competitor or price was checked.",
+      "summary": "",
+      "concerns": [
+       "No price proof",
+       "Whether inspectors accept the format not checked",
+       "Germany requires approved systems, which blocks expansion there"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:45.943Z",
+   "updatedAt": "2026-11-14T19:52:45.943Z",
+   "outcome": null
+  },
+  {
+   "id": "nachweis-waechter-fuer-nachunternehmer-freistell",
+   "title": "Nachweis-Wächter für Nachunternehmer: Freistellungsbescheinigung, Unbedenklichkeitsbescheinigungen …",
+   "pitch": "For building firms that use 5 to 50 subcontractors and are liable for their social contributions and minimum wages: record each subcontractor's certificates with issue and expiry dates, a traffic-light view and calendar reminders (ICS), and a PDF file for audits, all locally in the browser.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A general contractor or developer with 5 to 50 subcontractors a year",
+    "buys": "A complete record of subcontractor certificates to avoid paying a subcontractor's unpaid social contributions",
+    "model": "subscription",
+    "price": "149 EUR a year",
+    "proof": [
+     {
+      "url": "https://cosuno.com/contractor-features",
+      "note": "Contractors buy platforms that include subcontractor document tracking; no price was seen (seen in search, not opened)",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "An Excel list and a calendar entry are enough for most firms, and larger ones already use a platform; no price for this exact job was found.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=unbedenklichkeitsbescheinigung%20nachunternehmer",
+     "note": "One autocomplete suggestion only (weak volume)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.bgbau.de/checkliste-haftung",
+     "note": "BG BAU publishes a main-contractor liability checklist; the file is a PDF whose text could not be read, only its date",
+     "date": "2025-11-07",
+     "ageDays": 372,
+     "age": "12 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de: 'unbedenklichkeitsbescheinigung nachunternehmer'",
+    "first100": "Office staff at building firms who search which subcontractor certificates to collect use the free checklist and pay for tracking more than three subcontractors.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=unbedenklichkeitsbescheinigung%20nachunternehmer",
+      "note": "One autocomplete suggestion",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Cosuno",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Sitemate",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "BG BAU interactive checklist",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:45.493Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "General contractors pay a small yearly fee for certificate tracking and an audit-ready file.",
+   "trigger": "standing need",
+   "window": "Standing: the liability rules are old and certificates expire on different cycles (tax certificate up to 3 years, health-insurer certificates often 3 months, SOKA-BAU monthly per one main contractor'…",
+   "score": 2.35,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 1,500 visits (assumed) x 1.5% = 22 payers x 149 EUR = 3,280 EUR at run-rate; year 1 reaches about 15%, about 490 EUR, minus costs, about 300 EUR. 5,000 EUR needs 34 payers; not reachable in year 1. Cross-check: no price for this exact job found; not verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Real liability, but no price page and almost no search volume.",
+      "summary": "",
+      "concerns": [
+       "No proven price",
+       "Low search volume",
+       "Local storage means reminders depend on calendar export"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:45.493Z",
+   "updatedAt": "2026-11-14T19:52:45.493Z",
+   "outcome": null
+  },
+  {
+   "id": "ausschreibungs-wecker-fuer-einen-handwerksbetrie",
+   "title": "Ausschreibungs-Wecker für einen Handwerksbetrieb: ein Gewerk, ein Umkreis, monatlich kündbar",
+   "pitch": "For trade businesses with 5 to 30 staff who bid for public contracts in their region: a daily e-mail with new notices for their own trade within a chosen radius, built from the public notice data, with no 12-month contract.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A trade business that looks for public contracts within 50 km",
+    "buys": "Not missing a matching tender, without paying 84 EUR or more a month on a 12-month contract",
+    "model": "subscription",
+    "price": "19 EUR a month",
+    "proof": [
+     {
+      "url": "https://jorpex.com/de/compare/subreport-alternative/",
+      "note": "Businesses pay 84-198 EUR a month for tender alerts",
+      "date": "2026-08-08",
+      "ageDays": 98,
+      "age": "3 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Free portals and chamber lists cover the region, and firms that bid seriously already pay subreport or DTAD; a cheaper copy is not a gap.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 98,
+     "age": "newest source 3 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://jorpex.com/de/compare/subreport-alternative/",
+     "note": "subreport costs 84-198 EUR a month with a 12-month minimum or 6 EUR per notice; Jorpex 49-149 USD a month",
+     "date": "2026-08-08",
+     "ageDays": 98,
+     "age": "3 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=ausschreibungen%20handwerk",
+     "note": "Autocomplete: 'ausschreibungen für handwerker', 'öffentliche ausschreibungen handwerk', 'ausschreibungen handwerkskammer'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de: 'ausschreibungen für handwerker', 'öffentliche ausschreibungen handwerk' plus trade and region",
+    "first100": "Owners searching for tenders in their trade find a free list for their district and subscribe to the daily e-mail.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=ausschreibungen%20handwerk",
+      "note": "Five autocomplete variants",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "subreport",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "evergabe.de",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Jorpex",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Free public portals (bund.de, Handwerkskammer lis…",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:45.118Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
+    ]
+   },
+   "earns": "A trade business pays a small monthly fee for one trade-and-radius alert profile.",
+   "trigger": "standing need",
+   "window": "Standing: incumbents bind small firms to 12-month contracts from 84 EUR a month. Nothing closes the window, and nothing protects it either.",
+   "score": 2.3,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 10000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 10000,
+       "basis": "Bottom-up: 4,000 visits a year (assumed) x 1% = 40 payers x 228 EUR = 9,120 EUR at run-rate; year 1 reaches about 25%, about 2,280 EUR, minus about 150 EUR for sending and hosting; halved for heavy competition. 5,000 EUR needs 22 payers. Cross-check: incumbents' customer counts not seen; not verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The payer and price are proven, but at least three paid services do the job; this is a cheaper copy and is scored as such.",
+      "summary": "",
+      "concerns": [
+       "Crowded with solid paid services",
+       "Needs a scheduled job and e-mail sending",
+       "Notice data quality per region"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:45.118Z",
+   "updatedAt": "2026-11-14T19:52:45.118Z",
+   "outcome": null
+  },
+  {
+   "id": "oss-meldung-aus-dem-etsy-export-quartalsdatei-fu",
+   "title": "OSS-Meldung aus dem Etsy-Export: Quartalsdatei für das BZSt-Portal ohne Buchhaltungsprogramm",
+   "pitch": "For German Etsy sellers above the 10,000 EUR EU distance-selling threshold who do not keep their books in Lexware, sevDesk or DATEV: load one quarter's Etsy order CSV, check the VAT rate per EU country, and download the import file for the BZSt online portal plus a per-country summary, all in the browser. Later: eBay and other marketplaces, and a reminder before each deadline.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A German Etsy shop with more than 10,000 EUR a year of sales to consumers in other EU countries that keeps its own books",
+    "buys": "A correct portal import file each quarter instead of hours of manual sums per country and rate, with no tax advisor; a wrong return means corrections and late-payment interest",
+    "model": "subscription",
+    "price": "39 EUR a year",
+    "proof": [
+     {
+      "url": "https://apps.shopify.com/datev-export",
+      "note": "Shopify sellers pay 22 USD a month for an app that includes the quarterly OSS file",
+      "date": "2026-10-01",
+      "ageDays": 44,
+      "age": "6 weeks old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Most Etsy shops stay under the threshold and never need OSS; the rest often already use Lexware or a tax advisor, and Google shows no suggestions for 'oss meldung etsy'.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 44,
+     "age": "newest source 6 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://apps.shopify.com/datev-export",
+     "note": "Shopify app 'Export für DATEV' sells 'OSS-Meldung je Quartal (BOP-Datei)' for 22 USD a month; one review, dated 2026-10-01",
+     "date": "2026-10-01",
+     "ageDays": 44,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=oss%20meldung",
+     "note": "Ten autocomplete variants including 'frist 2026', 'abgeben', 'korrigieren', 'datev'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=oss%20meldung%20etsy",
+     "note": "No suggestions for 'oss meldung etsy' (evidence against Etsy-specific demand)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de: 'oss meldung abgeben', 'oss meldung frist 2026', 'oss meldung etsy'",
+    "first100": "Etsy sellers searching how to file the OSS return before the end of January preview their per-country totals free and pay to download the portal file.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=oss%20meldung",
+      "note": "Ten autocomplete variants",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Export für DATEV (Shopify app)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Lexware Office OSS export",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Tax advisor via DATEV",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:44.359Z",
+    "detail": [
+     "Missed the strict bar: score 2.75 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Etsy sellers who do their own books pay a yearly fee for four correct OSS files.",
+   "trigger": "standing need (quarterly OSS deadline, the month after each quarter)",
+   "window": "Recurring quarterly duty. No Etsy-specific tool was found, and the Shopify app shows that the pattern sells on another platform.",
+   "score": 2.75,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 3,000 visits a year (assumed) x 2% = 60 payers x 39 EUR = 2,340 EUR at run-rate; year 1 reaches about 40% thanks to deadline peaks, about 940 EUR, minus about 60 EUR costs. 5,000 EUR needs 128 payers, which the channel cannot reach in year 1. Cross-check: the Shopify app has one review, so its sales are small; not verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "An official file with a quarterly deadline and a paid tool doing the same job on Shopify. Demand for the Etsy segment is unproven.",
+      "summary": "",
+      "concerns": [
+       "No autocomplete for the Etsy angle",
+       "The exact portal import format and rate tables must be verified against the BZSt specification (not opened)",
+       "Etsy changes its CSV columns"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:44.359Z",
+   "updatedAt": "2026-11-14T19:52:44.359Z",
+   "outcome": null
+  },
+  {
+   "id": "fluchtplan-pro-plan-flucht-und-rettungsplan-nach",
+   "title": "Fluchtplan pro Plan: Flucht- und Rettungsplan nach DIN ISO 23601 im Browser zeichnen und als A3-PDF…",
+   "pitch": "For small businesses (practice, workshop, nursery, guesthouse) that must display one or two escape and rescue plans under ASR A2.3: upload a floor plan image or PDF, trace it, place ISO 7010 safety signs, add the legend and rules of conduct, and print an A3 PDF, paid per plan instead of a yearly licence. Later: fire-safety rules part A as a notice.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A business with 3 to 30 staff that must display a plan, or a freelance fire-safety officer making plans for clients",
+    "buys": "A standard-compliant plan without hiring a service ('fluchtplan erstellen lassen') and without a 349 EUR yearly licence",
+    "model": "one-off",
+    "price": "79 EUR per plan, once",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/fluchtplan-manager",
+      "note": "Businesses pay 349 EUR net a year for the same job",
+      "date": "2026-04-21",
+      "ageDays": 207,
+      "age": "7 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "The safety or fire-protection firm that already visits delivers the plan, and businesses that are never inspected settle for a free EdrawMax template.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 207,
+     "age": "newest source 7 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/fluchtplan-manager",
+     "note": "Fluchtplan Manager (Forum Verlag) for DIN ISO 23601 plans: 349 EUR net (415.31 EUR gross) a year, 199 EUR from the second year",
+     "date": "2026-04-21",
+     "ageDays": 207,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=fluchtplan%20erstellen",
+     "note": "Ten autocomplete variants including 'kostenlos online', 'lassen', 'kosten', 'software', 'österreich'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de/.at: 'fluchtplan erstellen', 'fluchtplan erstellen online', 'fluchtplan selbst erstellen'",
+    "first100": "Office managers who search 'fluchtplan selbst erstellen' draw the plan free in the browser and pay to download the print PDF.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=fluchtplan%20erstellen",
+      "note": "Ten autocomplete variants",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Fluchtplan Manager (Forum Verlag)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Fluchtplan (Weise Software)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Feuerwehr-, Flucht- und Rettungspläne",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "TENADO SAFETY",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "EdrawMax evacuation templates",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:43.581Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "A small business pays once per plan; safety officers buy plan packs.",
+   "trigger": "standing need",
+   "window": "Standing: no deadline. The incumbents sell yearly licences or desktop software, and none sells a single plan.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1800,
+     "upsideEur": 9000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1800,
+       "upsideEur": 9000,
+       "basis": "Bottom-up: 6,000 visits a year (assumed) x 1.5% = 90 plans x 79 EUR = 7,110 EUR at run-rate; year 1 reaches about 30%, about 2,100 EUR, minus about 100 EUR costs, rounded down for strong competition. 5,000 EUR needs 64 plans a year. Cross-check: the incumbents' customer counts are not public; not verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A recurring workplace duty with several paid tools at public prices, so the payer is real. The niche is crowded and the difference is only the price model.",
+      "summary": "",
+      "concerns": [
+       "At least four paid tools already serve it",
+       "A good canvas editor takes more than a few days",
+       "ISO 7010 sign artwork must come from a free-to-use set"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:43.581Z",
+   "updatedAt": "2026-11-14T19:52:43.581Z",
+   "outcome": null
+  },
+  {
+   "id": "ce-mappe-fuer-handgemachtes-spielzeug-risikobeur",
+   "title": "CE-Mappe für handgemachtes Spielzeug: Risikobeurteilung, technische Unterlagen und Konformitätserkl…",
+   "pitch": "For people who sell sewn soft toys, wooden toys or teethers on Etsy, at markets or in their own shop: a guided questionnaire per toy model (age group, small parts, filling, materials, supplier certificates) produces the technical documentation of Annex IV of the Toy Safety Directive, the EU declaration of conformity of Annex III, and the warning and label texts as a PDF file. If it takes off: the…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A sole trader or micro-business selling handmade toys on Etsy, at markets or in an own shop, who risks a warning letter, a delisting or a m…",
+    "buys": "The documents a template (75-130 EUR) plus hours of research or a course would otherwise cost; the toy cannot be sold legally without them",
+    "model": "one-off",
+    "price": "49 EUR once, unlimited toy models for 12 months",
+    "proof": [
+     {
+      "url": "https://www.euronorm.net/en/products/technisch-dossier-voor-speelgoed",
+      "note": "Editable toy technical file template listed at 75 EUR and 129.95 EUR in the search results; the page itself returned HTTP 429 twice and was NOT opened (the date given is the day of the search)",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Many hobby sellers ignore the duty until a warning letter arrives, free guides (Händlerbund, IHK) suffice for some, and an AI assistant can draft a generic risk assessment.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=ce%20kennzeichnung%20spielzeug",
+     "note": "Autocomplete: 'selber machen', 'kosten', 'beantragen', 'bedeutung', 'österreich'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.conformance.co.uk/handmade-or-homemade-toys",
+     "note": "UK conformity firm sells self-certification packs for handmade soft toys, teepees and craft kits with editable paperwork; no price and no date shown beyond '© 2026' (date given is the day opened)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de/.at: 'ce kennzeichnung spielzeug selber machen', 'ce kennzeichnung spielzeug kosten'",
+    "first100": "Makers who search 'ce kennzeichnung spielzeug selber machen' before their first sale or after a warning fill in the questionnaire free and pay for the PDF file.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=ce%20kennzeichnung%20spielzeug",
+      "note": "Six autocomplete variants, including 'selber machen' and 'kosten'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Euronorm technical file for toys",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Conformance self-certification packs",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "ComplianceGate guides",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Händlerbund guide for small toy sellers",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "TÜV course 'Geprüfte Fachkraft für Spielzeugsiche…",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:43.255Z",
+    "detail": [
+     "Missed the strict bar: score 3.25 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Makers pay once a year for a German CE file covering all their toy models.",
+   "trigger": "standing need",
+   "window": "Standing gap: handmade toys need CE marking regardless of quantity, and the only template sellers found work in Dutch or English. A replacement EU toy regulation is announced (ComplianceGate), its da…",
+   "score": 3.25,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1200,
+     "upsideEur": 7000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1200,
+       "upsideEur": 7000,
+       "basis": "Bottom-up: 4,000 visits a year (assumed) x 2% = 80 payers x 49 EUR = 3,920 EUR at run-rate; year 1 reaches about 35%, about 1,370 EUR, minus about 70 EUR costs. 5,000 EUR needs 102 payers a year, which the channel cannot reach in year 1. Cross-check: Euronorm sells a static template at 75-130 EUR (search listing only), with no sales figures; not verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A clear legal duty, interest shown by autocomplete, and no German document tool found. The price proof was seen only in search results.",
+      "summary": "",
+      "concerns": [
+       "No opened price page",
+       "Liability if a maker relies on the file for an unsafe toy",
+       "EN 71 texts are copyrighted and may only be paraphrased"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:43.255Z",
+   "updatedAt": "2026-11-14T19:52:43.255Z",
+   "outcome": null
+  },
+  {
+   "id": "artikeldaten-export-fuer-kleine-hersteller-datan",
+   "title": "Artikeldaten-Export für kleine Hersteller: Datanorm 5 und BMEcat mit ETIM aus einer Excel-Liste, im…",
+   "pitch": "For small manufacturers, importers and wholesalers whose trade customers want to import prices as Datanorm or whose wholesalers ask for a BMEcat catalogue: load the Excel price list, map the columns, validate, and download Datanorm 5 files and a BMEcat file, all locally in the browser. If it takes off: saved mappings per customer and one-click yearly price updates.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A manufacturer or wholesaler with 200 to 5,000 articles whose trade customers or wholesalers demand the price list as Datanorm or BMEcat",
+    "buys": "Valid exchange files at every price change without a Windows licence from 395 EUR or an agency; without the file the article is not priced in the tradesperson's software",
+    "model": "subscription",
+    "price": "159 EUR a year (or 19 EUR a month)",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/datanorm-writer",
+      "note": "DATANORM-writer sells the same job for 15-35 EUR a month or from 395 EUR per workstation",
+      "date": "2025-01-21",
+      "ageDays": 662,
+      "age": "22 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "A supplier who sends one price list a year books one month of DATANORM-writer at 15 EUR, or lets the customer import the Excel file.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 662,
+     "age": "newest source 22 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/datanorm-writer",
+     "note": "DATANORM-writer converts Excel/CSV to Datanorm 3/4/5 on Windows for 15, 25 or 35 EUR a month, desktop licence from 395 EUR; for manufacturers, wholesalers and trades",
+     "date": "2025-01-21",
+     "ageDays": 662,
+     "age": "22 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=datanorm%20erstellen",
+     "note": "Autocomplete: 'kostenlos', 'datei erstellen', 'aus excel erstellen'",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.softguide.de/ausschreibungen/software-zum-konvertieren-von-excel-in-datanorm-gesucht",
+     "note": "A fire-protection company looked for software to turn Excel price lists into Datanorm 4/5 (request no. 15/129, closed; the page shows no date, the date given is the day opened)",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://content.simplesystem.com/en/hilfe/bmecat-generator-0",
+     "note": "Free offline BMEcat generator classifies with ECLASS and does not mention ETIM",
+     "date": "2026-07-29",
+     "ageDays": 108,
+     "age": "4 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de: 'datanorm aus excel erstellen', 'datanorm datei erstellen', 'datanorm erstellen kostenlos'",
+    "first100": "Office staff at small suppliers who are asked for a Datanorm file search 'datanorm aus excel erstellen', convert a free sample of 20 articles and pay to export the full list.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=datanorm%20erstellen",
+      "note": "Four autocomplete variants including 'aus excel erstellen'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "DATANORM-writer (datacrossmedia)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "WARY Datanorm Converter (ICS Dresden)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "DATANORM-Manager paula",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "simple system Offline Generator",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Sepia BMEcatConverter",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:42.503Z",
+    "detail": [
+     "Missed the strict bar: score 2.55 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small suppliers pay a yearly fee to produce valid Datanorm and BMEcat files whenever prices change.",
+   "trigger": "standing need",
+   "window": "Standing gap: Windows programs (DATANORM-writer, WARY) have served this for years and two searches found no browser tool. What keeps it open is a small, unglamorous audience.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1500,
+     "upsideEur": 8000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1500,
+       "upsideEur": 8000,
+       "basis": "Bottom-up: 1,500 visits a year (assumed) x 3% = 45 payers x 159 EUR = 7,155 EUR at run-rate; year 1 reaches about 25%, about 1,800 EUR, minus about 100 EUR costs. 5,000 EUR needs 32 payers, reachable in year 2 at best. Cross-check: DATANORM-writer has sold at 15-35 EUR a month up to version 7, but its customer count is not public; not verified."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "An official exchange format that must be exact, a paid incumbent with a public price, and a real platform gap (Windows only). The audience is small and demand is shown only by autocomplete and an old request.",
+      "summary": "",
+      "concerns": [
+       "Small audience",
+       "The format specification must be bought and implemented exactly",
+       "Handwerker software may reject files for vendor-specific quirks"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:42.503Z",
+   "updatedAt": "2026-11-14T19:52:42.503Z",
+   "outcome": null
+  },
+  {
+   "id": "naehrwertetikett-aus-dem-bls-4-0-lmiv-naehrwertt",
+   "title": "Nährwertetikett aus dem BLS 4.0: LMIV-Nährwerttabelle und Zutatenliste für kleine Lebensmittelherst…",
+   "pitch": "For small food makers, farm shops and confectioners who sell packaged goods to retailers or online: enter a recipe, the values come from the official Bundeslebensmittelschlüssel 4.0 (free since December 2025), and out comes an LMIV Annex XV nutrition table with the rounding rules and an ingredient list with allergens in bold, as a print-ready PDF. If it takes off, every recipe becomes a saved lab…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A food workshop or farm shop with 5 to 40 packaged products sold to retailers or online, so it does not fall under the exemption for small …",
+    "buys": "A correct nutrition table and ingredient list per recipe without a lab analysis or a 150-500 EUR yearly licence; a missing or wrong declaration means a retailer will not list the product",
+    "model": "subscription",
+    "price": "89 EUR a year for up to 50 recipes",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/rezeptrechner-pro",
+      "note": "Rezeptrechner sells the same job (BLS-based LMIV labels) from 150 EUR to 500 EUR a year plus VAT",
+      "date": "2026-11-06",
+      "ageDays": 8,
+      "age": "8 days old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Most micro-makers supply consumers or local shops directly and are exempt from the declaration, and those who are not exempt may calculate once in Excel with the now free BLS data and never need a tool again.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 8,
+     "age": "newest source 8 days old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://lebensmittelpraxis.de/handel-aktuell/47047-nationale-naehrstoffdatenbank-bundeslebensmittelschluessel-wird-kostenfrei-zugaenglich.html",
+     "note": "BLS 4.0 free since 15 Dec 2025; the licence fee is dropped completely; manufacturers may use it for the mandatory nutrition declaration",
+     "date": "2025-12-16",
+     "ageDays": 333,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.softguide.de/programm/rezeptrechner-pro",
+     "note": "Web-based Rezeptrechner with BLS access and LMIV labels costs from 150 EUR, 290 EUR or 500 EUR a year plus VAT",
+     "date": "2026-11-06",
+     "ageDays": 8,
+     "age": "8 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=n%C3%A4hrwerttabelle%20erstellen",
+     "note": "Autocomplete: 'kostenlos', 'lassen', 'lebensmittel', 'online' variants",
+     "date": "2026-11-14",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de: 'nährwerttabelle erstellen', 'nährwerttabelle erstellen lassen', 'nährwerttabelle online erstellen'",
+    "first100": "Makers who are asked for a label by a retailer search 'nährwerttabelle erstellen lassen', calculate one recipe free and pay for PDF export and saved recipes.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=n%C3%A4hrwerttabelle%20erstellen",
+      "note": "Five autocomplete variants, including 'lassen' (they would pay someone) and 'online'",
+      "date": "2026-11-14",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Rezeptrechner (PRO / Business)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "BESTMIX Food",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "BLS download plus own Excel",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T19:52:42.137Z",
+    "detail": [
+     "Missed the strict bar: score 3.1 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small food makers pay a yearly fee for saved recipes and print-ready LMIV labels; a single calculation stays free as a lead magnet.",
+   "trigger": "The Bundeslebensmittelschlüssel 4.0 has been free since 2025-12-15 (before that it needed a paid licence), so a cheap tool on official data became possible",
+   "window": "The free data has been out for 11 months. One search found no free or cheap LMIV label generator built on it, but the gap closes as soon as a vendor launches one.",
+   "score": 3.1,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1500,
+     "upsideEur": 9000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1500,
+       "upsideEur": 9000,
+       "basis": "Bottom-up: 5,000 search visits a year at full run-rate (assumed) x 1.5% = 75 payers x 89 EUR = 6,675 EUR. A new site reaches maybe 30% of that in year 1, about 2,000 EUR, minus about 100 EUR for fees and the domain, so about 1,900 EUR; rounded down to 1,500 because no comparable revenue was found. 5,000 EUR a year needs 57 payers, which the channel can reach only in year 2. Cross-check: Rezeptrec…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A real duty with a published price for the same job and a fresh data release that removes the old cost barrier. Demand is shown only by autocomplete, and many small makers are exempt.",
+      "summary": "",
+      "concerns": [
+       "Many target businesses are exempt from the nutrition declaration",
+       "Licence terms for using the BLS inside a paid tool not read",
+       "Liability if a declared value is outside the tolerance"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T19:52:42.137Z",
+   "updatedAt": "2026-11-14T19:52:42.137Z",
+   "outcome": null
+  },
   {
    "id": "pflanzenschutz-aufzeichnung-fuer-lohnunternehmer",
    "title": "Pflanzenschutz-Aufzeichnung für Lohnunternehmer: elektronisch und maschinenlesbar für viele Auftrag…",
@@ -5669,1990 +7749,6 @@
    },
    "createdAt": "2026-11-14T03:22:14.026Z",
    "updatedAt": "2026-11-14T03:22:14.026Z",
-   "outcome": null
-  },
-  {
-   "id": "meerwaardebelasting-en-tob-voor-interactive-brok",
-   "title": "Meerwaardebelasting en TOB voor Interactive Brokers en Trade Republic: aangiftecijfers uit je export",
-   "pitch": "For Belgian residents at foreign brokers that withhold neither the new 10% capital gains tax (from 2026-01-01) nor the stock exchange tax: import IBKR or Trade Republic exports, get the TOB return per period and the capital gains figures against the 31-12-2025 reference value for the 2027 return.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A Belgian resident investor at Interactive Brokers or Trade Republic",
-    "buys": "TOB returns and capital gains figures without manual FX conversion; TOB late filing is fined",
-    "model": "one-off",
-    "price": "29 EUR per year",
-    "proof": [
-     {
-      "url": "https://www.allinvestview.com/",
-      "note": "Multi-country investor tax tool sells plans from 6.99 USD a month",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Curvo and tobcalc are free and will likely add IBKR and Trade Republic.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://curvo.eu/meerwaardebelasting-berekenen/nl",
-     "note": "Free calculator without account; reads only DEGIRO, Bolero and Saxo exports; IBKR and Trade Republic not listed",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.allinvestview.com/",
-     "note": "Footer links a 2026 Belgium capital gains tool; Belgium not among the countries with full reports",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.be: 'meerwaardebelasting broker', 'tob aangifte broker'",
-    "first100": "IBKR users who find Curvo does not read their export search again and land on a broker-specific page.",
-    "proof": [
-     {
-      "url": "https://curvo.eu/meerwaardebelasting-berekenen/nl",
-      "note": "A free tool already ranks for the job",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Curvo calculator",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "tobcalc (via Curvo)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "AllInvestView Belgium tool",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:07.557Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Belgian IBKR and Trade Republic users pay 29 EUR a year for combined TOB and capital gains figures.",
-   "trigger": "Belgian capital gains tax on financial assets in force from 2026-01-01; foreign brokers do not withhold it",
-   "window": "First returns with the new tax are due in 2027, and free tools are adding brokers now, so it closes fast.",
-   "score": 2.45,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 700,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 700,
-       "upsideEur": 5000,
-       "basis": "Bottom-up: 8,000 visits (assumed) x 0.8% = 64 x 29 EUR = 1,856 EUR; cut to ~700 because free tools set the price expectation at zero. 5,000 EUR needs 172 payers, beyond reach. Cross-check: no Belgian paid comparable found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "A fresh trigger, but free tools already serve most of the job.",
-      "summary": "",
-      "concerns": [
-       "Free incumbents",
-       "Rule details still settling"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:07.557Z",
-   "updatedAt": "2026-11-14T03:19:07.557Z",
-   "outcome": null
-  },
-  {
-   "id": "stromsteuer-entlastung-2025-fuer-handwerk-und-kl",
-   "title": "Stromsteuer-Entlastung 2025 für Handwerk und kleine Hersteller: Prüfung, Betrag und Zoll-Portal-Ant…",
-   "pitch": "For small producing businesses (bakeries, butchers, carpenters, metal shops) using more than 12,500 kWh: check eligibility by economic-activity code and the more-than-half rule, compute the refund (kWh/1000 x 20 EUR minus 250 EUR), separate electricity passed to tenants or chargers, and follow a filled checklist for the § 9b application in the Zoll-Portal before the cut-off on 31 December 2026.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small producing business (Handwerk) with more than 12,500 kWh a year",
-    "buys": "A refund of often 1,000+ EUR claimed correctly before a cut-off that cannot be extended",
-    "model": "one-off",
-    "price": "49 EUR per application year",
-    "proof": [
-     {
-      "url": "https://wirtschaftsfoerderung-ak.de/wp-content/uploads/2026/05/Stromsteuer_Erstattung_KMU.pdf",
-      "note": "Lists paid consultants for the job (prices not shown); no price page was found",
-      "date": "2026-05-01",
-      "ageDays": 197,
-      "age": "6 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Filing is free, chamber and supplier guides explain it, and firms let their tax adviser or energy supplier do it.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 197,
-     "age": "newest source 6 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://wirtschaftsfoerderung-ak.de/wp-content/uploads/2026/05/Stromsteuer_Erstattung_KMU.pdf",
-     "note": "Regional business-development PDF for small firms (path dated May 2026) with a calculator script: (kWh/1000)*20 - 250, not worth it under 12,500 kWh; links to consultants (energie-consulting.com, ten…",
-     "date": "2026-05-01",
-     "ageDays": 197,
-     "age": "6 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://1komma5.com/de/b2b/energie/stromsteuerrueckerstattung/",
-     "note": "Explains eligibility (producing sector, 12,500 kWh minimum) and the yearly cut-off; no fee shown (updated 2025-09-10)",
-     "date": "2025-09-10",
-     "ageDays": 430,
-     "age": "14 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de: 'stromsteuer erstattung antrag 2025', 'stromsteuer rückerstattung handwerk'",
-    "first100": "Bakers and workshop owners who read a trade-press reminder in December search for the application and buy the checklist.",
-    "proof": [
-     {
-      "url": "https://1komma5.com/de/b2b/energie/stromsteuerrueckerstattung/",
-      "note": "Companies publish guides for these queries to win business clients",
-      "date": "2025-09-10",
-      "ageDays": 430,
-      "age": "14 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Zoll-Portal form and free calculators (stromsteue…",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Energy suppliers' guides",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:06.944Z",
-    "detail": [
-     "Missed the strict bar: score 2.9 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small producing firms pay 49 EUR per application year for the checked application pack.",
-   "trigger": "Cut-off (Ausschlussfrist) 31 December 2026 for 2025 electricity; applications only electronically via the Zoll-Portal since 2025-01-01 (secondary sources; zoll.de not opened)",
-   "window": "Six weeks for the 2025 claim, then yearly (2026 electricity by 2027-12-31).",
-   "score": 2.9,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 6,000 visits (assumed) x 1% = 60 x 49 EUR = 2,940 EUR; cut to ~1,000 because a new site will hardly rank before 2026-12-31 and the next peak is late 2027. 5,000 EUR needs 102 payers, which the channel cannot reach in year one. Cross-check: no priced comparable found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A real refund with a hard cut-off, but no evidence anyone pays a tool for it.",
-      "summary": "",
-      "concerns": [
-       "Deadline-driven (studio lesson)",
-       "No price proof",
-       "Rules for 2026 onward not re-confirmed"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:06.944Z",
-   "updatedAt": "2026-11-14T03:19:06.944Z",
-   "outcome": null
-  },
-  {
-   "id": "clp-etiketten-in-jeder-eu-sprache-fuer-kerzen-wa",
-   "title": "CLP-Etiketten in jeder EU-Sprache für Kerzen, Wachsmelts und Raumdüfte",
-   "pitch": "For small makers of candles, wax melts and reed diffusers selling across the EU: enter the fragrance load and the supplier's SDS hazard data, get the mixture classification, the allergen (EUH208) line and the label text with the official H and P statements in German, French, Dutch, Italian and every other EU language, laid out at the minimum label size.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small candle or wax-melt maker selling in several EU countries (Etsy or own shop)",
-    "buys": "Correct label text in every buyer's language without paying a label service or a consultant",
-    "model": "subscription",
-    "price": "19 EUR a year",
-    "proof": [
-     {
-      "url": "https://ie.trustpilot.com/review/glowclp.co.uk",
-      "note": "Makers paid a CLP label service (42 reviews); price not shown",
-      "date": "2024-04-29",
-      "ageDays": 929,
-      "age": "2 years 7 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "A free browser tool already does the mixture maths, suppliers hand out label text per oil, and most makers sell only in their own language.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 929,
-     "age": "newest source 2 years 7 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://maker-label-studio.vercel.app/eu-clp/",
-     "note": "Free browser CLP label tool for indie makers; computes allergen share and classification; page is English-only and names no other label language",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://ie.trustpilot.com/review/glowclp.co.uk",
-     "note": "A paid CLP label service for candle and wax-melt sellers has 42 reviews (4.8), none in the last 12 months; newest 2024-04-29",
-     "date": "2024-04-29",
-     "ageDays": 929,
-     "age": "2 years 7 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de/.fr/.nl: 'clp etikett kerze', 'étiquette clp bougie'",
-    "first100": "German and French makers searching how to make a CLP label get a free label and pay for the multi-language pack when they start shipping abroad.",
-    "proof": [
-     {
-      "url": "https://maker-label-studio.vercel.app/eu-clp/",
-      "note": "The free incumbent is English-only, leaving non-English queries open",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "EU CLP Pro Label Studio",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Supplies for Candles templates",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Glow CLP",
-     "verdict": "abandoned",
-     "note": ""
-    },
-    {
-     "name": "Biorius candle compliance",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:06.029Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Makers pay 19 EUR a year for multi-language label packs; single-language labels stay free.",
-   "trigger": "standing need",
-   "window": "Standing: makers who ship to several EU countries must label in each country's language; the free tools found are English-only.",
-   "score": 2.35,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 900,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 900,
-       "upsideEur": 5000,
-       "basis": "Bottom-up: 6,000 visits (assumed) x 1% = 60 x 19 EUR = 1,140 EUR, minus fees = ~900. 5,000 EUR needs 263 payers, beyond reach in year one. Cross-check: Glow CLP's 42 total reviews suggest a small paying base even in the UK."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A real exact-text job with a verified language edge, but free tools exist and the payer is a hobby-sized business.",
-      "summary": "",
-      "concerns": [
-       "Free incumbent",
-       "Maker's liability for SDS input",
-       "Small payers"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:06.029Z",
-   "updatedAt": "2026-11-14T03:19:06.029Z",
-   "outcome": null
-  },
-  {
-   "id": "danove-priznani-z-ibkr-a-dalsich-zahranicnich-br",
-   "title": "Daňové přiznání z IBKR a dalších zahraničních brokerů: časový test, limit 100 000 Kč a kurzy ČNB au…",
-   "pitch": "For Czech residents with Interactive Brokers or other foreign brokers that give no Czech tax report: the export goes in, the tool applies the 3-year time test per lot, the 100,000 CZK proceeds exemption, ČNB exchange rates and the 15% dividend credit, and outputs the lines for the return's annexes with a working PDF.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A Czech resident investor at Interactive Brokers or another foreign broker without a Czech tax report",
-    "buys": "Per-lot time-test and FX calculation that is tedious by hand",
-    "model": "one-off",
-    "price": "690 CZK (about 28 EUR) per tax year",
-    "proof": [
-     {
-      "url": "https://www.moneyviz.it/",
-      "note": "Same job paid in Italy (53-529 EUR per year); no Czech price page found",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "The time test and the 100,000 CZK exemption mean most long-term investors owe nothing, and XTB and Trading 212 already hand out a Czech report.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.e15.cz/zdaneni-akcii-dividend-danove-priznani-2026",
-     "note": "Published 2026-04-27: explains the time test, the 100k CZK limit and dividend credit; XTB and Trading 212 supply a tax report; only NeoTax's online form is named as a tool",
-     "date": "2026-04-27",
-     "ageDays": 201,
-     "age": "7 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.allinvestview.com/",
-     "note": "Multi-country tool lists no Czech rules",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.cz: 'daňové přiznání interactive brokers', 'časový test akcie'",
-    "first100": "IBKR users searching how to file in March land on a guide page with the calculator.",
-    "proof": [
-     {
-      "url": "https://www.e15.cz/zdaneni-akcii-dividend-danove-priznani-2026",
-      "note": "Major news site ranks with a guide, not a tool",
-      "date": "2026-04-27",
-      "ageDays": 201,
-      "age": "7 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "XTB tax report",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "NeoTax online form (with e15)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:05.646Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Czech investors at IBKR pay about 28 EUR per tax year for the report.",
-   "trigger": "standing need",
-   "window": "Standing; XTB and Trading 212 give their own Czech reports, so the gap is IBKR and other foreign brokers.",
-   "score": 2.35,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 5000,
-       "basis": "Bottom-up: 4,000 visits (assumed) x 1% = 40 x 28 EUR = 1,120 EUR, minus fees and costs = ~800. 5,000 EUR needs 179 payers, which the channel cannot reach in year one. Cross-check: no Czech comparable found; the Italian MoneyViz shows the job is paid elsewhere."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "A real calculation job, but generous exemptions shrink the paying group.",
-      "summary": "",
-      "concerns": [
-       "Exemptions remove most payers",
-       "No local price proof"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:05.646Z",
-   "updatedAt": "2026-11-14T03:19:05.646Z",
-   "outcome": null
-  },
-  {
-   "id": "declaration-courtier-etranger-en-local-2074-cmv",
-   "title": "Déclaration courtier étranger en local: 2074-CMV au PMP, 2047 et 3916 depuis l'export IBKR, DEGIRO …",
-   "pitch": "For French residents at foreign brokers: the export is processed in the browser, gains are recomputed at weighted average cost (PMP) instead of the broker's FIFO, and the figures for 2074-CMV, 2047, 2042 and 3916 come with a step-by-step guide.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A French resident private investor with a foreign broker account",
-    "buys": "Correct PMP gains and form figures without uploading bank statements",
-    "model": "one-off",
-    "price": "59 EUR per tax year",
-    "proof": [
-     {
-      "url": "https://flashfiscal.com/",
-      "note": "149-199 EUR per year for the same job",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "FlashFiscal already serves this with a result guarantee and good reviews; a newcomer can only win on privacy and price.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://flashfiscal.com/",
-     "note": "Leader: 149-199 EUR per year, 15 broker imports, 6,000+ accounts, Trustpilot 4.7 from 80 reviews; statements are uploaded",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://community.finary.com/t/declaration-dimpot-ibkr/35540",
-     "note": "April 2026 thread: an IBKR user's own recalculation differs from IBKR's figure (583 vs ~200 EUR); FIFO vs PMP confusion",
-     "date": "2026-04-24",
-     "ageDays": 204,
-     "age": "7 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.fr: 'déclaration impôts broker', '2074 cmv broker'",
-    "first100": "Privacy-minded investors searching '2074 cmv broker' pick a tool that keeps files on their own device.",
-    "proof": [
-     {
-      "url": "https://community.finary.com/t/declaration-dimpot-ibkr/35540",
-      "note": "Investors ask how to declare IBKR",
-      "date": "2026-04-24",
-      "ageDays": 204,
-      "age": "7 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "FlashFiscal",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "AllInvestView",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:04.364Z",
-    "detail": [
-     "Missed the strict bar: score 3.2 is below the minimum 3.5"
-    ]
-   },
-   "earns": "French investors at foreign brokers pay 59 EUR per year for a local, no-upload report.",
-   "trigger": "standing need",
-   "window": "No window: FlashFiscal leads with 6,000+ accounts. The only opening is investors who will not upload statements.",
-   "score": 3.2,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1500,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1500,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: 10,000 visits (assumed) x 1% = 100 x 59 EUR = 5,900 EUR, cut to ~1,500 because a strong incumbent ranks. 5,000 EUR needs 85 payers, unlikely in year one. Cross-check: FlashFiscal has 6,000+ accounts (paid share unknown). Not verified: AllInvestView's French output."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "Proven payers and price, but a well-reviewed leader already does the job.",
-      "summary": "",
-      "concerns": [
-       "Incumbent with result guarantee",
-       "Weak edge"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:04.364Z",
-   "updatedAt": "2026-11-14T03:19:04.364Z",
-   "outcome": null
-  },
-  {
-   "id": "dac7-meldung-fuer-kleine-plattformen-verkaeuferl",
-   "title": "DAC7-Meldung für kleine Plattformen: Verkäuferliste rein, schemagültige BZSt-XML raus",
-   "pitch": "For small German and Austrian platform operators (regional holiday-rental portals, craft marketplaces, course booking sites) who must report sellers each year: upload a CSV of sellers and payouts, the tool checks TIN and VAT ID formats, applies the de-minimis exclusion and writes a schema-valid DPI XML for the operator's BZSt upload.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small platform operator in Germany or Austria with reportable sellers (e.g. a regional holiday-rental portal)",
-    "buys": "A schema-valid yearly report without a 2,400 EUR enterprise licence or adviser hours; avoids fines for missing or wrong reports",
-    "model": "one-off",
-    "price": "249 EUR per reporting year",
-    "proof": [
-     {
-      "url": "https://www.softguide.de/programm/u-modul-dac-6",
-      "note": "Same job sold at 2,400 EUR a year",
-      "date": "2024-12-02",
-      "ageDays": 712,
-      "age": "1 year 11 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "Small operators hand the job to a Steuerberater who already licenses an enterprise tool; the number of small reporting platforms is unverified and may be a few hundred.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 712,
-     "age": "newest source 1 year 11 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.softguide.de/programm/u-modul-dac-6",
-     "note": "U2 DAC7 module: 2,400 EUR a year plus VAT; creates and validates the BZSt XML; targets international companies and auditors or tax advisers (updated 2024-12-02)",
-     "date": "2024-12-02",
-     "ageDays": 712,
-     "age": "1 year 11 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=de&q=dac7%20meldung%20",
-     "note": "Autocomplete: 'dac7 meldung österreich', 'dac7 meldung', 'dac7 meldung vinted'",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de and .at: 'dac7 meldung erstellen', 'dac7 xml', 'dac7 meldung österreich'",
-    "first100": "Operators searching 'dac7 meldung erstellen' in January upload their CSV, see validation errors free, and pay to download the XML.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=de&q=dac7%20meldung%20",
-      "note": "Three autocomplete variants",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "U2 DAC7 (Universal Units)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Forvis Mazars DAC7 Tool",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "WTS DAC 7-Lösung",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Rödl DAC7 Suite",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:03.913Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small platform operators pay 249 EUR per reporting year for a validated DPI XML file.",
-   "trigger": "Yearly DAC7 (PStTG) seller report, due 31 January for the previous year; not re-confirmed at bzst.de in this run",
-   "window": "Recurring yearly deadline; the 2027-01-31 report is 11 weeks away. Enterprise vendors ignore small operators.",
-   "score": 2.5,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2500,
-     "upsideEur": 12000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2500,
-       "upsideEur": 12000,
-       "basis": "Bottom-up: 1,500 visits (assumed) x 2% = 30 payers x 249 EUR = ~7,470 EUR; halved for ramp and fees, then cut to ~2,500 because the count of small operators is unknown. 5,000 EUR needs 21 payers. Cross-check: U2's 2,400 EUR a year shows the price level, but no customer counts were found, so the cross-check is weak."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "An exact official format with a yearly deadline and fines, priced at 2,400 EUR by the incumbent. But the whole job has four enterprise tools, and the small segment is unmeasured.",
-      "summary": "",
-      "concerns": [
-       "The XSD must be fetched and validated before the build (lesson from the parked GAEB build)",
-       "Few small payers",
-       "Advisers already cover it"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:03.913Z",
-   "updatedAt": "2026-11-14T03:19:03.913Z",
-   "outcome": null
-  },
-  {
-   "id": "anexo-j-sem-contabilista-mais-valias-e-dividendo",
-   "title": "Anexo J sem contabilista: mais-valias e dividendos de corretoras estrangeiras para o IRS, no browser",
-   "pitch": "For Portugal tax residents (locals and foreign residents) with DEGIRO, Trading 212, Interactive Brokers or XTB: import the yearly export and get the Anexo J lines (FIFO in EUR at each trade date's official rate, country of source, foreign withholding) with a working PDF, in Portuguese and English.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A Portugal tax resident (including foreign retirees and remote workers) with a foreign broker account",
-    "buys": "Correct Anlage J lines without paying an accountant, avoiding corrections, interest and penalties",
-    "model": "one-off",
-    "price": "49 EUR per tax year",
-    "proof": [
-     {
-      "url": "https://flashfiscal.com/",
-      "note": "Same job in France: 149-199 EUR per year",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://www.moneyviz.it/",
-      "note": "Same job in Italy: 53-529 EUR per year, 11,000+ clients",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Locals with few sales fill Anexo J by hand, and foreign residents with larger portfolios already pay an accountant.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://crncontabilidade.pt/blog/mais-valias-de-acoes-e-etf-no-irs-2026-como-declarar-no-anexo-j/",
-     "note": "Published 2026-07-17: foreign brokers do not report to the AT; the taxpayer must compute FIFO gains with per-date exchange rates; the firm sells this as a service (no price)",
-     "date": "2026-07-17",
-     "ageDays": 120,
-     "age": "4 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.allinvestview.com/",
-     "note": "Multi-country investor tax tool lists 14 countries; Portugal is not among them",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.pt in Portuguese and English: 'anexo j degiro', 'portugal capital gains degiro'",
-    "first100": "Residents searching 'anexo j broker' in April and May use the free preview and pay to download the filled lines.",
-    "proof": [
-     {
-      "url": "https://crncontabilidade.pt/blog/mais-valias-de-acoes-e-etf-no-irs-2026-como-declarar-no-anexo-j/",
-      "note": "Accountants publish 2026 guides for these queries to win clients",
-      "date": "2026-07-17",
-      "ageDays": 120,
-      "age": "4 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "CRN Contabilidade (accountant service)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Portal das Finanças guidance",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "AllInvestView",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:03.626Z",
-    "detail": [
-     "Missed the strict bar: score 2.9 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Portugal residents with foreign brokers pay 49 EUR per tax year for the Anexo J report.",
-   "trigger": "standing need",
-   "window": "Standing gap: one search found accountants' guides and services but no self-serve tool, and AllInvestView does not list Portugal. The IRS filing season runs April to June 2027.",
-   "score": 2.9,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 9000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 9000,
-       "basis": "Bottom-up: 5,000 visits (assumed) x 1.5% = 75 payers x 49 EUR = ~3,675 EUR; ramp to ~2,000. 5,000 EUR needs 102 payers, likely not reached in year one. Cross-check: FlashFiscal (France, 68M people, 6,000 accounts) scaled to Portugal (10.6M) gives ~900 accounts at maturity. Not verified: any Portuguese price page."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "The same paid job exists in France and Italy and no Portuguese tool turned up, but demand evidence is thin and older than 90 days.",
-      "summary": "",
-      "concerns": [
-       "Sources disagree on Anexo G vs J for some cases",
-       "Small market",
-       "Accountants already serve the larger portfolios"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:03.626Z",
-   "updatedAt": "2026-11-14T03:19:03.626Z",
-   "outcome": null
-  },
-  {
-   "id": "steuerreport-fuer-trading-212-xtb-etoro-und-revo",
-   "title": "Steuerreport für Trading 212, XTB, eToro und Revolut: Anlage KAP und KAP-INV mit Vorabpauschale, im…",
-   "pitch": "For German residents whose foreign broker withholds no German tax and is not IBKR-based: the yearly export goes in, the tool returns Anlage KAP and KAP-INV lines (FIFO in EUR at ECB rates, Teilfreistellung, Vorabpauschale, creditable withholding) with a working PDF.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A German resident investor at a foreign broker that withholds no German tax (Trading 212, XTB, eToro, Revolut)",
-    "buys": "Correct Anlage KAP and KAP-INV figures incl. Vorabpauschale and Teilfreistellung, instead of a spreadsheet or a tax adviser's hours",
-    "model": "one-off",
-    "price": "39 EUR per tax year",
-    "proof": [
-     {
-      "url": "https://bubbletax.de/",
-      "note": "Same job for IBKR: from 39 EUR, 2,000+ reports sold",
-      "date": "2026-09-01",
-      "ageDays": 74,
-      "age": "2 months old",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://klyris.de/",
-      "note": "249 EUR per tax year for IBKR derivatives",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Most Trading 212 and XTB accounts are small, stay under the 1,000 EUR Sparer-Pauschbetrag and need two numbers typed by hand; AllInvestView may already cover them.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 4
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://forum.portfolio-performance.info/t/deutsche-steuererklarung-fur-interactive-brokers/23691",
-     "note": "Thread 2023-04-12 to 2026-07-30: users call the broker's 'informativer Steuerbericht' unusable and faulty (2026-01-12); one used paid BubbleTax (2026-01-08)",
-     "date": "2026-07-30",
-     "ageDays": 107,
-     "age": "4 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://bubbletax.de/",
-     "note": "Stand September 2026: 3,000+ registered users, 2,000+ sold reports, from 39 EUR; only IBKR and IBKR-based brokers",
-     "date": "2026-09-01",
-     "ageDays": 74,
-     "age": "2 months old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://klyris.de/",
-     "note": "IBKR derivatives tax tool, 249 EUR per tax year, browser-local, paid launch planned for winter 2026/27; no KAP-INV",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de: 'broker steuererklärung anlage kap', 'vorabpauschale ausländischer broker'",
-    "first100": "Investors searching 'broker anlage kap' in spring find a per-broker guide and pay for the report after a free preview.",
-    "proof": [
-     {
-      "url": "https://forum.portfolio-performance.info/t/deutsche-steuererklarung-fur-interactive-brokers/23691",
-      "note": "Investors ask in forums how to file foreign-broker income",
-      "date": "2026-07-30",
-      "ageDays": 107,
-      "age": "4 months old",
-      "tier": "ok"
-     },
-     {
-      "url": "https://bubbletax.de/",
-      "note": "A comparable product reached 3,000+ registered users in this channel",
-      "date": "2026-09-01",
-      "ageDays": 74,
-      "age": "2 months old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "BubbleTax",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Klyris",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "AllInvestView",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Portfolio Performance",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:02.896Z",
-    "detail": [
-     "Missed the strict bar: score 3.2 is below the minimum 3.5"
-    ]
-   },
-   "earns": "German investors at Trading 212, XTB, eToro or Revolut pay 39 EUR per tax year for the KAP/KAP-INV report.",
-   "trigger": "standing need",
-   "window": "Standing gap for non-IBKR brokers: BubbleTax and Klyris read only IBKR Flex XML. It stays open until one of them adds Trading 212 or XTB imports.",
-   "score": 3.2,
-   "index": {
-    "composite": 3.1,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 4,
-     "potential": 3,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3.1 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3.1 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2500,
-     "upsideEur": 12000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2500,
-       "upsideEur": 12000,
-       "basis": "Bottom-up: 12,000 visits (assumed) x 1% = 120 payers x 39 EUR = ~4,680 EUR; reduced for ramp and AllInvestView competition to ~2,500. 5,000 EUR needs 128 payers. Cross-check: BubbleTax sold 2,000+ reports for IBKR users over an unknown period; a quarter of that pace for the non-IBKR niche gives a few hundred over several years. Not verified: which brokers withhold no German tax today."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 4,
-      "potential": 3,
-      "automation": 3,
-      "rationale": "Germans already pay for this job (BubbleTax, Klyris), but only for IBKR users. The non-IBKR segment is real, though many of those accounts are small.",
-      "summary": "",
-      "concerns": [
-       "Small accounts below the allowance",
-       "AllInvestView may already serve them",
-       "Broker export formats change"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:02.896Z",
-   "updatedAt": "2026-11-14T03:19:02.896Z",
-   "outcome": null
-  },
-  {
-   "id": "e-steuerauszug-fuer-auslaendische-broker-ech-019",
-   "title": "E-Steuerauszug für ausländische Broker: eCH-0196-Datei und Barcode-PDF im Browser",
-   "pitch": "For Swiss residents with Interactive Brokers, DEGIRO, Trading 212 or Saxo accounts: the broker export goes in, positions are valued with the ESTV Kursliste, dividends and withholding (incl. DA-1) are listed, and the tool writes an eCH-0196 XML plus the eCH-0270 barcode PDF that cantonal tax software imports. Nothing leaves the browser.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A Swiss resident private investor with a foreign broker account (Interactive Brokers, DEGIRO, Trading 212, Saxo)",
-    "buys": "A statement the cantonal tax software imports, instead of typing every position, dividend and withholding tax into the Wertschriftenverzeichnis and missing DA-1 reclaims",
-    "model": "one-off",
-    "price": "49 CHF (about 52 EUR) per tax year",
-    "proof": [
-     {
-      "url": "https://www.datalevel.ch/",
-      "note": "A paid IBKR e-tax statement exists in Switzerland (price not public)",
-      "date": "2025-10-01",
-      "ageDays": 409,
-      "age": "13 months old",
-      "tier": "old"
-     },
-     {
-      "url": "https://bubbletax.de/",
-      "note": "German equivalent for IBKR: from 39 EUR, 2,000+ reports sold (Stand September 2026)",
-      "date": "2026-09-01",
-      "ageDays": 74,
-      "age": "2 months old",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://www.moneyviz.it/",
-      "note": "Italian equivalent: 11,000+ clients, 53-529 EUR per year",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Investors with a few ETFs type five lines in ten minutes, keen ones use the free OpenSteuerAuszug, and a canton that refuses self-made statements removes the value.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 4
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    }
-   },
-   "sources": [
-    {
-     "url": "https://forum.mustachianpost.com/t/opensteuerauszug-generate-your-own-etax-esteuerauszug-for-ibkr-schwab-and-others/18288",
-     "note": "Thread opened 2026-02-18 (replies from 2026-01-15/16): author says 'This is for tinkerers' and points to datalevel 'if you want polish'; ZH and BS accepted generated files, some cantons refuse",
-     "date": "2026-02-18",
-     "ageDays": 269,
-     "age": "9 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.mustachianpost.com/de/wo-finde-ich-bei-interactive-brokers-informationen-zu-meinen-steuern/",
-     "note": "Guide updated 2026-10-11: IBKR gives no Swiss tax documents; tells readers to type every transaction into VaudTax by hand",
-     "date": "2026-10-11",
-     "ageDays": 34,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.datalevel.ch/",
-     "note": "News from October 2025 (day not shown): datalevel offers a paid Swiss e-tax statement for IBKR clients from tax year 2025; no price published",
-     "date": "2025-10-01",
-     "ageDays": 409,
-     "age": "13 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=ch&q=steuerauszug%20interactive%20brokers",
-     "note": "Autocomplete: 'interactive brokers e steuerauszug', 'interactive brokers steuerauszug schweiz'",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.ch: 'interactive brokers e steuerauszug', 'steuerauszug interactive brokers schweiz', 'broker steuerauszug'",
-    "first100": "Investors searching 'interactive brokers e steuerauszug' in February find a page that builds the file in the browser and pay at download.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=ch&q=steuerauszug%20interactive%20brokers",
-      "note": "Three autocomplete variants for the exact job",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://www.mustachianpost.com/de/wo-finde-ich-bei-interactive-brokers-informationen-zu-meinen-steuern/",
-      "note": "A large Swiss investor blog ranks with a manual-entry guide, not a tool",
-      "date": "2026-10-11",
-      "ageDays": 34,
-      "age": "5 weeks old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "datalevel",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "OpenSteuerAuszug",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "IBKR eTax Statement (J. von Scheidt)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "AllInvestView",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:01.774Z",
-    "detail": [
-     "Missed the strict bar: score 3.2 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Swiss investors with foreign brokers pay 49 CHF per tax year to download the importable e-tax statement.",
-   "trigger": "standing need",
-   "window": "Standing gap: the free OpenSteuerAuszug is a command-line tool its author calls 'for tinkerers' (2026-01-15), and datalevel covers IBKR only with no public price. The Swiss filing season runs Februar…",
-   "score": 3.2,
-   "index": {
-    "composite": 3.35,
-    "used": {
-     "risk": 3,
-     "success": 3,
-     "monetization": 4,
-     "potential": 3,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3.35 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3.35 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 3500,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 3500,
-       "upsideEur": 15000,
-       "basis": "Bottom-up: 7,000 visits (assumed) x 2% = 140 payers x 52 EUR = ~7,280 EUR; halved for the first-year ramp and canton refusals = ~3,500 net. 5,000 EUR needs 96 payers. Cross-check: BubbleTax sold 2,000+ reports in Germany (84M people) for one broker family; the same share in Switzerland (9M) gives ~210 over several seasons, so 70-140 in year one fits. Not verified: datalevel's price and sales, and…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 3,
-      "monetization": 4,
-      "potential": 3,
-      "automation": 3,
-      "rationale": "Dated forum demand from 2026, a paid incumbent covering only one broker, and an open standard (eCH-0196) that must be exact, so an AI chat cannot replace it.",
-      "summary": "",
-      "concerns": [
-       "Canton acceptance of self-generated statements varies",
-       "Schema and barcode validation must be done before the build",
-       "Swiss investors are used to free workarounds"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:01.774Z",
-   "updatedAt": "2026-11-14T03:19:01.774Z",
-   "outcome": null
-  },
-  {
-   "id": "auslandsdepot-steuerreport-oesterreich-e1kv-kenn",
-   "title": "Auslandsdepot-Steuerreport Österreich: E1kv-Kennzahlen aus dem Broker-Export, mit ausschüttungsglei…",
-   "pitch": "For Austrian residents whose broker is not 'steuereinfach' (Interactive Brokers, Scalable, DEGIRO, Lynx, CapTrader, eToro and others): load the yearly broker export in the browser and get every E1kv Kennzahl (dividends, gains, ausschüttungsgleiche Erträge, creditable withholding) with a line-by-line working PDF. If it takes off, it becomes the yearly E1kv companion for every non-steuereinfach bro…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "An Austrian resident private investor with an account at Interactive Brokers, Scalable Capital, DEGIRO, Lynx or another broker that withhol…",
-    "buys": "Exact E1kv Kennzahlen for a year of trades, dividends and fund income including ausschüttungsgleiche Erträge, with a derivation PDF; saves hours of spreadsheet work and avoids back-taxes or penalties for a wrong declaration",
-    "model": "one-off",
-    "price": "59 EUR per tax year (39 EUR under 100 transactions)",
-    "proof": [
-     {
-      "url": "https://www.blockpit.io/de-at/preise",
-      "note": "Austrians pay 49-549 EUR per tax year for the same kind of report for crypto",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://www.moneyviz.it/",
-      "note": "Italian equivalent for foreign brokers: 11,000+ clients, 53-529 EUR per account and year (page updated November 2026)",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://flashfiscal.com/",
-      "note": "French equivalent: 149-199 EUR per year, 6,000+ accounts",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Austrian investors switch to a steuereinfach broker (Flatex, DADAT, Trade Republic now) instead of paying, or hold a few ETFs and type the numbers in twenty minutes or leave it to a Steuerberater.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 4
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.broker-test.at/steuern/kapitalertraege-von-auslandsdepots-versteuern/",
-     "note": "Lists ten non-steuereinfach brokers (IBKR, Scalable, DEGIRO, Lynx, CapTrader, eToro...) whose clients must self-declare in E1kv; names no software and suggests an own spreadsheet; warns of CRS report…",
-     "date": "2025-01-28",
-     "ageDays": 655,
-     "age": "22 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=at&q=e1kv%20",
-     "note": "Autocomplete: e1kv formular, e1kv 2025, e1kv ausfüllhilfe 2025, e1kv finanzonline (10 variants)",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.allinvestview.com/",
-     "note": "Largest multi-country investor tax tool names 14 countries with coded rules; Austria is not among them",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.blockpit.io/de-at/preise",
-     "note": "Austrians pay 49-549 EUR per tax year for a crypto tax report; no stocks or ETFs mentioned",
-     "date": "2026-11-14",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.at: 'e1kv ausfüllhilfe', 'e1kv broker', 'auslandsdepot steuer', 'ausschüttungsgleiche erträge berechnen'",
-    "first100": "Investors who search 'e1kv their broker' between February and June land on a per-broker guide, run the free analysis in the browser and pay to download the E1kv sheet.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=at&q=e1kv%20",
-      "note": "10 autocomplete variants incl. 'e1kv ausfüllhilfe 2025'",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=at&q=auslandsdepot%20steuer%20",
-      "note": "'auslandsdepot steuer' is a suggested query (only one variant, weak)",
-      "date": "2026-11-14",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Blockpit",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "AllInvestView",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "OeKB fund tax data (my.oekb.at)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T03:19:01.108Z",
-    "detail": [
-     "Missed the strict bar: score 3.45 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Austrian private investors at non-steuereinfach brokers pay 59 EUR per tax year to download the E1kv report after a free in-browser analysis.",
-   "trigger": "standing need",
-   "window": "Standing gap: two searches on 2026-11-14 found no tool that computes E1kv values for a foreign depot; broker-test.at tells readers to build their own spreadsheet, Blockpit covers crypto only and AllI…",
-   "score": 3.45,
-   "index": {
-    "composite": 3.35,
-    "used": {
-     "risk": 3,
-     "success": 3,
-     "monetization": 4,
-     "potential": 3,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3.35 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3.35 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 4000,
-     "upsideEur": 18000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 4000,
-       "upsideEur": 18000,
-       "basis": "Bottom-up: 8,000 visits in the first season (assumed, new domain) x 1.2% = ~96 payers x 59 EUR = ~5,660 EUR, minus ~3% payment fees and 40 EUR costs = ~5,450; cut to 4,000 for the ranking ramp. 5,000 EUR needs 85 payers, reachable only if per-broker pages rank by March 2027. Cross-check: FlashFiscal (6,000 accounts, France) and MoneyViz (11,000 clients, Italy) scaled to Austria's population (abou…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 3,
-      "monetization": 4,
-      "potential": 3,
-      "automation": 3,
-      "rationale": "Paying for this exact job is proven in Italy, France and Germany, and in Austria for crypto; no Austrian stock and ETF tool turned up in two searches. Austria's fund tax rules are the hard part and the moat.",
-      "summary": "",
-      "concerns": [
-       "Austrians may switch to steuereinfach brokers instead of paying",
-       "OeKB data terms for automated use not checked",
-       "A wrong figure damages trust quickly"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-14T03:19:01.108Z",
-   "updatedAt": "2026-11-14T03:19:01.108Z",
    "outcome": null
   },
   {
@@ -15112,19 +15208,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-14T09:02:45.375Z",
+   "lastRunAt": "2026-11-14T19:32:03.665Z",
    "lastFound": 0,
    "lastNoted": 0,
    "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 83,
-   "radius": 1,
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 84,
+   "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 6,
+   "runsLastDay": 7,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-14T11:02:45.375Z"
+   "nextRunAfter": "2026-11-14T21:32:03.665Z"
   }
  },
  "scorecard": {
@@ -15184,119 +15280,192 @@
   ]
  },
  "learning": {
-  "n": 15,
-  "shrink": 0.6,
+  "n": 20,
+  "shrink": 0.67,
   "factors": [
    {
     "id": "single-job",
     "description": "does one job extremely well instead of being a suite",
-    "weight": 1.77,
-    "count": 7
-   },
-   {
-    "id": "no-signup",
-    "description": "usable without an account; registration comes later, to save or to pay",
-    "weight": 1.38,
-    "count": 5
+    "weight": 1.98,
+    "count": 10
    },
    {
     "id": "ai-native",
     "description": "uses AI for something that was not possible or affordable before",
-    "weight": 1.38,
+    "weight": 1.32,
+    "count": 6
+   },
+   {
+    "id": "design-quality",
+    "description": "clearly better UX and clarity than the category",
+    "weight": 1.32,
+    "count": 6
+   },
+   {
+    "id": "simple-pricing",
+    "description": "clear, cheap, transparent pricing, or an ad or affiliate model that fits the visitor intent",
+    "weight": 1.32,
+    "count": 6
+   },
+   {
+    "id": "no-signup",
+    "description": "usable without an account; registration comes later, to save or to pay",
+    "weight": 1.16,
+    "count": 5
+   },
+   {
+    "id": "timing",
+    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
+    "weight": 1.16,
+    "count": 5
+   },
+   {
+    "id": "community",
+    "description": "built with or around a community; users contribute or talk about it",
+    "weight": 1.16,
     "count": 5
    },
    {
     "id": "instant-value",
     "description": "the visitor gets a useful result within seconds, with no setup",
-    "weight": 1.19,
+    "weight": 0.99,
     "count": 4
    },
    {
-    "id": "timing",
-    "description": "rides a fresh trigger (a law, a release, a trend) and shipped first",
-    "weight": 1.19,
-    "count": 4
-   },
-   {
-    "id": "community",
-    "description": "built with or around a community; users contribute or talk about it",
-    "weight": 1.19,
-    "count": 4
-   },
-   {
-    "id": "design-quality",
-    "description": "clearly better UX and clarity than the category",
-    "weight": 1.19,
-    "count": 4
-   },
-   {
-    "id": "simple-pricing",
-    "description": "clear, cheap, transparent pricing, or an ad or affiliate model that fits the visitor intent",
-    "weight": 1.19,
+    "id": "integration",
+    "description": "lives inside an existing platform or workflow (extension, plugin, bot, API)",
+    "weight": 0.99,
     "count": 4
    },
    {
     "id": "trust-privacy",
     "description": "privacy-first or local processing, or honesty, as a visible difference",
     "weight": 0.99,
-    "count": 3
+    "count": 4
    },
    {
     "id": "low-ops",
     "description": "runs itself with little maintenance or support",
     "weight": 0.99,
-    "count": 3
+    "count": 4
    },
    {
     "id": "niche-focus",
     "description": "serves a specific audience or need the generalists ignore",
-    "weight": 0.79,
-    "count": 2
+    "weight": 0.83,
+    "count": 3
    },
    {
     "id": "share-loop",
     "description": "the output is shareable or embeddable and brings new users (links, cards, badges, scores)",
-    "weight": 0.79,
-    "count": 2
+    "weight": 0.83,
+    "count": 3
+   },
+   {
+    "id": "retention-loop",
+    "description": "a reason to come back (streaks, alerts, a daily puzzle, saved work)",
+    "weight": 0.83,
+    "count": 3
    },
    {
     "id": "data-edge",
     "description": "unique, curated or fresher data than the alternatives",
-    "weight": 0.79,
-    "count": 2
-   },
-   {
-    "id": "integration",
-    "description": "lives inside an existing platform or workflow (extension, plugin, bot, API)",
-    "weight": 0.79,
+    "weight": 0.66,
     "count": 2
    },
    {
     "id": "seo-engine",
     "description": "many genuinely useful pages that rank for long-tail queries (tools or data, not filler)",
-    "weight": 0.6,
+    "weight": 0.5,
     "count": 1
    },
    {
     "id": "free-lead-magnet",
     "description": "a free tool that feeds a paid product",
-    "weight": 0.6,
-    "count": 1
-   },
-   {
-    "id": "retention-loop",
-    "description": "a reason to come back (streaks, alerts, a daily puzzle, saved work)",
-    "weight": 0.6,
+    "weight": 0.5,
     "count": 1
    },
    {
     "id": "game-hook",
     "description": "games: short sessions, a simple core loop, instant restart, a shareable score",
-    "weight": 0.6,
+    "weight": 0.5,
     "count": 1
    }
   ],
   "recent": [
+   {
+    "name": "Stella",
+    "url": "https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days",
+    "category": "AI manifestation app with daily personalized affirmations",
+    "platform": "app",
+    "better": "The user describes their own goals and gets custom visualizations narrated by their future self, plus daily affirmations written for them that can appear on the lock screen. Commenting on an Instagram post sends the user their affirmation and a download link automatically.",
+    "why": "Seen: the founder has about 1.2 million Instagram and 2.8 million TikTok followers and says her personal brand drives conversion. She built the app with AI coding tools without being a developer. Inferred: generative AI makes per-user daily content cheap, which gives a reason to return each day, bu…",
+    "lesson": "If the core value can be personalized by AI, deliver a fresh personal piece every day on the lock screen or as a notification, so the daily return is built into the product rather than the user's memory.",
+    "factors": [
+     "ai-native",
+     "niche-focus"
+    ]
+   },
+   {
+    "name": "Pushscroll",
+    "url": "https://apps.apple.com/us/app/pushscroll-exercise-to-scroll/id6741765734",
+    "category": "screen-time blocker that unlocks social apps with exercise",
+    "platform": "app",
+    "better": "TikTok or Instagram stays locked until the user does push-ups, squats, lunges or sit-ups. The phone camera counts reps with pose detection so the user cannot cheat, and each push-up buys a minute of scrolling. A streak and the minutes earned show in lock-screen and home-screen widgets, and a journe…",
+    "why": "Seen: growth came mainly from organic TikTok videos, a free-first-week launch offer brought 20 to 30 thousand downloads, and the app sits behind a hard paywall at about 30 dollars a year. Inferred: the urge to scroll, which happens many times a day, becomes the trigger for the product, so the habit…",
+    "lesson": "Attach the product to a trigger the user already feels many times a day, and make the core action a five-second demo that a short video can show without explanation.",
+    "factors": [
+     "single-job",
+     "retention-loop",
+     "timing",
+     "integration"
+    ]
+   },
+   {
+    "name": "HabitKit",
+    "url": "https://apps.apple.com/app/id6443918070",
+    "category": "habit tracker with a contribution-grid view",
+    "platform": "app",
+    "better": "Each habit is a colored grid of tiles like a GitHub contribution graph, so the user's consistency shows at a glance. The first version worked fully offline with data kept on the device, with no setup beyond naming the habit. Notifications, streaks and home-screen widgets were added later because us…",
+    "why": "Seen: a pre-launch screenshot on X got about 800 likes, the grid was the visual hook, and RevenueCat's write-up says lasting growth came from ranking for habit tracker in app store search rather than from building in public. Inferred: one strong visual that users screenshot, combined with a cheap p…",
+    "lesson": "For a crowded utility category, ship one distinctive, screenshot-worthy visual with local-only data and a low lifetime price, then win the head search term through store ranking rather than paid acquisition.",
+    "factors": [
+     "single-job",
+     "design-quality",
+     "trust-privacy",
+     "simple-pricing",
+     "low-ops"
+    ]
+   },
+   {
+    "name": "Airbuds (store name now Tunesimo)",
+    "url": "https://apps.apple.com/us/app/id1638906106",
+    "category": "home-screen widget that shows what your friends are listeni…",
+    "platform": "app",
+    "better": "The user connects a streaming account once. From then on, friends' current songs show up on the home screen widget without the user posting anything. The user can react with an emoji, a sticker or a selfie, play a clip and chat, and it works across Spotify, Apple Music, SoundCloud, Deezer and other…",
+    "why": "Seen: TechCrunch says the widget idea came from noticing that teens loved iOS widgets, and that inviting friends to unlock features drove some growth. Inferred: the content is created passively by listening the user already does, so the feed is never empty and the widget keeps the app in view many …",
+    "lesson": "Feed the product from an activity the user already does elsewhere, through an integration, and show it on a surface the user sees every day, so retention does not depend on the user remembering to open the app.",
+    "factors": [
+     "share-loop",
+     "retention-loop",
+     "integration",
+     "community"
+    ]
+   },
+   {
+    "name": "Focus Friend",
+    "url": "https://apps.apple.com/us/app/id6742278016",
+    "category": "focus timer with a virtual pet that blocks distracting apps",
+    "platform": "app",
+    "better": "The user starts a timer and a cute bean knits socks and decorations for its room. If the user opens another app, the knitting is ruined and the bean looks sad. The socks the user earns buy room decorations, so each session builds something visible. A deep focus mode that locks distracting apps is f…",
+    "why": "Seen: the spike came from Hank and John Green promoting it on their own channels, mostly TikTok (Appfigures), and it was built by Hank Green and Bria Sullivan with a few contractors (We Are Founders). Inferred: caring about a character turns quitting a session into a small emotional cost rather tha…",
+    "lesson": "Give a single-job utility a small character or visible collection that grows only while the user does the target behavior, so stopping costs something the user cares about rather than triggering a lock or a penalty.",
+    "factors": [
+     "single-job",
+     "design-quality",
+     "simple-pricing"
+    ]
+   },
    {
     "name": "Fastlane",
     "url": "https://www.usefastlane.ai",
@@ -15396,84 +15565,6 @@
      "community",
      "instant-value"
     ]
-   },
-   {
-    "name": "Photopea",
-    "url": "https://www.photopea.com",
-    "category": "Free browser-based image editor that opens PSD files",
-    "platform": "web",
-    "better": "You open the site and get a Photoshop-like interface right away, with no install and no account. It opens PSD, SVG, PDF and raw files and edits them locally in the browser, and the menus and shortcuts match what Photoshop-trained users already know.",
-    "why": "Seen: a free, no-signup, browser-only tool that handles the file format professionals use, and keeps people paying with an ad-free premium plan and corporate licensing. Inferred: matching an expensive incumbent's interface and file format removed both the switching cost and the price barrier, so st…",
-    "lesson": "If the paid incumbent defines how a job is done, support its file formats and familiar controls in a free in-browser tool that needs no account, and earn money from ads or an ad-free upgrade.",
-    "factors": [
-     "instant-value",
-     "no-signup",
-     "trust-privacy",
-     "low-ops",
-     "simple-pricing"
-    ]
-   },
-   {
-    "name": "Omni Calculator",
-    "url": "https://www.omnicalculator.com",
-    "category": "Large library of single-purpose online calculators",
-    "platform": "web",
-    "better": "Each calculator is its own page for one exact question. You can type into any field and the others update in both directions, without pressing a button. Each page also explains the formula and gives a worked example, and some calculators are translated into 9 languages.",
-    "why": "Seen: about one new calculator per day for a decade, with top rankings for exact-match calculator and formula queries. The site is paid for with ads, and the founder says ads let them keep it free for everyone. Inferred: each calculator is a real tool answering a distinct long-tail query, so the pa…",
-    "lesson": "Build calculators one page per real question, with two-way live inputs, a short formula explanation and a worked example, and judge success by how many of those pages rank, not by how many exist.",
-    "factors": [
-     "seo-engine",
-     "instant-value",
-     "no-signup",
-     "simple-pricing"
-    ]
-   },
-   {
-    "name": "TurboScribe",
-    "url": "https://turboscribe.ai",
-    "category": "AI audio and video transcription web tool",
-    "platform": "web",
-    "better": "The user uploads a file or pastes a YouTube link and gets text in 98 languages. The free tier allows 3 files a day of up to 30 minutes each, and one flat plan of about 10 dollars a month on annual billing removes the limits. A free YouTube video downloader page puts a large transcribe button next t…",
-    "why": "Seen: according to the Ahrefs data in the Sina article, transcription keywords make up only about 4 percent of its ranking keywords. Semrush shows its top non-brand keywords are downloader terms such as yt to mp4 and descargar video de youtube, ranking first or third. Inferred: by ranking for high-…",
-    "lesson": "Pick a high-volume search query that comes one step earlier in your user's workflow, give it a free tool page, and put a one-click handoff to your core product on the result.",
-    "factors": [
-     "ai-native",
-     "free-lead-magnet",
-     "simple-pricing",
-     "single-job",
-     "low-ops"
-    ]
-   },
-   {
-    "name": "Wplace",
-    "url": "https://wplace.live",
-    "category": "collaborative pixel canvas on a world map",
-    "platform": "web",
-    "better": "Anyone can view a pixel canvas of four trillion pixels laid over a real world map. Players start with 30 pixels that refill one every 30 seconds, so sessions are short and players keep coming back. Because pixels sit on real places, people paint their hometowns, flags and fandoms where friends can …",
-    "why": "Seen: press coverage stresses local identity, pop culture and coordinated group art, and reports moderation and server strain. Inferred: tying the canvas to real places gave every country, city and fandom a reason to recruit others, which turned each artwork into an invitation. The cooldown created…",
-    "lesson": "Tie user-made output to something people already identify with, such as their city, country or club, so each creation gives them a reason to bring friends.",
-    "factors": [
-     "share-loop",
-     "community",
-     "game-hook",
-     "retention-loop"
-    ]
-   },
-   {
-    "name": "Gitingest",
-    "url": "https://gitingest.com",
-    "category": "turns a code repository into one text digest for pasting in…",
-    "platform": "web",
-    "better": "You change hub to ingest in any GitHub address and get a single page with a summary, the folder tree and all file contents, each with a copy button. It needs no account or install. Filters for included and excluded files and a size limit are optional, and the same tool comes as a browser extension …",
-    "why": "Seen: Similarweb puts about 77 percent of desktop traffic as direct. That fits a URL trick people type from memory. Inferred: it solved a new, frequent need of the AI coding era, getting a whole repository into a chat, at the moment that need appeared. The URL swap made every GitHub link a ready en…",
-    "lesson": "If your tool works on content from a big platform, design a one-step URL change that turns any of that platform's links into your result page, so users can reach you from any link without searching.",
-    "factors": [
-     "instant-value",
-     "no-signup",
-     "single-job",
-     "timing",
-     "integration"
-    ]
    }
   ],
   "insights": "## Calibration Still too early: 9 ideas, **0 outcomes** (6 killed by the Product lead, 2 parked after QA, 1 in staging). No agent's ratings can be scored yet. ## What the pipeline itself shows (n=9, patterns, not proof) - **Kills come from missing checks, not bad scoring.** 4 of 6 kills: free working tools already did the job. 2 of 6: the premise was false (a deadline was suspended; an export file could not show what the product needed). - **Deadline-driven ideas are fragile.** 5 of 6 killed ideas were tagged timing. Deadlines move and competitors move fast. - **Builds stall on data, not code.** Both parked builds failed QA 3 times because the real data never arrived. - **The Scout is optimistic:** risk=2 on every idea (no signal). It rates success up to 2 points higher than the Product lead. ## What works (one site with numbers, n=1) The German procurement-notice directory got clicks from long-tail detail pages ranking in positions 3 to 6. **But the last two weeks fell about 95%** (from about 6.3k impressions a week to about 120 to 180; 11 and 13 clicks). Two weeks in a row is not reporting lag. The cause is unknown: a technical fault or Google downgrading its many generated pages. Until that is understood, treat sites built from thousands of generated pages as **high risk, not proven**. ## Do differently - The Scout must name the best free competitor and confirm the trigger (deadline, rule) is still in force before scoring. - The data must be fetched and checked before the build is approved, not during the build. - Prefer ideas whose value does not depend on a single date. - Trust the Product lead's and the reviewers' risk ratings over the Scout's.",
@@ -15515,6 +15606,10 @@
    {
     "id": "paid-creator-flywheel",
     "description": "Early subscription revenue is immediately reinvested into creator and performance ads, so a high-converting paywall becomes the main growth engine."
+   },
+   {
+    "id": "home-screen-presence",
+    "description": "The product lives on the home screen, lock screen or notifications through a widget, Live Activity or daily delivery, so it is seen every day without the user opening it."
    }
   ]
  }
