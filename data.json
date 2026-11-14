@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T23:58:02.710Z",
+ "generatedAt": "2026-11-14T00:03:56.735Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -9,9 +9,9 @@
   "total": 86,
   "live": 0,
   "staging": 1,
-  "building": 1,
+  "building": 0,
   "queued": 40,
-  "parked": 1,
+  "parked": 2,
   "declined": 43,
   "nonDigital": 0,
   "worthDomain": 0
@@ -23,8 +23,8 @@
    "pitch": "For small trades (painters, electricians, roofers, landscapers) who get a GAEB X83 bill of quantities with a public tender and must return a priced X84 file: open, price and export in the browser, on any computer, with the file never leaving the device. If it takes off it becomes the bidding companion next to tender-notice pages (Formblatt 221/223, X89 invoices, Austrian ONLV).",
    "platform": "web",
    "marketLabel": "Germany and Europe",
-   "status": "building",
-   "statusLabel": "Being built",
+   "status": "parked",
+   "statusLabel": "Paused",
    "prototype": false,
    "origin": "Niche scout",
    "money": {
@@ -65,9 +65,9 @@
     ]
    },
    "decision": {
-    "by": "daily pool",
-    "reason": "Built as the day's prototype: ranked first in the daily pool (aggregate 3.55 of 5 by 2 independent rankers). The studio builds the best candidate of the day whatever its score; it missed the strict bar because: score 3.2 is below the minimum 3.5.",
-    "at": "2026-11-13T21:18:10.463Z",
+    "by": "orchestrator",
+    "reason": "QA still failing after 3 rounds: X84 output and synthetic X83 fixtures are not validated against the official GAEB XSDs. tests/fixtures/gaeb/official/ does not exist, xmllint is not installed, npm run test:schema cannot pass, and element names and order for UP, IT, Totals, CTR and the alternative marker are still XSD-TODO. Taking …",
+    "at": "2026-11-14T00:03:55.292Z",
     "detail": []
    },
    "trigger": "standing need",
@@ -164,7 +164,7 @@
     "live": null
    },
    "createdAt": "2026-11-13T21:18:10.463Z",
-   "updatedAt": "2026-11-13T23:58:01.250Z",
+   "updatedAt": "2026-11-14T00:03:55.292Z",
    "outcome": null
   },
   {
@@ -10465,16 +10465,11 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-13T21:00:00.000Z",
+  "checkedInAt": "2026-11-14T00:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "building",
-  "building": [
-   {
-    "title": "GAEB-Angebot im Browser: X83-Leistungsverzeichnis bepreisen und als X84 abgeben",
-    "stage": "qa"
-   }
-  ],
+  "status": "waiting for the owner",
+  "building": [],
   "waiting": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
@@ -10491,7 +10486,7 @@
    "emptyRuns": 81,
    "radius": 3,
    "radiusLevels": 4,
-   "runsLastDay": 13,
+   "runsLastDay": 10,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
