@@ -1,15 +1,15 @@
 {
- "generatedAt": "2026-11-14T21:03:19.325Z",
+ "generatedAt": "2026-11-14T21:25:14.846Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 88,
+  "total": 89,
   "live": 0,
   "staging": 1,
-  "building": 0,
+  "building": 1,
   "queued": 42,
   "parked": 2,
   "declined": 43,
@@ -17,6 +17,228 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "quip-exit-bulk-export-of-a-whole-quip-site-to-sh",
+   "title": "Quip Exit: bulk export of a whole Quip site to SharePoint, Google Drive or Notion, with folders, co…",
+   "pitch": "For teams whose Salesforce Quip subscription cannot renew after 2027-03-01: paste a Quip API token and pick folders. Documents become DOCX, HTML or Markdown and spreadsheets become XLSX; the folder tree is rebuilt, inline comments are saved and internal Quip links are rewritten to the new paths, ready for SharePoint, Google Drive or Notion. If it takes off, it becomes the reference 'leaving Quip'…",
+   "platform": "web",
+   "marketLabel": "Global",
+   "status": "building",
+   "statusLabel": "Being built",
+   "prototype": false,
+   "origin": "Niche scout",
+   "money": {
+    "level": "pays",
+    "label": "Payer shown",
+    "why": "1 of 1 reviewer say the payer pays",
+    "legacy": false,
+    "payer": "a team lead or Salesforce admin at a small or mid-size company with a few hundred to a few thousand Quip documents",
+    "buys": "a complete, structured export to the destination they chose, without a $500+ service or days of one-by-one manual exports that lose comments",
+    "model": "one-off",
+    "price": "149 EUR once per workspace (up to 2,000 documents)",
+    "proof": [
+     {
+      "url": "https://clonepartner.com/blog/quip-end-of-life-playbook-2027-choosing-your-migration-destination.md",
+      "note": "ClonePartner sells this migration at a fixed price from $500 per project",
+      "date": "2026-05-08",
+      "ageDays": 190,
+      "age": "6 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Companies on Quip are mostly Salesforce customers: they take Salesforce's free Slack canvas flow, have IT script the Quip API with an AI assistant, or buy through procurement instead of with a card.",
+    "claim": "",
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "pays",
+      "why": "ClonePartner sells this Quip migration from $500 per project (2026-05-08); the free CLIs need Node and a terminal, and the best one was archived 2026-08-30.",
+      "rating": 3
+     }
+    ],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     },
+     {
+      "who": "product",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 105,
+     "age": "newest source 3 months old",
+     "tier": "ok",
+     "n": 2
+    },
+    "pay": {
+     "days": 190,
+     "age": "newest source 6 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://clonepartner.com/blog/quip-end-of-life-playbook-2027-choosing-your-migration-destination.md",
+     "note": "Retirement timeline; no bulk export in the web UI; manual export drops inline comments and data mentions; no native importer for SharePoint, Notion or Confluence; API limit 50 requests a minute per u…",
+     "date": "2026-05-08",
+     "ageDays": 190,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.onlyoffice.com/blog/2026/08/how-to-migrate-from-quip-before-its-2027-retirement",
+     "note": "Search result: a destination vendor's August 2026 migration guide, one of more than ten vendor posts on leaving Quip (not opened)",
+     "date": "2026-08-01",
+     "ageDays": 105,
+     "age": "3 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "quip to sharepoint migration; quip bulk export; quip to notion; quip end of life",
+    "first100": "Admins searching 'quip to sharepoint' or 'quip bulk export' find one guide per destination with a free dry run, see what a manual export would lose and pay to run the full export.",
+    "proof": [
+     {
+      "url": "https://clonepartner.com/blog/quip-end-of-life-playbook-2027-choosing-your-migration-destination.md",
+      "note": "The ranking pages for Quip migration queries are vendor blogs selling services or destinations; none offers a self-serve exporter",
+      "date": "2026-05-08",
+      "ageDays": 190,
+      "age": "6 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Salesforce in-product Quip-to-Slack-canvases flow",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "ClonePartner migration service",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Coda native Quip importer",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Built as the day's prototype: ranked first in the daily pool (aggregate 2.45 of 5 by 2 independent rankers). The studio builds the best candidate of the day whatever its score; it missed the strict bar because: score 3.1 is below the minimum 3.5.",
+    "at": "2026-11-14T21:18:22.731Z",
+    "detail": []
+   },
+   "trigger": "Salesforce retires all Quip products: subscriptions cannot renew after 2027-03-01, then 90 days read-only, then logins blocked and data deleted; no bulk export in the UI and manual export drops comme…",
+   "window": "Each customer's deadline is their renewal date (no later than 2027-03-01) plus 90 days read-only, so the need peaks between now and mid-2027 and then ends.",
+   "score": 3.1,
+   "index": {
+    "composite": 2.35,
+    "used": {
+     "risk": 4,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "low",
+    "disputed": [
+     "risk"
+    ],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.35 is below 3.6",
+     "risk 4 is above 3.5"
+    ],
+    "yearlyCostEur": 53,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.35 is below 4",
+      "potential 2 is below 4",
+      "risk 4 is above 3"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1350,
+     "upsideEur": 11500,
+     "crossVerified": true,
+     "disputed": false,
+     "agreement": "high",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 700,
+       "upsideEur": 9000,
+       "basis": "Bottom-up: 3,000 visits a year (assumed) x 2% (assumed) x 149 EUR = 8,940 EUR at full ramp. The need ends by mid-2027 and search pages take months to rank, so take about a tenth: roughly 900 EUR minus costs, about 700 EUR. Cross-check: ClonePartner sells the job from $500, so 149 EUR is well under the going price, but no count of Quip customers was found. 5,000 EUR needs 34 payers; that is reacha…"
+      },
+      {
+       "who": "product",
+       "expectedEur": 2000,
+       "upsideEur": 14000,
+       "basis": "Bottom-up: 1,500 search visits in 12 months (assumed, ramped, new domain against about a dozen ClonePartner guides) x 1.2% paid (assumed) = 18 payers x about 165 EUR average = about 2,970 EUR, less about 180 EUR in Stripe, domain and Workers costs = about 2,800 EUR. No comparable with revenue or customer counts exists (export-quip.com is unpriced; ClonePartner publishes only 'from $500'), so this…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A hard retirement with real data loss, a priced service and no self-serve tool for three major destinations. The buyers sit inside Salesforce accounts and may not pay by card.",
+      "summary": "",
+      "concerns": [
+       "Quip API CORS is unverified; a serverless relay may be needed",
+       "API rate limits make large exports slow",
+       "Salesforce may improve its own export"
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The retirement and dates are confirmed (SalesforceBen 2026-03-04), and as of 2026-08-28 there was still no workspace export; Salesforce's only shipped tool is the Slack canvas flow (2026-07-29). No priced self-serve tool is on sale: export-quip.com is a waitlist beta, ClonePartner is done-for-you, and the free CLIs suit developers only. The payer is plausible but unproven at 149 EUR, demand evidence is vendor content plus npm downloads, and the window closes by mid-2028.",
+      "summary": "Salesforce's confirmed Quip retirement leaves non-developers with no priced self-serve way to export a whole site with comments and working links: the free CLIs need Node, and ClonePartner's service starts at $500 after a sales call.",
+      "concerns": [
+       "Salesforce announced user and admin export tools to third-party apps; if they ship free, most of the value goes",
+       "export-quip.com or ClonePartner launches a priced self-serve tool first and outranks a new domain",
+       "Quip's per-token limit of 750 requests an hour makes big exports take hours in a browser tab; failed runs mean refunds and support",
+       "Customers may refuse to send their documents through a third-party relay, even a stateless one"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/quip-exit-bulk-export-of-a-whole-quip-site-to-sh",
+    "preview": "https://veste-software.github.io/quip-exit-bulk-export-of-a-whole-quip-site-to-sh/",
+    "live": null
+   },
+   "createdAt": "2026-11-14T21:18:22.731Z",
+   "updatedAt": "2026-11-14T21:25:14.689Z",
+   "outcome": null
+  },
   {
    "marketLabel": "",
    "status": "queued",
@@ -15198,8 +15420,13 @@
   "checkedInAt": "2026-11-14T21:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "waiting for the owner",
-  "building": [],
+  "status": "building",
+  "building": [
+   {
+    "title": "Quip Exit: bulk export of a whole Quip site to SharePoint, Google Drive or Notion, with folders, co…",
+    "stage": "specced"
+   }
+  ],
   "waiting": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
