@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T16:21:47.485Z",
+ "generatedAt": "2026-11-15T16:26:54.817Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -236,7 +236,7 @@
     "live": null
    },
    "createdAt": "2026-11-14T21:18:22.731Z",
-   "updatedAt": "2026-11-15T16:21:46.057Z",
+   "updatedAt": "2026-11-15T16:26:53.103Z",
    "outcome": null
   },
   {
@@ -15407,7 +15407,7 @@
   "building": [
    {
     "title": "Quip Exit: bulk export of a whole Quip site to SharePoint, Google Drive or Notion, with folders, co…",
-    "stage": "qa"
+    "stage": "building"
    }
   ],
   "waiting": [
