@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T17:12:03.948Z",
+ "generatedAt": "2026-11-15T17:17:55.805Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -8,8 +8,8 @@
  "summary": {
   "total": 89,
   "live": 0,
-  "staging": 1,
-  "building": 1,
+  "staging": 2,
+  "building": 0,
   "queued": 42,
   "parked": 2,
   "declined": 43,
@@ -23,8 +23,8 @@
    "pitch": "For teams whose Salesforce Quip subscription cannot renew after 2027-03-01: paste a Quip API token and pick folders. Documents become DOCX, HTML or Markdown and spreadsheets become XLSX; the folder tree is rebuilt, inline comments are saved and internal Quip links are rewritten to the new paths, ready for SharePoint, Google Drive or Notion. If it takes off, it becomes the reference 'leaving Quip'…",
    "platform": "web",
    "marketLabel": "Global",
-   "status": "building",
-   "statusLabel": "Being built",
+   "status": "staging",
+   "statusLabel": "Built, waiting for your launch",
    "prototype": false,
    "origin": "Niche scout",
    "money": {
@@ -236,7 +236,7 @@
     "live": null
    },
    "createdAt": "2026-11-14T21:18:22.731Z",
-   "updatedAt": "2026-11-15T17:12:00.996Z",
+   "updatedAt": "2026-11-15T17:17:53.266Z",
    "outcome": null
   },
   {
@@ -15403,18 +15403,18 @@
   "checkedInAt": "2026-11-15T15:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "building",
-  "building": [
-   {
-    "title": "Quip Exit: bulk export of a whole Quip site to SharePoint, Google Drive or Notion, with folders, co…",
-    "stage": "qa"
-   }
-  ],
+  "status": "waiting for the owner",
+  "building": [],
   "waiting": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
     "what": "approve the launch",
     "since": "2026-11-08T21:50:45.015Z"
+   },
+   {
+    "title": "Quip Exit: bulk export of a whole Quip site to SharePoint, Google Drive or Notion, with folders, co…",
+    "what": "approve the launch",
+    "since": "2026-11-15T17:17:53.218Z"
    }
   ],
   "scout": {
