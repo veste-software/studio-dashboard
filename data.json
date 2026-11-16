@@ -1,15 +1,15 @@
 {
- "generatedAt": "2026-11-16T01:51:29.863Z",
+ "generatedAt": "2026-11-16T02:09:51.009Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
   "invest": 4
  },
  "summary": {
-  "total": 90,
+  "total": 91,
   "live": 0,
   "staging": 2,
-  "building": 0,
+  "building": 1,
   "queued": 42,
   "parked": 2,
   "declined": 44,
@@ -17,6 +17,258 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "pfic-workbook-form-8621-for-foreign-mutual-funds",
+   "title": "PFIC Workbook: Form 8621 for foreign mutual funds and ETFs, lot by lot",
+   "pitch": "For US taxpayers who hold foreign funds (Indian mutual funds of H-1B and green-card holders, UCITS ETFs of US expats). They enter each purchase lot and the yearly values, and the browser works out the default 1291 or mark-to-market figures per share and fills one IRS Form 8621 PDF per fund. If it takes off, it becomes the yearly filing tool with year-end prices already loaded for every Indian mut…",
+   "platform": "web",
+   "marketLabel": "Global",
+   "status": "building",
+   "statusLabel": "Being built",
+   "prototype": false,
+   "origin": "Niche scout",
+   "money": {
+    "level": "pays",
+    "label": "Payer shown",
+    "why": "1 of 1 reviewer say the payer pays",
+    "legacy": false,
+    "payer": "a US green-card holder, H-1B worker or US expat who holds two to ten foreign mutual funds or ETFs and files their own return",
+    "buys": "correct per-lot 1291 or mark-to-market figures and one filled Form 8621 per fund, without paying a CPA 200-2,000 USD per fund; TurboTax and retail software do not produce the form",
+    "model": "one-off",
+    "price": "49 EUR per tax year (up to 5 funds), 10 EUR per extra fund",
+    "proof": [
+     {
+      "url": "https://www.taxesforexpats.com/services/pfic-filing.html",
+      "note": "Form 8621 priced at USD 200 for one and USD 150 for each additional; page shows no date, footer (c) 2026, seen 2026-11-15",
+      "date": "2026-11-15",
+      "ageDays": 1,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://getbelong.com/blog/mutual-funds/report-indian-mutual-funds-on-us-tax-return/",
+      "note": "CPAs charge USD 500-2,000 per fund; USD 1,000-3,000 a year for a typical Indian MF portfolio",
+      "date": "2026-03-09",
+      "ageDays": 252,
+      "age": "8 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Filers worry about getting it wrong (whether mark-to-market applies to Indian funds is disputed) and either pay a CPA anyway, or sell the funds and simply skip the form.",
+    "claim": "",
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "pays",
+      "why": "PFIC Pro charges individuals USD 60/yr plus USD 85 per Form 8621 (Nov 2026) and CPAs charge USD 150-200 per form; free calculators handle one lot and produce no form.",
+      "rating": 4
+     }
+    ],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 4
+     },
+     {
+      "who": "product",
+      "rating": 4
+     }
+    ]
+   },
+   "kind": "niche",
+   "fresh": {
+    "demand": {
+     "days": 1,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 1,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://getbelong.com/blog/mutual-funds/report-indian-mutual-funds-on-us-tax-return/",
+     "note": "NRI guide: cross-border CPAs charge USD 500-2,000 per fund for these calculations, most retail tax software does not support Form 8621, one form per fund",
+     "date": "2026-03-09",
+     "ageDays": 252,
+     "age": "8 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.richify.ai/us/tools/form-8621-calculator",
+     "note": "Free calculator: single lot, section 1291 only, no mark-to-market, no QEF, no filled PDF; last reviewed 10 Nov 2026",
+     "date": "2026-11-10",
+     "ageDays": 6,
+     "age": "6 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=pfic%20calculator",
+     "note": "10 suggestions incl. 'free pfic calculator', 'pfic tax calculator excel', '8621 pfic calculator', 'pfic excess distribution calculator'",
+     "date": "2026-11-15",
+     "ageDays": 1,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=form%208621",
+     "note": "10 suggestions incl. 'form 8621 instructions 2025', 'form 8621 filing threshold', 'form 8621 pfic'",
+     "date": "2026-11-15",
+     "ageDays": 1,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'pfic calculator', 'form 8621 calculator', 'pfic excess distribution calculator', 'form 8621 indian mutual funds'",
+    "first100": "In the February-April 2027 filing season, NRI filers who search 'form 8621 calculator' land on a free per-fund preview and pay to download the filled PDFs; NRI blog readers follow.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=pfic%20calculator",
+      "note": "10 autocomplete variants for the calculator intent",
+      "date": "2026-11-15",
+      "ageDays": 1,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Richify Form 8621 calculator",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "taxbracketcalc PFIC tax calculator",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Form 8621 Calculator (G2 listing)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "TaxesForExpats PFIC filing",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Built as the day's prototype: ranked first in the daily pool (aggregate 3.65 of 5 by 3 independent rankers). The studio builds the best candidate of the day whatever its score; it missed the strict bar because: competitionGap 3 is below 4: the need is already served; score 3.3 is below the minimum 3.5.",
+    "at": "2026-11-16T01:56:37.536Z",
+    "detail": []
+   },
+   "trigger": "standing need (Form 8621 is due with every US return, next deadline 2027-04-15)",
+   "window": "A standing gap: retail software does not do Form 8621 (Belong, March 2026), and the free calculators handle only one lot and no PDF. It stays open because the rules are hard and the payers are scatte…",
+   "score": 3.3,
+   "index": {
+    "composite": 3.35,
+    "used": {
+     "risk": 3,
+     "success": 3,
+     "monetization": 4,
+     "potential": 3,
+     "automation": 4.5
+    },
+    "agreement": "medium",
+    "disputed": [],
+    "crossValidated": true,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.35 is below 3.6"
+    ],
+    "yearlyCostEur": 18,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.35 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2000,
+     "upsideEur": 23500,
+     "crossVerified": true,
+     "disputed": false,
+     "agreement": "high",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2000,
+       "upsideEur": 30000,
+       "basis": "Bottom-up: 10,000 search visits a year (assumed) x 2% = 200 payers x 49 EUR = 9,800 EUR when the site ranks. A new site ranks only partly in its first filing season, so about 25% of that = 2,450 EUR, minus about 100 EUR in payment fees and 20 EUR for the domain = about 2,300 EUR, rounded down to 2,000. 5,000 EUR a year needs 102 payers; reachable only in year two. Cross-check: preparers charge US…"
+      },
+      {
+       "who": "product",
+       "expectedEur": 2000,
+       "upsideEur": 17000,
+       "basis": "Bottom-up: 3,000 visits in 12 months from a new domain over the Feb-Apr and Sep-Oct 2027 seasons (assumed) x 1.5% conversion with one free fund (assumed) = 45 payers x 49 EUR = 2,205 EUR, minus about 85 EUR Stripe fees and 12 EUR domain = about 2,100, rounded to 2,000 for EU VAT. 5,000 EUR needs about 107 payers (about 7,100 visits), which a new site probably cannot reach in year one. Cross-check…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 3,
+      "monetization": 4,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "The payer has real money at stake and pays CPAs today; retail software leaves the form out. Search demand exists (autocomplete), but I could not measure it, and the newest dated demand page is from March 2026.",
+      "summary": "",
+      "concerns": [
+       "Errors carry tax consequences; it needs a clear working-shown output and a disclaimer",
+       "Mark-to-market eligibility for Indian funds is disputed among CPAs",
+       "Seasonal traffic, concentrated in Feb-Apr and October"
+      ]
+     },
+     {
+      "who": "product",
+      "risk": 3,
+      "success": 3,
+      "monetization": 4,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The paid self-serve competitor exists and is priced per form for preparers, CPA services cost USD 200 plus 150 per form, and the free calculators (Richify, taxbracketcalc) do one lot, §1291 only, with no form. TurboTax lacks Form 8621 and TaxAct only lets you type the lines, so per-lot figures plus filled official PDFs at a flat household price is a real gap. Demand is shown by 10 autocomplete variants and many 2026 NRI guides, but no volume or recent forum post could be verified.",
+      "summary": "Individuals already pay USD 85 per form (PFIC Pro, Nov 2026) or USD 150-200 per form (CPA) for per-lot Form 8621 figures, free tools do one lot with no form, and a flat USD 55 per tax year for all funds is a sharp, self-serve angle for Indian-SIP holders.",
+      "concerns": [
+       "New domain may not rank before the Feb-Apr 2027 season; year-one payers likely under 100",
+       "A single wrong figure on a federal filing destroys trust; the tax rules (loss lots under §1291, late MTM election, new-US-person basis) are intricate",
+       "Whether mark-to-market applies to Indian mutual funds is disputed; cautious filers may pay a CPA anyway or sell the funds",
+       "Users must type year-end NAVs and FX rates themselves until a checked data preload exists"
+      ]
+     }
+    ]
+   },
+   "demand": null,
+   "factors": [
+    "single-job",
+    "simple-pricing",
+    "no-signup",
+    "trust-privacy"
+   ],
+   "factorFit": 0.92,
+   "links": {
+    "repo": "https://github.com/veste-software/pfic-workbook-form-8621-for-foreign-mutual-funds",
+    "preview": "https://veste-software.github.io/pfic-workbook-form-8621-for-foreign-mutual-funds/",
+    "live": null
+   },
+   "createdAt": "2026-11-16T01:56:37.536Z",
+   "updatedAt": "2026-11-16T02:09:50.940Z",
+   "outcome": null
+  },
   {
    "id": "stromsteuer-entlastung-ohne-berater-antragsmappe",
    "title": "Stromsteuer-Entlastung ohne Berater: Antragsmappe für Handwerk, Kleinbetriebe und Höfe",
@@ -890,7 +1142,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 26,
    "fresh": {
     "demand": {
      "days": 1,
@@ -952,7 +1204,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 26 of 30 in the daily ranking: aggregate 2.5 of 5 by 3 rankers; the rankers estimate about 400 EUR in the first year, about 4000 EUR if it takes off.",
     "at": "2026-11-15T20:59:30.406Z",
     "detail": [
      "Missed the strict bar: score 2.6 is below the minimum 3.5"
@@ -1072,7 +1324,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 29,
    "fresh": {
     "demand": {
      "days": 387,
@@ -1134,7 +1386,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 29 of 30 in the daily ranking: aggregate 2.4 of 5 by 3 rankers; the rankers estimate about 500 EUR in the first year, about 15000 EUR if it takes off.",
     "at": "2026-11-15T20:59:29.984Z",
     "detail": [
      "Missed the strict bar: score 2.45 is below the minimum 3.5"
@@ -1254,7 +1506,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 24,
    "fresh": {
     "demand": {
      "days": 1,
@@ -1329,7 +1581,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 24 of 30 in the daily ranking: aggregate 2.62 of 5 by 3 rankers; the rankers estimate about 500 EUR in the first year, about 5000 EUR if it takes off.",
     "at": "2026-11-15T20:59:28.302Z",
     "detail": [
      "Missed the strict bar: score 2.35 is below the minimum 3.5"
@@ -1457,7 +1709,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 10,
    "fresh": {
     "demand": {
      "days": 1,
@@ -1524,7 +1776,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 10 of 30 in the daily ranking: aggregate 2.95 of 5 by 3 rankers; the rankers estimate about 700 EUR in the first year, about 5000 EUR if it takes off.",
     "at": "2026-11-15T20:59:23.466Z",
     "detail": [
      "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
@@ -1644,7 +1896,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 20,
    "fresh": {
     "demand": {
      "days": 1,
@@ -1714,7 +1966,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 20 of 30 in the daily ranking: aggregate 2.7 of 5 by 3 rankers; the rankers estimate about 800 EUR in the first year, about 5000 EUR if it takes off.",
     "at": "2026-11-15T20:59:20.906Z",
     "detail": [
      "Missed the strict bar: score 3 is below the minimum 3.5"
@@ -1834,7 +2086,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 4,
    "fresh": {
     "demand": {
      "days": 1,
@@ -1909,7 +2161,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 4 of 30 in the daily ranking: aggregate 3.2 of 5 by 3 rankers; the rankers estimate about 1000 EUR in the first year, about 60000 EUR if it takes off.",
     "at": "2026-11-15T20:59:18.714Z",
     "detail": [
      "Missed the strict bar: score 3.15 is below the minimum 3.5"
@@ -2819,7 +3071,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 30,
    "fresh": {
     "demand": {
      "days": 1,
@@ -2894,7 +3146,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 30 of 30 in the daily ranking: aggregate 2.4 of 5 by 3 rankers; the rankers estimate about 400 EUR in the first year, about 6000 EUR if it takes off.",
     "at": "2026-11-15T14:01:50.839Z",
     "detail": [
      "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
@@ -3206,7 +3458,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 8,
    "fresh": {
     "demand": {
      "days": 1,
@@ -3273,7 +3525,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 8 of 30 in the daily ranking: aggregate 3.02 of 5 by 3 rankers; the rankers estimate about 700 EUR in the first year, about 8000 EUR if it takes off.",
     "at": "2026-11-15T14:01:50.153Z",
     "detail": [
      "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
@@ -3393,7 +3645,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 9,
    "fresh": {
     "demand": {
      "days": 1,
@@ -3465,7 +3717,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 9 of 30 in the daily ranking: aggregate 2.97 of 5 by 3 rankers; the rankers estimate about 600 EUR in the first year, about 8000 EUR if it takes off.",
     "at": "2026-11-15T14:01:49.080Z",
     "detail": [
      "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
@@ -3585,7 +3837,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 14,
    "fresh": {
     "demand": {
      "days": 5,
@@ -3647,7 +3899,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 14 of 30 in the daily ranking: aggregate 2.85 of 5 by 3 rankers; the rankers estimate about 900 EUR in the first year, about 15000 EUR if it takes off.",
     "at": "2026-11-15T14:01:47.877Z",
     "detail": [
      "Missed the strict bar: score 3.15 is below the minimum 3.5"
@@ -3767,7 +4019,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 23,
    "fresh": {
     "demand": {
      "days": 131,
@@ -3834,7 +4086,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 23 of 30 in the daily ranking: aggregate 2.65 of 5 by 3 rankers; the rankers estimate about 900 EUR in the first year, about 10000 EUR if it takes off.",
     "at": "2026-11-15T14:01:45.804Z",
     "detail": [
      "Missed the strict bar: score 3 is below the minimum 3.5"
@@ -3913,222 +4165,6 @@
    },
    "createdAt": "2026-11-15T14:01:45.804Z",
    "updatedAt": "2026-11-15T14:01:45.804Z",
-   "outcome": null
-  },
-  {
-   "id": "pfic-workbook-form-8621-for-foreign-mutual-funds",
-   "title": "PFIC Workbook: Form 8621 for foreign mutual funds and ETFs, lot by lot",
-   "pitch": "For US taxpayers who hold foreign funds (Indian mutual funds of H-1B and green-card holders, UCITS ETFs of US expats). They enter each purchase lot and the yearly values, and the browser works out the default 1291 or mark-to-market figures per share and fills one IRS Form 8621 PDF per fund. If it takes off, it becomes the yearly filing tool with year-end prices already loaded for every Indian mut…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "a US green-card holder, H-1B worker or US expat who holds two to ten foreign mutual funds or ETFs and files their own return",
-    "buys": "correct per-lot 1291 or mark-to-market figures and one filled Form 8621 per fund, without paying a CPA 200-2,000 USD per fund; TurboTax and retail software do not produce the form",
-    "model": "one-off",
-    "price": "49 EUR per tax year (up to 5 funds), 10 EUR per extra fund",
-    "proof": [
-     {
-      "url": "https://www.taxesforexpats.com/services/pfic-filing.html",
-      "note": "Form 8621 priced at USD 200 for one and USD 150 for each additional; page shows no date, footer (c) 2026, seen 2026-11-15",
-      "date": "2026-11-15",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://getbelong.com/blog/mutual-funds/report-indian-mutual-funds-on-us-tax-return/",
-      "note": "CPAs charge USD 500-2,000 per fund; USD 1,000-3,000 a year for a typical Indian MF portfolio",
-      "date": "2026-03-09",
-      "ageDays": 252,
-      "age": "8 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Filers worry about getting it wrong (whether mark-to-market applies to Indian funds is disputed) and either pay a CPA anyway, or sell the funds and simply skip the form.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 4
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://getbelong.com/blog/mutual-funds/report-indian-mutual-funds-on-us-tax-return/",
-     "note": "NRI guide: cross-border CPAs charge USD 500-2,000 per fund for these calculations, most retail tax software does not support Form 8621, one form per fund",
-     "date": "2026-03-09",
-     "ageDays": 252,
-     "age": "8 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.richify.ai/us/tools/form-8621-calculator",
-     "note": "Free calculator: single lot, section 1291 only, no mark-to-market, no QEF, no filled PDF; last reviewed 10 Nov 2026",
-     "date": "2026-11-10",
-     "ageDays": 6,
-     "age": "6 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=pfic%20calculator",
-     "note": "10 suggestions incl. 'free pfic calculator', 'pfic tax calculator excel', '8621 pfic calculator', 'pfic excess distribution calculator'",
-     "date": "2026-11-15",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=form%208621",
-     "note": "10 suggestions incl. 'form 8621 instructions 2025', 'form 8621 filing threshold', 'form 8621 pfic'",
-     "date": "2026-11-15",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'pfic calculator', 'form 8621 calculator', 'pfic excess distribution calculator', 'form 8621 indian mutual funds'",
-    "first100": "In the February-April 2027 filing season, NRI filers who search 'form 8621 calculator' land on a free per-fund preview and pay to download the filled PDFs; NRI blog readers follow.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=pfic%20calculator",
-      "note": "10 autocomplete variants for the calculator intent",
-      "date": "2026-11-15",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Richify Form 8621 calculator",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "taxbracketcalc PFIC tax calculator",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Form 8621 Calculator (G2 listing)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "TaxesForExpats PFIC filing",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-15T14:01:43.635Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 3 is below 4: the need is already served; score 3.3 is below the minimum 3.5"
-    ]
-   },
-   "earns": "US filers with foreign funds pay 49 EUR per tax year (up to five funds, 10 EUR per extra fund) to get filled 8621 PDFs instead of paying a CPA 200 USD or more per form.",
-   "trigger": "standing need (Form 8621 is due with every US return, next deadline 2027-04-15)",
-   "window": "A standing gap: retail software does not do Form 8621 (Belong, March 2026), and the free calculators handle only one lot and no PDF. It stays open because the rules are hard and the payers are scatte…",
-   "score": 3.3,
-   "index": {
-    "composite": 3.35,
-    "used": {
-     "risk": 3,
-     "success": 3,
-     "monetization": 4,
-     "potential": 3,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3.35 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3.35 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 30000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 30000,
-       "basis": "Bottom-up: 10,000 search visits a year (assumed) x 2% = 200 payers x 49 EUR = 9,800 EUR when the site ranks. A new site ranks only partly in its first filing season, so about 25% of that = 2,450 EUR, minus about 100 EUR in payment fees and 20 EUR for the domain = about 2,300 EUR, rounded down to 2,000. 5,000 EUR a year needs 102 payers; reachable only in year two. Cross-check: preparers charge US…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 3,
-      "monetization": 4,
-      "potential": 3,
-      "automation": 5,
-      "rationale": "The payer has real money at stake and pays CPAs today; retail software leaves the form out. Search demand exists (autocomplete), but I could not measure it, and the newest dated demand page is from March 2026.",
-      "summary": "",
-      "concerns": [
-       "Errors carry tax consequences; it needs a clear working-shown output and a disclaimer",
-       "Mark-to-market eligibility for Indian funds is disputed among CPAs",
-       "Seasonal traffic, concentrated in Feb-Apr and October"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-15T14:01:43.635Z",
-   "updatedAt": "2026-11-15T14:01:43.635Z",
    "outcome": null
   },
   {
@@ -4534,7 +4570,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 18,
    "fresh": {
     "demand": {
      "days": 1,
@@ -4601,7 +4637,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 18 of 30 in the daily ranking: aggregate 2.8 of 5 by 3 rankers; the rankers estimate about 600 EUR in the first year, about 4000 EUR if it takes off.",
     "at": "2026-11-15T07:58:52.668Z",
     "detail": [
      "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
@@ -4721,7 +4757,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 28,
    "fresh": {
     "demand": {
      "days": 0,
@@ -4788,7 +4824,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 28 of 30 in the daily ranking: aggregate 2.45 of 5 by 3 rankers; the rankers estimate about 500 EUR in the first year, about 8000 EUR if it takes off.",
     "at": "2026-11-15T07:58:52.399Z",
     "detail": [
      "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
@@ -5287,7 +5323,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 27,
    "fresh": {
     "demand": {
      "days": 24,
@@ -5354,7 +5390,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 27 of 30 in the daily ranking: aggregate 2.45 of 5 by 3 rankers; the rankers estimate about 600 EUR in the first year, about 6000 EUR if it takes off.",
     "at": "2026-11-15T07:58:49.976Z",
     "detail": [
      "Missed the strict bar: score 2.85 is below the minimum 3.5"
@@ -5661,7 +5697,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 21,
    "fresh": {
     "demand": {
      "days": 1,
@@ -5738,7 +5774,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 21 of 30 in the daily ranking: aggregate 2.67 of 5 by 3 rankers; the rankers estimate about 600 EUR in the first year, about 5000 EUR if it takes off.",
     "at": "2026-11-15T07:58:48.888Z",
     "detail": [
      "Missed the strict bar: score 2.75 is below the minimum 3.5"
@@ -5858,7 +5894,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 7,
    "fresh": {
     "demand": {
      "days": 0,
@@ -5930,7 +5966,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 7 of 30 in the daily ranking: aggregate 3.13 of 5 by 3 rankers; the rankers estimate about 1500 EUR in the first year, about 20000 EUR if it takes off.",
     "at": "2026-11-15T07:58:47.652Z",
     "detail": [
      "Missed the strict bar: competitionGap 3 is below 4: the need is already served; score 3.4 is below the minimum 3.5"
@@ -6941,7 +6977,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 15,
    "fresh": {
     "demand": {
      "days": 2,
@@ -7013,7 +7049,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 15 of 30 in the daily ranking: aggregate 2.83 of 5 by 3 rankers; the rankers estimate about 700 EUR in the first year, about 8000 EUR if it takes off.",
     "at": "2026-11-14T19:52:45.118Z",
     "detail": [
      "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
@@ -7133,7 +7169,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 19,
    "fresh": {
     "demand": {
      "days": 2,
@@ -7208,7 +7244,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 19 of 30 in the daily ranking: aggregate 2.72 of 5 by 3 rankers; the rankers estimate about 600 EUR in the first year, about 4000 EUR if it takes off.",
     "at": "2026-11-14T19:52:44.359Z",
     "detail": [
      "Missed the strict bar: score 2.75 is below the minimum 3.5"
@@ -7328,7 +7364,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 6,
    "fresh": {
     "demand": {
      "days": 2,
@@ -7405,7 +7441,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 6 of 30 in the daily ranking: aggregate 3.15 of 5 by 3 rankers; the rankers estimate about 1300 EUR in the first year, about 8000 EUR if it takes off.",
     "at": "2026-11-14T19:52:43.581Z",
     "detail": [
      "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
@@ -7525,7 +7561,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 13,
    "fresh": {
     "demand": {
      "days": 2,
@@ -7602,7 +7638,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 13 of 30 in the daily ranking: aggregate 2.85 of 5 by 3 rankers; the rankers estimate about 800 EUR in the first year, about 6000 EUR if it takes off.",
     "at": "2026-11-14T19:52:43.255Z",
     "detail": [
      "Missed the strict bar: score 3.25 is below the minimum 3.5"
@@ -7722,7 +7758,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 12,
    "fresh": {
     "demand": {
      "days": 2,
@@ -7815,7 +7851,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 12 of 30 in the daily ranking: aggregate 2.87 of 5 by 3 rankers; the rankers estimate about 900 EUR in the first year, about 6000 EUR if it takes off.",
     "at": "2026-11-14T19:52:42.503Z",
     "detail": [
      "Missed the strict bar: score 2.55 is below the minimum 3.5"
@@ -7935,7 +7971,7 @@
     ]
    },
    "kind": "niche",
-   "rank": null,
+   "rank": 3,
    "fresh": {
     "demand": {
      "days": 2,
@@ -8010,7 +8046,7 @@
    ],
    "decision": {
     "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
+    "reason": "Ranked 3 of 30 in the daily ranking: aggregate 3.25 of 5 by 3 rankers; the rankers estimate about 1200 EUR in the first year, about 8000 EUR if it takes off.",
     "at": "2026-11-14T19:52:42.137Z",
     "detail": [
      "Missed the strict bar: score 3.1 is below the minimum 3.5"
@@ -8262,6 +8298,187 @@
    },
    "createdAt": "2026-11-14T09:24:43.505Z",
    "updatedAt": "2026-11-14T09:24:43.505Z",
+   "outcome": null
+  },
+  {
+   "id": "ksk-meldung-fuer-firmen-die-kreative-beauftragen",
+   "title": "KSK-Meldung für Firmen, die Kreative beauftragen: abgabepflichtige Honorare aus dem Buchungsexport …",
+   "pitch": "For small German agencies, shops and publishers that buy design, photography, text or music from freelancers: import a bookings or bank export, flag the fees subject to the artists' social-insurance levy (Künstlersozialabgabe), apply the 1,000 EUR de-minimis limit and the 2027 rate of 5.0%, and prepare the yearly report and a record for a pension-insurance audit.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Owner of a small German agency, online shop or publisher that buys creative work from freelancers",
+    "buys": "The list of fees subject to the levy, the yearly report and the payment schedule, so that a pension-insurance audit finds no unreported fees",
+    "model": "subscription",
+    "price": "49 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.haufe.de/personal/entgelt/kuenstlersozialabgabe-neuer-abgabensatz-liegt-vor_78_421266.html",
+      "note": "Shows the duty and the rate; no price page for a levy tool was found",
+      "date": "2026-07-16",
+      "ageDays": 123,
+      "age": "4 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "The report is one sum per category that accountants and accounting software already handle, and an AI assistant given a bank export finds the same freelancers.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 2,
+     "age": "newest source 2 days old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 123,
+     "age": "newest source 4 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.haufe.de/personal/entgelt/kuenstlersozialabgabe-neuer-abgabensatz-liegt-vor_78_421266.html",
+     "note": "Rate 5.0% in 2027 (4.9% in 2026), de-minimis limit 1,000 EUR a year since 2026-01-01, paid by companies that use artistic services",
+     "date": "2026-07-16",
+     "ageDays": 123,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=k%C3%BCnstlersozialabgabe",
+     "note": "10 variants, including 'meldung', '2027', 'freibetrag', 'buchen skr03/skr04'",
+     "date": "2026-11-14",
+     "ageDays": 2,
+     "age": "2 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'künstlersozialabgabe meldung', 'künstlersozialabgabe 2027'",
+    "first100": "Owners who search in February and March how to file the KSK report use a free checker that says whether they owe the levy, then pay to have their export classified.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=k%C3%BCnstlersozialabgabe",
+      "note": "Autocomplete shows reporting and 2027 intent",
+      "date": "2026-11-14",
+      "ageDays": 2,
+      "age": "2 days old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Accounting software with KSK accounts (SKR03/SKR0…",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Rechner-Hub KSK guide",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-14T09:24:42.889Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "49 EUR a year for the yearly report and audit record; weak, because accounting software and AI assistants cover most of it.",
+   "trigger": "Levy rate rises from 4.9% (2026) to 5.0% in 2027; de-minimis limit of 1,000 EUR a year since 2026",
+   "window": "A standing yearly report of the previous year's fees; the yearly rate and limit changes renew the question.",
+   "score": 2.45,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 6,000 visits a year (assumed) x 0.5% (assumed) = 30 payers x 49 EUR = 1,470 EUR at full run rate; in the first year with the ramp about 10 payers = 490 EUR, minus fees = about 400 EUR. 5,000 EUR a year needs 103 payers, beyond this channel. Cross-check: none."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Clear, recurring search interest, but the job is a simple sum that accounting software and AI assistants already do.",
+      "summary": "",
+      "concerns": [
+       "Free alternatives cover it",
+       "Classifying fees is close to legal advice"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-14T09:24:42.889Z",
+   "updatedAt": "2026-11-14T09:24:42.889Z",
    "outcome": null
   },
   {
@@ -15711,8 +15928,13 @@
   "checkedInAt": "2026-11-16T00:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "waiting for the owner",
-  "building": [],
+  "status": "building",
+  "building": [
+   {
+    "title": "PFIC Workbook: Form 8621 for foreign mutual funds and ETFs, lot by lot",
+    "stage": "specced"
+   }
+  ],
   "waiting": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
