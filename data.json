@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T05:05:02.769Z",
+ "generatedAt": "2026-11-16T05:11:25.592Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -9,9 +9,9 @@
   "total": 91,
   "live": 0,
   "staging": 2,
-  "building": 1,
+  "building": 0,
   "queued": 42,
-  "parked": 2,
+  "parked": 3,
   "declined": 44,
   "nonDigital": 0,
   "worthDomain": 0
@@ -23,8 +23,8 @@
    "pitch": "For US taxpayers who hold foreign funds (Indian mutual funds of H-1B and green-card holders, UCITS ETFs of US expats). They enter each purchase lot and the yearly values, and the browser works out the default 1291 or mark-to-market figures per share and fills one IRS Form 8621 PDF per fund. If it takes off, it becomes the yearly filing tool with year-end prices already loaded for every Indian mut…",
    "platform": "web",
    "marketLabel": "Global",
-   "status": "building",
-   "statusLabel": "Being built",
+   "status": "parked",
+   "statusLabel": "Paused",
    "prototype": false,
    "origin": "Niche scout",
    "money": {
@@ -162,9 +162,9 @@
     }
    ],
    "decision": {
-    "by": "daily pool",
-    "reason": "Built as the day's prototype: ranked first in the daily pool (aggregate 3.65 of 5 by 3 independent rankers). The studio builds the best candidate of the day whatever its score; it missed the strict bar because: competitionGap 3 is below 4: the need is already served; score 3.3 is below the minimum 3.5.",
-    "at": "2026-11-16T01:56:37.536Z",
+    "by": "orchestrator",
+    "reason": "QA still failing after 3 rounds: The 2017 interest limit is not stated where the buyer decides to pay. Add 'Interest on line 16f is available for holding periods that start in 2017 or later. Earlier holdings are blocked, not estimated.' to /pricing, to the locked panel and as a .pencil-note near the paste area, and add a claims te…",
+    "at": "2026-11-16T05:11:24.064Z",
     "detail": []
    },
    "trigger": "standing need (Form 8621 is due with every US return, next deadline 2027-04-15)",
@@ -266,7 +266,7 @@
     "live": null
    },
    "createdAt": "2026-11-16T01:56:37.536Z",
-   "updatedAt": "2026-11-16T05:05:01.258Z",
+   "updatedAt": "2026-11-16T05:11:24.064Z",
    "outcome": null
   },
   {
@@ -15962,13 +15962,8 @@
   "checkedInAt": "2026-11-16T03:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
-  "status": "building",
-  "building": [
-   {
-    "title": "PFIC Workbook: Form 8621 for foreign mutual funds and ETFs, lot by lot",
-    "stage": "qa"
-   }
-  ],
+  "status": "waiting for the owner",
+  "building": [],
   "waiting": [
    {
     "title": "Zitatumzug: Citavi-Nachweise in Word zu Zotero umwandeln",
