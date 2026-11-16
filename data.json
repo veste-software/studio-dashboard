@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T04:20:43.077Z",
+ "generatedAt": "2026-11-16T04:27:32.343Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -266,7 +266,7 @@
     "live": null
    },
    "createdAt": "2026-11-16T01:56:37.536Z",
-   "updatedAt": "2026-11-16T04:20:41.629Z",
+   "updatedAt": "2026-11-16T04:27:30.978Z",
    "outcome": null
   },
   {
@@ -15966,7 +15966,7 @@
   "building": [
    {
     "title": "PFIC Workbook: Form 8621 for foreign mutual funds and ETFs, lot by lot",
-    "stage": "building"
+    "stage": "qa"
    }
   ],
   "waiting": [
