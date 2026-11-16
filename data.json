@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T18:00:31.232Z",
+ "generatedAt": "2026-11-16T21:22:47.971Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,1932 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "line-booth-voice-over-line-tracking-for-indie-na",
+   "title": "Line Booth: voice-over line tracking for indie narrative games",
+   "pitch": "For indie narrative games (Ren'Py, Yarn Spinner, Ink or CSV scripts): import the script, generate per-actor recording scripts with line IDs and file names, then drop the delivered audio files into the browser to see missing, extra and misnamed takes plus duration and loudness outliers, and export the engine's voice mapping. Nothing is uploaded.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "An indie studio commissioning voice acting for a visual novel or narrative game",
+    "buys": "Fewer missing or misnamed voice files at integration time, which saves rework on a voice budget of thousands",
+    "model": "one-off",
+    "price": "29 EUR once per project",
+    "proof": [
+     {
+      "url": "https://forsythiaproductions.itch.io/of-sense-and-soul/devlog/524259/ingthings-remote-va-script-template",
+      "note": "No paid price was found for this job; the common answer is a free template (proof against).",
+      "date": "2023-06-01",
+      "ageDays": 1264,
+      "age": "3 years 6 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "A free spreadsheet template is good enough for most indie projects.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 1264,
+     "age": "newest source 3 years 6 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://forsythiaproductions.itch.io/of-sense-and-soul/devlog/524259/ingthings-remote-va-script-template",
+     "note": "Indie teams coordinate remote voice acting with a Google Sheets template: take tracking, file names for Ren'Py auto-voice, retakes. It is free, which is evidence against payment. Posted about 2023.",
+     "date": "2023-06-01",
+     "ageDays": 1264,
+     "age": "3 years 6 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=ren%27py%20voice%20acting",
+     "note": "Autocomplete returned no suggestions, so search volume is very low.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.audiokinetic.com/en/blog/speechless",
+     "note": "Seen in search results only: Speechless, a voice-over asset management system built on Wwise.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Ren'Py and Yarn voice-file queries, plus an itch.io tools listing",
+    "first100": "Visual novel developers integrating voice files find it from a Ren'Py voice guide page and run the free file check.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=ren%27py%20voice%20acting",
+      "note": "No autocomplete suggestions.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Speechless",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Backlight Gem",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Remote VA script template",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:47.746Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A one-off licence per project.",
+   "trigger": "standing need",
+   "window": "No deadline. Studio-grade tools are enterprise or tied to Wwise, and indies use spreadsheets.",
+   "score": 2.35,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 1,200 visits (assumed) at 2% gives 24 licences at 29 EUR, so about 700 EUR, minus fees, gives about 650 EUR; I take 300 EUR because no one was seen paying. Cross-check: none. 5,000 EUR a year needs about 170 licences, far beyond this channel."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 5,
+      "rationale": "The gap is real but the demand and payer are weak.",
+      "summary": "",
+      "concerns": [
+       "No evidence of payment",
+       "Tiny search volume"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:47.746Z",
+   "updatedAt": "2026-11-16T21:22:47.746Z",
+   "outcome": null
+  },
+  {
+   "id": "coach-desk-own-booking-and-session-packages-for",
+   "title": "Coach Desk: own booking and session packages for game coaches",
+   "pitch": "A booking page for esports and game coaches who already have an audience: session packages, VOD-review requests with a file link, and a schedule, paid into the coach's own Stripe account for a flat fee instead of a marketplace cut.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A game coach selling 20 or more sessions a month to their own followers",
+    "buys": "Booking and payment without a 12% cut, and without risking the account on one marketplace",
+    "model": "subscription",
+    "price": "12 EUR a month",
+    "proof": [
+     {
+      "url": "https://creatoreconomytools.com/alternatives/metafy",
+      "note": "Seen in search snippet: coaches pay 12% plus USD 1.79 per transaction, or USD 99 a month, on the leader.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Calendly with Stripe or Whop already does it, and Metafy is well rated, so coaches see no reason to move.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.trustpilot.com/review/metafy.gg",
+     "note": "Metafy: 4.2 out of 5 from 63 reviews (24 in the last 12 months). On 2026-06-15 a coach complained that their account was disabled with lost earnings. The newest reviews (to 2026-10-05) are positive.",
+     "date": "2026-10-05",
+     "ageDays": 42,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://creatoreconomytools.com/tool/metafy",
+     "note": "2026 review page; the opened page says only that pricing varies by coach and session.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://creatoreconomytools.com/alternatives/metafy",
+     "note": "Seen in search results only: the snippet listed a Core plan at 12% plus USD 1.79 per transaction (capped at 30%) and a Pro plan at USD 99 a month; alternatives named include E-pal and Karat.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'metafy alternative' and 'how to sell gaming coaching'",
+    "first100": "Coaches with a stream or YouTube audience search for a way to sell sessions directly and set up a page in minutes.",
+    "proof": [
+     {
+      "url": "https://www.trustpilot.com/review/metafy.gg",
+      "note": "24 reviews of the leader in 12 months, so this is a small segment.",
+      "date": "2026-10-05",
+      "ageDays": 42,
+      "age": "6 weeks old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Metafy",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Metafy alternatives (E-pal, Karat)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:44.573Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Coaches pay a flat monthly fee.",
+   "trigger": "standing need",
+   "window": "No deadline; the leader is healthy.",
+   "score": 2.1,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 3,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 80,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 2,000 visits (assumed) at 1% gives 20 coaches averaging 5 months at 12 EUR, so 1,200 EUR, minus fees and hosting, gives about 1,000 EUR; I take 400 EUR because generic tools cover the job. Cross-check: the leader's 24 reviews a year suggest a small paying base. 5,000 EUR a year needs about 35 coaches all year, which is not reachable through this channel."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "The payer and the fee exist on the leader, but generic booking tools and a healthy leader leave little gap.",
+      "summary": "",
+      "concerns": [
+       "Generic tools already do this",
+       "Small segment",
+       "Payment support"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:44.573Z",
+   "updatedAt": "2026-11-16T21:22:44.573Z",
+   "outcome": null
+  },
+  {
+   "id": "hint-screen-browser-hint-display-and-timer-for-s",
+   "title": "Hint Screen: browser hint display and timer for small escape rooms",
+   "pitch": "For escape rooms with one to four rooms: the game master sends text and image hints from a laptop to the room's TV, which runs the countdown, hint count and an end screen with the escape time for the team photo. It runs in a browser with no install.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "The owner of a small escape room business",
+    "buys": "A reliable hint and timer screen without installing a suite",
+    "model": "subscription",
+    "price": "19 EUR a month per location",
+    "proof": [
+     {
+      "url": "https://buzzshot.com/pricing/",
+      "note": "Escape rooms pay GBP 25 a month and up for adjacent game-master tools.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "At least three established suites (plus Houdini MC, HintControl, ClueMaster, Tempus and MORTY, seen in search) already do this, and small rooms use free slideshow hacks.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://buzzshot.com/pricing/",
+     "note": "Escape rooms pay GBP 25 to 410 a month for player tools (photos, waivers, game master app, dashboard). The page mentions no hints. Copyright 2026.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://escaperoommaster.com/",
+     "note": "Game master timer and clue display with props integration; per-location pricing is not shown. The footer says 2015 to 2017.",
+     "date": "2017-12-31",
+     "ageDays": 3242,
+     "age": "8 years 11 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'escape room hint system' and 'escape room timer software'",
+    "first100": "New escape room owners searching for a hint screen try the browser version during setup.",
+    "proof": [
+     {
+      "url": "https://buzzshot.com/pricing/",
+      "note": "Vendors sell to escape rooms through their websites, so this is a search-led category.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Escape Room Master",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "ClueCommand",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Buzzshot",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:44.202Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "A flat monthly fee per location, below suite prices.",
+   "trigger": "standing need",
+   "window": "No deadline; the market is mature and crowded.",
+   "score": 2.3,
+   "index": {
+    "composite": 2.3,
+    "used": {
+     "risk": 3,
+     "success": 1,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.3 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.3 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 600,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 600,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 2,000 visits (assumed) at 1% gives 20 locations averaging 5 paid months at 19 EUR, so 1,900 EUR, minus 120 EUR for a realtime relay and fees, gives about 1,650 EUR; I take 600 EUR for the crowding. Cross-check: none with a customer count. 5,000 EUR a year needs about 22 locations all year, which is unlikely against established suites."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 1,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "The payer clearly pays monthly in this industry, but there are three or more solid alternatives.",
+      "summary": "",
+      "concerns": [
+       "Crowded",
+       "A realtime failure mid-game damages a paid session",
+       "Support requests during opening hours"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:44.202Z",
+   "updatedAt": "2026-11-16T21:22:44.202Z",
+   "outcome": null
+  },
+  {
+   "id": "string-preflight-in-browser-checks-of-game-trans",
+   "title": "String Preflight: in-browser checks of game translations against your fonts",
+   "pitch": "Drop your game's string tables (CSV, PO, JSON, XLIFF, Ren'Py translation files) and font files into the browser. It flags broken placeholders and rich-text tags per engine (Unity TextMeshPro, Godot BBCode, Ren'Py), missing, empty and untranslated strings, text that overflows a length budget, and every character the fonts cannot draw, then exports a character-set file for font atlases. Nothing is …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small indie studio shipping its game in five or more languages, including Chinese, Japanese, Korean or Cyrillic",
+    "buys": "Catching missing glyphs (boxes on screen) and broken tags before release, which saves a patch and a review-bomb risk after spending thousands on translation",
+    "model": "one-off",
+    "price": "39 EUR once per project",
+    "proof": [
+     {
+      "url": "https://forums.unrealengine.com/t/ecal-studios-loccheck-localization-qa-and-table-management/2720783",
+      "note": "The same checks are sold as a marketplace tool for Unreal (the Fab price was not shown on the page).",
+      "date": "2026-05-08",
+      "ageDays": 192,
+      "age": "6 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Developers write a short script or use the free CLI and Preflight, and translation platforms already include QA checks.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 192,
+     "age": "newest source 6 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://forums.unrealengine.com/t/ecal-studios-loccheck-localization-qa-and-table-management/2720783",
+     "note": "LocCheck launched for Unreal with placeholder, rich-text tag, length and font glyph coverage checks. This shows the job is productised, but only for Unreal.",
+     "date": "2026-05-08",
+     "ageDays": 192,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=game%20localization%20qa%20tool",
+     "note": "Autocomplete returned no suggestions, so search volume is low.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://loxily.com/en/blog/game-localization-qa-checklist",
+     "note": "Seen in search results only: a 2026 localization QA checklist for games.",
+     "date": "2026-05-13",
+     "ageDays": 187,
+     "age": "6 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Queries about missing glyphs and placeholder errors per engine, plus an itch.io tools listing",
+    "first100": "Developers who just saw tofu boxes in their Chinese build search the error, try the free check on one file and buy the full report.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=game%20localization%20qa%20tool",
+      "note": "No suggestions, so the channel is thin.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "LocCheck",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Game Localization QA Preflight",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "godot-localization-qa-guard",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:42.765Z",
+    "detail": [
+     "Missed the strict bar: score 2.45 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A one-off licence per project, sold on the site and on itch.io.",
+   "trigger": "standing need",
+   "window": "No deadline. The full check set exists only inside Unreal (LocCheck), and the engine-agnostic tools skip font coverage.",
+   "score": 2.45,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 2,000 visits (assumed) at 2% gives 40 licences at 39 EUR, so 1,560 EUR, minus fees, gives about 1,450 EUR; I take 800 EUR because search volume looks thin. Cross-check: none; LocCheck's price and sales were not visible. 5,000 EUR a year needs about 130 licences, which this channel does not reach."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A real technical gap outside Unreal, but low search volume and free scripts limit payment.",
+      "summary": "",
+      "concerns": [
+       "Low search volume",
+       "Free command-line alternatives",
+       "One-off sales without recurrence"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:42.765Z",
+   "updatedAt": "2026-11-16T21:22:42.765Z",
+   "outcome": null
+  },
+  {
+   "id": "hangul-run-a-korean-reading-action-game-for-stea",
+   "title": "Hangul Run: a Korean-reading action game for Steam and mobile",
+   "pitch": "A short-session action roguelite in which reading Hangul and basic Korean words is the combat mechanic, for the worldwide audience learning Korean through K-pop and K-drama. Daily runs, streaks and a shareable score.",
+   "platform": "game",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A teenage or adult learner of Korean who games on PC or phone",
+    "buys": "An entertaining way to learn to read Hangul",
+    "model": "one-off",
+    "price": "5.50 EUR once (5.99 USD)",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/app/1255040/",
+      "note": "A Hangul-learning game sells at EUR 4.99 with 84 reviews.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Duolingo and free Hangul apps teach the same thing at no cost.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://store.steampowered.com/app/1255040/",
+     "note": "Let's Learn Korean! Hangul: released 2020-03-09, EUR 4.99, 94% of 84 reviews positive. Players pay, but volume is small. Read on 2026-11-16.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/api/storesearch/?term=learn%20korean&l=english&cc=US",
+     "note": "Six Korean-learning items on Steam: two Let's Learn Korean titles (USD 4.99), an Influent DLC (USD 4.99), Lang Ops: Korean (USD 5.70), Janggi and the upcoming Jinjja World MMO.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Steam, tags Education and Roguelite; the App Store and Google Play education categories",
+    "first100": "Learners searching 'learn korean' on Steam or the app stores find it next to the older course games and buy it for the game feel.",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/api/storesearch/?term=learn%20korean&l=english&cc=US",
+      "note": "Steam search for 'learn korean' returns a small paid shelf.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Let's Learn Korean! Hangul",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Lang Ops: Korean, Influent DLC and Jinjja World",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:41.642Z",
+    "detail": [
+     "Missed the strict bar: score 2.55 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A one-off purchase on Steam and as a premium mobile app.",
+   "trigger": "standing need",
+   "window": "No deadline. A few small titles exist and an MMO is upcoming; nothing dominant.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.45,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.45 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.45 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 15000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 15000,
+       "basis": "Bottom-up: 20,000 store visits (assumed) at 2% gives 400 copies at 5.50 EUR, minus 30%, so about 1,540 EUR, minus about 225 EUR in store fees, gives about 1,300 EUR; I take 1,000 EUR. Cross-check: the leader's 84 reviews times a common 30 to 50 sales per review is 2,500 to 4,200 copies over six years at EUR 4.99, about 12,000 to 21,000 EUR gross, or 2,000 to 3,500 EUR a year, which is consistent.…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "Players pay a small price in a small shelf. It does not make a better case than a web idea.",
+      "summary": "",
+      "concerns": [
+       "Free learning apps",
+       "Native pronunciation audio needs licensed text-to-speech or a recording",
+       "Small audience"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:41.642Z",
+   "updatedAt": "2026-11-16T21:22:41.642Z",
+   "outcome": null
+  },
+  {
+   "id": "table-clock-table-time-cover-charges-and-game-li",
+   "title": "Table Clock: table time, cover charges and game-library checkout for board game cafés",
+   "pitch": "A browser app for one counter tablet in a board game café: per-table timers with automatic hourly, block or cover pricing, which games are out at which table (with missing pieces logged on return), and member prepaid visits. It works offline and shows a total to key into the existing POS.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "The owner of a board game café or tabletop bar",
+    "buys": "Billing table time correctly and tracking games and missing pieces. It prevents unbilled hours (cover charges are 20 to 30% of revenue per a bookkeeping blog seen in search) without a Windows PC or a custom build.",
+    "model": "subscription",
+    "price": "15 EUR a month per location",
+    "proof": [
+     {
+      "url": "https://handycafe.com/en/blog/board-game-cafe-timing-and-billing",
+      "note": "A vendor sells table-timing software to board game cafés (free tier for 2 stations, paid tiers implied); no price shown.",
+      "date": "2026-07-17",
+      "ageDays": 122,
+      "age": "4 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Cafés already cope with their POS plus paper or a spreadsheet, and CafeTimer's free tier covers small ones.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 122,
+     "age": "newest source 4 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://handycafe.com/en/blog/board-game-cafe-timing-and-billing",
+     "note": "Explains that coffee-shop tills do not bill table hours, and lists what cafés need: table timers, automatic rates, combined bills, offline billing and memberships. CafeTimer is Windows-only with a fr…",
+     "date": "2026-07-17",
+     "ageDays": 122,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.twicecommerce.com/rent/boardgames",
+     "note": "TWICE offers QR library browsing and checkout for board game cafés. The page does not mention table time, cover charges or POS. Copyright 2026.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://community.squareup.com/t5/Orders-Menu-Items-Catalog/Board-Game-Cafe-Memberships-amp-Open-Tabs-for-Self-Order-and-Pay/m-p/843400",
+     "note": "Seen in search results only: café owners work around cover fees and memberships in Square.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'board game cafe software' and 'board game cafe table timer' queries",
+    "first100": "Owners searching for a way to bill table time try the free version on their counter tablet and subscribe when they want more tables and the library.",
+    "proof": [
+     {
+      "url": "https://handycafe.com/en/blog/board-game-cafe-timing-and-billing",
+      "note": "A competitor publishes content for this exact query family, which shows the search channel is used.",
+      "date": "2026-07-17",
+      "ageDays": 122,
+      "age": "4 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "HandyCafe CafeTimer",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "TWICE",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Square workarounds",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:40.738Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Café owners pay a small monthly subscription per location after a free trial.",
+   "trigger": "standing need",
+   "window": "No deadline. Cafés stitch a POS, a booking tool and a catalog together, and the one timing tool found is Windows-only.",
+   "score": 2.35,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 30,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 3,000 visits (assumed) at 1% gives 30 cafés averaging 5 paid months at 15 EUR, so 2,250 EUR, minus fees, gives about 2,100 EUR. I use 1,000 EUR because no price for this job was confirmed. Cross-check: none; neither CafeTimer's nor TWICE's price was shown. 5,000 EUR a year needs about 28 cafés all year, which is above what this channel reaches."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The chore and the workarounds are documented, but no price is shown and the audience is small.",
+      "summary": "",
+      "concerns": [
+       "Small number of cafés worldwide",
+       "Single-device local data can be lost without a backup or export",
+       "Owners expect POS integration"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:40.738Z",
+   "updatedAt": "2026-11-16T21:22:40.738Z",
+   "outcome": null
+  },
+  {
+   "id": "gammon-run-a-backgammon-roguelike-for-steam-and",
+   "title": "Gammon Run: a backgammon roguelike for Steam and mobile",
+   "pitch": "A short-run roguelike on classic backgammon: special dice, board modifiers and checker upgrades between matches, with a daily seeded run and a shareable score. It is built in Phaser for Steam (Electron) and later mobile (Capacitor), for the worldwide backgammon audience.",
+   "platform": "game",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A PC or mobile player who likes backgammon and roguelikes",
+    "buys": "A finished game: a one-off purchase for entertainment",
+    "model": "one-off",
+    "price": "6.50 EUR once (6.99 USD on Steam)",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/api/storesearch/?term=backgammon&l=english&cc=US",
+      "note": "Backgammon games sell on Steam at USD 3.99 to 24.99.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Free backgammon apps are everywhere, and the four roguelikes in development may ship first and better.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://store.steampowered.com/api/storesearch/?term=backgammon&l=english&cc=US",
+     "note": "8 backgammon titles on Steam priced USD 3.99 to 24.99. Players pay for backgammon on Steam.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/api/appdetails?appids=5076720&filters=basic,genres,categories,release_date,price_overview",
+     "note": "Cursed Backgammon is coming soon: a narrative backgammon against cheating opponents. Its page does not call it a roguelike.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.gamingonlinux.com/2026/08/dominocalypse-brings-some-clever-ideas-to-puzzle-roguelikes-with-dominoes/",
+     "note": "A dominoes roguelike inspired by Balatro released on 2026-08-10, rated 3.5 out of 5.",
+     "date": "2026-08-20",
+     "ageDays": 88,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://nodal.gg/game/double-skunk-4783460",
+     "note": "A cribbage roguelite deckbuilder is listed for Q4 2026, which shows the same pattern spreading.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Steam, tags Roguelike, Board Game and Dice; later the Google Play and App Store board game categories",
+    "first100": "Players browsing roguelike and board-game tags, or searching backgammon on Steam, wishlist from the store page and buy at launch or in a sale.",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/api/storesearch/?term=backgammon&l=english&cc=US",
+      "note": "Steam search lists backgammon titles; this category is where buyers look.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Grand Gammon",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Backgaminion",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Dice x Deck",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Cursed Backgammon",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:40.208Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Players buy it once on Steam (about 6.99 USD) and later on mobile as a premium app.",
+   "trigger": "Wave of Balatro-style roguelikes built on traditional games (dominoes released August 2026, cribbage due Q4 2026)",
+   "window": "Closing: at least four backgammon roguelikes are in development (Grand Gammon, Deckgammon, Backgaminion, Dice x Deck), and the first strong release will take the niche.",
+   "score": 2.5,
+   "index": {
+    "composite": 2.45,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.45 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.45 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1200,
+     "upsideEur": 40000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1200,
+       "upsideEur": 40000,
+       "basis": "Bottom-up: 30,000 store-page visits (assumed) at 2% gives 600 copies at 6.50 EUR, minus Steam's 30%, so about 2,700 EUR, minus the 100 USD app fee. I take 1,200 EUR because four competitors may launch first. Cross-check: none possible; Steam review counts for comparables could not be read. 5,000 EUR a year needs about 1,100 copies; that requires a featured launch or a viral clip."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "Players pay for this genre, but the niche is filling fast. It does not beat a web idea on evidence.",
+      "summary": "",
+      "concerns": [
+       "Crowded with upcoming releases",
+       "Game sales without marketing are often tiny",
+       "Store fees and submissions are human work"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:40.208Z",
+   "updatedAt": "2026-11-16T21:22:40.208Z",
+   "outcome": null
+  },
+  {
+   "id": "loc-lead-radar-rising-steam-games-that-lack-your",
+   "title": "Loc Lead Radar: rising Steam games that lack your language",
+   "pitch": "A weekly, filterable list of upcoming and newly released Steam games that are gaining attention but do not support a given language (Simplified Chinese, Japanese, Korean, German, Brazilian Portuguese and others). Each entry links the developer's public website, for localization agencies, freelance game translators and porting studios looking for clients.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A small game localization agency, a freelance game translator team or a porting studio prospecting for clients",
+    "buys": "A ready weekly list of target games by missing language. This replaces hours of manual browsing on Steam per week.",
+    "model": "subscription",
+    "price": "29 EUR a month",
+    "proof": [
+     {
+      "url": "https://gamalytic.com/pricing",
+      "note": "Businesses pay USD 30 to 90 a month for Steam game data. It is a close job, but for a different buyer.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Agencies already browse SteamDB for free and win work at events, on LinkedIn and through publisher relationships, so leads by language gap may not convert.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://gamalytic.com/pricing",
+     "note": "Steam data sells for USD 30 a month (Starter) and USD 90 a month (Professional), with wishlist estimates for upcoming games. The page mentions no language-gap filter, contacts or lead lists. Copyrigh…",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/api/appdetails?appids=5076720&filters=basic,genres,categories,release_date,price_overview",
+     "note": "Steam's public app endpoint returns structured data for unreleased games (Cursed Backgammon, 'coming soon'), so a pipeline can read per-app data.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Queries such as 'steam games without chinese localization', with public weekly summary pages per language",
+    "first100": "Agency sales staff find a free weekly page for their language, see that the games listed are real prospects and subscribe for the full list and export.",
+    "proof": [
+     {
+      "url": "https://gamalytic.com/pricing",
+      "note": "A paid Steam-data niche exists. The search volume for the vendor queries was not measured.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Gamalytic",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:38.971Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Localization agencies and porting studios pay a monthly subscription for the weekly filtered lead list and an export.",
+   "trigger": "standing need",
+   "window": "No deadline. Steam analytics vendors sell to developers and publishers, not to service vendors hunting for clients by language gap.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1200,
+     "upsideEur": 10000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1200,
+       "upsideEur": 10000,
+       "basis": "Bottom-up: 2,500 visits (assumed) at 1% gives 25 subscribers averaging 4 paid months at 29 EUR, so 2,900 EUR, minus fees and costs, gives about 2,700 EUR. I take 1,200 EUR because demand is unverified. Cross-check: Gamalytic's 30 to 90 USD plans show the price level, but its customer count is unknown. 5,000 EUR a year needs about 15 subscribers all year; the channel is unproven for this."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The buildability fits the owner's data strengths and the price level is shown, but demand from this buyer is not evidenced.",
+      "summary": "",
+      "concerns": [
+       "Valve's terms for commercial use of storefront endpoints are not verified",
+       "Vendors may not buy leads",
+       "Follower or wishlist signals may need extra data sources"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:38.971Z",
+   "updatedAt": "2026-11-16T21:22:38.971Z",
+   "outcome": null
+  },
+  {
+   "id": "seat-ledger-campaign-seats-and-subscriptions-for",
+   "title": "Seat Ledger: campaign seats and subscriptions for paid game masters",
+   "pitch": "For professional TTRPG game masters who run paid campaigns with their own players: one page per campaign with seat subscriptions through the GM's own Stripe account, a waitlist, the session schedule, automatic access pause on a failed payment, and a payout ledger. It costs a flat fee instead of a 15% commission. Later it could serve gaming coaches selling session packages.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A professional game master running two to four paid tables with players they already know (from Discord or regulars)",
+    "buys": "Seat billing, a waitlist and access control without a 15% commission. A GM grossing 600 USD a month gives up 90 USD to the marketplace today.",
+    "model": "subscription",
+    "price": "12 EUR a month",
+    "proof": [
+     {
+      "url": "https://intercom.help/startplaying/en/articles/14724019-what-does-the-15-fee-cover",
+      "note": "GMs pay 15% of every booking today for booking and payment handling.",
+      "date": "2026-04-22",
+      "ageDays": 208,
+      "age": "7 months old",
+      "tier": "ok"
+     },
+     {
+      "url": "https://scrollpay.vercel.app/blog/how-to-monetize-dnd-campaign-paid-dm",
+      "note": "A direct tool for the same job charges USD 19.99 once during early access.",
+      "date": "2026-03-24",
+      "ageDays": 237,
+      "age": "8 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "GMs need StartPlaying's player discovery and cannot move listed games off it. GMs with their own players use a free Stripe payment link or Patreon, and ScrollPay's 19.99 USD lifetime deal undercuts a subscription.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 208,
+     "age": "newest source 7 months old",
+     "tier": "ok",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://intercom.help/startplaying/en/articles/14724019-what-does-the-15-fee-cover",
+     "note": "StartPlaying deducts 15% from GM bookings. The fee does not cover campaign management tools, and taking payment off-platform for listed games breaks its terms.",
+     "date": "2026-04-22",
+     "ageDays": 208,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://scrollpay.vercel.app/blog/how-to-monetize-dnd-campaign-paid-dm",
+     "note": "ScrollPay sells Stripe subscriptions for paid DMs with Roll20 access control at USD 19.99 lifetime early access before 'monthly pricing'.",
+     "date": "2026-03-24",
+     "ageDays": 237,
+     "age": "8 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=startplaying%20alternative",
+     "note": "Autocomplete returns 'startplaying alternatives' and 'startplaying games alternative'.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'startplaying alternatives' and 'how to get paid as a DM' queries, plus a comparison page",
+    "first100": "GMs with a full table of regulars search for a cheaper way to bill them, read a fee comparison page and set up their first campaign page in minutes.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=startplaying%20alternative",
+      "note": "Two autocomplete variants for alternatives to the leader.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "StartPlaying",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "ScrollPay",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:38.547Z",
+    "detail": [
+     "Missed the strict bar: score 2.9 is below the minimum 3.5"
+    ]
+   },
+   "earns": "GMs pay a flat monthly fee. It pays for itself once a GM grosses about 80 EUR a month that would otherwise lose 15%.",
+   "trigger": "standing need",
+   "window": "No deadline. It stays open because the marketplace leader does not cover campaign management and takes 15%. ScrollPay entered in 2026 with a similar pitch, so the window narrows as it moves to monthl…",
+   "score": 2.9,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 80,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1800,
+     "upsideEur": 12000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1800,
+       "upsideEur": 12000,
+       "basis": "Bottom-up: 4,000 visits (assumed) at 1% gives 40 GMs averaging 5 paid months at 12 EUR, so 2,400 EUR, minus about 200 EUR in fees and 80 EUR in hosting, gives about 2,100 EUR. I use 1,800 EUR for churn. Cross-check: the leader takes 15% of an average 15 to 20 USD session (StartPlaying help per search results), and ScrollPay's price is 19.99 USD once. No revenue figure for a comparable was found. …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "The payer and the commission are documented, and a new entrant confirms the thesis. Willingness to pay a subscription rather than a lifetime deal is unproven.",
+      "summary": "",
+      "concerns": [
+       "ScrollPay may lock in the segment with lifetime deals",
+       "Payment disputes and support questions could need a person",
+       "Small audience"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:38.547Z",
+   "updatedAt": "2026-11-16T21:22:38.547Z",
+   "outcome": null
+  },
+  {
+   "id": "dayroom-games-big-screen-group-games-for-care-ho",
+   "title": "Dayroom Games: big-screen group games for care-home activity coordinators",
+   "pitch": "A library of large-print group games built for the lounge TV in care homes, assisted living and adult day centres: caller-led picture bingo, finish-the-saying, decade quizzes and guess-the-object rounds. The coordinator runs them from a laptop or tablet with no preparation. It stores no resident data and works offline once loaded. If it takes off, a free weekly game page becomes the thing coordin…",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "The activity coordinator or activities director of a care home, assisted-living community or adult day centre, paying with the home's card",
+    "buys": "Prep-free group sessions every day: ready games that fill 30 to 45 minutes on the lounge TV. This replaces hours of printing and preparation, or a paid hosted programme.",
+    "model": "subscription",
+    "price": "19 EUR a month or 159 EUR a year per home",
+    "proof": [
+     {
+      "url": "https://www.rendever.com/rendeverlive/pricing",
+      "note": "Senior-living communities pay USD 49 to 99 a month for programming that includes live bingo and trivia: a near job with a published price.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Coordinators fill sessions with free YouTube quizzes, printable bingo and RendeverLive's free tier, and spending needs head-office approval.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.rendever.com/rendeverlive/pricing",
+     "note": "Senior-living communities pay USD 49 a month (Energize, 30 sessions) or USD 99 a month (Thrive) for live programming that includes bingo and trivia. A free tier has 5 credits a month. The page shows …",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=group%20games%20for%20dementia",
+     "note": "Google autocomplete returns 10 variants (patients, residents, seniors, adults, party games, alzheimer's), which shows standing search demand.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://apps.apple.com/gb/app/my-life-tv-dementia-friendly/id1575247352",
+     "note": "Seen in search results only: a dementia-friendly TV app sold to care homes at GBP 299.99 a year according to the search summary. Not opened.",
+     "date": "2026-11-16",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries such as 'group games for dementia patients' and 'group activities for dementia residents', with one free playable game per query page",
+    "first100": "Coordinators searching for group activity ideas land on a free playable game page, run it with residents the same day and subscribe for the full library.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=group%20games%20for%20dementia",
+      "note": "10 autocomplete variants for the core query family.",
+      "date": "2026-11-16",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "RendeverLive",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "My Life TV",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Activity Connection",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Big Screen Fun GAME ON!",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-16T21:22:36.718Z",
+    "detail": [
+     "Missed the strict bar: score 2.9 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Care homes pay a flat monthly or yearly subscription for the full game library. A few free games rank in search and feed the paid plan.",
+   "trigger": "standing need",
+   "window": "No deadline. The gap stays open because paid options are scheduled live programming (RendeverLive) or TV video channels, while free options are printables and YouTube videos that are not built for co…",
+   "score": 2.9,
+   "index": {
+    "composite": 3.2,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.2 is below 3.6"
+    ],
+    "yearlyCostEur": 40,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.2 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2500,
+     "upsideEur": 15000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2500,
+       "upsideEur": 15000,
+       "basis": "Bottom-up: 6,000 visits a year (assumed, ramping) at 0.5% gives 30 paying homes. Joining through the year, they average 5 paid months at 19 EUR, so 2,850 EUR, minus about 150 EUR in payment fees and 40 EUR in running costs, gives about 2,650 EUR. Cross-check: RendeverLive shows homes paying USD 49 to 99 a month, but its customer count is unknown, so the cross-check confirms the price only, not th…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The payer and the price are shown on a priced competitor. Search demand is visible but unmeasured. The content can be static and needs no resident data.",
+      "summary": "",
+      "concerns": [
+       "Care-home purchasing may go through head office",
+       "Free YouTube and printable options set a price expectation of zero",
+       "Images must be public domain or self-made, and music is excluded for copyright reasons"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-16T21:22:36.718Z",
+   "updatedAt": "2026-11-16T21:22:36.718Z",
+   "outcome": null
+  },
   {
    "id": "eudr-referenzbuch-fuer-haendler-dds-referenznumm",
    "title": "EUDR-Referenzbuch für Händler: DDS-Referenznummern je Lieferung erfassen und weitergeben",
@@ -6065,1727 +7991,6 @@
    "outcome": null
   },
   {
-   "id": "hufschmied-planer-kunden-pferde-beschlaginterval",
-   "title": "Hufschmied-Planer: Kunden, Pferde, Beschlagintervalle und Rechnungen für Hufschmiede und Hufpfleger",
-   "pitch": "For one-person farriers and barefoot trimmers: route of the day, per-horse history and reminders of the next shoeing interval, and German invoices on the spot.",
-   "platform": "pwa",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 1 of 5",
-    "legacy": false,
-    "payer": "a self-employed farrier or barefoot trimmer in Germany",
-    "buys": "fewer missed intervals and invoices written in the yard",
-    "model": "subscription",
-    "price": "6.99 EUR a month",
-    "proof": [
-     {
-      "url": "https://itunes.apple.com/search?term=hufschmied&country=de&entity=software&limit=10",
-      "note": "Best Farrier charges a subscription for the same job (amount not shown)",
-      "date": "2026-09-22",
-      "ageDays": 55,
-      "age": "8 weeks old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "HoofLedger already does it free, and general invoicing apps cover the rest.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 1
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 55,
-     "age": "newest source 8 weeks old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://itunes.apple.com/search?term=hufschmied&country=de&entity=software&limit=10",
-     "note": "HoofLedger (free, updated 2026-07-22, invoices as PDF) and Best Farrier (paid subscription after trial, updated 2026-09-22), both 0 ratings",
-     "date": "2026-09-22",
-     "ageDays": 55,
-     "age": "8 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=hufschmied%20app",
-     "note": "only the query itself: low volume",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'hufschmied app'",
-    "first100": "Farriers searching for an app find the site; most would come by word of mouth, which the studio cannot run.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=hufschmied%20app",
-      "note": "1 suggestion",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "HoofLedger",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Best Farrier",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:19.409Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Farriers pay a small monthly fee for reminders and invoices.",
-   "trigger": "standing need",
-   "window": "Standing; two apps entered in 2026 (HoofLedger German listing, Best Farrier US), none with traction.",
-   "score": 1.85,
-   "index": {
-    "composite": 1.6,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 1,
-     "potential": 1,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.6 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.6 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 200,
-     "upsideEur": 2000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 200,
-       "upsideEur": 2000,
-       "basis": "Bottom-up: 800 visits (assumed) x 1% = 8 payers x 84 EUR = 670 EUR at run-rate; with ramp about 200 EUR. 5,000 EUR needs 60 payers, out of reach. Cross-check: competitor apps have 0 ratings."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 1,
-      "potential": 1,
-      "automation": 4,
-      "rationale": "Weak: a free German-listed app exists and search demand is minimal.",
-      "summary": "",
-      "concerns": [
-       "Free competitor",
-       "Minimal search demand"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:19.409Z",
-   "updatedAt": "2026-11-16T09:13:19.409Z",
-   "outcome": null
-  },
-  {
-   "id": "batterie-qr-infoseite-konformitaetserklaerung-un",
-   "title": "Batterie-QR-Infoseite: Konformitätserklärung und Entsorgungshinweise hinter dem QR-Code ab 18. Febr…",
-   "pitch": "For small importers and brands of battery-powered products: one hosted page per battery model with the EU declaration of conformity, disposal information and the QR code for the label, kept online for the required years.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a small importer or brand that sells battery-powered products in the EU",
-    "buys": "a ready, durable info page per battery model behind the QR; avoids market-surveillance findings",
-    "model": "subscription",
-    "price": "5 EUR a month",
-    "proof": [
-     {
-      "url": "https://qr1.at/help/category/gs1-digitaler-produktpass-dpp",
-      "note": "QR management with DPP from 5 EUR a month",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "A PDF on the importer's own website plus a free QR code meets the duty at no cost.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.it-recht-kanzlei.de/qr-code-pflicht-fuer-batterien-ab-2027.html",
-     "note": "QR code from 2027-02-18, also for built-in batteries; proposal: at first only the declaration of conformity, due-diligence report and disposal information; not yet adopted",
-     "date": "2026-11-02",
-     "ageDays": 14,
-     "age": "2 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://qr1.at/help/category/gs1-digitaler-produktpass-dpp",
-     "note": "QR management with DPP from 5 EUR a month, mentions the battery QR duty from February 2027 (undated)",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'batterie qr code pflicht'",
-    "first100": "Importers reading about the February 2027 duty find a free checklist page and create their first info page.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=batterie%20qr%20code",
-      "note": "only brand queries (varta, bosch, lifepo4): weak business intent",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "qr1.at",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Any web page plus a free QR generator",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:19.139Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Importers pay a small monthly fee to host compliant battery info pages behind their QR codes.",
-   "trigger": "EU Battery Regulation 2023/1542: QR code on batteries, including built-in ones, from 2027-02-18; an amendment limiting the initial content is under discussion",
-   "window": "Three months to the date; the content rule may change (proposal not yet adopted per it-recht-kanzlei, 2026-11-02). Primary source (EUR-Lex) not opened.",
-   "score": 2.4,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 60,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: 1,000 visits (assumed) x 1% = 10 payers x 60 EUR = 600 EUR, minus hosting, about 300 EUR. 5,000 EUR needs 84 payers, out of reach. Cross-check: qr1.at's 5 EUR plan shows the low price level; customer count unknown."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "A dated duty in three months, but the job can be done free and the content rule may change.",
-      "summary": "",
-      "concerns": [
-       "Free do-it-yourself path",
-       "Rule content still changing",
-       "Hosting must stay up for years"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:19.139Z",
-   "updatedAt": "2026-11-16T09:13:19.139Z",
-   "outcome": null
-  },
-  {
-   "id": "duftstoffallergen-deklaration-nach-vo-eu-2023-15",
-   "title": "Duftstoffallergen-Deklaration nach VO (EU) 2023/1545 für Seifensieder und Naturkosmetik-Manufakture…",
-   "pitch": "For small soap and cosmetics makers in German-speaking countries: store each supplier's allergen declaration once, enter the recipe and get the allergens above 0.001% (leave-on) or 0.01% (rinse-off) for the INCI list, with a per-product record for the safety file and a relabelling plan up to 31 July 2028.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a soap or natural-cosmetics maker in Germany, Austria or Switzerland with 10 to 60 products",
-    "buys": "correct allergen lists per product from supplier declarations and a record for the safety file; avoids relabelling errors and recalls",
-    "model": "subscription",
-    "price": "59 EUR a year",
-    "proof": [
-     {
-      "url": "https://wicklabpro-m24media-web.pages.dev/",
-      "note": "allergen detection is sold as a paid Pro feature (price not shown); Aroma Forge AUD 12 a month was seen only in a search result",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "INCIfy does it free in the browser, and the safety assessor checks the label anyway as part of the paid CPSR.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.certifiedcosmetics.com/de/?p=10833",
-     "note": "CPSR provider: new products from 2026-07-31, existing products by 2028-07-31; sells label reviews and safety reports for soap",
-     "date": "2024-11-27",
-     "ageDays": 719,
-     "age": "1 year old",
-     "tier": "old"
-    },
-    {
-     "url": "https://maker-label-studio.vercel.app/guides/inci-fragrance-allergens-for-handmade-soap/",
-     "note": "Free in-browser tool INCIfy for fragrance-allergen INCI labels for handmade soap (English, undated)",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://wicklabpro-m24media-web.pages.dev/",
-     "note": "Candle app with automatic 82-allergen detection in a paid Pro tier (price not shown; footer 2025)",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'duftstoffallergene kennzeichnung', 'allergene kosmetik rechner'",
-    "first100": "Makers who read about the 2028 deadline search in German and find a worked soap example.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=duftstoffallergene%20kennzeichnung",
-      "note": "no suggestions: very low German search volume",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "INCIfy (maker-label-studio)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Aroma Forge",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "WickLab Pro",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "CPSR safety assessors",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:18.206Z",
-    "detail": [
-     "Missed the strict bar: score 2.55 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small makers pay a yearly fee to keep allergen lists and supplier declarations per product until 2028.",
-   "trigger": "Regulation (EU) 2023/1545: 80+ fragrance allergens to declare; new products from 2026-07-31, all products by 2028-07-31",
-   "window": "Until 2028-07-31 for products already on sale. Fresh tools appeared (INCIfy free, WickLab Pro, Aroma Forge), so the gap is narrowing. EUR-Lex was not opened; dates are from a CPSR provider page.",
-   "score": 2.55,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 400,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 400,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 1,500 visits (assumed) x 2% = 30 payers x 59 EUR = 1,770 EUR at run-rate; with ramp about 600 EUR, minus fees, about 400 EUR. 5,000 EUR needs 85 payers, out of reach. Cross-check: Aroma Forge's price (search result) shows some makers pay; no customer counts found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A real rule with a 2028 deadline, but a free tool exists and German search volume is near zero.",
-      "summary": "",
-      "concerns": [
-       "Free INCIfy",
-       "Very low search volume",
-       "Users may expect the tool to replace the CPSR"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:18.206Z",
-   "updatedAt": "2026-11-16T09:13:18.206Z",
-   "outcome": null
-  },
-  {
-   "id": "unterrichtsbuch-fuer-freiberufliche-musiklehrer",
-   "title": "Unterrichtsbuch für freiberufliche Musiklehrer: Stundenplan, Ausfälle, SEPA-Lastschrift und Rechnun…",
-   "pitch": "For freelance music teachers in Germany with 10 to 60 students: weekly plan, lesson log with cancellation rules, monthly invoices with the VAT-exemption note and SEPA direct-debit files for parents. If it takes off it spreads to tutors and dance teachers.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a freelance music teacher in Germany with 10 to 60 students",
-    "buys": "monthly invoices and direct-debit collection without Excel; fewer missed payments",
-    "model": "subscription",
-    "price": "6.99 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.mymusicstaff.com/pricing/",
-      "note": "teachers pay 16.95 a month for this job",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "My Music Staff already works in German, and general invoicing tools do SEPA.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.mymusicstaff.com/pricing/",
-     "note": "My Music Staff: 16.95 a month plus 4.95 per extra teacher; available in German; SEPA and VAT not mentioned (undated, footer 2026)",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://itunes.apple.com/search?term=musiklehrer&country=de&entity=software&limit=8",
-     "note": "Cadence: lesson log and cash book for independent music teachers, free up to 3 students, updated 2026-10-14, 0 ratings",
-     "date": "2026-10-14",
-     "ageDays": 33,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'musikunterricht abrechnung', 'musiklehrer software'",
-    "first100": "Teachers searching for an invoice template for lessons find a free generator and upgrade for SEPA and history.",
-    "proof": [
-     {
-      "url": "https://itunes.apple.com/search?term=musiklehrer&country=de&entity=software&limit=8",
-      "note": "store search shows mostly note-reading trainers, one admin app",
-      "date": "2026-10-14",
-      "ageDays": 33,
-      "age": "5 weeks old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "My Music Staff",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Cadence: Musiklehrer",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:15.549Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Freelance teachers pay monthly for invoices and SEPA collection that fit German practice.",
-   "trigger": "standing need",
-   "window": "Standing; the leader already offers German, so the gap is narrow.",
-   "score": 2.4,
-   "index": {
-    "composite": 2.15,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.15 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.15 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 500,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 500,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 2,000 visits (assumed) x 1% = 20 payers x 84 EUR = 1,680 EUR at run-rate; with ramp about 500 EUR. 5,000 EUR needs 60 payers, out of reach. Cross-check: My Music Staff pricing shows teachers pay; German customer count unknown."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "Payers exist but a solid German-capable leader serves them.",
-      "summary": "",
-      "concerns": [
-       "Solid leader already in German",
-       "Low search evidence"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:15.549Z",
-   "updatedAt": "2026-11-16T09:13:15.549Z",
-   "outcome": null
-  },
-  {
-   "id": "hundepension-auf-deutsch-belegung-impfstatus-und",
-   "title": "Hundepension auf Deutsch: Belegung, Impfstatus und GoBD-fähige Rechnungen",
-   "pitch": "For small German dog-boarding kennels with 10 to 40 places: occupancy plan, owner and dog records with vaccination dates, check-in and check-out, and German invoices, in German with EU hosting. If it takes off, it spreads to dog daycare and dog schools.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "the owner of a German Hundepension with 10 to 40 places",
-    "buys": "German invoices, vaccination checks and occupancy in one place instead of paper plus a booking widget; avoids admitting unvaccinated dogs and messy books",
-    "model": "subscription",
-    "price": "19 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.ki-syndikat.de/tools/gingr/",
-      "note": "Kennels pay 109-209 USD a month for Gingr for this job",
-      "date": "2026-11-07",
-      "ageDays": 9,
-      "age": "9 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "anolla's free plan plus any invoicing tool (sevDesk, Lexware) already covers it for a small kennel.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 9,
-     "age": "newest source 9 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.ki-syndikat.de/tools/gingr/",
-     "note": "Gingr costs 109-209 USD a month, no German interface shown, data held in the US; recommends German alternatives where German and EU hosting matter",
-     "date": "2026-11-07",
-     "ageDays": 9,
-     "age": "9 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://anolla.com/de/hundepensionssoftware",
-     "note": "German free plan for booking and occupancy; invoicing and vaccination records not mentioned",
-     "date": "2026-07-31",
-     "ageDays": 108,
-     "age": "4 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=hundepension%20software",
-     "note": "Only the query itself suggested: low volume",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'hundepension software', 'tierpension software'",
-    "first100": "Kennel owners comparing software find a German comparison and invoice page and start a trial.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=hundepension%20software",
-      "note": "query exists, no variants",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "anolla",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Gingr",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Time To Pet / Gespet / Kayabyte (Wix)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:15.326Z",
-    "detail": [
-     "Missed the strict bar: score 2.55 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Kennel owners pay a monthly fee for German invoices and records that the free booking tool does not provide.",
-   "trigger": "standing need",
-   "window": "Standing: the leading kennel suites are US tools priced in USD without a German interface; the German free option (anolla) does not show invoicing or vaccination records.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 120,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: 1,500 visits (assumed) x 1% = 15 payers x 228 EUR = 3,420 EUR at run-rate; with ramp about 1,300 EUR, minus a small server (120 EUR), about 1,000 EUR. 5,000 EUR needs 22 payers; reachable only with more channels. Cross-check: Gingr shows kennels pay 109+ USD a month; German customer counts unknown."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "A clear segment gap (German, EUR, invoices), but a free German booking tool exists and search volume is thin.",
-      "summary": "",
-      "concerns": [
-       "anolla may add invoicing",
-       "Low search volume",
-       "Needs storage across devices, so a backend"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:15.326Z",
-   "updatedAt": "2026-11-16T09:13:15.326Z",
-   "outcome": null
-  },
-  {
-   "id": "tagespflege-abrechnung-monatsnachweis-fuers-juge",
-   "title": "Tagespflege-Abrechnung: Monatsnachweis fürs Jugendamt und Elternrechnungen für Tagesmütter und Tage…",
-   "pitch": "For self-employed childminders with up to five children: daily attendance, monthly hours sheet for the Jugendamt, parent invoices for meals or extra hours, and the yearly figures for the tax return, stored on the device. If it takes off, childminders recommend it in their local networks.",
-   "platform": "pwa",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "a self-employed Tagespflegeperson caring for up to five children",
-    "buys": "the monthly attendance sheet and parent invoices without paperwork; avoids delayed Jugendamt payments",
-    "model": "subscription",
-    "price": "6.99 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.softguide.de/programm/kita-abrechnung",
-      "note": "79.90 EUR a month for Kita billing that names Kindertagespflege (overbuilt for one childminder)",
-      "date": "2025-03-04",
-      "ageDays": 622,
-      "age": "20 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "Each Jugendamt sends its own form, and free apps and Excel sheets already cover attendance.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 622,
-     "age": "newest source 20 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://itunes.apple.com/search?term=tagesmutter&country=de&entity=software&limit=10",
-     "note": "Childminder apps: Tagesbande (updated 2026-11-04, month-end closing and invoicing in paid Plus), 'Tagesmutter' (2026-10-17, optional subscription), mykidsplace (2024-06-21, documents for authorities)…",
-     "date": "2026-11-04",
-     "ageDays": 12,
-     "age": "12 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.softguide.de/programm/kita-abrechnung",
-     "note": "Kita billing software listing Kindertagespflege as a target group, 79.90 EUR a month, with Jugendamt subsidy handling",
-     "date": "2025-03-04",
-     "ageDays": 622,
-     "age": "20 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=tagesmutter%20abrechnung",
-     "note": "Suggestion 'abrechnung tagesmutter jugendamt'",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'abrechnung tagesmutter jugendamt'",
-    "first100": "Childminders searching how to bill the Jugendamt find an explainer and start the free trial.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=tagesmutter%20abrechnung",
-      "note": "2 suggestions",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Tagesbande",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Tagesmutter (B. Handte)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "mykidsplace",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Kita Abrechnung",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:14.790Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Childminders pay a small monthly fee for the Jugendamt sheet and parent invoices.",
-   "trigger": "standing need",
-   "window": "Standing need with three small fresh apps entering in 2026, so the window is closing rather than open.",
-   "score": 2.4,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 4,000 visits (assumed) x 1% = 40 payers x 84 EUR = 3,360 EUR at run-rate; with ramp and churn, about 1,000 EUR. 5,000 EUR needs 60 payers, not reachable in year one. Cross-check: competitor apps have 0-19 ratings, so the paying market is unproven."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A real recurring chore, but at least three cheap apps target it and none shows traction.",
-      "summary": "",
-      "concerns": [
-       "Crowded with new apps",
-       "Forms differ by Jugendamt",
-       "Low willingness to pay"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:14.790Z",
-   "updatedAt": "2026-11-16T09:13:14.790Z",
-   "outcome": null
-  },
-  {
-   "id": "maschinenakte-nach-verordnung-eu-2023-1230-fuer",
-   "title": "Maschinenakte nach Verordnung (EU) 2023/1230 für Kleinserien-Maschinenbauer und Betreiber nach wese…",
-   "pitch": "For small machine builders and plant operators who modify a machine (and so become its manufacturer from 20 January 2027): a guided browser file with risk-assessment table, list of applied standards, EU declaration of conformity per the new regulation, digital instructions and a record of software and cybersecurity measures, exported as one PDF dossier. If it takes off, each new machine or modifi…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "a machine builder with 1 to 20 staff building small series or special machines, or a manufacturing firm that modifies a machine in-house",
-    "buys": "a complete, structured technical file and declaration under the new regulation without a CE suite subscription or a consultant day; avoids a market-surveillance finding or liability gap",
-    "model": "one-off",
-    "price": "290 EUR per machine file",
-    "proof": [
-     {
-      "url": "https://www.ibf-solutions.com/shop/software/2160/safexpert-normanalyzer",
-      "note": "Safexpert packages from 99 EUR a month for the same documentation job",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Safexpert already offers a plan for sole traders, and buyers with liability at stake prefer an established vendor or a consultant over a new browser tool.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.ihk.de/halle/produktmarken/innovation-und-infrastruktur/produktsicherheit-ce-kennzeichnung/maschinenverordnung-5886622",
-     "note": "Applies from 2027-01-20; whoever makes a substantial modification becomes the manufacturer; digital declarations allowed; cybersecurity duties for machine software",
-     "date": "2026-04-01",
-     "ageDays": 229,
-     "age": "8 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=maschinenverordnung%202027",
-     "note": "10 suggestions incl. 'wesentliche veränderung', 'änderungen', 'cyber security', 'schulung'",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.ibf-solutions.com/shop/software/2160/safexpert-normanalyzer",
-     "note": "Safexpert supports 2023/1230 from version 9.1; packages from 99, 199 and 264 EUR a month; has a section for sole traders and freelancers (undated)",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'maschinenverordnung 2027 wesentliche veränderung', 'konformitätserklärung maschinenverordnung vorlage'",
-    "first100": "Engineers searching what changes in 2027 find a free checklist page per topic (substantial modification, declaration, digital instructions) and buy the file for their machine.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=maschinenverordnung%202027",
-      "note": "10 live variants",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Safexpert (IBF)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "IHK and BGHM/DGUV guidance and FAQs",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "CE consultants and training providers",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:14.474Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small machine builders and operators pay per machine file instead of a 99 EUR-a-month CE suite.",
-   "trigger": "Machinery Regulation (EU) 2023/1230 applies from 20 January 2027 and replaces Directive 2006/42/EC",
-   "window": "Peak interest from now to a few months after 20 January 2027. Confirmed by IHK Halle (Stand April 2026) and the Safexpert vendor page; I did not search for 'verschoben' and did not open EUR-Lex.",
-   "score": 2.85,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1500,
-     "upsideEur": 10000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1500,
-       "upsideEur": 10000,
-       "basis": "Bottom-up: 3,000 visits (assumed) x 0.5% (assumed, low because a solid suite exists) = 15 files x 290 EUR = 4,350 EUR at run-rate; the new site misses part of the January peak, so about 1,700 EUR, minus fees, about 1,500 EUR. 5,000 EUR needs 18 files, possible but not likely in year one. Cross-check: Safexpert prices (99 EUR a month) show buyers pay; customer count unknown."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The deadline is confirmed by a chamber page and people search for the changes, but a solid priced competitor serves small firms.",
-      "summary": "",
-      "concerns": [
-       "Safexpert covers small firms",
-       "Standards text (EN ISO 12100) is copyrighted and must not be reproduced",
-       "Buyers want trust and support"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:14.474Z",
-   "updatedAt": "2026-11-16T09:13:14.474Z",
-   "outcome": null
-  },
-  {
-   "id": "nebenkostenabrechnung-fuer-private-vermieter-in",
-   "title": "Nebenkostenabrechnung für private Vermieter in der Schweiz",
-   "pitch": "For Swiss private landlords with 2 to 10 rented flats: record heating and service costs, split them by the keys agreed in each lease, add the permitted administration charge and print each tenant's statement with the balance. If it takes off it pairs with the STWE statement tool as a Swiss small-landlord suite.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "a Swiss private landlord with 2 to 10 rented flats who does the statement without a Verwaltung",
-    "buys": "the yearly tenant statements without spreadsheet errors; avoids refunds when a tenant contests the charges",
-    "model": "subscription",
-    "price": "69 EUR a year",
-    "proof": [
-     {
-      "url": "https://www.weka.ch/bau-immobilien/immobilien/immobilienverwaltung/rechner-heiz-und-nebenkostenabrechnung-im-stockwerkeigentum.html",
-      "note": "CHF 150 for a Swiss statement calculator for a close job (condominiums, not rental flats)",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Swiss landlords use the free templates of the homeowners' associations they already belong to, or a Verwaltung; that free template was not checked.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=nebenkostenabrechnung%20schweiz",
-     "note": "10 suggestions incl. 'muster', 'beispiel', 'verwaltungskosten', 'was ist erlaubt', 'frist'",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.objego.de/preise",
-     "note": "The German leader for small landlords charges 0.95 EUR per unit a month for statements; no Swiss support is mentioned (page undated, footer 2026)",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.ch 'nebenkostenabrechnung schweiz muster' and 'beispiel'",
-    "first100": "Landlords searching for a 'Muster' find a filled example statement, enter their own building and pay to export.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=nebenkostenabrechnung%20schweiz",
-      "note": "template-seeking suggestions",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "WEKA calculators",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Fairwalter",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "objego (ista)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:13.856Z",
-    "detail": [
-     "Missed the strict bar: score 2.9 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Swiss private landlords pay a yearly fee for correct tenant statements instead of a CHF Excel or a Verwaltung.",
-   "trigger": "standing need",
-   "window": "Standing: yearly statements; German tools follow German law. I did not search Swiss landlord tools directly, so the gap is unconfirmed.",
-   "score": 2.9,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1400,
-     "upsideEur": 10000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1400,
-       "upsideEur": 10000,
-       "basis": "Bottom-up: 4,000 visits a year (assumed) x 1.5% (assumed) = 60 payers x 69 EUR = 4,140 EUR at run-rate; with the ramp about 40% in year one, about 1,650 EUR, minus fees, so about 1,400 EUR. 5,000 EUR needs 73 payers, above year-one reach. Cross-check: only the WEKA CHF 150 price for a close job; no customer count. Not verified: Swiss competitors and free association templates."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "Clear template-seeking demand and a priced close comparable; competition largely unchecked.",
-      "summary": "",
-      "concerns": [
-       "Swiss landlord tools not searched",
-       "Homeowners' associations may give free templates",
-       "Overlaps idea 1; best built as one product"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:13.856Z",
-   "updatedAt": "2026-11-16T09:13:13.856Z",
-   "outcome": null
-  },
-  {
-   "id": "stwe-abrechnung-jahresrechnung-heiz-und-nebenkos",
-   "title": "STWE-Abrechnung: Jahresrechnung, Heiz- und Nebenkosten und Erneuerungsfonds für selbstverwaltete St…",
-   "pitch": "For the owner who keeps the books of a self-managed Swiss condominium community (3 to 20 units): enter costs once, split them by Wertquote or meter, carry the Erneuerungsfonds forward and print one statement per owner plus the figures for their tax return, in the browser. If it takes off it becomes the default tool that small STWEG and part-time administrators recommend to each other, with a year…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the owner who administers a self-managed Swiss Stockwerkeigentümergemeinschaft of 3 to 20 units, or a one-person Treuhand that administers …",
-    "buys": "the yearly statement every owner gets (costs split by Wertquote or meter, Erneuerungsfonds balance, figures for the tax return) without building and checking a spreadsheet; avoids disputes at the owners' meeting",
-    "model": "subscription",
-    "price": "89 EUR a year per community (about CHF 85)",
-    "proof": [
-     {
-      "url": "https://www.weka.ch/bau-immobilien/immobilien/immobilienverwaltung/rechner-heiz-und-nebenkostenabrechnung-im-stockwerkeigentum.html",
-      "note": "CHF 150 one-off for an Excel tool doing this exact job for up to 20 units (page undated; footer 2026)",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Most small communities already run a working Excel from a previous administrator, or hand the job to a professional Verwaltung for a few hundred francs, so a tool is neither the cheapest nor the most comfortable option.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.weka.ch/bau-immobilien/immobilien/immobilienverwaltung/rechner-heiz-und-nebenkostenabrechnung-im-stockwerkeigentum.html",
-     "note": "WEKA sells an Excel/PDF 'Rechner Heiz- und Nebenkostenabrechnung im Stockwerkeigentum' for up to 20 units at CHF 150 excl. VAT, also in its W+ subscription. Page undated (article no. DL8127-2025, foo…",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=stockwerkeigentum%20abrechnung",
-     "note": "Autocomplete: 'stockwerkeigentum abrechnung excel', '... falsch', '... steuererklärung'. People do this in spreadsheets.",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=nebenkostenabrechnung%20schweiz",
-     "note": "10 suggestions incl. 'muster', 'beispiel', 'verwaltungskosten', 'gesetz': steady Swiss demand for statement templates",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.ch queries 'stockwerkeigentum abrechnung excel', 'stockwerkeigentum abrechnung', 'nebenkostenabrechnung stockwerkeigentum'",
-    "first100": "Owners who searched for an Excel template land on a free example statement page, enter their own community and pay to export all owner statements.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=stockwerkeigentum%20abrechnung",
-      "note": "4 autocomplete variants incl. 'excel' and 'steuererklärung'",
-      "date": "2026-11-16",
-      "ageDays": 0,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "WEKA Rechner Heiz- und Nebenkostenabrechnung im S…",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Abacus AbaImmo",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Fairwalter",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "selbstverwalten",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:13:13.100Z",
-    "detail": [
-     "Missed the strict bar: score 3.2 is below the minimum 3.5"
-    ]
-   },
-   "earns": "The volunteer or part-time administrator of a small STWEG pays a yearly fee per community, instead of buying the CHF 150 Excel or a professional suite.",
-   "trigger": "standing need",
-   "window": "Standing gap: the paid answer for small communities is an Excel download (WEKA, CHF 150) or professional property-management suites priced for administrators; German WEG tools follow German WEG law a…",
-   "score": 3.2,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1800,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1800,
-       "upsideEur": 15000,
-       "basis": "Bottom-up: 3,000 search visits a year (assumed) x 2% (assumed) = 60 payers x 89 EUR = 5,340 EUR at full run-rate; with a 4-6 month search ramp about 40% lands in year one, about 2,100 EUR, minus fees and domain, so about 1,800 EUR. 5,000 EUR a year needs 57 payers, which the channel can only reach at full run-rate. Cross-check: WEKA sells the Excel at CHF 150, but its unit sales are unknown; no r…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A price page for the same job exists (CHF 150), and Swiss owners search for Excel templates. Competition is partly unverified and search volume is small.",
-      "summary": "",
-      "concerns": [
-       "'selbstverwalten' may already be a solid self-serve competitor",
-       "small search volume",
-       "Swiss law and cantonal practice vary; statements must be checked by users"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:13:13.100Z",
-   "updatedAt": "2026-11-16T09:13:13.100Z",
-   "outcome": null
-  },
-  {
    "id": "pfic-workbook-form-8621-for-foreign-mutual-funds",
    "title": "PFIC Workbook: Form 8621 for foreign mutual funds and ETFs, lot by lot",
    "pitch": "For US taxpayers who hold foreign funds (Indian mutual funds of H-1B and green-card holders, UCITS ETFs of US expats). They enter each purchase lot and the yearly values, and the browser works out the default 1291 or mark-to-market figures per share and fills one IRS Form 8621 PDF per fund. If it takes off, it becomes the yearly filing tool with year-end prices already loaded for every Indian mut…",
@@ -8035,182 +8240,6 @@
    },
    "createdAt": "2026-11-16T01:56:37.536Z",
    "updatedAt": "2026-11-16T05:11:24.064Z",
-   "outcome": null
-  },
-  {
-   "id": "val-town-exit-scheduled-vals-http-endpoints-and",
-   "title": "Val Town Exit: scheduled vals, HTTP endpoints and email handlers onto Cloudflare Workers",
-   "pitch": "Val Town goes read-only on 2026-12-10 and shuts down on 2027-01-10. This turns a user's exported vals into a Workers project with cron triggers, routes and a secrets checklist.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 1 of 5",
-    "legacy": false,
-    "payer": "A developer on a paid Val Town plan with several scheduled jobs and endpoints",
-    "buys": "Saving the time of porting each val by hand",
-    "model": "one-off",
-    "price": "19 EUR once",
-    "proof": [
-     {
-      "url": "https://runtimewire.com/article/val-town-winding-down-steve-krouse",
-      "note": "Paid customers are being refunded (plan prices not shown)",
-      "date": "2026-11-10",
-      "ageDays": 6,
-      "age": "6 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "The founder's guides plus an AI assistant port small TypeScript functions in minutes.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 1
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 6,
-     "age": "newest source 6 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://runtimewire.com/article/val-town-winding-down-steve-krouse",
-     "note": "Article of 2026-11-10: services end January 10th; the founder provides migration guides and refunds and announced an open-source date",
-     "date": "2026-11-10",
-     "ageDays": 6,
-     "age": "6 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://wiki.archiveteam.org/index.php/Deathwatch",
-     "note": "Val Town read-only 2026-12-10, full shutdown 2027-01-10, signups stopped 2026-11-10",
-     "date": "2026-11-16",
-     "ageDays": 0,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google and HN: 'val town alternative'",
-    "first100": "Not reachable: likely fewer than 10 payers.",
-    "proof": [
-     {
-      "url": "https://runtimewire.com/article/val-town-winding-down-steve-krouse",
-      "note": "News coverage of the shutdown",
-      "date": "2026-11-10",
-      "ageDays": 6,
-      "age": "6 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Val Town's own migration guides and open-sourcing",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T03:19:10.583Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Developers pay 19 EUR once for a converted Workers project.",
-   "trigger": "Val Town winding down: signups stopped 2026-11-10, read-only 2026-12-10, shutdown 2027-01-10",
-   "window": "Until 2027-01-10.",
-   "score": 1.85,
-   "index": {
-    "composite": 1.6,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 1,
-     "potential": 1,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.6 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.6 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 50,
-     "upsideEur": 500,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 50,
-       "upsideEur": 500,
-       "basis": "Bottom-up: 500 visits (assumed) x 1% = 5 payers x 19 EUR = 95 EUR, about 50 after fees. Cross-check: the founder gives guides free and open-sources the code. 5,000 EUR needs 263 payers; not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 1,
-      "potential": 1,
-      "automation": 4,
-      "rationale": "The shutdown is real and confirmed, but a developer can do this port with an AI assistant, and the founder already supports the exit.",
-      "summary": "",
-      "concerns": [
-       "AI-doable port",
-       "Tiny audience"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T03:19:10.583Z",
-   "updatedAt": "2026-11-16T03:19:10.583Z",
    "outcome": null
   },
   {
@@ -16290,7 +16319,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-16T18:00:00.000Z",
+  "checkedInAt": "2026-11-16T21:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -16308,19 +16337,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-16T15:00:26.656Z",
+   "lastRunAt": "2026-11-16T21:00:50.325Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 90,
-   "radius": 2,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 91,
+   "radius": 1,
    "radiusLevels": 4,
    "runsLastDay": 7,
-   "foundLastDay": 2,
+   "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-16T17:00:26.656Z"
+   "nextRunAfter": "2026-11-16T23:00:50.325Z"
   }
  },
  "scorecard": {
