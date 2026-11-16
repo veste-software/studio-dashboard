@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T00:00:27.837Z",
+ "generatedAt": "2026-11-16T01:51:29.863Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -10,9 +10,9 @@
   "live": 0,
   "staging": 2,
   "building": 0,
-  "queued": 43,
+  "queued": 42,
   "parked": 2,
-  "declined": 43,
+  "declined": 44,
   "nonDigital": 0,
   "worthDomain": 0
  },
@@ -23,14 +23,14 @@
    "pitch": "For small manufacturing businesses (bakeries, butchers, carpenters, metal shops) and farms in Germany: a guided browser tool that checks eligibility under § 9b StromStG and § 54 EnergieStG, separates out electricity passed on to third parties (tenants, charge points), works out the refund and produces every value and attachment for the Zoll portal (forms 1453, 1402, 1139, 1456), with a yearly rem…",
    "platform": "web",
    "marketLabel": "Germany and Europe",
-   "status": "queued",
-   "statusLabel": "In the queue",
+   "status": "declined",
+   "statusLabel": "Decided against",
    "prototype": false,
    "origin": "Niche scout",
    "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
+    "level": "nobody",
+    "label": "Nobody shown to pay",
+    "why": "a reviewer rates monetization 2 of 5",
     "legacy": false,
     "payer": "A small manufacturing business (bakery, butcher, joinery, metal workshop) or a farm using 12,500 to 500,000 kWh a year and filing without a…",
     "buys": "A correct, complete claim with every value and attachment ready for the Zoll portal, including the separation of third-party quantities. A missed or wrong claim loses 1,000 to 10,000 EUR a year, and the free guides do not do the arithmetic or the separation.",
@@ -56,11 +56,22 @@
     ],
     "nobodyPaysIf": "Most small firms leave the claim to their tax adviser or energy supplier, or file the free portal form themselves from the chamber guides once they know the relief exists.",
     "claim": "",
-    "checks": [],
+    "checks": [
+     {
+      "who": "product",
+      "verdict": "doubtful",
+      "why": "Firms pay 25-37.5% success fees or a tax adviser's flat fee to have it done for them; the DIY route is free (Zoll-Portal, IHK guides, calculators) and no paid self-serve tool exists to prove 79 EUR.",
+      "rating": 2
+     }
+    ],
     "ratings": [
      {
       "who": "scout",
       "rating": 3
+     },
+     {
+      "who": "product",
+      "rating": 2
      }
     ]
    },
@@ -152,52 +163,63 @@
    ],
    "decision": {
     "by": "product lead",
-    "reason": "Spec written; waiting for the review.",
-    "at": "2026-11-15T20:59:17.755Z",
+    "reason": "Rejected by the product lead: At least eight done-for-you services and tax firms already compete on these exact queries, mostly with free calculators and fresh 2026 pages, the simple DIY case is free via the Zoll-Portal and chamber guides, and nobody is shown paying a fixed price for a self-serve tool.",
+    "at": "2026-11-16T01:51:28.136Z",
     "detail": []
    },
    "trigger": "The 2 ct/kWh relief for manufacturing, agriculture and forestry was made permanent in the Stromsteuergesetz from 2026. It still needs a yearly application, filed only electronically since 2025, and t…",
    "window": "The 2025 claims lapse on 2026-12-31, too soon for a new site to rank. The need comes back every year because the law is permanent and needs an application. What keeps it open: success-fee services an…",
    "score": 3.75,
    "index": {
-    "composite": 3.2,
+    "composite": 2.4,
     "used": {
-     "risk": 2,
-     "success": 3,
-     "monetization": 3,
-     "potential": 3,
+     "risk": 4,
+     "success": 2.5,
+     "monetization": 2.5,
+     "potential": 2.5,
      "automation": 4
     },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
+    "agreement": "low",
+    "disputed": [
+     "risk"
+    ],
+    "crossValidated": true,
     "proceed": false,
     "business": null,
     "reasons": [
-     "overall index 3.2 is below 3.6"
+     "nobody is shown to pay: a reviewer rates monetization 2 of 5",
+     "overall index 2.4 is below 3.6",
+     "risk 4 is above 3.5"
     ],
-    "yearlyCostEur": 40,
+    "yearlyCostEur": 35,
     "needsServer": false,
     "invest": {
      "worthy": false,
      "reasons": [
       "it was not approved to be built",
-      "overall index 3.2 is below 4",
-      "potential 3 is below 4"
+      "overall index 2.4 is below 4",
+      "potential 2.5 is below 4",
+      "risk 4 is above 3"
      ]
     },
     "profit": {
-     "expectedEur": 3500,
-     "upsideEur": 30000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
+     "expectedEur": 1000,
+     "upsideEur": 6000,
+     "crossVerified": true,
+     "disputed": true,
+     "agreement": "low",
      "estimates": [
       {
        "who": "scout",
        "expectedEur": 3500,
        "upsideEur": 30000,
        "basis": "Bottom-up: 3,000 visits in the first 12 months (ramp, and the December 2026 peak is missed) × 2.5% assumed conversion = 75 payers × 79 EUR = 5,925 EUR. Minus about 6% payment fees and 40 EUR running costs, about 5,500 EUR. Rounded down to 3,500 EUR because the conversion rate is a guess. 5,000 EUR a year needs about 64 payers, which is reachable only if the sector pages rank for the November 2027…"
+      },
+      {
+       "who": "product",
+       "expectedEur": 1000,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: about 2,500 visits in the first 12 months (assumed; a new domain against Vattenfall, Verivox, Zoll, IHK and at least five SEO-active service firms updated Sep-Oct 2026) times 0.7-1% conversion (assumed, with free success-fee offers next to it) gives 18-25 payers at 79 EUR = 1,400-2,000 EUR, minus about 30 EUR hosting and Stripe fees, so roughly 1,000 EUR. 5,000 EUR a year needs 64 paye…"
       }
      ]
     },
@@ -216,6 +238,22 @@
        "A new site may not rank before the 2027 peak",
        "Rule details (attachments, thresholds) can change and must be checked every year against the Zoll's own pages"
       ]
+     },
+     {
+      "who": "product",
+      "risk": 4,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The refund is real, permanent and yearly (20 EUR/MWh minus 250 EUR, filed online in the Zoll-Portal by 31 Dec of the following year), and search demand is live. But the Scout missed EnergyIQ, stromsteuer-zurueck.de, LHM Energiesteuer, INNOVAT.ing, Ganter and Energie-Spezialisten, which all target the same queries with free calculators and done-for-you filing. The DIY tool cannot remove the main friction (ELSTER organisation certificate and portal work), the simple case is one formula, and the c…",
+      "summary": "At least eight done-for-you services and tax firms already compete on these exact queries, mostly with free calculators and fresh 2026 pages, the simple DIY case is free via the Zoll-Portal and chamber guides, and nobody is shown paying a fixed price for a self-serve tool.",
+      "concerns": [
+       "Crowded results page: at least five service firms with Sep-Oct 2026 pages, plus Vattenfall, Verivox, Zoll and the IHKs, rank for the head queries",
+       "Main customer pain is the portal registration, which a DIY tool cannot remove; done-for-you services file under power of attorney",
+       "Simple case is a single formula that free calculators and AI assistants already handle",
+       "Individual guidance on eligibility and third-party quantities approaches Hilfeleistung in Steuersachen under the StBerG and risks clawbacks"
+      ]
      }
     ]
    },
@@ -233,7 +271,7 @@
     "live": null
    },
    "createdAt": "2026-11-15T20:59:17.755Z",
-   "updatedAt": "2026-11-15T20:59:44.251Z",
+   "updatedAt": "2026-11-16T01:51:28.166Z",
    "outcome": null
   },
   {
@@ -15693,14 +15731,14 @@
    "lastNoted": 0,
    "lastMarket": "Germany and Europe",
    "nextMarket": "Global",
-   "emptyRuns": 0,
-   "radius": 0,
+   "emptyRuns": 87,
+   "radius": 1,
    "radiusLevels": 4,
    "runsLastDay": 3,
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-16T02:43:14.272Z"
+   "nextRunAfter": "2026-11-15T22:43:14.272Z"
   }
  },
  "scorecard": {
