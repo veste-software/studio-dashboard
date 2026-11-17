@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T12:02:53.624Z",
+ "generatedAt": "2026-11-17T16:52:41.418Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,1904 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "tarock-roguelike-koenigrufen-als-kartenspiel-rog",
+   "title": "Tarock-Roguelike: Königrufen als Kartenspiel-Roguelike für Steam und Mobile",
+   "pitch": "A run-based roguelike built on Austrian Tarock (Königrufen) for players in Austria and the neighbouring Tarock countries: short runs, rule-bending cards and opponents, sold on Steam and mobile.",
+   "platform": "game",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 1 of 5",
+    "legacy": false,
+    "payer": "Adult Tarock players in Austria and nearby countries who buy premium games",
+    "buys": "A finished premium game that does not exist",
+    "model": "one-off",
+    "price": "6.99 EUR once",
+    "proof": [
+     {
+      "url": "https://itunes.apple.com/search?term=tarock&country=at&entity=software&limit=10",
+      "note": "A paid Tarock app at 9.99 EUR exists (no ratings)",
+      "date": "2025-10-09",
+      "ageDays": 404,
+      "age": "13 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "The audience is tiny (the top app has 72 ratings) and plays free apps.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 1
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 404,
+     "age": "newest source 13 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://store.steampowered.com/api/storesearch/?term=tarock&cc=at&l=german",
+     "note": "Steam store search for 'tarock' returns 0 games",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://itunes.apple.com/search?term=tarock&country=at&entity=software&limit=10",
+     "note": "Austrian App Store: top Tarock app has 72 ratings (updated 2026-09-18); a paid 'Französisches Tarock +' costs 9.99 EUR",
+     "date": "2026-09-18",
+     "ageDays": 60,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/app/5048870/",
+     "note": "Comparable regional card roguelike Scopa Sweep: 12.25 EUR, 20 reviews, 100% positive since 2026-10-25",
+     "date": "2026-10-25",
+     "ageDays": 23,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Steam tag Card Game + Roguelike Deckbuilder; App Store search 'tarock'",
+    "first100": "Tarock players searching the stores find the only roguelike; 100 payers in year one is unlikely.",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/api/storesearch/?term=tarock&cc=at&l=german",
+      "note": "No competing Steam title",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Tarock - Königrufen (iOS)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:37.149Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Players buy the game once.",
+   "trigger": "standing need",
+   "window": "No deadline; nobody has made it.",
+   "score": 2.35,
+   "index": {
+    "composite": 1.3,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 1,
+     "potential": 1,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.3 is below 3.6"
+    ],
+    "yearlyCostEur": 240,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.3 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 100,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 100,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: 5,000 visits x 1.5% (assumed) = 75 sales x 6.99 EUR x 0.7 = about 370 EUR, minus 240 EUR in fees = about 130 EUR, rounded down to 100 EUR. Cross-check: the top Tarock app has 72 ratings in total. 5,000 EUR is not reachable."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 1,
+      "potential": 1,
+      "automation": 4,
+      "rationale": "An empty slot, but the audience is very small.",
+      "summary": "",
+      "concerns": [
+       "Tiny audience",
+       "The same pattern as the studio's other card roguelikes"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:37.149Z",
+   "updatedAt": "2026-11-17T16:52:37.149Z",
+   "outcome": null
+  },
+  {
+   "id": "sammlungswert-bericht-datierte-bewertung-einer-s",
+   "title": "Sammlungswert-Bericht: datierte Bewertung einer Sammelkarten-Sammlung zum Cardmarket-Trend",
+   "pitch": "For collectors who need a dated value of a card collection for household insurance, an estate, a divorce or a sale to a shop: load a collection file (Cardmarket or scanner-app CSV), and get a dated PDF with trend and low prices per card from Cardmarket's public price guide, processed in the browser.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A collector with a collection worth over 2,000 EUR who needs a dated valuation",
+    "buys": "A dated, per-card value document an insurer, heir or buyer can read",
+    "model": "one-off",
+    "price": "14.90 EUR once",
+    "proof": [
+     {
+      "url": "https://tcgpowertools.com/pricing",
+      "note": "Nearby: a Collector plan at 2.99 EUR a month shows collectors pay for card tools; no price for valuations was found",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Free collection apps show a total value, and insurers rarely ask for a formal list.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
+     "note": "Autocomplete: 'cardmarket preisliste', 'cardmarket preise in excel', 'cardmarket preisentwicklung'",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://help.cardmarket.com/en/cardmarket-api",
+     "note": "No new API access, so valuation tools cannot pull Cardmarket prices through the API (undated, accessed)",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'sammelkarten sammlung wert ermitteln', 'cardmarket preisliste'",
+    "first100": "Collectors who search how to value or insure a collection get a free total and pay for the dated per-card PDF.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
+      "note": "Price-list and Excel queries exist",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "TCGdex market prices",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "PokemonPriceTracker",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:36.427Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A collector pays once for a dated valuation PDF.",
+   "trigger": "standing need",
+   "window": "No deadline; the TCG boom keeps raising collection values.",
+   "score": 2.35,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 4,000 visits x 2% (assumed) = 80 payers x 14.90 EUR = 1,192 EUR, halved for the ramp = about 600 EUR, minus costs = about 500 EUR. No comparable was found. 5,000 EUR needs 336 payers, which is not reachable."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The data edge is real but the payer and the price are unproven.",
+      "summary": "",
+      "concerns": [
+       "Free apps show a collection value",
+       "Terms of use of the price-guide file not read"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:36.427Z",
+   "updatedAt": "2026-11-17T16:52:36.427Z",
+   "outcome": null
+  },
+  {
+   "id": "games-foerderung-kostenplan-foerderfaehige-koste",
+   "title": "Games-Förderung-Kostenplan: förderfähige Kosten, Förderquote und Finanzierungsplan für den Bundes-F…",
+   "pitch": "For German game studios preparing an application to the federal games fund: enter the team, months and external costs, and get eligible development costs, the funding quota by company size (25/45/50%), the 300,000 EUR minimum check and a financing plan in the structure the application needs.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A German game studio with a project of 300,000 EUR or more",
+    "buys": "A correct cost and financing plan, without consultant hours",
+    "model": "one-off",
+    "price": "149 EUR per application",
+    "proof": [
+     {
+      "url": "https://leyton.com/de/?p=906",
+      "note": "A consultancy sells application support for this fund (fee not published); no price for the same job was found",
+      "date": "2025-11-13",
+      "ageDays": 369,
+      "age": "12 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "Studios with 300,000 EUR projects hire consultants or use their own spreadsheets, and the audience is a few hundred studios.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 369,
+     "age": "newest source 12 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.nrwbank.de/de/foerderung/foerderprodukte/60291/games-foerderung-des-bundes.html",
+     "note": "Rates 25/45/50%, cap 8 million EUR, minimum eligible costs 300,000 EUR, call until 2026-12-31 at the latest (Stand 02/2026)",
+     "date": "2026-02-01",
+     "ageDays": 289,
+     "age": "10 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://leyton.com/de/?p=906",
+     "note": "About 125 million EUR in 2026, first come first served, about two windows a year; Leyton sells application support (fee not published)",
+     "date": "2025-11-13",
+     "ageDays": 369,
+     "age": "12 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'games förderung bund antrag', 'games förderung förderquote'",
+    "first100": "Studios searching for the fund's rules use the free quota check and buy the full cost plan; 100 payers is not reachable.",
+    "proof": [
+     {
+      "url": "https://leyton.com/de/?p=906",
+      "note": "Consultancy content ranks for the topic",
+      "date": "2025-11-13",
+      "ageDays": 369,
+      "age": "12 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Leyton funding consultancy",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "NRW.BANK and DLR guidance",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:36.023Z",
+    "detail": [
+     "Missed the strict bar: score 2.55 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A studio pays once per application for the cost and financing plan.",
+   "trigger": "Second call of the federal games fund open until a new call, at the latest 2026-12-31; about 125 million EUR budget in 2026",
+   "window": "The current call ends by 2026-12-31 at the latest; about two submission windows a year follow (Leyton).",
+   "score": 2.55,
+   "index": {
+    "composite": 1.75,
+    "used": {
+     "risk": 3,
+     "success": 1,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.75 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 650,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 650,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 1,000 visits x 1% (assumed) = 10 payers x 149 EUR = 1,490 EUR, halved for the ramp = 745 EUR, minus costs = about 650 EUR. No comparable was found. 5,000 EUR needs 34 payers, which is not reachable with this small audience."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 1,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 3,
+      "rationale": "The money is real but the payers are few, and they have budgets for consultants.",
+      "summary": "",
+      "concerns": [
+       "A new call can change the rules",
+       "Tiny audience",
+       "Consultants are entrenched"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:36.023Z",
+   "updatedAt": "2026-11-17T16:52:36.023Z",
+   "outcome": null
+  },
+  {
+   "id": "eu-ku-quartalsbuch-umsatzmeldung-und-grenzen-der",
+   "title": "EU-KU-Quartalsbuch: Umsatzmeldung und Grenzen der EU-Kleinunternehmerregelung",
+   "pitch": "For German small businesses registered for the EU small-business scheme who sell into Austria, Spain and other EU states: log sales per member state, watch the 100,000 EUR EU limit and each state's national limit, get the exact figures for the quarterly BZSt report (including nil reports), and get an alert with the 15-working-day notice when a limit is crossed.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A German small business (freelancer, course seller or craft seller) registered for the EU scheme",
+    "buys": "Correct quarterly figures and a warning before losing the exemption abroad, which would make foreign VAT due",
+    "model": "subscription",
+    "price": "29 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.steuer-berater.de/lexikon/eu-kleinunternehmerregelung",
+      "note": "Shows the duty only; no price page for the same job was found",
+      "date": "2026-10-23",
+      "ageDays": 25,
+      "age": "4 weeks old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "The report is a short form, a spreadsheet does the tracking, and accounting apps may add it.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 25,
+     "age": "newest source 4 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.steuer-berater.de/lexikon/eu-kleinunternehmerregelung",
+     "note": "Quarterly report within one month after quarter end; participation ends immediately above 100,000 EUR EU turnover; notice within 15 working days; national limits of each state still apply; updated 20…",
+     "date": "2026-10-23",
+     "ageDays": 25,
+     "age": "4 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=eu%20kleinunternehmerregelung",
+     "note": "Autocomplete: 'umsatzmeldung', 'umsatzdaten', 'österreich', 'spanien', 'beantragen', '2026'",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'eu kleinunternehmerregelung umsatzmeldung' and country variants",
+    "first100": "Small businesses searching how to make the quarterly report find a free per-country limit check and pay for the logbook and alerts.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=eu%20kleinunternehmerregelung",
+      "note": "Ten autocomplete variants including the report and target countries",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "BZSt online portal",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Lexware help (OSS target-country tax, manual)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:34.627Z",
+    "detail": [
+     "Missed the strict bar: score 2.55 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small businesses pay a yearly fee for the quarterly figures and the limit watch.",
+   "trigger": "EU small-business scheme for cross-border small businesses, run by the BZSt since 2025, with quarterly reports",
+   "window": "A recurring quarterly duty; the next report is due by 2027-01-31.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 700,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 700,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 3,000 visits x 2% (assumed) = 60 payers x 29 EUR = 1,740 EUR, halved for the ramp = 870 EUR, minus costs = about 700 EUR. No comparable was found. 5,000 EUR needs 172 payers, which is not reachable."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "A real quarterly duty with live searches but no price proof and a cheap spreadsheet alternative.",
+      "summary": "",
+      "concerns": [
+       "The national limits of 26 states must be updated every year",
+       "Tax-advice boundary",
+       "The number of scheme users is unknown"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:34.627Z",
+   "updatedAt": "2026-11-17T16:52:34.627Z",
+   "outcome": null
+  },
+  {
+   "id": "durak-roguelike-fuer-steam-und-mobile",
+   "title": "Durak-Roguelike für Steam und Mobile",
+   "pitch": "A run-based roguelike built on Durak, the card game many players across Eastern Europe grew up with: build a deck of rule-bending cards, beat escalating opponents and bosses, short runs. Sold on Steam and as a mobile premium unlock. If it takes off, it is the Durak entry in the Balatro-like wave.",
+   "platform": "game",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Steam and mobile players who know Durak and buy indie card games",
+    "buys": "A finished premium game; no Durak roguelike exists",
+    "model": "one-off",
+    "price": "7.99 EUR once",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/app/5048870/",
+      "note": "Players pay 12.25 EUR for a roguelike built on a regional card game",
+      "date": "2026-10-25",
+      "ageDays": 23,
+      "age": "3 weeks old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Durak players play free mobile Durak, and the roguelike crowd already has Balatro and many clones.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 23,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://store.steampowered.com/api/storesearch/?term=durak&cc=de&l=english",
+     "note": "Ten Durak titles on Steam, all plain or adult Durak, none named as a roguelike",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/app/5454820/",
+     "note": "SUPER DURAK released 2026-11-05: plain Durak with optional supercards, 2.89 EUR, 1 review",
+     "date": "2026-11-05",
+     "ageDays": 12,
+     "age": "12 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/app/5048870/",
+     "note": "Comparable: Scopa Sweep, a regional card-game roguelike, released 2026-10-25 at 12.25 EUR with 20 reviews, 100% positive",
+     "date": "2026-10-25",
+     "ageDays": 23,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Steam tags Roguelike Deckbuilder + Card Game; store search 'durak'",
+    "first100": "Players who search Steam for Durak or browse the roguelike-deckbuilder tag try the demo and buy.",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/api/storesearch/?term=durak&cc=de&l=english",
+      "note": "Store search for 'durak' returns ten titles, so players search it",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "SUPER DURAK",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Durak Online",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:34.277Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Players buy the game once on Steam and mobile.",
+   "trigger": "standing need",
+   "window": "Card roguelikes on regional games keep launching (Scopa Sweep on 2026-10-25); the Durak slot is open today but could fill.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.1,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.1 is below 3.6"
+    ],
+    "yearlyCostEur": 240,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.1 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 25000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 25000,
+       "basis": "Bottom-up: 20,000 store visits x 1.5% (assumed) = 300 sales x 7.99 EUR x 0.7 = about 1,680 EUR, minus 240 EUR in fees and about 40% for regional pricing in lower-price markets = about 800 EUR. Cross-check: Scopa Sweep has 20 reviews in about three weeks (not a sales figure). 5,000 EUR needs about 900 sales."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "A real empty slot inside a crowded genre. The pattern duplicates the studio's Skat and backgammon roguelikes.",
+      "summary": "",
+      "concerns": [
+       "Crowded Balatro-like genre",
+       "Payment and pricing issues in some Durak-playing markets"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:34.277Z",
+   "updatedAt": "2026-11-17T16:52:34.277Z",
+   "outcome": null
+  },
+  {
+   "id": "spielzeug-akte-fuer-brettspiel-kleinverlage-tech",
+   "title": "Spielzeug-Akte für Brettspiel-Kleinverlage: Technische Dokumentation, EU-Konformitätserklärung und …",
+   "pitch": "For board-game self-publishers and small publishers bringing games to the EU market: pick the components and target age, and get the EN 71 parts and warnings that apply, a technical-file skeleton with risk assessment, the EU declaration of conformity and the traceability text for packaging and product pages, kept as a 10-year record. If it takes off, crowdfunding creators share it as the standard…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A board-game self-publisher or small publisher releasing one to five games a year in the EU",
+    "buys": "The document set that a marketplace or market-surveillance authority can ask for, without a consultant",
+    "model": "one-off",
+    "price": "79 EUR per game",
+    "proof": [
+     {
+      "url": "https://www.compliancegate.com/?p=22128",
+      "note": "A compliance platform sells product assessments (free plan shown, paid prices not visible); no price for the same job was found",
+      "date": "2025-09-03",
+      "ageDays": 440,
+      "age": "14 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "Free guides and templates exist, lab tests still cost money, and printers or manufacturers often supply the documents.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 440,
+     "age": "newest source 14 months old",
+     "tier": "old",
+     "n": 2
+    },
+    "pay": {
+     "days": 440,
+     "age": "newest source 14 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.compliancegate.com/?p=22128",
+     "note": "Board games for under-14s fall under the Toy Safety Directive (EN 71-1/-2/-3, DoC, technical file, CE, warnings); adult games under GPSR; updated 2025-09-03",
+     "date": "2025-09-03",
+     "ageDays": 440,
+     "age": "14 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://ohn.haendlerbund.de/recht/rechtsfragen/rechtssicher-spielzeug-verkaufen-leitfaden-small-business-haendlerinnen",
+     "note": "Händlerbund guide: small makers may self-assess with EN 71, technical documentation, risk analysis, DoC and CE",
+     "date": "2025-07-18",
+     "ageDays": 487,
+     "age": "16 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'brettspiel ce kennzeichnung', 'board game ce marking eu'",
+    "first100": "Creators preparing an EU print run search for CE marking of board games and buy the per-game pack.",
+    "proof": [
+     {
+      "url": "https://www.compliancegate.com/?p=22128",
+      "note": "A guide page ranks for board-game EU rules, so the query exists",
+      "date": "2025-09-03",
+      "ageDays": 440,
+      "age": "14 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Compliance Gate",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Händlerbund guide",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:33.213Z",
+    "detail": [
+     "Missed the strict bar: score 2.25 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A publisher pays once per game for the document set.",
+   "trigger": "standing need",
+   "window": "No deadline. Each new game needs the file, and the new EU Toy Safety Regulation will change the duties later.",
+   "score": 2.25,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 880,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 880,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 2,000 visits x 1.5% (assumed) = 30 payers x 79 EUR = 2,370 EUR, x 0.4 for the ramp = about 950 EUR, minus costs = about 880 EUR. No comparable with a customer count was found. 5,000 EUR needs 64 payers, which is not reachable."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The duty is real and the documents follow a fixed structure, but there is no price proof and no fresh request.",
+      "summary": "",
+      "concerns": [
+       "Product-safety liability if the user relies on it",
+       "A small audience",
+       "Templates are AI-doable"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:33.213Z",
+   "updatedAt": "2026-11-17T16:52:33.213Z",
+   "outcome": null
+  },
+  {
+   "id": "cardtrader-spiegel-cardmarket-bestand-zusaetzlic",
+   "title": "CardTrader-Spiegel: Cardmarket-Bestand zusätzlich auf CardTrader listen und Verkäufe abgleichen",
+   "pitch": "For European card sellers who want a second marketplace: read the Cardmarket stock export, list the same stock on CardTrader, and after each sale get a list of what to remove on the other side. If it takes off, it becomes the cheap multi-market step for sellers below TCGPowertools' upper tiers.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A Cardmarket seller with 1,000 or more listings who wants CardTrader sales too",
+    "buys": "Extra sales on a second marketplace without double data entry",
+    "model": "subscription",
+    "price": "9 EUR a month",
+    "proof": [
+     {
+      "url": "https://tcgpowertools.com/pricing",
+      "note": "Sellers pay 2.99 to 159.99 EUR a month for listing, pricing and syncing",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "TCGPowertools and TCG Sync already sync both markets, and without Cardmarket API access the Cardmarket side must be updated by hand, which risks overselling.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.trustpilot.com/review/tcgpowertools.com",
+     "note": "Reviews dated 2025-05-13 and 2025-08-27 report recurring sync errors (with CardTrader Zero); 2026-06-23 says items were relisted after selling out",
+     "date": "2026-06-23",
+     "ageDays": 147,
+     "age": "5 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://sortswift.com/pricing-automation",
+     "note": "CardTrader listed as a platform in a paid US store tool, from 15.99 USD a month",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'cardmarket cardtrader sync' and 'tcgpowertools alternative'",
+    "first100": "Sellers frustrated by sync errors search for an alternative and try a one-way listing of their Cardmarket export on CardTrader.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
+      "note": "Sellers search for automating Cardmarket work (adjacent queries)",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "TCGPowertools",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "TCG Sync",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "SortSwift",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:32.583Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Sellers pay monthly to keep a second marketplace listed.",
+   "trigger": "standing need",
+   "window": "No deadline. The gap stays open because the only full sync tool has dated complaints about sync errors and relisting.",
+   "score": 2.3,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 3,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 3,000 visits x 0.7% (assumed) = 21 payers x 108 EUR = 2,268 EUR, halved for the ramp = about 1,130 EUR, minus costs = about 1,000 EUR. Cross-check: about 1% of TCGPowertools' claimed 1,700 traders. 5,000 EUR needs 47 payers, which is not reachable in year one. CardTrader's seller API was not verified in this run."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The payer and price are proven by the leader, but two tools already claim the job, and the Cardmarket side cannot be automated.",
+      "summary": "",
+      "concerns": [
+       "Overselling risk",
+       "CardTrader API terms not verified",
+       "Two solid competitors"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:32.583Z",
+   "updatedAt": "2026-11-17T16:52:32.583Z",
+   "outcome": null
+  },
+  {
+   "id": "forschungszulage-mappe-fuer-kleine-software-und",
+   "title": "Forschungszulage-Mappe für kleine Software- und Games-Studios: BSFZ-Antrag und Kostenaufstellung na…",
+   "pitch": "For owner-managed software and games companies with 1 to 20 developers: a guided BSFZ project description within the field limits, checked against the three criteria, plus the yearly cost sheet for the ELSTER claim under the 2026 rules (hours, 100 EUR an hour for owner work, 20% overhead flat rate, 35% rate for small and medium firms) and a time-record template. If it takes off, it becomes the se…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "An owner-managed software or games GmbH with 1 to 20 developers",
+    "buys": "A BSFZ text checked against the criteria and field limits, and a correct yearly cost sheet under the 2026 rules, instead of a consultant's fee on an allowance often worth tens of thousands of euros",
+    "model": "one-off",
+    "price": "249 EUR per project year",
+    "proof": [
+     {
+      "url": "https://onlinebilanz.de/?p=61874",
+      "note": "No price for this job was found; the page shows the stakes (example allowance 29,400 EUR) and that adviser help costs extra",
+      "date": "2026-07-13",
+      "ageDays": 127,
+      "age": "4 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "The BSFZ application is free, a free AI skill and chamber guides cover the text, and the firm's tax adviser already prepares the ELSTER claim.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 64,
+     "age": "newest source 2 months old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 127,
+     "age": "newest source 4 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://skillselion.com/skills/sebastian-software/forschungszulage-skill/forschungszulage",
+     "note": "A free Claude Code skill for BSFZ texts (four fields with character limits) and 2026 cost figures, updated 2026-09-14; shows live interest and that the text part is AI-doable",
+     "date": "2026-09-14",
+     "ageDays": 64,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://onlinebilanz.de/?p=61874",
+     "note": "How-to guide for the two-stage process with an example allowance of 29,400 EUR; says a tax-adviser mandate costs extra",
+     "date": "2026-07-13",
+     "ageDays": 127,
+     "age": "4 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'forschungszulage beantragen', 'forschungszulage software', 'forschungszulage rechner 2026'",
+    "first100": "Founders who search how to claim the allowance for software development use the free eligibility check and cost calculator, then buy the pack for the BSFZ text and the ELSTER sheet.",
+    "proof": [
+     {
+      "url": "https://onlinebilanz.de/?p=61874",
+      "note": "A software vendor's 2026 guide ranks for the topic, so content pages can rank next to chamber pages",
+      "date": "2026-07-13",
+      "ageDays": 127,
+      "age": "4 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "forschungszulage-skill",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Leyton",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "PNO Innovation",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "OnlineBilanz guide",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:32.024Z",
+    "detail": [
+     "Missed the strict bar: score 2.8 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A studio pays once per project year for the application pack and cost sheet.",
+   "trigger": "Forschungszulage rules for expenses from 2026-01-01: 20% overhead flat rate, 100 EUR an hour for owner work, higher caps (seen on secondary pages, not at the federal finance ministry)",
+   "window": "A claim can be made up to four years back, so the need recurs every year. The 2026 rule change makes old templates and spreadsheets outdated now.",
+   "score": 2.8,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2000,
+     "upsideEur": 20000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2000,
+       "upsideEur": 20000,
+       "basis": "Bottom-up: 3,000 visits x 1% (assumed) = 30 payers x 249 EUR = 7,470 EUR, x 0.4 for the search ramp = about 3,000 EUR, minus costs and fees = about 2,800 EUR. No comparable with a customer count was found, so I cut it to 2,000 EUR. 5,000 EUR needs 21 payers at 249 EUR, which is reachable only if the pages rank."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The payer has a lot at stake and the 2026 rule change is real, but no price for self-serve help was found and the text part is AI-doable.",
+      "summary": "",
+      "concerns": [
+       "German law reserves help in tax matters for advisers; this must stay self-help software",
+       "The free AI skill covers the text",
+       "The 2026 figures need checking against the official text"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:32.024Z",
+   "updatedAt": "2026-11-17T16:52:32.024Z",
+   "outcome": null
+  },
+  {
+   "id": "kreisliga-manager-ein-fussball-managerspiel-fuer",
+   "title": "Kreisliga Manager: ein Fußball-Managerspiel für den Amateurfußball (Steam und Mobile)",
+   "pitch": "A light football management game set in German amateur football, from the Kreisliga up to the Oberliga, with fictional clubs, short seasons, clubhouse humour and a promotion chase. Sold on Steam and as a mobile premium unlock. If it takes off, end-of-season result cards spread through team chats and the game becomes the winter-break game of the amateur scene.",
+   "platform": "game",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "Adult German amateur footballers and football-manager fans who buy premium games",
+    "buys": "A finished game set in the tier they play in, which no free or paid game offers today",
+    "model": "one-off",
+    "price": "7.99 EUR once",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/api/storesearch/?term=football%20manager&cc=de&l=german",
+      "note": "Players pay for football managers on Steam: FM27 59.99 EUR, its In-Game Editor 8.99 EUR, F11 Football Manager 3.99 EUR",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "FM fans already play lower leagues through free community databases in FM27, and the amateur crowd uses free apps (FuPa, Prematch) rather than buying games.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kreisliga%20manager",
+     "note": "Autocomplete: 'kreisliga manager spiel', 'kreisliga manager apk', 'kreisliga manager database', 'kreisliga football manager'",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/api/storesearch/?term=kreisliga&cc=de&l=german",
+     "note": "Steam store search for 'kreisliga' returns 0 games",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://itunes.apple.com/search?term=kreisliga&country=de&entity=software&limit=10",
+     "note": "German App Store: no Kreisliga game; amateur-football apps FuPa (13,734 ratings) and Prematch (4,297 ratings, updated 2026-11-16) show the audience",
+     "date": "2026-11-16",
+     "ageDays": 1,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://store.steampowered.com/app/4530370/",
+     "note": "Football Manager 27 released 2026-11-10 at 59.99 EUR, 942 reviews, 83% positive; lower German tiers not stated",
+     "date": "2026-11-10",
+     "ageDays": 7,
+     "age": "7 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "store",
+    "where": "Steam tags Football (Soccer) + Management + Sports; App Store and Google Play search 'kreisliga'",
+    "first100": "FM27 players and Kreisliga players who browse Steam football-management tags or search 'kreisliga' play the free demo and buy; season result cards shared in team chats bring the next players.",
+    "proof": [
+     {
+      "url": "https://store.steampowered.com/api/storesearch/?term=kreisliga&cc=de&l=german",
+      "note": "No competing title for the store search",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Football Manager 27",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "F11 Football Manager",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Prematch: Echter Fußball",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:30.795Z",
+    "detail": [
+     "Missed the strict bar: score 2.9 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Players buy the game once on Steam or unlock it on mobile.",
+   "trigger": "Football Manager 27 released on Steam (59.99 EUR, 942 reviews, 83% positive in its first week); football-management interest peaks, and no game covers the Kreisliga",
+   "window": "The FM27 launch and the winter break (December to February) are the peak; nothing on Steam or the German App Store targets this tier today.",
+   "score": 2.9,
+   "index": {
+    "composite": 2.1,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.1 is below 3.6"
+    ],
+    "yearlyCostEur": 240,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.1 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1500,
+     "upsideEur": 35000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1500,
+       "upsideEur": 35000,
+       "basis": "Bottom-up: 30,000 store visits x 1.5% (assumed) = 450 sales x 7.99 EUR x 0.7 after the store share = about 2,500 EUR, minus 240 EUR in fees (Steam 100, Apple 99, Google 25, domain) and about 30% for refunds and regional pricing = about 1,500 EUR. Cross-check: Scopa Sweep, a comparable regional card-game roguelike, collected 20 reviews in about three weeks (not a sales figure). 5,000 EUR needs abo…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The tier is clearly empty on Steam and the App Store and the audience is large, but nothing shows that it will pay for such a game, and a football manager is more than a few days of work.",
+      "summary": "",
+      "concerns": [
+       "Game sales are hit-driven",
+       "A believable match engine takes weeks",
+       "FM community databases may already cover the Kreisliga"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:30.795Z",
+   "updatedAt": "2026-11-17T16:52:30.795Z",
+   "outcome": null
+  },
+  {
+   "id": "cardmarket-preischeck-bestandsexport-gegen-den-t",
+   "title": "Cardmarket-Preischeck: Bestandsexport gegen den täglichen Preisguide, ohne API-Zugang",
+   "pitch": "For Cardmarket sellers with hundreds to thousands of listings (semi-pro collectors and small card shops): load your own stock export, the tool reads Cardmarket's public daily price-guide file for the game in the browser and lists the under- and overpriced listings sorted by euros at stake, with your own rules (trend factor, floors per condition and language) and a re-price sheet. If it takes off …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A Cardmarket seller with 500 or more listings: a semi-pro collector-seller or a small card shop in Germany, Austria or elsewhere in the EU",
+    "buys": "A ranked list of listings that are underpriced or stale against today's trend, with the euros at stake and a re-price sheet, without giving a third party access to the account; it replaces hours of manual price checks",
+    "model": "subscription",
+    "price": "39 EUR a year (or 4.99 EUR a month)",
+    "proof": [
+     {
+      "url": "https://tcgpowertools.com/pricing",
+      "note": "Card sellers pay 2.99 to 159.99 EUR a month for repricing; vendor claims 1,700+ traders",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://sortswift.com/pricing-automation",
+      "note": "Autopricing from 15.99 USD a month for one game, Cardmarket EUR as a price source",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "TCGPowertools already re-prices and writes back automatically from 2.99 EUR a month, Cardmarket shows trend prices free on every card page, and a report that still needs manual edits on Cardmarket (no verified bulk price-upload route) is worth less.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.trustpilot.com/review/tcgpowertools.com",
+     "note": "TrustScore 2.7/5 from 10 reviews, 5 in the last 12 months; newest 1-star says support tickets go unanswered for months; 2026-06-23 says items were relisted after selling out; 2025 reviews report sync…",
+     "date": "2026-11-02",
+     "ageDays": 15,
+     "age": "2 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://tcgpowertools.com/pricing",
+     "note": "Seven plans from 2.99 to 159.99 EUR a month by monthly sales volume; Powerseller tier active from 2027-01-01 (undated page, accessed)",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://help.cardmarket.com/en/cardmarket-api",
+     "note": "Cardmarket: 'Currently, we are not accepting applications for access to the Cardmarket API' (undated, (c) 2026, accessed)",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
+     "note": "Autocomplete shows 'cardmarket preise automatisch anpassen', 'cardmarket preise anpassen', 'cardmarket preise in excel', 'cardmarket preisalarm'",
+     "date": "2026-11-17",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "German queries 'cardmarket preise automatisch anpassen', 'cardmarket preise anpassen', 'cardmarket preise in excel'",
+    "first100": "Sellers who search how to adjust Cardmarket prices automatically or in Excel run the free check on 200 listings, see the euros at stake, and pay to check the whole stock weekly.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
+      "note": "Ten autocomplete variants around Cardmarket prices, including automatic adjustment and Excel",
+      "date": "2026-11-17",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "TCGPowertools",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "SortSwift autopricing",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Cardmarket Companion (browser extension)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "MKMTool",
+     "verdict": "abandoned",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-17T16:52:29.652Z",
+    "detail": [
+     "Missed the strict bar: score 2.9 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Card sellers pay a small yearly fee to run the full stock check weekly; the first 200 listings are free.",
+   "trigger": "Mostly a standing need. The leading repricing tool, TCGPowertools, lists a new Powerseller tier (159.99 EUR a month, over 5,000 EUR in sales) from 2027-01-01; whether this raises anyone's bill is not…",
+   "window": "No deadline. What keeps the gap open is that Cardmarket issues no new API keys, so only the existing partner tool can connect, and its users post support and sync complaints (newest 2026-11-02).",
+   "score": 2.9,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1300,
+     "upsideEur": 9000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1300,
+       "upsideEur": 9000,
+       "basis": "Bottom-up: 5,000 search visits a year x 1.5% (assumed) = 75 payers x 39 EUR = 2,925 EUR, halved for the search ramp = about 1,460 EUR, minus 20 EUR hosting and about 5% payment fees = about 1,300 EUR. Cross-check: TCGPowertools claims 1,700+ paying traders at 2.99 EUR a month or more; 75 payers would be about 4% of that customer count, plausible but unverified. 5,000 EUR a year needs 128 payers a…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The payer and the price are shown by a leader with dated complaints, and the API closure is confirmed. But the leader is cheap, and a report that cannot write back is a weaker product.",
+      "summary": "",
+      "concerns": [
+       "No verified way to write prices back to Cardmarket in bulk",
+       "Not verified that private sellers can export their stock as a file",
+       "Cardmarket could change or remove the public price-guide file"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-17T16:52:29.652Z",
+   "updatedAt": "2026-11-17T16:52:29.652Z",
+   "outcome": null
+  },
   {
    "id": "angebotsklar-first-wedge",
    "title": "Angebotsklar (first wedge)",
@@ -6155,1953 +8053,6 @@
    },
    "createdAt": "2026-11-16T09:17:31.004Z",
    "updatedAt": "2026-11-16T09:17:31.004Z",
-   "outcome": null
-  },
-  {
-   "id": "sora-2-5-application-pack-for-small-drone-servic",
-   "title": "SORA 2.5 application pack for small drone service companies",
-   "pitch": "For small drone service firms (inspection, mapping, filming) applying for a specific-category operational authorisation: answer guided questions, get the ground and air risk classes, SAIL, a filled compliance matrix and an operations-manual skeleton based on the EASA template, ready to send to the national authority.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small drone service company (1 to 10 pilots) applying for a specific-category authorisation in an EU state",
-    "buys": "A complete, consistent first submission that avoids months of back-and-forth, without a consultant",
-    "model": "one-off",
-    "price": "149 EUR per application",
-    "proof": [
-     {
-      "url": "https://www.unmannedairspace.info/uncategorized/avtrain-anra-launch-sora-mate-streamlined-sora-2-5-compliance-tool-for-uk-operators/",
-      "note": "A SORA 2.5 tool sold by subscription with consultancy add-ons; no price shown",
-      "date": "2025-04-23",
-      "ageDays": 573,
-      "age": "19 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "EASA's free eSORA opens to operators, and most firms stay in the open or standard-scenario categories.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 47,
-     "age": "newest source 7 weeks old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 573,
-     "age": "newest source 19 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://traficom.fi/en/unmanned-aviation/sora-25",
-     "note": "SORA 2.5 applications need a form, a compliance matrix and an operations manual; about 12 months processing",
-     "date": "2026-10-01",
-     "ageDays": 47,
-     "age": "7 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.unmannedairspace.info/uncategorized/avtrain-anra-launch-sora-mate-streamlined-sora-2-5-compliance-tool-for-uk-operators/",
-     "note": "SORA-Mate (Avtrain and ANRA) sells subscriptions for UK SORA 2.5 assessments plus consultancy; prices not given",
-     "date": "2025-04-23",
-     "ageDays": 573,
-     "age": "19 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'sora 2.5 application', 'sora compliance matrix'",
-    "first100": "Operators preparing their first SORA 2.5 application search for the compliance matrix, use the free calculator and pay for the filled pack.",
-    "proof": [
-     {
-      "url": "https://traficom.fi/en/unmanned-aviation/sora-25",
-      "note": "Authorities publish requirements; results are authority and vendor pages",
-      "date": "2026-10-01",
-      "ageDays": 47,
-      "age": "7 weeks old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "SORA-Mate",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "EASA eSORA",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Unifly SORA training",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:49.215Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Drone firms pay per application pack instead of a consultant; no price page was found.",
-   "trigger": "Traficom's SORA 2.5 page (updated 2026-10-01): applicants must send the application form, a compliance matrix and an operations manual on the EASA template; processing takes about 12 months",
-   "window": "EASA's eSORA tool is initially available only to member states; once opened to operators it would be a free alternative.",
-   "score": 2.35,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 600,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 600,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 1,500 visits at 1.5% (assumed) gives about 22 packs at 149 EUR = 3,300; with the ramp about 5 in year one = 750, less fees, about 700. Cross-check: none (no price found), so I take 600. 5,000 EUR needs 34 packs a year; not reachable in year one."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "A real, document-heavy filing, but the payer price is unverified and a free EASA tool may open.",
-      "summary": "",
-      "concerns": [
-       "eSORA opens for free",
-       "National differences in templates",
-       "Aviation safety content needs care"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:49.215Z",
-   "updatedAt": "2026-11-16T09:16:49.215Z",
-   "outcome": null
-  },
-  {
-   "id": "cmrt-roll-up-consolidate-supplier-conflict-miner",
-   "title": "CMRT Roll-up: consolidate supplier conflict-minerals templates for small electronics suppliers",
-   "pitch": "For small electronics makers and distributors asked by customers for a company-level CMRT or EMRT: drop in the templates collected from their own suppliers, merge and de-duplicate the smelter lists, flag gaps and non-conformant smelters, and write one company template. Runs in the browser.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small electronics manufacturer or distributor that must answer customer CMRT/EMRT requests from 20 to 200 sub-suppliers' templates",
-    "buys": "Hours of copy-paste and smelter de-duplication each year, and a cleaner answer that keeps a customer account",
-    "model": "subscription",
-    "price": "199 EUR a year",
-    "proof": [
-     {
-      "url": "https://aws.amazon.com/marketplace/pp/prodview-jed6c3c2dtary",
-      "note": "Buyers pay USD 18,000 or more a year for conflict-minerals tools, but suppliers get them free: proof of category spend, not of supplier payment",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Suppliers use the free RMI template and the buyers' free supplier portals, so they expect to pay nothing.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://public.cdxsystem.com/en/web/cdx/ordering_cmd",
-     "note": "CDX sells CMD and RMD licences that import and export CMRT/EMRT files and refresh smelter data from RMI; prices on a separate page",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://aws.amazon.com/marketplace/pp/prodview-jed6c3c2dtary",
-     "note": "CSRware Conflict Minerals Management costs buyers USD 18,000 to 24,000 a year and is free for suppliers",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'consolidate cmrt', 'cmrt roll up'",
-    "first100": "Compliance staff at small suppliers searching for how to roll up CMRTs before a customer deadline use the free check and pay for the merged export.",
-    "proof": [
-     {
-      "url": "https://public.cdxsystem.com/en/web/cdx/ordering_cmd",
-      "note": "The vendors that rank sell to the requesting companies, not to small suppliers",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "CDX responsible minerals",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "CSRware Conflict Minerals Management",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Source Intelligence",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "RMI CMRT template",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:48.619Z",
-    "detail": [
-     "Missed the strict bar: score 2.25 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small suppliers might pay a yearly fee to answer customer CMRT requests quickly; the supplier side's willingness to pay is unproven.",
-   "trigger": "standing need",
-   "window": "Standing: customer requests repeat every year with each new RMI template version.",
-   "score": 2.25,
-   "index": {
-    "composite": 2.15,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.15 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.15 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 1,500 visits at 1% (assumed) gives 15 trials, about 2 to 3 paying 199 EUR in year one = about 500, less fees. Cross-check: suppliers get buyer tools free, which argues for less. I take 300. 5,000 EUR needs 25 payers; not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The category has spending, but on the buyer side; the supplier side has free tools.",
-      "summary": "",
-      "concerns": [
-       "Suppliers expect free tools",
-       "RMI template versions change",
-       "Small audience"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:48.619Z",
-   "updatedAt": "2026-11-16T09:16:48.619Z",
-   "outcome": null
-  },
-  {
-   "id": "o-m-pack-builder-operation-and-maintenance-manua",
-   "title": "O&M Pack Builder: operation and maintenance manuals for small building-services subcontractors",
-   "pitch": "For small mechanical and electrical subcontractors: drop in datasheets, certificates, warranties and test sheets, pick the sections, and get an indexed, bookmarked, hyperlinked O&M manual PDF ready for handover. Runs in the browser.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small M&E subcontractor (5 to 50 staff) handing over several projects a year",
-    "buys": "A compliant handover pack in an hour instead of days of office time or an outsourced compiler; earlier release of retention",
-    "model": "one-off",
-    "price": "49 EUR per project pack",
-    "proof": [
-     {
-      "url": "https://www.plexapro.com/blog/om-manual-construction",
-      "note": "Shows contractors pay a compiling industry for this job; no price shown",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Main contractors' platforms (Plexa, Zutec, Procore) collect documents for free from subcontractors, and office staff use Acrobat.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.plexapro.com/blog/om-manual-construction",
-     "note": "Builders own the O&M obligation, most documents come from subcontractors, and 'a small Australian industry now exists purely to compile these packs on contractors' behalf'",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.designingbuildings.co.uk/wiki/Operation_and_Maintenance_Manuals_-_Cheap_Options",
-     "note": "Contractors and subcontractors outsource O&M manuals to specialist companies that 'cost money' (no figures)",
-     "date": "2021-07-05",
-     "ageDays": 1961,
-     "age": "5 years 4 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'o&m manual template', 'how to compile an o&m manual'",
-    "first100": "Subcontractor office managers searching for an O&M template at handover build one pack free (watermarked) and pay to export.",
-    "proof": [
-     {
-      "url": "https://www.designingbuildings.co.uk/wiki/Operation_and_Maintenance_Manuals_-_Cheap_Options",
-      "note": "A wiki page on cheap options shows the query exists; results are wiki pages and enterprise vendors",
-      "date": "2021-07-05",
-      "ageDays": 1961,
-      "age": "5 years 4 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Plexa",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Zutec",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "O&M I.T. Ltd (compiling service)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:47.695Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Subcontractors pay per project pack instead of an outsourced compiler; the price level is not verified.",
-   "trigger": "standing need",
-   "window": "Standing: handover packs are a chore at the end of every project, and retention money is held until they are delivered.",
-   "score": 2.35,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 500,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 500,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 2,000 visits at 1% (assumed) gives 20 packs at 49 EUR = 980; with the ramp about 600, less fees, about 500. Cross-check: none (no compiling-service price found), so it stays at the bottom-up figure. 5,000 EUR needs 102 packs a year; not reachable in year one."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A real chore with an outsourcing market, but no price was found and the main contractors' platforms may absorb it.",
-      "summary": "",
-      "concerns": [
-       "No price evidence",
-       "Main contractor platforms collect documents free",
-       "Section structures vary by client"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:47.695Z",
-   "updatedAt": "2026-11-16T09:16:47.695Z",
-   "outcome": null
-  },
-  {
-   "id": "pmc-ready-jats-check-for-small-society-journals",
-   "title": "PMC-ready JATS check for small society journals",
-   "pitch": "For small society and university journals on OJS: convert an accepted DOCX to JATS XML, run PubMed Central and JATS4R-style checks in the browser, show each error with a fix, and output the XML and figure package.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small society or university journal publishing 20 to 100 articles a year that wants PMC or better indexing",
-    "buys": "Valid JATS that passes the PMC checks without paying a typesetter per article",
-    "model": "one-off",
-    "price": "6 EUR per article, or 39 EUR a month for unlimited articles",
-    "proof": [
-     {
-      "url": "https://scholasticahq.com/pricing/",
-      "note": "Journals pay USD 7 per 500 words for production that includes JATS XML",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Free converters exist, many small journals have no budget, and AI assistants produce rough JATS.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://scholasticahq.com/pricing/",
-     "note": "Scholastica production (with full-text JATS XML) costs USD 7 per 500 words, 7 per figure and 7 per equation. Undated",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://lab.operas-eu.org/2025/01/17/jats-xml-converter-service/",
-     "note": "SRCE (University of Zagreb) runs a JATS XML converter service for OA journals; price not stated and PMC validation not mentioned",
-     "date": "2025-02-24",
-     "ageDays": 631,
-     "age": "21 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'docx to jats xml', 'pmc style checker errors'",
-    "first100": "Journal managers preparing a PMC application search for JATS conversion, try one article free and pay for the rest of the issue.",
-    "proof": [
-     {
-      "url": "https://lab.operas-eu.org/2025/01/17/jats-xml-converter-service/",
-      "note": "The query space is served by academic services and vendor lists",
-      "date": "2025-02-24",
-      "ageDays": 631,
-      "age": "21 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Scholastica production",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "SRCE / OPERAS JATS XML Converter",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "PKP DOCX-to-JATS workflow",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "DOCX-to-JATS converters listed by SciSpace",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:46.511Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small journals pay per article for a checked JATS package instead of a typesetting service.",
-   "trigger": "standing need",
-   "window": "Standing need; free converters (SRCE/OPERAS, PKP plugin) and paid services already exist.",
-   "score": 2.3,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 600,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 600,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 2,000 visits at 1.5% (assumed) gives 30 journals; about 8 pay around 100 EUR in year one = 800, less fees, about 750. Cross-check: Scholastica's per-article price shows payment exists, but free converters compete. I take 600. 5,000 EUR needs about 11 journals on the monthly plan for a full year."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A paid job, but crowded with free and institutional converters and with low-budget buyers.",
-      "summary": "",
-      "concerns": [
-       "Free converters",
-       "Low willingness to pay",
-       "DOCX variety makes conversion hard"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:46.511Z",
-   "updatedAt": "2026-11-16T09:16:46.511Z",
-   "outcome": null
-  },
-  {
-   "id": "no-upload-e-bundle-builder-for-small-law-firms",
-   "title": "No-upload e-bundle builder for small law firms",
-   "pitch": "For small law firms and solicitors: drop PDFs in the browser and get one court e-bundle that follows the UK judiciary e-bundle guidance (computer pagination from page 1, hyperlinked index, bookmarks with page numbers, 100% view), with confidential documents never uploaded.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small law firm or sole practitioner preparing hearing bundles a few times a month",
-    "buys": "A compliant e-bundle in minutes without uploading client documents; avoids rejected bundles and paralegal hours",
-    "model": "subscription",
-    "price": "19 EUR a month, or 9 EUR per bundle",
-    "proof": [
-     {
-      "url": "https://www.bundledocs.com/pricing",
-      "note": "Firms pay from GBP 34 a month for the same job",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Firms already have Bundledocs, a practice-management bundler or Acrobat. Only one competitor was checked in this run, so more solid tools very likely exist.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.judiciary.uk/guidance-and-resources/general-guidance-on-electronic-court-bundles/",
-     "note": "UK e-bundle rules: single PDF, computer pagination matching PDF numbering, hyperlinked index, bookmarks with page numbers, OCR, 100% view, size limits",
-     "date": "2021-11-29",
-     "ageDays": 1814,
-     "age": "4 years old",
-     "tier": "old"
-    },
-    {
-     "url": "https://www.bundledocs.com/pricing",
-     "note": "Bundledocs Starter from GBP 34 a month for court and case bundles. Undated (copyright 2026)",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'create electronic court bundle', 'bundledocs alternative', 'court bundle index pagination pdf'",
-    "first100": "Solicitors and paralegals searching for how to make an e-bundle the night before a deadline use it once free and subscribe.",
-    "proof": [
-     {
-      "url": "https://www.bundledocs.com/pricing",
-      "note": "A paid category that sells self-serve with a free trial",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Bundledocs",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:46.231Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small firms pay per bundle or monthly, as they already pay Bundledocs.",
-   "trigger": "standing need",
-   "window": "Standing need; the judiciary e-bundle guidance dates from 2021.",
-   "score": 2.4,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: 3,000 visits at 1.5% (assumed) gives 45 trials; about 10 paying firms averaging 5 months at 19 EUR = 950, less fees, about 850. Cross-check: Bundledocs at GBP 34 a month confirms willingness to pay (customer count not verified). I take 800. 5,000 EUR needs 22 firms on a full year."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A priced, self-serve category with clear rules; competition was not fully checked, so the gap score is cautious.",
-      "summary": "",
-      "concerns": [
-       "Likely several solid competitors not checked here",
-       "OCR in the browser is heavy",
-       "Mostly UK rules"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:46.231Z",
-   "updatedAt": "2026-11-16T09:16:46.231Z",
-   "outcome": null
-  },
-  {
-   "id": "one-product-sds-builder-for-small-mixture-makers",
-   "title": "One-product SDS builder for small mixture makers (GHS)",
-   "pitch": "For small makers of cleaning products, coatings, resins and inks who need a few safety data sheets: enter the recipe and the ingredients' classifications from supplier SDSs, get the GHS mixture classification by the calculation method and a 16-section SDS PDF for one region.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small manufacturer of a chemical mixture (cleaning product, coating, resin, ink) selling to businesses or retailers that demand an SDS",
-    "buys": "A GHS-classified SDS for one product, needed to sell to retailers and B2B customers, without a consultant",
-    "model": "one-off",
-    "price": "79 EUR per SDS",
-    "proof": [
-     {
-      "url": "https://www.ul.com/en/products/ulghs",
-      "note": "Small companies pay from USD 275 per SDS for the same job",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "GHSAuth (from CAD 9 a month, free version) and other priced tools already serve it, and a wrong classification is a liability that makes buyers prefer a reviewed service.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.ul.com/en/products/ulghs",
-     "note": "UL's self-serve SDS tool for small companies needing a few SDSs: from USD 275 per product document, reviewed in five business days. Undated",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://sdsmanager.com/ca/pricing/",
-     "note": "ExactSDS authoring: CAD 269 per SDS pay-as-you-go, or CAD 269 to 2,690 a year by volume. Undated (copyright 2026)",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'how to write an sds for my product', 'ghs mixture classification calculator'",
-    "first100": "Makers asked by a retailer for an SDS search for how to create one, try the free classification calculator and pay for the PDF.",
-    "proof": [
-     {
-      "url": "https://sdsmanager.com/ca/pricing/",
-      "note": "Vendors publish prices and compete for these buyers through search",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "ULGHS",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "ExactSDS (SDS Manager)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "GHSAuth",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:45.682Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small makers pay per SDS, as they already do at UL and ExactSDS.",
-   "trigger": "standing need",
-   "window": "Standing need. The market is crowded with priced tools, so there is no window.",
-   "score": 2.6,
-   "index": {
-    "composite": 2.35,
-    "used": {
-     "risk": 4,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.35 is below 3.6",
-     "risk 4 is above 3.5"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.35 is below 4",
-      "potential 2 is below 4",
-      "risk 4 is above 3"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: 3,000 visits at 1% (assumed) gives 30 SDSs at 79 EUR = 2,370; with the ramp, about 12 in year one = 950, less fees, about 800. Cross-check: UL charges USD 275 and ExactSDS CAD 269 per SDS, which confirms the price but not the volume. 5,000 EUR needs 64 SDSs a year; not reachable in year one."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 4,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "Clearly paid for, but crowded with priced tools, and classification errors carry liability.",
-      "summary": "",
-      "concerns": [
-       "At least three solid priced competitors",
-       "Liability for misclassification",
-       "Regional SDS rules differ"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:45.682Z",
-   "updatedAt": "2026-11-16T09:16:45.682Z",
-   "outcome": null
-  },
-  {
-   "id": "iso-9606-welder-log-qualifications-six-month-con",
-   "title": "ISO 9606 Welder Log: qualifications, six-month confirmations and revalidation dates for small fabri…",
-   "pitch": "For fabrication shops and welding coordinators working to ISO 9606-1 and ISO 15614 (UK, Europe, Middle East, Asia, Australia): one register of welders, processes and qualification ranges, six-month employer confirmations and the next revalidation date, with a printable continuity record for auditors and customers.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A fabrication shop or welding coordinator with 3 to 30 coded welders working to ISO 9606-1",
-    "buys": "No lapsed qualifications. A lapsed welder means re-testing (test coupons, examiner fees) and rejected work or failed audits. Replaces a spreadsheet kept by the QA person.",
-    "model": "subscription",
-    "price": "15 EUR a month per shop (up to 30 welders), or 149 EUR a year",
-    "proof": [
-     {
-      "url": "https://weldpad-static.pages.dev/",
-      "note": "Shops pay USD 20 per user per month for the same job under US codes",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://payhip.com/b/7UxbG",
-      "note": "A continuity workbook sells at USD 149.99",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "A shop with a stable crew keeps the dates in a spreadsheet, and larger shops get welder registers from their certification body or an ERP.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://weldpad-static.pages.dev/",
-     "note": "WeldPad: WPS, PQR, welder qualifications and continuity at USD 20 per user per month for shops up to 50 people; AWS D1.1 and ASME IX only, no ISO. Undated (copyright 2026)",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://payhip.com/b/7UxbG",
-     "note": "Welder Qualification & Continuity Workbook (Excel) sold at USD 149.99; covers ASME IX, AWS D1.1 and API 1104, not ISO 9606. Undated",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'iso 9606 revalidation', 'welder continuity log iso 9606', 'welder qualification register template'",
-    "first100": "Welding coordinators preparing for an audit search for an ISO 9606 revalidation rule or register template, use the free calculator page and subscribe to keep the register.",
-    "proof": [
-     {
-      "url": "https://weldpad-static.pages.dev/",
-      "note": "A 2026 entrant ranks with blog posts on the six-month continuity rule (US codes), showing the query space is reachable by a small site",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "WeldPad",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Welder Qualification & Continuity Workbook",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "TWI Welding Qualifier",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "CEI ProWrite",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "WPSAmerica Welders Log",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:44.881Z",
-    "detail": [
-     "Missed the strict bar: score 2.65 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small shops pay a small monthly fee so that no welder's ISO qualification lapses unnoticed before an audit or a customer inspection.",
-   "trigger": "standing need",
-   "window": "Standing: the self-serve tools found target US codes (AWS D1.1, ASME IX, API 1104); the ISO side is served by a GBP 1,500 desktop licence (TWI) and enterprise suites.",
-   "score": 2.65,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1200,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1200,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: 2,000 visits at 2% (assumed) gives 40 trials. With the ramp, about 10 yearly payers at 149 EUR = 1,490, less fees, about 1,300. Cross-check: WeldPad charges USD 20 per user per month for US codes (customer count not verified). I take 1,200. 5,000 EUR needs 34 payers a year; not reachable in year one."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A priced, live adjacent market exists (US codes), and the ISO segment lacks a cheap self-serve tool. Reminders by email would need a small server or calendar export.",
-      "summary": "",
-      "concerns": [
-       "Spreadsheets are good enough for many shops",
-       "ISO standard text is copyrighted: encode rules and dates only",
-       "TWI covers ISO already"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:44.881Z",
-   "updatedAt": "2026-11-16T09:16:44.881Z",
-   "outcome": null
-  },
-  {
-   "id": "platform-report-xml-for-holiday-let-agencies-and",
-   "title": "Platform Report XML for holiday-let agencies and small marketplaces (UK digital-platform rules and …",
-   "pitch": "For UK and EU holiday-let agencies and small marketplaces whose booking or payout system has no DAC7 export: upload the owner or seller payout CSV, see which identity fields are missing, get totals per seller per quarter with the exclusion rules applied, and download schema-checked XML for HMRC or an EU tax office. Processed in the browser, so owner data never leaves the machine.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A UK or EU holiday-let agency managing 10 to 300 owners' properties on a booking system without a DAC7 export, or a small marketplace that …",
-    "buys": "A schema-valid XML report (and corrections) built from its own payout export, which HMRC accepts only as XML. Avoids late or wrong reports and days of manual collation.",
-    "model": "subscription",
-    "price": "149 EUR a year per reporting entity, corrections included",
-    "proof": [
-     {
-      "url": "https://www.hikashop.com/marketplace/product/312-dac7-reporting-for-hikamarket.html",
-      "note": "Marketplace operators pay 70 EUR for a plugin that builds the DAC7 declaration files (HikaMarket only)",
-      "date": "2026-08-14",
-      "ageDays": 95,
-      "age": "3 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Their booking system adds a DAC7 export before January, as SuperControl, Bookster and Guesty already have, or their accountant files it as part of other work.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 95,
-     "age": "newest source 3 months old",
-     "tier": "ok",
-     "n": 3
-    },
-    "pay": {
-     "days": 95,
-     "age": "newest source 3 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://hostfully.uservoice.com/forums/271343-property-management-platform/suggestions/50628662-dac7-reporting-export-support-for-uk-eu-property-m",
-     "note": "UK/EU property managers ask for a DAC7 export; one with 40 properties calls collating the data 'near on impossible' and quotes HMRC: no manual way to submit. 3 votes, no vendor reply",
-     "date": "2025-10-24",
-     "ageDays": 389,
-     "age": "13 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://www.gov.uk/guidance/reporting-rules-for-digital-platforms",
-     "note": "Sellers who manage property rentals are reportable; entities with more than 2,000 rentals a year are excluded",
-     "date": "2026-07-21",
-     "ageDays": 119,
-     "age": "4 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.hikashop.com/marketplace/product/312-dac7-reporting-for-hikamarket.html",
-     "note": "A 70 EUR plugin builds DAC7 declaration files for 16 countries, but only for HikaMarket shops; released 2026-08-14",
-     "date": "2026-08-14",
-     "ageDays": 95,
-     "age": "3 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'dac7 report hmrc xml', 'dac7 holiday let', plus one page per booking system that lacks an export ('Hostfully DAC7 export')",
-    "first100": "Agency owners searching in December and January for how to send the DAC7 report find the guide plus the tool, and pay once the file passes the schema check.",
-    "proof": [
-     {
-      "url": "https://hostfully.uservoice.com/forums/271343-property-management-platform/suggestions/50628662-dac7-reporting-export-support-for-uk-eu-property-m",
-      "note": "Agencies look for a DAC7 export where their system has none; the result pages for these queries are vendor help pages for their own customers",
-      "date": "2025-10-24",
-      "ageDays": 389,
-      "age": "13 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "SuperControl DAC7 toolkit",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Bookster",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Guesty",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Stripe Connect platform tax reporting",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Belgium DPI-DAC7 XML tool",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:44.416Z",
-    "detail": [
-     "Missed the strict bar: score 3.1 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Agencies and small platforms pay a yearly fee per reporting entity for an XML file the tax office accepts, instead of retyping owner data or paying an adviser.",
-   "trigger": "Annual duty: UK and EU platform operators, including agencies that let owners' properties, report each calendar year by 31 January (next: 2027-01-31). HMRC guidance updated 2026-07-21; according to a…",
-   "window": "Recurs every January. The gap is closing for agencies on systems that add an export (SuperControl, Bookster and Guesty already have one), but stays open for agencies on other systems or spreadsheets …",
-   "score": 3.1,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 12000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 12000,
-       "basis": "Bottom-up: 2,000 visits at 3% (assumed) gives 60 payers a year at 149 EUR = 8,940. But a new site will hardly rank before the January 2027 deadline, so year one realistically brings about 15 payers: 2,235 EUR, less fees, about 2,100. Cross-check: the HikaShop plugin sells the same job at 70 EUR (sales count not shown), so the price is in range but volume is unverified. 5,000 EUR needs 34 payers a…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "There is a real XML-only filing duty with penalties, and agencies say they struggle. Booking-system vendors are adding exports, so the segment is shrinking.",
-      "summary": "",
-      "concerns": [
-       "Booking systems add exports",
-       "Schema or HMRC process changes each year",
-       "Personal data handling must be visibly local"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:44.416Z",
-   "updatedAt": "2026-11-16T09:16:44.416Z",
-   "outcome": null
-  },
-  {
-   "id": "developer-royalty-statements-for-small-game-publ",
-   "title": "Developer royalty statements for small game publishers",
-   "pitch": "For indie game publishers with 3 to 30 signed titles: import Steam, console, Epic, GOG and mobile sales reports, apply each contract's split, platform fees, recoupment of the advance and costs, step-ups and minimum guarantees, and send every developer a quarterly statement PDF with a running recoupment ledger. If it takes off, developers ask their next publisher for 'statements like these', which…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "An indie game publisher (2 to 15 staff) with several signed developers on advance-and-recoupment deals",
-    "buys": "Correct quarterly statements per developer and title across all platforms, with recoupment tracked over time. Saves days of spreadsheet work each quarter and avoids underpayment disputes and developer audits.",
-    "model": "subscription",
-    "price": "39 EUR a month for up to 10 titles; 99 EUR a month for up to 40",
-    "proof": [
-     {
-      "url": "https://eddy.app/pricing",
-      "note": "Indie music labels pay 39 to 239 EUR a month for the same job (royalty statements from sales reports); undated page, copyright 2025",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Publishers with a handful of titles keep a spreadsheet that works well enough, and the market of small game publishers is only a few hundred to a few thousand firms.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://legalmoveslawfirm.com/royalty-calculator/",
-     "note": "A law firm's free calculator models a game publishing deal (platform cut, advance, recoupable costs, share during and after recoupment) but makes no periodic statements from sales reports. Page undat…",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://eddy.app/pricing",
-     "note": "Indie music labels pay 39 EUR a month (DIY Label), 99 EUR (Indie Label) or 239 EUR (Record Company) for royalty statements built from sales reports. Page undated (copyright 2025)",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.hypebot.com/indie-product-spotlight-royalty-accounting-app-eddy.md",
-     "note": "Eddy is described as affordable royalty accounting for indie labels, with statements and an artist portal: the same job in music (older article)",
-     "date": "2021-11-03",
-     "ageDays": 1840,
-     "age": "5 years old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'game publisher royalty statement template', 'royalty report developer steam', plus a free statement template page that links to the tool",
-    "first100": "Publishing managers searching for a royalty statement template ahead of a quarter end find the free template, then pay to import the platform reports instead of retyping them.",
-    "proof": [
-     {
-      "url": "https://legalmoveslawfirm.com/royalty-calculator/",
-      "note": "Lawyers publish free deal calculators and 2026 guides on game royalties, so the query space has content but no statement tool",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Legal Moves royalty and recoupment calculator",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Eddy",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "FADEL IPM Suite for gaming",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Rightsline",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:42.988Z",
-    "detail": [
-     "Missed the strict bar: score 2.8 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small game publishers pay a monthly fee, as indie music labels pay Eddy, to produce correct developer statements every quarter instead of spreadsheets.",
-   "trigger": "standing need",
-   "window": "Standing gap: royalty software exists for music labels (Eddy, Curve) and books, plus enterprise rights suites, but two searches found no tool built for game publishers, who keep using spreadsheets.",
-   "score": 2.8,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 15000,
-       "basis": "Bottom-up: 1,500 visits at 2% (assumed) gives 30 trials. Assume 12 paying publishers averaging 5 paid months in year one: 12 x 39 x 5 = 2,340 EUR, less fees, about 2,200. Cross-check: Eddy's 39 EUR entry tier shows labels pay this much for statements (subscriber count not verified). The audience is small, so I take 2,000. 5,000 EUR a year needs 11 payers on the full yearly price; plausible but un…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The job is clearly paid for in music, and I found no game tool. Platform report formats (consoles in particular) are under NDA or vary, which limits what can be imported automatically.",
-      "summary": "",
-      "concerns": [
-       "Console sales report formats may not be public, so users would need a CSV mapping step",
-       "Small audience",
-       "Publishers may keep spreadsheets"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:42.988Z",
-   "updatedAt": "2026-11-16T09:16:42.988Z",
-   "outcome": null
-  },
-  {
-   "id": "store-payout-books-apple-google-play-and-steam-p",
-   "title": "Store Payout Books: Apple, Google Play and Steam payouts into Xero or QuickBooks",
-   "pitch": "For small app and game studios and their bookkeepers: drop in Apple's monthly financial reports (one per region and currency), Google Play earnings reports and Steam sales reports, and get one journal per payout (gross sales, commission, withheld tax, refunds, FX difference) matched to the bank deposit, as a Xero or QuickBooks import file. Runs in the browser. If it takes off it becomes the defau…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small app or game studio (1 to 20 people) paid monthly by Apple, Google Play or Steam in several currencies, or the bookkeeper who keeps …",
-    "buys": "Monthly payout journals split into sales, commission, withheld tax, refunds and FX, matched to the bank deposit and ready to import. This replaces 1 to 3 hours of bookkeeper time a month. The free alternative is doing it by hand from tab-delimited reports.",
-    "model": "subscription",
-    "price": "19 EUR a month per studio; 49 EUR a month for a bookkeeper with up to 10 client studios",
-    "proof": [
-     {
-      "url": "https://www.a2xaccounting.com/pricing",
-      "note": "Sellers pay from USD 29 a month for exactly this job on marketplace payouts (undated page, copyright 2026)",
-      "date": "2026-11-16",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "A studio with one Apple payout a month books a single net entry by hand in five minutes (Magic Heidi recommends exactly that), so only multi-store, multi-currency studios and bookkeepers feel enough pain to pay.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://appsops.store/blog/app-store-financial-reports-proceeds-territory",
-     "note": "Apple financial reports come as one tab-delimited report per region per month, used for 'accounting, bank reconciliation, audit-grade revenue recognition'; AppsOps itself (USD 19 a month) does pricin…",
-     "date": "2026-06-26",
-     "ageDays": 144,
-     "age": "5 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://magicheidi.ch/en/integrations/app-store-connect",
-     "note": "A Swiss bookkeeping app reads Apple's Financial Report and books one entry per payout, region and currency; Swiss-only (CHF, Swiss VAT). Shows the job exists and is paid for in one country. Page unda…",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.a2xaccounting.com/pricing",
-     "note": "A2X charges from USD 29 a month per channel to post marketplace payouts into Xero or QuickBooks; Apple, Google Play and Steam are not supported. Page undated (copyright 2026), viewed on this date",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://linkmybooks.com/pricing",
-     "note": "Link My Books supports Amazon, eBay, Etsy, Shopify, Walmart, TikTok Shop, WooCommerce and Square, with no app stores. Page undated (copyright 2026), viewed on this date",
-     "date": "2026-11-16",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Queries such as 'app store payouts xero', 'apple financial report quickbooks', 'google play earnings xero', plus one guide page per store and per accounting system",
-    "first100": "Indie developers and their bookkeepers searching in the weeks after a month or year end for how to book Apple or Google Play income. They find the per-store guide, run one month free and subscribe to keep the history.",
-    "proof": [
-     {
-      "url": "https://appsops.store/blog/app-store-financial-reports-proceeds-territory",
-      "note": "Explainer content on Apple financial reports ranks for these queries; no tool does so (two searches found no app-store connector)",
-      "date": "2026-06-26",
-      "ageDays": 144,
-      "age": "5 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Magic Heidi",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "A2X",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Link My Books",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Synder",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "RevenueCat",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T09:16:42.605Z",
-    "detail": [
-     "Missed the strict bar: score 3.2 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small app and game studios, or their bookkeepers, pay a monthly fee for payout journals that reconcile to the bank, as Amazon and Shopify sellers already do with A2X.",
-   "trigger": "standing need",
-   "window": "Standing gap: A2X, Link My Books and Synder cover marketplaces and payment processors but not app stores, and the only app-store bookkeeping helper found (Magic Heidi) is a Swiss freelancer app. Noth…",
-   "score": 3.2,
-   "index": {
-    "composite": 2.95,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.95 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.95 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 25000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 25000,
-       "basis": "Bottom-up: 2,500 search visits in year one at 2% (assumed) gives 50 payers, but with the ramp the average payer pays about 4 months: 50 x 19 x 4 = 3,800 EUR, less about 5% in payment fees and 20 EUR of hosting, about 3,600. Cross-check: A2X charges USD 29 a month for the same job on marketplaces (customer count not verified) and Magic Heidi found it worth a feature for Swiss users. No subscriber …"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The job is paid for at USD 29 a month in the neighbouring marketplace segment, and the app-store segment has no connector. Demand evidence is indirect (guides, not requests).",
-      "summary": "",
-      "concerns": [
-       "Small studios may book one net entry by hand",
-       "A2X or Link My Books could add Apple as a channel",
-       "Apple report formats differ by region and need careful fixtures"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T09:16:42.605Z",
-   "updatedAt": "2026-11-16T09:16:42.605Z",
    "outcome": null
   },
   {
@@ -16356,7 +16307,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-17T12:00:00.000Z",
+  "checkedInAt": "2026-11-17T15:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -16374,19 +16325,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-16T21:00:50.325Z",
+   "lastRunAt": "2026-11-17T16:32:28.263Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 91,
-   "radius": 1,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 92,
+   "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 2,
+   "runsLastDay": 3,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-17T03:00:50.325Z"
+   "nextRunAfter": "2026-11-17T22:32:28.263Z"
   }
  },
  "scorecard": {
