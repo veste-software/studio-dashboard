@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T00:03:03.601Z",
+ "generatedAt": "2026-11-17T01:58:19.889Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,120 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "angebotsklar-first-wedge",
+   "title": "Angebotsklar (first wedge)",
+   "pitch": "Astro site with a Preact upload island: upload a quote, AI extracts line items (unit, kW, foundation, electrics, hydraulic balancing, radiators, removal of old boiler), flags missing items against the published checklist, estimates the KfW grant, and once a region has enough real quotes compares each line with the regional median. Personal data redacted, original deleted after extraction; public …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "In the queue",
+   "prototype": false,
+   "origin": "Big think",
+   "money": {
+    "level": "unchecked",
+    "label": "No payer on record",
+    "why": "no payer is on record (the idea predates the money check)",
+    "legacy": true,
+    "payer": "",
+    "buys": "",
+    "model": "",
+    "price": "",
+    "proof": [],
+    "nobodyPaysIf": "",
+    "claim": "Free for owners. Installers pay a fixed fee to receive a complete, anonymised job (house data plus checked quote) and submit a counter-offer; later a paid premium check with a human adviser and labelled financing referrals.. First revenue: A per-bid fee from an installer bidding on a posted job (pr…",
+    "checks": [],
+    "ratings": []
+   },
+   "kind": "big",
+   "fresh": {
+    "demand": {
+     "days": 3,
+     "age": "newest source 3 days old",
+     "tier": "fresh",
+     "n": 6
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.test.de/Einbau-von-Waermepumpen-Lueckenhafte-Angebote-riesige-Kostenspanne-6228678-0/",
+     "note": "Stiftung Warentest on 160 quotes collected by VZ RLP: about 20,000 to more than 60,000 euros for the same job, average about 36,000; only about a quarter compl…",
+     "date": "2025-06-25",
+     "ageDays": 510,
+     "age": "17 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.finanztip.de/daily/web/bis-zu-300-prozent-preisunterschied-so-vergleichst-du-waermepumpen-angebote/",
+     "note": "Verbraucherzentrale energy advice evaluated more than 2,000 heat pump quotes over 18 months; up to 300% price differences; missing items can add more than 10,0…",
+     "date": "2026-10-02",
+     "ageDays": 46,
+     "age": "7 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.solarserver.de/2026/01/27/bwp-waermepumpen-absatz-um-55-prozent-in-2025-gestiegen/",
+     "note": "BWP: 299,000 heating heat pumps sold in 2025 (+55%), 288,000 KfW grant commitments; warns a reformed buildings energy law could slow investment.",
+     "date": "2026-01-27",
+     "ageDays": 294,
+     "age": "10 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.verbraucherzentrale-niedersachsen.de/node/121323",
+     "note": "The incumbent public offer: free quote check by energy advisers via upload and video call, funded by the federal ministry.",
+     "date": "2025-07-15",
+     "ageDays": 490,
+     "age": "16 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": null,
+   "alternatives": [
+    {
+     "name": "Verbraucherzentrale energy advice (quote check)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "reduco.ai",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Enter (free heat pump quote check)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Aroundhome",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "product lead",
+    "reason": "Spec written; waiting for the review.",
+    "at": "2026-11-17T01:58:13.124Z",
+    "detail": []
+   },
+   "trigger": "standing need",
+   "window": "AI reads and itemises a quote PDF or photo cheaply, so a check that needed an adviser costs cents; heat pump sales rose 55% in 2025; the EU Data Act (applicable since September 2025, from memory) let…",
+   "score": 5,
+   "index": null,
+   "demand": null,
+   "factors": [],
+   "factorFit": 0,
+   "links": {
+    "repo": "https://github.com/veste-software/angebotsklar-first-wedge",
+    "preview": "https://veste-software.github.io/angebotsklar-first-wedge/",
+    "live": null
+   },
+   "createdAt": "2026-11-17T01:58:13.124Z",
+   "updatedAt": "2026-11-17T01:58:19.811Z",
+   "outcome": null
+  },
   {
    "id": "line-booth-voice-over-line-tracking-for-indie-na",
    "title": "Line Booth: voice-over line tracking for indie narrative games",
@@ -8799,83 +8913,6 @@
    "updatedAt": "2026-11-14T20:08:08.736Z"
   },
   {
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Big think: competes in the daily ranking for the next prototype",
-   "origin": "Big think",
-   "kind": "big",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 3,
-     "age": "newest source 3 days old",
-     "tier": "fresh",
-     "n": 6
-    },
-    "pay": null
-   },
-   "sources": [
-    {
-     "url": "https://www.test.de/Einbau-von-Waermepumpen-Lueckenhafte-Angebote-riesige-Kostenspanne-6228678-0/",
-     "note": "Stiftung Warentest on 160 quotes collected by VZ RLP: about 20,000 to more than 60,000 euros for the same job, average about 36,000; only about a quarter compl…",
-     "date": "2025-06-25",
-     "ageDays": 510,
-     "age": "17 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://www.finanztip.de/daily/web/bis-zu-300-prozent-preisunterschied-so-vergleichst-du-waermepumpen-angebote/",
-     "note": "Verbraucherzentrale energy advice evaluated more than 2,000 heat pump quotes over 18 months; up to 300% price differences; missing items can add more than 10,0…",
-     "date": "2026-10-02",
-     "ageDays": 46,
-     "age": "7 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.solarserver.de/2026/01/27/bwp-waermepumpen-absatz-um-55-prozent-in-2025-gestiegen/",
-     "note": "BWP: 299,000 heating heat pumps sold in 2025 (+55%), 288,000 KfW grant commitments; warns a reformed buildings energy law could slow investment.",
-     "date": "2026-01-27",
-     "ageDays": 294,
-     "age": "10 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": null,
-   "alternatives": [],
-   "trigger": "",
-   "window": "AI reads and itemises a quote PDF or photo cheaply, so a check that needed an adviser costs cents; heat pump sales rose 55% in 2025; the EU Data Act (applicable since September 2025, from memory) let…",
-   "index": null,
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "outcome": null,
-   "id": "bet-angebotsklar",
-   "title": "Angebotsklar",
-   "pitch": "A free check for heat pump and solar quotes in Germany: owners upload a quote, an AI itemises it and flags missing items, compares it with an open price index built from everyone's anonymised quotes, and fair-priced installers can bid on c… The heat pump is the biggest purchase many owners make after the house, and the same job is quoted between about 20,000 and more than 60,000 euros. Judging a …",
-   "platform": "knowledge",
-   "money": null,
-   "score": 3.95,
-   "earns": "Free for owners. Installers pay a fixed fee to receive a complete, anonymised job (house data plus checked quote) and submit a counter-offer; later a paid premium check with a human adviser and labelled financing referrals.. First revenue: A per-bid fee from an installer bidding on a posted job (pr…",
-   "decision": {
-    "by": "big think",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-14T20:08:03.892Z",
-    "detail": [
-     "Market: House owners in Germany comparing quotes for air-to-water heat pumps, then PV and batteries. About 299,000 heating heat pumps sold in 2025 and 288,000 KfW grant commitments; roughly 8 to 11 billion euros a year in heat pump jobs, before PV",
-     "The gap: Everyone who sees many quotes is either paid by installers or selling installations, so cannot publish who is expensive, or is a publicly funded adviser that works case by case and publishes only one-off averages. Nobody has an incentive to turn quotes into a live public index.",
-     "First wedge: Owners of single-family houses holding at least one air-to-water heat pump quote, nationwide in German. Astro site with a Preact upload island: upload a quote, AI extracts line items (unit, kW, foundation, electrics, hydraulic balancing, radiators, removal of old boiler), flags missing…",
-     "First test (400 EUR): A one-page German site with a working quote-upload prototype, Google Ads on the confirmed 'angebot prüfen' queries for three weeks, counting uploads and how many uploaders opt in to receive a counter-offer.",
-     "Strongest case against: The Verbraucherzentrale already checks quotes for free with a real adviser and commercial players do free checks too, so owners may not need another. Houses differ, so a price index may be too noisy to beat one adviser. Installers are scarce and busy and may not pay to bid. …"
-    ]
-   },
-   "createdAt": "2026-11-14T20:08:03.892Z",
-   "updatedAt": "2026-11-14T20:08:03.892Z"
-  },
-  {
    "id": "gaeb-angebot-im-browser-x83-leistungsverzeichnis",
    "title": "GAEB-Angebot im Browser: X83-Leistungsverzeichnis bepreisen und als X84 abgeben",
    "pitch": "For small trades (painters, electricians, roofers, landscapers) who get a GAEB X83 bill of quantities with a public tender and must return a priced X84 file: open, price and export in the browser, on any computer, with the file never leaving the device. If it takes off it becomes the bidding companion next to tender-notice pages (Formblatt 221/223, X89 invoices, Austrian ONLV).",
@@ -16349,7 +16386,7 @@
    "foundLastDay": 1,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-16T23:00:50.325Z"
+   "nextRunAfter": "2026-11-17T03:00:50.325Z"
   }
  },
  "scorecard": {
