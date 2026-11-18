@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T12:04:09.245Z",
+ "generatedAt": "2026-11-18T14:04:49.799Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,1908 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "plot-book-burial-register-and-plot-map-for-small",
+   "title": "Plot Book: burial register and plot map for small cemeteries, published as a static public search s…",
+   "pitch": "For volunteer cemetery boards, churches and small towns: import burial records from spreadsheets, draw plots on an aerial image, and publish a public search page for each cemetery. Fits the owner's data-to-pages pipelines.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A cemetery association, parish or small municipality with 500-5,000 plots",
+    "buys": "A searchable, mapped register that replaces paper ledgers and answers 'where is grandpa buried' calls",
+    "model": "subscription",
+    "price": "199 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.cemify.com/learn/pricing-detail",
+      "note": "Cemetery records and mapping from 799 USD a year",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "CEMETERRA is free up to 500 plots and 49 USD a month above, with mapping; a cheaper copy is not a gap.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.cemify.com/learn/pricing-detail",
+     "note": "Cemify 799, 1,299 and 1,899 USD a year plus a one-time mapping fee; page shows only (c)2026, date is when opened",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://cemeterra.com/pricing",
+     "note": "CEMETERRA free up to 500 plots with mapping and search; 49 and 99 USD a month for unlimited plots; no date shown, date is when opened",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'cemetery software small cemetery' and 'cemetery mapping software'",
+    "first100": "Board volunteers searching for cemetery software compare free tiers; few would pick a new entrant.",
+    "proof": [
+     {
+      "url": "https://cemeterra.com/pricing",
+      "note": "Competitors already target small cemeteries with free tiers",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "CEMETERRA",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Cemify",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "CemeteryFind",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:49.039Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Cemetery boards above 500 plots pay a yearly fee for the register and public search site.",
+   "trigger": "standing need",
+   "window": "Standing; served by several priced tools and a free tier.",
+   "score": 1.75,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 100,
+     "upsideEur": 2000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 100,
+       "upsideEur": 2000,
+       "basis": "Bottom-up: 1,500 visits at 1% = 15 boards x 199 EUR = 2,985 EUR at full run-rate; against a free competitor and with the ramp, about 100 EUR. Cross-check: competitors' prices are visible but their customer counts are not. 5,000 EUR needs 26 boards; not reachable."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 3,
+      "rationale": "Clear payer, but crowded with a free tier that covers small cemeteries; record imports often need human help.",
+      "summary": "",
+      "concerns": [
+       "Free competitor tier",
+       "Record transcription and map setup need a person",
+       "No dated request in the last 90 days"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:49.039Z",
+   "updatedAt": "2026-11-18T14:04:49.039Z",
+   "outcome": null
+  },
+  {
+   "id": "mark-watch-weekly-look-alike-filings-for-one-bra",
+   "title": "Mark Watch: weekly look-alike filings for one brand across USPTO and EUIPO, with opposition deadlin…",
+   "pitch": "For DTC brands and Amazon sellers with one or two marks: weekly alerts for similar new filings, with the opposition deadline (30 days after USPTO publication, 3 months at EUIPO) on a calendar. Built from public trademark bulk data.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A DTC brand or Amazon seller with one or two registered marks",
+    "buys": "Notice of a confusingly similar filing in time to oppose",
+    "model": "subscription",
+    "price": "39 EUR a year per mark",
+    "proof": [
+     {
+      "url": "https://trademark.markify.com/services/trademark-watch.html",
+      "note": "US watch at 39 USD a year, EU full at 59",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Markify already sells the same watch from 39 USD a year with weekly reports.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://trademark.markify.com/services/trademark-watch.html",
+     "note": "Markify watches from 39 USD/EUR a year (US), 59 (EU full), 129 (global), weekly reports; no date shown, date is when opened",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://tmarkmetric.com/insights/trademark-watch-service",
+     "note": "Basic paid watch tools about 50-150 USD a month, professional providers 300-1,000 USD a month; DIY suggested for small brands",
+     "date": "2026-05-31",
+     "ageDays": 171,
+     "age": "6 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'trademark watch service' and 'cheap trademark monitoring'",
+    "first100": "Small brand owners comparing watch services pick the cheapest; there is no clear reason to choose this one.",
+    "proof": [
+     {
+      "url": "https://tmarkmetric.com/insights/trademark-watch-service",
+      "note": "Comparison content ranks for the query family",
+      "date": "2026-05-31",
+      "ageDays": 171,
+      "age": "6 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Markify trademark watch",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "LegalZoom trademark monitoring",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:47.717Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Brand owners pay a yearly fee per watched mark.",
+   "trigger": "standing need",
+   "window": "Standing; cheap watches already exist, so no window.",
+   "score": 1.75,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 3,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 150,
+     "upsideEur": 2000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 150,
+       "upsideEur": 2000,
+       "basis": "Bottom-up: 2,000 visits at 0.5% = 10 marks x 39 EUR = 390 EUR at full run-rate, about 150 EUR after the ramp and running costs. Cross-check: Markify's 39 USD price sets the ceiling. 5,000 EUR needs 128 marks; not reachable."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Payer and price exist, but a cheap solid incumbent covers the job.",
+      "summary": "",
+      "concerns": [
+       "Cheap incumbent",
+       "Missed conflicts could look like failed legal advice",
+       "EUIPO bulk-data access unverified"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:47.717Z",
+   "updatedAt": "2026-11-18T14:04:47.717Z",
+   "outcome": null
+  },
+  {
+   "id": "label-ready-a-test-matrix-and-evidence-record-fo",
+   "title": "Label Ready: a test matrix and evidence record for Apple's App Store Accessibility Nutrition Labels",
+   "pitch": "For small app studios: Apple asks for per-device declarations of nine accessibility features and recommends a common-task by feature matrix. The tool builds the matrix, guides each test against Apple's criteria, stores evidence, outputs the answers to enter in App Store Connect, and creates the public accessibility page Apple asks for.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small app studio or agency shipping iOS apps for clients",
+    "buys": "A defensible label declaration and an evidence record instead of paying an auditor 100-250 USD per screen",
+    "model": "one-off",
+    "price": "49 EUR per app",
+    "proof": [
+     {
+      "url": "https://accessible.org/services/vpat/",
+      "note": "Audits at 100-250 USD per page or screen",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Labels are voluntary with no deadline, and Apple's free help page already lists the criteria and a matrix layout.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels",
+     "note": "Nine declarable features, common-task criteria, testing matrix recommended; voluntary now, required later; no date shown, date is when opened",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://accessible.org/services/vpat/",
+     "note": "Accessibility audits priced at 100-250 USD per page or screen",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries about App Store accessibility nutrition labels",
+    "first100": "Developers reading Apple's help search for a checklist, use the free matrix, and pay to export evidence and the public accessibility page.",
+    "proof": [
+     {
+      "url": "https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels",
+      "note": "Apple's own page is the main result for the topic",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Apple App Store Connect guidance",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Accessible.org audits",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:45.000Z",
+    "detail": [
+     "Missed the strict bar: score 2.45 is below the minimum 3.5"
+    ]
+   },
+   "earns": "App studios pay once per app for the matrix, evidence and label answers.",
+   "trigger": "standing need until Apple sets a date: labels are voluntary on iOS 26 App Store pages and will become required for new apps and updates 'over time'",
+   "window": "Opens fully when Apple announces the mandatory date; until then demand is voluntary.",
+   "score": 2.45,
+   "index": {
+    "composite": 2.6,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.6 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.6 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 150,
+     "upsideEur": 8000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 150,
+       "upsideEur": 8000,
+       "basis": "Bottom-up: 1,500 visits at 1% = 15 apps x 49 EUR = 735 EUR at full run-rate; voluntary labels and the ramp leave about 150 EUR. No comparable revenue was seen. 5,000 EUR needs 102 apps; only reachable if Apple makes labels mandatory."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "Pure option value on Apple making the labels mandatory; today nobody is forced.",
+      "summary": "",
+      "concerns": [
+       "No deadline",
+       "Apple could ship its own checklist tooling",
+       "Competitors not searched deeply"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:45.000Z",
+   "updatedAt": "2026-11-18T14:04:45.000Z",
+   "outcome": null
+  },
+  {
+   "id": "uncertainty-budget-sheet-iso-iec-17025-uncertain",
+   "title": "Uncertainty Budget Sheet: ISO/IEC 17025 uncertainty budgets in the browser for small calibration an…",
+   "pitch": "A guided GUM budget for each measurement function (Type A/B contributors, sensitivity coefficients, coverage factor, reporting rules), saved locally and printable for assessors, with a template library for common functions.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small accredited calibration or testing lab (2-15 staff) preparing for its ISO/IEC 17025 assessment",
+    "buys": "Budgets an assessor accepts, kept per measurement function, instead of building spreadsheets or hiring a consultant",
+    "model": "subscription",
+    "price": "79 EUR a year per lab",
+    "proof": [
+     {
+      "url": "https://www.isobudgets.com/shop/product/calibration-uncertainty-calculator/",
+      "note": "25 USD Excel calculator for the same job",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Labs already have 25 USD Excel tools or free NIST and QMSys software, and an AI assistant can compute a budget from pasted contributors.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.isobudgets.com/shop/product/calibration-uncertainty-calculator/",
+     "note": "Excel calibration uncertainty calculator sold for 25 USD (SKU 2026-11)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.isobudgets.com/?p=7671",
+     "note": "Lists 8 free uncertainty tools (NIST Uncertainty Machine, QMSys GUM, GTC, NPL and others); published 2016-11-28, old",
+     "date": "2016-11-28",
+     "ageDays": 3642,
+     "age": "9 years old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'uncertainty budget template' and 'iso 17025 uncertainty calculator'",
+    "first100": "Quality managers searching for a budget template try the free single-budget mode, then pay to save a library before the assessment.",
+    "proof": [
+     {
+      "url": "https://www.isobudgets.com/?p=7671",
+      "note": "The niche's leading content site ranks with tool round-ups",
+      "date": "2016-11-28",
+      "ageDays": 3642,
+      "age": "9 years old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "ISOBudgets calculators",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "NIST Uncertainty Machine",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "QMSys GUM Standard",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:42.958Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Small labs pay a yearly fee for saved budgets and assessor printouts.",
+   "trigger": "standing need",
+   "window": "Standing: every accredited lab needs budgets at each assessment; no trigger.",
+   "score": 2.1,
+   "index": {
+    "composite": 1.95,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.95 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.95 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 200,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 200,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: 1,500 visits at 1% = 15 labs x 79 EUR = 1,185 EUR at full run-rate; the ramp leaves about 400 EUR. Cross-check: the leader sells 25 USD files, which caps the price, so I take 200 EUR. 5,000 EUR needs 64 labs; not reachable."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 5,
+      "rationale": "A payer exists, but the price anchor is 25 USD one-off and free tools cover it.",
+      "summary": "",
+      "concerns": [
+       "Cheap and free alternatives",
+       "AI-doable calculation",
+       "No dated request in the last 90 days"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:42.958Z",
+   "updatedAt": "2026-11-18T14:04:42.958Z",
+   "outcome": null
+  },
+  {
+   "id": "cert-calendar-100-which-of-your-tls-certificates",
+   "title": "Cert Calendar 100: which of your TLS certificates break under the 100-day limit (15 March 2027)",
+   "pitch": "For managed service providers and small IT teams: enter client domains; the tool reads Certificate Transparency logs and lists every certificate, issuer and lifetime, flags the ones renewed by hand, and outputs a renewal calendar (ICS) plus a migration list before the 100-day limit (2027-03-15) and the 47-day limit (2029).",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "An MSP or 1-3 person IT team managing certificates on appliances, IIS and load balancers for several clients",
+    "buys": "A list of every manually renewed certificate and a renewal calendar before renewals come every three months, avoiding outages from expired certificates",
+    "model": "subscription",
+    "price": "9 EUR a month per MSP",
+    "proof": [
+     {
+      "url": "https://sslmate.com/certspotter/pricing",
+      "note": "Cert Spotter 15 USD a month (20 endpoints), 100 USD a month (150 endpoints)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "crt.sh lookups are free, and many monitors already alert on expiry.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days",
+     "note": "Lifetime schedule 398 to 200 (2026-03-15), 100 (2027-03-15), 47 days (2029-03-15)",
+     "date": "2025-05-16",
+     "ageDays": 551,
+     "age": "18 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://sslmate.com/certspotter/pricing",
+     "note": "Cert Spotter monitoring from 15 USD a month for 20 endpoints; page shows only (c)2026, date is when opened",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries about the 100-day and 47-day certificate limits",
+    "first100": "MSPs reading about the 2027 step run a free inventory for one client and subscribe to cover all their clients.",
+    "proof": [
+     {
+      "url": "https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days",
+      "note": "Vendors publish explainers for this query family; volume not measured",
+      "date": "2025-05-16",
+      "ageDays": 551,
+      "age": "18 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Cert Spotter",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:37.897Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "MSPs pay a small monthly fee for per-client inventories and renewal calendars.",
+   "trigger": "CA/Browser Forum schedule: maximum TLS lifetime 200 days from 2026-03-15, 100 days from 2027-03-15 and 47 days from 2029-03-15",
+   "window": "Four months to the 100-day step; manual renewals then come about every three months, then monthly by 2029.",
+   "score": 2.7,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 2,000 visits at 1% = 20 MSPs x 108 EUR = 2,160 EUR at full run-rate; the ramp and the free crt.sh alternative suggest about 300 EUR. Cross-check: Cert Spotter sells at 15 USD a month, but its customer count was not seen. 5,000 EUR needs 47 payers; the channel cannot reach that."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A real, dated trigger, but crowded with monitors and free CT search. Whether the browser can query CT logs directly (CORS) is unverified.",
+      "summary": "",
+      "concerns": [
+       "Crowded monitoring market (only Cert Spotter checked)",
+       "Free crt.sh",
+       "May need a worker for CT queries"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:37.897Z",
+   "updatedAt": "2026-11-18T14:04:37.897Z",
+   "outcome": null
+  },
+  {
+   "id": "weld-qual-log-an-offline-welder-qualification-an",
+   "title": "Weld Qual Log: an offline welder qualification and 6-month continuity log for ASME IX, AWS D1.1 and…",
+   "pitch": "A local-first log that works on a shop-floor tablet with no internet. Import welders and their WPQ or ISO 9606 certificates, record process use, and see each continuity expiry automatically; print a signed continuity log for the auditor. A free template page is the lead magnet.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A fabrication shop with 5-40 coded welders working to ASME IX, AWS D1.1 or ISO 9606",
+    "buys": "A continuity log that never lapses (a lapsed welder must requalify, costing a test coupon and lab fees) and an audit-ready printout, without per-user cloud fees",
+    "model": "subscription",
+    "price": "99 EUR a year per shop",
+    "proof": [
+     {
+      "url": "https://weldpad-static.pages.dev/",
+      "note": "20 USD per user a month for WPS, PQR and continuity tracking",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Shops keep the log in a free Excel template, and four priced tools already exist.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://weldpad-static.pages.dev/",
+     "note": "WeldPad: 20 USD per user a month, AWS D1.1 and ASME IX, 6-month continuity clock, explicitly no offline use; page shows only (c)2026, date is when opened",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=welder%20continuity%20log",
+     "note": "10 autocomplete variants, mostly template searches (excel, word, pdf, form, requirements)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'welder continuity log template excel' and 'welder continuity log requirements'",
+    "first100": "QC managers searching for a continuity log template download the free one, then pay for the offline log with automatic expiry and printouts.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=welder%20continuity%20log",
+      "note": "10 template-oriented autocomplete variants",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "WeldPad",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "weldXpert",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "WeldNote",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "TWI Welding Qualifier",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:37.069Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Fabrication shops pay a yearly flat fee for an offline continuity log and audit printouts.",
+   "trigger": "standing need",
+   "window": "Standing: every coded welder needs continuity every six months; people still search for Excel and Word templates.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 3,000 visits at 1% = 30 shops x 99 EUR = 2,970 EUR at full run-rate; the ramp gives about 40%, roughly 1,200 EUR. Cross-check: four priced tools at 20 USD per user to 60 EUR a month show shops pay, but no customer counts were seen; I take 800 EUR. 5,000 EUR needs 51 shops, which the channel cannot reach in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A real recurring duty with a payer, but crowded; the only difference is offline use and flat pricing, which is not a gap.",
+      "summary": "",
+      "concerns": [
+       "Four solid priced tools",
+       "Template seekers expect free",
+       "No dated request in the last 90 days"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:37.069Z",
+   "updatedAt": "2026-11-18T14:04:37.069Z",
+   "outcome": null
+  },
+  {
+   "id": "index-proof-a-back-of-book-index-from-your-final",
+   "title": "Index Proof: a back-of-book index from your final PDF, every page number checked",
+   "pitch": "For self-publishing and academic authors who must supply an index. The final proof PDF stays local; AI suggests headings and subheadings, but every page number is found and verified by text search on the actual PDF pages; edit, then export in Chicago style to DOCX or plain text. If it takes off: small presses buy packs for each title.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An author or small press that must deliver an index with the final proofs (academic presses often bill it to the author)",
+    "buys": "A usable draft index with correct page numbers in an hour, instead of roughly 1,500-1,875 USD for a 300-page book at 5.00-6.25 USD per page",
+    "model": "one-off",
+    "price": "59 EUR per book",
+    "proof": [
+     {
+      "url": "https://www.the-efa.org/rates/",
+      "note": "Book indexing at 5.00-6.25 USD per page (EFA 2026 rate chart)",
+      "date": "2026-05-04",
+      "ageDays": 198,
+      "age": "7 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Authors who care about quality hire a professional, and the rest skip the index or use PDF Index Generator's AI credits.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 13,
+     "age": "newest source 13 days old",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 198,
+     "age": "newest source 7 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.the-efa.org/rates/",
+     "note": "EFA 2026 rate chart: book indexing 5.00-6.25 USD per page, 55-60 USD per hour (survey Nov 2025 to Jan 2026)",
+     "date": "2026-05-04",
+     "ageDays": 198,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://asindexing.org/ai-news/indexia-review/",
+     "note": "ASI review of the AI tool Indexia: 29 of 58 sampled page numbers wrong (50% error rate)",
+     "date": "2026-07-01",
+     "ageDays": 140,
+     "age": "5 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://uk.trustpilot.com/review/pdfindexgenerator.com",
+     "note": "PDF Index Generator rated 4.4 from 12 reviews; newest 2026-11-05 praises cheaper AI-assisted indexing; 3 reviews in the last 12 months",
+     "date": "2026-11-05",
+     "ageDays": 13,
+     "age": "13 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.pdfindexgenerator.com/",
+     "note": "Desktop tool with classic and AI modes and AI credits; version 3.7 released 2026-11-03",
+     "date": "2026-11-03",
+     "ageDays": 15,
+     "age": "2 weeks old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'book indexing software', 'automatic book indexing software', 'best free book indexing software'",
+    "first100": "Authors searching for indexing software or an AI index generator try a free index of one chapter with verified page numbers, then pay per book.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=book%20indexing%20software",
+      "note": "Autocomplete includes 'automatic book indexing software', 'best book indexing software', 'best free book indexing software'",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "PDF Index Generator",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Indexia",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "IndexerLabs",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Professional indexers",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:36.577Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Authors pay once per book for a draft index whose page numbers are guaranteed.",
+   "trigger": "standing need",
+   "window": "Standing: authors have always paid indexers. AI indexers launched since late 2025 got poor reviews for wrong page numbers (ASI, July 2026), so a tool that guarantees the page numbers keeps a gap open.",
+   "score": 2.95,
+   "index": {
+    "composite": 2.95,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.95 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.95 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1200,
+     "upsideEur": 12000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1200,
+       "upsideEur": 12000,
+       "basis": "Bottom-up: 5,000 visits at 1.5% = 75 books x 59 EUR = 4,425 EUR at full run-rate; the ramp gives about 40% in year one (1,770 EUR) minus about 100 EUR of AI costs, roughly 1,600 EUR. Cross-check: the leader has only 3 Trustpilot reviews in 12 months, suggesting a small paying base, so I take 1,200 EUR. 5,000 EUR needs 85 books, which the channel cannot reach in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "Clear payer and price (indexers charge 5-6 USD a page), but a solid desktop tool with AI mode exists, and AI quality is the open question.",
+      "summary": "",
+      "concerns": [
+       "PDF Index Generator already covers the job",
+       "Index quality (headings, subentries) still needs human judgement",
+       "Needs a serverless AI endpoint"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:36.577Z",
+   "updatedAt": "2026-11-18T14:04:36.577Z",
+   "outcome": null
+  },
+  {
+   "id": "machine-file-2027-a-new-format-eu-declaration-of",
+   "title": "Machine File 2027: a new-format EU declaration of conformity plus 10-year digital instructions and …",
+   "pitch": "For small machine builders and integrators (including UK and US builders selling into the EU) switching from the Machinery Directive to Regulation 2023/1230 on 20 January 2027: build the new declaration of conformity (or declaration of incorporation), publish it and the digital instructions at a stable URL and QR code per model, and add a paper-copy request form. If it takes off: every new model …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A 5-50 person machine builder or integrator placing machinery on the EU market",
+    "buys": "A correct new-format DoC and a 10-year public instructions page per model, instead of consultant hours; it avoids a market-surveillance finding for a DoC that still cites 2006/42/EC",
+    "model": "subscription",
+    "price": "180 EUR a year per company (up to 50 models)",
+    "proof": [
+     {
+      "url": "https://knowby.co/pricing",
+      "note": "Digital instructions priced at 5 USD per user a month plus 2 cents per public view; page shows only (c)2026, date is when opened",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "A DoC is a one-page document any template or AI assistant drafts, and builders can host PDFs on their own website for free.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://cecheck-com.pages.dev/machinery-regulation/",
+     "note": "Directive applies until 2027-01-19, Regulation from 2027-01-20; page last reviewed October 2026",
+     "date": "2026-10-01",
+     "ageDays": 48,
+     "age": "7 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.automationmagazine.co.uk/why-you-need-to-update-your-machinery-ce-marking-paperwork/",
+     "note": "No transition period; DoC must cite the Regulation and can be given by web address or QR code; digital instructions allowed with a free printed copy on request",
+     "date": "2026-06-29",
+     "ageDays": 142,
+     "age": "5 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'machinery regulation 2023/1230 declaration of conformity template' and 'machinery regulation digital instructions'",
+    "first100": "Builders updating their paperwork before 2027-01-20 search for the new DoC template, generate one for free, and pay to host DoC and instructions under a QR code for each model.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=machinery%20regulation%202023%2F1230%20declaration",
+      "note": "Only one autocomplete suggestion: weak search volume",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Knowby",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "CECheck",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Hold Tech Files",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:32.600Z",
+    "detail": [
+     "Missed the strict bar: score 2.95 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Machine builders pay a small yearly fee per company to publish DoCs and digital instructions per model for the required 10 years.",
+   "trigger": "Regulation (EU) 2023/1230 replaces Directive 2006/42/EC on 2027-01-20 with no transition for machines placed from that day; the DoC must cite the Regulation and may be given by web address or QR code…",
+   "window": "Two months to the switch, then a standing duty: every new model needs the new DoC, and the instructions must stay available for 10 years.",
+   "score": 2.95,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 30,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1500,
+     "upsideEur": 10000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1500,
+       "upsideEur": 10000,
+       "basis": "Bottom-up: 2,000 visits at 1.5% = 30 payers x 180 EUR = 5,400 EUR at full run-rate; the ramp gives about 40% in year one, roughly 2,100 EUR. Cross-check: Knowby's per-user price shows people pay for hosted instructions, but no customer count was seen; autocomplete shows thin search demand, so I take 1,500 EUR. 5,000 EUR needs 28 payers, which the thin channel probably cannot reach in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A firm EU date with a document duty and a 10-year hosting obligation, but search demand is thin, and the DoC itself is easy to draft for free.",
+      "summary": "",
+      "concerns": [
+       "Thin search demand",
+       "Promising 10-year hosting is a long commitment for an automated studio",
+       "Builders may simply self-host PDFs"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:32.600Z",
+   "updatedAt": "2026-11-18T14:04:32.600Z",
+   "outcome": null
+  },
+  {
+   "id": "eudamed-sheet-a-device-spreadsheet-becomes-a-val",
+   "title": "EUDAMED Sheet: a device spreadsheet becomes a validated EUDAMED (and swissdamed) XML bulk-upload fi…",
+   "pitch": "For medical-device makers and EU authorised representatives with 30 to 1,000 devices: fill one spreadsheet (Basic UDI-DI, UDI-DI, nomenclature, risk class, certificates) and get an XML file checked against the EUDAMED schema and business rules, with nothing uploaded. If it takes off: update and new-device files every month, swissdamed output, and per-client workspaces for authorised representativ…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A medical-device maker with 30-1,000 devices, or the EU authorised representative of a non-EU maker, registering and updating devices in EU…",
+    "buys": "A file EUDAMED accepts on first upload, instead of days of manual UI entry or a consultant's Excel template; it avoids placing unregistered devices on the market (Article 29 MDR)",
+    "model": "subscription",
+    "price": "249 EUR a year per manufacturer (unlimited files)",
+    "proof": [
+     {
+      "url": "https://eudaprep.pages.dev/pricing",
+      "note": "399 EUR one-off for unlimited EUDAMED XML exports until 2026-05-28, then a subscription",
+      "date": "2026-04-30",
+      "ageDays": 202,
+      "age": "7 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Most makers finished registration before 2026-11-28, and those left have under 100 devices and use the free web form.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 202,
+     "age": "newest source 7 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.obelis.net/news/eudamed-november-2026-deadline-what-to-do-now-to-be-ready/",
+     "note": "Deadline of 2026-11-28 for devices placed before 2026-05-28; routes: UI (up to about 100 devices), XML bulk upload (100-1,000), M2M (over 1,000)",
+     "date": "2026-10-27",
+     "ageDays": 22,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://eudaprep.pages.dev/pricing",
+     "note": "EUDAPrep sold unlimited XML exports for 399 EUR one-off until 2026-05-28, standard subscription afterwards (price not shown); aligned with XSD v3.0.28; page refers to the April 2026 EUDAMED release, …",
+     "date": "2026-04-30",
+     "ageDays": 202,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=eudamed%20xml",
+     "note": "10 autocomplete variants: xml file, format, upload, download, export, samples, example, udi xml",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'eudamed xml format', 'eudamed xml example', 'eudamed xml upload', 'eudamed udi xml'",
+    "first100": "Regulatory managers searching the XML format or an example find a field-by-field schema guide with a free validator, then pay to export from their spreadsheet.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=eudamed%20xml",
+      "note": "10 autocomplete variants for eudamed xml",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "EUDAPrep",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "EUDAMED web interface and bulk upload (European C…",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "EUDAMED machine-to-machine access point",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:30.468Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 3 is below 4: the need is already served; score 3.3 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Device makers and authorised representatives pay a yearly fee for unlimited validated XML files.",
+   "trigger": "UDI/device registration in EUDAMED has been mandatory since 2026-05-28; devices already on the market must be registered by 2026-11-28, and every new device or data change must be registered from the…",
+   "window": "The legacy cut-off (2026-11-28) passes before a build ships, so the spike is mostly lost. What stays open is late registrants, every new device and variant, data updates and swissdamed. The one price…",
+   "score": 3.3,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2500,
+     "upsideEur": 15000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2500,
+       "upsideEur": 15000,
+       "basis": "Bottom-up: 2,500 visits at 2% = 50 payers x 249 EUR = 12,450 EUR at full run-rate. The deadline passes before launch and the site must ramp, so assume 30% in year one, about 3,700 EUR. Cross-check: EUDAPrep charged 399 EUR one-off, but its customer count is unknown; I take the lower 2,500 EUR. 5,000 EUR needs 21 payers; reachable only if the format pages rank within months."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A real legal duty with an exact schema and a priced tool for the same job. But the main deadline is 10 days away, so demand after launch is the standing flow of new devices and updates.",
+      "summary": "",
+      "concerns": [
+       "The legacy spike is over before launch",
+       "The schema changes with EUDAMED releases and needs maintenance",
+       "Small makers under 100 devices use the free UI"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:30.468Z",
+   "updatedAt": "2026-11-18T14:04:30.468Z",
+   "outcome": null
+  },
+  {
+   "id": "acr-builder-accessibility-conformance-reports-in",
+   "title": "ACR Builder: accessibility conformance reports in the VPAT 2.5Rev format (WCAG, 508, EN 301 549, IN…",
+   "pitch": "For small SaaS, edtech and app vendors whose university, agency or EU public buyer demands an Accessibility Conformance Report. A guided, criterion-by-criterion test record (WCAG 2.2 AA plus the EN 301 549 clause list) kept in the browser, exported in all four editions plus a remediation roadmap. If it takes off: a public ACR page per product version that buyers link to, and yearly re-issues per …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A 5-50 person SaaS, edtech or app vendor whose university, government agency or EU public-sector buyer asks for an ACR before signing",
+    "buys": "A complete, consistent ACR in the required edition (often EN 301 549 or INT) built from its own test record, instead of 350-950 USD per edition plus audit fees; it keeps the deal past the procurement gate",
+    "model": "subscription",
+    "price": "149 EUR a year per product (all four editions, unlimited re-exports)",
+    "proof": [
+     {
+      "url": "https://accessible.org/services/vpat/",
+      "note": "Done-for-you ACRs priced at 350 USD (WCAG), 550 (508), 650 (EN 301 549) and 950 (INT) plus an audit at 100-250 USD per page or screen; the page shows only (c)2026, date is when opened",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Buyers increasingly want a third-party audit behind the ACR, and the free ITI template plus an AI assistant gets a vendor most of the way to a self-written report.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 4
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://api.github.com/search/issues?q=VPAT+type:issue&sort=created&order=desc&per_page=15",
+     "note": "1,425 GitHub issues mention VPAT; of the 15 newest (2026-11-14 to 2026-11-18), 8 ask a project for a VPAT/ACR, several tied to procurement or an RFP",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.itic.org/policy/accessibility/vpat",
+     "note": "ITI offers VPAT 2.5Rev (April 2025) in WCAG, 508, EN 301 549 and INT editions as free blank Word templates",
+     "date": "2026-10-02",
+     "ageDays": 47,
+     "age": "7 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.ada.gov/resources/2024-03-08-web-rule/",
+     "note": "Title II compliance dates after the 2026-04-20 interim final rule: 2027-04-26 (50,000+) and 2028-04-26 (smaller entities and special districts)",
+     "date": "2026-04-20",
+     "ageDays": 212,
+     "age": "7 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'vpat template', 'vpat template wcag 2.2', 'vpat template 2.5', 'vpat template section 508'",
+    "first100": "Vendors who just got a procurement form search 'vpat template' plus their edition, land on an edition page with a free WCAG-edition draft, and pay to export the EN 301 549 or INT edition and to re-issue it.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=vpat%20template",
+      "note": "10 autocomplete variants including 'vpat template wcag 2.2', 'vpat template 2.5', 'vpat template download pdf'",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "ITI VPAT 2.5Rev templates",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "OpenACR Editor (GSA)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Accessible.org VPAT services",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Deque Auditor ACR generation",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "AccessiCompliance",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T14:04:30.116Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 3 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Small software vendors pay a yearly per-product fee to export finished ACRs in the edition their buyer demands, instead of paying a consultant per edition.",
+   "trigger": "US DOJ Title II web rule: an interim final rule of 2026-04-20 set 2027-04-26 for public entities of 50,000+ and 2028-04-26 for smaller ones (WCAG 2.1 AA), so universities and agencies gate vendors on…",
+   "window": "Procurement gates for the April 2027 deadline are being set now, so the next five months are the peak; after that a standing yearly duty (a new ACR for each major release) keeps it open.",
+   "score": 3.75,
+   "index": {
+    "composite": 3.55,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 4,
+     "potential": 3,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.55 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.55 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 3500,
+     "upsideEur": 25000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 3500,
+       "upsideEur": 25000,
+       "basis": "Bottom-up: 6,000 search visits a year at 1.5% = 90 payers x 149 EUR = 13,400 EUR at full run-rate. A new site ramps, so assume about 40% in year one (5,400 EUR) minus about 4% payment fees and 20 EUR for the domain, roughly 5,100 EUR. Cross-check: no revenue figure for a comparable self-serve ACR tool was found; the consultant prices (350-950 USD per edition) prove willingness to pay but not volu…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 4,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "Strong dated demand (eight requests in four days on GitHub alone, 10 autocomplete variants) and a buyer-imposed deadline. Free tools are blank or partial, and the priced option is a service costing hundreds per edition.",
+      "summary": "",
+      "concerns": [
+       "Buyers may reject self-made ACRs without an audit",
+       "VPAT is an ITI registered mark: the product must be named ACR and only describe its format as compatible",
+       "An AI assistant plus the free template is a cheap substitute"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T14:04:30.116Z",
+   "updatedAt": "2026-11-18T14:04:30.116Z",
+   "outcome": null
+  },
   {
    "id": "kellerbuch-im-browser-fuer-kleine-weinbaubetrieb",
    "title": "Kellerbuch im Browser für kleine Weinbaubetriebe in Österreich",
@@ -5920,1932 +7822,6 @@
    },
    "createdAt": "2026-11-17T01:58:13.124Z",
    "updatedAt": "2026-11-17T01:58:19.811Z",
-   "outcome": null
-  },
-  {
-   "id": "line-booth-voice-over-line-tracking-for-indie-na",
-   "title": "Line Booth: voice-over line tracking for indie narrative games",
-   "pitch": "For indie narrative games (Ren'Py, Yarn Spinner, Ink or CSV scripts): import the script, generate per-actor recording scripts with line IDs and file names, then drop the delivered audio files into the browser to see missing, extra and misnamed takes plus duration and loudness outliers, and export the engine's voice mapping. Nothing is uploaded.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "An indie studio commissioning voice acting for a visual novel or narrative game",
-    "buys": "Fewer missing or misnamed voice files at integration time, which saves rework on a voice budget of thousands",
-    "model": "one-off",
-    "price": "29 EUR once per project",
-    "proof": [
-     {
-      "url": "https://forsythiaproductions.itch.io/of-sense-and-soul/devlog/524259/ingthings-remote-va-script-template",
-      "note": "No paid price was found for this job; the common answer is a free template (proof against).",
-      "date": "2023-06-01",
-      "ageDays": 1266,
-      "age": "3 years 6 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "A free spreadsheet template is good enough for most indie projects.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 1266,
-     "age": "newest source 3 years 6 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://forsythiaproductions.itch.io/of-sense-and-soul/devlog/524259/ingthings-remote-va-script-template",
-     "note": "Indie teams coordinate remote voice acting with a Google Sheets template: take tracking, file names for Ren'Py auto-voice, retakes. It is free, which is evidence against payment. Posted about 2023.",
-     "date": "2023-06-01",
-     "ageDays": 1266,
-     "age": "3 years 6 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=ren%27py%20voice%20acting",
-     "note": "Autocomplete returned no suggestions, so search volume is very low.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.audiokinetic.com/en/blog/speechless",
-     "note": "Seen in search results only: Speechless, a voice-over asset management system built on Wwise.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Ren'Py and Yarn voice-file queries, plus an itch.io tools listing",
-    "first100": "Visual novel developers integrating voice files find it from a Ren'Py voice guide page and run the free file check.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=ren%27py%20voice%20acting",
-      "note": "No autocomplete suggestions.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Speechless",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Backlight Gem",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Remote VA script template",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:47.746Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A one-off licence per project.",
-   "trigger": "standing need",
-   "window": "No deadline. Studio-grade tools are enterprise or tied to Wwise, and indies use spreadsheets.",
-   "score": 2.35,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: 1,200 visits (assumed) at 2% gives 24 licences at 29 EUR, so about 700 EUR, minus fees, gives about 650 EUR; I take 300 EUR because no one was seen paying. Cross-check: none. 5,000 EUR a year needs about 170 licences, far beyond this channel."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 5,
-      "rationale": "The gap is real but the demand and payer are weak.",
-      "summary": "",
-      "concerns": [
-       "No evidence of payment",
-       "Tiny search volume"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:47.746Z",
-   "updatedAt": "2026-11-16T21:22:47.746Z",
-   "outcome": null
-  },
-  {
-   "id": "coach-desk-own-booking-and-session-packages-for",
-   "title": "Coach Desk: own booking and session packages for game coaches",
-   "pitch": "A booking page for esports and game coaches who already have an audience: session packages, VOD-review requests with a file link, and a schedule, paid into the coach's own Stripe account for a flat fee instead of a marketplace cut.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A game coach selling 20 or more sessions a month to their own followers",
-    "buys": "Booking and payment without a 12% cut, and without risking the account on one marketplace",
-    "model": "subscription",
-    "price": "12 EUR a month",
-    "proof": [
-     {
-      "url": "https://creatoreconomytools.com/alternatives/metafy",
-      "note": "Seen in search snippet: coaches pay 12% plus USD 1.79 per transaction, or USD 99 a month, on the leader.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Calendly with Stripe or Whop already does it, and Metafy is well rated, so coaches see no reason to move.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.trustpilot.com/review/metafy.gg",
-     "note": "Metafy: 4.2 out of 5 from 63 reviews (24 in the last 12 months). On 2026-06-15 a coach complained that their account was disabled with lost earnings. The newest reviews (to 2026-10-05) are positive.",
-     "date": "2026-10-05",
-     "ageDays": 44,
-     "age": "6 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://creatoreconomytools.com/tool/metafy",
-     "note": "2026 review page; the opened page says only that pricing varies by coach and session.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://creatoreconomytools.com/alternatives/metafy",
-     "note": "Seen in search results only: the snippet listed a Core plan at 12% plus USD 1.79 per transaction (capped at 30%) and a Pro plan at USD 99 a month; alternatives named include E-pal and Karat.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'metafy alternative' and 'how to sell gaming coaching'",
-    "first100": "Coaches with a stream or YouTube audience search for a way to sell sessions directly and set up a page in minutes.",
-    "proof": [
-     {
-      "url": "https://www.trustpilot.com/review/metafy.gg",
-      "note": "24 reviews of the leader in 12 months, so this is a small segment.",
-      "date": "2026-10-05",
-      "ageDays": 44,
-      "age": "6 weeks old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Metafy",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Metafy alternatives (E-pal, Karat)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:44.573Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Coaches pay a flat monthly fee.",
-   "trigger": "standing need",
-   "window": "No deadline; the leader is healthy.",
-   "score": 2.1,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 80,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 400,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 400,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 2,000 visits (assumed) at 1% gives 20 coaches averaging 5 months at 12 EUR, so 1,200 EUR, minus fees and hosting, gives about 1,000 EUR; I take 400 EUR because generic tools cover the job. Cross-check: the leader's 24 reviews a year suggest a small paying base. 5,000 EUR a year needs about 35 coaches all year, which is not reachable through this channel."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "The payer and the fee exist on the leader, but generic booking tools and a healthy leader leave little gap.",
-      "summary": "",
-      "concerns": [
-       "Generic tools already do this",
-       "Small segment",
-       "Payment support"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:44.573Z",
-   "updatedAt": "2026-11-16T21:22:44.573Z",
-   "outcome": null
-  },
-  {
-   "id": "hint-screen-browser-hint-display-and-timer-for-s",
-   "title": "Hint Screen: browser hint display and timer for small escape rooms",
-   "pitch": "For escape rooms with one to four rooms: the game master sends text and image hints from a laptop to the room's TV, which runs the countdown, hint count and an end screen with the escape time for the team photo. It runs in a browser with no install.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "The owner of a small escape room business",
-    "buys": "A reliable hint and timer screen without installing a suite",
-    "model": "subscription",
-    "price": "19 EUR a month per location",
-    "proof": [
-     {
-      "url": "https://buzzshot.com/pricing/",
-      "note": "Escape rooms pay GBP 25 a month and up for adjacent game-master tools.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "At least three established suites (plus Houdini MC, HintControl, ClueMaster, Tempus and MORTY, seen in search) already do this, and small rooms use free slideshow hacks.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://buzzshot.com/pricing/",
-     "note": "Escape rooms pay GBP 25 to 410 a month for player tools (photos, waivers, game master app, dashboard). The page mentions no hints. Copyright 2026.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://escaperoommaster.com/",
-     "note": "Game master timer and clue display with props integration; per-location pricing is not shown. The footer says 2015 to 2017.",
-     "date": "2017-12-31",
-     "ageDays": 3244,
-     "age": "8 years 11 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'escape room hint system' and 'escape room timer software'",
-    "first100": "New escape room owners searching for a hint screen try the browser version during setup.",
-    "proof": [
-     {
-      "url": "https://buzzshot.com/pricing/",
-      "note": "Vendors sell to escape rooms through their websites, so this is a search-led category.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Escape Room Master",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "ClueCommand",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Buzzshot",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:44.202Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "A flat monthly fee per location, below suite prices.",
-   "trigger": "standing need",
-   "window": "No deadline; the market is mature and crowded.",
-   "score": 2.3,
-   "index": {
-    "composite": 2.3,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.3 is below 3.6"
-    ],
-    "yearlyCostEur": 120,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.3 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 600,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 600,
-       "upsideEur": 5000,
-       "basis": "Bottom-up: 2,000 visits (assumed) at 1% gives 20 locations averaging 5 paid months at 19 EUR, so 1,900 EUR, minus 120 EUR for a realtime relay and fees, gives about 1,650 EUR; I take 600 EUR for the crowding. Cross-check: none with a customer count. 5,000 EUR a year needs about 22 locations all year, which is unlikely against established suites."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "The payer clearly pays monthly in this industry, but there are three or more solid alternatives.",
-      "summary": "",
-      "concerns": [
-       "Crowded",
-       "A realtime failure mid-game damages a paid session",
-       "Support requests during opening hours"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:44.202Z",
-   "updatedAt": "2026-11-16T21:22:44.202Z",
-   "outcome": null
-  },
-  {
-   "id": "string-preflight-in-browser-checks-of-game-trans",
-   "title": "String Preflight: in-browser checks of game translations against your fonts",
-   "pitch": "Drop your game's string tables (CSV, PO, JSON, XLIFF, Ren'Py translation files) and font files into the browser. It flags broken placeholders and rich-text tags per engine (Unity TextMeshPro, Godot BBCode, Ren'Py), missing, empty and untranslated strings, text that overflows a length budget, and every character the fonts cannot draw, then exports a character-set file for font atlases. Nothing is …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small indie studio shipping its game in five or more languages, including Chinese, Japanese, Korean or Cyrillic",
-    "buys": "Catching missing glyphs (boxes on screen) and broken tags before release, which saves a patch and a review-bomb risk after spending thousands on translation",
-    "model": "one-off",
-    "price": "39 EUR once per project",
-    "proof": [
-     {
-      "url": "https://forums.unrealengine.com/t/ecal-studios-loccheck-localization-qa-and-table-management/2720783",
-      "note": "The same checks are sold as a marketplace tool for Unreal (the Fab price was not shown on the page).",
-      "date": "2026-05-08",
-      "ageDays": 194,
-      "age": "6 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Developers write a short script or use the free CLI and Preflight, and translation platforms already include QA checks.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 194,
-     "age": "newest source 6 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://forums.unrealengine.com/t/ecal-studios-loccheck-localization-qa-and-table-management/2720783",
-     "note": "LocCheck launched for Unreal with placeholder, rich-text tag, length and font glyph coverage checks. This shows the job is productised, but only for Unreal.",
-     "date": "2026-05-08",
-     "ageDays": 194,
-     "age": "6 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=game%20localization%20qa%20tool",
-     "note": "Autocomplete returned no suggestions, so search volume is low.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://loxily.com/en/blog/game-localization-qa-checklist",
-     "note": "Seen in search results only: a 2026 localization QA checklist for games.",
-     "date": "2026-05-13",
-     "ageDays": 189,
-     "age": "6 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Queries about missing glyphs and placeholder errors per engine, plus an itch.io tools listing",
-    "first100": "Developers who just saw tofu boxes in their Chinese build search the error, try the free check on one file and buy the full report.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=game%20localization%20qa%20tool",
-      "note": "No suggestions, so the channel is thin.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "LocCheck",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Game Localization QA Preflight",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "godot-localization-qa-guard",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:42.765Z",
-    "detail": [
-     "Missed the strict bar: score 2.45 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A one-off licence per project, sold on the site and on itch.io.",
-   "trigger": "standing need",
-   "window": "No deadline. The full check set exists only inside Unreal (LocCheck), and the engine-agnostic tools skip font coverage.",
-   "score": 2.45,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 5000,
-       "basis": "Bottom-up: 2,000 visits (assumed) at 2% gives 40 licences at 39 EUR, so 1,560 EUR, minus fees, gives about 1,450 EUR; I take 800 EUR because search volume looks thin. Cross-check: none; LocCheck's price and sales were not visible. 5,000 EUR a year needs about 130 licences, which this channel does not reach."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "A real technical gap outside Unreal, but low search volume and free scripts limit payment.",
-      "summary": "",
-      "concerns": [
-       "Low search volume",
-       "Free command-line alternatives",
-       "One-off sales without recurrence"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:42.765Z",
-   "updatedAt": "2026-11-16T21:22:42.765Z",
-   "outcome": null
-  },
-  {
-   "id": "hangul-run-a-korean-reading-action-game-for-stea",
-   "title": "Hangul Run: a Korean-reading action game for Steam and mobile",
-   "pitch": "A short-session action roguelite in which reading Hangul and basic Korean words is the combat mechanic, for the worldwide audience learning Korean through K-pop and K-drama. Daily runs, streaks and a shareable score.",
-   "platform": "game",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A teenage or adult learner of Korean who games on PC or phone",
-    "buys": "An entertaining way to learn to read Hangul",
-    "model": "one-off",
-    "price": "5.50 EUR once (5.99 USD)",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/app/1255040/",
-      "note": "A Hangul-learning game sells at EUR 4.99 with 84 reviews.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Duolingo and free Hangul apps teach the same thing at no cost.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://store.steampowered.com/app/1255040/",
-     "note": "Let's Learn Korean! Hangul: released 2020-03-09, EUR 4.99, 94% of 84 reviews positive. Players pay, but volume is small. Read on 2026-11-16.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://store.steampowered.com/api/storesearch/?term=learn%20korean&l=english&cc=US",
-     "note": "Six Korean-learning items on Steam: two Let's Learn Korean titles (USD 4.99), an Influent DLC (USD 4.99), Lang Ops: Korean (USD 5.70), Janggi and the upcoming Jinjja World MMO.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "store",
-    "where": "Steam, tags Education and Roguelite; the App Store and Google Play education categories",
-    "first100": "Learners searching 'learn korean' on Steam or the app stores find it next to the older course games and buy it for the game feel.",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/api/storesearch/?term=learn%20korean&l=english&cc=US",
-      "note": "Steam search for 'learn korean' returns a small paid shelf.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Let's Learn Korean! Hangul",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Lang Ops: Korean, Influent DLC and Jinjja World",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:41.642Z",
-    "detail": [
-     "Missed the strict bar: score 2.55 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A one-off purchase on Steam and as a premium mobile app.",
-   "trigger": "standing need",
-   "window": "No deadline. A few small titles exist and an MMO is upcoming; nothing dominant.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.45,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.45 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.45 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 15000,
-       "basis": "Bottom-up: 20,000 store visits (assumed) at 2% gives 400 copies at 5.50 EUR, minus 30%, so about 1,540 EUR, minus about 225 EUR in store fees, gives about 1,300 EUR; I take 1,000 EUR. Cross-check: the leader's 84 reviews times a common 30 to 50 sales per review is 2,500 to 4,200 copies over six years at EUR 4.99, about 12,000 to 21,000 EUR gross, or 2,000 to 3,500 EUR a year, which is consistent.…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "Players pay a small price in a small shelf. It does not make a better case than a web idea.",
-      "summary": "",
-      "concerns": [
-       "Free learning apps",
-       "Native pronunciation audio needs licensed text-to-speech or a recording",
-       "Small audience"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:41.642Z",
-   "updatedAt": "2026-11-16T21:22:41.642Z",
-   "outcome": null
-  },
-  {
-   "id": "table-clock-table-time-cover-charges-and-game-li",
-   "title": "Table Clock: table time, cover charges and game-library checkout for board game cafés",
-   "pitch": "A browser app for one counter tablet in a board game café: per-table timers with automatic hourly, block or cover pricing, which games are out at which table (with missing pieces logged on return), and member prepaid visits. It works offline and shows a total to key into the existing POS.",
-   "platform": "pwa",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "The owner of a board game café or tabletop bar",
-    "buys": "Billing table time correctly and tracking games and missing pieces. It prevents unbilled hours (cover charges are 20 to 30% of revenue per a bookkeeping blog seen in search) without a Windows PC or a custom build.",
-    "model": "subscription",
-    "price": "15 EUR a month per location",
-    "proof": [
-     {
-      "url": "https://handycafe.com/en/blog/board-game-cafe-timing-and-billing",
-      "note": "A vendor sells table-timing software to board game cafés (free tier for 2 stations, paid tiers implied); no price shown.",
-      "date": "2026-07-17",
-      "ageDays": 124,
-      "age": "4 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Cafés already cope with their POS plus paper or a spreadsheet, and CafeTimer's free tier covers small ones.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 124,
-     "age": "newest source 4 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://handycafe.com/en/blog/board-game-cafe-timing-and-billing",
-     "note": "Explains that coffee-shop tills do not bill table hours, and lists what cafés need: table timers, automatic rates, combined bills, offline billing and memberships. CafeTimer is Windows-only with a fr…",
-     "date": "2026-07-17",
-     "ageDays": 124,
-     "age": "4 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.twicecommerce.com/rent/boardgames",
-     "note": "TWICE offers QR library browsing and checkout for board game cafés. The page does not mention table time, cover charges or POS. Copyright 2026.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://community.squareup.com/t5/Orders-Menu-Items-Catalog/Board-Game-Cafe-Memberships-amp-Open-Tabs-for-Self-Order-and-Pay/m-p/843400",
-     "note": "Seen in search results only: café owners work around cover fees and memberships in Square.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'board game cafe software' and 'board game cafe table timer' queries",
-    "first100": "Owners searching for a way to bill table time try the free version on their counter tablet and subscribe when they want more tables and the library.",
-    "proof": [
-     {
-      "url": "https://handycafe.com/en/blog/board-game-cafe-timing-and-billing",
-      "note": "A competitor publishes content for this exact query family, which shows the search channel is used.",
-      "date": "2026-07-17",
-      "ageDays": 124,
-      "age": "4 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "HandyCafe CafeTimer",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "TWICE",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Square workarounds",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:40.738Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Café owners pay a small monthly subscription per location after a free trial.",
-   "trigger": "standing need",
-   "window": "No deadline. Cafés stitch a POS, a booking tool and a catalog together, and the one timing tool found is Windows-only.",
-   "score": 2.35,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 3,000 visits (assumed) at 1% gives 30 cafés averaging 5 paid months at 15 EUR, so 2,250 EUR, minus fees, gives about 2,100 EUR. I use 1,000 EUR because no price for this job was confirmed. Cross-check: none; neither CafeTimer's nor TWICE's price was shown. 5,000 EUR a year needs about 28 cafés all year, which is above what this channel reaches."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The chore and the workarounds are documented, but no price is shown and the audience is small.",
-      "summary": "",
-      "concerns": [
-       "Small number of cafés worldwide",
-       "Single-device local data can be lost without a backup or export",
-       "Owners expect POS integration"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:40.738Z",
-   "updatedAt": "2026-11-16T21:22:40.738Z",
-   "outcome": null
-  },
-  {
-   "id": "gammon-run-a-backgammon-roguelike-for-steam-and",
-   "title": "Gammon Run: a backgammon roguelike for Steam and mobile",
-   "pitch": "A short-run roguelike on classic backgammon: special dice, board modifiers and checker upgrades between matches, with a daily seeded run and a shareable score. It is built in Phaser for Steam (Electron) and later mobile (Capacitor), for the worldwide backgammon audience.",
-   "platform": "game",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A PC or mobile player who likes backgammon and roguelikes",
-    "buys": "A finished game: a one-off purchase for entertainment",
-    "model": "one-off",
-    "price": "6.50 EUR once (6.99 USD on Steam)",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/api/storesearch/?term=backgammon&l=english&cc=US",
-      "note": "Backgammon games sell on Steam at USD 3.99 to 24.99.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Free backgammon apps are everywhere, and the four roguelikes in development may ship first and better.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://store.steampowered.com/api/storesearch/?term=backgammon&l=english&cc=US",
-     "note": "8 backgammon titles on Steam priced USD 3.99 to 24.99. Players pay for backgammon on Steam.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://store.steampowered.com/api/appdetails?appids=5076720&filters=basic,genres,categories,release_date,price_overview",
-     "note": "Cursed Backgammon is coming soon: a narrative backgammon against cheating opponents. Its page does not call it a roguelike.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.gamingonlinux.com/2026/08/dominocalypse-brings-some-clever-ideas-to-puzzle-roguelikes-with-dominoes/",
-     "note": "A dominoes roguelike inspired by Balatro released on 2026-08-10, rated 3.5 out of 5.",
-     "date": "2026-08-20",
-     "ageDays": 90,
-     "age": "3 months old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://nodal.gg/game/double-skunk-4783460",
-     "note": "A cribbage roguelite deckbuilder is listed for Q4 2026, which shows the same pattern spreading.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "store",
-    "where": "Steam, tags Roguelike, Board Game and Dice; later the Google Play and App Store board game categories",
-    "first100": "Players browsing roguelike and board-game tags, or searching backgammon on Steam, wishlist from the store page and buy at launch or in a sale.",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/api/storesearch/?term=backgammon&l=english&cc=US",
-      "note": "Steam search lists backgammon titles; this category is where buyers look.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Grand Gammon",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Backgaminion",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Dice x Deck",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Cursed Backgammon",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:40.208Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Players buy it once on Steam (about 6.99 USD) and later on mobile as a premium app.",
-   "trigger": "Wave of Balatro-style roguelikes built on traditional games (dominoes released August 2026, cribbage due Q4 2026)",
-   "window": "Closing: at least four backgammon roguelikes are in development (Grand Gammon, Deckgammon, Backgaminion, Dice x Deck), and the first strong release will take the niche.",
-   "score": 2.5,
-   "index": {
-    "composite": 2.45,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.45 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.45 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1200,
-     "upsideEur": 40000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1200,
-       "upsideEur": 40000,
-       "basis": "Bottom-up: 30,000 store-page visits (assumed) at 2% gives 600 copies at 6.50 EUR, minus Steam's 30%, so about 2,700 EUR, minus the 100 USD app fee. I take 1,200 EUR because four competitors may launch first. Cross-check: none possible; Steam review counts for comparables could not be read. 5,000 EUR a year needs about 1,100 copies; that requires a featured launch or a viral clip."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "Players pay for this genre, but the niche is filling fast. It does not beat a web idea on evidence.",
-      "summary": "",
-      "concerns": [
-       "Crowded with upcoming releases",
-       "Game sales without marketing are often tiny",
-       "Store fees and submissions are human work"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:40.208Z",
-   "updatedAt": "2026-11-16T21:22:40.208Z",
-   "outcome": null
-  },
-  {
-   "id": "loc-lead-radar-rising-steam-games-that-lack-your",
-   "title": "Loc Lead Radar: rising Steam games that lack your language",
-   "pitch": "A weekly, filterable list of upcoming and newly released Steam games that are gaining attention but do not support a given language (Simplified Chinese, Japanese, Korean, German, Brazilian Portuguese and others). Each entry links the developer's public website, for localization agencies, freelance game translators and porting studios looking for clients.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small game localization agency, a freelance game translator team or a porting studio prospecting for clients",
-    "buys": "A ready weekly list of target games by missing language. This replaces hours of manual browsing on Steam per week.",
-    "model": "subscription",
-    "price": "29 EUR a month",
-    "proof": [
-     {
-      "url": "https://gamalytic.com/pricing",
-      "note": "Businesses pay USD 30 to 90 a month for Steam game data. It is a close job, but for a different buyer.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Agencies already browse SteamDB for free and win work at events, on LinkedIn and through publisher relationships, so leads by language gap may not convert.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://gamalytic.com/pricing",
-     "note": "Steam data sells for USD 30 a month (Starter) and USD 90 a month (Professional), with wishlist estimates for upcoming games. The page mentions no language-gap filter, contacts or lead lists. Copyrigh…",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://store.steampowered.com/api/appdetails?appids=5076720&filters=basic,genres,categories,release_date,price_overview",
-     "note": "Steam's public app endpoint returns structured data for unreleased games (Cursed Backgammon, 'coming soon'), so a pipeline can read per-app data.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Queries such as 'steam games without chinese localization', with public weekly summary pages per language",
-    "first100": "Agency sales staff find a free weekly page for their language, see that the games listed are real prospects and subscribe for the full list and export.",
-    "proof": [
-     {
-      "url": "https://gamalytic.com/pricing",
-      "note": "A paid Steam-data niche exists. The search volume for the vendor queries was not measured.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Gamalytic",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:38.971Z",
-    "detail": [
-     "Missed the strict bar: score 2.65 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Localization agencies and porting studios pay a monthly subscription for the weekly filtered lead list and an export.",
-   "trigger": "standing need",
-   "window": "No deadline. Steam analytics vendors sell to developers and publishers, not to service vendors hunting for clients by language gap.",
-   "score": 2.65,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 60,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1200,
-     "upsideEur": 10000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1200,
-       "upsideEur": 10000,
-       "basis": "Bottom-up: 2,500 visits (assumed) at 1% gives 25 subscribers averaging 4 paid months at 29 EUR, so 2,900 EUR, minus fees and costs, gives about 2,700 EUR. I take 1,200 EUR because demand is unverified. Cross-check: Gamalytic's 30 to 90 USD plans show the price level, but its customer count is unknown. 5,000 EUR a year needs about 15 subscribers all year; the channel is unproven for this."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The buildability fits the owner's data strengths and the price level is shown, but demand from this buyer is not evidenced.",
-      "summary": "",
-      "concerns": [
-       "Valve's terms for commercial use of storefront endpoints are not verified",
-       "Vendors may not buy leads",
-       "Follower or wishlist signals may need extra data sources"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:38.971Z",
-   "updatedAt": "2026-11-16T21:22:38.971Z",
-   "outcome": null
-  },
-  {
-   "id": "seat-ledger-campaign-seats-and-subscriptions-for",
-   "title": "Seat Ledger: campaign seats and subscriptions for paid game masters",
-   "pitch": "For professional TTRPG game masters who run paid campaigns with their own players: one page per campaign with seat subscriptions through the GM's own Stripe account, a waitlist, the session schedule, automatic access pause on a failed payment, and a payout ledger. It costs a flat fee instead of a 15% commission. Later it could serve gaming coaches selling session packages.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A professional game master running two to four paid tables with players they already know (from Discord or regulars)",
-    "buys": "Seat billing, a waitlist and access control without a 15% commission. A GM grossing 600 USD a month gives up 90 USD to the marketplace today.",
-    "model": "subscription",
-    "price": "12 EUR a month",
-    "proof": [
-     {
-      "url": "https://intercom.help/startplaying/en/articles/14724019-what-does-the-15-fee-cover",
-      "note": "GMs pay 15% of every booking today for booking and payment handling.",
-      "date": "2026-04-22",
-      "ageDays": 210,
-      "age": "7 months old",
-      "tier": "ok"
-     },
-     {
-      "url": "https://scrollpay.vercel.app/blog/how-to-monetize-dnd-campaign-paid-dm",
-      "note": "A direct tool for the same job charges USD 19.99 once during early access.",
-      "date": "2026-03-24",
-      "ageDays": 239,
-      "age": "8 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "GMs need StartPlaying's player discovery and cannot move listed games off it. GMs with their own players use a free Stripe payment link or Patreon, and ScrollPay's 19.99 USD lifetime deal undercuts a subscription.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 210,
-     "age": "newest source 7 months old",
-     "tier": "ok",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://intercom.help/startplaying/en/articles/14724019-what-does-the-15-fee-cover",
-     "note": "StartPlaying deducts 15% from GM bookings. The fee does not cover campaign management tools, and taking payment off-platform for listed games breaks its terms.",
-     "date": "2026-04-22",
-     "ageDays": 210,
-     "age": "7 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://scrollpay.vercel.app/blog/how-to-monetize-dnd-campaign-paid-dm",
-     "note": "ScrollPay sells Stripe subscriptions for paid DMs with Roll20 access control at USD 19.99 lifetime early access before 'monthly pricing'.",
-     "date": "2026-03-24",
-     "ageDays": 239,
-     "age": "8 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=startplaying%20alternative",
-     "note": "Autocomplete returns 'startplaying alternatives' and 'startplaying games alternative'.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'startplaying alternatives' and 'how to get paid as a DM' queries, plus a comparison page",
-    "first100": "GMs with a full table of regulars search for a cheaper way to bill them, read a fee comparison page and set up their first campaign page in minutes.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=startplaying%20alternative",
-      "note": "Two autocomplete variants for alternatives to the leader.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "StartPlaying",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "ScrollPay",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:38.547Z",
-    "detail": [
-     "Missed the strict bar: score 2.9 is below the minimum 3.5"
-    ]
-   },
-   "earns": "GMs pay a flat monthly fee. It pays for itself once a GM grosses about 80 EUR a month that would otherwise lose 15%.",
-   "trigger": "standing need",
-   "window": "No deadline. It stays open because the marketplace leader does not cover campaign management and takes 15%. ScrollPay entered in 2026 with a similar pitch, so the window narrows as it moves to monthl…",
-   "score": 2.9,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 80,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1800,
-     "upsideEur": 12000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1800,
-       "upsideEur": 12000,
-       "basis": "Bottom-up: 4,000 visits (assumed) at 1% gives 40 GMs averaging 5 paid months at 12 EUR, so 2,400 EUR, minus about 200 EUR in fees and 80 EUR in hosting, gives about 2,100 EUR. I use 1,800 EUR for churn. Cross-check: the leader takes 15% of an average 15 to 20 USD session (StartPlaying help per search results), and ScrollPay's price is 19.99 USD once. No revenue figure for a comparable was found. …"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "The payer and the commission are documented, and a new entrant confirms the thesis. Willingness to pay a subscription rather than a lifetime deal is unproven.",
-      "summary": "",
-      "concerns": [
-       "ScrollPay may lock in the segment with lifetime deals",
-       "Payment disputes and support questions could need a person",
-       "Small audience"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:38.547Z",
-   "updatedAt": "2026-11-16T21:22:38.547Z",
-   "outcome": null
-  },
-  {
-   "id": "dayroom-games-big-screen-group-games-for-care-ho",
-   "title": "Dayroom Games: big-screen group games for care-home activity coordinators",
-   "pitch": "A library of large-print group games built for the lounge TV in care homes, assisted living and adult day centres: caller-led picture bingo, finish-the-saying, decade quizzes and guess-the-object rounds. The coordinator runs them from a laptop or tablet with no preparation. It stores no resident data and works offline once loaded. If it takes off, a free weekly game page becomes the thing coordin…",
-   "platform": "pwa",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "The activity coordinator or activities director of a care home, assisted-living community or adult day centre, paying with the home's card",
-    "buys": "Prep-free group sessions every day: ready games that fill 30 to 45 minutes on the lounge TV. This replaces hours of printing and preparation, or a paid hosted programme.",
-    "model": "subscription",
-    "price": "19 EUR a month or 159 EUR a year per home",
-    "proof": [
-     {
-      "url": "https://www.rendever.com/rendeverlive/pricing",
-      "note": "Senior-living communities pay USD 49 to 99 a month for programming that includes live bingo and trivia: a near job with a published price.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Coordinators fill sessions with free YouTube quizzes, printable bingo and RendeverLive's free tier, and spending needs head-office approval.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.rendever.com/rendeverlive/pricing",
-     "note": "Senior-living communities pay USD 49 a month (Energize, 30 sessions) or USD 99 a month (Thrive) for live programming that includes bingo and trivia. A free tier has 5 credits a month. The page shows …",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=group%20games%20for%20dementia",
-     "note": "Google autocomplete returns 10 variants (patients, residents, seniors, adults, party games, alzheimer's), which shows standing search demand.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://apps.apple.com/gb/app/my-life-tv-dementia-friendly/id1575247352",
-     "note": "Seen in search results only: a dementia-friendly TV app sold to care homes at GBP 299.99 a year according to the search summary. Not opened.",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries such as 'group games for dementia patients' and 'group activities for dementia residents', with one free playable game per query page",
-    "first100": "Coordinators searching for group activity ideas land on a free playable game page, run it with residents the same day and subscribe for the full library.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=group%20games%20for%20dementia",
-      "note": "10 autocomplete variants for the core query family.",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "RendeverLive",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "My Life TV",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Activity Connection",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Big Screen Fun GAME ON!",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T21:22:36.718Z",
-    "detail": [
-     "Missed the strict bar: score 2.9 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Care homes pay a flat monthly or yearly subscription for the full game library. A few free games rank in search and feed the paid plan.",
-   "trigger": "standing need",
-   "window": "No deadline. The gap stays open because paid options are scheduled live programming (RendeverLive) or TV video channels, while free options are printables and YouTube videos that are not built for co…",
-   "score": 2.9,
-   "index": {
-    "composite": 3.2,
-    "used": {
-     "risk": 2,
-     "success": 3,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3.2 is below 3.6"
-    ],
-    "yearlyCostEur": 40,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3.2 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2500,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2500,
-       "upsideEur": 15000,
-       "basis": "Bottom-up: 6,000 visits a year (assumed, ramping) at 0.5% gives 30 paying homes. Joining through the year, they average 5 paid months at 19 EUR, so 2,850 EUR, minus about 150 EUR in payment fees and 40 EUR in running costs, gives about 2,650 EUR. Cross-check: RendeverLive shows homes paying USD 49 to 99 a month, but its customer count is unknown, so the cross-check confirms the price only, not th…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 3,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The payer and the price are shown on a priced competitor. Search demand is visible but unmeasured. The content can be static and needs no resident data.",
-      "summary": "",
-      "concerns": [
-       "Care-home purchasing may go through head office",
-       "Free YouTube and printable options set a price expectation of zero",
-       "Images must be public domain or self-made, and music is excluded for copyright reasons"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T21:22:36.718Z",
-   "updatedAt": "2026-11-16T21:22:36.718Z",
    "outcome": null
   },
   {
@@ -16354,19 +16330,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-18T07:35:49.145Z",
+   "lastRunAt": "2026-11-18T13:39:28.449Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 94,
-   "radius": 2,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 95,
+   "radius": 1,
    "radiusLevels": 4,
-   "runsLastDay": 3,
+   "runsLastDay": 4,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-18T13:35:49.145Z"
+   "nextRunAfter": "2026-11-18T19:39:28.449Z"
   }
  },
  "scorecard": {
