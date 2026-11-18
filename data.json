@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T06:00:29.200Z",
+ "generatedAt": "2026-11-18T07:58:16.641Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,1938 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "kellerbuch-im-browser-fuer-kleine-weinbaubetrieb",
+   "title": "Kellerbuch im Browser für kleine Weinbaubetriebe in Österreich",
+   "pitch": "For small and part-time winegrowers in Austria who must keep wine in- and outgoing books (Kellerbuch): record intake, treatments, blending, bottling and sales per wine and tank in order, and export for the federal cellar inspection and the yearly stock report. Germany later, if its planned single electronic register comes into force.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A part-time winegrower in Austria selling bottled wine",
+    "buys": "A cellar book that is always ready for inspection without paper and copying",
+    "model": "subscription",
+    "price": "9 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
+      "note": "Shows the duty only; no price page for a comparable tool was opened",
+      "date": "2026-01-01",
+      "ageDays": 321,
+      "age": "11 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Paper books are allowed and cheap, and winery tools (BOXXER VINO, WMS, InnoVint, Xentral) exist.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 321,
+     "age": "newest source 11 months old",
+     "tier": "ok",
+     "n": 2
+    },
+    "pay": {
+     "days": 321,
+     "age": "newest source 11 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
+     "note": "Anyone placing wine on the market in Austria must keep Ein- und Ausgangsbücher (Kellerbuch), kept continuously; legal basis § 31 Weingesetz; updated 2026-01-01",
+     "date": "2026-01-01",
+     "ageDays": 321,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://wayback.edoweb-rlp.de/weltweit/20241029mp_/https:/add.rlp.de/fileadmin/add/Abteilung_4/Wein/Wein_-_Leitfaden_Weinbuchsfuehrung.pdf",
+     "note": "German state guide on electronic wine bookkeeping; file dated 2010 (old, only shows electronic books are accepted)",
+     "date": "2010-04-21",
+     "ageDays": 6055,
+     "age": "16 years 7 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.at 'kellerbuch wein', 'kellerbuch software'",
+    "first100": "Winegrowers searching for a Kellerbuch template try the free version for one tank and pay to keep the full year.",
+    "proof": [
+     {
+      "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
+      "note": "Official business portal page on the duty; query suggestions not checked",
+      "date": "2026-01-01",
+      "ageDays": 321,
+      "age": "11 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "BOXXER VINO",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "WMS",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:15.884Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Part-time winegrowers pay a small monthly fee to keep the cellar book digitally and pass inspections.",
+   "trigger": "standing need",
+   "window": "Standing duty in Austria; German single electronic register is only a draft ordinance (not verified).",
+   "score": 2,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Channel: 1,500 visits x 1.5% (assumed) = 22 payers; ramp to about 6 payers x 9 x 8 months = 432 EUR minus costs, about 300 EUR. 5,000 EUR needs 46 payers all year, not reachable. Cross-check: no price page opened."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Real standing duty but crowded by winery software and paper; no price or fresh demand.",
+      "summary": "",
+      "concerns": [
+       "Paper is accepted",
+       "Existing winery tools",
+       "Austrian content rules not itemised on the page"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:15.884Z",
+   "updatedAt": "2026-11-18T07:58:15.884Z",
+   "outcome": null
+  },
+  {
+   "id": "oesterreich-einsatzmappe-zko3-daten-lohnunterlag",
+   "title": "Österreich-Einsatzmappe: ZKO3-Daten, Lohnunterlagen-Checkliste und KV-Mindestlohn für deutsche Hand…",
+   "pitch": "For German trade firms sending fitters or builders to jobs in Austria: per job, prepare the ZKO3 posting data, check the A1 status, list the wage and time documents to keep on site, work out the Austrian collective-agreement minimum including the 13th and 14th salary pro rata, and remind about BUAK follow-ups, ending in one folder per job.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A German trade firm with 5 to 50 staff doing several Austrian jobs a year",
+    "buys": "Avoids substantial Austrian administrative fines for missing notifications, documents or underpayment, and saves research per job",
+    "model": "subscription",
+    "price": "19 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
+      "note": "Shows the fines at stake, not a price anyone pays for a tool; no priced service was found",
+      "date": "2025-07-01",
+      "ageDays": 505,
+      "age": "17 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "Forms and guidance are free, firms that post often use an Austrian tax adviser, and keeping collective-agreement wage tables current is hard.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 505,
+     "age": "newest source 17 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
+     "note": "ZKO3 before work starts, A1, document list, collective-agreement minimum incl. 13th/14th salary, BUAK, substantial fines and more inspections; status July 2025",
+     "date": "2025-07-01",
+     "ageDays": 505,
+     "age": "17 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.bmf.gv.at/themen/betrugsbekaempfung/zentrale-koordinationsstelle.html",
+     "note": "Undated: notifications electronic only, separately per posting, framework notifications up to six months; no bulk or XML interface mentioned",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'entsendung österreich checkliste', 'zko3 meldung'",
+    "first100": "Office managers preparing a first Austrian job search for the ZKO3 checklist and use the free per-job folder, paying for repeat jobs.",
+    "proof": [
+     {
+      "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
+      "note": "Several IHKs publish the same guide, so firms search for it; query suggestions not checked",
+      "date": "2025-07-01",
+      "ageDays": 505,
+      "age": "17 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "ZKO electronic forms",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "IHK and Austrian Entsendeplattform guides",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:15.653Z",
+    "detail": [
+     "Missed the strict bar: score 2.25 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Trade firms with repeated Austrian jobs pay per job or monthly to avoid missing documents and underpayment.",
+   "trigger": "standing need",
+   "window": "Standing: per-posting electronic notification and on-site documents are required, and inspections have increased (IHK); no tool found in one search.",
+   "score": 2.25,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 4000,
+       "basis": "Channel: 2,000 visits x 1% (assumed) = 20 payers; ramp to about 4 payers x 19 x 6 months = 456 EUR minus costs, about 300 EUR. 5,000 EUR needs 22 payers all year. Cross-check: no priced comparable found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "Real fines and a repeated chore, but free official forms and no price evidence.",
+      "summary": "",
+      "concerns": [
+       "Collective-agreement wage data upkeep",
+       "Free official resources",
+       "Wrong wage figures carry liability"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:15.653Z",
+   "updatedAt": "2026-11-18T07:58:15.653Z",
+   "outcome": null
+  },
+  {
+   "id": "ppwr-lieferantenmappe-konformitaetserklaerungen",
+   "title": "PPWR-Lieferantenmappe: Konformitätserklärungen je Verpackungstyp sammeln, prüfen und fünf Jahre vor…",
+   "pitch": "For private-label brands and shops that count as packaging 'Erzeuger' since 12 Aug 2026 and are not covered by the small-business exemption: one list of every packaging type per product, request letters to suppliers, a check of each returned declaration against the Annex VIII fields, gaps flagged, your own declaration drafted, and a ten-day export for the authority.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A private-label brand or shop with 10 or more staff or over 2m EUR turnover and dozens of packaging types",
+    "buys": "A complete, current file of declarations per packaging type to hand over within ten days of a request",
+    "model": "subscription",
+    "price": "19 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.haendlerbund.de/de/leistungen/rechtssicherheit/ppwr-konformitaetserklaerung",
+      "note": "Merchants pay 9.90-57.90 EUR a month for legal memberships that include the PPWR template",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Free templates from Händlerbund, pro-K and law firms cover the document, and firms under 10 staff and 2m EUR with domestic suppliers are exempt.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.tanso.de/blog/ppwr-konformitatserklarung-und-technische-dokumentation-was-unternehmen-ab-dem-12-august-2026-vorlegen-mussen",
+     "note": "Who issues the DoC (manufacturer, brand owner as manufacturer), Annex VII contents, what to request from suppliers; updated 2026-08-13",
+     "date": "2026-08-13",
+     "ageDays": 97,
+     "age": "3 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.haendlerbund.de/de/leistungen/rechtssicherheit/ppwr-konformitaetserklaerung",
+     "note": "Undated page written after 2026-08-12: free DoC template within memberships from 9.90 to 57.90 EUR a month; exemption for under 10 staff and 2m EUR turnover with a domestic packaging maker",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'ppwr konformitätserklärung', 'ppwr technische dokumentation'",
+    "first100": "Brands that downloaded a free template and then face many supplier declarations search for a way to manage them and start a trial.",
+    "proof": [
+     {
+      "url": "https://www.tanso.de/blog/ppwr-konformitatserklarung-und-technische-dokumentation-was-unternehmen-ab-dem-12-august-2026-vorlegen-mussen",
+      "note": "Vendors compete on these queries with long guides",
+      "date": "2026-08-13",
+      "ageDays": 97,
+      "age": "3 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Händlerbund PPWR template",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Tanso PPWR software",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Packintelx",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "IT-Recht-Kanzlei template",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:14.123Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Mid-size private-label brands pay monthly to keep supplier declarations complete and ready for an authority request.",
+   "trigger": "Regulation (EU) 2025/40 (PPWR) applies since 12 Aug 2026: declaration of conformity and technical documentation per packaging type",
+   "window": "Duty in force since August 2026; crowded with free templates, so the window is narrow.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 4000,
+       "basis": "Channel: 3,000 visits x 0.5% (assumed) = 15 payers; with a ramp about 4 payers x 19 x 6 months = 456 EUR minus costs, about 300 EUR. 5,000 EUR needs 22 payers all year, unlikely against free templates. Cross-check: Händlerbund memberships show merchants pay for legal bundles, not for this register alone."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "In-force duty but crowded with free templates and exemptions for the smallest firms.",
+      "summary": "",
+      "concerns": [
+       "Free templates",
+       "Exemptions shrink the payer pool",
+       "Enterprise tools for larger firms"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:14.123Z",
+   "updatedAt": "2026-11-18T07:58:14.123Z",
+   "outcome": null
+  },
+  {
+   "id": "duftstoff-allergene-nach-vo-eu-2023-1545-deklara",
+   "title": "Duftstoff-Allergene nach VO (EU) 2023/1545: Deklarationsrechner für Seifensieder und kleine Naturko…",
+   "pitch": "For small soap and natural-cosmetics makers who must label the extended fragrance-allergen list on every new product since 31 July 2026 and relabel the whole range by 31 July 2028: keep your suppliers' allergen declarations per essential oil, enter each recipe, and get the allergens above 0.01% (rinse-off) or 0.001% (leave-on) with INCI names for the label plus a PIF annex, recalculated when a su…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A soap or natural-cosmetics maker with 10 to 80 products selling on markets, Etsy and an own shop",
+    "buys": "Correct allergen lists for every label and PIF without paying an assessor per update; a non-compliant label makes the product unlawful to sell",
+    "model": "subscription",
+    "price": "49 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.certifiedcosmetics.com/de/?p=9382",
+      "note": "Makers pay 150-669 per product for assessment and PIF, a nearby job",
+      "date": "2025-03-28",
+      "ageDays": 600,
+      "age": "20 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "The arithmetic is easy in a spreadsheet or with an AI assistant once supplier data is at hand, and assessors recalculate as part of their paid update.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 110,
+     "age": "newest source 4 months old",
+     "tier": "ok",
+     "n": 2
+    },
+    "pay": {
+     "days": 600,
+     "age": "newest source 20 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://ecomundo.eu/en/blog/fragrance-allergen-labelling",
+     "note": "Deadlines 31 July 2026 (new) and 31 July 2028 (existing); 24 plus 57 allergens; thresholds 0.001% and 0.01%; enterprise tools without prices",
+     "date": "2026-04-16",
+     "ageDays": 216,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.certifiedcosmetics.com/de/?p=9382",
+     "note": "Safety assessor prices: CPSR from 150, CPSR plus PIF from 400, complete package from 669 (last modified 2025-03-28)",
+     "date": "2025-03-28",
+     "ageDays": 600,
+     "age": "20 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'allergene kosmetik 2023/1545', 'duftstoffallergene seife'",
+    "first100": "Makers searching how to declare the new allergens use a free one-recipe calculation and pay to store all recipes and supplier sheets.",
+    "proof": [
+     {
+      "url": "https://ecomundo.eu/en/blog/fragrance-allergen-labelling",
+      "note": "Vendors publish guides on the rule; query suggestions not checked",
+      "date": "2026-04-16",
+      "ageDays": 216,
+      "age": "7 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Ecomundo (Cosmetic Factory, Formula Check)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Safety assessors (e.g. CertifiedCosmetics)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:13.791Z",
+    "detail": [
+     "Missed the strict bar: score 2.55 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small cosmetics makers pay a yearly fee to keep allergen lists right across all recipes and supplier batches.",
+   "trigger": "Regulation (EU) 2023/1545: products placed after 31 July 2026 must comply; existing products by 31 July 2028; 81 allergens, thresholds 0.001% leave-on and 0.01% rinse-off",
+   "window": "Every product on the market must be relabelled by 31 July 2028, and each new product needs it now; after 2028 it remains a per-recipe chore.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 5000,
+       "basis": "Channel: 2,000 visits x 1.5% (assumed) = 30 payers x 49 EUR = 1,470 EUR; with a ramp about 12 payers = 588 EUR minus costs, about 500 EUR. 5,000 EUR needs 102 payers, not reachable in year one. Cross-check: only the adjacent assessor prices (150-669 per product); no priced allergen tool found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Real dated rule with a 2028 relabel wave, but the job is close to AI-doable arithmetic.",
+      "summary": "",
+      "concerns": [
+       "AI assistants and spreadsheets",
+       "Assessors bundle it",
+       "Label errors carry liability"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:13.791Z",
+   "updatedAt": "2026-11-18T07:58:13.791Z",
+   "outcome": null
+  },
+  {
+   "id": "ksk-meldung-aus-dem-buchungsexport-abgabepflicht",
+   "title": "KSK-Meldung aus dem Buchungsexport: abgabepflichtige Entgelte finden und belegen",
+   "pitch": "For small agencies, firms and clubs that pay freelance designers, photographers, copywriters or musicians: load the booking export from DATEV, Lexware or sevDesk in the browser, get the creditors sorted by legal form and service type with the KSVG rules applied (companies excluded, print and travel costs split off, the 1,000 EUR threshold for occasional users), the sum to enter in the KSK portal …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small agency, company or club that pays freelance creatives more than 1,000 EUR a year and does its own bookkeeping",
+    "buys": "A correct basis and a record that protects against five years of back payments and fines up to 50,000 EUR after an audit",
+    "model": "one-off",
+    "price": "29 EUR per reporting year",
+    "proof": [
+     {
+      "url": "https://www.aok.de/fk/sozialversicherung/kuenstlersozialabgabe/meldepflichten-und-faelligkeit-kuenstlersozialabgabe/",
+      "note": "Shows the money at stake (fines, five-year back payment), not a price someone pays for a tool; no priced tool found",
+      "date": "2026-01-01",
+      "ageDays": 321,
+      "age": "11 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "The tax adviser already does it, and an AI assistant can sort a pasted creditor list by legal form.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 239,
+     "age": "newest source 8 months old",
+     "tier": "ok",
+     "n": 2
+    },
+    "pay": {
+     "days": 321,
+     "age": "newest source 11 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.aok.de/fk/sozialversicherung/kuenstlersozialabgabe/meldepflichten-und-faelligkeit-kuenstlersozialabgabe/",
+     "note": "Report due 31 March; missing or wrong reports are an offence with fines up to 50,000 EUR; audits recover five years of contributions",
+     "date": "2026-01-01",
+     "ageDays": 321,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.deutsche-handwerks-zeitung.de/?p=376762",
+     "note": "Businesses paying freelance creatives over the threshold must report by 31 March; payments to GmbH/UG/AG etc. exempt; split creative work from print costs; rate 4.9% for 2026",
+     "date": "2026-03-24",
+     "ageDays": 239,
+     "age": "8 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'künstlersozialabgabe berechnen', 'ksk meldung', seasonal January to March",
+    "first100": "Bookkeepers searching in March how to work out the KSK sum run the free check and pay for the audit file.",
+    "proof": [
+     {
+      "url": "https://www.deutsche-handwerks-zeitung.de/?p=376762",
+      "note": "Trade press runs the topic every March; query suggestions not checked",
+      "date": "2026-03-24",
+      "ageDays": 239,
+      "age": "8 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "KSK online portal",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Invoice Data Extraction (KSK blog)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Tax advisers",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:08.091Z",
+    "detail": [
+     "Missed the strict bar: score 2.45 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Firms and clubs pay a small fee per reporting year for a defensible KSK basis and audit file.",
+   "trigger": "standing need: yearly KSK report due 31 March; rate 4.9% for 2026 and threshold 1,000 EUR for occasional users",
+   "window": "Recurring yearly deadline with no extension; no dedicated self-serve tool found in one search.",
+   "score": 2.45,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 5000,
+       "basis": "Channel: 3,000 visits x 1% (assumed) = 30 payers x 29 EUR = 870 EUR, ramp and one season halve it, about 400 EUR. 5,000 EUR needs 172 payers, not reachable. Cross-check: no comparable priced tool found, so no cross-check is possible."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Real fines and a fixed date, but no price evidence and much of the job is AI-doable.",
+      "summary": "",
+      "concerns": [
+       "AI assistants and tax advisers cover it",
+       "One short season a year"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:08.091Z",
+   "updatedAt": "2026-11-18T07:58:08.091Z",
+   "outcome": null
+  },
+  {
+   "id": "jagdkataster-pachtauszahlung-im-browser-fuer-jag",
+   "title": "Jagdkataster & Pachtauszahlung im Browser für Jagdgenossenschaften",
+   "pitch": "For the chair or treasurer of a hunting cooperative (Jagdgenossenschaft): import the plot list from the survey office, keep owners and hectares current, compute each member's share of the lease income, produce the SEPA transfer file and payout list, and tally attendance and votes by heads and area for the general meeting, all local in the browser. If it takes off, farmers' associations recommend …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A hunting cooperative with 50 to 500 landowner members, paid from its lease income",
+    "buys": "The yearly payout calculation, SEPA file and vote tallies done in an hour instead of an evening in Excel, with a record for members' questions",
+    "model": "subscription",
+    "price": "59 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
+      "note": "An existing paid program with paid maintenance; no price shown, so the price level is unverified",
+      "date": "2025-09-19",
+      "ageDays": 425,
+      "age": "14 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "Many cooperatives no longer pay out (the money goes to road building), keep Excel, or get software through a farmers' association framework contract.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 425,
+     "age": "newest source 14 months old",
+     "tier": "old",
+     "n": 2
+    },
+    "pay": {
+     "days": 425,
+     "age": "newest source 14 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
+     "note": "Jagdpachtverwaltung: desktop program since 1997 with modules Kataster, Kassenbuch, Auszahlung, Versammlung, ALKIS import; maintenance and hotline paid extra; page updated 2025-09-19",
+     "date": "2025-09-19",
+     "ageDays": 425,
+     "age": "14 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.landtreff.de/threads/jagdpachtverwendung.143591/",
+     "note": "Farmers' forum: cooperatives pay out 5-20 EUR per hectare or use funds for roads; newest visible posts 2023-10-13 (old)",
+     "date": "2023-10-13",
+     "ageDays": 1132,
+     "age": "3 years 1 month old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'jagdkataster software', 'jagdgenossenschaft software', 'jagdpacht auszahlung'",
+    "first100": "Cooperative chairs searching before the yearly meeting find a free payout calculator and pay for SEPA export and the saved cadastre.",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
+      "note": "A software directory keeps a category for this niche; query suggestions not checked",
+      "date": "2025-09-19",
+      "ageDays": 425,
+      "age": "14 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Jagdpachtverwaltung (SoftGuide listing)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "BBSoft GIS Jagdkataster",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Survey offices (Bavaria) producing the cadastre o…",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:07.839Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Hunting cooperatives pay a small yearly fee from their lease income for payouts and meeting tallies.",
+   "trigger": "standing need",
+   "window": "Standing: the specialised program found is desktop software first installed in 1997 with paid maintenance; nothing modern and cheap was found. What keeps it open is a volunteer-run niche no software …",
+   "score": 2.35,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 4000,
+       "basis": "Channel: 1,500 visits x 2% (assumed) = 30 payers; with a ramp assume 8 x 59 EUR = 472 EUR minus domain, about 400 EUR. 5,000 EUR needs 85 cooperatives, out of reach for search in year one. Cross-check: only the existence of a paid desktop program; no price or customer count found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A real recurring duty in a neglected niche, but no price page and no fresh demand.",
+      "summary": "",
+      "concerns": [
+       "No verified price",
+       "Volunteer chairs stay with Excel",
+       "Many cooperatives do not pay out"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:07.839Z",
+   "updatedAt": "2026-11-18T07:58:07.839Z",
+   "outcome": null
+  },
+  {
+   "id": "parzellenabrechnung-jahresrechnung-je-parzelle-p",
+   "title": "Parzellenabrechnung: Jahresrechnung je Parzelle (Pacht, Wasser, Strom, Umlagen) für Kleingartenvere…",
+   "pitch": "For the treasurer of an allotment club with 40 to 300 plots: import the meter readings, set the year's lease per square metre, water and electricity prices and levies once, and get a statement per plot as PDF, a SEPA direct-debit file and a summary for the cash audit, in the browser with member data kept local. If it takes off, clubs in the same regional association copy the setup and the associa…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "An allotment club (Kleingartenverein) with 40 to 300 plots, paid by the treasurer from the club account",
+    "buys": "A day or two of yearly billing work per treasurer and fewer disputes about meter costs; a clean record for the cash audit",
+    "model": "subscription",
+    "price": "79 EUR a year per club up to 300 plots",
+    "proof": [
+     {
+      "url": "https://www.gartenbund.de/",
+      "note": "Clubs pay 12 EUR a month plus 0.12 EUR per plot for the same job",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
+      "note": "Club software at 119 EUR a year",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Treasurers inherit a working Excel file, and Gartenbund Pro already covers the job at about 24 EUR a month for 100 plots.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.gartenbund.de/",
+     "note": "Undated page (copyright 2026), seen 2026-11-18: Gartenbund Pro web software with plots, consumption (water, electricity) and Pachtrechnungen; 12 EUR a month base plus 0.12 EUR per plot (100 plots = 2…",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
+     "note": "Undated page (copyright 2026), seen 2026-11-18: club software marketed to allotment clubs with no plot, meter or lease billing; 119 EUR a year above 5 admins, up to 50 members",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'kleingartenverein software', 'pachtabrechnung kleingarten', 'kleingarten wasserabrechnung'",
+    "first100": "Treasurers searching before the yearly billing find a free per-plot statement demo and pay to export all plots and the SEPA file.",
+    "proof": [
+     {
+      "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
+      "note": "A club-software vendor runs a dedicated page for allotment clubs, so the query is targeted; ranking positions were not checked",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Gartenbund Pro",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Vereinsplaner",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Vernity",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:07.459Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Allotment clubs pay a flat yearly fee from the club account for the annual plot billing.",
+   "trigger": "standing need",
+   "window": "Standing: general club software skips plots and meters (Vereinsplaner); Gartenbund Pro is the one specialised web tool found. The volunteer-run segment is ignored by the big club tools.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 6000,
+       "basis": "Channel: 2,000 visits x 2% (assumed) = 40 clubs; with a ramp assume 12 clubs x 79 EUR = 948 EUR minus domain and fees, about 800 EUR. 5,000 EUR needs 64 clubs, which search is unlikely to reach in year one. Cross-check: Gartenbund Pro's price (about 288 EUR a year for 100 plots) shows clubs pay for this job; no customer count found."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Proven payer and price, but a solid specialised competitor and no fresh demand signal.",
+      "summary": "",
+      "concerns": [
+       "Gartenbund Pro already serves it",
+       "Volunteers resist new tools",
+       "Seasonal, small audience"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:07.459Z",
+   "updatedAt": "2026-11-18T07:58:07.459Z",
+   "outcome": null
+  },
+  {
+   "id": "akkupass-werkstatt-batteriepass-fuer-e-bike-akku",
+   "title": "Akkupass-Werkstatt: Batteriepass für E-Bike-Akku-Zellentausch und kleine LMT-Packhersteller",
+   "pitch": "For e-bike battery re-cell workshops and small makers of light-vehicle and over-2-kWh industrial packs (cargo bikes, scooters, home-storage assemblers) who place batteries on the EU market from 18 Feb 2027: a passport per battery with a unique ID and QR code, model data entered once, per-battery fields (production date, cells, state of health at sale), a link to the original pack's passport after…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A re-cell workshop or small LMT/industrial pack maker placing 100 to 3,000 batteries a year on the EU market",
+    "buys": "The required passport per battery without a 1,499 EUR a month enterprise contract; selling a pack without one from 18 Feb 2027 risks market-surveillance action",
+    "model": "subscription",
+    "price": "49 EUR a month for up to 500 passports a year",
+    "proof": [
+     {
+      "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
+      "note": "Base passport package from 1,499 EUR net a month",
+      "date": "2026-03-16",
+      "ageDays": 247,
+      "age": "8 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "I did not verify at the primary source that a re-celled pack counts as newly placed and needs its own linked passport; if not, the workshop segment disappears, and small pack makers may wait for cell suppliers or industry platforms to supply passports.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 247,
+     "age": "newest source 8 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
+     "note": "Passport from 18 Feb 2027 for traction, LMT and industrial >2 kWh batteries; Handwerk affected; ZVEH notes extra admin burden; no tools named",
+     "date": "2026-05-07",
+     "ageDays": 195,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.ingenieur.de/fachmedien/konstruktion/produktentwicklung/digitaler-batteriepass-fuer-kmu-dpp-hero/",
+     "note": "Article (sponsored) on battery passport software for SMEs by DPP Hero; scope: traction, industrial >2 kWh, LMT",
+     "date": "2026-08-20",
+     "ageDays": 90,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://upway.de/blogs/news/eu-single-cell-verordnung-warum-reparatur-beim-e-bike-akku-an-ihre-grenzen-stosst",
+     "note": "From 18 Feb 2027 LMT cells must be replaceable by independent professionals; spare-part and tool duties for makers",
+     "date": "2026-07-14",
+     "ageDays": 127,
+     "age": "4 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'batteriepass erstellen', 'batteriepass software', 'batteriepass e-bike akku'",
+    "first100": "Workshops and pack makers searching how to issue a passport find a plain guide per battery type and start issuing passports on a free trial.",
+    "proof": [
+     {
+      "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
+      "note": "Trade press addressing Handwerk shows the target group is reading about the duty; query suggestions were not checked",
+      "date": "2026-05-07",
+      "ageDays": 195,
+      "age": "6 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Magenta Digital Product Passport",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "DPP Hero",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "QR Planet battery passport",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:06.663Z",
+    "detail": [
+     "Missed the strict bar: score 2.85 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Workshops and small pack makers pay a monthly fee for the passports they must issue, far below enterprise platforms.",
+   "trigger": "Art. 77 Regulation (EU) 2023/1542: battery passport mandatory from 18 Feb 2027 for traction, e-bike/e-scooter (LMT) and industrial batteries over 2 kWh; affects bike workshops and electricians instal…",
+   "window": "Three months to the deadline; enterprise vendors are priced for OEMs. Due-diligence duties were postponed to 2027 but the sources seen keep the passport date. Content rules depend on delegated acts a…",
+   "score": 2.85,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 200,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2000,
+     "upsideEur": 20000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2000,
+       "upsideEur": 20000,
+       "basis": "Channel: 2,500 visits x 1.5% (assumed) = 37 payers; a small segment and a ramp suggest 8 payers for about 8 months: 8 x 49 x 8 = 3,136 EUR minus about 200 EUR hosting and fees and churn, about 2,000 EUR. 5,000 EUR a year needs 9 payers all year. Cross-check: only the enterprise price (1,499 EUR a month) was found; no SME price or customer count, so the estimate rests on assumptions."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "A real deadline with enterprise-only offers; the segment's obligation for re-celled packs is not verified at the primary source.",
+      "summary": "",
+      "concerns": [
+       "Re-cell obligation unclear",
+       "Passport data standards still settling",
+       "Passports must stay available long-term, even if the service closes"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:06.663Z",
+   "updatedAt": "2026-11-18T07:58:06.663Z",
+   "outcome": null
+  },
+  {
+   "id": "netzanmeldung-mappe-pv-speicher-wallbox-und-waer",
+   "title": "Netzanmeldung-Mappe: PV-, Speicher-, Wallbox- und Wärmepumpen-Anmeldung für kleine Elektrobetriebe …",
+   "pitch": "For electricians and small PV and SHK installers who do 2 to 20 grid registrations a month and either lose 2 to 5 office hours each or pay a service 200 to 275 EUR net: enter the job once (customer, site, components from a library with certificate data) and get the operator's required data sheets filled, the controllable-device notification, a MaStR checklist and a status tracker per job. If it t…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An electrician or PV/SHK installer with 1 to 10 staff doing 2 to 20 grid registrations a month",
+    "buys": "Saves 2 to 5 office hours per registration (60-100 EUR an hour) or 200-275 EUR net per job for a service, and fewer rejections from missing data",
+    "model": "subscription",
+    "price": "39 EUR a month, unlimited jobs",
+    "proof": [
+     {
+      "url": "https://ema-energiewelt.de/pv-netzanmeldung-fuer-solarteure",
+      "note": "Installers pay 200-275 EUR net per registration in packs",
+      "date": "2026-11-08",
+      "ageDays": 10,
+      "age": "10 days old",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.photovoltaik.info/kosten-netzanmeldung-elektriker-sparen/",
+      "note": "Electricians bill 120-500 EUR for the registration work",
+      "date": "2026-05-29",
+      "ageDays": 173,
+      "age": "6 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Operators increasingly run guided portals, installers pass the hours on to the customer, and firms that hate the work outsource it fully to services that also answer the operator's queries, which software cannot do.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 10,
+     "age": "newest source 10 days old",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://ema-energiewelt.de/pv-netzanmeldung-fuer-solarteure",
+     "note": "Done-for-you registration for installers: PV/wallbox and heat pump 275/250/200 EUR net per job in 10/50/100 packs, MaStR entry 69-89 EUR; worked with over 278 operators, database of 741; prices valid…",
+     "date": "2026-11-08",
+     "ageDays": 10,
+     "age": "10 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.photovoltaik.info/kosten-netzanmeldung-elektriker-sparen/",
+     "note": "Electrician's registration work takes 2 to 5 hours at 60 to 100 EUR an hour (120-500 EUR); whole process four weeks to months",
+     "date": "2026-05-29",
+     "ageDays": 173,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=netzanmeldung",
+     "note": "Nine autocomplete variants incl. pv, wärmepumpe, wallbox, bayernwerk, digital, dienstleister, kosten",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'netzanmeldung pv', 'netzanmeldung wärmepumpe', 'netzanmeldung wallbox', 'netzanmeldung operator name', 'netzanmeldung dienstleister'",
+    "first100": "Installers who search for an operator's requirements land on that operator's page, run the first job free and subscribe when they see the filled data sheets.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=netzanmeldung",
+      "note": "Nine variants incl. an operator name and 'dienstleister'; who ranks was not checked",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "EMA Energiewelt",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Netzanmeldung24",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "IVU Netzanschlussplattform",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Grid operators' own portals",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:05.677Z",
+    "detail": [
+     "Missed the strict bar: score 3.2 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small installers pay a monthly fee to do registrations themselves in a fraction of the time instead of paying a service per job.",
+   "trigger": "standing need",
+   "window": "Standing gap: over 800 distribution grid operators each use their own forms, portals and TAB supplements (EMA page). A federal grid-connection package with a common information platform was sent to t…",
+   "score": 3.2,
+   "index": {
+    "composite": 3.2,
+    "used": {
+     "risk": 3,
+     "success": 3,
+     "monetization": 3,
+     "potential": 4,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.2 is below 3.6"
+    ],
+    "yearlyCostEur": 150,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 3000,
+     "upsideEur": 30000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 3000,
+       "upsideEur": 30000,
+       "basis": "Channel: 6,000 visits x 1% (assumed) = 60 payers; with a new-site ramp assume 15 payers joining through the year, about 6 paid months each: 15 x 39 x 6 = 3,510 EUR minus about 300 EUR costs and fees, about 3,000 EUR. 5,000 EUR a year needs 11 payers all year, which looks reachable. Cross-check: EMA sells 10/50/100 packs at 200-275 EUR and has worked with 278 operators, showing installers pay for …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 3,
+      "monetization": 3,
+      "potential": 4,
+      "automation": 3,
+      "rationale": "A clear payer with a price on a page dated this month and a measured hour cost. The operator form library needs upkeep, which lowers automation.",
+      "summary": "",
+      "concerns": [
+       "Keeping the forms of hundreds of operators current",
+       "A national platform could standardise forms",
+       "Installers may prefer full outsourcing"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:05.677Z",
+   "updatedAt": "2026-11-18T07:58:05.677Z",
+   "outcome": null
+  },
+  {
+   "id": "batterie-qr-seite-die-pflicht-infoseite-hinter-d",
+   "title": "Batterie-QR-Seite: die Pflicht-Infoseite hinter dem QR-Code jeder Batterie ab 18.02.2027",
+   "pitch": "For small own-brand battery sellers and importers (power banks, LiFePO4 camping and solar packs, tool and accessory batteries): one hosted page per battery model with what the QR code must open from 18 Feb 2027 (EU declaration of conformity, waste and collection information, later the label data), a stable short URL to hand to the factory now, print-ready QR files and a change log. If it takes of…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An own-brand seller or importer of batteries (power banks, LiFePO4 packs, tool batteries) with 3 to 50 battery models, typically a marketpl…",
+    "buys": "A compliant, permanent page per model behind the printed QR code, ready before the factory prints it: content checklist for Art. 13, DoC upload, collection and waste text in DE, EN, FR, IT and ES, a URL that survives a shop relaunch; it avoids market-surveillance objections and listing removals",
+    "model": "subscription",
+    "price": "99 EUR a year per brand for up to 25 models",
+    "proof": [
+     {
+      "url": "https://qrplanet.com/help/article/eu-battery-regulation",
+      "note": "Hosted trackable QR codes with product information from 5 EUR a month",
+      "date": "2026-05-25",
+      "ageDays": 177,
+      "age": "6 months old",
+      "tier": "ok"
+     },
+     {
+      "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
+      "note": "Enterprise battery passport package from 1,499 EUR net a month",
+      "date": "2026-03-16",
+      "ageDays": 247,
+      "age": "8 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "A brand can put the DoC PDF on its own website and point the QR code there for free, Chinese OEMs may supply a page, and small sellers may ignore the rule until enforcement starts.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 177,
+     "age": "newest source 6 months old",
+     "tier": "ok",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.it-recht-kanzlei.de/qr-code-pflicht-fuer-batterien-ab-2027.html",
+     "note": "QR code duty from 18 Feb 2027 for batteries incl. built-in ones; content initially DoC, due-diligence report where required, waste info; label act delayed but QR date unaffected",
+     "date": "2026-11-02",
+     "ageDays": 16,
+     "age": "2 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
+     "note": "Trade press for Handwerk: QR-code based battery passport mandatory from 18 Feb 2027; no postponement mentioned; no tools or prices for small firms",
+     "date": "2026-05-07",
+     "ageDays": 195,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
+     "note": "E-commerce press: Magenta Digital Product Passport base package from 1,499 EUR net a month for up to 5,000 passes a year",
+     "date": "2026-03-16",
+     "ageDays": 247,
+     "age": "8 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=batterie%20qr%20code",
+     "note": "Autocomplete: batterie qr code, varta batterie qr code, qr code batterie lifepo4, qr code batterie bosch",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de queries 'batterie qr code', 'qr code batterie lifepo4', 'batterieverordnung qr code', 'qr code batterie pflicht 2027'",
+    "first100": "Brand owners searching for the QR duty in the months around 18 Feb 2027 land on a checklist page per battery type, create the first model page free and pay when they publish more models.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=batterie%20qr%20code",
+      "note": "Four autocomplete variants incl. lifepo4 and brand names; who ranks was not checked",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.it-recht-kanzlei.de/qr-code-pflicht-fuer-batterien-ab-2027.html",
+      "note": "Law-firm explainer aimed at sellers, showing the topic is searched by merchants",
+      "date": "2026-11-02",
+      "ageDays": 16,
+      "age": "2 weeks old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "QR Planet",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Magenta Digital Product Passport",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "DPP Hero",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "DIY page on the brand's own website",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T07:58:04.850Z",
+    "detail": [
+     "Missed the strict bar: score 3.2 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Own-brand battery sellers pay a small yearly fee per brand for compliant, permanent QR target pages per model.",
+   "trigger": "Art. 13(6) Regulation (EU) 2023/1542: from 18 Feb 2027 batteries, including those built into devices, must carry a QR code giving access to the EU declaration of conformity and waste information; IT-…",
+   "window": "Batteries produced now for sale after 18 Feb 2027 need the QR code printed or engraved now, so the target URL must exist before production; after February it stays a duty for every new model. Enterpr…",
+   "score": 3.2,
+   "index": {
+    "composite": 3,
+    "used": {
+     "risk": 3,
+     "success": 3,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2000,
+     "upsideEur": 15000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2000,
+       "upsideEur": 15000,
+       "basis": "Channel: 5,000 visits a year x 1.5% (assumed) = 75 payers x 99 EUR = 7,400 EUR, but a new site ranks late and search interest peaks around the deadline, so assume 25 paying brands in year one = 2,475 EUR minus about 120 EUR hosting and 5% fees, about 2,000 EUR. 5,000 EUR a year needs 51 payers, which the channel reaches only if pages rank before February. Cross-check: QR Planet's from-5-EUR plans…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 3,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The duty is in force on a fixed date and confirmed by a law firm two weeks ago; small brands need a URL before production. The free DIY route is real, which keeps monetization at 3.",
+      "summary": "",
+      "concerns": [
+       "Brands simply link a PDF on their own site",
+       "EU may change the required QR content",
+       "Search traffic arrives after the production deadline"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T07:58:04.850Z",
+   "updatedAt": "2026-11-18T07:58:04.850Z",
+   "outcome": null
+  },
   {
    "id": "royalty-run-author-royalty-statements-for-small",
    "title": "Royalty Run: author royalty statements for small presses from KDP, IngramSpark and Draft2Digital re…",
@@ -5914,1963 +7846,6 @@
    },
    "createdAt": "2026-11-16T21:22:36.718Z",
    "updatedAt": "2026-11-16T21:22:36.718Z",
-   "outcome": null
-  },
-  {
-   "id": "eudr-referenzbuch-fuer-haendler-dds-referenznumm",
-   "title": "EUDR-Referenzbuch für Händler: DDS-Referenznummern je Lieferung erfassen und weitergeben",
-   "pitch": "For wholesalers and retailers of wood, coffee, cocoa and rubber goods who buy from EU suppliers: log the due-diligence reference numbers per incoming delivery, print them on delivery notes and invoices, and keep the record for five years.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A wood, furniture, coffee or cocoa wholesaler or retailer buying from EU suppliers",
-    "buys": "An audit-ready log of reference numbers per delivery without changing the ERP",
-    "model": "subscription",
-    "price": "99 EUR a year",
-    "proof": [
-     {
-      "url": "https://integritynext.com/esg-solutions/eudr-deforestation-regulation/eudr-starter",
-      "note": "EUDR tools are sold to SMEs at a fixed annual price, but the price is undisclosed (weak proof)",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "A spreadsheet column or an ERP field does the job for free.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.ihk.de/aschaffenburg/international/entwaldungsverordnung-eudr-6348182",
-     "note": "Downstream operators and traders no longer file, but keep reference numbers; large ones register once (updated early 2026, opened 2026-11-16)",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.ihk.de/schwerin/recht/gesetzliche-aenderungen-2027-was-auf-unternehmen-zukommt-7205372",
-     "note": "EUDR dates for operators and traders",
-     "date": "2026-10-16",
-     "ageDays": 33,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'eudr referenznummer', 'eudr händler pflichten'",
-    "first100": "Traders who search for what they must keep after 2026-12-30 would try the free log.",
-    "proof": [
-     {
-      "url": "https://www.ihk.de/aschaffenburg/international/entwaldungsverordnung-eudr-6348182",
-      "note": "Chambers explain the trader duty, which shows the question exists",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "IntegrityNext EUDR Starter",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "ERP and merchandise systems (fields, spreadsheets)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:20.321Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "A small yearly fee for the reference log and document stamping.",
-   "trigger": "Under the amended EUDR, downstream operators and traders keep the reference numbers of the first operator's statement; large ones must register once and collect supplier and customer information; dat…",
-   "window": "From 2026-12-30 and 2027-06-30, then permanent; ERP vendors will add fields.",
-   "score": 2.3,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 200,
-     "upsideEur": 2000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 200,
-       "upsideEur": 2000,
-       "basis": "Bottom-up: about 1,500 visits (assumed) at 1% gives 15 payers at 99 EUR, or 1,485 EUR at full ramp; about 200 EUR in year one. 5,000 EUR needs 51 payers, which the channel cannot reach. No comparable price was found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 5,
-      "rationale": "A real but tiny record-keeping duty that a spreadsheet covers; listed to fill the pool with honest low scores.",
-      "summary": "",
-      "concerns": [
-       "A spreadsheet suffices",
-       "ERP vendors will add the field"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:20.321Z",
-   "updatedAt": "2026-11-16T15:25:20.321Z",
-   "outcome": null
-  },
-  {
-   "id": "e-rechnung-ab-2027-fuer-firmen-ueber-800-000-eur",
-   "title": "E-Rechnung ab 2027 für Firmen über 800.000 EUR, die heute in Word oder Excel fakturieren",
-   "pitch": "For trade and service businesses above 800,000 EUR turnover that still write B2B invoices in Word or Excel: fill the familiar invoice form and download a valid XRechnung or ZUGFeRD file, keeping their own numbering.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A trade or service business above 800,000 EUR turnover invoicing B2B from Word or Excel",
-    "buys": "Compliant e-invoices from 2027 without moving to a full suite",
-    "model": "subscription",
-    "price": "9 EUR a month",
-    "proof": [
-     {
-      "url": "https://kostenlose-erechnung.de/ratgeber/oss-verfahren-eu-onestopshop/",
-      "note": "Paid plans exist but no prices are on the page (weak proof); the free tier is proof against",
-      "date": "2026-05-01",
-      "ageDays": 201,
-      "age": "7 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Free generators and cheap suites already cover it, and firms that size usually have a tax advisor who sets one up.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 33,
-     "age": "newest source 5 weeks old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 201,
-     "age": "newest source 7 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.ihk.de/schwerin/recht/gesetzliche-aenderungen-2027-was-auf-unternehmen-zukommt-7205372",
-     "note": "E-invoice duty from 1.1.2027 above 800,000 EUR; for all from 2028",
-     "date": "2026-10-16",
-     "ageDays": 33,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://kostenlose-erechnung.de/ratgeber/oss-verfahren-eu-onestopshop/",
-     "note": "Free browser e-invoice generator with three invoices a month free, and paid plans",
-     "date": "2026-05-01",
-     "ageDays": 201,
-     "age": "7 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'e-rechnung erstellen excel', 'xrechnung aus word'",
-    "first100": "Firms searching in December and January for a Word or Excel route would try the form.",
-    "proof": [
-     {
-      "url": "https://kostenlose-erechnung.de/ratgeber/oss-verfahren-eu-onestopshop/",
-      "note": "Competitors already publish guides for these queries",
-      "date": "2026-05-01",
-      "ageDays": 201,
-      "age": "7 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "kostenlose-erechnung.de",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "easybill",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Lexware invoicing",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:19.307Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "A small monthly fee for unlimited e-invoices from a familiar form.",
-   "trigger": "From 2027-01-01, firms with prior-year turnover above 800,000 EUR must issue e-invoices for domestic B2B supplies",
-   "window": "2027 for large firms, 2028 for all; the market is already full of tools.",
-   "score": 2.4,
-   "index": {
-    "composite": 2.15,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.15 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.15 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 200,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 200,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: about 5,000 visits (assumed) at 0.3% gives 15 payers at 108 EUR, or 1,620 EUR at full ramp; about 200 EUR in year one in a crowded market. 5,000 EUR needs 47 payers, which the channel will not reach. Cross-check: kostenlose-erechnung.de gives three invoices a month free; its paid prices were not shown."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The duty is certain, but this is the 101st e-invoice tool; listed only to fill the pool honestly.",
-      "summary": "",
-      "concerns": [
-       "Saturated",
-       "Free tiers",
-       "Validation upkeep for XRechnung versions"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:19.307Z",
-   "updatedAt": "2026-11-16T15:25:19.307Z",
-   "outcome": null
-  },
-  {
-   "id": "faktura-umzug-kunden-artikel-und-offene-posten-a",
-   "title": "Faktura-Umzug: Kunden, Artikel und offene Posten aus DATEV Mittelstand Faktura vor dem 31.12.2026 m…",
-   "pitch": "For businesses leaving DATEV Mittelstand Faktura, which DATEV discontinues at the end of 2026: map the exported customer, article and open-item lists to the import formats of the invoicing tool they move to, with checks for numbering and VAT keys.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small or medium business that invoices with DATEV Mittelstand Faktura and moves to another tool",
-    "buys": "Clean master data and open items in the new tool without re-typing",
-    "model": "one-off",
-    "price": "79 EUR once",
-    "proof": [
-     {
-      "url": "https://www.datev.de/web/de/berufsgruppenuebergreifend/nachrichten/rund-um-die-datev-programme/kuendigungen-und-leistungsaenderungen-von-produkten/",
-      "note": "Shows the paid product ending; no page with a price for the migration job was found (weak proof)",
-      "date": "2026-10-31",
-      "ageDays": 18,
-      "age": "3 weeks old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Most users follow DATEV's own path, and the rest let their tax advisor or an AI assistant reformat the CSV.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 18,
-     "age": "newest source 3 weeks old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.datev.de/web/de/berufsgruppenuebergreifend/nachrichten/rund-um-die-datev-programme/kuendigungen-und-leistungsaenderungen-von-produkten/",
-     "note": "DATEV Mittelstand Faktura among products ending 31.12.2026 (letters from October 2026; exact page date not shown)",
-     "date": "2026-10-31",
-     "ageDays": 18,
-     "age": "3 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.datev.de/web/de/berufsgruppenuebergreifend/service-und-support/umstellungen/von-datev-mittelstand-faktura-auf-datev-auftragswesen-next",
-     "note": "DATEV's own move path to DATEV Auftragswesen next (seen in search results; not opened)",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'datev mittelstand faktura alternative', 'datev mittelstand faktura eingestellt'",
-    "first100": "Users who search for an alternative in the last weeks of 2026 find a migration page and pay once.",
-    "proof": [
-     {
-      "url": "https://www.datev.de/web/de/berufsgruppenuebergreifend/nachrichten/rund-um-die-datev-programme/kuendigungen-und-leistungsaenderungen-von-produkten/",
-      "note": "The discontinuation is public, so searches follow",
-      "date": "2026-10-31",
-      "ageDays": 18,
-      "age": "3 weeks old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "DATEV Auftragswesen next (official successor)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Target tools' CSV importers and AI assistants",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:18.626Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "A one-off fee per migration.",
-   "trigger": "DATEV ends development, maintenance and service of DATEV Mittelstand Faktura on 2026-12-31",
-   "window": "Six weeks to the end date plus a few months of stragglers, then gone.",
-   "score": 2.4,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: about 1,000 visits around the end date (assumed) at 1% gives 10 payers at 79 EUR, about 790 EUR, so 300 EUR is expected after the ramp. 5,000 EUR needs 64 payers, which the channel cannot reach. No comparable price or user count was found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 5,
-      "rationale": "A real paid-tool shutdown, but DATEV offers the successor and the remaining job is CSV reformatting an AI assistant can do.",
-      "summary": "",
-      "concerns": [
-       "Fails the AI-proof rule in large part",
-       "Short window",
-       "Unknown user count"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:18.626Z",
-   "updatedAt": "2026-11-16T15:25:18.626Z",
-   "outcome": null
-  },
-  {
-   "id": "widerrufslink-356a-bgb-widerrufsfunktion-fuer-di",
-   "title": "Widerrufslink: § 356a BGB-Widerrufsfunktion für Dienstleister und Kursanbieter ohne Shop-Plugin",
-   "pitch": "For coaches, course providers, studios and service firms that sell to consumers through their own website builder: a hosted two-step withdrawal page linked from any site, an instant confirmation e-mail with timestamp and a record for the merchant.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A coach, course provider or studio that sells to consumers through its own site without a shop plugin",
-    "buys": "A working withdrawal function with an instant confirmation e-mail and a record, avoiding warning letters and an extended withdrawal period",
-    "model": "subscription",
-    "price": "4.90 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.it-recht-kanzlei.de/button-loesung.html",
-      "note": "Legal-text packages from 9.90 EUR a month, which are a near job and often include the button (proof against)",
-      "date": "2026-05-28",
-      "ageDays": 174,
-      "age": "6 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Most payers already have a legal-text subscription (eRecht24, Händlerbund, datenschutz-generator) that includes it.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 174,
-     "age": "newest source 6 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.it-recht-kanzlei.de/button-loesung.html",
-     "note": "Duty from 19.06.2026; a reader's 2026-01-14 question on integration unanswered; legal-text packages from 9.90 EUR a month",
-     "date": "2026-05-28",
-     "ageDays": 174,
-     "age": "6 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=widerrufsbutton",
-     "note": "10 variants incl. 'pflicht', '2026', 'shopify', 'beispiel', 'etsy', 'ebay'",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'widerrufsbutton beispiel', 'widerrufsbutton dienstleister', 'widerrufsbutton jimdo/wix'",
-    "first100": "Service sellers on website builders who search for an example page sign up and paste one link.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=widerrufsbutton",
-      "note": "10 query variants",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "eRecht24 Premium Widerrufsbutton",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "datenschutz-generator.de Widerrufsbutton",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Händlerbund",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "IT-Recht Kanzlei shop-system guides",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:18.246Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Service sellers pay a small monthly fee for the hosted function and records.",
-   "trigger": "§ 356a BGB withdrawal function mandatory for online consumer contracts since 2026-06-19",
-   "window": "In force since June 2026 and permanent; legal-text providers already bundle solutions.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 80,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 600,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 600,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: about 8,000 visits a year (assumed) at 0.5% gives 40 payers at 59 EUR, or 2,360 EUR at full ramp; in year one about 700 EUR minus about 80 EUR for the server and e-mail, so 600 EUR. 5,000 EUR needs 85 payers, which year one will not reach. Cross-check: legal-text bundles from 9.90 EUR a month already include the button, so many payers already have it."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A fresh duty with fines, but the legal-text providers that payers already subscribe to bundle the solution.",
-      "summary": "",
-      "concerns": [
-       "Bundled by incumbents",
-       "Legal accuracy of the flow",
-       "Stores minimal personal data"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:18.246Z",
-   "updatedAt": "2026-11-16T15:25:18.246Z",
-   "outcome": null
-  },
-  {
-   "id": "cbam-kleinanmelder-jahreserklaerung-und-quartals",
-   "title": "CBAM-Kleinanmelder: Jahreserklärung und Quartalsbestand mit Standardwerten für Importeure knapp übe…",
-   "pitch": "For importers of steel, aluminium or fasteners just above the 50-tonne threshold: turn the year's customs import lines into embedded emissions using default values or supplier data, compute the quarterly certificate holding from 2027, and prepare the annual declaration data due 2027-09-30.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "An importer of steel, aluminium or fasteners bringing in 50 to 500 tonnes a year from outside the EU",
-    "buys": "A correct declaration and certificate count without a 1,990 EUR tool or a consultant",
-    "model": "subscription",
-    "price": "490 EUR a year",
-    "proof": [
-     {
-      "url": "https://cbamguide.com/de/software/vergleich/",
-      "note": "CBAM tools sold from 79 EUR a month to 2,990 EUR a year",
-      "date": "2026-11-12",
-      "ageDays": 6,
-      "age": "6 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "CbamTrack has a free tier and a 79 EUR plan, and customs brokers bundle CBAM work.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 6,
-     "age": "newest source 6 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 6,
-     "age": "newest source 6 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.ihk.de/schwerin/recht/gesetzliche-aenderungen-2027-was-auf-unternehmen-zukommt-7205372",
-     "note": "CBAM certificates from February 2027, first annual declaration by 30.09.2027, 50-tonne threshold",
-     "date": "2026-10-16",
-     "ageDays": 33,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://cbamguide.com/de/software/vergleich/",
-     "note": "Compares 37+ CBAM tools with prices (status 23.10.2026, updated 12.11.2026)",
-     "date": "2026-11-12",
-     "ageDays": 6,
-     "age": "6 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'cbam erklärung', 'cbam standardwerte', 'cbam software kleine importeure'",
-    "first100": "Small importers comparing tools before the February 2027 certificate start would try a free default-value calculation.",
-    "proof": [
-     {
-      "url": "https://cbamguide.com/de/software/vergleich/",
-      "note": "A comparison site already ranks for the buyer queries, showing an active market",
-      "date": "2026-11-12",
-      "ageDays": 6,
-      "age": "6 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "CbamTrack",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "CBAMDesk",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Dubrink",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Carbon Glance",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Tanso CBAM software",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:17.837Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Importers just over 50 t pay yearly for the default-value calculation and declaration data.",
-   "trigger": "CBAM certificate sales start February 2027 and the first annual declaration for 2026 imports is due 2027-09-30",
-   "window": "Until the first declaration on 2027-09-30, then yearly. Many vendors already compete.",
-   "score": 2.35,
-   "index": {
-    "composite": 2.3,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.3 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.3 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 500,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 500,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: about 2,000 visits a year (assumed) at 0.5% gives 10 importers at 490 EUR, or 4,900 EUR at full ramp; in year one about 500 EUR against cheaper rivals. 5,000 EUR needs 11 payers. Cross-check: cbamguide lists 37+ vendors from free to 2,990 EUR a year; no customer counts."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The duty is real and payers pay, but the market is saturated with cheaper or free tiers.",
-      "summary": "",
-      "concerns": [
-       "Saturated market",
-       "The declaration module of the registry is not final",
-       "Default values change"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:17.837Z",
-   "updatedAt": "2026-11-16T15:25:17.837Z",
-   "outcome": null
-  },
-  {
-   "id": "cra-meldedesk-fuer-kleinhersteller-schwachstelle",
-   "title": "CRA-Meldedesk für Kleinhersteller: Schwachstellen-Eingang, 24h/72h/14-Tage-Fristen und Meldeentwürfe",
-   "pitch": "For small makers of connected devices and software sold in the EU: a hosted security.txt and disclosure page, a component list that flags actively exploited vulnerabilities, and timed drafts for the 24-hour, 72-hour and 14-day reports to ENISA's single reporting platform, with an audit trail.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small manufacturer of connected devices or commercial software sold in the EU",
-    "buys": "Never missing a 24-hour report and having the disclosure page, records and drafts ready; fines reach 15 million EUR or 2.5% of turnover",
-    "model": "subscription",
-    "price": "39 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.capterra.com/p/10045966/CRA-Ready/",
-      "note": "CRA-Ready lists 49 to 99 USD a month for SBOM and vulnerability monitoring (seen in a search result; Capterra blocks the fetcher)",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Several CRA tools already sell this, and a small maker with no exploited vulnerability may never need to file.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 33,
-     "age": "newest source 5 weeks old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.bitkom.org/Presse/Presseinformation/Cyber-Resilience-Act-3-von-10-Unternehmen-vorbereitet",
-     "note": "29% know what the CRA means for them, 38% heard of it, 28% do not know it",
-     "date": "2026-09-10",
-     "ageDays": 69,
-     "age": "2 months old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.ihk.de/schwerin/recht/gesetzliche-aenderungen-2027-was-auf-unternehmen-zukommt-7205372",
-     "note": "CRA essential requirements on 11.12.2027; reporting duties since September 2026",
-     "date": "2026-10-16",
-     "ageDays": 33,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'cra meldepflicht', 'cyber resilience act meldung vorlage'",
-    "first100": "Small makers who search for how to meet the 24-hour duty set up the free disclosure page and pay for monitoring and drafts.",
-    "proof": [
-     {
-      "url": "https://www.bitkom.org/Presse/Presseinformation/Cyber-Resilience-Act-3-von-10-Unternehmen-vorbereitet",
-      "note": "Awareness gap among German firms",
-      "date": "2026-09-10",
-      "ageDays": 69,
-      "age": "2 months old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "CRA-Ready",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "CRA Evidence",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Copla CRA",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "FirmwareShield",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Verimu",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:14.641Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small manufacturers pay monthly for monitoring and timed report drafts.",
-   "trigger": "CRA reporting duty for actively exploited vulnerabilities and severe incidents applies since 2026-09-11; Bitkom: 28% of firms do not know the CRA",
-   "window": "Reporting applies now and full obligations follow on 2027-12-11. Many vendors already sell into this window.",
-   "score": 2.6,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 80,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 500,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 500,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: about 4,000 visits a year (assumed) at 0.5% (assumed, crowded) gives 20 makers at 470 EUR, or 9,400 EUR at full ramp; in year one with the ramp and strong rivals, about 600 EUR minus 80 EUR of server costs, so 500 EUR. 5,000 EUR needs 11 payers. Cross-check: CRA-Ready lists 49 to 99 USD a month, but no customer counts are published."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 3,
-      "rationale": "The duty is live and awareness is low, but at least six tools already serve it, three of them solid.",
-      "summary": "",
-      "concerns": [
-       "Crowded",
-       "Vulnerability feeds need a server and upkeep",
-       "A wrong assessment carries liability"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:14.641Z",
-   "updatedAt": "2026-11-16T15:25:14.641Z",
-   "outcome": null
-  },
-  {
-   "id": "eudr-mappe-fuer-kleine-erstinverkehrbringer-geod",
-   "title": "EUDR-Mappe für kleine Erstinverkehrbringer: Geodaten prüfen, Sorgfaltserklärung vorbereiten, fünf J…",
-   "pitch": "For coffee roasters, chocolate makers and timber or furniture importers under 50 staff who import directly: check suppliers' plot GeoJSON against the TRACES format rules, prepare the due-diligence statement data per shipment and keep the reference numbers and evidence for five years.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A coffee roaster, chocolate maker or timber importer with fewer than 50 staff that imports directly from outside the EU",
-    "buys": "TRACES-ready geodata and DDS data per shipment so goods are not held at customs, without a consultant or an enterprise platform",
-    "model": "subscription",
-    "price": "290 EUR a year",
-    "proof": [
-     {
-      "url": "https://integritynext.com/esg-solutions/eudr-deforestation-regulation/eudr-starter",
-      "note": "SMEs buy an EUDR bundle at a fixed annual price, but the price is not published (weak proof)",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Most small roasters buy through EU green-coffee traders, who file the DDS, and free GeoJSON tools plus TRACES' own upload cover the rest.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.ihk.de/schwerin/recht/gesetzliche-aenderungen-2027-was-auf-unternehmen-zukommt-7205372",
-     "note": "EUDR dates: 30.12.2026 large and medium, 30.06.2027 most micro and small",
-     "date": "2026-10-16",
-     "ageDays": 33,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.ihk.de/aschaffenburg/international/entwaldungsverordnung-eudr-6348182",
-     "note": "The first operator registers in TRACES and files the DDS with geodata; downstream operators keep reference numbers; simplifications for small primary producers (updated early 2026, opened 2026-11-16)",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=eudr%20geojson",
-     "note": "Variants include 'validator', 'format', 'file description'",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://integritynext.com/esg-solutions/eudr-deforestation-regulation/eudr-starter",
-     "note": "EUDR Starter for SMEs with up to 50 suppliers; fixed annual price on request; submits to TRACES by API (undated, references a May 2026 update)",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'eudr geojson validator', 'eudr geojson format', 'eudr sorgfaltserklärung'",
-    "first100": "Importers who search for a GeoJSON validator before their first DDS use the free check and pay for the per-shipment DDS pack and archive.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=eudr%20geojson",
-      "note": "Validator and format queries exist",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "IntegrityNext EUDR Starter",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Leadity EUDR software",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "TraceX",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Liveeo TradeAware (via SAP)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "cubemos EUDR software for coffee",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:13.914Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small importers pay a yearly fee for the GeoJSON checks, DDS preparation and the five-year evidence file.",
-   "trigger": "Regulation (EU) 2025/2650: EUDR applies to large and medium operators from 2026-12-30 and to most micro and small ones from 2027-06-30; IHK lists it among the 2027 changes",
-   "window": "Six weeks to the first date and seven months to the small-firm date. A search result says the Commission confirmed in May 2026 that the rules will not be reopened, but deadlines have moved twice befo…",
-   "score": 2.55,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1500,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1500,
-       "upsideEur": 15000,
-       "basis": "Bottom-up: about 3,000 visits a year (assumed) at 1% gives 30 importers at 290 EUR, or 8,700 EUR at full ramp; in year one, with the ramp and many small firms buying through EU traders who file the DDS, about 1,500 EUR. 5,000 EUR needs 18 payers. Cross-check: IntegrityNext, Leadity, TraceX and Liveeo all quote on request, so no price-times-customers comparable exists; unverified."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The deadline is confirmed by two IHK pages, but the field is crowded with funded vendors and no SME price was visible.",
-      "summary": "",
-      "concerns": [
-       "Deadlines may move again",
-       "Most small roasters are not first placers",
-       "Free validators exist"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:13.914Z",
-   "updatedAt": "2026-11-16T15:25:13.914Z",
-   "outcome": null
-  },
-  {
-   "id": "oss-quartalsdatei-amazon-etsy-ebay-und-shop-in-e",
-   "title": "OSS-Quartalsdatei: Amazon, Etsy, eBay und Shop in eine BZSt-Importdatei",
-   "pitch": "For small online sellers registered for the EU One-Stop-Shop who sell on several channels: drop each channel's sales report into the browser and get the quarterly OSS figures per country and rate plus the import CSV for the BZSt portal (BOP), without a 99 EUR monthly VAT service.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small online seller registered for OSS who sells on two or more channels and books with a simple tool or a tax advisor",
-    "buys": "A correct BOP import file each quarter across all channels, without a 99 EUR a month service; avoids late or wrong OSS returns",
-    "model": "subscription",
-    "price": "29 EUR per quarter",
-    "proof": [
-     {
-      "url": "https://www.jtl-software.com/en/sales-tax-software/",
-      "note": "OSS return sold at 99 EUR a month",
-      "date": "2026-11-03",
-      "ageDays": 15,
-      "age": "2 weeks old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Their accounting tool, tax advisor or marketplace VAT handling already produces the OSS figures, and many cross-border marketplace sales are taxed by the platform.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 15,
-     "age": "newest source 2 weeks old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.jtl-software.com/en/sales-tax-software/",
-     "note": "Former countX, now JTL Tax: OSS return 99 EUR a month, Core 39 EUR, Professional 139 EUR; free plan",
-     "date": "2026-11-03",
-     "ageDays": 15,
-     "age": "2 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://kostenlose-erechnung.de/ratgeber/oss-verfahren-eu-onestopshop/",
-     "note": "Invoice tool claims an OSS export for the BZSt; says many tools export CSV or XML for the portal",
-     "date": "2026-05-01",
-     "ageDays": 201,
-     "age": "7 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=oss%20meldung%20csv",
-     "note": "Only one variant, 'oss meldung csv datei datev' (low volume)",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'oss meldung csv', 'oss meldung erstellen', 'oss meldung amazon'",
-    "first100": "Sellers who search for the OSS CSV before a quarterly deadline try a free preview of the totals and pay to download the import file.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=oss%20meldung%20csv",
-      "note": "Thin autocomplete: one variant",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "JTL Tax (former countX)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Taxdoo",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Lexware OSS export",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "DATEV OSS-EU transport file",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "One Stop Shop für WooCommerce",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:13.116Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Multichannel sellers pay per quarter for the combined OSS file.",
-   "trigger": "standing need",
-   "window": "Quarterly deadline at the end of the month after each quarter (next 2027-01-31). The need has been open since 2021 because built-in exports only cover each tool's own invoices.",
-   "score": 2.65,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1200,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1200,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: about 5,000 visits a year (assumed; only one autocomplete variant, which signals low volume) at 1% (assumed) gives 50 sellers at 116 EUR, or 5,800 EUR at full ramp; about 1,500 EUR in year one after the ramp, minus fees: 1,200 EUR. 5,000 EUR needs 43 payers. Cross-check: JTL Tax charges 99 EUR a month for the same job, but its customer count is unknown; built-in exports in Lexware, DAT…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The payer and a price for the same job are shown, but the market is crowded and the channel is thin.",
-      "summary": "",
-      "concerns": [
-       "Crowded by VAT services and built-in exports",
-       "Marketplace report formats change",
-       "Wrong rates create tax liability complaints"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:13.116Z",
-   "updatedAt": "2026-11-16T15:25:13.116Z",
-   "outcome": null
-  },
-  {
-   "id": "uvi-brief-monatliche-verbrauchsinformation-fuer",
-   "title": "UVI-Brief: monatliche Verbrauchsinformation für Vermieter, die Heizkosten selbst abrechnen",
-   "pitch": "For private landlords and small property managers who bill heating costs themselves with their own remote-readable meters: upload the monthly readings and get one HKVO §6a letter per unit (kWh last month, the previous month, the same month last year, an average user) as PDF and e-mail text, so tenants cannot cut 3% of the heating bill. The monthly duty makes customers come back every month.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A private landlord or small property manager who bills heating for a 3- to 20-unit building with own remote-readable meters",
-    "buys": "Correct monthly letters with the required comparisons, which avoids the tenants' 3% reduction and saves monthly spreadsheet work",
-    "model": "subscription",
-    "price": "49 EUR a year per building",
-    "proof": [
-     {
-      "url": "https://www.ista.com/de/kontakt-service/fachwissen/unterjaehrige-verbrauchsinformation/",
-      "note": "Metering services sell the UVI as a service, but the price is only on request; no published price was found (weak proof)",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Most buildings use a metering service that bundles the letters, and self-billers with few flats may send a spreadsheet by e-mail or accept the 3% risk.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.buhl.de/vermieter-web/?p=18056",
-     "note": "Transition ends 31.12.2026; tenants may cut 3%; the regulation does not say how to get the average-user comparison and a self-built method is called difficult",
-     "date": "2026-08-17",
-     "ageDays": 93,
-     "age": "3 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.ista.com/de/kontakt-service/fachwissen/unterjaehrige-verbrauchsinformation/",
-     "note": "Required content (kWh, previous month, same month last year, average user), landlord's duty, 3% reduction; ista sells it on request (undated page, copyright 2026, opened 2026-11-16)",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=unterj%C3%A4hrige%20verbrauchsinformation",
-     "note": "10 variants incl. 'muster', 'kosten', 'ab wann pflicht', 'pflicht gewerbe'",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=heizkostenabrechnung%20selbst%20erstellen",
-     "note": "6 variants ('vorlage', 'kostenlos', 'excel', 'als vermieter') show self-billing landlords exist",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'unterjährige verbrauchsinformation muster/kosten/selbst erstellen', 'heizkostenabrechnung selbst erstellen'",
-    "first100": "Landlords who search for a UVI template after fitting remote-readable meters try one month free and subscribe to keep the monthly letters coming.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=unterj%C3%A4hrige%20verbrauchsinformation",
-      "note": "Query family with template and cost intent",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "ista EcoTrend",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Techem Verbrauchsinfo",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:12.700Z",
-    "detail": [
-     "Missed the strict bar: score 2.65 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Self-billing landlords pay a yearly fee per building for the monthly letters; the annual heating-cost statement could be a later upsell.",
-   "trigger": "HKVO transition ends 2026-12-31: all heat and hot-water meters must be remote-readable, and with remote-readable meters the monthly consumption information is due; without it tenants may cut 3%",
-   "window": "The meter deadline is 2026-12-31 and the monthly duty then applies to every self-billed building indefinitely. Metering services bundle the letters for their own customers, but nobody serves self-bil…",
-   "score": 2.65,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: about 5,000 visits a year from the UVI and self-billing queries (assumed; only autocomplete variants seen) at 1% (assumed) gives 50 buildings at 49 EUR, or 2,450 EUR at full ramp; with the search ramp, about 1,000 EUR in year one. 5,000 EUR a year needs 102 buildings, which this channel probably cannot reach in year one. Cross-check: no published UVI price was found (ista quotes on req…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The duty, its content and its sanction are confirmed by two pages, and Buhl says the average-user comparison is hard to do alone. But no payer price was found and the segment size is unknown.",
-      "summary": "",
-      "concerns": [
-       "The self-billing segment may be tiny",
-       "The only sanction is a 3% cut, so many will ignore it",
-       "Meter export formats vary by maker"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:12.700Z",
-   "updatedAt": "2026-11-16T15:25:12.700Z",
-   "outcome": null
-  },
-  {
-   "id": "roi-filer-dora-register-of-information-as-a-vali",
-   "title": "RoI Filer: DORA register of information as a valid xBRL-CSV package, in the browser",
-   "pitch": "For small EU financial entities (investment firms, fund managers, payment and e-money institutions, crypto providers) that must file their DORA register of information every spring: fill in or import the register, check it against the EBA rules and download the xBRL-CSV package the regulator accepts, without uploading contract data or booking a sales call. Each year's register carries over, so cu…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A small investment firm, fund manager, payment or e-money institution or crypto provider with one compliance officer and no GRC platform",
-    "buys": "A regulator-valid xBRL-CSV register package with EBA checks, without a 500 EUR+ platform contract or a sales call; avoids a rejected filing and supervisory follow-up",
-    "model": "subscription",
-    "price": "390 EUR a year per legal entity",
-    "proof": [
-     {
-      "url": "https://copla.com/dora-registry-tool/",
-      "note": "The same job sold from 500 EUR a year (undated page, copyright 2026, opened 2026-11-16)",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Their group, fund administrator or existing GRC tool already produces the file, or their regulator (as DNB still does) accepts the Excel template.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 4
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.afm.nl/en/sector/themas/belangrijke-europese-wet--en-regelgeving/dora/informatieregister",
-     "note": "AFM: only xBRL-CSV, not Excel, not iXBRL; must use the EBA taxonomy; the 2025 conversion help was one-time; the register is requested every year",
-     "date": "2026-10-06",
-     "ageDays": 43,
-     "age": "6 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://copla.com/dora-registry-tool/",
-     "note": "Copla Registry: price starts at 500 EUR a year; trial only after an introductory call; page is inconsistent on whether it exports xBRL-CSV (undated page, copyright 2026, opened 2026-11-16)",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=dora%20informationsregister",
-     "note": "10 autocomplete variants incl. '2026', 'excel', 'template', 'ausfüllhilfe', 'frist'",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "German, English and Dutch queries: 'dora informationsregister excel/template/frist', 'dora register of information xbrl-csv'",
-    "first100": "Compliance officers who search for the template or a converter in February and March run the free validator on their Excel register, see the errors, and pay to download the xBRL-CSV package.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=dora%20informationsregister",
-      "note": "10 autocomplete variants show active searching around the template and deadline",
-      "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Copla Registry",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Orbiq DORA register template",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "DoraPass",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Projective Group review-and-convert",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "ServiceNow DORA module",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-16T15:25:12.298Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 3 is below 4: the need is already served; score 3.3 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small regulated firms pay a yearly fee per legal entity to validate their register and download the xBRL-CSV package; validation is free and download is paid.",
-   "trigger": "AFM accepts the DORA register only as xBRL-CSV and says its 2025 Excel conversion was a one-time service, so firms must now produce the file themselves",
-   "window": "Annual filing; the next window is expected around March 2027 (one Irish advisory page expects 1 to 31 March 2027 on the CBI portal; not confirmed by a regulator). After that it recurs every year, so …",
-   "score": 3.3,
-   "index": {
-    "composite": 3.55,
-    "used": {
-     "risk": 2,
-     "success": 3,
-     "monetization": 4,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3.55 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3.55 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 4500,
-     "upsideEur": 25000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 4500,
-       "upsideEur": 25000,
-       "basis": "Bottom-up: about 3,000 visits a year from the template and converter queries (assumed; only autocomplete variants were measurable) at 1.5% (assumed) gives 45 filers at 390 EUR, or 17,550 EUR at full ramp. A new site in its first window (Feb to Mar 2027) reaches perhaps a third of that: about 15 payers, 5,850 EUR minus about 300 EUR in fees and the domain, so 4,500 EUR. 5,000 EUR a year needs 13 p…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 3,
-      "monetization": 4,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "A regulator requires an exact file format and stopped converting for firms; the same job is sold at 500 EUR a year with a sales call; the need recurs every year.",
-      "summary": "",
-      "concerns": [
-       "The EBA taxonomy and validation rules change yearly and need a code update",
-       "Many entities file through their group or administrator",
-       "Some regulators still accept Excel"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-16T15:25:12.298Z",
-   "updatedAt": "2026-11-16T15:25:12.298Z",
    "outcome": null
   },
   {
@@ -16379,19 +16354,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-17T22:34:19.723Z",
+   "lastRunAt": "2026-11-18T07:35:49.145Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 93,
-   "radius": 3,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 94,
+   "radius": 2,
    "radiusLevels": 4,
-   "runsLastDay": 2,
+   "runsLastDay": 3,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-18T04:34:19.723Z"
+   "nextRunAfter": "2026-11-18T13:35:49.145Z"
   }
  },
  "scorecard": {
