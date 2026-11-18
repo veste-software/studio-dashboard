@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T21:01:01.593Z",
+ "generatedAt": "2026-11-18T23:32:07.374Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -16427,7 +16427,8 @@
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-19T01:41:02.527Z"
+   "nextRunAfter": "2026-11-19T01:41:02.527Z",
+   "turn": "Big think"
   }
  },
  "scorecard": {
