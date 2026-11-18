@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T18:00:40.721Z",
+ "generatedAt": "2026-11-18T19:55:46.673Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,1989 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "spielplatz-pruefbuch-sicht-funktions-und-jahresh",
+   "title": "Spielplatz-Prüfbuch: Sicht-, Funktions- und Jahreshauptprüfung nach DIN EN 1176-7 mit Fotos und Män…",
+   "pitch": "For freelance playground inspectors and for operators who do their own routine checks (daycare centres, campsites, housing firms): an offline inspection log per device with photos, defect categories and deadlines, and a dated report for each inspection.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A freelance qualified playground inspector, or a daycare or campsite operator doing routine checks",
+    "buys": "Faster, consistent inspection reports with photos and defect deadlines, and proof of duty of care",
+    "model": "subscription",
+    "price": "12 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.tuvsud.com/de-de/store/productservice-de/prufung-von-spielplatzen",
+      "note": "The job is paid: TÜV SÜD charges from 405 EUR per recurring inspection (a service price, not software)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Generic checklist apps already have playground templates, some with free plans.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.tuvsud.com/de-de/store/productservice-de/prufung-von-spielplatzen",
+     "note": "TÜV SÜD playground inspection from 405 EUR (recurring) and 540 EUR (initial) plus travel (seen in a search result; undated, access date used)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.dinmedia.de/de/norm/din-79161-2/396106654",
+     "note": "DIN 79161-2:2025-12, inspection and qualification of playground inspectors",
+     "date": "2025-12-01",
+     "ageDays": 352,
+     "age": "12 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://akademie.tuv.com/spielplaetze-spielgeraete",
+     "note": "Recertification only with an exam since 2026-07-01 (seen in a search result)",
+     "date": "2026-07-01",
+     "ageDays": 140,
+     "age": "5 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'Spielplatzkontrolle App', 'Spielplatzprüfung Protokoll'",
+    "first100": "Inspectors searching for a report template try the free offline log and subscribe for PDF reports.",
+    "proof": [
+     {
+      "url": "https://lumiformapp.com/de/ressourcen-checklisten/spielplatzkontrolle",
+      "note": "A checklist vendor ranks for the query, so the query exists and is served",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Lumiform playground checklist",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Cheqsite playground checklist (DIN EN 1176)",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:45.915Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Inspectors who charge about 400 EUR per inspection pay a small monthly fee for faster reports. Operators pay for a dated log.",
+   "trigger": "New inspector qualification standard DIN 79161-2:2025-12, and TÜV Akademie says recertification has needed an exam since 2026-07-01",
+   "window": "A weak trigger. The inspection duty itself is a standing need.",
+   "score": 2.2,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 1,500 visits (assumed) times 1% gives 15. With the ramp about 6 payers at 144 EUR is about 860 EUR, discounted to 400 EUR for the solid generic competitors. Cross-check: none. 5,000 EUR needs 35 payers."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Money flows in the job, but generic apps already cover the checklist, and no edge was checked.",
+      "summary": "",
+      "concerns": [
+       "Two solid generic tools",
+       "No checked edge"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:45.915Z",
+   "updatedAt": "2026-11-18T19:55:45.915Z",
+   "outcome": null
+  },
+  {
+   "id": "holzgutschrift-holzverkauf-und-gutschriften-je-w",
+   "title": "Holzgutschrift: Holzverkauf und Gutschriften je Waldbesitzer für kleine Forstbetriebsgemeinschaften",
+   "pitch": "For the manager of a small forestry association (FBG or WBV) that sells wood on behalf of members: record each batch per owner, split buyer payments, and issue self-billed credit notes with the right flat-rate VAT, plus a yearly member statement.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small forestry association with a part-time manager selling wood for 100 to 1,000 members",
+    "buys": "Correct credit notes per owner with the flat-rate VAT and a clean yearly statement, instead of spreadsheets",
+    "model": "subscription",
+    "price": "290 EUR a year",
+    "proof": [
+     {
+      "url": "https://veranstaltungen.fnr.de/fileadmin/Projekte/2022/RT_Digitalisierung/Seminarreihe/5_FZus/Synergieeffekte_WinforstPro.pdf",
+      "note": "Associations buy forestry software (group purchase, price not public)",
+      "date": "2023-01-01",
+      "ageDays": 1417,
+      "age": "3 years 11 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "Associations already use WinforstPro or proFBG, or their state forestry service supports them.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 321,
+     "age": "newest source 11 months old",
+     "tier": "ok",
+     "n": 3
+    },
+    "pay": {
+     "days": 1417,
+     "age": "newest source 3 years 11 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.waldbesitzer-portal.bayern.de/mam/cms50/unser_angebot/dateien/m_projekte_fbg_forstzusr_2026_.pdf",
+     "note": "Bavarian 2026 fact sheet on funded projects for forestry associations (seen as a search result; year from the title)",
+     "date": "2026-01-01",
+     "ageDays": 321,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://veranstaltungen.fnr.de/fileadmin/Projekte/2022/RT_Digitalisierung/Seminarreihe/5_FZus/Synergieeffekte_WinforstPro.pdf",
+     "note": "A regional group adopted WinforstPro together and reports savings over buying alone (seen as a search result; series dated 2022-2023)",
+     "date": "2023-01-01",
+     "ageDays": 1417,
+     "age": "3 years 11 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.holzlogistik.iff.fraunhofer.de/content/dam/iff/holzlogistik/de/dokumente/veranstaltungen/holzlogistik-2011-roth.pdf",
+     "note": "An association built its own software and issued about 450 credit notes for 50,000 cubic metres of wood (2011, old background only)",
+     "date": "2011-01-01",
+     "ageDays": 5800,
+     "age": "15 years 11 months old",
+     "tier": "old"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'Forstbetriebsgemeinschaft Software', 'Holzabrechnung Gutschrift Waldbesitzer'",
+    "first100": "Managers searching for a credit-note template find a free calculator for one sale and subscribe for member records.",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/funktion/holzgesamtvolumen",
+      "note": "A software directory lists forestry tools, showing the category is searched",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "WinforstPro (Latschbacher)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "proFBG / WOS (GISCON)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "WASP Holzlogistik",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:43.842Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small associations without a suite pay a yearly fee for credit notes and member statements.",
+   "trigger": "standing need",
+   "window": "A standing need: associations sell wood for members and some have built their own software. Bavaria funds forestry-association projects in 2026.",
+   "score": 2.35,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 500 visits (assumed) times 2% gives 10. With the ramp about 3 payers at 290 EUR is 870 EUR, discounted to 400 EUR. Cross-check: no public price. 5,000 EUR needs 18 payers."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Paid suites exist, so payers exist, but two solid tools serve them and no price is public.",
+      "summary": "",
+      "concerns": [
+       "Two solid suites",
+       "Tiny online search",
+       "VAT rules (flat rate for forestry) must be exact"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:43.842Z",
+   "updatedAt": "2026-11-18T19:55:43.842Z",
+   "outcome": null
+  },
+  {
+   "id": "zaehlmarken-manager-fuer-ghost-webflow-hugo-und",
+   "title": "Zählmarken-Manager für Ghost, Webflow, Hugo und Astro: VG-WORT-Pixel zuordnen und Texte melden",
+   "pitch": "For online authors and small publishers with a VG WORT contract whose site is not WordPress: scan the sitemap, assign counting pixels to texts over the length limit, give a snippet for each page, and prepare or submit the METIS reports. Today only WordPress and Drupal have tools for this.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "An online journalist, blogger or small publisher with a VG WORT contract and a Ghost, Webflow or static site",
+    "buys": "VG WORT payouts on texts that would otherwise not be reported, without hours in the manual portal",
+    "model": "subscription",
+    "price": "39 EUR a year",
+    "proof": [
+     {
+      "url": "https://wp-worthy.de/",
+      "note": "Worthy sells a premium version for VG WORT reporting on WordPress (price not shown on the page; footer 2015-2023)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "The official tool is free on WordPress, and authors with few texts report by hand in the free portal.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[search]=vg%20wort&request[per_page]=10",
+     "note": "Official VG WORT METIS plugin (1,000 active installs, updated 2025-07-25) and Worthy (1,000 installs, premium version, updated 2025-09-04) are both WordPress-only",
+     "date": "2025-09-04",
+     "ageDays": 440,
+     "age": "14 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://vgwort.de/media/pages/service/dokumente/merkblaetter-und-formulare/08f31091a5-1765979299/metis_doc_verlagsmeldung.pdf",
+     "note": "VG WORT METIS publisher reporting documentation (file timestamp December 2025)",
+     "date": "2025-12-17",
+     "ageDays": 336,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.drupal.org/project/metis",
+     "note": "A Drupal METIS module exists. Nothing was found for Ghost, Webflow or Hugo (access date used).",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'VG Wort Ghost', 'VG Wort Webflow', 'VG Wort Zählmarken statische Seite'",
+    "first100": "Authors who moved from WordPress to Ghost or Webflow search how to keep VG WORT pixels, find a guide page with the tool, and subscribe.",
+    "proof": [
+     {
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[search]=vg%20wort&request[per_page]=10",
+      "note": "The WordPress tools have about 1,000 installs each, a floor for authors who want automation",
+      "date": "2025-09-04",
+      "ageDays": 440,
+      "age": "14 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "VG WORT METIS official WordPress plugin",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Worthy",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "METIS Drupal module",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "VG WORT T.O.M. portal (manual)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:43.473Z",
+    "detail": [
+     "Missed the strict bar: score 2.25 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Authors on non-WordPress sites pay a small yearly fee to collect VG WORT payouts on all eligible texts without manual reporting.",
+   "trigger": "standing need",
+   "window": "A standing gap: the official plugin and Worthy are WordPress-only, and nothing serves other site builders.",
+   "score": 2.25,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 2500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 2500,
+       "basis": "Bottom-up: 1,500 visits (assumed) times 2% gives 30. With the ramp about 12 at 39 EUR is 468 EUR, minus about 60 EUR serverless cost, about 300 EUR. Cross-check: about 1,000 installs each for the WordPress tools shows a small automating audience. 5,000 EUR needs 128 payers, out of reach."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The gap is real for non-WordPress sites, but the audience is small and the free manual portal covers small volumes.",
+      "summary": "",
+      "concerns": [
+       "Small audience",
+       "Handling METIS credentials needs a server-side proxy",
+       "VG WORT rules on reporting must be followed exactly"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:43.473Z",
+   "updatedAt": "2026-11-18T19:55:43.473Z",
+   "outcome": null
+  },
+  {
+   "id": "tagespflege-buch-betreuungszeiten-monatsnachweis",
+   "title": "Tagespflege-Buch: Betreuungszeiten, Monatsnachweis für das Jugendamt und Elternabrechnung für Tages…",
+   "pitch": "For self-employed childminders (Kindertagespflege) caring for up to five children: log daily care times, produce the monthly attendance sheet the youth office asks for, bill parents for meals and extra hours, and see the tax-free flat allowance per child, all stored locally on the phone.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A self-employed childminder (Tagesmutter or Tagesvater) with three to five children under contract",
+    "buys": "An evening a month of attendance lists and parent invoices, and correct records if the youth office asks",
+    "model": "subscription",
+    "price": "49 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/kigaroo",
+      "note": "A near job: childcare software priced per child from 1 EUR a month",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Youth offices hand out their own forms and many childminders use paper. Income per child is modest.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/kigaroo",
+     "note": "Daycare software priced from 1 EUR per child a month (for institutions; seen in a search result)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://koalendar.com/de/terminbuchungssoftware-fuer/kinderbetreuung",
+     "note": "A booking tool names childminders as a target group, but covers booking only (access date used)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://qonto.com/de/blog/unternehmensgruendung/geschaeftsideen/tagesmutter-werden",
+     "note": "Guide to becoming a childminder (permit, about 1,000 EUR qualification), showing it is a business (access date used)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'Tagesmutter Abrechnung', 'Betreuungsnachweis Tagesmutter Vorlage'",
+    "first100": "Childminders searching for an attendance template find a free printable monthly sheet and upgrade to save children, rates and parent invoices.",
+    "proof": [
+     {
+      "url": "https://www.jotform.com/de/app-templates/kinderpflege-app",
+      "note": "Generic templates rank for childcare attendance, so the query exists without a dedicated tool",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "KigaRoo",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "kitamaster",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Koalendar",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:41.157Z",
+    "detail": [
+     "Missed the strict bar: score 2.6 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Childminders pay a small yearly fee for the monthly sheet and parent invoices.",
+   "trigger": "standing need",
+   "window": "A standing gap: childcare apps are built for daycare centres, and two searches found nothing made for a one-person Tagespflege.",
+   "score": 2.6,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 5,000 visits (assumed) times 2% gives 100. With the ramp about 35 payers at 49 EUR is about 1,700 EUR, discounted to 800 EUR for the low willingness to pay. Cross-check: none. 5,000 EUR needs 102 payers, which is unlikely in year 1."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The gap is plausible but the payer is price-sensitive, and youth-office forms differ by municipality.",
+      "summary": "",
+      "concerns": [
+       "Low price ceiling",
+       "Forms vary by municipality",
+       "Children's data"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:41.157Z",
+   "updatedAt": "2026-11-18T19:55:41.157Z",
+   "outcome": null
+  },
+  {
+   "id": "wassergenossenschaft-kasse-zaehlerablesung-jahre",
+   "title": "Wassergenossenschaft-Kasse: Zählerablesung, Jahresabrechnung und Mitgliederstand für kleine Wasserg…",
+   "pitch": "For the volunteer treasurer of a small water co-operative in Austria or Bavaria (20 to 300 connections): enter the yearly meter readings, get each member's bill under the co-op's statute, a SEPA file and the member list the water authority asks for every two years.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small water co-operative (Wassergenossenschaft) paying from member fees, decided by its board",
+    "buys": "A correct yearly bill per connection and the authority's member list without rebuilding a spreadsheet each year",
+    "model": "subscription",
+    "price": "99 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/igel-wassergeld",
+      "note": "Commercial water billing software for associations and co-ops exists (price on request, so no public price)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Volunteer boards keep their spreadsheet, and some are served by a municipality or a regional association.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.verwaltung.steiermark.at/cms/dokumente/11685101_74836203/cfc10e0a/Satzungsmuster%20WG_.doc",
+     "note": "Styrian model statute: yearly meter reading decides the contribution shares, and the member list goes to the authorities at least every 2 years (undated, access date used)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.wasserwirtschaft.steiermark.at/cms/dokumente/12958084_4578443/70f9e140/MCB_Handouts_2024-11.pdf",
+     "note": "Styrian water-management handouts November 2024 on small water co-ops (seen as a search result)",
+     "date": "2024-11-01",
+     "ageDays": 747,
+     "age": "2 years 1 month old",
+     "tier": "old"
+    },
+    {
+     "url": "https://wasserwirtschaft.steiermark.at/cms/dokumente/12963597_4570277/07878af9/2-2_Fr%C3%BChmann.pdf",
+     "note": "Talk on easing volunteer work in a co-op with 230 connections through digitalisation (seen as a search result; undated)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.at and Google.de 'Wassergenossenschaft Abrechnung', 'Wassergenossenschaft Software'",
+    "first100": "Treasurers searching for a co-op billing template find a free calculator for one billing run and pay to keep the member register and yearly runs.",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/igel-wassergeld",
+      "note": "Only a software directory listing and utility vendors appear for the query",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "igel Wassergeld",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Tridens billing for water utilities",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "ista water billing",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:39.850Z",
+    "detail": [
+     "Missed the strict bar: score 2.6 is below the minimum 3.5"
+    ]
+   },
+   "earns": "The co-op pays a small yearly fee from its member contributions to replace the treasurer's spreadsheet.",
+   "trigger": "standing need",
+   "window": "A standing gap: the yearly meter reading and billing is done by volunteers, and the only software found is priced on request or built for municipalities.",
+   "score": 2.6,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 1,000 visits (assumed) times 3% gives 30. With the ramp about 10 payers at 99 EUR is about 990 EUR, discounted to 500 EUR for the unproven payer. Cross-check: no public price or customer count. 5,000 EUR needs 51 co-ops, which search cannot reach in year 1."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The duty is real and no small-co-op tool was found, but there is no price proof and the audience is small.",
+      "summary": "",
+      "concerns": [
+       "Volunteer boards may not pay",
+       "Statutes differ in their fee formulas"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:39.850Z",
+   "updatedAt": "2026-11-18T19:55:39.850Z",
+   "outcome": null
+  },
+  {
+   "id": "bildungsurlaub-anerkennung-in-14-laendern-kurspr",
+   "title": "Bildungsurlaub-Anerkennung in 14 Ländern: Kursprüfung, Fristen und Antragsunterlagen für Kursanbiet…",
+   "pitch": "For course providers who sell Bildungsurlaub courses (language schools, health and yoga retreats, political education providers): enter one course and see in which of the 14 states it can be recognised, by which deadline (for example 3 months ahead in Rhineland-Palatinate, 10 weeks in Berlin), with which documents, fees and post-course reports, as a dated calendar per course.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A language school, retreat organiser or education provider selling five or more Bildungsurlaub courses a year",
+    "buys": "Recognition in more states, and no missed deadlines. In Schleswig-Holstein the provider bears the risk if a course is not recognised in time.",
+    "model": "subscription",
+    "price": "149 EUR a year per provider",
+    "proof": [
+     {
+      "url": "https://www.bildungsurlaub.de/files/Prsentation%20-%20Anerkennung%20von%20Bildungsurlauben%20in%20anderen%20Bundeslndern.pdf",
+      "note": "States that some providers use external service providers for recognition applications (no price found)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Providers apply in the one or two states they know and use the free state portals. No paid service price was found.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://lsjv.rlp.de/fileadmin/lsjv/Themen/Arbeit/Bildungsfreistellung/Bildungsfreistellung_in_den_Laendern_2026-2025.pdf",
+     "note": "State-by-state overview 2025/2026 by the Rhineland-Palatinate authority. Seen as a search result; exact date not shown, year from the title.",
+     "date": "2026-01-01",
+     "ageDays": 321,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.bildungsurlaub.de/files/Prsentation - Anerkennung von Bildungsurlauben in anderen Bundeslndern.pdf",
+     "note": "Presentation on recognition in other states: recognition is mostly per event, some states recognise providers, and Berlin and Brandenburg require reports for each event (seen as a search result; unda…",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=bildungsurlaub%20anerkennung",
+     "note": "Seven autocomplete variants, including 'anderes bundesland', 'anerkennungsverzeichnis' and per-state queries",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.drweb.de/anbieter-bilderungsurlaub-vergleich/",
+     "note": "A 2026 comparison of Bildungsurlaub providers, showing a commercial provider market (seen as a search result)",
+     "date": "2026-01-01",
+     "ageDays": 321,
+     "age": "11 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'bildungsurlaub anerkennung' plus state name, and 'anerkennung anderes bundesland'",
+    "first100": "Providers searching how to get a course recognised in another state find a free per-state rule page, then subscribe for the deadline calendar and document checklist.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=bildungsurlaub%20anerkennung",
+      "note": "Seven autocomplete variants for the recognition query",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "State portals and authorities (e.g. Berlin online…",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "bildungsurlaub.de",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:39.430Z",
+    "detail": [
+     "Missed the strict bar: score 2.85 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Course providers pay a yearly fee for a maintained rule set and a deadline calendar per course across the 14 states, so courses are recognised in time and sell to employees in more states.",
+   "trigger": "standing need",
+   "window": "A standing gap: 14 different state laws, recognition per event in most states, and no tool for providers was found. It comes back with every new course.",
+   "score": 2.85,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 700,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 700,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 2,000 provider visits (assumed) times 2% gives 40. With the ramp about 12 payers at 149 EUR is about 1,790 EUR. Discounted for the unproven payer, 700 EUR. Cross-check: no service price or comparable revenue was found. 5,000 EUR needs 34 payers."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "The process differences are confirmed in authority documents and the query family exists, but no one was seen paying for this job.",
+      "summary": "",
+      "concerns": [
+       "No price proof",
+       "The rule set needs checking when a state law changes",
+       "An AI assistant can explain the rules, though not reliably or with deadlines per course"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:39.430Z",
+   "updatedAt": "2026-11-18T19:55:39.430Z",
+   "outcome": null
+  },
+  {
+   "id": "einstellerabrechnung-monatsrechnung-je-pensionsp",
+   "title": "Einstellerabrechnung: Monatsrechnung je Pensionspferd mit Extras und SEPA-Lastschrift für kleine Pe…",
+   "pitch": "For small horse-boarding stables: a monthly invoice per boarded horse with extras (farrier, feed, lessons, turnout), a SEPA direct-debit file and a yearly overview, in German and without a big barn-management suite.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "no page shows anyone paying for this",
+    "legacy": false,
+    "payer": "The owner of a horse-boarding stable with 10 to 40 boarded horses",
+    "buys": "Correct monthly invoices with variable extras and a direct-debit run, instead of hand-made spreadsheets and missed extras",
+    "model": "subscription",
+    "price": "15 EUR a month",
+    "proof": [],
+    "nobodyPaysIf": "Horsebills and CRIO already serve German stables, and many small stables use their accounting tool or a spreadsheet.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://www.lbv-bw.de/assets/lbv/fachinformationen/2026_03_17_LEL_Kalkulation_Pensionspferdebetrieb.pdf",
+     "note": "State farm-economics calculation for horse-boarding businesses, dated 2026-03-17 (seen in a search result), showing these are businesses with monthly fees",
+     "date": "2026-03-17",
+     "ageDays": 246,
+     "age": "8 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.capterra.at/reviews/145296/horsebills",
+     "note": "Horsebills listed with billing, invoicing and online payments for riders and stables (access date used)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de 'Pferdepension Abrechnung', 'Einsteller Rechnung'",
+    "first100": "Stable owners searching for a boarder invoice template find a free one-invoice generator and subscribe for monthly runs with SEPA.",
+    "proof": [
+     {
+      "url": "https://www.capterra.at/reviews/145296/horsebills",
+      "note": "Software directories list several stable billing tools, so the category is searched",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Horsebills",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "CRIO online",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "EquineM",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Stable Secretary",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:38.872Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Small stables pay a low monthly fee to replace a monthly evening of spreadsheet invoices and bank transfers.",
+   "trigger": "standing need",
+   "window": "A standing need: every boarding stable bills monthly. Tools exist, which keeps the gap small.",
+   "score": 2.5,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 900,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 900,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 2,000 visits (assumed) times 1.5% gives 30 payers. With the ramp about 10 at 180 EUR is 1,800 EUR. Crowding halves it to about 900 EUR. Cross-check: two German paid tools exist but no customer counts were seen. 5,000 EUR needs 28 payers."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Paying stables exist and so do priced competitors, so this is a crowded niche with no verified edge.",
+      "summary": "",
+      "concerns": [
+       "Two solid German competitors",
+       "No edge verified"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:38.872Z",
+   "updatedAt": "2026-11-18T19:55:38.872Z",
+   "outcome": null
+  },
+  {
+   "id": "tacho-archiv-fuer-transporter-fahrerkarten-und-m",
+   "title": "Tacho-Archiv für Transporter: Fahrerkarten- und Massenspeicherdateien im Browser archivieren, 28/90…",
+   "pitch": "For small courier and transport firms whose 2.5 to 3.5 t vans have needed a smart tachograph for cross-border work since 1 July 2026: drop in the driver-card and vehicle-unit files, keep a dated archive, get reminders before the 28-day and 90-day download deadlines, and see a plain list of driving-time breaks. Files are processed locally, with nothing uploaded.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A courier or small transport company with 1 to 10 vans of 2.5 to 3.5 t doing cross-border jobs",
+    "buys": "The required download archive and deadline control without a telematics contract. Missing data can cost 750 EUR per vehicle per day.",
+    "model": "subscription",
+    "price": "79 EUR a year for up to 3 vans",
+    "proof": [
+     {
+      "url": "https://www.ebay.de/p/1905283238",
+      "note": "GloboFleet CC PLUS tachograph read, archive and analysis software sold at 99.97 EUR one-off (listing undated, access date used)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.bussgeldkatalog.de/fahrerkarte-auslesen/",
+      "note": "Guide naming 750 EUR per vehicle for missing data storage, and card readers with software from about 80 EUR (seen in a search result)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Many tachograph tools already exist, and workshops or download keys come with free software. Parsing smart tachograph V2 files correctly is hard, and a wrong analysis can be costly.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.ingenieur.de/technik/fachbereiche/logistik/digitaler-fahrtenschreiber-jetzt-verpflichtend-fuer-leichte-nutzfahrzeuge/",
+     "note": "Digital tachograph now mandatory for light commercial vehicles (dated 07.07.2026 in the search result)",
+     "date": "2026-07-07",
+     "ageDays": 134,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.ihk.de/magdeburg/produktmarken/branchen/verkehrswirtschaft/branchennews/tachographenpflicht-1-juli-2026-7039746",
+     "note": "IHK news on the 1 July 2026 tachograph duty for cross-border vans (seen as a search result; page date not shown, access date used)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.firmenauto.de/fahrzeuge/transporter/tachographenpflicht-transporter-umruestung-bussgeld-grenzueberschreitender-verkehr/",
+     "note": "'Viele Transporter ungeprüft': many vans not yet converted (Kienzle survey). Seen as a search result; undated, access date used.",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.wko.at/noe/transport-verkehr/gueterbefoerderungsgewerbe/2026-smart-tacho-2",
+     "note": "WKO: vans used only nationally are exempt from the tachograph but need a driving log. The duty applies to cross-border work (access date used).",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "German and Polish queries about the van tachograph duty and reading driver cards",
+    "first100": "Van operators who just fitted a tachograph search how to read and store the files, find a free in-browser reader and pay for the archive and reminders.",
+    "proof": [
+     {
+      "url": "https://www.ihk.de/schwaben/produktmarken/branchen-und-netzwerke/logistik/gueterverkehr-logisitk/eu-tachographenpflicht-7035332",
+      "note": "Chambers and trade press rank for the duty queries. Vendors' advertorials (verkehrsrundschau) show vendors are competing for these searches.",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "GloboFleet CC PLUS",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Kienzle Argo DLK Pro Download Key S",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Geotab tachograph extension",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "TSI Fleetmanager tachograph",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:38.536Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Small van operators pay a yearly fee per company, below one-off desktop software and telematics contracts, to keep the legally required archive and avoid fines of 750 EUR per vehicle.",
+   "trigger": "Regulation (EC) 561/2006 as amended: from 2026-07-01, vehicles over 2.5 t in cross-border or cabotage goods transport must use a smart tachograph and follow driving-time rules",
+   "window": "The duty is in force and a Kienzle survey reported that about a third of affected firms had not fully converted. Newcomers pick their archive tool in the first year, and after that they rarely switch.",
+   "score": 2.85,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 4,000 visits (assumed) times 1% gives 40 payers. With the ramp about 15 payers at 79 EUR is about 1,185 EUR, minus fees. Cross-check: the one-off price of desktop software (about 100 EUR) caps what a small firm pays a year, and incumbents' customer counts were not seen. I use 800 EUR. 5,000 EUR needs 64 payers, out of reach in year 1."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The trigger is confirmed by IHK and WKO, but the market already has many tachograph tools, so the gap is small and no edge was verified.",
+      "summary": "",
+      "concerns": [
+       "Crowded with established tools",
+       "Smart tachograph V2 file parsing and break analysis are complex and must be correct",
+       "Vendor advertorials compete for the same queries"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:38.536Z",
+   "updatedAt": "2026-11-18T19:55:38.536Z",
+   "outcome": null
+  },
+  {
+   "id": "marktbewerbung-bewerbung-jury-auswahl-standgebue",
+   "title": "Marktbewerbung: Bewerbung, Jury-Auswahl, Standgebühr und Standplan für Kunsthandwerker-, Design- un…",
+   "pitch": "For organisers of juried craft, design and Christmas markets in German-speaking countries: one application link with photo upload, jury scoring by several people, acceptance and rejection emails, stall-fee invoices and a simple stall plan, priced per market instead of per month. Every exhibitor who applies sees the tool, so organisers discover it through the exhibitors.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A private organiser of a juried craft, design or Christmas market with 30 to 150 stalls (an event agency, association or venue)",
+    "buys": "Days of sorting emailed photos and PDF forms, coordinating a jury, sending decisions and invoicing stall fees. Stall fees are the organiser's revenue.",
+    "model": "one-off",
+    "price": "79 EUR per market, or 149 EUR a year for unlimited markets",
+    "proof": [
+     {
+      "url": "https://expofp.com/de/vendor-market-floor-plan-software",
+      "note": "ExpoFP sells market stall software to craft and farmers market organisers from 149 USD a month (up to 100 stalls), or 990 USD one-off built by its team (page copyright 2026)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Most markets are small and run by volunteers who are happy with a free Jotform form and email. Large markets already use municipal or trade-fair software.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://kunsthandwerk.de/wp-content/uploads/2026/02/ausschreibung-wmka2026-teilnahmebedingungen.pdf",
+     "note": "BdK Christmas market Karlsruhe 2026: online applications only, a selection panel decides, mass-made goods excluded (date from the URL path)",
+     "date": "2026-02-01",
+     "ageDays": 290,
+     "age": "10 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://rosenburg.at/wp-content/uploads/2025/12/BewerbungsformularRT2026Rosenburg.pdf",
+     "note": "Austrian castle market still uses a PDF application form for 2026 (date from the URL path)",
+     "date": "2025-12-01",
+     "ageDays": 352,
+     "age": "12 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://form.jotform.com/252952831297062",
+     "note": "An Advent market runs its applications through a generic Jotform form (undated, access date shown)",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kunsthandwerkermarkt%20bewerbung",
+     "note": "Autocomplete shows 'bewerbung kunsthandwerkermarkt' and a town-specific variant",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google.de queries 'bewerbung kunsthandwerkermarkt', 'Ausstellerverwaltung Markt', plus exhibitors seeing the tool on every application",
+    "first100": "Exhibitors apply through one organiser's link, then mention it to other organisers. Organisers searching for an application form find a free trial for one market and pay to send decisions and invoices.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kunsthandwerkermarkt%20bewerbung",
+      "note": "The query exists, with only 2 autocomplete variants (low volume)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "ExpoFP vendor market floor plan",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "VOIS MARKT",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "STADTFEST pro (SoftGuide)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Jotform templates",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:37.053Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Market organisers pay once per market (or a cheap yearly plan) instead of a monthly floor-plan subscription. Each market exposes the tool to dozens of exhibitors who also apply to other markets.",
+   "trigger": "standing need",
+   "window": "A standing gap that comes back with every season (spring markets, Christmas markets). Organisers still collect PDF forms and Jotform entries, and the only market-specific software is billed monthly i…",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 60,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1200,
+     "upsideEur": 9000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1200,
+       "upsideEur": 9000,
+       "basis": "Bottom-up: 2,500 visits a year (assumed) times 2% gives 50 organisers. With the ramp, about 20 paying an average 110 EUR is 2,200 EUR, minus about 120 EUR in hosting and fees. Cross-check: ExpoFP's public price shows organisers pay for this kind of tool, but I saw no customer count. With low search volume I take 1,200 EUR. 5,000 EUR a year needs about 45 to 60 paid markets, which search alone wil…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "Many markets still use PDFs or generic forms, and the only priced specialist is monthly and booking-first. Search volume is small.",
+      "summary": "",
+      "concerns": [
+       "Volunteer-run markets may not pay",
+       "Image uploads need serverless storage and some moderation of spam",
+       "Low search volume"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:37.053Z",
+   "updatedAt": "2026-11-18T19:55:37.053Z",
+   "outcome": null
+  },
+  {
+   "id": "bg-abrechnung-fuer-erste-hilfe-ausbildungsstelle",
+   "title": "BG-Abrechnung für Erste-Hilfe-Ausbildungsstellen: Teilnehmer je Unfallversicherungsträger, Abrechnu…",
+   "pitch": "For private first-aid training centres and freelance trainers with a DGUV authorisation: enter the participants of a company course once, and the tool groups them by accident-insurance carrier, fills the shared billing form plus each carrier's extra papers at the current flat fee, and tracks which invoices were paid. It keeps working as the fee table changes every 1 January (48.63 EUR per partici…",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A private first-aid training company or freelance trainer with a DGUV authorisation running several company courses a month",
+    "buys": "Hours of sorting participants by carrier, filling per-carrier forms and chasing unpaid course fees. A rejected or forgotten form loses 48.63 EUR per participant.",
+    "model": "subscription",
+    "price": "19 EUR a month or 190 EUR a year",
+    "proof": [
+     {
+      "url": "https://www.dguv.de/fb-erstehilfe/nachrichten/meldungen-2026/lehrgangsgebuehren-2027/index.jsp",
+      "note": "The money at stake: 48.63 EUR per participant paid by the carriers from 2027. This is not a software price.",
+      "date": "2026-09-01",
+      "ageDays": 78,
+      "age": "3 months old",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.softguide.de/programm/kita-abrechnung",
+      "note": "A near job: billing software for publicly funded childcare at about 79.90 EUR a month (seen in a search result)",
+      "date": "2026-11-18",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Most courses are run by DRK, ASB, Johanniter and Malteser, which have their own systems. Small private providers may make do with a spreadsheet and the PDF form, since originals are posted anyway.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.dguv.de/fb-erstehilfe/nachrichten/meldungen-2026/lehrgangsgebuehren-2027/index.jsp",
+     "note": "New flat fee of 48.63 EUR per participant for initial training, refresher training and training in childcare settings, from 2027-01-01. Page marked Stand September 2026 (exact day not shown).",
+     "date": "2026-09-01",
+     "ageDays": 78,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://dguv.de/fb-erstehilfe/ausbildungsstellen/abrechnung/index.jsp",
+     "note": "Training centres bill the carrier responsible for each participant directly. Each carrier sets its own procedure. Shared form Stand 01/2023. No online billing is mentioned. The page itself is undated…",
+     "date": "2026-11-18",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.dguv.de/medien/fb-erstehilfe/de/documents/infohinweise.pdf",
+     "note": "Billing notes for training centres (Stand 04/2025, from search result): carriers may ask for other or extra papers, and the company number and carrier are required fields",
+     "date": "2025-04-01",
+     "ageDays": 596,
+     "age": "20 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://nr.dlrg.de/fileadmin/groups/9000000/Handbuch_EH_Ausbildungen_BG__2026_.pdf",
+     "note": "A 2026 handbook for first-aid courses billed to the BG, showing that providers need written guidance for the process (seen as a search result only; year from the title)",
+     "date": "2026-01-01",
+     "ageDays": 321,
+     "age": "11 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "German queries about the DGUV billing form, the 2027 course fees and per-carrier billing (Unfallkasse, BG BAU, BGW, VBG)",
+    "first100": "Owners of small first-aid schools search for the 2027 fee or a carrier's billing form in December and January, find a free per-carrier fee and form page, and subscribe to bill their next courses.",
+    "proof": [
+     {
+      "url": "https://www.dguv.de/fb-erstehilfe/nachrichten/meldungen-2026/lehrgangsgebuehren-2027/index.jsp",
+      "note": "The official page every provider reads for the yearly fee change. A tool page can rank next to it for the fee and form queries.",
+      "date": "2026-09-01",
+      "ageDays": 78,
+      "age": "3 months old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "KURSO course administration (SoftGuide listing)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "DRK district booking pages for BG courses",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "DGUV shared billing form (PDF)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-18T19:55:36.363Z",
+    "detail": [
+     "Missed the strict bar: score 3.1 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Private first-aid training centres pay a yearly subscription so that no participant fee (48.63 EUR each) is lost to a wrong carrier, a missing form or an invoice nobody followed up.",
+   "trigger": "DGUV raises the flat first-aid course fee to 48.63 EUR per participant for courses starting on or after 2027-01-01. Every carrier sets its own billing rules.",
+   "window": "A recurring yearly duty: fees change every 1 January and every course must be billed. The window around the 2027 fee change is about three months. After that the gap stays open because no dedicated s…",
+   "score": 3.1,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1500,
+     "upsideEur": 11000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1500,
+       "upsideEur": 11000,
+       "basis": "Bottom-up: about 3,000 search visits a year (assumed) times 2% gives 60 payers. With a first-year search ramp, about 15 payers at 190 EUR is about 2,850 EUR, minus about 150 EUR in fees and hosting. Cross-check: no comparable product's revenue was found, and the number of private authorised centres was not verified, so I take a cautious 1,500 EUR. 5,000 EUR a year needs 27 payers, which the assum…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The fee change and the per-carrier rules are confirmed on DGUV pages. Two searches found no tool for this exact billing job. I saw no price for software doing this exact job, and the size of the market is unknown.",
+      "summary": "",
+      "concerns": [
+       "Big aid organisations dominate first-aid training and have their own systems",
+       "Originals must be posted, so the gain is in preparation, not submission",
+       "A dedicated vendor may exist that two searches did not find"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-18T19:55:36.363Z",
+   "updatedAt": "2026-11-18T19:55:36.363Z",
+   "outcome": null
+  },
   {
    "id": "plot-book-burial-register-and-plot-map-for-small",
    "title": "Plot Book: burial register and plot map for small cemeteries, published as a static public search s…",
@@ -5810,1904 +7793,6 @@
    },
    "createdAt": "2026-11-17T22:58:23.298Z",
    "updatedAt": "2026-11-17T22:58:23.298Z",
-   "outcome": null
-  },
-  {
-   "id": "tarock-roguelike-koenigrufen-als-kartenspiel-rog",
-   "title": "Tarock-Roguelike: Königrufen als Kartenspiel-Roguelike für Steam und Mobile",
-   "pitch": "A run-based roguelike built on Austrian Tarock (Königrufen) for players in Austria and the neighbouring Tarock countries: short runs, rule-bending cards and opponents, sold on Steam and mobile.",
-   "platform": "game",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 1 of 5",
-    "legacy": false,
-    "payer": "Adult Tarock players in Austria and nearby countries who buy premium games",
-    "buys": "A finished premium game that does not exist",
-    "model": "one-off",
-    "price": "6.99 EUR once",
-    "proof": [
-     {
-      "url": "https://itunes.apple.com/search?term=tarock&country=at&entity=software&limit=10",
-      "note": "A paid Tarock app at 9.99 EUR exists (no ratings)",
-      "date": "2025-10-09",
-      "ageDays": 405,
-      "age": "13 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "The audience is tiny (the top app has 72 ratings) and plays free apps.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 1
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 405,
-     "age": "newest source 13 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://store.steampowered.com/api/storesearch/?term=tarock&cc=at&l=german",
-     "note": "Steam store search for 'tarock' returns 0 games",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://itunes.apple.com/search?term=tarock&country=at&entity=software&limit=10",
-     "note": "Austrian App Store: top Tarock app has 72 ratings (updated 2026-09-18); a paid 'Französisches Tarock +' costs 9.99 EUR",
-     "date": "2026-09-18",
-     "ageDays": 61,
-     "age": "2 months old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://store.steampowered.com/app/5048870/",
-     "note": "Comparable regional card roguelike Scopa Sweep: 12.25 EUR, 20 reviews, 100% positive since 2026-10-25",
-     "date": "2026-10-25",
-     "ageDays": 24,
-     "age": "3 weeks old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "store",
-    "where": "Steam tag Card Game + Roguelike Deckbuilder; App Store search 'tarock'",
-    "first100": "Tarock players searching the stores find the only roguelike; 100 payers in year one is unlikely.",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/api/storesearch/?term=tarock&cc=at&l=german",
-      "note": "No competing Steam title",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Tarock - Königrufen (iOS)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:37.149Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Players buy the game once.",
-   "trigger": "standing need",
-   "window": "No deadline; nobody has made it.",
-   "score": 2.35,
-   "index": {
-    "composite": 1.3,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 1,
-     "potential": 1,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.3 is below 3.6"
-    ],
-    "yearlyCostEur": 240,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.3 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 100,
-     "upsideEur": 2500,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 100,
-       "upsideEur": 2500,
-       "basis": "Bottom-up: 5,000 visits x 1.5% (assumed) = 75 sales x 6.99 EUR x 0.7 = about 370 EUR, minus 240 EUR in fees = about 130 EUR, rounded down to 100 EUR. Cross-check: the top Tarock app has 72 ratings in total. 5,000 EUR is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 1,
-      "potential": 1,
-      "automation": 4,
-      "rationale": "An empty slot, but the audience is very small.",
-      "summary": "",
-      "concerns": [
-       "Tiny audience",
-       "The same pattern as the studio's other card roguelikes"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:37.149Z",
-   "updatedAt": "2026-11-17T16:52:37.149Z",
-   "outcome": null
-  },
-  {
-   "id": "sammlungswert-bericht-datierte-bewertung-einer-s",
-   "title": "Sammlungswert-Bericht: datierte Bewertung einer Sammelkarten-Sammlung zum Cardmarket-Trend",
-   "pitch": "For collectors who need a dated value of a card collection for household insurance, an estate, a divorce or a sale to a shop: load a collection file (Cardmarket or scanner-app CSV), and get a dated PDF with trend and low prices per card from Cardmarket's public price guide, processed in the browser.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A collector with a collection worth over 2,000 EUR who needs a dated valuation",
-    "buys": "A dated, per-card value document an insurer, heir or buyer can read",
-    "model": "one-off",
-    "price": "14.90 EUR once",
-    "proof": [
-     {
-      "url": "https://tcgpowertools.com/pricing",
-      "note": "Nearby: a Collector plan at 2.99 EUR a month shows collectors pay for card tools; no price for valuations was found",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Free collection apps show a total value, and insurers rarely ask for a formal list.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
-     "note": "Autocomplete: 'cardmarket preisliste', 'cardmarket preise in excel', 'cardmarket preisentwicklung'",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://help.cardmarket.com/en/cardmarket-api",
-     "note": "No new API access, so valuation tools cannot pull Cardmarket prices through the API (undated, accessed)",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'sammelkarten sammlung wert ermitteln', 'cardmarket preisliste'",
-    "first100": "Collectors who search how to value or insure a collection get a free total and pay for the dated per-card PDF.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
-      "note": "Price-list and Excel queries exist",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "TCGdex market prices",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "PokemonPriceTracker",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:36.427Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A collector pays once for a dated valuation PDF.",
-   "trigger": "standing need",
-   "window": "No deadline; the TCG boom keeps raising collection values.",
-   "score": 2.35,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 500,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 500,
-       "upsideEur": 5000,
-       "basis": "Bottom-up: 4,000 visits x 2% (assumed) = 80 payers x 14.90 EUR = 1,192 EUR, halved for the ramp = about 600 EUR, minus costs = about 500 EUR. No comparable was found. 5,000 EUR needs 336 payers, which is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The data edge is real but the payer and the price are unproven.",
-      "summary": "",
-      "concerns": [
-       "Free apps show a collection value",
-       "Terms of use of the price-guide file not read"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:36.427Z",
-   "updatedAt": "2026-11-17T16:52:36.427Z",
-   "outcome": null
-  },
-  {
-   "id": "games-foerderung-kostenplan-foerderfaehige-koste",
-   "title": "Games-Förderung-Kostenplan: förderfähige Kosten, Förderquote und Finanzierungsplan für den Bundes-F…",
-   "pitch": "For German game studios preparing an application to the federal games fund: enter the team, months and external costs, and get eligible development costs, the funding quota by company size (25/45/50%), the 300,000 EUR minimum check and a financing plan in the structure the application needs.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A German game studio with a project of 300,000 EUR or more",
-    "buys": "A correct cost and financing plan, without consultant hours",
-    "model": "one-off",
-    "price": "149 EUR per application",
-    "proof": [
-     {
-      "url": "https://leyton.com/de/?p=906",
-      "note": "A consultancy sells application support for this fund (fee not published); no price for the same job was found",
-      "date": "2025-11-13",
-      "ageDays": 370,
-      "age": "12 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "Studios with 300,000 EUR projects hire consultants or use their own spreadsheets, and the audience is a few hundred studios.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 370,
-     "age": "newest source 12 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.nrwbank.de/de/foerderung/foerderprodukte/60291/games-foerderung-des-bundes.html",
-     "note": "Rates 25/45/50%, cap 8 million EUR, minimum eligible costs 300,000 EUR, call until 2026-12-31 at the latest (Stand 02/2026)",
-     "date": "2026-02-01",
-     "ageDays": 290,
-     "age": "10 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://leyton.com/de/?p=906",
-     "note": "About 125 million EUR in 2026, first come first served, about two windows a year; Leyton sells application support (fee not published)",
-     "date": "2025-11-13",
-     "ageDays": 370,
-     "age": "12 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'games förderung bund antrag', 'games förderung förderquote'",
-    "first100": "Studios searching for the fund's rules use the free quota check and buy the full cost plan; 100 payers is not reachable.",
-    "proof": [
-     {
-      "url": "https://leyton.com/de/?p=906",
-      "note": "Consultancy content ranks for the topic",
-      "date": "2025-11-13",
-      "ageDays": 370,
-      "age": "12 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Leyton funding consultancy",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "NRW.BANK and DLR guidance",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:36.023Z",
-    "detail": [
-     "Missed the strict bar: score 2.55 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A studio pays once per application for the cost and financing plan.",
-   "trigger": "Second call of the federal games fund open until a new call, at the latest 2026-12-31; about 125 million EUR budget in 2026",
-   "window": "The current call ends by 2026-12-31 at the latest; about two submission windows a year follow (Leyton).",
-   "score": 2.55,
-   "index": {
-    "composite": 1.75,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.75 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.75 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 650,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 650,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 1,000 visits x 1% (assumed) = 10 payers x 149 EUR = 1,490 EUR, halved for the ramp = 745 EUR, minus costs = about 650 EUR. No comparable was found. 5,000 EUR needs 34 payers, which is not reachable with this small audience."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 3,
-      "rationale": "The money is real but the payers are few, and they have budgets for consultants.",
-      "summary": "",
-      "concerns": [
-       "A new call can change the rules",
-       "Tiny audience",
-       "Consultants are entrenched"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:36.023Z",
-   "updatedAt": "2026-11-17T16:52:36.023Z",
-   "outcome": null
-  },
-  {
-   "id": "eu-ku-quartalsbuch-umsatzmeldung-und-grenzen-der",
-   "title": "EU-KU-Quartalsbuch: Umsatzmeldung und Grenzen der EU-Kleinunternehmerregelung",
-   "pitch": "For German small businesses registered for the EU small-business scheme who sell into Austria, Spain and other EU states: log sales per member state, watch the 100,000 EUR EU limit and each state's national limit, get the exact figures for the quarterly BZSt report (including nil reports), and get an alert with the 15-working-day notice when a limit is crossed.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A German small business (freelancer, course seller or craft seller) registered for the EU scheme",
-    "buys": "Correct quarterly figures and a warning before losing the exemption abroad, which would make foreign VAT due",
-    "model": "subscription",
-    "price": "29 EUR a year",
-    "proof": [
-     {
-      "url": "https://www.steuer-berater.de/lexikon/eu-kleinunternehmerregelung",
-      "note": "Shows the duty only; no price page for the same job was found",
-      "date": "2026-10-23",
-      "ageDays": 26,
-      "age": "4 weeks old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "The report is a short form, a spreadsheet does the tracking, and accounting apps may add it.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 26,
-     "age": "newest source 4 weeks old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.steuer-berater.de/lexikon/eu-kleinunternehmerregelung",
-     "note": "Quarterly report within one month after quarter end; participation ends immediately above 100,000 EUR EU turnover; notice within 15 working days; national limits of each state still apply; updated 20…",
-     "date": "2026-10-23",
-     "ageDays": 26,
-     "age": "4 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=eu%20kleinunternehmerregelung",
-     "note": "Autocomplete: 'umsatzmeldung', 'umsatzdaten', 'österreich', 'spanien', 'beantragen', '2026'",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'eu kleinunternehmerregelung umsatzmeldung' and country variants",
-    "first100": "Small businesses searching how to make the quarterly report find a free per-country limit check and pay for the logbook and alerts.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=eu%20kleinunternehmerregelung",
-      "note": "Ten autocomplete variants including the report and target countries",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "BZSt online portal",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Lexware help (OSS target-country tax, manual)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:34.627Z",
-    "detail": [
-     "Missed the strict bar: score 2.55 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small businesses pay a yearly fee for the quarterly figures and the limit watch.",
-   "trigger": "EU small-business scheme for cross-border small businesses, run by the BZSt since 2025, with quarterly reports",
-   "window": "A recurring quarterly duty; the next report is due by 2027-01-31.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 700,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 700,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 3,000 visits x 2% (assumed) = 60 payers x 29 EUR = 1,740 EUR, halved for the ramp = 870 EUR, minus costs = about 700 EUR. No comparable was found. 5,000 EUR needs 172 payers, which is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "A real quarterly duty with live searches but no price proof and a cheap spreadsheet alternative.",
-      "summary": "",
-      "concerns": [
-       "The national limits of 26 states must be updated every year",
-       "Tax-advice boundary",
-       "The number of scheme users is unknown"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:34.627Z",
-   "updatedAt": "2026-11-17T16:52:34.627Z",
-   "outcome": null
-  },
-  {
-   "id": "durak-roguelike-fuer-steam-und-mobile",
-   "title": "Durak-Roguelike für Steam und Mobile",
-   "pitch": "A run-based roguelike built on Durak, the card game many players across Eastern Europe grew up with: build a deck of rule-bending cards, beat escalating opponents and bosses, short runs. Sold on Steam and as a mobile premium unlock. If it takes off, it is the Durak entry in the Balatro-like wave.",
-   "platform": "game",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "Steam and mobile players who know Durak and buy indie card games",
-    "buys": "A finished premium game; no Durak roguelike exists",
-    "model": "one-off",
-    "price": "7.99 EUR once",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/app/5048870/",
-      "note": "Players pay 12.25 EUR for a roguelike built on a regional card game",
-      "date": "2026-10-25",
-      "ageDays": 24,
-      "age": "3 weeks old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Durak players play free mobile Durak, and the roguelike crowd already has Balatro and many clones.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 24,
-     "age": "newest source 3 weeks old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://store.steampowered.com/api/storesearch/?term=durak&cc=de&l=english",
-     "note": "Ten Durak titles on Steam, all plain or adult Durak, none named as a roguelike",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://store.steampowered.com/app/5454820/",
-     "note": "SUPER DURAK released 2026-11-05: plain Durak with optional supercards, 2.89 EUR, 1 review",
-     "date": "2026-11-05",
-     "ageDays": 13,
-     "age": "13 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://store.steampowered.com/app/5048870/",
-     "note": "Comparable: Scopa Sweep, a regional card-game roguelike, released 2026-10-25 at 12.25 EUR with 20 reviews, 100% positive",
-     "date": "2026-10-25",
-     "ageDays": 24,
-     "age": "3 weeks old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "store",
-    "where": "Steam tags Roguelike Deckbuilder + Card Game; store search 'durak'",
-    "first100": "Players who search Steam for Durak or browse the roguelike-deckbuilder tag try the demo and buy.",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/api/storesearch/?term=durak&cc=de&l=english",
-      "note": "Store search for 'durak' returns ten titles, so players search it",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "SUPER DURAK",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Durak Online",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:34.277Z",
-    "detail": [
-     "Missed the strict bar: score 2.65 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Players buy the game once on Steam and mobile.",
-   "trigger": "standing need",
-   "window": "Card roguelikes on regional games keep launching (Scopa Sweep on 2026-10-25); the Durak slot is open today but could fill.",
-   "score": 2.65,
-   "index": {
-    "composite": 2.1,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.1 is below 3.6"
-    ],
-    "yearlyCostEur": 240,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.1 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 25000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 25000,
-       "basis": "Bottom-up: 20,000 store visits x 1.5% (assumed) = 300 sales x 7.99 EUR x 0.7 = about 1,680 EUR, minus 240 EUR in fees and about 40% for regional pricing in lower-price markets = about 800 EUR. Cross-check: Scopa Sweep has 20 reviews in about three weeks (not a sales figure). 5,000 EUR needs about 900 sales."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "A real empty slot inside a crowded genre. The pattern duplicates the studio's Skat and backgammon roguelikes.",
-      "summary": "",
-      "concerns": [
-       "Crowded Balatro-like genre",
-       "Payment and pricing issues in some Durak-playing markets"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:34.277Z",
-   "updatedAt": "2026-11-17T16:52:34.277Z",
-   "outcome": null
-  },
-  {
-   "id": "spielzeug-akte-fuer-brettspiel-kleinverlage-tech",
-   "title": "Spielzeug-Akte für Brettspiel-Kleinverlage: Technische Dokumentation, EU-Konformitätserklärung und …",
-   "pitch": "For board-game self-publishers and small publishers bringing games to the EU market: pick the components and target age, and get the EN 71 parts and warnings that apply, a technical-file skeleton with risk assessment, the EU declaration of conformity and the traceability text for packaging and product pages, kept as a 10-year record. If it takes off, crowdfunding creators share it as the standard…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A board-game self-publisher or small publisher releasing one to five games a year in the EU",
-    "buys": "The document set that a marketplace or market-surveillance authority can ask for, without a consultant",
-    "model": "one-off",
-    "price": "79 EUR per game",
-    "proof": [
-     {
-      "url": "https://www.compliancegate.com/?p=22128",
-      "note": "A compliance platform sells product assessments (free plan shown, paid prices not visible); no price for the same job was found",
-      "date": "2025-09-03",
-      "ageDays": 441,
-      "age": "15 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "Free guides and templates exist, lab tests still cost money, and printers or manufacturers often supply the documents.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 441,
-     "age": "newest source 15 months old",
-     "tier": "old",
-     "n": 2
-    },
-    "pay": {
-     "days": 441,
-     "age": "newest source 15 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.compliancegate.com/?p=22128",
-     "note": "Board games for under-14s fall under the Toy Safety Directive (EN 71-1/-2/-3, DoC, technical file, CE, warnings); adult games under GPSR; updated 2025-09-03",
-     "date": "2025-09-03",
-     "ageDays": 441,
-     "age": "15 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://ohn.haendlerbund.de/recht/rechtsfragen/rechtssicher-spielzeug-verkaufen-leitfaden-small-business-haendlerinnen",
-     "note": "Händlerbund guide: small makers may self-assess with EN 71, technical documentation, risk analysis, DoC and CE",
-     "date": "2025-07-18",
-     "ageDays": 488,
-     "age": "16 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'brettspiel ce kennzeichnung', 'board game ce marking eu'",
-    "first100": "Creators preparing an EU print run search for CE marking of board games and buy the per-game pack.",
-    "proof": [
-     {
-      "url": "https://www.compliancegate.com/?p=22128",
-      "note": "A guide page ranks for board-game EU rules, so the query exists",
-      "date": "2025-09-03",
-      "ageDays": 441,
-      "age": "15 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Compliance Gate",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Händlerbund guide",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:33.213Z",
-    "detail": [
-     "Missed the strict bar: score 2.25 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A publisher pays once per game for the document set.",
-   "trigger": "standing need",
-   "window": "No deadline. Each new game needs the file, and the new EU Toy Safety Regulation will change the duties later.",
-   "score": 2.25,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 880,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 880,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 2,000 visits x 1.5% (assumed) = 30 payers x 79 EUR = 2,370 EUR, x 0.4 for the ramp = about 950 EUR, minus costs = about 880 EUR. No comparable with a customer count was found. 5,000 EUR needs 64 payers, which is not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The duty is real and the documents follow a fixed structure, but there is no price proof and no fresh request.",
-      "summary": "",
-      "concerns": [
-       "Product-safety liability if the user relies on it",
-       "A small audience",
-       "Templates are AI-doable"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:33.213Z",
-   "updatedAt": "2026-11-17T16:52:33.213Z",
-   "outcome": null
-  },
-  {
-   "id": "cardtrader-spiegel-cardmarket-bestand-zusaetzlic",
-   "title": "CardTrader-Spiegel: Cardmarket-Bestand zusätzlich auf CardTrader listen und Verkäufe abgleichen",
-   "pitch": "For European card sellers who want a second marketplace: read the Cardmarket stock export, list the same stock on CardTrader, and after each sale get a list of what to remove on the other side. If it takes off, it becomes the cheap multi-market step for sellers below TCGPowertools' upper tiers.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A Cardmarket seller with 1,000 or more listings who wants CardTrader sales too",
-    "buys": "Extra sales on a second marketplace without double data entry",
-    "model": "subscription",
-    "price": "9 EUR a month",
-    "proof": [
-     {
-      "url": "https://tcgpowertools.com/pricing",
-      "note": "Sellers pay 2.99 to 159.99 EUR a month for listing, pricing and syncing",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "TCGPowertools and TCG Sync already sync both markets, and without Cardmarket API access the Cardmarket side must be updated by hand, which risks overselling.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.trustpilot.com/review/tcgpowertools.com",
-     "note": "Reviews dated 2025-05-13 and 2025-08-27 report recurring sync errors (with CardTrader Zero); 2026-06-23 says items were relisted after selling out",
-     "date": "2026-06-23",
-     "ageDays": 148,
-     "age": "5 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://sortswift.com/pricing-automation",
-     "note": "CardTrader listed as a platform in a paid US store tool, from 15.99 USD a month",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'cardmarket cardtrader sync' and 'tcgpowertools alternative'",
-    "first100": "Sellers frustrated by sync errors search for an alternative and try a one-way listing of their Cardmarket export on CardTrader.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
-      "note": "Sellers search for automating Cardmarket work (adjacent queries)",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "TCGPowertools",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "TCG Sync",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "SortSwift",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:32.583Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Sellers pay monthly to keep a second marketplace listed.",
-   "trigger": "standing need",
-   "window": "No deadline. The gap stays open because the only full sync tool has dated complaints about sync errors and relisting.",
-   "score": 2.3,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 3,000 visits x 0.7% (assumed) = 21 payers x 108 EUR = 2,268 EUR, halved for the ramp = about 1,130 EUR, minus costs = about 1,000 EUR. Cross-check: about 1% of TCGPowertools' claimed 1,700 traders. 5,000 EUR needs 47 payers, which is not reachable in year one. CardTrader's seller API was not verified in this run."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The payer and price are proven by the leader, but two tools already claim the job, and the Cardmarket side cannot be automated.",
-      "summary": "",
-      "concerns": [
-       "Overselling risk",
-       "CardTrader API terms not verified",
-       "Two solid competitors"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:32.583Z",
-   "updatedAt": "2026-11-17T16:52:32.583Z",
-   "outcome": null
-  },
-  {
-   "id": "forschungszulage-mappe-fuer-kleine-software-und",
-   "title": "Forschungszulage-Mappe für kleine Software- und Games-Studios: BSFZ-Antrag und Kostenaufstellung na…",
-   "pitch": "For owner-managed software and games companies with 1 to 20 developers: a guided BSFZ project description within the field limits, checked against the three criteria, plus the yearly cost sheet for the ELSTER claim under the 2026 rules (hours, 100 EUR an hour for owner work, 20% overhead flat rate, 35% rate for small and medium firms) and a time-record template. If it takes off, it becomes the se…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "An owner-managed software or games GmbH with 1 to 20 developers",
-    "buys": "A BSFZ text checked against the criteria and field limits, and a correct yearly cost sheet under the 2026 rules, instead of a consultant's fee on an allowance often worth tens of thousands of euros",
-    "model": "one-off",
-    "price": "249 EUR per project year",
-    "proof": [
-     {
-      "url": "https://onlinebilanz.de/?p=61874",
-      "note": "No price for this job was found; the page shows the stakes (example allowance 29,400 EUR) and that adviser help costs extra",
-      "date": "2026-07-13",
-      "ageDays": 128,
-      "age": "4 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "The BSFZ application is free, a free AI skill and chamber guides cover the text, and the firm's tax adviser already prepares the ELSTER claim.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 65,
-     "age": "newest source 2 months old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 128,
-     "age": "newest source 4 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://skillselion.com/skills/sebastian-software/forschungszulage-skill/forschungszulage",
-     "note": "A free Claude Code skill for BSFZ texts (four fields with character limits) and 2026 cost figures, updated 2026-09-14; shows live interest and that the text part is AI-doable",
-     "date": "2026-09-14",
-     "ageDays": 65,
-     "age": "2 months old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://onlinebilanz.de/?p=61874",
-     "note": "How-to guide for the two-stage process with an example allowance of 29,400 EUR; says a tax-adviser mandate costs extra",
-     "date": "2026-07-13",
-     "ageDays": 128,
-     "age": "4 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "'forschungszulage beantragen', 'forschungszulage software', 'forschungszulage rechner 2026'",
-    "first100": "Founders who search how to claim the allowance for software development use the free eligibility check and cost calculator, then buy the pack for the BSFZ text and the ELSTER sheet.",
-    "proof": [
-     {
-      "url": "https://onlinebilanz.de/?p=61874",
-      "note": "A software vendor's 2026 guide ranks for the topic, so content pages can rank next to chamber pages",
-      "date": "2026-07-13",
-      "ageDays": 128,
-      "age": "4 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "forschungszulage-skill",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Leyton",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "PNO Innovation",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "OnlineBilanz guide",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:32.024Z",
-    "detail": [
-     "Missed the strict bar: score 2.8 is below the minimum 3.5"
-    ]
-   },
-   "earns": "A studio pays once per project year for the application pack and cost sheet.",
-   "trigger": "Forschungszulage rules for expenses from 2026-01-01: 20% overhead flat rate, 100 EUR an hour for owner work, higher caps (seen on secondary pages, not at the federal finance ministry)",
-   "window": "A claim can be made up to four years back, so the need recurs every year. The 2026 rule change makes old templates and spreadsheets outdated now.",
-   "score": 2.8,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 20000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 20000,
-       "basis": "Bottom-up: 3,000 visits x 1% (assumed) = 30 payers x 249 EUR = 7,470 EUR, x 0.4 for the search ramp = about 3,000 EUR, minus costs and fees = about 2,800 EUR. No comparable with a customer count was found, so I cut it to 2,000 EUR. 5,000 EUR needs 21 payers at 249 EUR, which is reachable only if the pages rank."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The payer has a lot at stake and the 2026 rule change is real, but no price for self-serve help was found and the text part is AI-doable.",
-      "summary": "",
-      "concerns": [
-       "German law reserves help in tax matters for advisers; this must stay self-help software",
-       "The free AI skill covers the text",
-       "The 2026 figures need checking against the official text"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:32.024Z",
-   "updatedAt": "2026-11-17T16:52:32.024Z",
-   "outcome": null
-  },
-  {
-   "id": "kreisliga-manager-ein-fussball-managerspiel-fuer",
-   "title": "Kreisliga Manager: ein Fußball-Managerspiel für den Amateurfußball (Steam und Mobile)",
-   "pitch": "A light football management game set in German amateur football, from the Kreisliga up to the Oberliga, with fictional clubs, short seasons, clubhouse humour and a promotion chase. Sold on Steam and as a mobile premium unlock. If it takes off, end-of-season result cards spread through team chats and the game becomes the winter-break game of the amateur scene.",
-   "platform": "game",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "Adult German amateur footballers and football-manager fans who buy premium games",
-    "buys": "A finished game set in the tier they play in, which no free or paid game offers today",
-    "model": "one-off",
-    "price": "7.99 EUR once",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/api/storesearch/?term=football%20manager&cc=de&l=german",
-      "note": "Players pay for football managers on Steam: FM27 59.99 EUR, its In-Game Editor 8.99 EUR, F11 Football Manager 3.99 EUR",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "FM fans already play lower leagues through free community databases in FM27, and the amateur crowd uses free apps (FuPa, Prematch) rather than buying games.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kreisliga%20manager",
-     "note": "Autocomplete: 'kreisliga manager spiel', 'kreisliga manager apk', 'kreisliga manager database', 'kreisliga football manager'",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://store.steampowered.com/api/storesearch/?term=kreisliga&cc=de&l=german",
-     "note": "Steam store search for 'kreisliga' returns 0 games",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://itunes.apple.com/search?term=kreisliga&country=de&entity=software&limit=10",
-     "note": "German App Store: no Kreisliga game; amateur-football apps FuPa (13,734 ratings) and Prematch (4,297 ratings, updated 2026-11-16) show the audience",
-     "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://store.steampowered.com/app/4530370/",
-     "note": "Football Manager 27 released 2026-11-10 at 59.99 EUR, 942 reviews, 83% positive; lower German tiers not stated",
-     "date": "2026-11-10",
-     "ageDays": 8,
-     "age": "8 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "store",
-    "where": "Steam tags Football (Soccer) + Management + Sports; App Store and Google Play search 'kreisliga'",
-    "first100": "FM27 players and Kreisliga players who browse Steam football-management tags or search 'kreisliga' play the free demo and buy; season result cards shared in team chats bring the next players.",
-    "proof": [
-     {
-      "url": "https://store.steampowered.com/api/storesearch/?term=kreisliga&cc=de&l=german",
-      "note": "No competing title for the store search",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Football Manager 27",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "F11 Football Manager",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Prematch: Echter Fußball",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:30.795Z",
-    "detail": [
-     "Missed the strict bar: score 2.9 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Players buy the game once on Steam or unlock it on mobile.",
-   "trigger": "Football Manager 27 released on Steam (59.99 EUR, 942 reviews, 83% positive in its first week); football-management interest peaks, and no game covers the Kreisliga",
-   "window": "The FM27 launch and the winter break (December to February) are the peak; nothing on Steam or the German App Store targets this tier today.",
-   "score": 2.9,
-   "index": {
-    "composite": 2.1,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.1 is below 3.6"
-    ],
-    "yearlyCostEur": 240,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.1 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1500,
-     "upsideEur": 35000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1500,
-       "upsideEur": 35000,
-       "basis": "Bottom-up: 30,000 store visits x 1.5% (assumed) = 450 sales x 7.99 EUR x 0.7 after the store share = about 2,500 EUR, minus 240 EUR in fees (Steam 100, Apple 99, Google 25, domain) and about 30% for refunds and regional pricing = about 1,500 EUR. Cross-check: Scopa Sweep, a comparable regional card-game roguelike, collected 20 reviews in about three weeks (not a sales figure). 5,000 EUR needs abo…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The tier is clearly empty on Steam and the App Store and the audience is large, but nothing shows that it will pay for such a game, and a football manager is more than a few days of work.",
-      "summary": "",
-      "concerns": [
-       "Game sales are hit-driven",
-       "A believable match engine takes weeks",
-       "FM community databases may already cover the Kreisliga"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:30.795Z",
-   "updatedAt": "2026-11-17T16:52:30.795Z",
-   "outcome": null
-  },
-  {
-   "id": "cardmarket-preischeck-bestandsexport-gegen-den-t",
-   "title": "Cardmarket-Preischeck: Bestandsexport gegen den täglichen Preisguide, ohne API-Zugang",
-   "pitch": "For Cardmarket sellers with hundreds to thousands of listings (semi-pro collectors and small card shops): load your own stock export, the tool reads Cardmarket's public daily price-guide file for the game in the browser and lists the under- and overpriced listings sorted by euros at stake, with your own rules (trend factor, floors per condition and language) and a re-price sheet. If it takes off …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A Cardmarket seller with 500 or more listings: a semi-pro collector-seller or a small card shop in Germany, Austria or elsewhere in the EU",
-    "buys": "A ranked list of listings that are underpriced or stale against today's trend, with the euros at stake and a re-price sheet, without giving a third party access to the account; it replaces hours of manual price checks",
-    "model": "subscription",
-    "price": "39 EUR a year (or 4.99 EUR a month)",
-    "proof": [
-     {
-      "url": "https://tcgpowertools.com/pricing",
-      "note": "Card sellers pay 2.99 to 159.99 EUR a month for repricing; vendor claims 1,700+ traders",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://sortswift.com/pricing-automation",
-      "note": "Autopricing from 15.99 USD a month for one game, Cardmarket EUR as a price source",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "TCGPowertools already re-prices and writes back automatically from 2.99 EUR a month, Cardmarket shows trend prices free on every card page, and a report that still needs manual edits on Cardmarket (no verified bulk price-upload route) is worth less.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 1,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.trustpilot.com/review/tcgpowertools.com",
-     "note": "TrustScore 2.7/5 from 10 reviews, 5 in the last 12 months; newest 1-star says support tickets go unanswered for months; 2026-06-23 says items were relisted after selling out; 2025 reviews report sync…",
-     "date": "2026-11-02",
-     "ageDays": 16,
-     "age": "2 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://tcgpowertools.com/pricing",
-     "note": "Seven plans from 2.99 to 159.99 EUR a month by monthly sales volume; Powerseller tier active from 2027-01-01 (undated page, accessed)",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://help.cardmarket.com/en/cardmarket-api",
-     "note": "Cardmarket: 'Currently, we are not accepting applications for access to the Cardmarket API' (undated, (c) 2026, accessed)",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
-     "note": "Autocomplete shows 'cardmarket preise automatisch anpassen', 'cardmarket preise anpassen', 'cardmarket preise in excel', 'cardmarket preisalarm'",
-     "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "German queries 'cardmarket preise automatisch anpassen', 'cardmarket preise anpassen', 'cardmarket preise in excel'",
-    "first100": "Sellers who search how to adjust Cardmarket prices automatically or in Excel run the free check on 200 listings, see the euros at stake, and pay to check the whole stock weekly.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=cardmarket%20preis",
-      "note": "Ten autocomplete variants around Cardmarket prices, including automatic adjustment and Excel",
-      "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "TCGPowertools",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "SortSwift autopricing",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Cardmarket Companion (browser extension)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "MKMTool",
-     "verdict": "abandoned",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T16:52:29.652Z",
-    "detail": [
-     "Missed the strict bar: score 2.9 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Card sellers pay a small yearly fee to run the full stock check weekly; the first 200 listings are free.",
-   "trigger": "Mostly a standing need. The leading repricing tool, TCGPowertools, lists a new Powerseller tier (159.99 EUR a month, over 5,000 EUR in sales) from 2027-01-01; whether this raises anyone's bill is not…",
-   "window": "No deadline. What keeps the gap open is that Cardmarket issues no new API keys, so only the existing partner tool can connect, and its users post support and sync complaints (newest 2026-11-02).",
-   "score": 2.9,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1300,
-     "upsideEur": 9000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1300,
-       "upsideEur": 9000,
-       "basis": "Bottom-up: 5,000 search visits a year x 1.5% (assumed) = 75 payers x 39 EUR = 2,925 EUR, halved for the search ramp = about 1,460 EUR, minus 20 EUR hosting and about 5% payment fees = about 1,300 EUR. Cross-check: TCGPowertools claims 1,700+ paying traders at 2.99 EUR a month or more; 75 payers would be about 4% of that customer count, plausible but unverified. 5,000 EUR a year needs 128 payers a…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "The payer and the price are shown by a leader with dated complaints, and the API closure is confirmed. But the leader is cheap, and a report that cannot write back is a weaker product.",
-      "summary": "",
-      "concerns": [
-       "No verified way to write prices back to Cardmarket in bulk",
-       "Not verified that private sellers can export their stock as a file",
-       "Cardmarket could change or remove the public price-guide file"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T16:52:29.652Z",
-   "updatedAt": "2026-11-17T16:52:29.652Z",
    "outcome": null
   },
   {
@@ -16330,19 +16415,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-18T13:39:28.449Z",
+   "lastRunAt": "2026-11-18T19:41:02.527Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 95,
-   "radius": 1,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 96,
+   "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 3,
+   "runsLastDay": 4,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-18T19:39:28.449Z"
+   "nextRunAfter": "2026-11-19T01:41:02.527Z"
   }
  },
  "scorecard": {
