@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T23:32:07.374Z",
+ "generatedAt": "2026-11-19T00:02:23.070Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -40,7 +40,7 @@
       "url": "https://www.tuvsud.com/de-de/store/productservice-de/prufung-von-spielplatzen",
       "note": "The job is paid: TÜV SÜD charges from 405 EUR per recurring inspection (a service price, not software)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -59,13 +59,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -76,7 +76,7 @@
      "url": "https://www.tuvsud.com/de-de/store/productservice-de/prufung-von-spielplatzen",
      "note": "TÜV SÜD playground inspection from 405 EUR (recurring) and 540 EUR (initial) plus travel (seen in a search result; undated, access date used)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -84,7 +84,7 @@
      "url": "https://www.dinmedia.de/de/norm/din-79161-2/396106654",
      "note": "DIN 79161-2:2025-12, inspection and qualification of playground inspectors",
      "date": "2025-12-01",
-     "ageDays": 352,
+     "ageDays": 353,
      "age": "12 months old",
      "tier": "ok"
     },
@@ -92,7 +92,7 @@
      "url": "https://akademie.tuv.com/spielplaetze-spielgeraete",
      "note": "Recertification only with an exam since 2026-07-01 (seen in a search result)",
      "date": "2026-07-01",
-     "ageDays": 140,
+     "ageDays": 141,
      "age": "5 months old",
      "tier": "ok"
     }
@@ -106,7 +106,7 @@
       "url": "https://lumiformapp.com/de/ressourcen-checklisten/spielplatzkontrolle",
       "note": "A checklist vendor ranks for the query, so the query exists and is served",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -229,7 +229,7 @@
       "url": "https://veranstaltungen.fnr.de/fileadmin/Projekte/2022/RT_Digitalisierung/Seminarreihe/5_FZus/Synergieeffekte_WinforstPro.pdf",
       "note": "Associations buy forestry software (group purchase, price not public)",
       "date": "2023-01-01",
-      "ageDays": 1417,
+      "ageDays": 1418,
       "age": "3 years 11 months old",
       "tier": "old"
      }
@@ -248,13 +248,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 321,
+     "days": 322,
      "age": "newest source 11 months old",
      "tier": "ok",
      "n": 3
     },
     "pay": {
-     "days": 1417,
+     "days": 1418,
      "age": "newest source 3 years 11 months old",
      "tier": "old",
      "n": 1
@@ -265,7 +265,7 @@
      "url": "https://www.waldbesitzer-portal.bayern.de/mam/cms50/unser_angebot/dateien/m_projekte_fbg_forstzusr_2026_.pdf",
      "note": "Bavarian 2026 fact sheet on funded projects for forestry associations (seen as a search result; year from the title)",
      "date": "2026-01-01",
-     "ageDays": 321,
+     "ageDays": 322,
      "age": "11 months old",
      "tier": "ok"
     },
@@ -273,7 +273,7 @@
      "url": "https://veranstaltungen.fnr.de/fileadmin/Projekte/2022/RT_Digitalisierung/Seminarreihe/5_FZus/Synergieeffekte_WinforstPro.pdf",
      "note": "A regional group adopted WinforstPro together and reports savings over buying alone (seen as a search result; series dated 2022-2023)",
      "date": "2023-01-01",
-     "ageDays": 1417,
+     "ageDays": 1418,
      "age": "3 years 11 months old",
      "tier": "old"
     },
@@ -281,7 +281,7 @@
      "url": "https://www.holzlogistik.iff.fraunhofer.de/content/dam/iff/holzlogistik/de/dokumente/veranstaltungen/holzlogistik-2011-roth.pdf",
      "note": "An association built its own software and issued about 450 credit notes for 50,000 cubic metres of wood (2011, old background only)",
      "date": "2011-01-01",
-     "ageDays": 5800,
+     "ageDays": 5801,
      "age": "15 years 11 months old",
      "tier": "old"
     }
@@ -295,7 +295,7 @@
       "url": "https://www.softguide.de/funktion/holzgesamtvolumen",
       "note": "A software directory lists forestry tools, showing the category is searched",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -424,7 +424,7 @@
       "url": "https://wp-worthy.de/",
       "note": "Worthy sells a premium version for VG WORT reporting on WordPress (price not shown on the page; footer 2015-2023)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -443,13 +443,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -460,15 +460,15 @@
      "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[search]=vg%20wort&request[per_page]=10",
      "note": "Official VG WORT METIS plugin (1,000 active installs, updated 2025-07-25) and Worthy (1,000 installs, premium version, updated 2025-09-04) are both WordPress-only",
      "date": "2025-09-04",
-     "ageDays": 440,
-     "age": "14 months old",
+     "ageDays": 441,
+     "age": "15 months old",
      "tier": "old"
     },
     {
      "url": "https://vgwort.de/media/pages/service/dokumente/merkblaetter-und-formulare/08f31091a5-1765979299/metis_doc_verlagsmeldung.pdf",
      "note": "VG WORT METIS publisher reporting documentation (file timestamp December 2025)",
      "date": "2025-12-17",
-     "ageDays": 336,
+     "ageDays": 337,
      "age": "11 months old",
      "tier": "ok"
     },
@@ -476,7 +476,7 @@
      "url": "https://www.drupal.org/project/metis",
      "note": "A Drupal METIS module exists. Nothing was found for Ghost, Webflow or Hugo (access date used).",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -490,8 +490,8 @@
       "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[search]=vg%20wort&request[per_page]=10",
       "note": "The WordPress tools have about 1,000 installs each, a floor for authors who want automation",
       "date": "2025-09-04",
-      "ageDays": 440,
-      "age": "14 months old",
+      "ageDays": 441,
+      "age": "15 months old",
       "tier": "old"
      }
     ]
@@ -624,7 +624,7 @@
       "url": "https://www.softguide.de/programm/kigaroo",
       "note": "A near job: childcare software priced per child from 1 EUR a month",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -643,13 +643,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -660,7 +660,7 @@
      "url": "https://www.softguide.de/programm/kigaroo",
      "note": "Daycare software priced from 1 EUR per child a month (for institutions; seen in a search result)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -668,7 +668,7 @@
      "url": "https://koalendar.com/de/terminbuchungssoftware-fuer/kinderbetreuung",
      "note": "A booking tool names childminders as a target group, but covers booking only (access date used)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -676,7 +676,7 @@
      "url": "https://qonto.com/de/blog/unternehmensgruendung/geschaeftsideen/tagesmutter-werden",
      "note": "Guide to becoming a childminder (permit, about 1,000 EUR qualification), showing it is a business (access date used)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -690,7 +690,7 @@
       "url": "https://www.jotform.com/de/app-templates/kinderpflege-app",
       "note": "Generic templates rank for childcare attendance, so the query exists without a dedicated tool",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -819,7 +819,7 @@
       "url": "https://www.softguide.de/programm/igel-wassergeld",
       "note": "Commercial water billing software for associations and co-ops exists (price on request, so no public price)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -838,13 +838,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -855,7 +855,7 @@
      "url": "https://www.verwaltung.steiermark.at/cms/dokumente/11685101_74836203/cfc10e0a/Satzungsmuster%20WG_.doc",
      "note": "Styrian model statute: yearly meter reading decides the contribution shares, and the member list goes to the authorities at least every 2 years (undated, access date used)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -863,7 +863,7 @@
      "url": "https://www.wasserwirtschaft.steiermark.at/cms/dokumente/12958084_4578443/70f9e140/MCB_Handouts_2024-11.pdf",
      "note": "Styrian water-management handouts November 2024 on small water co-ops (seen as a search result)",
      "date": "2024-11-01",
-     "ageDays": 747,
+     "ageDays": 748,
      "age": "2 years 1 month old",
      "tier": "old"
     },
@@ -871,7 +871,7 @@
      "url": "https://wasserwirtschaft.steiermark.at/cms/dokumente/12963597_4570277/07878af9/2-2_Fr%C3%BChmann.pdf",
      "note": "Talk on easing volunteer work in a co-op with 230 connections through digitalisation (seen as a search result; undated)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -885,7 +885,7 @@
       "url": "https://www.softguide.de/programm/igel-wassergeld",
       "note": "Only a software directory listing and utility vendors appear for the query",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1013,7 +1013,7 @@
       "url": "https://www.bildungsurlaub.de/files/Prsentation%20-%20Anerkennung%20von%20Bildungsurlauben%20in%20anderen%20Bundeslndern.pdf",
       "note": "States that some providers use external service providers for recognition applications (no price found)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1032,13 +1032,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 4
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -1049,7 +1049,7 @@
      "url": "https://lsjv.rlp.de/fileadmin/lsjv/Themen/Arbeit/Bildungsfreistellung/Bildungsfreistellung_in_den_Laendern_2026-2025.pdf",
      "note": "State-by-state overview 2025/2026 by the Rhineland-Palatinate authority. Seen as a search result; exact date not shown, year from the title.",
      "date": "2026-01-01",
-     "ageDays": 321,
+     "ageDays": 322,
      "age": "11 months old",
      "tier": "ok"
     },
@@ -1057,7 +1057,7 @@
      "url": "https://www.bildungsurlaub.de/files/Prsentation - Anerkennung von Bildungsurlauben in anderen Bundeslndern.pdf",
      "note": "Presentation on recognition in other states: recognition is mostly per event, some states recognise providers, and Berlin and Brandenburg require reports for each event (seen as a search result; unda…",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -1065,7 +1065,7 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=bildungsurlaub%20anerkennung",
      "note": "Seven autocomplete variants, including 'anderes bundesland', 'anerkennungsverzeichnis' and per-state queries",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -1073,7 +1073,7 @@
      "url": "https://www.drweb.de/anbieter-bilderungsurlaub-vergleich/",
      "note": "A 2026 comparison of Bildungsurlaub providers, showing a commercial provider market (seen as a search result)",
      "date": "2026-01-01",
-     "ageDays": 321,
+     "ageDays": 322,
      "age": "11 months old",
      "tier": "ok"
     }
@@ -1087,7 +1087,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=bildungsurlaub%20anerkennung",
       "note": "Seven autocomplete variants for the recognition query",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1221,7 +1221,7 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
@@ -1233,7 +1233,7 @@
      "url": "https://www.lbv-bw.de/assets/lbv/fachinformationen/2026_03_17_LEL_Kalkulation_Pensionspferdebetrieb.pdf",
      "note": "State farm-economics calculation for horse-boarding businesses, dated 2026-03-17 (seen in a search result), showing these are businesses with monthly fees",
      "date": "2026-03-17",
-     "ageDays": 246,
+     "ageDays": 247,
      "age": "8 months old",
      "tier": "ok"
     },
@@ -1241,7 +1241,7 @@
      "url": "https://www.capterra.at/reviews/145296/horsebills",
      "note": "Horsebills listed with billing, invoicing and online payments for riders and stables (access date used)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -1255,7 +1255,7 @@
       "url": "https://www.capterra.at/reviews/145296/horsebills",
       "note": "Software directories list several stable billing tools, so the category is searched",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1388,7 +1388,7 @@
       "url": "https://www.ebay.de/p/1905283238",
       "note": "GloboFleet CC PLUS tachograph read, archive and analysis software sold at 99.97 EUR one-off (listing undated, access date used)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      },
@@ -1396,7 +1396,7 @@
       "url": "https://www.bussgeldkatalog.de/fahrerkarte-auslesen/",
       "note": "Guide naming 750 EUR per vehicle for missing data storage, and card readers with software from about 80 EUR (seen in a search result)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1415,13 +1415,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 4
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
@@ -1432,7 +1432,7 @@
      "url": "https://www.ingenieur.de/technik/fachbereiche/logistik/digitaler-fahrtenschreiber-jetzt-verpflichtend-fuer-leichte-nutzfahrzeuge/",
      "note": "Digital tachograph now mandatory for light commercial vehicles (dated 07.07.2026 in the search result)",
      "date": "2026-07-07",
-     "ageDays": 134,
+     "ageDays": 135,
      "age": "4 months old",
      "tier": "ok"
     },
@@ -1440,7 +1440,7 @@
      "url": "https://www.ihk.de/magdeburg/produktmarken/branchen/verkehrswirtschaft/branchennews/tachographenpflicht-1-juli-2026-7039746",
      "note": "IHK news on the 1 July 2026 tachograph duty for cross-border vans (seen as a search result; page date not shown, access date used)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -1448,7 +1448,7 @@
      "url": "https://www.firmenauto.de/fahrzeuge/transporter/tachographenpflicht-transporter-umruestung-bussgeld-grenzueberschreitender-verkehr/",
      "note": "'Viele Transporter ungeprüft': many vans not yet converted (Kienzle survey). Seen as a search result; undated, access date used.",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -1456,7 +1456,7 @@
      "url": "https://www.wko.at/noe/transport-verkehr/gueterbefoerderungsgewerbe/2026-smart-tacho-2",
      "note": "WKO: vans used only nationally are exempt from the tachograph but need a driving log. The duty applies to cross-border work (access date used).",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -1470,7 +1470,7 @@
       "url": "https://www.ihk.de/schwaben/produktmarken/branchen-und-netzwerke/logistik/gueterverkehr-logisitk/eu-tachographenpflicht-7035332",
       "note": "Chambers and trade press rank for the duty queries. Vendors' advertorials (verkehrsrundschau) show vendors are competing for these searches.",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1604,7 +1604,7 @@
       "url": "https://expofp.com/de/vendor-market-floor-plan-software",
       "note": "ExpoFP sells market stall software to craft and farmers market organisers from 149 USD a month (up to 100 stalls), or 990 USD one-off built by its team (page copyright 2026)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1623,13 +1623,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 4
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -1640,7 +1640,7 @@
      "url": "https://kunsthandwerk.de/wp-content/uploads/2026/02/ausschreibung-wmka2026-teilnahmebedingungen.pdf",
      "note": "BdK Christmas market Karlsruhe 2026: online applications only, a selection panel decides, mass-made goods excluded (date from the URL path)",
      "date": "2026-02-01",
-     "ageDays": 290,
+     "ageDays": 291,
      "age": "10 months old",
      "tier": "ok"
     },
@@ -1648,7 +1648,7 @@
      "url": "https://rosenburg.at/wp-content/uploads/2025/12/BewerbungsformularRT2026Rosenburg.pdf",
      "note": "Austrian castle market still uses a PDF application form for 2026 (date from the URL path)",
      "date": "2025-12-01",
-     "ageDays": 352,
+     "ageDays": 353,
      "age": "12 months old",
      "tier": "ok"
     },
@@ -1656,7 +1656,7 @@
      "url": "https://form.jotform.com/252952831297062",
      "note": "An Advent market runs its applications through a generic Jotform form (undated, access date shown)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -1664,7 +1664,7 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kunsthandwerkermarkt%20bewerbung",
      "note": "Autocomplete shows 'bewerbung kunsthandwerkermarkt' and a town-specific variant",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -1678,7 +1678,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=kunsthandwerkermarkt%20bewerbung",
       "note": "The query exists, with only 2 autocomplete variants (low volume)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1812,7 +1812,7 @@
       "url": "https://www.dguv.de/fb-erstehilfe/nachrichten/meldungen-2026/lehrgangsgebuehren-2027/index.jsp",
       "note": "The money at stake: 48.63 EUR per participant paid by the carriers from 2027. This is not a software price.",
       "date": "2026-09-01",
-      "ageDays": 78,
+      "ageDays": 79,
       "age": "3 months old",
       "tier": "fresh"
      },
@@ -1820,7 +1820,7 @@
       "url": "https://www.softguide.de/programm/kita-abrechnung",
       "note": "A near job: billing software for publicly funded childcare at about 79.90 EUR a month (seen in a search result)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -1839,13 +1839,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 4
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
@@ -1856,7 +1856,7 @@
      "url": "https://www.dguv.de/fb-erstehilfe/nachrichten/meldungen-2026/lehrgangsgebuehren-2027/index.jsp",
      "note": "New flat fee of 48.63 EUR per participant for initial training, refresher training and training in childcare settings, from 2027-01-01. Page marked Stand September 2026 (exact day not shown).",
      "date": "2026-09-01",
-     "ageDays": 78,
+     "ageDays": 79,
      "age": "3 months old",
      "tier": "fresh"
     },
@@ -1864,7 +1864,7 @@
      "url": "https://dguv.de/fb-erstehilfe/ausbildungsstellen/abrechnung/index.jsp",
      "note": "Training centres bill the carrier responsible for each participant directly. Each carrier sets its own procedure. Shared form Stand 01/2023. No online billing is mentioned. The page itself is undated…",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -1872,7 +1872,7 @@
      "url": "https://www.dguv.de/medien/fb-erstehilfe/de/documents/infohinweise.pdf",
      "note": "Billing notes for training centres (Stand 04/2025, from search result): carriers may ask for other or extra papers, and the company number and carrier are required fields",
      "date": "2025-04-01",
-     "ageDays": 596,
+     "ageDays": 597,
      "age": "20 months old",
      "tier": "old"
     },
@@ -1880,7 +1880,7 @@
      "url": "https://nr.dlrg.de/fileadmin/groups/9000000/Handbuch_EH_Ausbildungen_BG__2026_.pdf",
      "note": "A 2026 handbook for first-aid courses billed to the BG, showing that providers need written guidance for the process (seen as a search result only; year from the title)",
      "date": "2026-01-01",
-     "ageDays": 321,
+     "ageDays": 322,
      "age": "11 months old",
      "tier": "ok"
     }
@@ -1894,7 +1894,7 @@
       "url": "https://www.dguv.de/fb-erstehilfe/nachrichten/meldungen-2026/lehrgangsgebuehren-2027/index.jsp",
       "note": "The official page every provider reads for the yearly fee change. A tool page can rank next to it for the fee and form queries.",
       "date": "2026-09-01",
-      "ageDays": 78,
+      "ageDays": 79,
       "age": "3 months old",
       "tier": "fresh"
      }
@@ -2023,7 +2023,7 @@
       "url": "https://www.cemify.com/learn/pricing-detail",
       "note": "Cemetery records and mapping from 799 USD a year",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -2042,13 +2042,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -2059,7 +2059,7 @@
      "url": "https://www.cemify.com/learn/pricing-detail",
      "note": "Cemify 799, 1,299 and 1,899 USD a year plus a one-time mapping fee; page shows only (c)2026, date is when opened",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -2067,7 +2067,7 @@
      "url": "https://cemeterra.com/pricing",
      "note": "CEMETERRA free up to 500 plots with mapping and search; 49 and 99 USD a month for unlimited plots; no date shown, date is when opened",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -2081,7 +2081,7 @@
       "url": "https://cemeterra.com/pricing",
       "note": "Competitors already target small cemeteries with free tiers",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -2210,7 +2210,7 @@
       "url": "https://trademark.markify.com/services/trademark-watch.html",
       "note": "US watch at 39 USD a year, EU full at 59",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -2229,13 +2229,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -2246,7 +2246,7 @@
      "url": "https://trademark.markify.com/services/trademark-watch.html",
      "note": "Markify watches from 39 USD/EUR a year (US), 59 (EU full), 129 (global), weekly reports; no date shown, date is when opened",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -2254,7 +2254,7 @@
      "url": "https://tmarkmetric.com/insights/trademark-watch-service",
      "note": "Basic paid watch tools about 50-150 USD a month, professional providers 300-1,000 USD a month; DIY suggested for small brands",
      "date": "2026-05-31",
-     "ageDays": 171,
+     "ageDays": 172,
      "age": "6 months old",
      "tier": "ok"
     }
@@ -2268,7 +2268,7 @@
       "url": "https://tmarkmetric.com/insights/trademark-watch-service",
       "note": "Comparison content ranks for the query family",
       "date": "2026-05-31",
-      "ageDays": 171,
+      "ageDays": 172,
       "age": "6 months old",
       "tier": "ok"
      }
@@ -2392,7 +2392,7 @@
       "url": "https://accessible.org/services/vpat/",
       "note": "Audits at 100-250 USD per page or screen",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -2411,13 +2411,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -2428,7 +2428,7 @@
      "url": "https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels",
      "note": "Nine declarable features, common-task criteria, testing matrix recommended; voluntary now, required later; no date shown, date is when opened",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -2436,7 +2436,7 @@
      "url": "https://accessible.org/services/vpat/",
      "note": "Accessibility audits priced at 100-250 USD per page or screen",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -2450,7 +2450,7 @@
       "url": "https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels",
       "note": "Apple's own page is the main result for the topic",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -2574,7 +2574,7 @@
       "url": "https://www.isobudgets.com/shop/product/calibration-uncertainty-calculator/",
       "note": "25 USD Excel calculator for the same job",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -2593,13 +2593,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -2610,7 +2610,7 @@
      "url": "https://www.isobudgets.com/shop/product/calibration-uncertainty-calculator/",
      "note": "Excel calibration uncertainty calculator sold for 25 USD (SKU 2026-11)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -2618,7 +2618,7 @@
      "url": "https://www.isobudgets.com/?p=7671",
      "note": "Lists 8 free uncertainty tools (NIST Uncertainty Machine, QMSys GUM, GTC, NPL and others); published 2016-11-28, old",
      "date": "2016-11-28",
-     "ageDays": 3642,
+     "ageDays": 3643,
      "age": "9 years old",
      "tier": "old"
     }
@@ -2632,7 +2632,7 @@
       "url": "https://www.isobudgets.com/?p=7671",
       "note": "The niche's leading content site ranks with tool round-ups",
       "date": "2016-11-28",
-      "ageDays": 3642,
+      "ageDays": 3643,
       "age": "9 years old",
       "tier": "old"
      }
@@ -2761,7 +2761,7 @@
       "url": "https://sslmate.com/certspotter/pricing",
       "note": "Cert Spotter 15 USD a month (20 endpoints), 100 USD a month (150 endpoints)",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -2780,13 +2780,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -2797,7 +2797,7 @@
      "url": "https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days",
      "note": "Lifetime schedule 398 to 200 (2026-03-15), 100 (2027-03-15), 47 days (2029-03-15)",
      "date": "2025-05-16",
-     "ageDays": 551,
+     "ageDays": 552,
      "age": "18 months old",
      "tier": "old"
     },
@@ -2805,7 +2805,7 @@
      "url": "https://sslmate.com/certspotter/pricing",
      "note": "Cert Spotter monitoring from 15 USD a month for 20 endpoints; page shows only (c)2026, date is when opened",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -2819,7 +2819,7 @@
       "url": "https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days",
       "note": "Vendors publish explainers for this query family; volume not measured",
       "date": "2025-05-16",
-      "ageDays": 551,
+      "ageDays": 552,
       "age": "18 months old",
       "tier": "old"
      }
@@ -2938,7 +2938,7 @@
       "url": "https://weldpad-static.pages.dev/",
       "note": "20 USD per user a month for WPS, PQR and continuity tracking",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -2957,13 +2957,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -2974,7 +2974,7 @@
      "url": "https://weldpad-static.pages.dev/",
      "note": "WeldPad: 20 USD per user a month, AWS D1.1 and ASME IX, 6-month continuity clock, explicitly no offline use; page shows only (c)2026, date is when opened",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -2982,7 +2982,7 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=welder%20continuity%20log",
      "note": "10 autocomplete variants, mostly template searches (excel, word, pdf, form, requirements)",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -2996,7 +2996,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=welder%20continuity%20log",
       "note": "10 template-oriented autocomplete variants",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -3130,7 +3130,7 @@
       "url": "https://www.the-efa.org/rates/",
       "note": "Book indexing at 5.00-6.25 USD per page (EFA 2026 rate chart)",
       "date": "2026-05-04",
-      "ageDays": 198,
+      "ageDays": 199,
       "age": "7 months old",
       "tier": "ok"
      }
@@ -3149,13 +3149,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 13,
-     "age": "newest source 13 days old",
+     "days": 14,
+     "age": "newest source 2 weeks old",
      "tier": "fresh",
      "n": 4
     },
     "pay": {
-     "days": 198,
+     "days": 199,
      "age": "newest source 7 months old",
      "tier": "ok",
      "n": 1
@@ -3166,7 +3166,7 @@
      "url": "https://www.the-efa.org/rates/",
      "note": "EFA 2026 rate chart: book indexing 5.00-6.25 USD per page, 55-60 USD per hour (survey Nov 2025 to Jan 2026)",
      "date": "2026-05-04",
-     "ageDays": 198,
+     "ageDays": 199,
      "age": "7 months old",
      "tier": "ok"
     },
@@ -3174,7 +3174,7 @@
      "url": "https://asindexing.org/ai-news/indexia-review/",
      "note": "ASI review of the AI tool Indexia: 29 of 58 sampled page numbers wrong (50% error rate)",
      "date": "2026-07-01",
-     "ageDays": 140,
+     "ageDays": 141,
      "age": "5 months old",
      "tier": "ok"
     },
@@ -3182,15 +3182,15 @@
      "url": "https://uk.trustpilot.com/review/pdfindexgenerator.com",
      "note": "PDF Index Generator rated 4.4 from 12 reviews; newest 2026-11-05 praises cheaper AI-assisted indexing; 3 reviews in the last 12 months",
      "date": "2026-11-05",
-     "ageDays": 13,
-     "age": "13 days old",
+     "ageDays": 14,
+     "age": "2 weeks old",
      "tier": "fresh"
     },
     {
      "url": "https://www.pdfindexgenerator.com/",
      "note": "Desktop tool with classic and AI modes and AI credits; version 3.7 released 2026-11-03",
      "date": "2026-11-03",
-     "ageDays": 15,
+     "ageDays": 16,
      "age": "2 weeks old",
      "tier": "fresh"
     }
@@ -3204,7 +3204,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=book%20indexing%20software",
       "note": "Autocomplete includes 'automatic book indexing software', 'best book indexing software', 'best free book indexing software'",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -3338,7 +3338,7 @@
       "url": "https://knowby.co/pricing",
       "note": "Digital instructions priced at 5 USD per user a month plus 2 cents per public view; page shows only (c)2026, date is when opened",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -3363,7 +3363,7 @@
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -3374,7 +3374,7 @@
      "url": "https://cecheck-com.pages.dev/machinery-regulation/",
      "note": "Directive applies until 2027-01-19, Regulation from 2027-01-20; page last reviewed October 2026",
      "date": "2026-10-01",
-     "ageDays": 48,
+     "ageDays": 49,
      "age": "7 weeks old",
      "tier": "fresh"
     },
@@ -3382,7 +3382,7 @@
      "url": "https://www.automationmagazine.co.uk/why-you-need-to-update-your-machinery-ce-marking-paperwork/",
      "note": "No transition period; DoC must cite the Regulation and can be given by web address or QR code; digital instructions allowed with a free printed copy on request",
      "date": "2026-06-29",
-     "ageDays": 142,
+     "ageDays": 143,
      "age": "5 months old",
      "tier": "ok"
     }
@@ -3396,7 +3396,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=machinery%20regulation%202023%2F1230%20declaration",
       "note": "Only one autocomplete suggestion: weak search volume",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -3525,7 +3525,7 @@
       "url": "https://eudaprep.pages.dev/pricing",
       "note": "399 EUR one-off for unlimited EUDAMED XML exports until 2026-05-28, then a subscription",
       "date": "2026-04-30",
-      "ageDays": 202,
+      "ageDays": 203,
       "age": "7 months old",
       "tier": "ok"
      }
@@ -3544,13 +3544,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 202,
+     "days": 203,
      "age": "newest source 7 months old",
      "tier": "ok",
      "n": 1
@@ -3561,7 +3561,7 @@
      "url": "https://www.obelis.net/news/eudamed-november-2026-deadline-what-to-do-now-to-be-ready/",
      "note": "Deadline of 2026-11-28 for devices placed before 2026-05-28; routes: UI (up to about 100 devices), XML bulk upload (100-1,000), M2M (over 1,000)",
      "date": "2026-10-27",
-     "ageDays": 22,
+     "ageDays": 23,
      "age": "3 weeks old",
      "tier": "fresh"
     },
@@ -3569,7 +3569,7 @@
      "url": "https://eudaprep.pages.dev/pricing",
      "note": "EUDAPrep sold unlimited XML exports for 399 EUR one-off until 2026-05-28, standard subscription afterwards (price not shown); aligned with XSD v3.0.28; page refers to the April 2026 EUDAMED release, …",
      "date": "2026-04-30",
-     "ageDays": 202,
+     "ageDays": 203,
      "age": "7 months old",
      "tier": "ok"
     },
@@ -3577,7 +3577,7 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=eudamed%20xml",
      "note": "10 autocomplete variants: xml file, format, upload, download, export, samples, example, udi xml",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -3591,7 +3591,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=eudamed%20xml",
       "note": "10 autocomplete variants for eudamed xml",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -3720,7 +3720,7 @@
       "url": "https://accessible.org/services/vpat/",
       "note": "Done-for-you ACRs priced at 350 USD (WCAG), 550 (508), 650 (EN 301 549) and 950 (INT) plus an audit at 100-250 USD per page or screen; the page shows only (c)2026, date is when opened",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -3739,13 +3739,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -3756,7 +3756,7 @@
      "url": "https://api.github.com/search/issues?q=VPAT+type:issue&sort=created&order=desc&per_page=15",
      "note": "1,425 GitHub issues mention VPAT; of the 15 newest (2026-11-14 to 2026-11-18), 8 ask a project for a VPAT/ACR, several tied to procurement or an RFP",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -3764,7 +3764,7 @@
      "url": "https://www.itic.org/policy/accessibility/vpat",
      "note": "ITI offers VPAT 2.5Rev (April 2025) in WCAG, 508, EN 301 549 and INT editions as free blank Word templates",
      "date": "2026-10-02",
-     "ageDays": 47,
+     "ageDays": 48,
      "age": "7 weeks old",
      "tier": "fresh"
     },
@@ -3772,7 +3772,7 @@
      "url": "https://www.ada.gov/resources/2024-03-08-web-rule/",
      "note": "Title II compliance dates after the 2026-04-20 interim final rule: 2027-04-26 (50,000+) and 2028-04-26 (smaller entities and special districts)",
      "date": "2026-04-20",
-     "ageDays": 212,
+     "ageDays": 213,
      "age": "7 months old",
      "tier": "ok"
     }
@@ -3786,7 +3786,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=vpat%20template",
       "note": "10 autocomplete variants including 'vpat template wcag 2.2', 'vpat template 2.5', 'vpat template download pdf'",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -3925,7 +3925,7 @@
       "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
       "note": "Shows the duty only; no price page for a comparable tool was opened",
       "date": "2026-01-01",
-      "ageDays": 321,
+      "ageDays": 322,
       "age": "11 months old",
       "tier": "ok"
      }
@@ -3944,13 +3944,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 321,
+     "days": 322,
      "age": "newest source 11 months old",
      "tier": "ok",
      "n": 2
     },
     "pay": {
-     "days": 321,
+     "days": 322,
      "age": "newest source 11 months old",
      "tier": "ok",
      "n": 1
@@ -3961,7 +3961,7 @@
      "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
      "note": "Anyone placing wine on the market in Austria must keep Ein- und Ausgangsbücher (Kellerbuch), kept continuously; legal basis § 31 Weingesetz; updated 2026-01-01",
      "date": "2026-01-01",
-     "ageDays": 321,
+     "ageDays": 322,
      "age": "11 months old",
      "tier": "ok"
     },
@@ -3969,7 +3969,7 @@
      "url": "https://wayback.edoweb-rlp.de/weltweit/20241029mp_/https:/add.rlp.de/fileadmin/add/Abteilung_4/Wein/Wein_-_Leitfaden_Weinbuchsfuehrung.pdf",
      "note": "German state guide on electronic wine bookkeeping; file dated 2010 (old, only shows electronic books are accepted)",
      "date": "2010-04-21",
-     "ageDays": 6055,
+     "ageDays": 6056,
      "age": "16 years 7 months old",
      "tier": "old"
     }
@@ -3983,7 +3983,7 @@
       "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
       "note": "Official business portal page on the duty; query suggestions not checked",
       "date": "2026-01-01",
-      "ageDays": 321,
+      "ageDays": 322,
       "age": "11 months old",
       "tier": "ok"
      }
@@ -4107,7 +4107,7 @@
       "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
       "note": "Shows the fines at stake, not a price anyone pays for a tool; no priced service was found",
       "date": "2025-07-01",
-      "ageDays": 505,
+      "ageDays": 506,
       "age": "17 months old",
       "tier": "old"
      }
@@ -4126,13 +4126,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 505,
+     "days": 506,
      "age": "newest source 17 months old",
      "tier": "old",
      "n": 1
@@ -4143,7 +4143,7 @@
      "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
      "note": "ZKO3 before work starts, A1, document list, collective-agreement minimum incl. 13th/14th salary, BUAK, substantial fines and more inspections; status July 2025",
      "date": "2025-07-01",
-     "ageDays": 505,
+     "ageDays": 506,
      "age": "17 months old",
      "tier": "old"
     },
@@ -4151,7 +4151,7 @@
      "url": "https://www.bmf.gv.at/themen/betrugsbekaempfung/zentrale-koordinationsstelle.html",
      "note": "Undated: notifications electronic only, separately per posting, framework notifications up to six months; no bulk or XML interface mentioned",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -4165,7 +4165,7 @@
       "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
       "note": "Several IHKs publish the same guide, so firms search for it; query suggestions not checked",
       "date": "2025-07-01",
-      "ageDays": 505,
+      "ageDays": 506,
       "age": "17 months old",
       "tier": "old"
      }
@@ -4289,7 +4289,7 @@
       "url": "https://www.haendlerbund.de/de/leistungen/rechtssicherheit/ppwr-konformitaetserklaerung",
       "note": "Merchants pay 9.90-57.90 EUR a month for legal memberships that include the PPWR template",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -4308,13 +4308,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 1
@@ -4325,7 +4325,7 @@
      "url": "https://www.tanso.de/blog/ppwr-konformitatserklarung-und-technische-dokumentation-was-unternehmen-ab-dem-12-august-2026-vorlegen-mussen",
      "note": "Who issues the DoC (manufacturer, brand owner as manufacturer), Annex VII contents, what to request from suppliers; updated 2026-08-13",
      "date": "2026-08-13",
-     "ageDays": 97,
+     "ageDays": 98,
      "age": "3 months old",
      "tier": "ok"
     },
@@ -4333,7 +4333,7 @@
      "url": "https://www.haendlerbund.de/de/leistungen/rechtssicherheit/ppwr-konformitaetserklaerung",
      "note": "Undated page written after 2026-08-12: free DoC template within memberships from 9.90 to 57.90 EUR a month; exemption for under 10 staff and 2m EUR turnover with a domestic packaging maker",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -4347,7 +4347,7 @@
       "url": "https://www.tanso.de/blog/ppwr-konformitatserklarung-und-technische-dokumentation-was-unternehmen-ab-dem-12-august-2026-vorlegen-mussen",
       "note": "Vendors compete on these queries with long guides",
       "date": "2026-08-13",
-      "ageDays": 97,
+      "ageDays": 98,
       "age": "3 months old",
       "tier": "ok"
      }
@@ -4481,7 +4481,7 @@
       "url": "https://www.certifiedcosmetics.com/de/?p=9382",
       "note": "Makers pay 150-669 per product for assessment and PIF, a nearby job",
       "date": "2025-03-28",
-      "ageDays": 600,
+      "ageDays": 601,
       "age": "20 months old",
       "tier": "old"
      }
@@ -4500,13 +4500,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 110,
+     "days": 111,
      "age": "newest source 4 months old",
      "tier": "ok",
      "n": 2
     },
     "pay": {
-     "days": 600,
+     "days": 601,
      "age": "newest source 20 months old",
      "tier": "old",
      "n": 1
@@ -4517,7 +4517,7 @@
      "url": "https://ecomundo.eu/en/blog/fragrance-allergen-labelling",
      "note": "Deadlines 31 July 2026 (new) and 31 July 2028 (existing); 24 plus 57 allergens; thresholds 0.001% and 0.01%; enterprise tools without prices",
      "date": "2026-04-16",
-     "ageDays": 216,
+     "ageDays": 217,
      "age": "7 months old",
      "tier": "ok"
     },
@@ -4525,7 +4525,7 @@
      "url": "https://www.certifiedcosmetics.com/de/?p=9382",
      "note": "Safety assessor prices: CPSR from 150, CPSR plus PIF from 400, complete package from 669 (last modified 2025-03-28)",
      "date": "2025-03-28",
-     "ageDays": 600,
+     "ageDays": 601,
      "age": "20 months old",
      "tier": "old"
     }
@@ -4539,7 +4539,7 @@
       "url": "https://ecomundo.eu/en/blog/fragrance-allergen-labelling",
       "note": "Vendors publish guides on the rule; query suggestions not checked",
       "date": "2026-04-16",
-      "ageDays": 216,
+      "ageDays": 217,
       "age": "7 months old",
       "tier": "ok"
      }
@@ -4663,7 +4663,7 @@
       "url": "https://www.aok.de/fk/sozialversicherung/kuenstlersozialabgabe/meldepflichten-und-faelligkeit-kuenstlersozialabgabe/",
       "note": "Shows the money at stake (fines, five-year back payment), not a price someone pays for a tool; no priced tool found",
       "date": "2026-01-01",
-      "ageDays": 321,
+      "ageDays": 322,
       "age": "11 months old",
       "tier": "ok"
      }
@@ -4682,13 +4682,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 239,
+     "days": 240,
      "age": "newest source 8 months old",
      "tier": "ok",
      "n": 2
     },
     "pay": {
-     "days": 321,
+     "days": 322,
      "age": "newest source 11 months old",
      "tier": "ok",
      "n": 1
@@ -4699,7 +4699,7 @@
      "url": "https://www.aok.de/fk/sozialversicherung/kuenstlersozialabgabe/meldepflichten-und-faelligkeit-kuenstlersozialabgabe/",
      "note": "Report due 31 March; missing or wrong reports are an offence with fines up to 50,000 EUR; audits recover five years of contributions",
      "date": "2026-01-01",
-     "ageDays": 321,
+     "ageDays": 322,
      "age": "11 months old",
      "tier": "ok"
     },
@@ -4707,7 +4707,7 @@
      "url": "https://www.deutsche-handwerks-zeitung.de/?p=376762",
      "note": "Businesses paying freelance creatives over the threshold must report by 31 March; payments to GmbH/UG/AG etc. exempt; split creative work from print costs; rate 4.9% for 2026",
      "date": "2026-03-24",
-     "ageDays": 239,
+     "ageDays": 240,
      "age": "8 months old",
      "tier": "ok"
     }
@@ -4721,7 +4721,7 @@
       "url": "https://www.deutsche-handwerks-zeitung.de/?p=376762",
       "note": "Trade press runs the topic every March; query suggestions not checked",
       "date": "2026-03-24",
-      "ageDays": 239,
+      "ageDays": 240,
       "age": "8 months old",
       "tier": "ok"
      }
@@ -4849,7 +4849,7 @@
       "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
       "note": "An existing paid program with paid maintenance; no price shown, so the price level is unverified",
       "date": "2025-09-19",
-      "ageDays": 425,
+      "ageDays": 426,
       "age": "14 months old",
       "tier": "old"
      }
@@ -4868,13 +4868,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 425,
+     "days": 426,
      "age": "newest source 14 months old",
      "tier": "old",
      "n": 2
     },
     "pay": {
-     "days": 425,
+     "days": 426,
      "age": "newest source 14 months old",
      "tier": "old",
      "n": 1
@@ -4885,7 +4885,7 @@
      "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
      "note": "Jagdpachtverwaltung: desktop program since 1997 with modules Kataster, Kassenbuch, Auszahlung, Versammlung, ALKIS import; maintenance and hotline paid extra; page updated 2025-09-19",
      "date": "2025-09-19",
-     "ageDays": 425,
+     "ageDays": 426,
      "age": "14 months old",
      "tier": "old"
     },
@@ -4893,7 +4893,7 @@
      "url": "https://www.landtreff.de/threads/jagdpachtverwendung.143591/",
      "note": "Farmers' forum: cooperatives pay out 5-20 EUR per hectare or use funds for roads; newest visible posts 2023-10-13 (old)",
      "date": "2023-10-13",
-     "ageDays": 1132,
+     "ageDays": 1133,
      "age": "3 years 1 month old",
      "tier": "old"
     }
@@ -4907,7 +4907,7 @@
       "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
       "note": "A software directory keeps a category for this niche; query suggestions not checked",
       "date": "2025-09-19",
-      "ageDays": 425,
+      "ageDays": 426,
       "age": "14 months old",
       "tier": "old"
      }
@@ -5036,7 +5036,7 @@
       "url": "https://www.gartenbund.de/",
       "note": "Clubs pay 12 EUR a month plus 0.12 EUR per plot for the same job",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      },
@@ -5044,7 +5044,7 @@
       "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
       "note": "Club software at 119 EUR a year",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -5063,13 +5063,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 2
@@ -5080,7 +5080,7 @@
      "url": "https://www.gartenbund.de/",
      "note": "Undated page (copyright 2026), seen 2026-11-18: Gartenbund Pro web software with plots, consumption (water, electricity) and Pachtrechnungen; 12 EUR a month base plus 0.12 EUR per plot (100 plots = 2…",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     },
@@ -5088,7 +5088,7 @@
      "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
      "note": "Undated page (copyright 2026), seen 2026-11-18: club software marketed to allotment clubs with no plot, meter or lease billing; 119 EUR a year above 5 admins, up to 50 members",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -5102,7 +5102,7 @@
       "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
       "note": "A club-software vendor runs a dedicated page for allotment clubs, so the query is targeted; ranking positions were not checked",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -5231,7 +5231,7 @@
       "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
       "note": "Base passport package from 1,499 EUR net a month",
       "date": "2026-03-16",
-      "ageDays": 247,
+      "ageDays": 248,
       "age": "8 months old",
       "tier": "ok"
      }
@@ -5256,7 +5256,7 @@
      "n": 3
     },
     "pay": {
-     "days": 247,
+     "days": 248,
      "age": "newest source 8 months old",
      "tier": "ok",
      "n": 1
@@ -5267,7 +5267,7 @@
      "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
      "note": "Passport from 18 Feb 2027 for traction, LMT and industrial >2 kWh batteries; Handwerk affected; ZVEH notes extra admin burden; no tools named",
      "date": "2026-05-07",
-     "ageDays": 195,
+     "ageDays": 196,
      "age": "6 months old",
      "tier": "ok"
     },
@@ -5275,7 +5275,7 @@
      "url": "https://www.ingenieur.de/fachmedien/konstruktion/produktentwicklung/digitaler-batteriepass-fuer-kmu-dpp-hero/",
      "note": "Article (sponsored) on battery passport software for SMEs by DPP Hero; scope: traction, industrial >2 kWh, LMT",
      "date": "2026-08-20",
-     "ageDays": 90,
+     "ageDays": 91,
      "age": "3 months old",
      "tier": "fresh"
     },
@@ -5283,7 +5283,7 @@
      "url": "https://upway.de/blogs/news/eu-single-cell-verordnung-warum-reparatur-beim-e-bike-akku-an-ihre-grenzen-stosst",
      "note": "From 18 Feb 2027 LMT cells must be replaceable by independent professionals; spare-part and tool duties for makers",
      "date": "2026-07-14",
-     "ageDays": 127,
+     "ageDays": 128,
      "age": "4 months old",
      "tier": "ok"
     }
@@ -5297,7 +5297,7 @@
       "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
       "note": "Trade press addressing Handwerk shows the target group is reading about the duty; query suggestions were not checked",
       "date": "2026-05-07",
-      "ageDays": 195,
+      "ageDays": 196,
       "age": "6 months old",
       "tier": "ok"
      }
@@ -5426,15 +5426,15 @@
       "url": "https://ema-energiewelt.de/pv-netzanmeldung-fuer-solarteure",
       "note": "Installers pay 200-275 EUR net per registration in packs",
       "date": "2026-11-08",
-      "ageDays": 10,
-      "age": "10 days old",
+      "ageDays": 11,
+      "age": "11 days old",
       "tier": "fresh"
      },
      {
       "url": "https://www.photovoltaik.info/kosten-netzanmeldung-elektriker-sparen/",
       "note": "Electricians bill 120-500 EUR for the registration work",
       "date": "2026-05-29",
-      "ageDays": 173,
+      "ageDays": 174,
       "age": "6 months old",
       "tier": "ok"
      }
@@ -5453,14 +5453,14 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 0,
+     "days": 1,
      "age": "newest source from today",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 10,
-     "age": "newest source 10 days old",
+     "days": 11,
+     "age": "newest source 11 days old",
      "tier": "fresh",
      "n": 2
     }
@@ -5470,15 +5470,15 @@
      "url": "https://ema-energiewelt.de/pv-netzanmeldung-fuer-solarteure",
      "note": "Done-for-you registration for installers: PV/wallbox and heat pump 275/250/200 EUR net per job in 10/50/100 packs, MaStR entry 69-89 EUR; worked with over 278 operators, database of 741; prices valid…",
      "date": "2026-11-08",
-     "ageDays": 10,
-     "age": "10 days old",
+     "ageDays": 11,
+     "age": "11 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.photovoltaik.info/kosten-netzanmeldung-elektriker-sparen/",
      "note": "Electrician's registration work takes 2 to 5 hours at 60 to 100 EUR an hour (120-500 EUR); whole process four weeks to months",
      "date": "2026-05-29",
-     "ageDays": 173,
+     "ageDays": 174,
      "age": "6 months old",
      "tier": "ok"
     },
@@ -5486,7 +5486,7 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=netzanmeldung",
      "note": "Nine autocomplete variants incl. pv, wärmepumpe, wallbox, bayernwerk, digital, dienstleister, kosten",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -5500,7 +5500,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=netzanmeldung",
       "note": "Nine variants incl. an operator name and 'dienstleister'; who ranks was not checked",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      }
@@ -5633,7 +5633,7 @@
       "url": "https://qrplanet.com/help/article/eu-battery-regulation",
       "note": "Hosted trackable QR codes with product information from 5 EUR a month",
       "date": "2026-05-25",
-      "ageDays": 177,
+      "ageDays": 178,
       "age": "6 months old",
       "tier": "ok"
      },
@@ -5641,7 +5641,7 @@
       "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
       "note": "Enterprise battery passport package from 1,499 EUR net a month",
       "date": "2026-03-16",
-      "ageDays": 247,
+      "ageDays": 248,
       "age": "8 months old",
       "tier": "ok"
      }
@@ -5666,7 +5666,7 @@
      "n": 4
     },
     "pay": {
-     "days": 177,
+     "days": 178,
      "age": "newest source 6 months old",
      "tier": "ok",
      "n": 2
@@ -5677,7 +5677,7 @@
      "url": "https://www.it-recht-kanzlei.de/qr-code-pflicht-fuer-batterien-ab-2027.html",
      "note": "QR code duty from 18 Feb 2027 for batteries incl. built-in ones; content initially DoC, due-diligence report where required, waste info; label act delayed but QR date unaffected",
      "date": "2026-11-02",
-     "ageDays": 16,
+     "ageDays": 17,
      "age": "2 weeks old",
      "tier": "fresh"
     },
@@ -5685,7 +5685,7 @@
      "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
      "note": "Trade press for Handwerk: QR-code based battery passport mandatory from 18 Feb 2027; no postponement mentioned; no tools or prices for small firms",
      "date": "2026-05-07",
-     "ageDays": 195,
+     "ageDays": 196,
      "age": "6 months old",
      "tier": "ok"
     },
@@ -5693,7 +5693,7 @@
      "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
      "note": "E-commerce press: Magenta Digital Product Passport base package from 1,499 EUR net a month for up to 5,000 passes a year",
      "date": "2026-03-16",
-     "ageDays": 247,
+     "ageDays": 248,
      "age": "8 months old",
      "tier": "ok"
     },
@@ -5701,7 +5701,7 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=batterie%20qr%20code",
      "note": "Autocomplete: batterie qr code, varta batterie qr code, qr code batterie lifepo4, qr code batterie bosch",
      "date": "2026-11-18",
-     "ageDays": 0,
+     "ageDays": 1,
      "age": "from today",
      "tier": "fresh"
     }
@@ -5715,7 +5715,7 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=batterie%20qr%20code",
       "note": "Four autocomplete variants incl. lifepo4 and brand names; who ranks was not checked",
       "date": "2026-11-18",
-      "ageDays": 0,
+      "ageDays": 1,
       "age": "from today",
       "tier": "fresh"
      },
@@ -5723,7 +5723,7 @@
       "url": "https://www.it-recht-kanzlei.de/qr-code-pflicht-fuer-batterien-ab-2027.html",
       "note": "Law-firm explainer aimed at sellers, showing the topic is searched by merchants",
       "date": "2026-11-02",
-      "ageDays": 16,
+      "ageDays": 17,
       "age": "2 weeks old",
       "tier": "fresh"
      }
@@ -5857,8 +5857,8 @@
       "url": "https://publishdrive.com/pricing",
       "note": "Seen as a search result: Abacus from 1.49 USD per title per month, first title free",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ],
@@ -5876,14 +5876,14 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -5893,16 +5893,16 @@
      "url": "https://publishdrive.com/abacus.html",
      "note": "PublishDrive Abacus imports KDP (incl. KU and ACX), IngramSpark, Draft2Digital, Kobo, Google Play and Apple Books reports and generates royalty statements; quote-based; undated page (copyright 2026),…",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     },
     {
      "url": "https://janefriedman.com/a-new-tool-to-help-indie-authors-and-small-publishers-calculate-royalties/",
      "note": "Article on Abacus as a royalty-splitting service for small publishers (body paywalled)",
      "date": "2025-04-05",
-     "ageDays": 592,
-     "age": "19 months old",
+     "ageDays": 593,
+     "age": "20 months old",
      "tier": "old"
     }
    ],
@@ -5915,8 +5915,8 @@
       "url": "https://publishdrive.com/abacus.html",
       "note": "A rival ranks for the category; autocomplete not checked",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ]
@@ -6049,8 +6049,8 @@
       "url": "https://sealogical.com/faq",
       "note": "Vessels pay 320 EUR per vessel per month for a suite that includes hours of rest",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ],
@@ -6068,14 +6068,14 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -6085,7 +6085,7 @@
      "url": "https://isfwatchkeeper.com/",
      "note": "ISF Watchkeeper: STCW/MLC rest-hours software installed on over 10,000 vessels; price on request; footer copyright 2022 only",
      "date": "2022-12-31",
-     "ageDays": 1418,
+     "ageDays": 1419,
      "age": "3 years 11 months old",
      "tier": "old"
     },
@@ -6093,8 +6093,8 @@
      "url": "https://sealogical.com/faq",
      "note": "Sealogical: 320 EUR per vessel per month including the Hours of Rest module; undated page (copyright 2026), opened on this date",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     }
    ],
@@ -6107,7 +6107,7 @@
       "url": "https://isfwatchkeeper.com/",
       "note": "The leader ranks for the category; query autocomplete not checked",
       "date": "2022-12-31",
-      "ageDays": 1418,
+      "ageDays": 1419,
       "age": "3 years 11 months old",
       "tier": "old"
      }
@@ -6246,8 +6246,8 @@
       "url": "https://sealogical.com/faq",
       "note": "Yachts pay 320 EUR per vessel per month for a management suite; a search result says its APA statements are part of the offer (not confirmed on the page)",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ],
@@ -6265,14 +6265,14 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -6282,15 +6282,15 @@
      "url": "https://sealogical.com/faq",
      "note": "Sealogical yacht management: 320 EUR / 360 USD per vessel per month for all modules except Finance and Deck Plans add-ons; 740+ to 1,000+ vessels; undated page (copyright 2026), opened on this date",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.boatinternational.com/boat-pro/superyacht-insight/voly-apa-charter-spending",
      "note": "Voly article: APA has been done with convoluted spreadsheets, multiple Excel documents and physical receipts; captains do not have time to act as accountants (promotional, old)",
      "date": "2022-03-09",
-     "ageDays": 1715,
+     "ageDays": 1716,
      "age": "4 years 8 months old",
      "tier": "old"
     }
@@ -6304,8 +6304,8 @@
       "url": "https://sealogical.com/faq",
       "note": "Shows yachts buy management software online; query autocomplete not checked",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ]
@@ -6443,8 +6443,8 @@
       "url": "https://shop.electronics.org/ipc-1752/ipc-1752-standard-amendments/Revision-a/english",
       "note": "Seen as a search result: the IPC-1752A standard itself costs 114 USD for non-members; no priced small-supplier tool was found",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ],
@@ -6462,14 +6462,14 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -6479,16 +6479,16 @@
      "url": "https://www.z2data.com/insights/why-your-suppliers-should-be-using-ipc-1752a-xml-for-material-compliance",
      "note": "OEM-side vendor article urging suppliers to submit IPC-1752A XML and give non-compliant suppliers a timeline; last modified 2026-11-12",
      "date": "2026-11-12",
-     "ageDays": 6,
-     "age": "6 days old",
+     "ageDays": 7,
+     "age": "7 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.assent.com/resources/tools/assent-materials-declaration-tool/",
      "note": "Assent's tool creates IPC-1752A classes A, C and D and IPC-1754; no price or eligibility shown; undated page (copyright 2026), opened on this date",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     }
    ],
@@ -6501,8 +6501,8 @@
       "url": "https://www.z2data.com/insights/why-your-suppliers-should-be-using-ipc-1752a-xml-for-material-compliance",
       "note": "Shows OEM pressure on suppliers to use the format; query volume was not checked",
       "date": "2026-11-12",
-      "ageDays": 6,
-      "age": "6 days old",
+      "ageDays": 7,
+      "age": "7 days old",
       "tier": "fresh"
      }
     ]
@@ -6630,7 +6630,7 @@
       "url": "https://softwareconnect.com/calibration-management/gagelist",
       "note": "Shops pay GageList 79 USD a month for up to 500 gages",
       "date": "2026-10-13",
-      "ageDays": 36,
+      "ageDays": 37,
       "age": "5 weeks old",
       "tier": "fresh"
      }
@@ -6649,13 +6649,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 36,
+     "days": 37,
      "age": "newest source 5 weeks old",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 36,
+     "days": 37,
      "age": "newest source 5 weeks old",
      "tier": "fresh",
      "n": 1
@@ -6666,7 +6666,7 @@
      "url": "https://softwareconnect.com/calibration-management/gagelist",
      "note": "GageList: free for 25 gages and 5 users, 79 USD a month for 500 gages, 159 USD for 1,000",
      "date": "2026-10-13",
-     "ageDays": 36,
+     "ageDays": 37,
      "age": "5 weeks old",
      "tier": "fresh"
     },
@@ -6674,7 +6674,7 @@
      "url": "https://softwareconnect.com/roundups/best-calibration-management-software/",
      "note": "Roundup: GAGEtrak 29-79 USD per user a month, IndySoft 199 USD, Calibration Control 768 USD once, GageList free to 79 USD",
      "date": "2026-10-13",
-     "ageDays": 36,
+     "ageDays": 37,
      "age": "5 weeks old",
      "tier": "fresh"
     }
@@ -6688,7 +6688,7 @@
       "url": "https://softwareconnect.com/roundups/best-calibration-management-software/",
       "note": "A 2026 roundup ranks for the category query, which shows buyers search and compare here",
       "date": "2026-10-13",
-      "ageDays": 36,
+      "ageDays": 37,
       "age": "5 weeks old",
       "tier": "fresh"
      }
@@ -6826,7 +6826,7 @@
       "url": "https://sablot.app/",
       "note": "Auction houses pay Sablot 149 GBP a month and up for cataloguing and platform links",
       "date": "2026-10-01",
-      "ageDays": 48,
+      "ageDays": 49,
       "age": "7 weeks old",
       "tier": "fresh"
      }
@@ -6845,13 +6845,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 48,
+     "days": 49,
      "age": "newest source 7 weeks old",
      "tier": "fresh",
      "n": 1
@@ -6862,7 +6862,7 @@
      "url": "https://sablot.app/",
      "note": "Sablot auction management: 149-249 GBP a month plus 849-1,119 GBP setup; direct thesaleroom link; Invaluable and LiveAuctioneers only via results import; case study running since March 2026, figures …",
      "date": "2026-10-01",
-     "ageDays": 48,
+     "ageDays": 49,
      "age": "7 weeks old",
      "tier": "fresh"
     },
@@ -6870,8 +6870,8 @@
      "url": "https://www.capterra.com/p/10042965/LotUp/",
      "note": "Seen as a search result only (Capterra refuses the fetcher): LotUp 49 GBP a month flat, portal-ready CSVs for TheSaleRoom/BidSpotter, EasyLive, HiBid, Proxibid and Invaluable",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     }
    ],
@@ -6884,7 +6884,7 @@
       "url": "https://sablot.app/",
       "note": "Shows houses buying cataloguing tools in 2026; the template queries' autocomplete was not checked in this run",
       "date": "2026-10-01",
-      "ageDays": 48,
+      "ageDays": 49,
       "age": "7 weeks old",
       "tier": "fresh"
      }
@@ -7013,7 +7013,7 @@
       "url": "https://www.onixedit.com/",
       "note": "ONIXEDIT sells the same job: Cloud from 15.25 USD a month, Pro 475 USD once, Converter 350 USD",
       "date": "2026-10-05",
-      "ageDays": 44,
+      "ageDays": 45,
       "age": "6 weeks old",
       "tier": "fresh"
      }
@@ -7032,13 +7032,13 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 44,
+     "days": 45,
      "age": "newest source 6 weeks old",
      "tier": "fresh",
      "n": 1
@@ -7049,7 +7049,7 @@
      "url": "https://www.bisg.org/news/time-to-act-the-onix-3-transition-is-actually-here",
      "note": "BISG: Amazon set March 2026 as the deadline for all ONIX-sending publishers to stop sending ONIX 2.1",
      "date": "2025-10-28",
-     "ageDays": 386,
+     "ageDays": 387,
      "age": "13 months old",
      "tier": "old"
     },
@@ -7057,7 +7057,7 @@
      "url": "https://www.onixedit.com/",
      "note": "ONIXEDIT: Cloud browser editor from 15.25 USD a month, Pro 475 USD once (Windows), Excel/CSV-to-ONIX Converter 350 USD; newest blog post dated 2026-10-05",
      "date": "2026-10-05",
-     "ageDays": 44,
+     "ageDays": 45,
      "age": "6 weeks old",
      "tier": "fresh"
     },
@@ -7065,8 +7065,8 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=onix%20file",
      "note": "Autocomplete: 'onix file format', 'onix file example', 'onix 3.0 sample file' (other variants unrelated)",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     }
    ],
@@ -7079,8 +7079,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=onix%20file",
       "note": "Three book-metadata variants in the autocomplete for 'onix file'",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ]
@@ -7213,15 +7213,15 @@
       "url": "https://slashdot.org/software/p/Quote-Cut/",
       "note": "Quote & Cut charges 249-299 GBP a month for its Advanced plan of the same instant-quote job",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      },
      {
       "url": "https://alternativeto.net/software/nanoquote-app/about/",
       "note": "NanoQuote charges 9 to 79 USD a month for DXF quoting",
       "date": "2026-06-29",
-      "ageDays": 142,
+      "ageDays": 143,
       "age": "5 months old",
       "tier": "ok"
      }
@@ -7240,14 +7240,14 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 2
     }
@@ -7257,15 +7257,15 @@
      "url": "https://slashdot.org/software/p/Quote-Cut/",
      "note": "Quote & Cut (founded 2026): DXF upload with nesting-based prices inside WooCommerce; Starter free (25 quotes a month), Advanced 249-299 GBP a month, Enterprise 799-999 GBP; page title says 2026, open…",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     },
     {
      "url": "https://alternativeto.net/software/nanoquote-app/about/",
      "note": "NanoQuote: DXF and STEP quotes for laser, plasma, waterjet and CNC shops, customer quote pages, 9 to 79 USD a month, no website widget mentioned",
      "date": "2026-06-29",
-     "ageDays": 142,
+     "ageDays": 143,
      "age": "5 months old",
      "tier": "ok"
     },
@@ -7273,8 +7273,8 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=laser%20cutting%20quote",
      "note": "Autocomplete includes 'laser cutting quote software', 'laser cutting instant quote', 'laser cutting quote online'",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     }
    ],
@@ -7287,8 +7287,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=laser%20cutting%20quote",
       "note": "One of 10 variants is the shop-side 'laser cutting quote software'; most variants are buyers looking for a cutting service",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ]
@@ -7426,8 +7426,8 @@
       "url": "https://separo.io/",
       "note": "Separo charges 49 USD a month (10 simulated-process jobs) and 149 USD a month for the same job; undated page opened on this date",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ],
@@ -7445,14 +7445,14 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 2
     },
     "pay": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -7462,16 +7462,16 @@
      "url": "https://separo.io/",
      "note": "Undated page, opened on this date: online automatic separations for screen printing, Starter 49 USD a month with 10 simulated-process jobs, Plus 149 USD a month",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     },
     {
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=color%20separation%20software",
      "note": "10 autocomplete variants including 'for screen printing', 'free', 'for coreldraw', 'for photoshop' and 'best ... for screen printing'",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     }
    ],
@@ -7484,8 +7484,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=color%20separation%20software",
       "note": "Autocomplete shows 10 variants, 4 about screen printing and 3 asking for free tools",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ]
@@ -7618,8 +7618,8 @@
       "url": "https://lightningtools.com/sharepoint-form-migrator-pricing",
       "note": "Undated pricing page (copyright 2026), opened on this date: Form Instance Archiving (a PDF of each completed form) from 950 USD for 25 libraries; InfoPath data conversion from 4,500 USD; 20% support …",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ],
@@ -7637,14 +7637,14 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 1,
-     "age": "newest source from today",
+     "days": 2,
+     "age": "newest source 2 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -7654,7 +7654,7 @@
      "url": "https://techcommunity.microsoft.com/blog/spblog/support-update-for-infopath-forms-services-in-microsoft-365/3858190",
      "note": "Microsoft's primary notice: removal after 2026-07-14 for all tenants, no extension; unmigrated users can only download .xsn/.xml files and open them in InfoPath Client 2013",
      "date": "2023-06-30",
-     "ageDays": 1237,
+     "ageDays": 1238,
      "age": "3 years 5 months old",
      "tier": "old"
     },
@@ -7662,16 +7662,16 @@
      "url": "https://lightningtools.com/blog/infopath-migration-forms-xml-data/",
      "note": "Updated after the removal: retirement does not convert existing XML submissions; Power Apps has no native way to import Form Library XML",
      "date": "2026-11-06",
-     "ageDays": 12,
-     "age": "12 days old",
+     "ageDays": 13,
+     "age": "13 days old",
      "tier": "fresh"
     },
     {
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=infopath%20xml",
      "note": "Google autocomplete for 'infopath xml' returns 'infopath xml viewer' and 'infopath xml to pdf'",
      "date": "2026-11-17",
-     "ageDays": 1,
-     "age": "from today",
+     "ageDays": 2,
+     "age": "2 days old",
      "tier": "fresh"
     }
    ],
@@ -7684,8 +7684,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=infopath%20xml",
       "note": "Autocomplete shows the viewer and PDF queries; a web search for a viewer returned only 2004 MSDN posts and migration vendors, no viewer product",
       "date": "2026-11-17",
-      "ageDays": 1,
-      "age": "from today",
+      "ageDays": 2,
+      "age": "2 days old",
       "tier": "fresh"
      }
     ]
@@ -7823,8 +7823,8 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 4,
-     "age": "newest source 4 days old",
+     "days": 5,
+     "age": "newest source 5 days old",
      "tier": "fresh",
      "n": 6
     },
@@ -7835,7 +7835,7 @@
      "url": "https://www.test.de/Einbau-von-Waermepumpen-Lueckenhafte-Angebote-riesige-Kostenspanne-6228678-0/",
      "note": "Stiftung Warentest on 160 quotes collected by VZ RLP: about 20,000 to more than 60,000 euros for the same job, average about 36,000; only about a quarter compl…",
      "date": "2025-06-25",
-     "ageDays": 511,
+     "ageDays": 512,
      "age": "17 months old",
      "tier": "old"
     },
@@ -7843,7 +7843,7 @@
      "url": "https://www.finanztip.de/daily/web/bis-zu-300-prozent-preisunterschied-so-vergleichst-du-waermepumpen-angebote/",
      "note": "Verbraucherzentrale energy advice evaluated more than 2,000 heat pump quotes over 18 months; up to 300% price differences; missing items can add more than 10,0…",
      "date": "2026-10-02",
-     "ageDays": 47,
+     "ageDays": 48,
      "age": "7 weeks old",
      "tier": "fresh"
     },
@@ -7851,7 +7851,7 @@
      "url": "https://www.solarserver.de/2026/01/27/bwp-waermepumpen-absatz-um-55-prozent-in-2025-gestiegen/",
      "note": "BWP: 299,000 heating heat pumps sold in 2025 (+55%), 288,000 KfW grant commitments; warns a reformed buildings energy law could slow investment.",
      "date": "2026-01-27",
-     "ageDays": 295,
+     "ageDays": 296,
      "age": "10 months old",
      "tier": "ok"
     },
@@ -7859,7 +7859,7 @@
      "url": "https://www.verbraucherzentrale-niedersachsen.de/node/121323",
      "note": "The incumbent public offer: free quote check by energy advisers via upload and video call, funded by the federal ministry.",
      "date": "2025-07-15",
-     "ageDays": 491,
+     "ageDays": 492,
      "age": "16 months old",
      "tier": "old"
     }
@@ -7933,8 +7933,8 @@
       "url": "https://www.objego.de/preise",
       "note": "German landlords pay 7.95 EUR a month plus 0.95 EUR per unit a month for the same job under German law (page undated, footer 2026)",
       "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
+      "ageDays": 3,
+      "age": "3 days old",
       "tier": "fresh"
      }
     ],
@@ -7962,14 +7962,14 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
+     "days": 3,
+     "age": "newest source 3 days old",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
+     "days": 3,
+     "age": "newest source 3 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -7979,7 +7979,7 @@
      "url": "https://www.infina.at/ratgeber/betriebskostenabrechnung/",
      "note": "Deadline 30.6. of the following year; private owners take the Hausverwaltung's statement and remove non-chargeable items (Reparaturrücklage) to derive the tenant statement; some hire a 'Subverwaltung…",
      "date": "2026-09-03",
-     "ageDays": 76,
+     "ageDays": 77,
      "age": "3 months old",
      "tier": "fresh"
     },
@@ -7987,16 +7987,16 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=betriebskostenabrechnung%20%C3%B6sterreich",
      "note": "10 suggestions incl. 'software', 'vorlage', 'umsatzsteuer', 'mieterwechsel', 'verwaltungskosten', 'beispiel'",
      "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
+     "ageDays": 3,
+     "age": "3 days old",
      "tier": "fresh"
     },
     {
      "url": "https://wien.arbeiterkammer.at/beratung/Wohnen/eigentum/wohnung/Abrechnungen.html",
      "note": "AK Wien: owners' yearly statement due six months after the period, with reserve balance and costs incl. VAT. Undated page (footer 2026); date is the day it was opened.",
      "date": "2026-11-16",
-     "ageDays": 2,
-     "age": "2 days old",
+     "ageDays": 3,
+     "age": "3 days old",
      "tier": "fresh"
     }
    ],
@@ -8009,8 +8009,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=betriebskostenabrechnung%20%C3%B6sterreich",
       "note": "'software' and 'vorlage' are among the 10 suggestions",
       "date": "2026-11-16",
-      "ageDays": 2,
-      "age": "2 days old",
+      "ageDays": 3,
+      "age": "3 days old",
       "tier": "fresh"
      }
     ]
@@ -8169,15 +8169,15 @@
       "url": "https://www.taxesforexpats.com/services/pfic-filing.html",
       "note": "Form 8621 priced at USD 200 for one and USD 150 for each additional; page shows no date, footer (c) 2026, seen 2026-11-15",
       "date": "2026-11-15",
-      "ageDays": 3,
-      "age": "3 days old",
+      "ageDays": 4,
+      "age": "4 days old",
       "tier": "fresh"
      },
      {
       "url": "https://getbelong.com/blog/mutual-funds/report-indian-mutual-funds-on-us-tax-return/",
       "note": "CPAs charge USD 500-2,000 per fund; USD 1,000-3,000 a year for a typical Indian MF portfolio",
       "date": "2026-03-09",
-      "ageDays": 254,
+      "ageDays": 255,
       "age": "8 months old",
       "tier": "ok"
      }
@@ -8206,14 +8206,14 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 3,
-     "age": "newest source 3 days old",
+     "days": 4,
+     "age": "newest source 4 days old",
      "tier": "fresh",
      "n": 4
     },
     "pay": {
-     "days": 3,
-     "age": "newest source 3 days old",
+     "days": 4,
+     "age": "newest source 4 days old",
      "tier": "fresh",
      "n": 2
     }
@@ -8223,7 +8223,7 @@
      "url": "https://getbelong.com/blog/mutual-funds/report-indian-mutual-funds-on-us-tax-return/",
      "note": "NRI guide: cross-border CPAs charge USD 500-2,000 per fund for these calculations, most retail tax software does not support Form 8621, one form per fund",
      "date": "2026-03-09",
-     "ageDays": 254,
+     "ageDays": 255,
      "age": "8 months old",
      "tier": "ok"
     },
@@ -8231,24 +8231,24 @@
      "url": "https://www.richify.ai/us/tools/form-8621-calculator",
      "note": "Free calculator: single lot, section 1291 only, no mark-to-market, no QEF, no filled PDF; last reviewed 10 Nov 2026",
      "date": "2026-11-10",
-     "ageDays": 8,
-     "age": "8 days old",
+     "ageDays": 9,
+     "age": "9 days old",
      "tier": "fresh"
     },
     {
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=pfic%20calculator",
      "note": "10 suggestions incl. 'free pfic calculator', 'pfic tax calculator excel', '8621 pfic calculator', 'pfic excess distribution calculator'",
      "date": "2026-11-15",
-     "ageDays": 3,
-     "age": "3 days old",
+     "ageDays": 4,
+     "age": "4 days old",
      "tier": "fresh"
     },
     {
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=form%208621",
      "note": "10 suggestions incl. 'form 8621 instructions 2025', 'form 8621 filing threshold', 'form 8621 pfic'",
      "date": "2026-11-15",
-     "ageDays": 3,
-     "age": "3 days old",
+     "ageDays": 4,
+     "age": "4 days old",
      "tier": "fresh"
     }
    ],
@@ -8261,8 +8261,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=pfic%20calculator",
       "note": "10 autocomplete variants for the calculator intent",
       "date": "2026-11-15",
-      "ageDays": 3,
-      "age": "3 days old",
+      "ageDays": 4,
+      "age": "4 days old",
       "tier": "fresh"
      }
     ]
@@ -8421,15 +8421,15 @@
       "url": "https://www.wattline.de/a/x/8159cd55bc/strom-und-energiesteuern-factsheet.pdf",
       "note": "Seen in search result: Wattline works fully on success fee and keeps 37.5% of the refund. Page date not shown; date given is the day it was seen.",
       "date": "2026-11-15",
-      "ageDays": 3,
-      "age": "3 days old",
+      "ageDays": 4,
+      "age": "4 days old",
       "tier": "fresh"
      },
      {
       "url": "https://www.vattenfall.de/geschaeftskunden/ves/magazin/energie/stromsteuer",
       "note": "Opened: 50,000 kWh gives 1,000 EUR a year, so a 37.5% fee is 375 EUR and 79 EUR undercuts it.",
       "date": "2026-10-21",
-      "ageDays": 28,
+      "ageDays": 29,
       "age": "4 weeks old",
       "tier": "fresh"
      }
@@ -8458,14 +8458,14 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 3,
-     "age": "newest source 3 days old",
+     "days": 4,
+     "age": "newest source 4 days old",
      "tier": "fresh",
      "n": 5
     },
     "pay": {
-     "days": 3,
-     "age": "newest source 3 days old",
+     "days": 4,
+     "age": "newest source 4 days old",
      "tier": "fresh",
      "n": 2
     }
@@ -8475,7 +8475,7 @@
      "url": "https://www.vattenfall.de/geschaeftskunden/ves/magazin/energie/stromsteuer",
      "note": "Opened. Relief is permanent from 2026 and must be applied for (antragspflichtig), via the federal portal. Deadline 31 December of the following year. Example: 50,000 kWh gives a 1,000 EUR refund.",
      "date": "2026-10-21",
-     "ageDays": 28,
+     "ageDays": 29,
      "age": "4 weeks old",
      "tier": "fresh"
     },
@@ -8483,15 +8483,15 @@
      "url": "https://www.handwerksblatt.de/betriebsfuehrung/stromsteuer-entlastungsantrag-bis-31-dezember-moeglich",
      "note": "Seen in search result: the 2025 claim must reach the Hauptzollamt by 31 December 2026. Page date not shown; date given is the day it was seen.",
      "date": "2026-11-15",
-     "ageDays": 3,
-     "age": "3 days old",
+     "ageDays": 4,
+     "age": "4 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.ihk.de/schwaben/produktmarken/energie/energiewirtschaft-und-entlastungen/energiesteuer-wer-kann-sich-entlasten-lassen-und-wie--6888600",
      "note": "Seen in search result: IHK Schwaben guide (2026-06-10). Relief covers only self-used electricity; quantities passed to third parties must be separated out.",
      "date": "2026-06-10",
-     "ageDays": 161,
+     "ageDays": 162,
      "age": "5 months old",
      "tier": "ok"
     },
@@ -8499,7 +8499,7 @@
      "url": "https://wirtschaftsfoerderung-ak.de/wp-content/uploads/2026/05/Stromsteuer_Erstattung_KMU.pdf",
      "note": "Seen in search result: a county economic-development SME guide (uploaded May 2026) warns that the claim is lost if missed and lists external service providers as help.",
      "date": "2026-05-01",
-     "ageDays": 201,
+     "ageDays": 202,
      "age": "7 months old",
      "tier": "ok"
     }
@@ -8513,8 +8513,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=stromsteuer%20r%C3%BCckerstattung",
       "note": "Opened: 4 suggestions, including '2025', 'landwirtschaft' and '2024', so people search by year and by sector.",
       "date": "2026-11-15",
-      "ageDays": 3,
-      "age": "3 days old",
+      "ageDays": 4,
+      "age": "4 days old",
       "tier": "fresh"
      }
     ]
@@ -8678,7 +8678,7 @@
       "url": "https://clonepartner.com/blog/quip-end-of-life-playbook-2027-choosing-your-migration-destination.md",
       "note": "ClonePartner sells this migration at a fixed price from $500 per project",
       "date": "2026-05-08",
-      "ageDays": 194,
+      "ageDays": 195,
       "age": "6 months old",
       "tier": "ok"
      }
@@ -8707,13 +8707,13 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 109,
+     "days": 110,
      "age": "newest source 4 months old",
      "tier": "ok",
      "n": 2
     },
     "pay": {
-     "days": 194,
+     "days": 195,
      "age": "newest source 6 months old",
      "tier": "ok",
      "n": 1
@@ -8724,7 +8724,7 @@
      "url": "https://clonepartner.com/blog/quip-end-of-life-playbook-2027-choosing-your-migration-destination.md",
      "note": "Retirement timeline; no bulk export in the web UI; manual export drops inline comments and data mentions; no native importer for SharePoint, Notion or Confluence; API limit 50 requests a minute per u…",
      "date": "2026-05-08",
-     "ageDays": 194,
+     "ageDays": 195,
      "age": "6 months old",
      "tier": "ok"
     },
@@ -8732,7 +8732,7 @@
      "url": "https://www.onlyoffice.com/blog/2026/08/how-to-migrate-from-quip-before-its-2027-retirement",
      "note": "Search result: a destination vendor's August 2026 migration guide, one of more than ten vendor posts on leaving Quip (not opened)",
      "date": "2026-08-01",
-     "ageDays": 109,
+     "ageDays": 110,
      "age": "4 months old",
      "tier": "ok"
     }
@@ -8746,7 +8746,7 @@
       "url": "https://clonepartner.com/blog/quip-end-of-life-playbook-2027-choosing-your-migration-destination.md",
       "note": "The ranking pages for Quip migration queries are vendor blogs selling services or destinations; none offers a self-serve exporter",
       "date": "2026-05-08",
-      "ageDays": 194,
+      "ageDays": 195,
       "age": "6 months old",
       "tier": "ok"
      }
@@ -8885,8 +8885,8 @@
    "rank": null,
    "fresh": {
     "demand": {
-     "days": 4,
-     "age": "newest source 4 days old",
+     "days": 5,
+     "age": "newest source 5 days old",
      "tier": "fresh",
      "n": 5
     },
@@ -8897,7 +8897,7 @@
      "url": "https://www.gov.uk/government/news/cma-concludes-market-investigation-with-major-reforms-to-veterinary-sector",
      "note": "UK CMA final decision: under 40% of practices show prices online; mandated standard price lists and price comparison via the regulator's Find a Vet shared with…",
      "date": "2026-03-24",
-     "ageDays": 239,
+     "ageDays": 240,
      "age": "8 months old",
      "tier": "ok"
     },
@@ -8905,7 +8905,7 @@
      "url": "https://yougov.com/de-de/artikel/55305-die-mehrheit-deutscher-hunde-und-katzenbesitzer-hat-keine-tierversicherung",
      "note": "Representative survey of 2,170 people in Germany: 81% of dog and cat owners say vet costs rose sharply and are too high; 56% worry about affording emergency tr…",
      "date": "2026-08-06",
-     "ageDays": 104,
+     "ageDays": 105,
      "age": "3 months old",
      "tier": "ok"
     },
@@ -8913,7 +8913,7 @@
      "url": "https://onlinemarktplatz.de/266921/heimtiermarkt-2025/",
      "note": "IVH/ZZF data: 33.4 million pets in German households in 2025, 43% of households, 15.7 million cats and 10 million dogs.",
      "date": "2026-05-04",
-     "ageDays": 198,
+     "ageDays": 199,
      "age": "7 months old",
      "tier": "ok"
     }
@@ -8977,8 +8977,8 @@
       "url": "https://www.streit-software.de/wissen/gaeb-konverter",
       "note": "Bidders pay 120 EUR (GAEB-Online), 125-600 EUR (Wingaebxml, X83/X84) or 99 EUR+ (T&T) for this job",
       "date": "2026-11-13",
-      "ageDays": 5,
-      "age": "5 days old",
+      "ageDays": 6,
+      "age": "6 days old",
       "tier": "fresh"
      }
     ],
@@ -9006,14 +9006,14 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 5,
-     "age": "newest source 5 days old",
+     "days": 6,
+     "age": "newest source 6 days old",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 5,
-     "age": "newest source 5 days old",
+     "days": 6,
+     "age": "newest source 6 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -9023,24 +9023,24 @@
      "url": "https://www.streit-software.de/wissen/gaeb-konverter",
      "note": "Comparison of 9 GAEB tools with prices: GAEB-Online 120/180 EUR (Windows 10/11), Wingaebxml Bietertool 125-600 EUR (X83/X84 explicit), T&T 99-2,499 EUR, DanglIT WebGAEB free in the browser with a sin…",
      "date": "2026-11-13",
-     "ageDays": 5,
-     "age": "5 days old",
+     "ageDays": 6,
+     "age": "6 days old",
      "tier": "fresh"
     },
     {
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=gaeb%20x84",
      "note": "10 autocomplete variants: x84 datei, in x83 umwandeln, in excel umwandeln, öffnen, einlesen, konverter, x83 x84",
      "date": "2026-11-13",
-     "ageDays": 5,
-     "age": "5 days old",
+     "ageDays": 6,
+     "age": "6 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.softguide.de/programm/gaeblv",
      "note": "Search result seen (not opened): mein.gaeb-365.online, a GAEB tool for trades that also handles Formblatt 221",
      "date": "2026-11-13",
-     "ageDays": 5,
-     "age": "5 days old",
+     "ageDays": 6,
+     "age": "6 days old",
      "tier": "fresh"
     }
    ],
@@ -9053,8 +9053,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=gaeb%20x84",
       "note": "10 suggestions around opening, converting and creating X84",
       "date": "2026-11-13",
-      "ageDays": 5,
-      "age": "5 days old",
+      "ageDays": 6,
+      "age": "6 days old",
       "tier": "fresh"
      }
     ]
@@ -9213,7 +9213,7 @@
       "url": "https://www.getly.store/alternatives/teachers-pay-teachers",
       "note": "Sellers already pay for the selling job: Exclusive $59.95 a year, Basic $29 one-time plus $0.30 per resource (a nearby job, not this tool)",
       "date": "2026-10-22",
-      "ageDays": 27,
+      "ageDays": 28,
       "age": "4 weeks old",
       "tier": "fresh"
      }
@@ -9242,13 +9242,13 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 5,
-     "age": "newest source 5 days old",
+     "days": 6,
+     "age": "newest source 6 days old",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 27,
+     "days": 28,
      "age": "newest source 4 weeks old",
      "tier": "fresh",
      "n": 1
@@ -9259,7 +9259,7 @@
      "url": "https://www.getly.store/alternatives/teachers-pay-teachers",
      "note": "TPT facts checked 2026-10-22: Premium retired 2026-10-01; Basic 55% plus $0.30; Exclusive $59.95/yr, 77.5%, TPT-only; former Premium sellers drop to Basic on 2027-01-01. Names Etsy, Payhip, Gumroad a…",
      "date": "2026-10-22",
-     "ageDays": 27,
+     "ageDays": 28,
      "age": "4 weeks old",
      "tier": "fresh"
     },
@@ -9267,7 +9267,7 @@
      "url": "https://www.change.org/p/teachers-pay-teachers-reconsider-the-new-seller-terms-restricting-off-platform-sales",
      "note": "Petition created 2026-10-01 with 1,515 verified signatures against the exclusivity and payout cut; sellers fear losing their own sites, memberships and email lists.",
      "date": "2026-10-01",
-     "ageDays": 48,
+     "ageDays": 49,
      "age": "7 weeks old",
      "tier": "fresh"
     },
@@ -9275,8 +9275,8 @@
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=tpt%20exclusive",
      "note": "10 autocomplete variants: 'tpt exclusive seller', '... terms', '... program', '... reddit', '... membership'.",
      "date": "2026-11-13",
-     "ageDays": 5,
-     "age": "5 days old",
+     "ageDays": 6,
+     "age": "6 days old",
      "tier": "fresh"
     }
    ],
@@ -9289,8 +9289,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=tpt%20exclusive",
       "note": "Ten live autocomplete variants for the new terms",
       "date": "2026-11-13",
-      "ageDays": 5,
-      "age": "5 days old",
+      "ageDays": 6,
+      "age": "6 days old",
       "tier": "fresh"
      }
     ]
@@ -9444,16 +9444,16 @@
       "url": "https://www.amainvoice.de/en/datev-amazon-integration",
       "note": "Amainvoice charges from 39 EUR a month (200 documents) up to 599 EUR a month and claims 2,700+ sellers for Amazon-to-DATEV preparation. Undated page (copyright 2025), opened 2026-11-12.",
       "date": "2026-11-12",
-      "ageDays": 6,
-      "age": "6 days old",
+      "ageDays": 7,
+      "age": "7 days old",
       "tier": "fresh"
      },
      {
       "url": "https://www.datev.de/web/de/marktplatz/datev-zahlungsdatenservice-fuer-amazon",
       "note": "DATEV's own service costs from 1.36 EUR a month. This shows that the payer exists and also how low the price anchor is.",
       "date": "2026-11-12",
-      "ageDays": 6,
-      "age": "6 days old",
+      "ageDays": 7,
+      "age": "7 days old",
       "tier": "fresh"
      }
     ],
@@ -9487,8 +9487,8 @@
      "n": 3
     },
     "pay": {
-     "days": 6,
-     "age": "newest source 6 days old",
+     "days": 7,
+     "age": "newest source 7 days old",
      "tier": "fresh",
      "n": 2
     }
@@ -9498,24 +9498,24 @@
      "url": "https://www.datev.de/web/de/marktplatz/datev-zahlungsdatenservice-fuer-amazon",
      "note": "DATEV warns of balance differences, outdated and missing data. Price from 1.36 EUR a month, end of service 2027-08-15, no successor named on the page. Undated page, opened 2026-11-12.",
      "date": "2026-11-12",
-     "ageDays": 6,
-     "age": "6 days old",
+     "ageDays": 7,
+     "age": "7 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.datev.de/web/de/berufsgruppenuebergreifend/nachrichten/rund-um-die-datev-programme/kuendigungen-und-leistungsaenderungen-von-produkten/",
      "note": "DATEV's discontinuation list: 'DATEV Zahlungsdatenservice für Amazon: 15.08.2027, discontinued'. Customer letters dated October 2026.",
      "date": "2026-11-12",
-     "ageDays": 6,
-     "age": "6 days old",
+     "ageDays": 7,
+     "age": "7 days old",
      "tier": "fresh"
     },
     {
      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=amazon%20datev",
      "note": "10 autocomplete variants, including 'amazon datev export', 'datev amazon zahlungsdatenservice' and 'datev amazon buchen'",
      "date": "2026-11-12",
-     "ageDays": 6,
-     "age": "6 days old",
+     "ageDays": 7,
+     "age": "7 days old",
      "tier": "fresh"
     }
    ],
@@ -9528,8 +9528,8 @@
       "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=amazon%20datev",
       "note": "10 autocomplete suggestions around Amazon and DATEV, including the name of the discontinued service",
       "date": "2026-11-12",
-      "ageDays": 6,
-      "age": "6 days old",
+      "ageDays": 7,
+      "age": "7 days old",
       "tier": "fresh"
      }
     ]
@@ -9696,8 +9696,8 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 13,
-     "age": "newest source 13 days old",
+     "days": 14,
+     "age": "newest source 2 weeks old",
      "tier": "fresh",
      "n": 2
     },
@@ -9708,15 +9708,15 @@
      "url": "https://www.nw.de/lokal/kreis_paderborn/paderborn/24455572_Hoehere-Hundesteuer-fuer-Paderborn-Politiker-beschliessen-deutliche-Erhoehung.html",
      "note": "Paderborn raises the first-dog tax from 72 to 120 EUR from January 2027 (unchanged since 2000). An online petition against it ran until 11 November.",
      "date": "2026-11-05",
-     "ageDays": 13,
-     "age": "13 days old",
+     "ageDays": 14,
+     "age": "2 weeks old",
      "tier": "fresh"
     },
     {
      "url": "https://www.deutschland-rechner.de/hundesteuer-rechner",
      "note": "The best calculator found covers only 33 large cities (checked 2026-10-17) and lists 2027 rates for Hamburg, Munich and Nuremberg. Other municipalities are not covered.",
      "date": "2026-10-17",
-     "ageDays": 32,
+     "ageDays": 33,
      "age": "5 weeks old",
      "tier": "fresh"
     }
@@ -9888,7 +9888,7 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 26,
+     "days": 27,
      "age": "newest source 4 weeks old",
      "tier": "fresh",
      "n": 4
@@ -9900,7 +9900,7 @@
      "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/recht-auf-reparatur-mehr-rechte-seit-31-juli-2026-124253",
      "note": "Rules since 31 July 2026: the period runs from when the last unit of a model was placed on the market. The page does not explain how to find that date and offers neither a sample letter nor a calcula…",
      "date": "2026-08-07",
-     "ageDays": 103,
+     "ageDays": 104,
      "age": "3 months old",
      "tier": "ok"
     },
@@ -9908,7 +9908,7 @@
      "url": "https://www.t-online.de/heim-garten/haushaltstipps/haushaltsgeraete/id_101368584/recht-auf-reparatur-fuer-diese-geraete-muessen-hersteller-ersatzteile-liefern.html",
      "note": "National consumer outlet: purchase date is irrelevant, the period starts with the model's last unit on the market. No way to check that date, no tool, no database, no letter.",
      "date": "2026-08-01",
-     "ageDays": 109,
+     "ageDays": 110,
      "age": "4 months old",
      "tier": "ok"
     },
@@ -9916,7 +9916,7 @@
      "url": "https://www.biallo.de/verbraucherschutz/news/aenderungen-im-november-2026-das-aendert-sich-fuer-sie-und-ihr-geld/",
      "note": "New German eco-design law takes effect in November 2026: durability, spare-parts and digital product passport requirements apply step by step per product group (keeps the topic current).",
      "date": "2026-10-23",
-     "ageDays": 26,
+     "ageDays": 27,
      "age": "4 weeks old",
      "tier": "fresh"
     },
@@ -9924,7 +9924,7 @@
      "url": "https://apify.com/promptica/eprel-etichette-energetiche",
      "note": "Third-party documentation of the public EPREL endpoint /api/products/{productGroup} with per-model fields incl. onMarketStartDate and onMarketEndDate (sample shows the placeholder 2050-12-31), descri…",
      "date": "2026-07-11",
-     "ageDays": 130,
+     "ageDays": 131,
      "age": "4 months old",
      "tier": "ok"
     }
@@ -10076,7 +10076,7 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 98,
+     "days": 99,
      "age": "newest source 3 months old",
      "tier": "ok",
      "n": 3
@@ -10088,7 +10088,7 @@
      "url": "https://developer.amazon.com/docs/amazon-data-portability/developer-data-handling-practices.html",
      "note": "Amazon Data Portability API: customers must tick a box to authorise a third party; onboarding includes allowlisting and an identity and security assessment",
      "date": "2025-01-08",
-     "ageDays": 679,
+     "ageDays": 680,
      "age": "22 months old",
      "tier": "old"
     },
@@ -10096,7 +10096,7 @@
      "url": "https://thedesk.net/2025/05/mozilla-shutting-down-pocket-fakespot/",
      "note": "Mozilla shuts Fakespot and Review Checker on 1 July because it did not fit a model it could sustain (URL shows May 2025; exact day not shown)",
      "date": "2025-05-01",
-     "ageDays": 566,
+     "ageDays": 567,
      "age": "19 months old",
      "tier": "old"
     },
@@ -10104,7 +10104,7 @@
      "url": "https://www.bebolddigital.com/news/amazon-fake-review-lawsuit-2026",
      "note": "Amazon lawsuit describes services selling verified-purchase reviews at $30 each, plus a May 2026 review-pooling policy change",
      "date": "2026-08-12",
-     "ageDays": 98,
+     "ageDays": 99,
      "age": "3 months old",
      "tier": "ok"
     }
@@ -10246,8 +10246,8 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 9,
-     "age": "newest source 9 days old",
+     "days": 10,
+     "age": "newest source 10 days old",
      "tier": "fresh",
      "n": 4
     },
@@ -10258,15 +10258,15 @@
      "url": "https://www.yacht.de/reisen-chartern/deutschland/ostsee-haefen-2026-liegeplatz-suche-in-sh-braucht-geduld/",
      "note": "69% of surveyed Schleswig-Holstein harbours have no free permanent berth; only 14 reported free boxes; five large facilities hold about a quarter of free place…",
      "date": "2026-04-05",
-     "ageDays": 227,
-     "age": "7 months old",
+     "ageDays": 228,
+     "age": "8 months old",
      "tier": "ok"
     },
     {
      "url": "https://www.yacht.de/reisen-chartern/deutschland/gebuehrenkeule-am-bodensee-bregenz-kassiert-45-000-euro-fuer-liegeplatz-warteliste/",
      "note": "Bregenz waiting list about 1,500 (about 440 in 2019), 30 EUR yearly fee to stay listed, waits of 10-25 years; over 52,000 boats vs about 28,000 berths on Lake …",
      "date": "2025-12-18",
-     "ageDays": 335,
+     "ageDays": 336,
      "age": "11 months old",
      "tier": "ok"
     },
@@ -10274,16 +10274,16 @@
      "url": "https://europeanboatingindustry.eu/about-the-industry/facts-and-figures",
      "note": "Over 6 million boats, 10,000 marinas, over 1 million berths, 36 million boaters in Europe. Page undated (footer 2026); date is when I opened it.",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.boat24.com/en/berths/liegeplatz-1200-x-400m/detail/168301/",
      "note": "Incumbent berth ad: Flensburg marina, price on request, text says fully booked for 2022 with a waiting list, so stale and static. Page undated; date is when I …",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     }
    ],
@@ -10425,7 +10425,7 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 74,
+     "days": 75,
      "age": "newest source 2 months old",
      "tier": "fresh",
      "n": 6
@@ -10437,7 +10437,7 @@
      "url": "https://www.topagrar.com/betriebsleitung/news/pachtpreise-fuer-agrarflaechen-in-letzten-jahren-um-9-gestiegen-a-20002119.html",
      "note": "9.9 million leased hectares, about 60% of farmland, average EUR 357 per hectare, new arable contracts around EUR 1,000 by editorial estimate.",
      "date": "2024-04-14",
-     "ageDays": 948,
+     "ageDays": 949,
      "age": "2 years 7 months old",
      "tier": "old"
     },
@@ -10445,7 +10445,7 @@
      "url": "https://reduco.ai/blog/solar/solarpark-flaeche-verpachten-pacht",
      "note": "Solar rents around EUR 2,500 to 4,500 per hectare, 7 to 13 times farmland rent, by industry figures; advises comparing offers.",
      "date": "2026-09-05",
-     "ageDays": 74,
+     "ageDays": 75,
      "age": "2 months old",
      "tier": "fresh"
     },
@@ -10453,7 +10453,7 @@
      "url": "https://www.topagrar.com/energie/news/marktplatz-fur-solarparkflachen-20010754.html",
      "note": "Enlapa's model: free for owners, developer commission, about 60 hectares a month added, and its claims of aggressive land-securing teams.",
      "date": "2025-01-20",
-     "ageDays": 667,
+     "ageDays": 668,
      "age": "22 months old",
      "tier": "old"
     },
@@ -10461,7 +10461,7 @@
      "url": "https://www.roedl.com/insights/batteriespeicher-privilegierung-aussenbereich/",
      "note": "Battery storage privileged under section 35 BauGB since 23 December 2025, with further changes pending.",
      "date": "2026-05-28",
-     "ageDays": 174,
+     "ageDays": 175,
      "age": "6 months old",
      "tier": "ok"
     }
@@ -10604,8 +10604,8 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 9,
-     "age": "newest source 9 days old",
+     "days": 10,
+     "age": "newest source 10 days old",
      "tier": "fresh",
      "n": 6
     },
@@ -10616,7 +10616,7 @@
      "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_876352.html",
      "note": "545,000 owners seek a successor and 569,000 plan to close by end of 2029; 57% of owners are 55 or older.",
      "date": "2026-01-09",
-     "ageDays": 313,
+     "ageDays": 314,
      "age": "10 months old",
      "tier": "ok"
     },
@@ -10624,15 +10624,15 @@
      "url": "https://www.nexxt-change.org/",
      "note": "22,300 placements since 2006, 431 regional partners, free listing; news item on a change of operator dated 18 August 2026.",
      "date": "2026-08-18",
-     "ageDays": 92,
+     "ageDays": 93,
      "age": "3 months old",
-     "tier": "fresh"
+     "tier": "ok"
     },
     {
      "url": "https://www.boersen-zeitung.de/banken-finanzen/deal-dating-im-mittelstand",
      "note": "HVB Dealsync: EBITDA up to EUR 20M, about 1,500 leads, expert check on each match, first deals expected in 2026.",
      "date": "2025-12-29",
-     "ageDays": 324,
+     "ageDays": 325,
      "age": "11 months old",
      "tier": "ok"
     },
@@ -10640,8 +10640,8 @@
      "url": "https://boersen-zeitung.de/banken-finanzen/ki-als-dealmaker-bei-der-firmennachfolge",
      "note": "A UniCredit board member calls the matching market fragmented and says potential buyers often stay invisible.",
      "date": "2026-03-05",
-     "ageDays": 258,
-     "age": "8 months old",
+     "ageDays": 259,
+     "age": "9 months old",
      "tier": "ok"
     }
    ],
@@ -10788,8 +10788,8 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 9,
-     "age": "newest source 9 days old",
+     "days": 10,
+     "age": "newest source 10 days old",
      "tier": "fresh",
      "n": 4
     },
@@ -10800,23 +10800,23 @@
      "url": "https://www.stall-frei.de/",
      "note": "Incumbent classifieds for stables, horse shares, pasture and feed; free to list with paid ad options; listings show free-place counts with no dates. Footer © 2…",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.ehorses.at/kleinanzeigen/stall-frei-weideplatz-pensionspferdehaltung-fuer-junge-aeltere-pensionierte-pferde-oder-sportpferde-die-eine-auszeit-benoe-kaufen-in-14-400-pasek/4874095.html",
      "note": "ehorses 'Stall frei' results: retirement and pasture places across DE, NL, FR at 50-400 EUR with no period and no posting dates. Page undated; date is when I o…",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     },
     {
      "url": "https://equi-pages.de/en/?p=4890",
      "note": "German warmblood foal registrations fell more than 8% in 2025 and about 18% in two years, a sector trend and a risk.",
      "date": "2026-03-17",
-     "ageDays": 246,
+     "ageDays": 247,
      "age": "8 months old",
      "tier": "ok"
     },
@@ -10824,8 +10824,8 @@
      "url": "https://wiki.openstreetmap.org/wiki/Tag:leisure=horse_riding",
      "note": "OpenStreetMap tags for riding stables and livery yards (amenity=animal_boarding + animal_boarding=horse) that can seed the directory under ODbL. Page undated; …",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     }
    ],
@@ -10967,7 +10967,7 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 49,
+     "days": 50,
      "age": "newest source 7 weeks old",
      "tier": "fresh",
      "n": 3
@@ -10979,7 +10979,7 @@
      "url": "https://learn.microsoft.com/en-us/linkedin/dma/member-data-portability/shared/snapshot-domain",
      "note": "LinkedIn's DMA Member Snapshot domains include JOB_APPLICATIONS ('jobs that have been applied to by the user in the past') and SAVED_JOBS",
      "date": "2026-08-19",
-     "ageDays": 91,
+     "ageDays": 92,
      "age": "3 months old",
      "tier": "fresh"
     },
@@ -10987,7 +10987,7 @@
      "url": "https://allwork.space/2026/09/66-of-job-seekers-have-been-ghosted-by-employers-during-the-hiring-process/",
      "note": "NumberBarn US survey: 93% had an application never answered, 66% ghosted after an interview, 69% applied to jobs they suspected were not real, 85% favour regul…",
      "date": "2026-09-30",
-     "ageDays": 49,
+     "ageDays": 50,
      "age": "7 weeks old",
      "tier": "fresh"
     },
@@ -10995,7 +10995,7 @@
      "url": "https://fortune.com/2025/02/02/linkedin-indeed-greenhouse-job-seekers-likely-response-interviews/",
      "note": "Indeed's responsive-employer badge and median response time labels; LinkedIn testing responsiveness insights; Greenhouse testing badges",
      "date": "2025-02-02",
-     "ageDays": 654,
+     "ageDays": 655,
      "age": "22 months old",
      "tier": "old"
     }
@@ -11143,8 +11143,8 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 9,
-     "age": "newest source 9 days old",
+     "days": 10,
+     "age": "newest source 10 days old",
      "tier": "fresh",
      "n": 4
     },
@@ -11155,7 +11155,7 @@
      "url": "https://gradpilot.com/news/chatgpt-email-to-professor-phd",
      "note": "Faculty pages describing AI-written applicant e-mails, including about 20 a day for one professor; individual opinions, not a survey.",
      "date": "2026-10-31",
-     "ageDays": 18,
+     "ageDays": 19,
      "age": "3 weeks old",
      "tier": "fresh"
     },
@@ -11163,7 +11163,7 @@
      "url": "https://infocons.ro/proeduhub-cati-doctoranzi-sunt-in-europa-si-cati-in-romania-italia-si-belgia/",
      "note": "About 721,000 doctoral students in the EU in 2023, citing Eurostat.",
      "date": "2026-08-23",
-     "ageDays": 87,
+     "ageDays": 88,
      "age": "3 months old",
      "tier": "fresh"
     },
@@ -11171,16 +11171,16 @@
      "url": "https://euraxess.ec.europa.eu/jobs",
      "note": "Free posting and thousands of offers from 43+ countries, with no supervisor availability signal shown. Page is undated; date is when I read it.",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.hunted.space/product/supervisormatch",
      "note": "AI supervisor matching for applicants, 0 upvotes on the listing and nothing on professor opt-in. Page is undated; date is when I read it.",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     }
    ],
@@ -11332,7 +11332,7 @@
    "kind": "big",
    "fresh": {
     "demand": {
-     "days": 174,
+     "days": 175,
      "age": "newest source 6 months old",
      "tier": "ok",
      "n": 3
@@ -11344,7 +11344,7 @@
      "url": "https://www.utwente.nl/en/education/student-services/news-events/news/2025/11/622976/web-of-science-licence-will-end-on-31-december-2025",
      "note": "University of Twente ends its Web of Science licence, including Journal Citation Reports, on 31 Dec 2025 after weighing costs, citing open research information",
      "date": "2025-11-21",
-     "ageDays": 362,
+     "ageDays": 363,
      "age": "12 months old",
      "tier": "ok"
     },
@@ -11352,7 +11352,7 @@
      "url": "https://library.maastrichtuniversity.nl/news/investing-in-open-research-information-openalex-partnership-and-end-of-scopus-license/",
      "note": "Maastricht cancels Scopus from 1 Jan 2027 because usage fell while costs rose sharply, and takes an OpenAlex partner subscription",
      "date": "2026-05-28",
-     "ageDays": 174,
+     "ageDays": 175,
      "age": "6 months old",
      "tier": "ok"
     },
@@ -11360,7 +11360,7 @@
      "url": "https://dailynous.com/2025/09/22/what-will-academia-edu-do-with-its-new-rights-to-your-name-likeness-and-voice/",
      "note": "Academia.edu terms claimed rights to members' name and likeness; users cancelled and deleted accounts; the founder narrowed the clause",
      "date": "2025-09-22",
-     "ageDays": 422,
+     "ageDays": 423,
      "age": "14 months old",
      "tier": "old"
     }
@@ -11496,8 +11496,8 @@
       "url": "https://tolr-site.pages.dev/pricing",
       "note": "A self-serve tool for the same job charges 59 USD a month (Solo) and 129 USD a month (Team), cancel anytime; no date on page",
       "date": "2026-11-12",
-      "ageDays": 6,
-      "age": "6 days old",
+      "ageDays": 7,
+      "age": "7 days old",
       "tier": "fresh"
      }
     ],
@@ -11520,8 +11520,8 @@
      "n": 0
     },
     "pay": {
-     "days": 6,
-     "age": "newest source 6 days old",
+     "days": 7,
+     "age": "newest source 7 days old",
      "tier": "fresh",
      "n": 1
     }
@@ -11638,16 +11638,16 @@
       "url": "https://thirtyfifty.co.uk/WSET-L3-Exam-Questions.asp",
       "note": "Candidates pay £30 for Level 3 mocks to mark themselves (4 short written exams) and £20 for chapter questions",
       "date": "2026-11-11",
-      "ageDays": 7,
-      "age": "7 days old",
+      "ageDays": 8,
+      "age": "8 days old",
       "tier": "fresh"
      },
      {
       "url": "https://napavalleywineacademy.com/products/wset-level-3-wine-full-mock-exam-tasting-theory",
       "note": "Full Level 3 theory and tasting mock kit for 189 USD, seen in a search result (page returned 429 when opened)",
       "date": "2026-11-11",
-      "ageDays": 7,
-      "age": "7 days old",
+      "ageDays": 8,
+      "age": "8 days old",
       "tier": "fresh"
      }
     ],
@@ -11670,8 +11670,8 @@
      "n": 0
     },
     "pay": {
-     "days": 7,
-     "age": "newest source 7 days old",
+     "days": 8,
+     "age": "newest source 8 days old",
      "tier": "fresh",
      "n": 2
     }
@@ -11788,7 +11788,7 @@
       "url": "https://www.samlovesyarn.co.uk/services-7",
       "note": "Opened price list of a UK knitwear tech editor (30 GBP an hour). The search snippet of the same page shows translation at 0.08 GBP per word, minimum 350 words.",
       "date": "2023-01-01",
-      "ageDays": 1417,
+      "ageDays": 1418,
       "age": "3 years 11 months old",
       "tier": "old"
      },
@@ -11796,8 +11796,8 @@
       "url": "https://www.fiverr.com/flamin_creator/translate-your-crochet-or-knitting-pattern",
       "note": "Seen in search results only (Fiverr blocks the fetcher): a gig selling knit and crochet pattern translation. Search snippets show EN-NL gigs up to 50 USD and multi-language projects at 100-200 USD.",
       "date": "2026-11-10",
-      "ageDays": 8,
-      "age": "8 days old",
+      "ageDays": 9,
+      "age": "9 days old",
       "tier": "fresh"
      }
     ],
@@ -11820,8 +11820,8 @@
      "n": 0
     },
     "pay": {
-     "days": 8,
-     "age": "newest source 8 days old",
+     "days": 9,
+     "age": "newest source 9 days old",
      "tier": "fresh",
      "n": 2
     }
@@ -11938,23 +11938,23 @@
       "url": "https://www.jctltd.co.uk/product/location-based-downtime-report",
       "note": "UK contractors pay 216 GBP + VAT per month per location for the same job (Met Office Downtime Report for EOT claims)",
       "date": "2026-11-10",
-      "ageDays": 8,
-      "age": "8 days old",
+      "ageDays": 9,
+      "age": "9 days old",
       "tier": "fresh"
      },
      {
       "url": "https://ehab-auto-new.pages.dev/credits/",
       "note": "WeatherWise prices historical site weather at 150 credits (1 credit = 1 GBP) and an NEC weather baseline at 350 credits; paid packs from 5,000 GBP",
       "date": "2026-11-10",
-      "ageDays": 8,
-      "age": "8 days old",
+      "ageDays": 9,
+      "age": "9 days old",
       "tier": "fresh"
      },
      {
       "url": "https://stormrecord-website.pages.dev/",
       "note": "US buyers pay 9.99 USD for a single-date weather evidence PDF",
       "date": "2026-02-19",
-      "ageDays": 272,
+      "ageDays": 273,
       "age": "9 months old",
       "tier": "ok"
      }
@@ -11978,8 +11978,8 @@
      "n": 0
     },
     "pay": {
-     "days": 8,
-     "age": "newest source 8 days old",
+     "days": 9,
+     "age": "newest source 9 days old",
      "tier": "fresh",
      "n": 3
     }
@@ -12096,7 +12096,7 @@
       "url": "https://apps.shopify.com/mikata-pid-eu-customs-check",
       "note": "The same job on Shopify sells at 9 USD a month (Pro: bulk fixes, supplier-sheet paste, carrier CSV export); the basic check is free",
       "date": "2026-10-30",
-      "ageDays": 19,
+      "ageDays": 20,
       "age": "3 weeks old",
       "tier": "fresh"
      }
@@ -12120,7 +12120,7 @@
      "n": 0
     },
     "pay": {
-     "days": 19,
+     "days": 20,
      "age": "newest source 3 weeks old",
      "tier": "fresh",
      "n": 1
@@ -12238,7 +12238,7 @@
       "url": "https://www.freelancer.de/projects/tiled-letter-teddy-pattern-reformat",
       "note": "A designer pays 10-30 USD for exactly this job (tiled A4 and Letter at true scale with a control square). It drew 26 proposals.",
       "date": "2026-07-10",
-      "ageDays": 131,
+      "ageDays": 132,
       "age": "4 months old",
       "tier": "ok"
      },
@@ -12246,7 +12246,7 @@
       "url": "https://docuslice.com/blog/2026-07-25-How-to-Print-a-Sewing-Pattern-at-Full-Size/",
       "note": "A tiling app for patterns sells Pro and Pro+ tiers, with vector export paywalled. The post shows no price.",
       "date": "2026-07-25",
-      "ageDays": 116,
+      "ageDays": 117,
       "age": "4 months old",
       "tier": "ok"
      }
@@ -12270,7 +12270,7 @@
      "n": 0
     },
     "pay": {
-     "days": 116,
+     "days": 117,
      "age": "newest source 4 months old",
      "tier": "ok",
      "n": 2
@@ -12388,7 +12388,7 @@
       "url": "https://apps.shopify.com/vintax",
       "note": "The same job (margin-scheme VAT per item, purchase register, invoices, DATEV export) sells for 19 USD a month (up to 50 orders), 39 USD (300) and 79 USD (unlimited), for Shopify stores only.",
       "date": "2026-10-15",
-      "ageDays": 34,
+      "ageDays": 35,
       "age": "5 weeks old",
       "tier": "fresh"
      }
@@ -12417,13 +12417,13 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 17,
-     "age": "newest source 2 weeks old",
+     "days": 18,
+     "age": "newest source 3 weeks old",
      "tier": "fresh",
      "n": 3
     },
     "pay": {
-     "days": 34,
+     "days": 35,
      "age": "newest source 5 weeks old",
      "tier": "fresh",
      "n": 1
@@ -12434,15 +12434,15 @@
      "url": "https://community.shopify.com/t/differenzbesteuerung-buchhaltung-und-software/410945",
      "note": "A reseller who buys from private persons uploads every receipt by hand to DATEV via a tax adviser and asks for software. Replies say lexoffice and sevdesk cannot map §25a. Original post 2025-04-25; r…",
      "date": "2026-11-01",
-     "ageDays": 17,
-     "age": "2 weeks old",
+     "ageDays": 18,
+     "age": "3 weeks old",
      "tier": "fresh"
     },
     {
      "url": "https://www.yagemi.de/blog/erp-warenwirtschaft/differenzbesteuerung-gebrauchtwaren/",
      "note": "Consultant article (status September 2026) on what inventory software must do for §25a: per-item purchase prices, a separate tax key, an invoice without VAT shown, a DATEV handover. It also says impr…",
      "date": "2026-09-08",
-     "ageDays": 71,
+     "ageDays": 72,
      "age": "2 months old",
      "tier": "fresh"
     },
@@ -12450,7 +12450,7 @@
      "url": "https://apps.shopify.com/vintax",
      "note": "Vintax: Margin Scheme VAT, launched 2026-10-15, 0 reviews. A new paid tool for exactly this job (purchase register, per-item margin VAT, invoices, DATEV export), but for Shopify stores only.",
      "date": "2026-10-15",
-     "ageDays": 34,
+     "ageDays": 35,
      "age": "5 weeks old",
      "tier": "fresh"
     }
@@ -12902,7 +12902,7 @@
      "url": "https://community.homey.app/t/is-de-homewizard-batterij-iets-voor-mij/113158?page=4",
      "note": "A user builds a Homey flow that reads his P1 meter every minute and simulates a home battery, to see from his own P1 data whether a battery pays off, because salderen ends on 2027-01-01. No website i…",
      "date": "2026-08-17",
-     "ageDays": 93,
+     "ageDays": 94,
      "age": "3 months old",
      "tier": "ok"
     },
@@ -12910,7 +12910,7 @@
      "url": "https://solarmagazine.nl/nieuws-zonne-energie/i44728/prinsjesdag-afschaffen-btw-op-thuisbatterij-kost-overheid-1-tot-2-miljard-euro",
      "note": "About 3.3 million Dutch homes have solar panels. The base scenario expects 600,000 new home batteries in 2027, tied to the end of salderen, with 37,600 plug-in batteries sold in Q2 2026. Zero VAT on …",
      "date": "2026-09-09",
-     "ageDays": 70,
+     "ageDays": 71,
      "age": "2 months old",
      "tier": "fresh"
     },
@@ -12918,7 +12918,7 @@
      "url": "https://community.homey.app/t/financieel-voordeel-vast-vs-dynamisch-energiecontract/133866",
      "note": "Standing need: a user wants to compare fixed and dynamic contracts on his own HomeWizard P1 data, including taxes. Replies use Homey flows, CSV exports and a daily spreadsheet, and name no website.",
      "date": "2025-04-01",
-     "ageDays": 596,
+     "ageDays": 597,
      "age": "20 months old",
      "tier": "old"
     },
@@ -12926,7 +12926,7 @@
      "url": "https://git.michielb.nl/michielb/pluginbattery/src/branch/main/README.md",
      "note": "A developer wrote his own backtest of what a home battery would actually have saved, on P1 data and historical prices, because vendor quotes were not trusted. These are scripts plus a Flask app, not …",
      "date": "2026-04-30",
-     "ageDays": 202,
+     "ageDays": 203,
      "age": "7 months old",
      "tier": "ok"
     }
@@ -14262,8 +14262,8 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 3,
-     "age": "newest source 3 days old",
+     "days": 4,
+     "age": "newest source 4 days old",
      "tier": "fresh",
      "n": 5
     },
@@ -14274,7 +14274,7 @@
      "url": "https://cn.wordpress.org/plugins/beitrag-steward/",
      "note": "New WordPress plugin for Vereine (v0.1.2, under 10 installs) built for this deadline. It states that from 15 November 2026 banks stop accepting pain.008.002.02/.003.02/.001.02 under DFÜ Anlage 3 v26.…",
      "date": "2026-08-21",
-     "ageDays": 89,
+     "ageDays": 90,
      "age": "3 months old",
      "tier": "fresh"
     },
@@ -14282,7 +14282,7 @@
      "url": "https://api.github.com/search/issues?q=pain.008.001.08+OR+pain.001.001.09+type:issue&sort=created&order=desc",
      "note": "Dated issues showing the migration underway now: a member-management tool adding pain.008.001.08 per DFÜ 3.7 (MirkoSc/mitgliederverwaltung #30, 2026-10-28), a project asking which pain.001 version ba…",
      "date": "2026-10-28",
-     "ageDays": 21,
+     "ageDays": 22,
      "age": "3 weeks old",
      "tier": "fresh"
     },
@@ -14290,16 +14290,16 @@
      "url": "https://www.commerzbank.de/service/informationen-zur-abschaltung-von-sepa-altformaten-bei-ebics/",
      "note": "Bank notice: versions 2.9 and older not accepted since March 2026; from November 2026 probably only 3.7+; DTAZV ends November 2026; customers on 3.6 or older should update. The page shows no date (fe…",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     },
     {
      "url": "https://www.jam-software.com/sepa-transfer/old-formats",
      "note": "Vendor page pitching its paid SEPA-Transfer as the converter for older SEPA XML from club, ERP and accounting software. Says DFÜ Anlage 3 v26.11 is valid from 15 November 2026. Page shows no date (fe…",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     }
    ],
@@ -14864,8 +14864,8 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 9,
-     "age": "newest source 9 days old",
+     "days": 10,
+     "age": "newest source 10 days old",
      "tier": "fresh",
      "n": 5
     },
@@ -14876,15 +14876,15 @@
      "url": "https://www.zwilling.com/de/magazin/faqs-app-exit.html",
      "note": "Official FAQ: the app ends 2026-12-31; FRESH & SAVE inventory, reminders and QR/NFC links stop; 'momentan gibt es dafür keine Alternative'; no data export, users are told to take screenshots. The pag…",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     },
     {
      "url": "https://appgoblin.info/apps/com.zwilling.rapier",
      "note": "Android app: 116K+ installs, 4K ratings (4.6), store listing updated 2026-10-23 with the note that the app will be retired on December 31.",
      "date": "2026-10-23",
-     "ageDays": 26,
+     "ageDays": 27,
      "age": "4 weeks old",
      "tier": "fresh"
     },
@@ -14892,16 +14892,16 @@
      "url": "https://appgoblin.info/apps/1583180442",
      "note": "iOS app: 8.5K ratings (4.74), about 424K installs and about 32K monthly users (AppGoblin estimates), last updated 2026-11-01.",
      "date": "2026-11-01",
-     "ageDays": 17,
-     "age": "2 weeks old",
+     "ageDays": 18,
+     "age": "3 weeks old",
      "tier": "fresh"
     },
     {
      "url": "https://www.zwilling.com/jp/customer-service/information/information-app-discontinuation-notice-2026.html",
      "note": "Japanese notice: service ends 2026-12-31, the QR and NFC functions of FRESH & SAVE stop working, no replacement app is planned. Undated; accessed 2026-11-09.",
      "date": "2026-11-09",
-     "ageDays": 9,
-     "age": "9 days old",
+     "ageDays": 10,
+     "age": "10 days old",
      "tier": "fresh"
     }
    ],
@@ -15474,8 +15474,8 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 10,
-     "age": "newest source 10 days old",
+     "days": 11,
+     "age": "newest source 11 days old",
      "tier": "fresh",
      "n": 5
     },
@@ -15486,7 +15486,7 @@
      "url": "https://www.uni-muenster.de/ZBSoz/bibliothek/aktuell/nachricht/3269",
      "note": "Uni Münster reminder: campus licence ends 31.12.2026 and will not be renewed because costs rose sharply. Projects become inaccessible; check the transfer to Zotero before the licence ends.",
      "date": "2026-10-26",
-     "ageDays": 23,
+     "ageDays": 24,
      "age": "3 weeks old",
      "tier": "fresh"
     },
@@ -15494,7 +15494,7 @@
      "url": "https://thesisdraft.com/de/blog/citavi-word-zitate-retten/",
      "note": "Article on rescuing Citavi citations in Word: a Citavi citation is a field function that nobody can resolve without Citavi. 'Wir haben dafür kein Werkzeug' (we have no tool for this); the advice is t…",
      "date": "2026-08-16",
-     "ageDays": 94,
+     "ageDays": 95,
      "age": "3 months old",
      "tier": "ok"
     },
@@ -15502,7 +15502,7 @@
      "url": "https://raw.githubusercontent.com/benedikt-e/literaturverwaltungsmigration/main/README.md",
      "note": "Windows workaround repo for moving a Citavi library to Zotero (created 2026-09-19, last push 2026-10-01). Its author says citations set with the Citavi Word add-in cannot be converted and must be re-…",
      "date": "2026-09-19",
-     "ageDays": 60,
+     "ageDays": 61,
      "age": "2 months old",
      "tier": "fresh"
     },
@@ -15510,8 +15510,8 @@
      "url": "https://sub.uni-goettingen.de/en/studying/courses/switching-from-citavi-to-zotero",
      "note": "SUB Göttingen guide: licence ends 30.11.2026; 'Citavi citations can't be automatically linked to Zotero'; students with many references must reset all citations or buy a private licence. The page is …",
      "date": "2026-11-08",
-     "ageDays": 10,
-     "age": "10 days old",
+     "ageDays": 11,
+     "age": "11 days old",
      "tier": "fresh"
     }
    ],
@@ -15707,7 +15707,7 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 36,
+     "days": 37,
      "age": "newest source 5 weeks old",
      "tier": "fresh",
      "n": 5
@@ -15719,7 +15719,7 @@
      "url": "https://icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en",
      "note": "Official Reveal Day notice: 1,615 applications (333 brand, 16 community, 21 IDN), contention-set CSV, APS listing, String Confirmation Day 2026-11-17, comment and objection period 2026-11-17 to 2027-…",
      "date": "2026-10-07",
-     "ageDays": 42,
+     "ageDays": 43,
      "age": "6 weeks old",
      "tier": "fresh"
     },
@@ -15727,7 +15727,7 @@
      "url": "https://newgtldprogram.icann.org/en/application-rounds/round2/reveal-day-contention-sets.csv",
      "note": "Machine-readable public data: 263 contention sets with application ID, organisation and string (header '#','Application ID','Org Name','Applied-for string(s)'), so the pipeline is feasible",
      "date": "2026-10-07",
-     "ageDays": 42,
+     "ageDays": 43,
      "age": "6 weeks old",
      "tier": "fresh"
     },
@@ -15735,7 +15735,7 @@
      "url": "https://webhosting.today/2026/10/13/icann-published-1615-gtld-applications-the-hosting-strings-were-taken-in-2012-and-this-rounds-fight-is-over-agent/",
      "note": "Most contested strings (.agent 13, .bit 11, .api/.brand/.hub 10). Data gaps in the official export: Identity Digital's 216 applications are spread over 28 entities, replacement swaps are not yet refl…",
      "date": "2026-10-13",
-     "ageDays": 36,
+     "ageDays": 37,
      "age": "5 weeks old",
      "tier": "fresh"
     },
@@ -15743,7 +15743,7 @@
      "url": "https://www.gtlaw.com/en/insights/2026/10/icann-reveal-day-2026-new-gtld-application-deadlines",
      "note": "Law firm tells brand owners to check whether strings 'match or resemble' their marks, to recheck on 2026-11-17, and to file singular/plural notifications within 30 days and objections by 2027-03-16",
      "date": "2026-10-06",
-     "ageDays": 43,
+     "ageDays": 44,
      "age": "6 weeks old",
      "tier": "fresh"
     }
@@ -16241,7 +16241,7 @@
    "kind": "niche",
    "fresh": {
     "demand": {
-     "days": 26,
+     "days": 27,
      "age": "newest source 4 weeks old",
      "tier": "fresh",
      "n": 3
@@ -16253,7 +16253,7 @@
      "url": "https://www.valueaddedresource.net/etsy-bans-ai-patterns/",
      "note": "Seller-news site: the exact changes; existing listings must be updated with no deadline; sellers worry about false flags and weak appeals; Etsy plans to extend AI-image tips to existing listings; no …",
      "date": "2026-10-22",
-     "ageDays": 27,
+     "ageDays": 28,
      "age": "4 weeks old",
      "tier": "fresh"
     },
@@ -16261,7 +16261,7 @@
      "url": "https://www.inkfluenceai.com/blog/etsy-ai-rules-update-october-2026",
      "note": "Detailed rule summary citing Etsy's Seller Handbook post of 22 Oct 2026; recommends that sellers audit existing listings with a manual six-point checklist; no audit tool exists",
      "date": "2026-10-22",
-     "ageDays": 27,
+     "ageDays": 28,
      "age": "4 weeks old",
      "tier": "fresh"
     },
@@ -16269,7 +16269,7 @@
      "url": "https://iscompliant.app/Blog/etsy-creativity-standards-pod-sellers-guide",
      "note": "Competitor's guide to the AI and creativity rules, updated the day after the announcement; its homepage sells per-listing compliance scans at 19.99 and 39.99 USD a month, which shows sellers pay for …",
      "date": "2026-10-23",
-     "ageDays": 26,
+     "ageDays": 27,
      "age": "4 weeks old",
      "tier": "fresh"
     }
@@ -16397,7 +16397,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-18T21:00:00.000Z",
+  "checkedInAt": "2026-11-19T00:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -16423,7 +16423,7 @@
    "emptyRuns": 96,
    "radius": 4,
    "radiusLevels": 4,
-   "runsLastDay": 4,
+   "runsLastDay": 3,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
