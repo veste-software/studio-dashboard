@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T12:03:14.673Z",
+ "generatedAt": "2026-11-19T15:14:30.684Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,1939 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "rim-weights-rake-survey-data-to-population-targe",
+   "title": "Rim Weights: rake survey data to population targets and get weighted banner tables, in the browser",
+   "pitch": "For small market-research agencies, NGOs and consultants. Upload survey data (CSV, Excel or .sav), enter population targets (age, gender, region), compute rim weights by raking with efficiency and weight-cap reports, then export weighted banner tables with significance letters.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small market-research agency, NGO evaluation team or consultant weighting survey samples for clients",
+    "buys": "Rim weights without an R script or an SPSS licence, ready for client reports",
+    "model": "subscription",
+    "price": "15 EUR a month",
+    "proof": [
+     {
+      "url": "https://savquicksite.pages.dev/blog/create-banner-tables-from-spss",
+      "note": "A Pro plan exists for the close job (price not shown on the page)",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "SavQuick is free for tables, R and Python raking packages are free, and an AI assistant with code tools can rake a CSV.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://savquicksite.pages.dev/blog/create-banner-tables-from-spss",
+     "note": "SavQuick: free in-browser banner tables from .sav with significance letters and an existing weight variable; Pro plan for bulk export. Undated; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=survey%20weighting",
+     "note": "Autocomplete: 'weighting survey data', 'weighting survey data in excel', 'survey weighting in r'.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'weighting survey data' and 'weighting survey data in excel'",
+    "first100": "Analysts searching how to weight survey data in Excel try raking on their file and subscribe for exports.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=survey%20weighting",
+      "note": "Weighting how-to queries, including Excel",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "SavQuick",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Q Research Software / WinCross / SPSS Custom Tabl…",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:28.405Z",
+    "detail": [
+     "Missed the strict bar: score 2.35 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Free tables; 15 EUR a month to compute and export rim weights.",
+   "trigger": "standing need",
+   "window": "No window; a free browser tool already covers the table step.",
+   "score": 2.35,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 4000,
+       "basis": "Channel: 3,000 visits (assumed) x 0.5% = 15 x 15 EUR x about 6 months = 1,350 EUR, halved for ramp and churn, minus fees = about 400 EUR. 5,000 EUR needs 28 subscribers all year, which this channel does not reach. Cross-check: no comparable's price was opened."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A narrow edge over a free in-browser tool; free code routes exist.",
+      "summary": "",
+      "concerns": [
+       "Free alternatives",
+       "Small paying segment"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:28.405Z",
+   "updatedAt": "2026-11-19T15:14:28.405Z",
+   "outcome": null
+  },
+  {
+   "id": "tech-pack-sheet-a-browser-tech-pack-builder-for",
+   "title": "Tech Pack Sheet: a browser tech pack builder for one-person fashion brands",
+   "pitch": "For small fashion brands sending their first styles to a factory. Fill in measurements, points of measure, materials, trims and construction notes, attach sketches, and get a factory-ready tech pack PDF and size-grading table. No per-user subscription.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A one-person or small fashion brand preparing samples with a factory",
+    "buys": "A factory-ready spec without paying a freelancer per tech pack or a yearly PLM seat",
+    "model": "one-off",
+    "price": "59 EUR per 5 styles",
+    "proof": [
+     {
+      "url": "https://techpacker.com/pricing",
+      "note": "Brands pay 35 USD per user a month for a tech pack builder",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Autocomplete shows most searchers want free templates, and Techpacker already serves those who pay.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://techpacker.com/pricing",
+     "note": "Techpack Builder at 35 USD per user a month billed yearly (420 USD a year); PLM tiers 95-125 USD. Undated; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=tech%20pack%20template",
+     "note": "Autocomplete dominated by 'free', 'canva', 'illustrator', 'excel free'.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'tech pack template' and variants",
+    "first100": "Founders searching for a tech pack template fill one in free and pay to export it.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=tech%20pack%20template",
+      "note": "10 template variants, mostly 'free'",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Techpacker",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Canva / Illustrator / Excel templates",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:27.906Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "19 EUR per exported style, or 59 EUR for 5 styles.",
+   "trigger": "standing need",
+   "window": "No window; crowded with templates and PLM tools. Listed as a low scorer.",
+   "score": 2.1,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 5000,
+       "basis": "Channel: 4,000 visits (assumed) x 0.5% = 20 x 59 EUR = 1,180 EUR, halved for ramp = about 500 EUR. 5,000 EUR needs 85 buyers a year, which this channel does not reach. Cross-check: only Techpacker's price seen."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Paid incumbent exists, but searchers want free templates.",
+      "summary": "",
+      "concerns": [
+       "Free templates",
+       "Crowded"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:27.906Z",
+   "updatedAt": "2026-11-19T15:14:27.906Z",
+   "outcome": null
+  },
+  {
+   "id": "brand-kit-to-office-templates-a-real-powerpoint",
+   "title": "Brand Kit to Office Templates: a real PowerPoint .potx and Word .dotx with masters and layouts from…",
+   "pitch": "For small firms and consultancies that pay a designer to build their slide and document templates. Enter the logo, colours and fonts and download a real .potx with slide masters and layouts plus a matching Word .dotx, made in the browser.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A small business, consultancy or agency that needs company slide and document templates",
+    "buys": "Paying a designer to build master slides and layouts, or living with off-brand decks",
+    "model": "one-off",
+    "price": "49 EUR per brand kit",
+    "proof": [
+     {
+      "url": "https://plusai.com/pricing",
+      "note": "Firms pay 30-40 USD per user a month for a plan with custom branding (close job)",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "AI slide tools and Copilot now apply brand styles directly, and many firms use a free template plus their logo.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://plusai.com/pricing",
+     "note": "Custom branding (logo, colours, fonts) only in the Team plan at 30-40 USD per user a month; the page does not say a .potx file is produced. Undated; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=powerpoint%20template%20from%20brand",
+     "note": "Autocomplete: 'how to make a branded powerpoint template', 'powerpoint template brand guidelines'.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'how to make a branded powerpoint template'",
+    "first100": "People searching how to build a branded template preview their master slides free and pay to download the files.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=powerpoint%20template%20from%20brand",
+      "note": "How-to queries for branded templates",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Plus AI",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "SlideSpeak brand template",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "potxkit",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:26.996Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "49 EUR once per brand kit for the .potx and .dotx set.",
+   "trigger": "standing need",
+   "window": "AI slide tools are moving into branding fast; any gap is narrow.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 6000,
+       "basis": "Channel: 3,000 visits (assumed) x 1% = 30 x 49 EUR = 1,470 EUR, ramp to about 900, minus fees = about 800 EUR. 5,000 EUR needs 102 buyers a year, which this channel does not reach. Cross-check: only Plus AI's per-user price seen; no designer price page opened."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A narrow file-format edge in a market that AI tools are entering quickly.",
+      "summary": "",
+      "concerns": [
+       "AI slide tools close the gap",
+       "OOXML layout quality across PowerPoint versions",
+       "Fonts not embedded on viewers' machines"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:26.996Z",
+   "updatedAt": "2026-11-19T15:14:26.996Z",
+   "outcome": null
+  },
+  {
+   "id": "bore-log-sheet-borehole-logs-from-field-data-in",
+   "title": "Bore Log Sheet: borehole logs from field data in the browser for small drilling and geotechnical fi…",
+   "pitch": "For small site-investigation drillers and geotechnical consultants. Enter or paste field logs and get standard borehole log PDFs and data export files, without a 300 USD a month subscription or a desktop suite.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A small drilling contractor or geotechnical consultancy producing borehole logs for site-investigation reports",
+    "buys": "Hours of drafting logs in Excel or CAD per borehole, and clients' required data files",
+    "model": "subscription",
+    "price": "49 EUR a month",
+    "proof": [
+     {
+      "url": "https://tablogs.com/pricing",
+      "note": "Small firms and drillers pay 300 USD a month for this job",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Firms already own a logging suite (desktop tools not verified in this run) or have Excel templates they built years ago; the 'free download' queries show price sensitivity.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://tablogs.com/pricing",
+     "note": "Boring-log software at 300 USD a month Standard ('best for small firms and drilling companies') and 420 USD Plus. (c) 2025; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=borehole%20log",
+     "note": "Autocomplete: 'borehole log software', 'borehole log template excel', 'borehole log software free download'.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'borehole log software' and 'borehole log template excel'",
+    "first100": "Drillers searching for a log template or software draw a first log free in the browser and subscribe when they need branded PDFs and exports.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=borehole%20log",
+      "note": "Software and template queries exist",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "TabLogs",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Excel log templates",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:26.740Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "49 EUR a month per firm for unlimited logs and exports.",
+   "trigger": "standing need",
+   "window": "No window; a category with several established tools. Listed as a low scorer.",
+   "score": 2.3,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 10000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 10000,
+       "basis": "Channel: 1,500 visits (assumed) x 1% = 15 firms x 49 EUR x about 6 months = 4,410 EUR, halved for ramp and churn, minus fees = about 1,000 EUR in year one after a slow start. 5,000 EUR needs 9 firms all year. Cross-check: TabLogs charges 300 USD a month; its customer count was not seen."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A clear paid job with a high incumbent price, but 'cheaper' is not a gap and the category has several tools not checked in this run.",
+      "summary": "",
+      "concerns": [
+       "Competitors not fully counted",
+       "Regional log standards and data formats differ"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:26.740Z",
+   "updatedAt": "2026-11-19T15:14:26.740Z",
+   "outcome": null
+  },
+  {
+   "id": "handover-binder-o-m-manuals-and-closeout-package",
+   "title": "Handover Binder: O&M manuals and closeout packages for small subcontractors, built in the browser",
+   "pitch": "For small mechanical, electrical and fire-protection subcontractors who must hand over O&M manuals at practical completion. Drop datasheets, warranties, certificates and test sheets into the spec's section structure and get one indexed, bookmarked, hyperlinked PDF with cover, tab sheets and page labels, without Bluebeam and without uploads.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A small MEP or specialist subcontractor that must deliver O&M manuals before practical completion and retention release",
+    "buys": "One to two days of office time per project compiling PDFs, and late handover that delays sign-off",
+    "model": "subscription",
+    "price": "19 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.guideflow.com/blog/submittal-software",
+      "note": "Contractors and suppliers pay 65-375 USD a month (Submittal.com) and 260-590 USD a year (Bluebeam) for package tools",
+      "date": "2026-08-25",
+      "ageDays": 86,
+      "age": "3 months old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Most subcontractors already own Bluebeam or Acrobat, which do this, and GCs push their own closeout platforms.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 86,
+     "age": "newest source 3 months old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.guideflow.com/blog/submittal-software",
+     "note": "Ten priced submittal and closeout tools: Bluebeam 260-590 USD per user a year, Submittal.com from 65 USD a month, SubmittalLink 150 USD a month.",
+     "date": "2026-08-25",
+     "ageDays": 86,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.designingbuildings.co.uk/wiki/Outsourcing_operation_and_maintenance_manuals",
+     "note": "O&Ms are a prerequisite for practical completion, often left too late; contractors outsource to specialist compilers (old page, last edited 2020-12-07).",
+     "date": "2020-12-07",
+     "ageDays": 2173,
+     "age": "5 years 11 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=o%26m%20manual%20template",
+     "note": "10 variants incl. 'o&m manual template construction', '... electrical', '... uk'.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'o&m manual template' and its construction and electrical variants",
+    "first100": "Office managers searching 'o&m manual template' build one binder free (watermarked) and subscribe for the next project.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=o%26m%20manual%20template",
+      "note": "Template-seeking queries from contractors",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Bluebeam (closeout workflow)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Autodesk Pype Closeout",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Parspec",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Submittal.com / SubmittalLink",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:26.476Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "19 EUR a month (or 149 EUR a year) for unlimited binders per company.",
+   "trigger": "standing need",
+   "window": "No window: a crowded category of priced tools; listed only as a low scorer.",
+   "score": 2.4,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1200,
+     "upsideEur": 8000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1200,
+       "upsideEur": 8000,
+       "basis": "Channel: 3,000 visits (assumed) x 1% = 30 firms x 19 EUR x about 6 months = 3,420 EUR, halved for ramp and churn, minus fees = about 1,200 EUR. 5,000 EUR needs 22 firms all year. Cross-check: priced tools at 65-375 USD a month show the job is paid for; no low-end comparable's revenue was seen."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Paid job, crowded with solid tools; no verified edge beyond running in the browser.",
+      "summary": "",
+      "concerns": [
+       "Three or more solid alternatives",
+       "Bluebeam is already installed at most subcontractors"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:26.476Z",
+   "updatedAt": "2026-11-19T15:14:26.476Z",
+   "outcome": null
+  },
+  {
+   "id": "exceedance-tables-lab-results-against-published",
+   "title": "Exceedance Tables: lab results against published soil and groundwater criteria, for small environme…",
+   "pitch": "For small environmental consultants writing site-assessment and monitoring reports. Load the lab's results export, pick the jurisdiction's guideline tables and get formatted exceedance tables with flagged cells for the report appendix, in the browser. It can grow into a library of criteria tables per state, province and country.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A small environmental consultancy (1-10 staff) producing site-assessment and groundwater-monitoring reports",
+    "buys": "Hours per report of copying lab results into Excel and colour-coding exceedances, and errors that clients or regulators send back",
+    "model": "subscription",
+    "price": "29 EUR a month",
+    "proof": [
+     {
+      "url": "https://tablogs.com/pricing",
+      "note": "Small firms pay 300 USD a month for geo-environmental logging software (close job)",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Consultants keep their own Excel templates with lookup formulas, and firms with ESdat or EQuIS already have it.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://esdat.net/esdat-features/",
+     "note": "ESdat sells summary tables comparing lab results to environmental standards with exceedance flags; no price shown ('Packages', free trial). (c) 2026; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://tablogs.com/pricing",
+     "note": "Geo-environmental software for small firms priced at 300-420 USD a month (close job). (c) 2025; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Queries for a jurisdiction's screening levels plus 'exceedance table'",
+    "first100": "Consultants searching a jurisdiction's screening-level table find a page with the criteria and a free checker for 20 rows, and subscribe for full reports.",
+    "proof": [
+     {
+      "url": "https://esdat.net/esdat-features/",
+      "note": "The category exists and is sold to consultants",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "ESdat",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "TabLogs",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:25.677Z",
+    "detail": [
+     "Missed the strict bar: score 2.55 is below the minimum 3.5"
+    ]
+   },
+   "earns": "29 EUR a month per consultancy for unlimited tables and the criteria library.",
+   "trigger": "standing need",
+   "window": "Standing gap: the data systems that do this (ESdat, EQuIS) are sold by quote to larger firms, while small consultancies build tables by hand in Excel.",
+   "score": 2.55,
+   "index": {
+    "composite": 2.55,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.55 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.55 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 10000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 10000,
+       "basis": "Channel: 1,500 visits (assumed) x 1.5% = 22 firms x 29 EUR x about 6 months = about 3,800 EUR, halved for ramp and churn = about 1,500, minus costs and fees = about 1,000 EUR. 5,000 EUR needs 15 firms all year. Cross-check: TabLogs charges 300 USD a month for related work; no exceedance-only comparable's revenue was seen."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 3,
+      "rationale": "Professional payers with billable hours and public criteria data (the owner's strength), but no measured demand and criteria upkeep per jurisdiction.",
+      "summary": "",
+      "concerns": [
+       "Criteria tables change and differ per jurisdiction",
+       "A wrong value carries professional consequences",
+       "Lab export formats vary"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:25.677Z",
+   "updatedAt": "2026-11-19T15:14:25.677Z",
+   "outcome": null
+  },
+  {
+   "id": "referee-finder-peer-reviewer-candidates-with-con",
+   "title": "Referee Finder: peer-reviewer candidates with conflict-of-interest flags for small journals, from o…",
+   "pitch": "For editors of small journals not on ScholarOne or Editorial Manager. Paste a submission's title, abstract and author list and get ranked reviewer candidates from recent publications in OpenAlex, with co-authorship and shared-affiliation conflicts flagged and retracted authors marked. It can grow into the journal's own reviewer database across issues.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "The managing editor of a small society or university journal (OJS or email-based) paying from the journal's budget",
+    "buys": "Hours per submission spent searching for reviewers who are expert and not co-authors of the submitters, and fewer declined invitations",
+    "model": "subscription",
+    "price": "19 EUR a month per journal",
+    "proof": [
+     {
+      "url": "https://scholasticahq.com/pricing/",
+      "note": "Peer-review system at 10 USD per submission plus 500 USD a year (close job)",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://prophy.ai/referee-finder/",
+      "note": "Publishers and funders pay for this exact job (price on request)",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Editors ask their board and past authors for free, many small journals have no budget, and OpenAlex's free web interface lets a patient editor do the same search by hand.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://prophy.ai/referee-finder/",
+     "note": "Reviewer finding with COI detection sold to 70+ publishers and funders through ScholarOne, Editorial Manager and eJP; demo only, no self-serve price. (c) 2016-2026; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://jane.biosemantics.org/",
+     "note": "Free JANE finds authors from PubMed only; no conflict-of-interest checks; (c) 2007.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://scholasticahq.com/pricing/",
+     "note": "Small journals pay 10 USD per submission plus 500 USD a year for a peer-review system (close job).",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'find peer reviewers for journal', 'reviewer finder'",
+    "first100": "Editors searching how to find reviewers try three free searches on a live submission, see conflicts flagged, and subscribe for the journal.",
+    "proof": [
+     {
+      "url": "https://jane.biosemantics.org/",
+      "note": "The free tool editors find today, with no COI checks",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Prophy Referee Finder",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "JANE",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Elsevier Reviewer Recommender",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:24.174Z",
+    "detail": [
+     "Missed the strict bar: score 2.8 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Three free searches, then 19 EUR a month per journal for unlimited searches, saved reviewer lists and conflict reports.",
+   "trigger": "standing need",
+   "window": "Standing gap: the AI reviewer finders are sold to big publishers and funders through large manuscript systems, while the free JANE covers PubMed only and has no conflict checks.",
+   "score": 2.8,
+   "index": {
+    "composite": 2.95,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.95 is below 3.6"
+    ],
+    "yearlyCostEur": 15,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.95 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 8000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 8000,
+       "basis": "Channel: 2,000 visits (assumed) x 1% (assumed) = 20 journals x 19 EUR x about 6 paid months in year one = 2,280 EUR, minus fees and churn = about 1,000 EUR. 5,000 EUR a year needs 22 journals paying all year, which this channel does not reach in year one. Cross-check: the only prices seen are Scholastica's peer-review system and Prophy's quote-only sales; no self-serve comparable's revenue was fo…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "A real gap for small journals, built on the owner's open-scholarly-data strength, but the payer is the weakest of the top four and search volume is unmeasured.",
+      "summary": "",
+      "concerns": [
+       "Volunteer editors with no budget",
+       "Reviewer emails are not in OpenAlex, so editors still look up contacts",
+       "Name disambiguation errors"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:24.174Z",
+   "updatedAt": "2026-11-19T15:14:24.174Z",
+   "outcome": null
+  },
+  {
+   "id": "thesis-format-check-a-thesis-docx-checked-agains",
+   "title": "Thesis Format Check: a thesis .docx checked against your graduate school's own formatting rules",
+   "pitch": "For master's and PhD students facing their graduate school's format review. Upload the .docx and get a browser check against that school's published rules: margins, fonts, spacing, front-matter order, page numbering, heading levels, captions and table of contents. Safe fixes are applied automatically. One page per school carries its real rules, so it can grow into the default pre-check before eve…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A master's or PhD student whose graduate school rejects deposits that break its format rules, paying with their own card days before the de…",
+    "buys": "Passing the format review without paying a formatter about 3 USD a page (about 450 USD for 150 pages) and waiting about 10 days",
+    "model": "one-off",
+    "price": "29 EUR per thesis",
+    "proof": [
+     {
+      "url": "https://sites.google.com/site/shandsformatting/home?authuser=0",
+      "note": "Independent thesis formatter charges 3 USD per final page, about 10 days' turnaround. Page undated; access date.",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.clemson.edu/graduate/academics/theses-dissertations/etd-instructions/editors-list.html",
+      "note": "Ten paid editors/formatters listed for students",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Students are price-sensitive, the school's own review is free, and the school's template plus checklist get most students through. An AI assistant with code tools can read a .docx and measure margins if the student knows to ask.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://tritonai.ucsd.edu/use-cases/dissertation-formatter.html",
+     "note": "UCSD pilot checks a .docx against 84 graduate-school rules with 17+ automatic fixes; UCSD rules only and does not replace the official review.",
+     "date": "2026-07-24",
+     "ageDays": 118,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=thesis%20format%20check",
+     "note": "Autocomplete: 'thesis format checker' plus school-specific queries (gatech, dalhousie, uga, purdue, sfsu).",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.clemson.edu/graduate/academics/theses-dissertations/etd-instructions/editors-list.html",
+     "note": "Graduate school refers students to paid freelance and commercial formatters; fees negotiated directly. Page shows only (c) 2026; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Per-school queries such as 'purdue thesis format check', 'uga dissertation format check', and 'thesis format checker'",
+    "first100": "Students searching their school's format-check query a week before deposit land on that school's page, run the free check and pay to unlock the full report and fixed file.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=thesis%20format%20check",
+      "note": "School-specific format-check queries appear in autocomplete",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "UCSD Dissertation Formatter",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "ASU Format Wizard",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Freelance formatters (e.g. Shands Formatting)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "University format reviews (e.g. Purdue)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:23.623Z",
+    "detail": [
+     "Missed the strict bar: score 3.05 is below the minimum 3.5"
+    ]
+   },
+   "earns": "A free check shows the number of problems; the student pays 29 EUR once to see every finding and download the fixed file.",
+   "trigger": "standing need",
+   "window": "Standing gap: each school publishes rules and checklists, students pay formatters about 3 USD a page, and only single-school tools exist (UCSD's AI formatter pilot, last reviewed 2026-07-24).",
+   "score": 3.05,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 3
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2000,
+     "upsideEur": 20000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2000,
+       "upsideEur": 20000,
+       "basis": "Channel: 8,000 visits (assumed, 30-50 school pages after ramp) x 2% (assumed) = 160 x 29 EUR = 4,640 EUR. Year-one ramp halves it to about 2,300 EUR, minus fees = about 2,000 EUR. 5,000 EUR needs 173 students a year, possible only in year two. Cross-check: formatters charge 3 USD a page, so 29 EUR is under 10% of a 150-page job, and UCSD built its own checker, which shows the need. No comparable …"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 3,
+      "rationale": "A deadline, a rejection risk and a paid service exist, and only single-school pilots compete. The rules must be extracted per school and kept current.",
+      "summary": "",
+      "concerns": [
+       "Per-school rule data must be built up front and refreshed yearly",
+       "The studio's own warning on sites made of many generated pages",
+       "Low willingness to pay among students"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:23.623Z",
+   "updatedAt": "2026-11-19T15:14:23.623Z",
+   "outcome": null
+  },
+  {
+   "id": "jats-press-accepted-word-manuscripts-to-validate",
+   "title": "JATS Press: accepted Word manuscripts to validated JATS XML, PDF and HTML for small open-access jou…",
+   "pitch": "For editors of small OJS journals that want PubMed Central, DOAJ full-text or SciELO indexing but cannot pay a typesetter per article. Convert the accepted .docx in the browser into JATS XML, checked against the JATS schema and PMC's rules, plus PDF and HTML galleys. It could become the default production step for small journals on OJS.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "The managing editor or publisher of a small society or university journal (20-80 articles a year) paying typesetting from a small budget",
+    "buys": "Full-text XML ready for PMC, DOAJ and SciELO, without paying a typesetter about 80-120 USD per article or hand-tagging XML",
+    "model": "one-off",
+    "price": "99 EUR per pack of 10 articles",
+    "proof": [
+     {
+      "url": "https://scholasticahq.com/pricing/",
+      "note": "Journals pay 7 USD per 500 words plus 7 USD per figure for production incl. JATS XML (same job, done as a service)",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Many diamond OA journals have no budget at all, PMC takes only journals that pass its own review, and journals that already pay a typesetter get JATS included.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://api.github.com/search/issues?q=JATS+type:issue&sort=created&order=desc&per_page=20",
+     "note": "vestnik-team/vestnik issues #23 and #26 (2026-11-19): a journal team building DOCX-to-JATS via Pandoc for OJS, testing quality on real articles before manual typesetting.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://scholasticahq.com/pricing/",
+     "note": "Production service incl. full-text JATS XML at 7 USD per 500 words, 7 USD per figure/table, 7 USD per block equation. Undated; access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=jats%20xml",
+     "note": "Autocomplete: 'jats xml conversion', 'jats xml validator', 'jats xml generator', 'jats xml converter service'.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'jats xml conversion', 'jats xml generator', 'jats xml converter service', 'docx to jats'",
+    "first100": "Journal managers searching 'jats xml conversion' or 'jats xml generator' convert one article free, see the validation report, and buy a pack before the next issue.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=jats%20xml",
+      "note": "10 autocomplete variants incl. conversion, generator, validator and converter service",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Scholastica Production Service",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Pandoc in a journal's own pipeline",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Pensoft ARPHA",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:21.808Z",
+    "detail": [
+     "Missed the strict bar: score 2.8 is below the minimum 3.5"
+    ]
+   },
+   "earns": "The journal converts one article free with a validation report and buys packs of 10 article conversions for 99 EUR.",
+   "trigger": "standing need",
+   "window": "Standing gap: services charge per article, the free route (Pandoc) gives raw unchecked XML, and journal teams are still writing their own pipelines (GitHub issue opened 2026-11-19).",
+   "score": 2.8,
+   "index": {
+    "composite": 2.95,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.95 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.95 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2000,
+     "upsideEur": 12000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2000,
+       "upsideEur": 12000,
+       "basis": "Channel: 3,000 visits (assumed) x 2% (assumed) = 60 packs x 99 EUR = 5,940 EUR. Year-one ramp halves it to about 3,000 EUR, minus fees and costs = about 2,000 EUR after a slow start. 5,000 EUR needs 51 packs a year, reachable only after the ramp. Cross-check: Scholastica's per-article price shows journals pay roughly 80-120 USD per article for this job, and 99 EUR for 10 is a tenth of that. No se…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "A paid job with a published price, and dated activity from journal teams building their own pipelines. Conversion quality on tables, math and references is the hard part.",
+      "summary": "",
+      "concerns": [
+       "Complex tables and equations may not convert cleanly",
+       "Small paying segment",
+       "PMC acceptance is decided per journal, not per file"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:21.808Z",
+   "updatedAt": "2026-11-19T15:14:21.808Z",
+   "outcome": null
+  },
+  {
+   "id": "abstract-book-builder-a-conference-s-accepted-ab",
+   "title": "Abstract Book Builder: a conference's accepted-abstracts spreadsheet to a print-ready book of abstr…",
+   "pitch": "For organizers of academic conferences and workshops: upload the export from EasyChair, OpenReview, ConfTool or a form and get a print-ready PDF book of abstracts in the browser, nothing uploaded. It has numbered affiliations, author and keyword indexes and the session programme. If it takes off, every book carries a small 'made with' line seen by every attendee, and organizers come back each yea…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "The organizing committee or department of an academic conference or workshop (100 to 1,000 attendees), paying with a university or society …",
+    "buys": "Saves two to five days of copy-paste and Word or LaTeX layout before the print deadline, plus author and affiliation indexes that go wrong by hand. Platforms that include this cost 49 to 999 USD per event and need the whole event run on them.",
+    "model": "one-off",
+    "price": "79 EUR per event",
+    "proof": [
+     {
+      "url": "https://sessionize.com/pricing",
+      "note": "Conference organizers pay 499 USD per professional event for session and speaker management (close job). Undated, (c) 2016-2026; access date.",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.webmobi.com/pricing/events",
+      "note": "Event plans at 49, 99, 299 and 999 USD per event (close job; platform that offers abstract books). Undated, (c) 2026; access date.",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Organizers already on a full conference platform get a book included, and those with a LaTeX-savvy PhD student do it free with the Overleaf template.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.overleaf.com/gallery/tagged/abstract-booklet",
+     "note": "Three abstract-booklet templates; only 'Book-of-Abstracts' takes CSV input with author and keyword index, and it needs LaTeX skills. Undated page (one template's event date is 2022-07-13); date is th…",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.webmobi.com/solutions/academic-conferences/abstract-book-software",
+     "note": "A platform builds the book only from abstracts submitted in its own system; no spreadsheet import and no author index described. Page shows only (c) 2026; date is the access date.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=book%20of%20abstracts",
+     "note": "10 autocomplete variants incl. 'book of abstracts template', 'book of abstracts conference', 'book of abstracts 2026'.",
+     "date": "2026-11-19",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "Google queries 'book of abstracts template', 'book of abstracts conference', 'how to create an abstract book'",
+    "first100": "Programme chairs searching 'book of abstracts template' a few weeks before their event try the free watermarked preview with their own export, and pay to remove the watermark.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=book%20of%20abstracts",
+      "note": "10 autocomplete variants, including template and current-year queries",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.overleaf.com/gallery/tagged/abstract-booklet",
+      "note": "What serves the query today: LaTeX templates",
+      "date": "2026-11-19",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Overleaf Book-of-Abstracts template",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "WebMobi abstract book",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Invajo abstract book export",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Sessionize",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-19T15:14:20.666Z",
+    "detail": [
+     "Missed the strict bar: score 2.9 is below the minimum 3.5"
+    ]
+   },
+   "earns": "The organizer previews a watermarked book free and pays 79 EUR once per event to download the clean PDF and web version.",
+   "trigger": "standing need",
+   "window": "Standing gap: platforms build the book only from abstracts submitted on their own platform (WebMobi, Invajo), and the only spreadsheet route is a LaTeX template on Overleaf. Nothing seen suggests thi…",
+   "score": 2.9,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2500,
+     "upsideEur": 15000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2500,
+       "upsideEur": 15000,
+       "basis": "Channel: 5,000 search visits in year one (assumed) x 1.5% (assumed) = 75 events x 79 EUR = 5,925 EUR. Search ramp (little traffic in months 1-4) halves it to about 2,800 EUR, minus about 6% fees and 20 EUR costs = about 2,500 EUR. 5,000 EUR a year needs 64 paying events, which the channel reaches only in year two. Cross-check: organizers pay 49-999 USD per event (WebMobi) and 499 USD per event (S…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A real, repeated, deadline-bound job with a payer who already pays per event for platforms, and no standalone tool from a spreadsheet. Search volume is unmeasured; only autocomplete variants were seen.",
+      "summary": "",
+      "concerns": [
+       "Export formats differ per submission system and need several importers",
+       "Seasonal and one-off per event; repeat only yearly",
+       "Many organizers may settle for Word"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-19T15:14:20.666Z",
+   "updatedAt": "2026-11-19T15:14:20.666Z",
+   "outcome": null
+  },
   {
    "id": "spielplatz-pruefbuch-sicht-funktions-und-jahresh",
    "title": "Spielplatz-Prüfbuch: Sicht-, Funktions- und Jahreshauptprüfung nach DIN EN 1176-7 mit Fotos und Män…",
@@ -5832,1967 +7765,6 @@
    },
    "createdAt": "2026-11-18T07:58:04.850Z",
    "updatedAt": "2026-11-18T07:58:04.850Z",
-   "outcome": null
-  },
-  {
-   "id": "royalty-run-author-royalty-statements-for-small",
-   "title": "Royalty Run: author royalty statements for small presses from KDP, IngramSpark and Draft2Digital re…",
-   "pitch": "For small presses with 5 to 100 authors that compute royalties twice a year in spreadsheets: drop the retailer and distributor reports, map each title to its contract terms (rates, escalators, advances), and get per-author PDF statements and a payment list, processed in the browser. Note: the same kind of job as the studio's game-developer royalty product, for a different industry.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the owner or finance person of a small press with 5 to 100 authors",
-    "buys": "accurate statements on time, fewer author disputes and hours saved each royalty period",
-    "model": "subscription",
-    "price": "15 EUR a month",
-    "proof": [
-     {
-      "url": "https://publishdrive.com/pricing",
-      "note": "Seen as a search result: Abacus from 1.49 USD per title per month, first title free",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "PublishDrive Abacus and Curve Lite already do this cheaply, and many small presses keep using a spreadsheet.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://publishdrive.com/abacus.html",
-     "note": "PublishDrive Abacus imports KDP (incl. KU and ACX), IngramSpark, Draft2Digital, Kobo, Google Play and Apple Books reports and generates royalty statements; quote-based; undated page (copyright 2026),…",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://janefriedman.com/a-new-tool-to-help-indie-authors-and-small-publishers-calculate-royalties/",
-     "note": "Article on Abacus as a royalty-splitting service for small publishers (body paywalled)",
-     "date": "2025-04-05",
-     "ageDays": 593,
-     "age": "20 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'author royalty statement software', 'royalty software for small publishers'",
-    "first100": "Small presses searching before a royalty period run one free statement and subscribe for the period.",
-    "proof": [
-     {
-      "url": "https://publishdrive.com/abacus.html",
-      "note": "A rival ranks for the category; autocomplete not checked",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "PublishDrive Abacus",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Curve Lite (publishing)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Royalty Tracker",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "PubGizmo",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:33.119Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small presses pay monthly for statements; one test run is free.",
-   "trigger": "standing need",
-   "window": "No deadline; a contractual duty twice a year, already served by several cheap tools.",
-   "score": 2.05,
-   "index": {
-    "composite": 2.5,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.5 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.5 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: 1,000 visits a year (assumed) at 1% (assumed) gives 10 presses at 15 EUR for about 6 months, about 900 EUR, cut to about 300 EUR. Cross-check: Abacus and Curve Lite show payers at low prices, no counts. 5,000 EUR a year needs 28 presses paying all year; not reachable against cheaper rivals."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "Paid and repeated, but at least three cheap solid tools exist and it overlaps with a job the studio already holds.",
-      "summary": "",
-      "concerns": [
-       "Crowded and cheap",
-       "Overlaps with the studio's game-royalty product",
-       "Report formats change often"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:33.119Z",
-   "updatedAt": "2026-11-17T22:58:33.119Z",
-   "outcome": null
-  },
-  {
-   "id": "rest-hours-log-offline-mlc-and-stcw-hours-of-res",
-   "title": "Rest Hours Log: offline MLC and STCW hours-of-rest records for small commercial vessels",
-   "pitch": "For masters of small commercial yachts, tugs and workboats (5 to 20 crew) who must record each seafarer's hours of rest and show them at port-state inspections: an offline PWA that checks each entry against the 10-hours-in-24 and 77-hours-in-7-days rules, flags breaches and prints monthly records for signature. Crew could later carry their own record between vessels.",
-   "platform": "pwa",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "the master or operator of a small commercial vessel with 5 to 20 crew",
-    "buys": "inspection-ready records and breach warnings, avoiding port-state deficiencies",
-    "model": "subscription",
-    "price": "15 EUR per vessel a month",
-    "proof": [
-     {
-      "url": "https://sealogical.com/faq",
-      "note": "Vessels pay 320 EUR per vessel per month for a suite that includes hours of rest",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Watchkeeper is already on 10,000+ vessels, small operators use free spreadsheet records, and fleets buy rest hours inside larger suites.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://isfwatchkeeper.com/",
-     "note": "ISF Watchkeeper: STCW/MLC rest-hours software installed on over 10,000 vessels; price on request; footer copyright 2022 only",
-     "date": "2022-12-31",
-     "ageDays": 1419,
-     "age": "3 years 11 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://sealogical.com/faq",
-     "note": "Sealogical: 320 EUR per vessel per month including the Hours of Rest module; undated page (copyright 2026), opened on this date",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'hours of rest software', 'mlc rest hours app'",
-    "first100": "Masters of small vessels searching for a rest-hours app try it offline for a month and subscribe before an inspection.",
-    "proof": [
-     {
-      "url": "https://isfwatchkeeper.com/",
-      "note": "The leader ranks for the category; query autocomplete not checked",
-      "date": "2022-12-31",
-      "ageDays": 1419,
-      "age": "3 years 11 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "ISF Watchkeeper",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "DNV Navigator Port Work & Rest",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Navatom Work & Rest Hours",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Sealogical",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "IDEA Yacht",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:31.989Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small operators pay per vessel per month for inspection-ready records.",
-   "trigger": "standing need",
-   "window": "No deadline; a permanent duty under international conventions, served by many tools.",
-   "score": 1.85,
-   "index": {
-    "composite": 2.15,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.15 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.15 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: 600 visits a year (assumed) at 1% (assumed) gives 6 vessels at 15 EUR for 12 months, about 1,080 EUR at full run rate, about 300 EUR after the ramp. Cross-check: the leader has 10,000+ vessels but no published price. 5,000 EUR a year needs 28 vessels paying all year; not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "A real international duty with paid tools, but the leader is entrenched and several suites include it.",
-      "summary": "",
-      "concerns": [
-       "Entrenched leader",
-       "Fleets buy it bundled",
-       "Rules interpretation errors could mislead masters"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:31.989Z",
-   "updatedAt": "2026-11-17T22:58:31.989Z",
-   "outcome": null
-  },
-  {
-   "id": "apa-ledger-charter-apa-statements-from-receipts",
-   "title": "APA Ledger: charter APA statements from receipts in any currency, offline on board",
-   "pitch": "For captains, pursers and chief stews of charter yachts who must hand guests a statement of the advance provisioning allowance at the end of each charter: log receipts offline with photo, amount and currency, apply the day's rate, and print a reconciled statement with the refund or top-up due. Management companies with several yachts get a fleet view later.",
-   "platform": "pwa",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the captain of a charter yacht or the yacht management company paying for crew tools",
-    "buys": "a clean statement the charter guest accepts without disputes, and hours saved after each charter",
-    "model": "subscription",
-    "price": "19 EUR per vessel a month",
-    "proof": [
-     {
-      "url": "https://sealogical.com/faq",
-      "note": "Yachts pay 320 EUR per vessel per month for a management suite; a search result says its APA statements are part of the offer (not confirmed on the page)",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Charter yachts already use Voly's card and app or a yacht-management suite, and many captains keep a spreadsheet template.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://sealogical.com/faq",
-     "note": "Sealogical yacht management: 320 EUR / 360 USD per vessel per month for all modules except Finance and Deck Plans add-ons; 740+ to 1,000+ vessels; undated page (copyright 2026), opened on this date",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.boatinternational.com/boat-pro/superyacht-insight/voly-apa-charter-spending",
-     "note": "Voly article: APA has been done with convoluted spreadsheets, multiple Excel documents and physical receipts; captains do not have time to act as accountants (promotional, old)",
-     "date": "2022-03-09",
-     "ageDays": 1716,
-     "age": "4 years 8 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'apa statement template yacht', 'yacht apa spreadsheet'",
-    "first100": "Crew searching for an APA template download a free statement for one charter and subscribe for the season.",
-    "proof": [
-     {
-      "url": "https://sealogical.com/faq",
-      "note": "Shows yachts buy management software online; query autocomplete not checked",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Voly APA",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Scyllastar",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Sealogical",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Privat 3 Money APA reports",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Aquator charter management",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:30.174Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Charter yachts pay per vessel per month in season for statements guests accept.",
-   "trigger": "standing need",
-   "window": "No deadline; a job repeated every charter. Several yacht suites already include it.",
-   "score": 2.15,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 400,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 400,
-       "upsideEur": 3000,
-       "basis": "Bottom-up: 800 visits a year (assumed) at 1% (assumed) gives 8 yachts at 19 EUR for about 6 season months, about 900 EUR, cut to about 400 EUR. Cross-check: rivals at 99 to 320 EUR per vessel a month show payers but no counts beyond one suite's 740+ vessels. 5,000 EUR a year needs 22 yachts paying all year; not reachable through this channel."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "A real, paid, repeated job, but at least four solid products serve it and the dated proof of manual pain is old.",
-      "summary": "",
-      "concerns": [
-       "Crowded",
-       "Seasonal payers",
-       "Only an old promotional source for the pain"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:30.174Z",
-   "updatedAt": "2026-11-17T22:58:30.174Z",
-   "outcome": null
-  },
-  {
-   "id": "fmd-builder-ipc-1752a-material-declarations-for",
-   "title": "FMD Builder: IPC-1752A material declarations for small electronics suppliers",
-   "pitch": "For small component, cable-assembly and PCB suppliers whose OEM customers ask for full material declarations: enter or import each part's materials and substances, check totals and declared exemptions, and download a schema-valid IPC-1752A Class C or D XML file. A library of reusable homogeneous materials (solder, FR-4, copper) makes each next declaration faster.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "the quality or compliance engineer of a small electronics component or assembly supplier",
-    "buys": "a declaration the OEM's system accepts, keeping the supplier approved without buying an enterprise compliance suite",
-    "model": "subscription",
-    "price": "29 EUR a month",
-    "proof": [
-     {
-      "url": "https://shop.electronics.org/ipc-1752/ipc-1752-standard-amendments/Revision-a/english",
-      "note": "Seen as a search result: the IPC-1752A standard itself costs 114 USD for non-members; no priced small-supplier tool was found",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "OEMs' compliance vendors give suppliers free portals or accept PDFs and spreadsheets, so suppliers rarely need their own XML tool.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.z2data.com/insights/why-your-suppliers-should-be-using-ipc-1752a-xml-for-material-compliance",
-     "note": "OEM-side vendor article urging suppliers to submit IPC-1752A XML and give non-compliant suppliers a timeline; last modified 2026-11-12",
-     "date": "2026-11-12",
-     "ageDays": 7,
-     "age": "7 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.assent.com/resources/tools/assent-materials-declaration-tool/",
-     "note": "Assent's tool creates IPC-1752A classes A, C and D and IPC-1754; no price or eligibility shown; undated page (copyright 2026), opened on this date",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'ipc-1752a xml generator', 'full material declaration template'",
-    "first100": "Engineers who receive an OEM request for IPC-1752A XML search for a generator, build one declaration free and subscribe for the rest of their parts.",
-    "proof": [
-     {
-      "url": "https://www.z2data.com/insights/why-your-suppliers-should-be-using-ipc-1752a-xml-for-material-compliance",
-      "note": "Shows OEM pressure on suppliers to use the format; query volume was not checked",
-      "date": "2026-11-12",
-      "ageDays": 7,
-      "age": "7 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Assent Materials Declaration Tool",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Z2Data platform",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Certivo",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:29.864Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Suppliers pay monthly to create and update declarations for their customers.",
-   "trigger": "standing need",
-   "window": "No deadline; OEM-side vendors are pushing suppliers to IPC-1752A XML in 2026, while others accept any format, so demand may shrink.",
-   "score": 2.35,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 400,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 400,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 600 visits a year (assumed) at 1.5% (assumed) gives 9 suppliers at 29 EUR for about 4 months, about 1,000 EUR, cut to about 400 EUR. No comparable price for a supplier-side tool was found, so there is no cross-check. 5,000 EUR a year needs 15 suppliers paying all year; the channel is unmeasured."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "The exact XML format makes this hard to do with an AI chat assistant, but no page shows a supplier paying for such a tool and OEM vendors increasingly accept any format.",
-      "summary": "",
-      "concerns": [
-       "No payer price found",
-       "OEM-side tools remove the need",
-       "Substance databases needed for checks may have licence limits"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:29.864Z",
-   "updatedAt": "2026-11-17T22:58:29.864Z",
-   "outcome": null
-  },
-  {
-   "id": "gage-book-a-local-first-calibration-register-for",
-   "title": "Gage Book: a local-first calibration register for small ISO 9001 shops with more than 25 gauges",
-   "pitch": "For small machine shops and fabricators that keep calibration records for ISO 9001 or AS9100 audits in Excel: a browser register that works offline, imports the existing spreadsheet, flags overdue gauges, publishes due dates as a calendar feed and prints an audit-ready history per gauge. Printable QR labels link each gauge to its record.",
-   "platform": "pwa",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the quality manager or owner of a 10 to 100 person ISO 9001 machine shop with 30 to 300 gauges",
-    "buys": "audit-ready calibration records and no missed due dates, which would be a nonconformity in a certification audit",
-    "model": "subscription",
-    "price": "19 EUR a month",
-    "proof": [
-     {
-      "url": "https://softwareconnect.com/calibration-management/gagelist",
-      "note": "Shops pay GageList 79 USD a month for up to 500 gages",
-      "date": "2026-10-13",
-      "ageDays": 37,
-      "age": "5 weeks old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "GageList is free up to 25 gauges, cheaper paid tools exist, and auditors accept a well-kept spreadsheet.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 37,
-     "age": "newest source 5 weeks old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 37,
-     "age": "newest source 5 weeks old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://softwareconnect.com/calibration-management/gagelist",
-     "note": "GageList: free for 25 gages and 5 users, 79 USD a month for 500 gages, 159 USD for 1,000",
-     "date": "2026-10-13",
-     "ageDays": 37,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://softwareconnect.com/roundups/best-calibration-management-software/",
-     "note": "Roundup: GAGEtrak 29-79 USD per user a month, IndySoft 199 USD, Calibration Control 768 USD once, GageList free to 79 USD",
-     "date": "2026-10-13",
-     "ageDays": 37,
-     "age": "5 weeks old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'gage calibration software', 'calibration tracking spreadsheet'",
-    "first100": "Quality managers searching for a spreadsheet alternative import their sheet, see overdue gauges at once and pay when they pass 25 gauges.",
-    "proof": [
-     {
-      "url": "https://softwareconnect.com/roundups/best-calibration-management-software/",
-      "note": "A 2026 roundup ranks for the category query, which shows buyers search and compare here",
-      "date": "2026-10-13",
-      "ageDays": 37,
-      "age": "5 weeks old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "GageList",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "GAGEtrak",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Calibration Control",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "IndySoft",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Gaugelog",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:28.958Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Shops with more than 25 gauges pay a small monthly fee; up to 25 gauges is free.",
-   "trigger": "standing need",
-   "window": "No deadline; a recurring audit duty. The market is crowded and cheap, so the only room is a lower price or local-first data.",
-   "score": 2.15,
-   "index": {
-    "composite": 2.95,
-    "used": {
-     "risk": 1,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.95 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 500,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 500,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 1,500 visits a year (assumed) at 0.7% (assumed) gives about 10 shops at 19 EUR for about 6 months, about 1,140 EUR, cut to about 500 EUR for ramp and fees. Cross-check: five priced tools from free to 199 USD a month show payers but no customer counts. 5,000 EUR a year needs 22 shops paying all year; not reachable against free tiers."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 1,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "Paid demand is proven but at least five priced tools and a free tier already serve it; this is a cheaper twist, listed only to fill the pool.",
-      "summary": "",
-      "concerns": [
-       "Crowded with free and cheap tools",
-       "Local-first data makes multi-user sharing harder"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:28.958Z",
-   "updatedAt": "2026-11-17T22:58:28.958Z",
-   "outcome": null
-  },
-  {
-   "id": "lot-sheet-one-catalogue-spreadsheet-and-photo-fo",
-   "title": "Lot Sheet: one catalogue spreadsheet and photo folder to the upload files of every bidding platform",
-   "pitch": "For small auction houses (1 to 10 staff) that list each sale on two or more bidding platforms: map the catalogue spreadsheet once, check lot numbers, estimates and image names in the browser, and download each platform's import file and renamed images. Per-platform template pages bring in houses searching for a format.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the owner or cataloguer of a small auction house selling on two or more bidding platforms",
-    "buys": "no more re-keying of each catalogue per platform and no failed uploads before a sale date",
-    "model": "subscription",
-    "price": "29 EUR a month",
-    "proof": [
-     {
-      "url": "https://sablot.app/",
-      "note": "Auction houses pay Sablot 149 GBP a month and up for cataloguing and platform links",
-      "date": "2026-10-01",
-      "ageDays": 49,
-      "age": "7 weeks old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "LotUp already makes multi-platform CSVs for 49 GBP a month with AI descriptions, and each platform offers its own upload form free.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 49,
-     "age": "newest source 7 weeks old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://sablot.app/",
-     "note": "Sablot auction management: 149-249 GBP a month plus 849-1,119 GBP setup; direct thesaleroom link; Invaluable and LiveAuctioneers only via results import; case study running since March 2026, figures …",
-     "date": "2026-10-01",
-     "ageDays": 49,
-     "age": "7 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.capterra.com/p/10042965/LotUp/",
-     "note": "Seen as a search result only (Capterra refuses the fetcher): LotUp 49 GBP a month flat, portal-ready CSVs for TheSaleRoom/BidSpotter, EasyLive, HiBid, Proxibid and Invaluable",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "platform-specific template queries such as 'hibid catalog upload template'",
-    "first100": "Cataloguers searching a platform's upload format find the template page, convert one catalogue free and subscribe before the next sale.",
-    "proof": [
-     {
-      "url": "https://sablot.app/",
-      "note": "Shows houses buying cataloguing tools in 2026; the template queries' autocomplete was not checked in this run",
-      "date": "2026-10-01",
-      "ageDays": 49,
-      "age": "7 weeks old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "LotUp",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Sablot",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Auction management suites (roundup)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:27.457Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Houses pay a monthly fee per house to export catalogues to all their platforms.",
-   "trigger": "standing need",
-   "window": "No deadline; two 2026 tools (LotUp, Sablot) show houses are being served now, so the opening is narrowing.",
-   "score": 2.4,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 800 visits a year (assumed) at 2% (assumed) gives 16 houses at 29 EUR for about 6 months, about 2,800 EUR, cut to about 1,000 EUR for ramp and fees. Cross-check: LotUp at 49 GBP and Sablot at 149 GBP a month show payers but no customer counts. 5,000 EUR a year needs 15 houses paying all year; the channel is unverified."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "Paid tools prove the job, but two 2026 entrants already do it and only one source page could be opened.",
-      "summary": "",
-      "concerns": [
-       "LotUp covers the same job",
-       "Platform import formats change without notice",
-       "Channel unmeasured"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:27.457Z",
-   "updatedAt": "2026-11-17T22:58:27.457Z",
-   "outcome": null
-  },
-  {
-   "id": "onix-sheet-a-spreadsheet-to-onix-3-0-builder-and",
-   "title": "ONIX Sheet: a spreadsheet-to-ONIX 3.0 builder and validator for small presses",
-   "pitch": "For small presses (10 to 300 titles) that must send ONIX 3.0 to Amazon, distributors and library vendors since Amazon stopped taking ONIX 2.1: fill a guided sheet or upload the title spreadsheet, get schema and codelist checks in the browser, and download a valid ONIX 3.0 file with a per-title error list. Free validator pages for common rejection messages bring publishers in.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the production or metadata manager of a small press with 10 to 300 titles",
-    "buys": "a valid ONIX 3.0 feed accepted by Amazon and distributors without a title-management system; it avoids rejected feeds and missing listings",
-    "model": "subscription",
-    "price": "19 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.onixedit.com/",
-      "note": "ONIXEDIT sells the same job: Cloud from 15.25 USD a month, Pro 475 USD once, Converter 350 USD",
-      "date": "2026-10-05",
-      "ageDays": 45,
-      "age": "6 weeks old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "ONIXEDIT Cloud already does this in the browser from 15.25 USD a month, and many small presses let their distributor build the ONIX for free.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 45,
-     "age": "newest source 6 weeks old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.bisg.org/news/time-to-act-the-onix-3-transition-is-actually-here",
-     "note": "BISG: Amazon set March 2026 as the deadline for all ONIX-sending publishers to stop sending ONIX 2.1",
-     "date": "2025-10-28",
-     "ageDays": 387,
-     "age": "13 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://www.onixedit.com/",
-     "note": "ONIXEDIT: Cloud browser editor from 15.25 USD a month, Pro 475 USD once (Windows), Excel/CSV-to-ONIX Converter 350 USD; newest blog post dated 2026-10-05",
-     "date": "2026-10-05",
-     "ageDays": 45,
-     "age": "6 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=onix%20file",
-     "note": "Autocomplete: 'onix file format', 'onix file example', 'onix 3.0 sample file' (other variants unrelated)",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'onix 3.0 sample file', 'onix file format', retailer rejection messages",
-    "first100": "Metadata managers searching for a sample file or a rejection message validate their feed free, then subscribe to build feeds from their spreadsheet.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=onix%20file",
-      "note": "Three book-metadata variants in the autocomplete for 'onix file'",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "ONIXEDIT Cloud",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "ONIXEDIT Pro with Converter",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Origami by publica.la",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "BookNet Canada BiblioShare webform",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:26.909Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small presses subscribe to build and validate feeds; validation of a single file is free.",
-   "trigger": "Amazon's deadline (March 2026, day not given) for ONIX-sending publishers to stop sending ONIX 2.1, now passed",
-   "window": "Standing: every new title needs a feed; the Amazon cut-over has passed, so the urgent wave is over.",
-   "score": 2.5,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1000,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1000,
-       "upsideEur": 5000,
-       "basis": "Bottom-up: 2,000 visits a year (assumed) at 0.8% (assumed) gives 16 presses at 19 EUR for about 6 paid months, about 1,800 EUR, cut to about 1,000 EUR for ramp and fees. Cross-check: ONIXEDIT shows payers at 15.25 USD a month and up, with no customer count. 5,000 EUR a year needs 22 presses paying all year; unlikely against ONIXEDIT Cloud."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "The duty is real and paid for, but a cheap browser-based competitor already exists and distributors often do the job for free.",
-      "summary": "",
-      "concerns": [
-       "ONIXEDIT Cloud is cheaper and established",
-       "Distributors create ONIX for many small presses",
-       "The Amazon cut-over wave has passed"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:26.909Z",
-   "updatedAt": "2026-11-17T22:58:26.909Z",
-   "outcome": null
-  },
-  {
-   "id": "cut-quote-embed-an-instant-dxf-price-widget-any",
-   "title": "Cut Quote Embed: an instant DXF price widget any small laser or waterjet shop can paste into its ow…",
-   "pitch": "For small laser, plasma and waterjet job shops that quote DXF files by hand from email: paste one snippet into a Wix, Squarespace, WordPress or Shopify site, set material prices once, and visitors get a price from cut length, pierce count and sheet area computed in their browser, then send the order with the file. Every embed carries a small 'quotes by' link that brings the next shop.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the owner of a 1 to 20 person laser, plasma or waterjet job shop that quotes customer DXF files by hand",
-    "buys": "instant prices on the shop's own website, saving hours of manual quoting and catching orders outside office hours",
-    "model": "subscription",
-    "price": "49 EUR a month",
-    "proof": [
-     {
-      "url": "https://slashdot.org/software/p/Quote-Cut/",
-      "note": "Quote & Cut charges 249-299 GBP a month for its Advanced plan of the same instant-quote job",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://alternativeto.net/software/nanoquote-app/about/",
-      "note": "NanoQuote charges 9 to 79 USD a month for DXF quoting",
-      "date": "2026-06-29",
-      "ageDays": 143,
-      "age": "5 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Shops price by hand because nesting, stock and customer relationships matter, and those who want automation already have Quote & Cut's free tier or NanoQuote from 9 USD.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://slashdot.org/software/p/Quote-Cut/",
-     "note": "Quote & Cut (founded 2026): DXF upload with nesting-based prices inside WooCommerce; Starter free (25 quotes a month), Advanced 249-299 GBP a month, Enterprise 799-999 GBP; page title says 2026, open…",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://alternativeto.net/software/nanoquote-app/about/",
-     "note": "NanoQuote: DXF and STEP quotes for laser, plasma, waterjet and CNC shops, customer quote pages, 9 to 79 USD a month, no website widget mentioned",
-     "date": "2026-06-29",
-     "ageDays": 143,
-     "age": "5 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=laser%20cutting%20quote",
-     "note": "Autocomplete includes 'laser cutting quote software', 'laser cutting instant quote', 'laser cutting quote online'",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google query 'laser cutting quote software' (shop side); embeds on live shop sites as a secondary route",
-    "first100": "Shop owners searching 'laser cutting quote software' test the widget on one of their own DXF files, then paste it into their site; later shops find it through the link on live embeds.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=laser%20cutting%20quote",
-      "note": "One of 10 variants is the shop-side 'laser cutting quote software'; most variants are buyers looking for a cutting service",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Quote & Cut",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "NanoQuote",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "CutQuote",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "ToolBox",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Tempus Tools",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:25.293Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Shops pay a monthly fee for the widget on their own site; a free tier allows a few quotes a month.",
-   "trigger": "standing need",
-   "window": "No deadline. The low end stays open because CutQuote puts its embeddable widget only in its 900 USD a month Business plan and Quote & Cut works only inside WooCommerce; 2026 entrants (Quote & Cut, Na…",
-   "score": 2.55,
-   "index": {
-    "composite": 2.95,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.95 is below 3.6"
-    ],
-    "yearlyCostEur": 60,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.95 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1500,
-     "upsideEur": 9000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1500,
-       "upsideEur": 9000,
-       "basis": "Bottom-up: 1,500 shop-side visits a year (assumed) at 1% (assumed) gives 15 shops at 49 EUR, joining through the year and paying about 6 months, about 4,400 EUR, cut to about 1,500 EUR for ramp, churn, fees and a form relay. Cross-check: four priced rivals (9 USD to 999 GBP a month) prove payers but publish no customer counts. 5,000 EUR a year needs 9 shops paying all year; plausible only if the …"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The job is clearly paid for, and the widget gap at the low end is visible on rival pages, but five tools already quote DXF files and most search volume comes from buyers, not shops.",
-      "summary": "",
-      "concerns": [
-       "Crowded: five priced quoting tools, two launched in 2026",
-       "Shop-side search volume is small",
-       "Accurate prices need nesting and machine data that many shops will not set up"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:25.293Z",
-   "updatedAt": "2026-11-17T22:58:25.293Z",
-   "outcome": null
-  },
-  {
-   "id": "sep-desk-spot-colour-and-simulated-process-separ",
-   "title": "Sep Desk: spot-colour and simulated-process separations in the browser for small screen-print shops",
-   "pitch": "For small screen-print shops that pay a freelancer per separation or rent Photoshop plus a plugin: drop the customer's artwork, pick ink count and garment colour, and get halftoned film positives per ink as a print-ready PDF, processed locally so customer art never leaves the machine. If it takes off, shareable ink previews for quotes pull in the shop's customers and other shops.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the owner of a 1 to 10 person screen-printing shop doing custom shirts and merch",
-    "buys": "print-ready separations per job without paying a separator per design or renting Photoshop plus a plugin; it saves hours per job and avoids misprints",
-    "model": "subscription",
-    "price": "29 EUR a month for 25 jobs",
-    "proof": [
-     {
-      "url": "https://separo.io/",
-      "note": "Separo charges 49 USD a month (10 simulated-process jobs) and 149 USD a month for the same job; undated page opened on this date",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Shops already own Photoshop with a separation plugin or use Separo, and many searchers explicitly want free software.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://separo.io/",
-     "note": "Undated page, opened on this date: online automatic separations for screen printing, Starter 49 USD a month with 10 simulated-process jobs, Plus 149 USD a month",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=color%20separation%20software",
-     "note": "10 autocomplete variants including 'for screen printing', 'free', 'for coreldraw', 'for photoshop' and 'best ... for screen printing'",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'color separation software for screen printing' and 'free color separation software for screen printing'",
-    "first100": "Shop owners searching for free or cheaper separation software run a free watermarked preview on their own artwork and subscribe for clean film output.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=color%20separation%20software",
-      "note": "Autocomplete shows 10 variants, 4 about screen printing and 3 asking for free tools",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Separo",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "UltraSeps",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Separation Studio (Ryonet)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Pointcarre Color Separation",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:24.105Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Shops subscribe for a monthly job allowance; the free tier gives watermarked previews for quoting.",
-   "trigger": "standing need",
-   "window": "No deadline. Kept open by incumbent prices (Photoshop plugins, Separo from 49 USD a month) and steady searches for free separation software; the gap is narrow because Separo already works online.",
-   "score": 2.45,
-   "index": {
-    "composite": 2.95,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.95 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.95 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1500,
-     "upsideEur": 10000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1500,
-       "upsideEur": 10000,
-       "basis": "Bottom-up: 2,500 visits a year (assumed) at 0.8% (assumed) gives 20 subscribers who join through the year and pay about 6 months at 29 EUR, about 3,480 EUR, cut to about 1,500 EUR for the search ramp, churn and fees. Cross-check: Separo's price page proves monthly payers at 49 to 149 USD but shows no customer count, so volume is unverified. 5,000 EUR a year needs about 15 subscribers paying all y…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 5,
-      "rationale": "A priced online competitor proves shops pay monthly for this job and autocomplete shows steady interest, but three solid tools exist and simulated-process quality is hard to match.",
-      "summary": "",
-      "concerns": [
-       "Separation quality on photographic art is hard to match in a browser",
-       "Three solid incumbents, one of them already online",
-       "Many searchers want it free"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:24.105Z",
-   "updatedAt": "2026-11-17T22:58:24.105Z",
-   "outcome": null
-  },
-  {
-   "id": "infopath-archive-viewer-open-print-and-export-ol",
-   "title": "InfoPath Archive Viewer: open, print and export old InfoPath form XML in the browser, nothing uploa…",
-   "pitch": "For SharePoint and IT admins in small and mid-size organisations that still hold InfoPath form libraries (.xml submissions and .xsn templates) after Microsoft removed InfoPath Forms Services on 2026-07-14. Drop the files in the browser: each form renders in its own view, a whole library batch-exports to PDF for the archive and to CSV for the data, and nothing leaves the machine. If it takes off i…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "the SharePoint or IT admin of a small or mid-size organisation (school district, council department, manufacturer, charity) holding one to …",
-    "buys": "a readable, printable archive of thousands of old submissions plus a CSV of their data, without an enterprise migration licence or an unsupported Windows PC running InfoPath; it keeps records-retention and audit requests answerable",
-    "model": "one-off",
-    "price": "149 EUR once per organisation (unlimited libraries), free preview of 5 forms",
-    "proof": [
-     {
-      "url": "https://lightningtools.com/sharepoint-form-migrator-pricing",
-      "note": "Undated pricing page (copyright 2026), opened on this date: Form Instance Archiving (a PDF of each completed form) from 950 USD for 25 libraries; InfoPath data conversion from 4,500 USD; 20% support …",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "The organisation still has a Windows PC with the free InfoPath 2013 client, or already paid a migration partner, so opening old forms costs nothing extra.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://techcommunity.microsoft.com/blog/spblog/support-update-for-infopath-forms-services-in-microsoft-365/3858190",
-     "note": "Microsoft's primary notice: removal after 2026-07-14 for all tenants, no extension; unmigrated users can only download .xsn/.xml files and open them in InfoPath Client 2013",
-     "date": "2023-06-30",
-     "ageDays": 1238,
-     "age": "3 years 5 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://lightningtools.com/blog/infopath-migration-forms-xml-data/",
-     "note": "Updated after the removal: retirement does not convert existing XML submissions; Power Apps has no native way to import Form Library XML",
-     "date": "2026-11-06",
-     "ageDays": 13,
-     "age": "13 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=infopath%20xml",
-     "note": "Google autocomplete for 'infopath xml' returns 'infopath xml viewer' and 'infopath xml to pdf'",
-     "date": "2026-11-17",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'infopath xml viewer', 'infopath xml to pdf', 'convert infopath xml to excel'",
-    "first100": "Admins who downloaded their form libraries search 'infopath xml viewer' or 'infopath xml to pdf', see their own form rendered in seconds, and pay to export the whole library.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=infopath%20xml",
-      "note": "Autocomplete shows the viewer and PDF queries; a web search for a viewer returned only 2004 MSDN posts and migration vendors, no viewer product",
-      "date": "2026-11-17",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Lightning Tools Form Migrator (Form Instance Arch…",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "InfoPath 2013 client (Microsoft)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "InfoPath 2003 Form Viewer sample (MSDN)",
-     "verdict": "abandoned",
-     "note": ""
-    },
-    {
-     "name": "Crow Canyon InfoPath replacement guides and produ…",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-17T22:58:23.298Z",
-    "detail": [
-     "Missed the strict bar: score 3.1 is below the minimum 3.5"
-    ]
-   },
-   "earns": "IT admins pay once per organisation to batch-export their libraries to PDF and CSV after 5 free renders.",
-   "trigger": "Microsoft removed InfoPath Forms Services from SharePoint Online for all tenants after 2026-07-14 with no extension; InfoPath 2013 client support ended the same day, and existing XML submissions are …",
-   "window": "Now a standing archive need: organisations must keep old form records for years, and Microsoft's only free route is the unsupported, Windows-only InfoPath 2013 client. The only priced tool sells by l…",
-   "score": 3.1,
-   "index": {
-    "composite": 3,
-    "used": {
-     "risk": 2,
-     "success": 3,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 12000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 12000,
-       "basis": "Bottom-up: 2,000 search visits a year (assumed) at 1.5% (assumed) gives 30 payers at 149 EUR, about 4,470 EUR at full run rate; a new site ranks slowly, so about half in year one, minus Stripe fees and a domain, about 2,000 EUR. Cross-check: Lightning Tools charges at least 950 USD plus 20% support for the same archiving job but publishes no customer count, so volume could not be checked independ…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 3,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "Microsoft's own notice confirms the removal and that XML submissions stay behind; autocomplete shows people asking for a viewer and a PDF export; the only priced tool is priced for enterprises. Search volume is not measured.",
-      "summary": "",
-      "concerns": [
-       "Some .xsn views use Microsoft-specific XSLT extensions that may not render in a browser",
-       "Demand decays as archives are migrated or deleted",
-       "Many organisations may still have the free InfoPath 2013 client installed"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-17T22:58:23.298Z",
-   "updatedAt": "2026-11-17T22:58:23.298Z",
    "outcome": null
   },
   {
@@ -16397,7 +16369,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-19T12:00:00.000Z",
+  "checkedInAt": "2026-11-19T15:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -16415,19 +16387,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-18T19:41:02.527Z",
+   "lastRunAt": "2026-11-19T14:54:47.192Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 96,
-   "radius": 4,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 97,
+   "radius": 3,
    "radiusLevels": 4,
    "runsLastDay": 2,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-19T01:41:02.527Z",
+   "nextRunAfter": "2026-11-19T20:54:47.192Z",
    "turn": "Big think"
   }
  },
