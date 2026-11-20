@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T12:00:11.896Z",
+ "generatedAt": "2026-11-20T15:24:33.065Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,1995 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "cap-table-exit-take-a-pulley-cap-table-to-a-prov",
+   "title": "Cap Table Exit: take a Pulley cap table to a provider other than Carta before data access ends on 2…",
+   "pitch": "For startup founders and finance leads who do not want Carta's 12-month contract after Pulley shuts down on 2026-12-08. Pulley migrates only to Carta and offers data 'in a limited format' until 2027-01-31. Upload the export: it rebuilds holders, grants, SAFEs and vesting into the Open Cap Format and the import templates of other providers, and checks that share counts reconcile.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A seed or Series A startup founder or finance lead on Pulley who prefers a provider other than Carta",
+    "buys": "A reconciled cap table in a portable format before access ends, avoiding a 12-month Carta contract or a lawyer rebuilding the ledger",
+    "model": "one-off",
+    "price": "149 EUR one-off",
+    "proof": [
+     {
+      "url": "https://pulley.com/guides/faq-what-is-happening-with-pulleys-shutdown",
+      "note": "Opened. The alternative carries a 12-month paid Carta contract (price not shown); no price was found for this exact export job",
+      "date": "2026-09-15",
+      "ageDays": 66,
+      "age": "2 months old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Other cap-table providers onboard Pulley customers free, and most founders accept the automatic Carta move.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 65,
+     "age": "newest source 2 months old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 66,
+     "age": "newest source 2 months old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://pulley.com/guides/faq-what-is-happening-with-pulleys-shutdown",
+     "note": "Opened. Shutdown 2026-12-08; data accessible in a limited format until 2027-01-31; Pulley will not assist migration to any provider other than Carta; Carta requires a new 12-month agreement",
+     "date": "2026-09-15",
+     "ageDays": 66,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9",
+     "note": "Seen as an HN story: Pulley shuts down, Carta helps transition customers",
+     "date": "2026-09-16",
+     "ageDays": 65,
+     "age": "2 months old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'pulley shutting down alternative', 'export pulley cap table'",
+    "first100": "Founders who refuse the Carta contract search for an export route and pay for a reconciled file; fewer than 100 will find it in time.",
+    "proof": [
+     {
+      "url": "https://pulley.com/guides/faq-what-is-happening-with-pulleys-shutdown",
+      "note": "The shutdown FAQ ranks for the query",
+      "date": "2026-09-15",
+      "ageDays": 66,
+      "age": "2 months old",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9",
+      "note": "News coverage of the shutdown",
+      "date": "2026-09-16",
+      "ageDays": 65,
+      "age": "2 months old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Carta (automatic migration)",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:30.176Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Founders pay once for a reconciled export to the provider of their choice.",
+   "trigger": "Pulley ceases operations on 2026-12-08, migrates customers only to Carta, and keeps limited data access until 2027-01-31",
+   "window": "Ten weeks until data access ends on 2027-01-31, too short for a new site to rank well.",
+   "score": 2.65,
+   "index": {
+    "composite": 1.75,
+    "used": {
+     "risk": 3,
+     "success": 1,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 1.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 1.75 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 0,
+     "upsideEur": 1500,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 0,
+       "upsideEur": 1500,
+       "basis": "Bottom-up: 800 visits in a ten-week window (assumed) at 2% gives 16 payers × 149 EUR = 2,384 EUR in theory, but a new site will not rank before 2027-01-31, so the expected figure is about 0. 5,000 EUR needs 34 payers, out of reach. Cross-check: no comparable price; Pulley's customer count is not published."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 1,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 4,
+      "rationale": "A dated, real lock-in, but the window is too short and free onboarding by competitors covers it.",
+      "summary": "",
+      "concerns": [
+       "Window shorter than search ramp-up",
+       "Cap-table errors carry legal weight",
+       "Export format unknown"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:30.176Z",
+   "updatedAt": "2026-11-20T15:24:30.176Z",
+   "outcome": null
+  },
+  {
+   "id": "data-act-sheet-the-pre-contract-data-information",
+   "title": "Data Act Sheet: the pre-contract data information for each connected product, kept with its versions",
+   "pitch": "For small makers and resellers of connected products (smart-home devices, e-bikes, fitness gear) selling into the EU. Before a sale they must tell buyers what data the product generates, in what format and volume, and how to get it; since 2026-09-12 new products must also allow access by design. A guided form produces the information sheet and a web page per product and model year, with a dated v…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small maker or importer of connected products selling into the EU",
+    "buys": "The pre-contract data information for each product, written to the Data Act's headings and kept as a dated record, instead of lawyer hours",
+    "model": "subscription",
+    "price": "99 EUR a year per company",
+    "proof": [
+     {
+      "url": "https://craready.pages.dev/",
+      "note": "Opened. Nearest price: the same payer pays 299 EUR a month for CRA compliance; no Data Act tool price was found",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "A lawyer's one-off template, or a paragraph in the manual, satisfies most small makers, and enforcement is slow.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.faegredrinker.com/en/insights/publications/2026/9/september-2026-eu-compliance-deadlines-for-connected-product-manufacturers",
+     "note": "Seen in search: September 2026 EU compliance deadlines for connected-product manufacturers",
+     "date": "2026-09-01",
+     "ageDays": 80,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.heuking.de/en/news-events/newsletter-articles/detail/data-act-access-by-design-becomes-mandatory-as-of-12-september-what-companies-need-to-know-now.html",
+     "note": "Seen in search: access by design mandatory from 12 September",
+     "date": "2026-09-01",
+     "ageDays": 80,
+     "age": "3 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.potomaclaw.com/news-EU-Data-Act-One-Year-In-Product-Design-Still-Lags",
+     "note": "Seen in search: one year in, product design still lags (date not shown)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'data act pre-contractual information template', 'data act article 3 checklist'",
+    "first100": "Makers reading a law-firm explainer search for a template, generate one sheet free and pay to keep all products and versions.",
+    "proof": [
+     {
+      "url": "https://www.withersworldwide.com/en-gb/insight/read/a-design-for-access-new-eu-data-act-data-access-rules-take-effect",
+      "note": "Seen in search: law firms own the results; no tool ranks",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/data-regulation/eu-data-act",
+      "note": "Seen in search: a national authority page on the Data Act",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Law-firm explainers (Loyens & Loeff and others)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:29.339Z",
+    "detail": [
+     "Missed the strict bar: score 2.8 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Makers pay yearly per company for information sheets and the version record.",
+   "trigger": "EU Data Act Article 3(1) access by design applies to connected products placed on the market from 2026-09-12; the pre-contract duties of Articles 3(2) and 3(3) have applied since 2025-09-12",
+   "window": "In force now for every new product; law firms publish explainers but no template tool was found.",
+   "score": 2.8,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 2,000 visits (assumed) at 1% gives 20 payers × 99 EUR = 1,980 EUR, cut for ramp to about 300 EUR. 5,000 EUR needs 51 payers, out of reach in year one. Cross-check: no comparable price; CRAready's price shows the payer spends on compliance but not on this job."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The duty is in force and nobody offers a tool, but no one has been seen paying for this exact job.",
+      "summary": "",
+      "concerns": [
+       "Reads as legal drafting",
+       "Low urgency",
+       "Could be bundled into the CRA kit"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:29.339Z",
+   "updatedAt": "2026-11-20T15:24:29.339Z",
+   "outcome": null
+  },
+  {
+   "id": "epub-access-fix-accessibility-metadata-alt-text",
+   "title": "EPUB Access Fix: accessibility metadata, alt text and checks for a small press backlist under the E…",
+   "pitch": "For small presses and self-publishers with 20 to 500 EPUBs still sold in EU stores, where the European Accessibility Act covers backlist titles too. Upload EPUBs (processed in the browser): it adds the schema.org accessibility metadata, language and navigation fixes, flags missing alt text with drafts to approve, and reports against the EPUB Accessibility checks title by title.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small press or self-publisher with a backlist of EPUBs sold through EU retailers",
+    "buys": "Backlist titles that carry correct accessibility metadata and fixes, instead of per-project remediation quotes or titles pulled from EU stores",
+    "model": "one-off",
+    "price": "3 EUR per title, or 99 EUR a year for a whole backlist",
+    "proof": [
+     {
+      "url": "https://pubrica.com/services/education-editorial-service/epub-accessibility-validation/",
+      "note": "Seen in search: EPUB accessibility validation sold as a paid service, quoted per project (no figure shown)",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "The free DAISY Ace checker plus free EPUB editors cover technically able publishers, and enforcement against small presses is uncertain.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://balisage.net/Proceedings/vol31/xml/Kraetke01/BalisageVol31-Kraetke01.xml",
+     "note": "Seen in search: the EAA applies to backlist titles that remain commercially available (paper date not shown)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://services.publishing.umich.edu/About-Us/Accessibility",
+     "note": "Seen in search: Michigan Publishing launched a backlist remediation project in fall 2025",
+     "date": "2025-09-01",
+     "ageDays": 445,
+     "age": "15 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.w3.org/TR/2026/WD-epub-a11y-12-20260529/",
+     "note": "Seen in search: W3C EPUB Accessibility 1.2 working draft",
+     "date": "2026-05-29",
+     "ageDays": 175,
+     "age": "6 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'epub accessibility metadata', 'european accessibility act ebooks backlist'",
+    "first100": "Small presses told by a distributor or retailer to fix accessibility metadata search for it, check one EPUB free and buy the backlist pass.",
+    "proof": [
+     {
+      "url": "https://www.cambridge.org/core/elements/inclusive-publishing-and-the-quest-for-reading-equity/18BFC735CD27EA1D45D1200BBB562FBC",
+      "note": "Seen in search: the cost of remediation is a known barrier",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://styluspub.presswarehouse.com/about/accessibility",
+      "note": "Seen in search: a distributor scheduling backlist remediation with its publishers",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Pubrica EPUB accessibility validation",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:22.087Z",
+    "detail": [
+     "Missed the strict bar: score 2.6 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Presses pay per title or a yearly backlist pass to fix and document accessibility.",
+   "trigger": "standing need (the European Accessibility Act has applied to e-books sold in the EU since 2025, backlist included)",
+   "window": "A standing gap: remediation is quoted per project by services, and small presses have no self-serve option.",
+   "score": 2.6,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 400,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 400,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 2,000 visits (assumed) at 1.5% gives 30 payers × 99 EUR = 2,970 EUR, cut to about 400 EUR for ramp and the free tools. 5,000 EUR needs 51 backlist passes, which this channel does not reach. Cross-check: no published price found, so the cautious figure stands."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The duty is real and the backlist is in scope, but free checkers exist and no price page proves self-serve payment.",
+      "summary": "",
+      "concerns": [
+       "Free Ace plus free editors",
+       "Alt-text drafts still need human approval",
+       "Uncertain enforcement"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:22.087Z",
+   "updatedAt": "2026-11-20T15:24:22.087Z",
+   "outcome": null
+  },
+  {
+   "id": "resubscribe-kit-move-paypal-and-other-non-transf",
+   "title": "Resubscribe Kit: move PayPal and other non-transferable Lemon Squeezy subscribers without double ch…",
+   "pitch": "For SaaS and membership sellers whose Lemon Squeezy subscriptions cannot be transferred (PayPal subscribers, sellers outside Stripe's countries). It reads the subscription export, sets each customer's new subscription to start on their current renewal date, produces personal checkout links for Stripe, Paddle or Polar plus a mail-merge file, and tracks who has switched before 2027-03-31.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A SaaS or membership seller on Lemon Squeezy with PayPal subscribers or based in a country Stripe Managed Payments does not support",
+    "buys": "Keeps recurring revenue that would otherwise lapse on 2027-03-31, without charging anyone twice or chasing each subscriber by hand",
+    "model": "one-off",
+    "price": "79 EUR one-off",
+    "proof": [
+     {
+      "url": "https://payrequest.io/blog/migrate-lemon-squeezy-license-keys",
+      "note": "Opened. Nearest price seen: a Lemon Squeezy replacement charging 5 to 20 EUR a month; no price for this exact job was found",
+      "date": "2026-11-17",
+      "ageDays": 3,
+      "age": "3 days old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Sellers with few PayPal subscribers just email them a new checkout link, and the provider they move to helps for free.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 4,
+     "age": "newest source 4 days old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 3,
+     "age": "newest source 3 days old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://checkoutpage.com/blog/lemon-squeezy-shutting-down",
+     "note": "Opened. PayPal subscriptions cannot be migrated and must be restarted; customers manage subscriptions through Link rather than the Lemon Squeezy portal",
+     "date": "2026-11-16",
+     "ageDays": 4,
+     "age": "4 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.lemonsqueezy.com/blog/2026-update",
+     "note": "Opened. Businesses in unsupported countries are pointed to Stripe Atlas to incorporate a US company",
+     "date": "2026-01-28",
+     "ageDays": 296,
+     "age": "10 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'lemon squeezy paypal subscriptions', 'move lemon squeezy subscribers'",
+    "first100": "Sellers who learn their PayPal subscribers cannot be transferred search for it, upload the export and pay once for the links and tracking.",
+    "proof": [
+     {
+      "url": "https://checkoutpage.com/blog/lemon-squeezy-shutting-down",
+      "note": "The ranking guide states the PayPal problem and offers no tool",
+      "date": "2026-11-16",
+      "ageDays": 4,
+      "age": "4 days old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Lemon Squeezy assisted transfer",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Dodo Payments",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:20.329Z",
+    "detail": [
+     "Missed the strict bar: score 3 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Sellers pay once to move the subscribers that no provider transfers for them.",
+   "trigger": "Lemon Squeezy stops renewals on 2027-03-31; PayPal subscriptions cannot be migrated and must be restarted with another payment method",
+   "window": "Ends on 2027-03-31; every subscriber not moved by then is lost revenue.",
+   "score": 3,
+   "index": {
+    "composite": 2.2,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 1,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.2 is below 4",
+      "potential 1 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 600,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 600,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 2,000 visits (assumed) at 2% gives 40 payers × 79 EUR = 3,160 EUR; a four-month window and slow ranking cut that to about 10 payers, roughly 600 EUR after fees. 5,000 EUR needs 64 payers, out of reach. Cross-check: no comparable price found; the number of PayPal subscribers on Lemon Squeezy is unknown."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 1,
+      "automation": 4,
+      "rationale": "A real, dated gap with money at stake, but a tiny audience and a window too short for search to build.",
+      "summary": "",
+      "concerns": [
+       "Window too short for a new site",
+       "Sellers solve it by email",
+       "Creating payment links client-side needs a restricted API key"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:20.329Z",
+   "updatedAt": "2026-11-20T15:24:20.329Z",
+   "outcome": null
+  },
+  {
+   "id": "retire-watch-retiring-ai-model-ids-found-in-gitl",
+   "title": "Retire Watch: retiring AI model IDs found in GitLab, Bitbucket and GitHub code, with fix-up merge r…",
+   "pitch": "For small product teams and agencies whose apps call OpenAI, Anthropic or Google models. Providers now retire models on about 60 days' notice, and a missed date breaks production. Retire Watch scans repositories on any host for retiring model IDs and rejected parameters, opens a merge request with the replacement, and emails a calendar of upcoming dates. It is built on a curated retirement datase…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small software agency or product team running AI features in production on GitLab, Bitbucket or GitHub",
+    "buys": "No production outage when a model ID is switched off, and no engineer hours spent checking provider deprecation pages",
+    "model": "subscription",
+    "price": "15 EUR a month per organisation",
+    "proof": [
+     {
+      "url": "https://www.sunsetlint.com/",
+      "note": "Opened. A paid Pro plan exists (PR check runs on Pro); the price is on a separate pricing page I did not open",
+      "date": "2026-10-06",
+      "ageDays": 45,
+      "age": "6 weeks old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "A grep for model names plus the providers' free deprecation emails is enough for most small teams.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 45,
+     "age": "newest source 6 weeks old",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 45,
+     "age": "newest source 6 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.sunsetlint.com",
+     "note": "Opened. Claude Sonnet 4.5 retirement announced 2026-09-30 for 2026-11-30; Anthropic's 2026 notice periods about 60 to 62 days; OpenAI Assistants API sunset 2026-08-26. Last verified 2026-10-06.",
+     "date": "2026-10-06",
+     "ageDays": 45,
+     "age": "6 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+     "note": "Seen as the HN story 'Gemini 2.5 models are being deprecated and discontinued'",
+     "date": "2026-07-29",
+     "ageDays": 114,
+     "age": "4 months old",
+     "tier": "ok"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'model name retirement date' queries for each model, plus the GitLab and GitHub integration listings",
+    "first100": "Developers searching a model's retirement date land on its calendar page, connect a repository for a free scan and subscribe for merge requests.",
+    "proof": [
+     {
+      "url": "https://www.sunsetlint.com/",
+      "note": "A competitor builds its content around retirement dates per model",
+      "date": "2026-10-06",
+      "ageDays": 45,
+      "age": "6 weeks old",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+      "note": "Provider pages are the current answer for date queries",
+      "date": "2026-07-29",
+      "ageDays": 114,
+      "age": "4 months old",
+      "tier": "ok"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "SunsetLint",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:19.511Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Teams pay a monthly fee per organisation for scanning, merge requests and alerts; the free retirement calendar pages bring them in.",
+   "trigger": "Anthropic's 2026 retirement notices give about 60 to 62 days (4 to 6 months in 2025); Claude Sonnet 4.5 retires on 2026-11-30; Gemini 2.5 models are being deprecated",
+   "window": "Recurring: every provider retires models several times a year, so the need repeats; a GitHub-only competitor launched on 2026-11-14.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.6,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.6 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.6 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 8000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 8000,
+       "basis": "Bottom-up: 8,000 visits a year (assumed) at 0.5% gives 40 teams × 15 EUR × about 6 paid months = 3,600 EUR, cut for ramp to about 600 EUR, minus 120 EUR of hosting, about 500 EUR. 5,000 EUR needs 28 teams paying all year. Cross-check: SunsetLint's revenue and price are unknown, so the lower figure stands."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The need recurs and notice periods shortened in 2026, but a fresh competitor exists and the payer can grep.",
+      "summary": "",
+      "concerns": [
+       "Free grep and provider emails",
+       "Keeping the dataset current needs automation from provider pages",
+       "Code-host app review"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:19.511Z",
+   "updatedAt": "2026-11-20T15:24:19.511Z",
+   "outcome": null
+  },
+  {
+   "id": "delivery-for-stripe-managed-payments-files-and-d",
+   "title": "Delivery for Stripe Managed Payments: files and download links after checkout, for creators leaving…",
+   "pitch": "For creators selling ebooks, templates, presets and fonts who follow Stripe's path off Lemon Squeezy. Managed Payments handles payments and VAT but sends no files. Connect once: each paid checkout triggers an email with expiring download links, a re-download page and an order log.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A creator or tiny studio selling digital files (ebooks, templates, presets, fonts) who moves from Lemon Squeezy to Stripe Managed Payments",
+    "buys": "Buyers get their files automatically after paying, without the seller emailing links by hand or giving up Stripe's VAT handling",
+    "model": "subscription",
+    "price": "9 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.sendowl.com/pricing",
+      "note": "Opened. Digital delivery at 39 USD a month (Launch plan)",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Gumroad, Payhip and other merchants of record deliver files with no monthly fee, so a creator leaving Lemon Squeezy simply moves there instead of to Stripe.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://checkoutpage.com/blog/lemon-squeezy-shutting-down",
+     "note": "Opened. 'No files or download links are sent' under Managed Payments; no store page either",
+     "date": "2026-11-16",
+     "ageDays": 4,
+     "age": "4 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.sendowl.com/pricing",
+     "note": "Opened. Digital delivery sells from 39 USD a month; Stripe and PayPal named as gateways, Managed Payments not mentioned",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'stripe managed payments digital downloads', 'lemon squeezy file delivery alternative'",
+    "first100": "Creators who already set up Stripe Managed Payments search for how to deliver files, connect a webhook in two minutes and pay monthly.",
+    "proof": [
+     {
+      "url": "https://checkoutpage.com/blog/lemon-squeezy-shutting-down",
+      "note": "The ranking guide names file delivery as a gap with no answer",
+      "date": "2026-11-16",
+      "ageDays": 4,
+      "age": "4 days old",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://gauravtiwari.org/lemon-squeezy-alternatives/",
+      "note": "Seen in search: alternatives lists rank for the shutdown query",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "SendOwl",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Freemius",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Dodo Payments",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:18.485Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Creators pay a small monthly fee for delivery while Stripe stays their merchant of record.",
+   "trigger": "Lemon Squeezy stops all payments on 2027-03-31; Stripe Managed Payments sends no files or download links",
+   "window": "Four months until 2027-03-31, then the steady flow of new Managed Payments merchants without delivery.",
+   "score": 2.7,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 600,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 600,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 3,000 visits (assumed) at 1.5% gives 45 payers × 9 EUR × about 6 paid months = 2,430 EUR, halved for ramp and churn, minus 120 EUR of hosting, about 600 EUR. 5,000 EUR needs 46 payers paying all year, which this channel does not reach. Cross-check: SendOwl's 39 USD a month shows delivery is paid for, but free merchant-of-record options undercut it."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The gap exists only for sellers who insist on staying on Stripe; solid merchant-of-record alternatives deliver files free.",
+      "summary": "",
+      "concerns": [
+       "Stripe adds delivery",
+       "Creators choose Gumroad or Payhip instead",
+       "Low price and churn"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:18.485Z",
+   "updatedAt": "2026-11-20T15:24:18.485Z",
+   "outcome": null
+  },
+  {
+   "id": "scorm-wrap-turn-a-kajabi-teachable-or-thinkific",
+   "title": "SCORM Wrap: turn a Kajabi, Teachable or Thinkific course into a SCORM package a client's LMS accepts",
+   "pitch": "For course creators and consultants who license an online course to a company whose LMS only takes SCORM. Kajabi does not support SCORM, and authoring tools mean rebuilding the course. Paste the lesson list with hosted video links, add quizzes, and download a tested SCORM 1.2 or 2004 zip with completion tracking. It can grow into a reseller kit that issues one package per client licence.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An independent course creator or training consultant licensing a course to a corporate client",
+    "buys": "A SCORM file the client's LMS accepts, without buying a 970 EUR a year authoring tool or rebuilding the course; a B2B licence deal depends on it",
+    "model": "one-off",
+    "price": "49 EUR per package (or 19 EUR a month)",
+    "proof": [
+     {
+      "url": "https://www.ispringsolutions.com/pricing",
+      "note": "Opened. SCORM authoring sells at 970 EUR per author a year",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Free open-source authoring tools and the authoring tools' trials produce SCORM, and many creators never sell to a company with an LMS.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://help.kajabi.com/articles/products/courses/is-kajabi-scorm-compliant",
+     "note": "Seen in search: Kajabi's help says it does not support SCORM or HTML5 files",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.ispringsolutions.com/pricing",
+     "note": "Opened. iSpring Suite, a common SCORM authoring tool, costs 970 EUR per author per year (1,290 EUR with AI). © 2026; opened 2026-11-20.",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://community.articulate.com/discussions/rise-360/rise-360-lms-export-hosting-options",
+     "note": "Seen in search: a creator's course built in Rise could not be rebuilt on Kajabi; shows the platform-versus-LMS split",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'kajabi scorm', 'teachable scorm export', 'video course to scorm'",
+    "first100": "Creators asked by a client for 'a SCORM file' search for their platform's name plus SCORM, find a page that wraps their existing lessons, and pay per package.",
+    "proof": [
+     {
+      "url": "https://help.kajabi.com/articles/products/courses/is-kajabi-scorm-compliant",
+      "note": "Kajabi's own help page answers 'no' for this query",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://www.learningrevolution.net/?p=446",
+      "note": "Seen in search: an affiliate review site ranks for 'is SCORM necessary for selling online courses'",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "iSpring Suite",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Mini Course Generator",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Skill Studio AI",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Thinkific Plus",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:17.125Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Creators pay per SCORM package or a small subscription when they license courses to companies.",
+   "trigger": "standing need",
+   "window": "A standing gap: the big creator platforms do not export SCORM, and authoring tools assume you build inside them.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 3,000 visits (assumed) at 2% gives 60 packages × 49 EUR = 2,940 EUR, halved for a first-year ramp to about 1,400 EUR, and lowered to 800 EUR for free alternatives. 5,000 EUR needs 102 packages, which this channel does not reach in year one. Cross-check: iSpring's 970 EUR a year shows the job is paid for, but by training departments rather than creators."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The gap is real at the platform level (Kajabi says no SCORM), but several authoring tools export SCORM and free ones exist, so demand among creators is thin.",
+      "summary": "",
+      "concerns": [
+       "Video hosting and tracking: videos must stay playable inside the client's LMS",
+       "Free authoring tools",
+       "Small audience"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:17.125Z",
+   "updatedAt": "2026-11-20T15:24:17.125Z",
+   "outcome": null
+  },
+  {
+   "id": "cra-report-kit-enisa-vulnerability-reports-discl",
+   "title": "CRA Report Kit: ENISA vulnerability reports, disclosure policy and support-period page for makers w…",
+   "pitch": "For small hardware and software makers anywhere that sell into the EU. Since 2026-09-11 they must report actively exploited vulnerabilities and severe incidents to ENISA within 24 hours, 72 hours and 14 days. The kit gives a coordinated vulnerability disclosure policy and security.txt, a product register with support periods, pre-filled early-warning, notification and final-report drafts with dea…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A small maker of connected devices or installable software (1 to 20 staff), inside or outside the EU, that sells into the EU",
+    "buys": "A ready disclosure policy, a product register with support periods, and report drafts that meet the 24-hour early-warning duty with a dated record, instead of a consultant or a 299 EUR a month platform",
+    "model": "subscription",
+    "price": "190 EUR a year per company, up to 5 products",
+    "proof": [
+     {
+      "url": "https://craready.pages.dev/",
+      "note": "Opened. CRA compliance with pre-filled ENISA reports sells at 299 EUR a month (Starter, 3 products) to 1,999 EUR a month",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Most small makers will never have an actively exploited vulnerability to report, and free EU-funded toolkits plus a lawyer's one-off template cover the policy part.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
+     "note": "Seen in search: ENISA launched the CRA Single Reporting Platform; mandatory reporting under Article 14 applies",
+     "date": "2026-09-11",
+     "ageDays": 70,
+     "age": "2 months old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://craready.pages.dev/",
+     "note": "Opened. A tool for device makers without a security team: ENISA report forms 80% pre-filled for the 24h/72h/14-day stages, priced 299 to 1,999 EUR a month. The page shows © 2026 and no exact date; op…",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.enisa.europa.eu/sites/default/files/2026-06/SME%20CRA%20survey%20report.pdf",
+     "note": "Seen in search: ENISA's survey of how SMEs are preparing for the CRA (in the 2026-06 folder)",
+     "date": "2026-06-01",
+     "ageDays": 172,
+     "age": "6 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-reporting",
+     "note": "Seen in search: Commission page saying manufacturers must now report actively exploited vulnerabilities (page date not shown)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'cra vulnerability reporting template', 'enisa early warning 24 hours template', 'cyber resilience act disclosure policy template'",
+    "first100": "Makers who read a law-firm explainer search for a template, find a free policy and security.txt generator, and pay for the register and report drafts.",
+    "proof": [
+     {
+      "url": "https://www.noerr.com/en/insights/cra-single-reporting-platform-launched-reporting-requirements-apply-with-immediate-effect",
+      "note": "Law-firm explainers fill the results for CRA reporting; none offers a working tool",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://craready.pages.dev/",
+      "note": "A tool exists and competes on the same queries at a far higher price",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "CRAready",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "CRA-Ready",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Eclipse Foundation CRA toolkit",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "CRA Manager",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:14.454Z",
+    "detail": [
+     "Missed the strict bar: score 3.2 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small makers pay a yearly fee per company for the policy, register, report drafts and record.",
+   "trigger": "The CRA reporting obligations apply from 2026-09-11 and ENISA's Single Reporting Platform launched the same day; they also cover products placed on the market before the CRA applies in full",
+   "window": "Reporting is live now and the rest of the CRA (technical documentation, SBOM, CE marking) follows on 2027-12-11, so demand rises for 13 months. EU-funded free toolkits and consultancies are moving in.",
+   "score": 3.2,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2000,
+     "upsideEur": 20000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2000,
+       "upsideEur": 20000,
+       "basis": "Bottom-up: 5,000 visits a year (assumed) at 1.5% gives 75 payers × 190 EUR = 14,250 EUR. A new site plus law-firm competition in the results makes 12 payers in year one more likely, about 2,280 EUR, minus fees, about 2,000 EUR. 5,000 EUR needs 27 payers at 190 EUR, which search may reach in year two as the 2027-12-11 deadline nears. Cross-check: CRAready at 299 EUR a month shows the job is paid f…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 4,
+      "rationale": "The duty is in force at the primary source and a priced tool exists, which shows payers. The small-maker segment is priced out of it, but free EU toolkits compete.",
+      "summary": "",
+      "concerns": [
+       "The content must match the regulation exactly",
+       "Free EU-funded toolkits",
+       "Low perceived urgency until an incident happens"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:14.454Z",
+   "updatedAt": "2026-11-20T15:24:14.454Z",
+   "outcome": null
+  },
+  {
+   "id": "pub-rescue-open-and-batch-convert-publisher-pub",
+   "title": "Pub Rescue: open and batch-convert Publisher .pub files in the browser after Publisher left Microso…",
+   "pitch": "For school offices, churches, museums, clubs, small businesses and print shops with folders of .pub flyers, newsletters and programmes, now that Microsoft 365 no longer includes Publisher. Drop a folder in the browser: files convert on the computer (no upload) into PDF plus editable DOCX/PPTX/SVG, with a report of what moved. Later it can rebuild old Publisher layouts as reusable Word or PowerPoi…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A school office, church, museum, club or small business with a folder of .pub templates, and print shops receiving .pub files from customers",
+    "buys": "Editable copies of years of layouts and PDFs for the archive, without rebuilding each flyer in Word by hand or keeping an old Office install alive",
+    "model": "one-off",
+    "price": "19 EUR one-off for a one-year batch pass, first 3 files free",
+    "proof": [
+     {
+      "url": "https://apps.apple.com/app/id1367141608",
+      "note": "Seen in search: PUB Converter sells batch .pub conversion for 14.99 USD one-off on the Mac App Store (listing date not shown)",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "LibreOffice Draw opens .pub files free, and many users need only a few files once, which a free trial or a generic online converter covers.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://learn.microsoft.com/en-us/answers/questions/5780232/can-i-migrate-my-publisher-files-what-replaces-it",
+     "note": "Opened. A museum asks how to migrate its print communications. A 2026-03-18 comment (6 votes) says PDF is no option for tens of thousands of files and asks for an import tool. The page shows '10+' du…",
+     "date": "2026-03-18",
+     "ageDays": 247,
+     "age": "8 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://it.washu.edu/2026/08/03/microsoft-publisher-is-retiring/",
+     "note": "Seen in search: a university IT notice that Publisher is retiring",
+     "date": "2026-08-03",
+     "ageDays": 109,
+     "age": "4 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/answers/a/12595129",
+     "note": "Seen in search: Microsoft Q&A answer saying no official bulk converter from .pub to .docx preserves layout",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'open pub file without publisher', 'convert pub to word', 'batch convert pub to pdf'",
+    "first100": "People who cannot open a .pub search for it, land on a page that converts their first three files in the browser, and pay 19 EUR to finish the folder.",
+    "proof": [
+     {
+      "url": "https://learn.microsoft.com/en-us/answers/questions/5780232/can-i-migrate-my-publisher-files-what-replaces-it",
+      "note": "The question ranks with 10+ duplicates and no tool answer",
+      "date": "2026-03-18",
+      "ageDays": 247,
+      "age": "8 months old",
+      "tier": "ok"
+     },
+     {
+      "url": "https://www.wps.com/office-quick-solution/document-file-issues/batch-convert-microsoft-publisher-files-other-formats/",
+      "note": "Office vendors already publish SEO guides for this query",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "PUB Converter (Mac App Store)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Publisher File Converter",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "WPS batch-conversion guide",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:13.570Z",
+    "detail": [
+     "Missed the strict bar: score 3.1 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Offices and print shops pay a one-off batch pass after converting their first files free.",
+   "trigger": "Microsoft Publisher stopped being supported and was removed from Microsoft 365 in October 2026; Microsoft's own bulk script needs a working, licensed Publisher",
+   "window": "Each organisation hits the problem the first time it opens an old .pub after October 2026, so demand runs for one to two years while archives get touched. Free LibreOffice and a Mac-only paid convert…",
+   "score": 3.1,
+   "index": {
+    "composite": 3,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2000,
+     "upsideEur": 12000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2000,
+       "upsideEur": 12000,
+       "basis": "Bottom-up: 15,000 visits a year (assumed) at 2% gives 300 payers × 19 EUR = 5,700 EUR. A new site ranks slowly, so halve that for the first year, about 2,800 EUR, minus fees, about 2,000 EUR. 5,000 EUR a year needs 263 payers at 19 EUR, which needs page-one rankings for the main queries. Cross-check: PUB Converter shows a 14.99 USD price point, but its sales are unknown; LibreOffice being free ca…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Hard trigger at the primary source, and dated requests that ask for exactly a bulk editable conversion. The free LibreOffice route and the low price point limit revenue.",
+      "summary": "",
+      "concerns": [
+       "Conversion fidelity: libmspub-based conversion moves layouts",
+       "WebAssembly build effort for the converter",
+       "Users take the free LibreOffice route"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:13.570Z",
+   "updatedAt": "2026-11-20T15:24:13.570Z",
+   "outcome": null
+  },
+  {
+   "id": "key-carryover-keep-lemon-squeezy-license-keys-wo",
+   "title": "Key Carryover: keep Lemon Squeezy license keys working after 31 March 2027, on Stripe Managed Payme…",
+   "pitch": "For indie developers who sell desktop apps, plugins and browser extensions with Lemon Squeezy license keys and follow Stripe's own path to Managed Payments, which issues no license keys and sends no files. Import the Lemon Squeezy key export, get activate/validate/deactivate endpoints in Lemon Squeezy's response shape so the app update is a one-line URL change, and new keys and download links go …",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "An indie developer or two-person studio selling a desktop app, WordPress or Figma plugin, or browser extension with Lemon Squeezy license k…",
+    "buys": "Every key already sold keeps activating after Lemon Squeezy's API goes dark, and new Stripe sales get keys and download links automatically. Without it, paying customers' apps stop activating and support requests pile up.",
+    "model": "subscription",
+    "price": "99 EUR a year up to 1,000 active keys (or 12 EUR a month)",
+    "proof": [
+     {
+      "url": "https://www.sendowl.com/pricing",
+      "note": "Opened. Digital delivery with 'Software & license keys' sells at 39 USD a month (Launch) up to 159 USD (Scale). The page shows no date; opened 2026-11-20.",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://payrequest.io/blog/migrate-lemon-squeezy-license-keys",
+      "note": "Opened. PayRequest charges 5 or 20 EUR a month (or a 2% fee) for checkout with license keys.",
+      "date": "2026-11-17",
+      "ageDays": 3,
+      "age": "3 days old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Keygen's free tier (100 active users), or a switch to Dodo, Polar or Freemius with license keys bundled into their fee, covers most small sellers at no extra cost.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 2,
+     "age": "newest source 2 days old",
+     "tier": "fresh",
+     "n": 4
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://checkoutpage.com/blog/lemon-squeezy-shutting-down",
+     "note": "Opened. New sign-ups closed 2026-11-16, migration tool from 2026-12-02, payments stop 2027-03-31 with no extension. Managed Payments has no license keys, no file delivery, no affiliates and no PayPal.",
+     "date": "2026-11-16",
+     "ageDays": 4,
+     "age": "4 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.lemonsqueezy.com/blog/2026-update",
+     "note": "Opened. The official post; its banner says Lemon Squeezy shuts down on 2027-03-31 and no longer accepts sign-ups. The Managed Payments description does not mention license keys.",
+     "date": "2026-01-28",
+     "ageDays": 296,
+     "age": "10 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://payrequest.io/blog/migrate-lemon-squeezy-license-keys",
+     "note": "Opened. A competitor's page reviewed 2026-11-17: it does not import existing Lemon Squeezy keys and is not a drop-in API. Existing buyers need a continuity mechanism the seller has to design.",
+     "date": "2026-11-17",
+     "ageDays": 3,
+     "age": "3 days old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://twitter.com/lemonsqueezy/status/2122349068706017700",
+     "note": "Seen as the Hacker News story 'LemonSqueezy Is Shutting Down' in the dated HN search.",
+     "date": "2026-11-18",
+     "ageDays": 2,
+     "age": "2 days old",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'lemon squeezy license keys alternative', 'stripe managed payments license keys', 'migrate lemon squeezy license keys'",
+    "first100": "Sellers searching what to do about license keys after the shutdown email find a migration page with a free import check that shows how many keys carry over. They pay to switch their validation endpoint before March.",
+    "proof": [
+     {
+      "url": "https://payrequest.io/blog/migrate-lemon-squeezy-license-keys",
+      "note": "A vendor page targeting exactly this query within a day of the closure news; shows the query is being contested",
+      "date": "2026-11-17",
+      "ageDays": 3,
+      "age": "3 days old",
+      "tier": "fresh"
+     },
+     {
+      "url": "https://checkoutpage.com/blog/lemon-squeezy-shutting-down",
+      "note": "Guide ranking for 'lemon squeezy shutting down' that names license keys as the gap with no answer",
+      "date": "2026-11-16",
+      "ageDays": 4,
+      "age": "4 days old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Keygen",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Dodo Payments",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "PayRequest",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "SendOwl",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Freemius",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T15:24:12.173Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 3 is below 4: the need is already served; score 3.3 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Software sellers pay a small yearly fee to keep already-sold keys validating and to issue new ones from Stripe checkouts.",
+   "trigger": "Lemon Squeezy (owned by Stripe) closed to new sellers on 2026-11-16 and stops all payments and renewals on 2027-03-31; Stripe's migration target, Managed Payments, has no license keys and no file del…",
+   "window": "About four months. Every seller has to be off Lemon Squeezy by 2027-03-31, and the guide advises starting by mid-January 2027 because migration can take eight weeks. Payment providers published Lemon…",
+   "score": 3.3,
+   "index": {
+    "composite": 2.8,
+    "used": {
+     "risk": 3,
+     "success": 3,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.8 is below 3.6"
+    ],
+    "yearlyCostEur": 120,
+    "needsServer": true,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.8 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 2500,
+     "upsideEur": 15000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 2500,
+       "upsideEur": 15000,
+       "basis": "Bottom-up: 5,000 visits a year at an assumed 2% gives 100 payers × 99 EUR = 9,900 EUR. The window is four months and a new site ranks slowly, so I assume about 30 payers, roughly 2,970 EUR, minus about 120 EUR of hosting and 5% in fees, about 2,500 EUR. 5,000 EUR a year needs 51 payers at 99 EUR, which this channel reaches only if the page ranks before January. Cross-check: SendOwl at 39 USD a mo…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 3,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "The trigger is fresh and dated at several sources, and the gap (no keys and no files in Managed Payments) is stated by a third-party guide. Keygen's free tier and the merchant-of-record switch options are real alternatives, so the payer may say no.",
+      "summary": "",
+      "concerns": [
+       "Stripe adds license keys to Managed Payments",
+       "If the endpoint goes down, customers' apps stop activating: an uptime liability",
+       "Sellers choose Dodo or Polar instead of staying on Stripe"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T15:24:12.173Z",
+   "updatedAt": "2026-11-20T15:24:12.173Z",
+   "outcome": null
+  },
   {
    "id": "baumkontrollbuch-offline-fll-regelkontrollen-fue",
    "title": "Baumkontrollbuch offline: FLL-Regelkontrollen für selbstständige Baumkontrolleure ohne Baumkataster…",
@@ -5785,1908 +7774,6 @@
    },
    "createdAt": "2026-11-18T19:55:36.363Z",
    "updatedAt": "2026-11-18T19:55:36.363Z",
-   "outcome": null
-  },
-  {
-   "id": "plot-book-burial-register-and-plot-map-for-small",
-   "title": "Plot Book: burial register and plot map for small cemeteries, published as a static public search s…",
-   "pitch": "For volunteer cemetery boards, churches and small towns: import burial records from spreadsheets, draw plots on an aerial image, and publish a public search page for each cemetery. Fits the owner's data-to-pages pipelines.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A cemetery association, parish or small municipality with 500-5,000 plots",
-    "buys": "A searchable, mapped register that replaces paper ledgers and answers 'where is grandpa buried' calls",
-    "model": "subscription",
-    "price": "199 EUR a year",
-    "proof": [
-     {
-      "url": "https://www.cemify.com/learn/pricing-detail",
-      "note": "Cemetery records and mapping from 799 USD a year",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "CEMETERRA is free up to 500 plots and 49 USD a month above, with mapping; a cheaper copy is not a gap.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.cemify.com/learn/pricing-detail",
-     "note": "Cemify 799, 1,299 and 1,899 USD a year plus a one-time mapping fee; page shows only (c)2026, date is when opened",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://cemeterra.com/pricing",
-     "note": "CEMETERRA free up to 500 plots with mapping and search; 49 and 99 USD a month for unlimited plots; no date shown, date is when opened",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'cemetery software small cemetery' and 'cemetery mapping software'",
-    "first100": "Board volunteers searching for cemetery software compare free tiers; few would pick a new entrant.",
-    "proof": [
-     {
-      "url": "https://cemeterra.com/pricing",
-      "note": "Competitors already target small cemeteries with free tiers",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "CEMETERRA",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Cemify",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "CemeteryFind",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:49.039Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Cemetery boards above 500 plots pay a yearly fee for the register and public search site.",
-   "trigger": "standing need",
-   "window": "Standing; served by several priced tools and a free tier.",
-   "score": 1.75,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 100,
-     "upsideEur": 2000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 100,
-       "upsideEur": 2000,
-       "basis": "Bottom-up: 1,500 visits at 1% = 15 boards x 199 EUR = 2,985 EUR at full run-rate; against a free competitor and with the ramp, about 100 EUR. Cross-check: competitors' prices are visible but their customer counts are not. 5,000 EUR needs 26 boards; not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 3,
-      "rationale": "Clear payer, but crowded with a free tier that covers small cemeteries; record imports often need human help.",
-      "summary": "",
-      "concerns": [
-       "Free competitor tier",
-       "Record transcription and map setup need a person",
-       "No dated request in the last 90 days"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:49.039Z",
-   "updatedAt": "2026-11-18T14:04:49.039Z",
-   "outcome": null
-  },
-  {
-   "id": "mark-watch-weekly-look-alike-filings-for-one-bra",
-   "title": "Mark Watch: weekly look-alike filings for one brand across USPTO and EUIPO, with opposition deadlin…",
-   "pitch": "For DTC brands and Amazon sellers with one or two marks: weekly alerts for similar new filings, with the opposition deadline (30 days after USPTO publication, 3 months at EUIPO) on a calendar. Built from public trademark bulk data.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A DTC brand or Amazon seller with one or two registered marks",
-    "buys": "Notice of a confusingly similar filing in time to oppose",
-    "model": "subscription",
-    "price": "39 EUR a year per mark",
-    "proof": [
-     {
-      "url": "https://trademark.markify.com/services/trademark-watch.html",
-      "note": "US watch at 39 USD a year, EU full at 59",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Markify already sells the same watch from 39 USD a year with weekly reports.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://trademark.markify.com/services/trademark-watch.html",
-     "note": "Markify watches from 39 USD/EUR a year (US), 59 (EU full), 129 (global), weekly reports; no date shown, date is when opened",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://tmarkmetric.com/insights/trademark-watch-service",
-     "note": "Basic paid watch tools about 50-150 USD a month, professional providers 300-1,000 USD a month; DIY suggested for small brands",
-     "date": "2026-05-31",
-     "ageDays": 173,
-     "age": "6 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'trademark watch service' and 'cheap trademark monitoring'",
-    "first100": "Small brand owners comparing watch services pick the cheapest; there is no clear reason to choose this one.",
-    "proof": [
-     {
-      "url": "https://tmarkmetric.com/insights/trademark-watch-service",
-      "note": "Comparison content ranks for the query family",
-      "date": "2026-05-31",
-      "ageDays": 173,
-      "age": "6 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Markify trademark watch",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "LegalZoom trademark monitoring",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:47.717Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 1 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Brand owners pay a yearly fee per watched mark.",
-   "trigger": "standing need",
-   "window": "Standing; cheap watches already exist, so no window.",
-   "score": 1.75,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 3,
-     "success": 1,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 60,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 150,
-     "upsideEur": 2000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 150,
-       "upsideEur": 2000,
-       "basis": "Bottom-up: 2,000 visits at 0.5% = 10 marks x 39 EUR = 390 EUR at full run-rate, about 150 EUR after the ramp and running costs. Cross-check: Markify's 39 USD price sets the ceiling. 5,000 EUR needs 128 marks; not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 1,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "Payer and price exist, but a cheap solid incumbent covers the job.",
-      "summary": "",
-      "concerns": [
-       "Cheap incumbent",
-       "Missed conflicts could look like failed legal advice",
-       "EUIPO bulk-data access unverified"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:47.717Z",
-   "updatedAt": "2026-11-18T14:04:47.717Z",
-   "outcome": null
-  },
-  {
-   "id": "label-ready-a-test-matrix-and-evidence-record-fo",
-   "title": "Label Ready: a test matrix and evidence record for Apple's App Store Accessibility Nutrition Labels",
-   "pitch": "For small app studios: Apple asks for per-device declarations of nine accessibility features and recommends a common-task by feature matrix. The tool builds the matrix, guides each test against Apple's criteria, stores evidence, outputs the answers to enter in App Store Connect, and creates the public accessibility page Apple asks for.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small app studio or agency shipping iOS apps for clients",
-    "buys": "A defensible label declaration and an evidence record instead of paying an auditor 100-250 USD per screen",
-    "model": "one-off",
-    "price": "49 EUR per app",
-    "proof": [
-     {
-      "url": "https://accessible.org/services/vpat/",
-      "note": "Audits at 100-250 USD per page or screen",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Labels are voluntary with no deadline, and Apple's free help page already lists the criteria and a matrix layout.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels",
-     "note": "Nine declarable features, common-task criteria, testing matrix recommended; voluntary now, required later; no date shown, date is when opened",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://accessible.org/services/vpat/",
-     "note": "Accessibility audits priced at 100-250 USD per page or screen",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries about App Store accessibility nutrition labels",
-    "first100": "Developers reading Apple's help search for a checklist, use the free matrix, and pay to export evidence and the public accessibility page.",
-    "proof": [
-     {
-      "url": "https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels",
-      "note": "Apple's own page is the main result for the topic",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Apple App Store Connect guidance",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Accessible.org audits",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:45.000Z",
-    "detail": [
-     "Missed the strict bar: score 2.45 is below the minimum 3.5"
-    ]
-   },
-   "earns": "App studios pay once per app for the matrix, evidence and label answers.",
-   "trigger": "standing need until Apple sets a date: labels are voluntary on iOS 26 App Store pages and will become required for new apps and updates 'over time'",
-   "window": "Opens fully when Apple announces the mandatory date; until then demand is voluntary.",
-   "score": 2.45,
-   "index": {
-    "composite": 2.6,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 3,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.6 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.6 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 150,
-     "upsideEur": 8000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 150,
-       "upsideEur": 8000,
-       "basis": "Bottom-up: 1,500 visits at 1% = 15 apps x 49 EUR = 735 EUR at full run-rate; voluntary labels and the ramp leave about 150 EUR. No comparable revenue was seen. 5,000 EUR needs 102 apps; only reachable if Apple makes labels mandatory."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 3,
-      "automation": 5,
-      "rationale": "Pure option value on Apple making the labels mandatory; today nobody is forced.",
-      "summary": "",
-      "concerns": [
-       "No deadline",
-       "Apple could ship its own checklist tooling",
-       "Competitors not searched deeply"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:45.000Z",
-   "updatedAt": "2026-11-18T14:04:45.000Z",
-   "outcome": null
-  },
-  {
-   "id": "uncertainty-budget-sheet-iso-iec-17025-uncertain",
-   "title": "Uncertainty Budget Sheet: ISO/IEC 17025 uncertainty budgets in the browser for small calibration an…",
-   "pitch": "A guided GUM budget for each measurement function (Type A/B contributors, sensitivity coefficients, coverage factor, reporting rules), saved locally and printable for assessors, with a template library for common functions.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small accredited calibration or testing lab (2-15 staff) preparing for its ISO/IEC 17025 assessment",
-    "buys": "Budgets an assessor accepts, kept per measurement function, instead of building spreadsheets or hiring a consultant",
-    "model": "subscription",
-    "price": "79 EUR a year per lab",
-    "proof": [
-     {
-      "url": "https://www.isobudgets.com/shop/product/calibration-uncertainty-calculator/",
-      "note": "25 USD Excel calculator for the same job",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Labs already have 25 USD Excel tools or free NIST and QMSys software, and an AI assistant can compute a budget from pasted contributors.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.isobudgets.com/shop/product/calibration-uncertainty-calculator/",
-     "note": "Excel calibration uncertainty calculator sold for 25 USD (SKU 2026-11)",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.isobudgets.com/?p=7671",
-     "note": "Lists 8 free uncertainty tools (NIST Uncertainty Machine, QMSys GUM, GTC, NPL and others); published 2016-11-28, old",
-     "date": "2016-11-28",
-     "ageDays": 3644,
-     "age": "9 years old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'uncertainty budget template' and 'iso 17025 uncertainty calculator'",
-    "first100": "Quality managers searching for a budget template try the free single-budget mode, then pay to save a library before the assessment.",
-    "proof": [
-     {
-      "url": "https://www.isobudgets.com/?p=7671",
-      "note": "The niche's leading content site ranks with tool round-ups",
-      "date": "2016-11-28",
-      "ageDays": 3644,
-      "age": "9 years old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "ISOBudgets calculators",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "NIST Uncertainty Machine",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "QMSys GUM Standard",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:42.958Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small labs pay a yearly fee for saved budgets and assessor printouts.",
-   "trigger": "standing need",
-   "window": "Standing: every accredited lab needs budgets at each assessment; no trigger.",
-   "score": 2.1,
-   "index": {
-    "composite": 1.95,
-    "used": {
-     "risk": 2,
-     "success": 1,
-     "monetization": 2,
-     "potential": 1,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 1.95 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 1.95 is below 4",
-      "potential 1 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 200,
-     "upsideEur": 2500,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 200,
-       "upsideEur": 2500,
-       "basis": "Bottom-up: 1,500 visits at 1% = 15 labs x 79 EUR = 1,185 EUR at full run-rate; the ramp leaves about 400 EUR. Cross-check: the leader sells 25 USD files, which caps the price, so I take 200 EUR. 5,000 EUR needs 64 labs; not reachable."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 1,
-      "monetization": 2,
-      "potential": 1,
-      "automation": 5,
-      "rationale": "A payer exists, but the price anchor is 25 USD one-off and free tools cover it.",
-      "summary": "",
-      "concerns": [
-       "Cheap and free alternatives",
-       "AI-doable calculation",
-       "No dated request in the last 90 days"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:42.958Z",
-   "updatedAt": "2026-11-18T14:04:42.958Z",
-   "outcome": null
-  },
-  {
-   "id": "cert-calendar-100-which-of-your-tls-certificates",
-   "title": "Cert Calendar 100: which of your TLS certificates break under the 100-day limit (15 March 2027)",
-   "pitch": "For managed service providers and small IT teams: enter client domains; the tool reads Certificate Transparency logs and lists every certificate, issuer and lifetime, flags the ones renewed by hand, and outputs a renewal calendar (ICS) plus a migration list before the 100-day limit (2027-03-15) and the 47-day limit (2029).",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "An MSP or 1-3 person IT team managing certificates on appliances, IIS and load balancers for several clients",
-    "buys": "A list of every manually renewed certificate and a renewal calendar before renewals come every three months, avoiding outages from expired certificates",
-    "model": "subscription",
-    "price": "9 EUR a month per MSP",
-    "proof": [
-     {
-      "url": "https://sslmate.com/certspotter/pricing",
-      "note": "Cert Spotter 15 USD a month (20 endpoints), 100 USD a month (150 endpoints)",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "crt.sh lookups are free, and many monitors already alert on expiry.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days",
-     "note": "Lifetime schedule 398 to 200 (2026-03-15), 100 (2027-03-15), 47 days (2029-03-15)",
-     "date": "2025-05-16",
-     "ageDays": 553,
-     "age": "18 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://sslmate.com/certspotter/pricing",
-     "note": "Cert Spotter monitoring from 15 USD a month for 20 endpoints; page shows only (c)2026, date is when opened",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries about the 100-day and 47-day certificate limits",
-    "first100": "MSPs reading about the 2027 step run a free inventory for one client and subscribe to cover all their clients.",
-    "proof": [
-     {
-      "url": "https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days",
-      "note": "Vendors publish explainers for this query family; volume not measured",
-      "date": "2025-05-16",
-      "ageDays": 553,
-      "age": "18 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Cert Spotter",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:37.897Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "MSPs pay a small monthly fee for per-client inventories and renewal calendars.",
-   "trigger": "CA/Browser Forum schedule: maximum TLS lifetime 200 days from 2026-03-15, 100 days from 2027-03-15 and 47 days from 2029-03-15",
-   "window": "Four months to the 100-day step; manual renewals then come about every three months, then monthly by 2029.",
-   "score": 2.7,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 60,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 4000,
-       "basis": "Bottom-up: 2,000 visits at 1% = 20 MSPs x 108 EUR = 2,160 EUR at full run-rate; the ramp and the free crt.sh alternative suggest about 300 EUR. Cross-check: Cert Spotter sells at 15 USD a month, but its customer count was not seen. 5,000 EUR needs 47 payers; the channel cannot reach that."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A real, dated trigger, but crowded with monitors and free CT search. Whether the browser can query CT logs directly (CORS) is unverified.",
-      "summary": "",
-      "concerns": [
-       "Crowded monitoring market (only Cert Spotter checked)",
-       "Free crt.sh",
-       "May need a worker for CT queries"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:37.897Z",
-   "updatedAt": "2026-11-18T14:04:37.897Z",
-   "outcome": null
-  },
-  {
-   "id": "weld-qual-log-an-offline-welder-qualification-an",
-   "title": "Weld Qual Log: an offline welder qualification and 6-month continuity log for ASME IX, AWS D1.1 and…",
-   "pitch": "A local-first log that works on a shop-floor tablet with no internet. Import welders and their WPQ or ISO 9606 certificates, record process use, and see each continuity expiry automatically; print a signed continuity log for the auditor. A free template page is the lead magnet.",
-   "platform": "pwa",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A fabrication shop with 5-40 coded welders working to ASME IX, AWS D1.1 or ISO 9606",
-    "buys": "A continuity log that never lapses (a lapsed welder must requalify, costing a test coupon and lab fees) and an audit-ready printout, without per-user cloud fees",
-    "model": "subscription",
-    "price": "99 EUR a year per shop",
-    "proof": [
-     {
-      "url": "https://weldpad-static.pages.dev/",
-      "note": "20 USD per user a month for WPS, PQR and continuity tracking",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Shops keep the log in a free Excel template, and four priced tools already exist.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://weldpad-static.pages.dev/",
-     "note": "WeldPad: 20 USD per user a month, AWS D1.1 and ASME IX, 6-month continuity clock, explicitly no offline use; page shows only (c)2026, date is when opened",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=welder%20continuity%20log",
-     "note": "10 autocomplete variants, mostly template searches (excel, word, pdf, form, requirements)",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'welder continuity log template excel' and 'welder continuity log requirements'",
-    "first100": "QC managers searching for a continuity log template download the free one, then pay for the offline log with automatic expiry and printouts.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=welder%20continuity%20log",
-      "note": "10 template-oriented autocomplete variants",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "WeldPad",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "weldXpert",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "WeldNote",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "TWI Welding Qualifier",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:37.069Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Fabrication shops pay a yearly flat fee for an offline continuity log and audit printouts.",
-   "trigger": "standing need",
-   "window": "Standing: every coded welder needs continuity every six months; people still search for Excel and Word templates.",
-   "score": 2.65,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 15,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 6000,
-       "basis": "Bottom-up: 3,000 visits at 1% = 30 shops x 99 EUR = 2,970 EUR at full run-rate; the ramp gives about 40%, roughly 1,200 EUR. Cross-check: four priced tools at 20 USD per user to 60 EUR a month show shops pay, but no customer counts were seen; I take 800 EUR. 5,000 EUR needs 51 shops, which the channel cannot reach in year one."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "A real recurring duty with a payer, but crowded; the only difference is offline use and flat pricing, which is not a gap.",
-      "summary": "",
-      "concerns": [
-       "Four solid priced tools",
-       "Template seekers expect free",
-       "No dated request in the last 90 days"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:37.069Z",
-   "updatedAt": "2026-11-18T14:04:37.069Z",
-   "outcome": null
-  },
-  {
-   "id": "index-proof-a-back-of-book-index-from-your-final",
-   "title": "Index Proof: a back-of-book index from your final PDF, every page number checked",
-   "pitch": "For self-publishing and academic authors who must supply an index. The final proof PDF stays local; AI suggests headings and subheadings, but every page number is found and verified by text search on the actual PDF pages; edit, then export in Chicago style to DOCX or plain text. If it takes off: small presses buy packs for each title.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "An author or small press that must deliver an index with the final proofs (academic presses often bill it to the author)",
-    "buys": "A usable draft index with correct page numbers in an hour, instead of roughly 1,500-1,875 USD for a 300-page book at 5.00-6.25 USD per page",
-    "model": "one-off",
-    "price": "59 EUR per book",
-    "proof": [
-     {
-      "url": "https://www.the-efa.org/rates/",
-      "note": "Book indexing at 5.00-6.25 USD per page (EFA 2026 rate chart)",
-      "date": "2026-05-04",
-      "ageDays": 200,
-      "age": "7 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Authors who care about quality hire a professional, and the rest skip the index or use PDF Index Generator's AI credits.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 15,
-     "age": "newest source 2 weeks old",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 200,
-     "age": "newest source 7 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.the-efa.org/rates/",
-     "note": "EFA 2026 rate chart: book indexing 5.00-6.25 USD per page, 55-60 USD per hour (survey Nov 2025 to Jan 2026)",
-     "date": "2026-05-04",
-     "ageDays": 200,
-     "age": "7 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://asindexing.org/ai-news/indexia-review/",
-     "note": "ASI review of the AI tool Indexia: 29 of 58 sampled page numbers wrong (50% error rate)",
-     "date": "2026-07-01",
-     "ageDays": 142,
-     "age": "5 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://uk.trustpilot.com/review/pdfindexgenerator.com",
-     "note": "PDF Index Generator rated 4.4 from 12 reviews; newest 2026-11-05 praises cheaper AI-assisted indexing; 3 reviews in the last 12 months",
-     "date": "2026-11-05",
-     "ageDays": 15,
-     "age": "2 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.pdfindexgenerator.com/",
-     "note": "Desktop tool with classic and AI modes and AI credits; version 3.7 released 2026-11-03",
-     "date": "2026-11-03",
-     "ageDays": 17,
-     "age": "2 weeks old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'book indexing software', 'automatic book indexing software', 'best free book indexing software'",
-    "first100": "Authors searching for indexing software or an AI index generator try a free index of one chapter with verified page numbers, then pay per book.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=book%20indexing%20software",
-      "note": "Autocomplete includes 'automatic book indexing software', 'best book indexing software', 'best free book indexing software'",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "PDF Index Generator",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Indexia",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "IndexerLabs",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Professional indexers",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:36.577Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Authors pay once per book for a draft index whose page numbers are guaranteed.",
-   "trigger": "standing need",
-   "window": "Standing: authors have always paid indexers. AI indexers launched since late 2025 got poor reviews for wrong page numbers (ASI, July 2026), so a tool that guarantees the page numbers keeps a gap open.",
-   "score": 2.95,
-   "index": {
-    "composite": 2.95,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.95 is below 3.6"
-    ],
-    "yearlyCostEur": 120,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.95 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1200,
-     "upsideEur": 12000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1200,
-       "upsideEur": 12000,
-       "basis": "Bottom-up: 5,000 visits at 1.5% = 75 books x 59 EUR = 4,425 EUR at full run-rate; the ramp gives about 40% in year one (1,770 EUR) minus about 100 EUR of AI costs, roughly 1,600 EUR. Cross-check: the leader has only 3 Trustpilot reviews in 12 months, suggesting a small paying base, so I take 1,200 EUR. 5,000 EUR needs 85 books, which the channel cannot reach in year one."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 5,
-      "rationale": "Clear payer and price (indexers charge 5-6 USD a page), but a solid desktop tool with AI mode exists, and AI quality is the open question.",
-      "summary": "",
-      "concerns": [
-       "PDF Index Generator already covers the job",
-       "Index quality (headings, subentries) still needs human judgement",
-       "Needs a serverless AI endpoint"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:36.577Z",
-   "updatedAt": "2026-11-18T14:04:36.577Z",
-   "outcome": null
-  },
-  {
-   "id": "machine-file-2027-a-new-format-eu-declaration-of",
-   "title": "Machine File 2027: a new-format EU declaration of conformity plus 10-year digital instructions and …",
-   "pitch": "For small machine builders and integrators (including UK and US builders selling into the EU) switching from the Machinery Directive to Regulation 2023/1230 on 20 January 2027: build the new declaration of conformity (or declaration of incorporation), publish it and the digital instructions at a stable URL and QR code per model, and add a paper-copy request form. If it takes off: every new model …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A 5-50 person machine builder or integrator placing machinery on the EU market",
-    "buys": "A correct new-format DoC and a 10-year public instructions page per model, instead of consultant hours; it avoids a market-surveillance finding for a DoC that still cites 2006/42/EC",
-    "model": "subscription",
-    "price": "180 EUR a year per company (up to 50 models)",
-    "proof": [
-     {
-      "url": "https://knowby.co/pricing",
-      "note": "Digital instructions priced at 5 USD per user a month plus 2 cents per public view; page shows only (c)2026, date is when opened",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "A DoC is a one-page document any template or AI assistant drafts, and builders can host PDFs on their own website for free.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://cecheck-com.pages.dev/machinery-regulation/",
-     "note": "Directive applies until 2027-01-19, Regulation from 2027-01-20; page last reviewed October 2026",
-     "date": "2026-10-01",
-     "ageDays": 50,
-     "age": "7 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.automationmagazine.co.uk/why-you-need-to-update-your-machinery-ce-marking-paperwork/",
-     "note": "No transition period; DoC must cite the Regulation and can be given by web address or QR code; digital instructions allowed with a free printed copy on request",
-     "date": "2026-06-29",
-     "ageDays": 144,
-     "age": "5 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'machinery regulation 2023/1230 declaration of conformity template' and 'machinery regulation digital instructions'",
-    "first100": "Builders updating their paperwork before 2027-01-20 search for the new DoC template, generate one for free, and pay to host DoC and instructions under a QR code for each model.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=machinery%20regulation%202023%2F1230%20declaration",
-      "note": "Only one autocomplete suggestion: weak search volume",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Knowby",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "CECheck",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Hold Tech Files",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:32.600Z",
-    "detail": [
-     "Missed the strict bar: score 2.95 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Machine builders pay a small yearly fee per company to publish DoCs and digital instructions per model for the required 10 years.",
-   "trigger": "Regulation (EU) 2023/1230 replaces Directive 2006/42/EC on 2027-01-20 with no transition for machines placed from that day; the DoC must cite the Regulation and may be given by web address or QR code…",
-   "window": "Two months to the switch, then a standing duty: every new model needs the new DoC, and the instructions must stay available for 10 years.",
-   "score": 2.95,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 30,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 1500,
-     "upsideEur": 10000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 1500,
-       "upsideEur": 10000,
-       "basis": "Bottom-up: 2,000 visits at 1.5% = 30 payers x 180 EUR = 5,400 EUR at full run-rate; the ramp gives about 40% in year one, roughly 2,100 EUR. Cross-check: Knowby's per-user price shows people pay for hosted instructions, but no customer count was seen; autocomplete shows thin search demand, so I take 1,500 EUR. 5,000 EUR needs 28 payers, which the thin channel probably cannot reach in year one."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A firm EU date with a document duty and a 10-year hosting obligation, but search demand is thin, and the DoC itself is easy to draft for free.",
-      "summary": "",
-      "concerns": [
-       "Thin search demand",
-       "Promising 10-year hosting is a long commitment for an automated studio",
-       "Builders may simply self-host PDFs"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:32.600Z",
-   "updatedAt": "2026-11-18T14:04:32.600Z",
-   "outcome": null
-  },
-  {
-   "id": "eudamed-sheet-a-device-spreadsheet-becomes-a-val",
-   "title": "EUDAMED Sheet: a device spreadsheet becomes a validated EUDAMED (and swissdamed) XML bulk-upload fi…",
-   "pitch": "For medical-device makers and EU authorised representatives with 30 to 1,000 devices: fill one spreadsheet (Basic UDI-DI, UDI-DI, nomenclature, risk class, certificates) and get an XML file checked against the EUDAMED schema and business rules, with nothing uploaded. If it takes off: update and new-device files every month, swissdamed output, and per-client workspaces for authorised representativ…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A medical-device maker with 30-1,000 devices, or the EU authorised representative of a non-EU maker, registering and updating devices in EU…",
-    "buys": "A file EUDAMED accepts on first upload, instead of days of manual UI entry or a consultant's Excel template; it avoids placing unregistered devices on the market (Article 29 MDR)",
-    "model": "subscription",
-    "price": "249 EUR a year per manufacturer (unlimited files)",
-    "proof": [
-     {
-      "url": "https://eudaprep.pages.dev/pricing",
-      "note": "399 EUR one-off for unlimited EUDAMED XML exports until 2026-05-28, then a subscription",
-      "date": "2026-04-30",
-      "ageDays": 204,
-      "age": "7 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Most makers finished registration before 2026-11-28, and those left have under 100 devices and use the free web form.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 204,
-     "age": "newest source 7 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.obelis.net/news/eudamed-november-2026-deadline-what-to-do-now-to-be-ready/",
-     "note": "Deadline of 2026-11-28 for devices placed before 2026-05-28; routes: UI (up to about 100 devices), XML bulk upload (100-1,000), M2M (over 1,000)",
-     "date": "2026-10-27",
-     "ageDays": 24,
-     "age": "3 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://eudaprep.pages.dev/pricing",
-     "note": "EUDAPrep sold unlimited XML exports for 399 EUR one-off until 2026-05-28, standard subscription afterwards (price not shown); aligned with XSD v3.0.28; page refers to the April 2026 EUDAMED release, …",
-     "date": "2026-04-30",
-     "ageDays": 204,
-     "age": "7 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=eudamed%20xml",
-     "note": "10 autocomplete variants: xml file, format, upload, download, export, samples, example, udi xml",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'eudamed xml format', 'eudamed xml example', 'eudamed xml upload', 'eudamed udi xml'",
-    "first100": "Regulatory managers searching the XML format or an example find a field-by-field schema guide with a free validator, then pay to export from their spreadsheet.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=eudamed%20xml",
-      "note": "10 autocomplete variants for eudamed xml",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "EUDAPrep",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "EUDAMED web interface and bulk upload (European C…",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "EUDAMED machine-to-machine access point",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:30.468Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 3 is below 4: the need is already served; score 3.3 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Device makers and authorised representatives pay a yearly fee for unlimited validated XML files.",
-   "trigger": "UDI/device registration in EUDAMED has been mandatory since 2026-05-28; devices already on the market must be registered by 2026-11-28, and every new device or data change must be registered from the…",
-   "window": "The legacy cut-off (2026-11-28) passes before a build ships, so the spike is mostly lost. What stays open is late registrants, every new device and variant, data updates and swissdamed. The one price…",
-   "score": 3.3,
-   "index": {
-    "composite": 2.55,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.55 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.55 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2500,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2500,
-       "upsideEur": 15000,
-       "basis": "Bottom-up: 2,500 visits at 2% = 50 payers x 249 EUR = 12,450 EUR at full run-rate. The deadline passes before launch and the site must ramp, so assume 30% in year one, about 3,700 EUR. Cross-check: EUDAPrep charged 399 EUR one-off, but its customer count is unknown; I take the lower 2,500 EUR. 5,000 EUR needs 21 payers; reachable only if the format pages rank within months."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A real legal duty with an exact schema and a priced tool for the same job. But the main deadline is 10 days away, so demand after launch is the standing flow of new devices and updates.",
-      "summary": "",
-      "concerns": [
-       "The legacy spike is over before launch",
-       "The schema changes with EUDAMED releases and needs maintenance",
-       "Small makers under 100 devices use the free UI"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:30.468Z",
-   "updatedAt": "2026-11-18T14:04:30.468Z",
-   "outcome": null
-  },
-  {
-   "id": "acr-builder-accessibility-conformance-reports-in",
-   "title": "ACR Builder: accessibility conformance reports in the VPAT 2.5Rev format (WCAG, 508, EN 301 549, IN…",
-   "pitch": "For small SaaS, edtech and app vendors whose university, agency or EU public buyer demands an Accessibility Conformance Report. A guided, criterion-by-criterion test record (WCAG 2.2 AA plus the EN 301 549 clause list) kept in the browser, exported in all four editions plus a remediation roadmap. If it takes off: a public ACR page per product version that buyers link to, and yearly re-issues per …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A 5-50 person SaaS, edtech or app vendor whose university, government agency or EU public-sector buyer asks for an ACR before signing",
-    "buys": "A complete, consistent ACR in the required edition (often EN 301 549 or INT) built from its own test record, instead of 350-950 USD per edition plus audit fees; it keeps the deal past the procurement gate",
-    "model": "subscription",
-    "price": "149 EUR a year per product (all four editions, unlimited re-exports)",
-    "proof": [
-     {
-      "url": "https://accessible.org/services/vpat/",
-      "note": "Done-for-you ACRs priced at 350 USD (WCAG), 550 (508), 650 (EN 301 549) and 950 (INT) plus an audit at 100-250 USD per page or screen; the page shows only (c)2026, date is when opened",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Buyers increasingly want a third-party audit behind the ACR, and the free ITI template plus an AI assistant gets a vendor most of the way to a self-written report.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 4
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://api.github.com/search/issues?q=VPAT+type:issue&sort=created&order=desc&per_page=15",
-     "note": "1,425 GitHub issues mention VPAT; of the 15 newest (2026-11-14 to 2026-11-18), 8 ask a project for a VPAT/ACR, several tied to procurement or an RFP",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.itic.org/policy/accessibility/vpat",
-     "note": "ITI offers VPAT 2.5Rev (April 2025) in WCAG, 508, EN 301 549 and INT editions as free blank Word templates",
-     "date": "2026-10-02",
-     "ageDays": 49,
-     "age": "7 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.ada.gov/resources/2024-03-08-web-rule/",
-     "note": "Title II compliance dates after the 2026-04-20 interim final rule: 2027-04-26 (50,000+) and 2028-04-26 (smaller entities and special districts)",
-     "date": "2026-04-20",
-     "ageDays": 214,
-     "age": "7 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google queries 'vpat template', 'vpat template wcag 2.2', 'vpat template 2.5', 'vpat template section 508'",
-    "first100": "Vendors who just got a procurement form search 'vpat template' plus their edition, land on an edition page with a free WCAG-edition draft, and pay to export the EN 301 549 or INT edition and to re-issue it.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=vpat%20template",
-      "note": "10 autocomplete variants including 'vpat template wcag 2.2', 'vpat template 2.5', 'vpat template download pdf'",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "ITI VPAT 2.5Rev templates",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "OpenACR Editor (GSA)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Accessible.org VPAT services",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Deque Auditor ACR generation",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "AccessiCompliance",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T14:04:30.116Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 3 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Small software vendors pay a yearly per-product fee to export finished ACRs in the edition their buyer demands, instead of paying a consultant per edition.",
-   "trigger": "US DOJ Title II web rule: an interim final rule of 2026-04-20 set 2027-04-26 for public entities of 50,000+ and 2028-04-26 for smaller ones (WCAG 2.1 AA), so universities and agencies gate vendors on…",
-   "window": "Procurement gates for the April 2027 deadline are being set now, so the next five months are the peak; after that a standing yearly duty (a new ACR for each major release) keeps it open.",
-   "score": 3.75,
-   "index": {
-    "composite": 3.55,
-    "used": {
-     "risk": 2,
-     "success": 3,
-     "monetization": 4,
-     "potential": 3,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3.55 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3.55 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 3500,
-     "upsideEur": 25000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 3500,
-       "upsideEur": 25000,
-       "basis": "Bottom-up: 6,000 search visits a year at 1.5% = 90 payers x 149 EUR = 13,400 EUR at full run-rate. A new site ramps, so assume about 40% in year one (5,400 EUR) minus about 4% payment fees and 20 EUR for the domain, roughly 5,100 EUR. Cross-check: no revenue figure for a comparable self-serve ACR tool was found; the consultant prices (350-950 USD per edition) prove willingness to pay but not volu…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 3,
-      "monetization": 4,
-      "potential": 3,
-      "automation": 5,
-      "rationale": "Strong dated demand (eight requests in four days on GitHub alone, 10 autocomplete variants) and a buyer-imposed deadline. Free tools are blank or partial, and the priced option is a service costing hundreds per edition.",
-      "summary": "",
-      "concerns": [
-       "Buyers may reject self-made ACRs without an audit",
-       "VPAT is an ITI registered mark: the product must be named ACR and only describe its format as compatible",
-       "An AI assistant plus the free template is a cheap substitute"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T14:04:30.116Z",
-   "updatedAt": "2026-11-18T14:04:30.116Z",
    "outcome": null
   },
   {
@@ -16291,7 +16378,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-20T12:00:00.000Z",
+  "checkedInAt": "2026-11-20T15:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -16309,19 +16396,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-20T02:59:43.242Z",
+   "lastRunAt": "2026-11-20T15:01:46.301Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Germany and Europe",
-   "nextMarket": "Global",
-   "emptyRuns": 98,
-   "radius": 2,
+   "lastMarket": "Global",
+   "nextMarket": "Germany and Europe",
+   "emptyRuns": 99,
+   "radius": 1,
    "radiusLevels": 4,
-   "runsLastDay": 2,
+   "runsLastDay": 3,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-20T08:59:43.242Z",
+   "nextRunAfter": "2026-11-20T21:01:46.301Z",
    "turn": "Big think"
   }
  },
