@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T00:03:22.779Z",
+ "generatedAt": "2026-11-20T03:16:34.595Z",
  "title": "Studio dashboard",
  "thresholds": {
   "build": 3.6,
@@ -17,6 +17,1860 @@
   "worthDomain": 0
  },
  "projects": [
+  {
+   "id": "baumkontrollbuch-offline-fll-regelkontrollen-fue",
+   "title": "Baumkontrollbuch offline: FLL-Regelkontrollen für selbstständige Baumkontrolleure ohne Baumkataster…",
+   "pitch": "For freelance FLL-certified tree inspectors who check trees for property managers and housing associations: an offline map app to record each tree, the FLL routine inspection, measures and deadlines, then export a client report and next-check list. Upside: a client-facing read-only tree register link.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A freelance FLL-certified tree inspector serving property managers",
+    "buys": "Fast, liability-proof inspection records and client reports without an enterprise tree-register licence",
+    "model": "subscription",
+    "price": "149 EUR a year",
+    "proof": [
+     {
+      "url": "https://apps.apple.com/de/app/baummanager-2-0/id6477494288",
+      "note": "The field app is free and the paid part is the vendor's management software (price not seen), so this is weak proof",
+      "date": "2025-03-19",
+      "ageDays": 611,
+      "age": "20 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "Inspectors use the client's software or a free vendor app, and no published price was found.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 611,
+     "age": "newest source 20 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://apps.apple.com/de/app/baummanager-2-0/id6477494288",
+     "note": "BaumManager 2.0: free app for FLL/VTA inspections that syncs to the vendor's management software; one review dated 2025-03-19; version 2.9.0 of 12 Nov (year not shown)",
+     "date": "2025-03-19",
+     "ageDays": 611,
+     "age": "20 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://bev.bund.de/fileadmin/user_upload/PDF/Downloads/Immoblien_baumkataster.pdf",
+     "note": "Federal document: a market for tree-register software exists, and service providers often buy the software themselves (seen in search results only, undated)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'baumkontrolle software', 'baumkontrolle app fll'",
+    "first100": "Newly certified inspectors searching for an FLL app try the offline log and pay for client reports.",
+    "proof": [
+     {
+      "url": "https://www.ki-syndikat.de/tools/green-gis/",
+      "note": "A tool directory lists tree-inspection software for this audience",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "BaumManager 2.0 (Softplan)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Green GIS",
+     "verdict": "solid",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:32.476Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Freelance inspectors pay a yearly fee for offline FLL logs and client reports.",
+   "trigger": "standing need",
+   "window": "Standing; several tools already serve it.",
+   "score": 2,
+   "index": {
+    "composite": 2.15,
+    "used": {
+     "risk": 2,
+     "success": 1,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.15 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.15 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 1,500 visits (assumed) at 2% = 30 payers at full run-rate; first year about 5 x 149 EUR = 745 EUR, minus fees about 300 EUR after free-app losses. No priced comparable was found to cross-check. 5,000 EUR needs about 34 payers, which is not reachable in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 1,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A crowded niche with free and unpriced tools.",
+      "summary": "",
+      "concerns": [
+       "Crowded",
+       "No price proof"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:32.476Z",
+   "updatedAt": "2026-11-20T03:16:32.476Z",
+   "outcome": null
+  },
+  {
+   "id": "streuprotokoll-mit-wetterbeleg-raeum-und-streuna",
+   "title": "Streuprotokoll mit Wetterbeleg: Räum- und Streunachweis mit DWD-Daten für kleine Hausmeisterdienste…",
+   "pitch": "Log each clearing run on the phone with time, location and photo (offline PWA). The monthly PDF per property attaches the nearest DWD station's hourly temperature, precipitation and snow data, so in a slip-and-fall claim the owner can show when it froze and when it was gritted. Upside: a free 'Glättewetter' page per postcode that feeds sign-ups each winter.",
+   "platform": "pwa",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small Hausmeisterdienst clearing 10-60 properties, or a landlord who clears himself and fears liability claims",
+    "buys": "Court-usable proof of clearing times together with official weather data",
+    "model": "subscription",
+    "price": "9 EUR a month in season (November-March)",
+    "proof": [
+     {
+      "url": "https://www.clockin.de/en/branchen/hausmeisterdienste",
+      "note": "Janitorial documentation software sold per user a month",
+      "date": "2026-11-02",
+      "ageDays": 18,
+      "age": "3 weeks old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Free apps and paper protocols already work, and only a claim makes anyone value the weather evidence.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 18,
+     "age": "newest source 3 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.clockin.de/en/branchen/hausmeisterdienste",
+     "note": "Field-time app for janitorial firms: 3.50-14.40 EUR per user a month, documentation module from 39 EUR a month; no winter-specific feature",
+     "date": "2026-11-02",
+     "ageDays": 18,
+     "age": "3 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://apps.apple.com/us/app/-/id1052693974",
+     "note": "Winter Pro: free winter-service app that logs trips by tracking (seen in search results only)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'streuprotokoll vorlage', 'winterdienst dokumentation app'",
+    "first100": "Landlords and janitors searching for a gritting log template in the first frost week use the free log and pay for the monthly PDF with weather data.",
+    "proof": [
+     {
+      "url": "https://www.clockin.de/en/branchen/hausmeisterdienste",
+      "note": "Janitorial documentation is a priced category",
+      "date": "2026-11-02",
+      "ageDays": 18,
+      "age": "3 weeks old",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Winter Pro",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "iPM-Cloud Hausmeister Facility",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "clockin",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "mpengo Snow",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:31.849Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Small janitorial firms pay a seasonal fee per property for protocols with weather evidence.",
+   "trigger": "standing need (seasonal, winter starts now)",
+   "window": "Seasonal and recurring every November-March; apps already exist.",
+   "score": 2.3,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 4
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 30,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 300,
+     "upsideEur": 3000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 300,
+       "upsideEur": 3000,
+       "basis": "Bottom-up: 4,000 visits (assumed) at 1% = 40 payers at full run-rate; first season about 15 x 45 EUR = 675 EUR, minus fees and hosting about 300 EUR. Cross-check: clockin shows the category is priced, but free winter apps exist. 5,000 EUR needs about 111 payers, which is not reachable."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 4,
+      "rationale": "A crowded category with free apps; the weather angle is new but unproven, and resembles the refused weather-evidence idea.",
+      "summary": "",
+      "concerns": [
+       "Free apps",
+       "Close to the refused 'Site Weather Evidence' pattern"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:31.849Z",
+   "updatedAt": "2026-11-20T03:16:31.849Z",
+   "outcome": null
+  },
+  {
+   "id": "sicherheitskonzept-baukasten-fuer-veranstaltunge",
+   "title": "Sicherheitskonzept-Baukasten für Veranstaltungen: Vereinsfeste, Märkte und Stadtteilfeste nach dem …",
+   "pitch": "For clubs, market organisers and small event agencies that the local authority (Ordnungsamt) asks for a safety concept: answer questions about the site, visitor numbers, stages, exits and stewards, and get the concept in the structure of the state or city model (NRW, Bayern, Niedersachsen and others), with a site sketch, capacity estimate, contact chart and evacuation section, as an editable docu…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A club or small event agency organising one to ten public events a year that must submit a safety concept",
+    "buys": "A complete, state-conforming concept, instead of a two-day seminar or a consultant",
+    "model": "one-off",
+    "price": "49 EUR per event, 149 EUR a year for agencies",
+    "proof": [],
+    "nobodyPaysIf": "Cities publish free templates, clubs fill them in themselves, and the authority only checks plausibility.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": null
+   },
+   "sources": [
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=sicherheitskonzept%20veranstaltung",
+     "note": "10 variants incl. vorlage, muster, pdf and five state names",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://oa.tib.eu/renate/bitstreams/5cdbd10e-996e-4616-90ff-0569c8bc6d31/download",
+     "note": "Research paper: safety concepts are written manually as PDFs and no software supports creating them (seen in search results only, undated)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'sicherheitskonzept veranstaltungen vorlage' plus state variants",
+    "first100": "Club board members told by the Ordnungsamt to submit a concept search for a template for their state and complete it in the guided builder.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=sicherheitskonzept%20veranstaltung",
+      "note": "State-specific queries support one useful page per state",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Municipal model concepts (e.g. Bielefeld)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "NRW model safety concept for large events",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:31.366Z",
+    "detail": [
+     "Missed the strict bar: score 2.7 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Organisers pay per event for a completed concept document; agencies pay yearly.",
+   "trigger": "standing need",
+   "window": "Standing; recurring each festival season. A research paper reports that no software supports writing these concepts.",
+   "score": 2.7,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 3,
+     "success": 2,
+     "monetization": 2,
+     "potential": 3,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 6,000 visits (assumed) at 1% = 60 buyers at full run-rate; with the ramp about 20 x 49 EUR = 980 EUR, minus fees about 500 EUR after free-template losses. Cross-check: no price for the job itself was found, only seminars at 810-1,215 EUR, so this is unconfirmed. 5,000 EUR needs about 102 buyers, which is not reachable in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 3,
+      "success": 2,
+      "monetization": 2,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "A real gap in software but a weak payer: free templates and plausibility-only checks.",
+      "summary": "",
+      "concerns": [
+       "Payer expects free",
+       "Safety liability"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:31.366Z",
+   "updatedAt": "2026-11-20T03:16:31.366Z",
+   "outcome": null
+  },
+  {
+   "id": "verfahrensdokumentation-baukasten-fuer-kleinbetr",
+   "title": "Verfahrensdokumentation-Baukasten für Kleinbetriebe: GoBD-Dokumentation mit Bausteinen für gängige …",
+   "pitch": "For sole traders and small firms whose tax adviser or auditor asks for a GoBD procedural documentation (Verfahrensdokumentation): pick the software in use (bookkeeping, invoicing, shop, cash register, scanning), answer questions, and get a structured documentation with a change log to keep current. Upside: modules per software that rank for 'software verfahrensdokumentation'.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "doubtful",
+    "label": "Payer doubtful",
+    "why": "monetization is rated 2 of 5",
+    "legacy": false,
+    "payer": "A small firm or freelancer told by its tax adviser to have a Verfahrensdokumentation before an audit",
+    "buys": "A complete documentation in an accepted structure, saving adviser hours",
+    "model": "one-off",
+    "price": "79 EUR once, 19 EUR a year for updates",
+    "proof": [
+     {
+      "url": "https://www.taxandbytes.de/tools/verfahrensdokumentation/gobd-direkt",
+      "note": "Procedural-documentation software sold at 180-380 EUR a month (to advisers)",
+      "date": "2024-07-01",
+      "ageDays": 872,
+      "age": "2 years 5 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "Lexware and DATEV offer tools or templates, an AI assistant can draft such a document from a description, and many small firms never get asked for one.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 2
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 872,
+     "age": "newest source 2 years 5 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.taxandbytes.de/tools/verfahrensdokumentation/gobd-direkt",
+     "note": "GoBD Direkt: procedural-documentation software, subscription only, 180/270/380 EUR net a month, aimed at advisers (price list 'July 2024', day not given)",
+     "date": "2024-07-01",
+     "ageDays": 872,
+     "age": "2 years 5 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.lexware.de/tools/gobd-fuer-kleinunternehmer/?cid=1444",
+     "note": "Lexware tool 'GoBD für Kleinunternehmer' (seen in search results only, not opened)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'verfahrensdokumentation gobd vorlage', 'verfahrensdokumentation kleinunternehmer'",
+    "first100": "Owners searching for a template after their adviser's request build the document and pay for the export.",
+    "proof": [
+     {
+      "url": "https://www.taxandbytes.de/tools/verfahrensdokumentation/gobd-direkt",
+      "note": "A software directory lists priced tools for this query category",
+      "date": "2024-07-01",
+      "ageDays": 872,
+      "age": "2 years 5 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "GoBD Direkt",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Lexware 'GoBD für Kleinunternehmer'",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "DATEV Einstiegspaket Verfahrensdokumentation",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:30.537Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Small firms pay once, plus a small yearly update fee, for a documentation built from software modules.",
+   "trigger": "standing need",
+   "window": "Standing; recurring at every tax audit.",
+   "score": 2.35,
+   "index": {
+    "composite": 2.4,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 2,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.4 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.4 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 500,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 500,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 5,000 visits (assumed) at 1% = 50 buyers at full run-rate; with the ramp about 20 x 79 EUR = 1,580 EUR gross, cut for free alternatives to about 500 EUR. Cross-check: GoBD Direkt's adviser price shows money in the category but not from small firms. 5,000 EUR needs about 63 buyers, which is not reachable in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 2,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The duty is real but loosely enforced, free brand tools exist, and AI drafting weakens the product.",
+      "summary": "",
+      "concerns": [
+       "Free Lexware tool",
+       "AI assistants draft it"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:30.537Z",
+   "updatedAt": "2026-11-20T03:16:30.537Z",
+   "outcome": null
+  },
+  {
+   "id": "en-1090-mappe-leistungserklaerung-und-ce-kennzei",
+   "title": "EN-1090-Mappe: Leistungserklärung und CE-Kennzeichnung je Auftrag für kleine Schlossereien",
+   "pitch": "For 1-10 person metalwork shops certified to EN 1090 (EXC1/EXC2) that build stairs, balconies and canopies: per order, generate the declaration of performance (Leistungserklärung), the CE label text and the job's factory production control checklist (material certificates, welder, WPS, inspection) from saved company data, and archive the PDFs for 10 years. Upside: a component template library sha…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A 1-10 person Metallbau or Schlosserei certified to EN 1090 EXC1/EXC2",
+    "buys": "A complete per-order file (DoP, CE label text, factory production control checklist) produced in minutes and archived, instead of Word templates or a 2,000+ EUR ERP",
+    "model": "subscription",
+    "price": "15 EUR a month",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/taxmetall-unternehmensloesung-fuer-metallbau-und-verarbeitung/vorschau",
+      "note": "Metalwork suite supporting EN 1090 sold at 162 EUR a month plus 2,090 EUR one-off",
+      "date": "2026-01-15",
+      "ageDays": 309,
+      "age": "10 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Shops copy the free model from their certification body or trade association into Word; it takes minutes per order.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 309,
+     "age": "newest source 10 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/taxmetall-unternehmensloesung-fuer-metallbau-und-verarbeitung/vorschau",
+     "note": "TaxMetall suite for metalwork SMEs, supports EN 1090 processes: from 2,090 EUR one-off + 162 EUR a month",
+     "date": "2026-01-15",
+     "ageDays": 309,
+     "age": "10 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=leistungserkl%C3%A4rung%20en%201090",
+     "note": "Autocomplete: 'leistungserklärung en 1090 muster', 'nach en 1090'",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'leistungserklärung en 1090 muster', 'leistungserklärung nach en 1090'",
+    "first100": "Shop owners searching for a DoP template fill the free one online, then subscribe to save company data and per-order archives.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=leistungserkl%C3%A4rung%20en%201090",
+      "note": "Template-seeking queries exist",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "TaxMetall (Vectotax)",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "NetSoft Metall",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Sage (ERP for trades)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:30.079Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small certified metalwork shops pay a monthly fee for per-order declaration files without buying an ERP.",
+   "trigger": "standing need",
+   "window": "Standing: EN 1090 declarations have been required for years; small shops use Word templates or large ERP suites.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 900,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 900,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 1,500 visits (assumed) at 2% = 30 payers at full run-rate; with the ramp about 12 x 180 EUR = 2,160 EUR, with churn and fees about 900 EUR. Cross-check: only a suite price (162 EUR a month) seen, no customer count. 5,000 EUR a year needs about 28 payers, which is possible in year two at best."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A real per-order duty and a priced suite, but free templates probably suffice for many shops.",
+      "summary": "",
+      "concerns": [
+       "Free templates",
+       "Small search volume"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:30.079Z",
+   "updatedAt": "2026-11-20T03:16:30.079Z",
+   "outcome": null
+  },
+  {
+   "id": "datanorm-aus-der-tabelle-preis-und-artikeldateie",
+   "title": "Datanorm aus der Tabelle: Preis- und Artikeldateien (Datanorm 4 und 5) im Browser für kleine Herste…",
+   "pitch": "For small manufacturers and importers whose installer customers ask for a Datanorm price file: map a spreadsheet's columns once, validate, and download Datanorm 4 or 5 article, price and discount-group files, processed locally in the browser. Upside: a free validator for incoming Datanorm files as a lead magnet.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A small manufacturer or importer selling to electricians, plumbers or carpenters whose software imports Datanorm",
+    "buys": "A valid Datanorm 4/5 file set from its own price spreadsheet, so its articles can be imported by installers' software",
+    "model": "subscription",
+    "price": "9 EUR a month, or 49 EUR per file set",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/datanorm-writer/vorschau",
+      "note": "Same job sold at 15-35 EUR a month",
+      "date": "2025-01-21",
+      "ageDays": 668,
+      "age": "22 months old",
+      "tier": "old"
+     }
+    ],
+    "nobodyPaysIf": "DATANORM-writer already does it in the browser from 15 EUR a month, Paula has a free version, and many wholesalers accept Excel or BMEcat instead.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 668,
+     "age": "newest source 22 months old",
+     "tier": "old",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/datanorm-writer/vorschau",
+     "note": "DATANORM-writer: 15/25/35 EUR a month (web) or desktop from 395 EUR; Datanorm 5 only in higher tiers",
+     "date": "2025-01-21",
+     "ageDays": 668,
+     "age": "22 months old",
+     "tier": "old"
+    },
+    {
+     "url": "https://www.softguide.de/ausschreibungen/software-zum-konvertieren-von-excel-in-datanorm-gesucht",
+     "note": "Software-search request 'Software zum Konvertieren von Excel in Datanorm gesucht' (seen in search results only, not opened, undated)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'excel in datanorm umwandeln', 'datanorm datei erstellen'",
+    "first100": "Suppliers asked by a customer for a Datanorm file search for a converter, test free validation and pay to download.",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/datanorm-writer/vorschau",
+      "note": "Software directory listing shows the query category exists and is priced",
+      "date": "2025-01-21",
+      "ageDays": 668,
+      "age": "22 months old",
+      "tier": "old"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "DATANORM-writer (datacrossmedia)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "DATANORM Manager Paula",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "WARY Excel-to-DATANORM converter (ICS Dresden)",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:29.732Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Small suppliers pay once per file set or monthly to produce Datanorm files for installer customers.",
+   "trigger": "standing need",
+   "window": "Standing; paid and free tools already exist.",
+   "score": 2.4,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 800,
+     "upsideEur": 4000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 800,
+       "upsideEur": 4000,
+       "basis": "Bottom-up: 1,500 visits (assumed) at 3% = 45 payers at full run-rate; with the ramp about 15 x 49-108 EUR = about 1,000 EUR, minus fees about 800 EUR. Cross-check: DATANORM-writer's 15-35 EUR monthly tiers confirm the price but give no customer count. 5,000 EUR a year needs about 46 yearly payers, which is not reachable in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "The price is proven, but two solid tools, one with a free version, already serve the need.",
+      "summary": "",
+      "concerns": [
+       "Crowded",
+       "Spec access costs and details unknown"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:29.732Z",
+   "updatedAt": "2026-11-20T03:16:29.732Z",
+   "outcome": null
+  },
+  {
+   "id": "sige-plan-vorankuendigung-im-browser-baustellenv",
+   "title": "SiGe-Plan & Vorankündigung im Browser: Baustellenverordnung-Unterlagen für kleine Bauvorhaben",
+   "pitch": "For freelance SiGe coordinators (SiGeKo), small architecture offices and builders: enter the project, trades and schedule, and get the Vorankündigung per BaustellV Annex I, a SiGe-Plan in the RAB 31 structure with a time-bar chart of overlapping hazards, and the Unterlage für spätere Arbeiten as PDFs. Upside: a reusable trade-hazard library that improves with each project.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A freelance SiGeKo or small architecture office coordinating several small sites a year",
+    "buys": "RAB 31-structured SiGe-Plan, Vorankündigung and Unterlage für spätere Arbeiten without Word assembly or a Windows install",
+    "model": "subscription",
+    "price": "99 EUR a year, or 19 EUR per site",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/sige-manager/vorschau",
+      "note": "Same job sold at 249 EUR net one-off",
+      "date": "2026-01-23",
+      "ageDays": 301,
+      "age": "10 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Coordinators reuse their own Word templates, and Weise's 249 EUR one-off licence is cheap over several years.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 301,
+     "age": "newest source 10 months old",
+     "tier": "ok",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/sige-manager/vorschau",
+     "note": "SiGe-Manager 2026 (Weise): SiGe-Plan, Vorankündigung, Unterlage für spätere Arbeiten; 249 EUR one-off, on-premises",
+     "date": "2026-01-23",
+     "ageDays": 301,
+     "age": "10 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=sige%20plan",
+     "note": "10 variants incl. 'erstellen', 'vorlage', 'software', 'muster pdf', 'nach rab 31'",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'sige plan vorlage', 'sige plan erstellen', 'sige plan software', 'sige plan muster pdf'",
+    "first100": "Coordinators and small builders searching for a SiGe-Plan template build one free, then pay to export and save projects.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=sige%20plan",
+      "note": "Template and software intent in the suggestions",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "SiGe-Manager (Weise Software)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Other softguide-listed software with a SiGe-Plan …",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:29.393Z",
+    "detail": [
+     "Missed the strict bar: score 2.65 is below the minimum 3.5"
+    ]
+   },
+   "earns": "SiGe coordinators pay a yearly fee to produce site documents in the browser.",
+   "trigger": "standing need",
+   "window": "Standing: the duty under the Baustellenverordnung is old, and the one specialist tool found is a Windows install.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 5000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 5000,
+       "basis": "Bottom-up: 3,000 visits (assumed) at 2% = 60 payers at full run-rate; with the ramp about 25 x 99 EUR = 2,475 EUR, minus fees and the share paying 19 EUR per site, about 1,000 EUR. Cross-check: Weise sells at 249 EUR one-off but publishes no sales numbers. 5,000 EUR a year needs about 51 yearly payers, which the channel is unlikely to reach in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A real legal duty and a priced incumbent, but the audience is small and has template habits.",
+      "summary": "",
+      "concerns": [
+       "Small audience",
+       "Template reuse habit"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:29.393Z",
+   "updatedAt": "2026-11-20T03:16:29.393Z",
+   "outcome": null
+  },
+  {
+   "id": "wohnflaechenrechner-nach-woflv-mit-raumskizze-da",
+   "title": "Wohnflächenrechner nach WoFlV mit Raumskizze, Dachschrägen und Balkonanteil, als prüfbares PDF",
+   "pitch": "For private landlords and sellers: draw or enter rooms, ceiling-height zones under sloped roofs (0/50/100%), balconies and terraces (25-50%), and get a documented WoFlV calculation with sketch and per-room working for a rent increase, service-charge split or sale listing. Upside: shareable per-unit result pages that agents link to.",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A private landlord with one to five flats, or a private seller preparing a listing or bank file",
+    "buys": "A documented, per-room WoFlV calculation that holds up in a rent or service-charge dispute, instead of 59-400 EUR for a service",
+    "model": "one-off",
+    "price": "29 EUR per unit",
+    "proof": [
+     {
+      "url": "https://greenox-group.de/wohnflaechenberechnung/",
+      "note": "Self-entry WoFlV calculation sold from 59 EUR; page undated, opened today",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "GREENOX already sells exactly this self-entry calculation with a free estimate, free calculators give the number, and only a signed result carries weight in a dispute.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://greenox-group.de/wohnflaechenberechnung/",
+     "note": "Self-entered WoFlV calculation sold from 59 EUR (1 unit, 5 rooms); architect signature +150 EUR; free estimate. Page shows no date; date given is when it was opened",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://www.sanier.de/service/rechner/rechner-grundflaeche-und-wohnflaeche",
+     "note": "Free living-area calculator (seen in search results, not opened)",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'wohnflächenberechnung woflv', 'wohnflächenberechnung dachschräge', 'wohnflächenberechnung erstellen lassen'",
+    "first100": "Landlords preparing a rent increase search for the WoFlV sloped-roof rule, use the free sketch and pay for the documented PDF.",
+    "proof": [
+     {
+      "url": "https://greenox-group.de/wohnflaechenberechnung/",
+      "note": "A priced self-entry service ranks for the query, which shows buyers search there",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "GREENOX Wohnflächenberechnung",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "sanier.de calculator",
+     "verdict": "partial",
+     "note": ""
+    },
+    {
+     "name": "Berliner Mieterverein measurement service",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:29.017Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Landlords pay once per property for a documented WoFlV calculation PDF.",
+   "trigger": "standing need",
+   "window": "Standing; there is no closing date. Paid services already sell this, so the window is narrow.",
+   "score": 2.65,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1000,
+     "upsideEur": 6000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1000,
+       "upsideEur": 6000,
+       "basis": "Bottom-up: 10,000 visits (assumed) at 1% = 100 buyers x 29 EUR = 2,900 EUR at full run-rate; with the ramp about 1,200 EUR, minus fees about 1,000 EUR. Cross-check: GREENOX proves buyers pay 59 EUR for self-entry but publishes no volume. 5,000 EUR needs about 172 buyers; this channel, against an incumbent, is unlikely to reach that in year one."
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "Clear proof that people pay for the very job, but an incumbent already serves it with a free tier.",
+      "summary": "",
+      "concerns": [
+       "Direct incumbent with free estimate",
+       "Signature needed for disputes"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:29.017Z",
+   "updatedAt": "2026-11-20T03:16:29.017Z",
+   "outcome": null
+  },
+  {
+   "id": "fluchtplan-im-browser-flucht-und-rettungsplaene",
+   "title": "Fluchtplan im Browser: Flucht- und Rettungspläne nach ASR A1.3 / DIN ISO 23601 aus dem eigenen Grun…",
+   "pitch": "For freelance safety specialists (Fachkräfte für Arbeitssicherheit), property managers and small firms that need one to ten escape plans: upload a floor-plan PDF or image, trace escape routes, place the official ASR A1.3 safety signs, set a 'Sie sind hier' point per posting location, and export A3 print PDFs with legend and rules text. If it takes off, each building becomes a reusable project (on…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A freelance Fachkraft für Arbeitssicherheit or a property manager who must post escape plans for a few buildings a year",
+    "buys": "A print-ready, rule-conforming escape plan without buying an installed program or commissioning a service per plan",
+    "model": "one-off",
+    "price": "29 EUR per exported plan, or 99 EUR a year unlimited",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/fluchtplan-fluchtplaene-erstellen/vorschau",
+      "note": "Weise Fluchtplan 2026: 399 EUR net one-off",
+      "date": "2025-12-02",
+      "ageDays": 353,
+      "age": "12 months old",
+      "tier": "ok"
+     },
+     {
+      "url": "https://www.softguide.de/programm/fluchtplan-manager/vorschau",
+      "note": "Fluchtplan Manager: 415.31 EUR gross first year, 199 EUR after",
+      "date": "2026-04-21",
+      "ageDays": 213,
+      "age": "7 months old",
+      "tier": "ok"
+     }
+    ],
+    "nobodyPaysIf": "Autocomplete shows people want it free ('kostenlos online'); occasional users draw in PowerPoint or Visio, and regular users already own the Weise or Forum Verlag software.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 2
+    },
+    "pay": {
+     "days": 213,
+     "age": "newest source 7 months old",
+     "tier": "ok",
+     "n": 2
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.softguide.de/programm/fluchtplan-manager/vorschau",
+     "note": "Fluchtplan Manager (Forum Verlag): 349 EUR net first year, 199 EUR a year after; listed as installed on Windows",
+     "date": "2026-04-21",
+     "ageDays": 213,
+     "age": "7 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=fluchtplan%20erstellen",
+     "note": "10 autocomplete variants incl. 'kostenlos online', 'lassen', 'software', 'kosten', 'österreich'",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'fluchtplan erstellen' and its online, software, kosten, selbst and österreich variants",
+    "first100": "Safety specialists and office managers searching 'fluchtplan erstellen online' draw the plan free in the browser and pay to export the A3 PDF without watermark.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=fluchtplan%20erstellen",
+      "note": "Full 10-variant suggestion list for the query family",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Fluchtplan Manager (Forum Verlag Herkert)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Fluchtplan 2026 (Weise Software)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Fluchtplan Creator (CADSoftTools)",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "EdrawMax",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:27.410Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
+    ]
+   },
+   "earns": "Safety specialists and property managers pay per exported plan or a yearly flat fee instead of a 349-399 EUR Windows licence.",
+   "trigger": "standing need",
+   "window": "Standing gap: both specialist products are installed Windows programs with 349-399 EUR licences and nobody sells a single plan in the browser. People have searched for a free online version for years.",
+   "score": 2.85,
+   "index": {
+    "composite": 2.75,
+    "used": {
+     "risk": 2,
+     "success": 2,
+     "monetization": 3,
+     "potential": 2,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 2.75 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 2.75 is below 4",
+      "potential 2 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1200,
+     "upsideEur": 7000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1200,
+       "upsideEur": 7000,
+       "basis": "Bottom-up: 8,000 visits a year (assumed) at 1.5% = 120 buyers at full run-rate; with the search ramp about 50 buyers at an average 35 EUR = 1,750 EUR, minus fees, about 1,550 EUR. Cross-check: two paid tools sell at 349-399 EUR but publish no sales numbers, so this only confirms that people pay; I use 1,200 EUR. 5,000 EUR a year needs about 170 single plans or 50 yearly plans, which the channel i…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 2,
+      "monetization": 3,
+      "potential": 2,
+      "automation": 5,
+      "rationale": "A legal duty for many employers and a proven price for software. But three paid tools and a strong wish for free use make it a crowded niche.",
+      "summary": "",
+      "concerns": [
+       "Drawing editor is more work than a form tool",
+       "Users expect it free",
+       "Plan liability if routes are drawn wrong"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:27.410Z",
+   "updatedAt": "2026-11-20T03:16:27.410Z",
+   "outcome": null
+  },
+  {
+   "id": "naehrwert-etikett-aus-der-rezeptur-lmiv-naehrwer",
+   "title": "Nährwert-Etikett aus der Rezeptur: LMIV-Nährwerttabelle, Zutatenliste mit QUID und Allergene auf Ba…",
+   "pitch": "For food manufactories, farm shops that supply retailers, and small food start-ups in Germany and Austria that sell packaged goods: enter the recipe and get the rounded LMIV nutrition table, the ingredient list with QUID and the emphasised allergens as a print-ready label. The values come from the Bundeslebensmittelschlüssel, licence-free since December 2025. If it takes off, it grows a long tail…",
+   "platform": "web",
+   "marketLabel": "",
+   "status": "queued",
+   "statusLabel": "Candidate: ranked every day, the best one is built",
+   "origin": "Niche scout",
+   "money": {
+    "level": "unchecked",
+    "label": "Not cross-checked yet",
+    "why": "no reviewer has checked who pays yet",
+    "legacy": false,
+    "payer": "A food manufactory or farm shop selling 5 to 40 packaged products through retailers or online, which must print a nutrition declaration",
+    "buys": "An LMIV-correct nutrition table (EU rounding rules), QUID ingredient list and allergen emphasis per product, calculated from an accepted source (BLS), instead of lab analyses or a yearly software plan",
+    "model": "subscription",
+    "price": "49 EUR a year for up to 30 products, or 9 EUR per single-product export",
+    "proof": [
+     {
+      "url": "https://www.softguide.de/programm/rezeptrechner-pro/vorschau",
+      "note": "Same job sold at 150-500 EUR net a year",
+      "date": "2026-11-06",
+      "ageDays": 14,
+      "age": "2 weeks old",
+      "tier": "fresh"
+     }
+    ],
+    "nobodyPaysIf": "Many small direct sellers are exempt from the nutrition declaration (LMIV Annex V no. 19), and producers who are not exempt either already pay Rezeptrechner or copy values from free consumer calculators.",
+    "claim": "",
+    "checks": [],
+    "ratings": [
+     {
+      "who": "scout",
+      "rating": 3
+     }
+    ]
+   },
+   "kind": "niche",
+   "rank": null,
+   "fresh": {
+    "demand": {
+     "days": 0,
+     "age": "newest source from today",
+     "tier": "fresh",
+     "n": 3
+    },
+    "pay": {
+     "days": 14,
+     "age": "newest source 2 weeks old",
+     "tier": "fresh",
+     "n": 1
+    }
+   },
+   "sources": [
+    {
+     "url": "https://heise.de/-11123877",
+     "note": "BLS 4.0 made free; previous licence fees waived; manufacturers use it to calculate the mandatory LMIV nutrition labelling",
+     "date": "2025-12-23",
+     "ageDays": 332,
+     "age": "11 months old",
+     "tier": "ok"
+    },
+    {
+     "url": "https://www.softguide.de/programm/rezeptrechner-pro/vorschau",
+     "note": "Paid web tool for the same job (BLS access, LMIV labels, QUID, allergens) aimed at manufactories and farm shops: 150/290/500 EUR net a year",
+     "date": "2026-11-06",
+     "ageDays": 14,
+     "age": "2 weeks old",
+     "tier": "fresh"
+    },
+    {
+     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=n%C3%A4hrwerttabelle%20erstellen",
+     "note": "5 autocomplete variants incl. 'erstellen lassen', 'online erstellen', 'erstellen kostenlos'",
+     "date": "2026-11-20",
+     "ageDays": 0,
+     "age": "from today",
+     "tier": "fresh"
+    }
+   ],
+   "marketing": {
+    "channel": "search",
+    "where": "'nährwerttabelle erstellen' and its 'lassen', 'online' and 'kostenlos' variants, plus 'nährwertberechnung lmiv'",
+    "first100": "A producer googles 'nährwerttabelle erstellen' before ordering labels, builds the table free in the browser and pays to export the print-ready label and keep the product list.",
+    "proof": [
+     {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=n%C3%A4hrwerttabelle%20erstellen",
+      "note": "Autocomplete shows the query family exists, including a buy-intent variant 'erstellen lassen'",
+      "date": "2026-11-20",
+      "ageDays": 0,
+      "age": "from today",
+      "tier": "fresh"
+     }
+    ]
+   },
+   "alternatives": [
+    {
+     "name": "Rezeptrechner PRO Business",
+     "verdict": "solid",
+     "note": ""
+    },
+    {
+     "name": "Free BLS applications listed on heise download",
+     "verdict": "partial",
+     "note": ""
+    }
+   ],
+   "decision": {
+    "by": "daily pool",
+    "reason": "Waiting for the next daily ranking.",
+    "at": "2026-11-20T03:16:18.995Z",
+    "detail": [
+     "Missed the strict bar: competitionGap 3 is below 4: the need is already served; score 3.4 is below the minimum 3.5"
+    ]
+   },
+   "earns": "Small food producers pay a yearly fee or per product to export print-ready LMIV labels calculated from official BLS values instead of paying for lab analyses or a 150+ EUR subscription.",
+   "trigger": "Bundeslebensmittelschlüssel 4.0 released free of licence fees (7,140 foods, up to 138 nutrients); manufacturers use it for the mandatory nutrition declaration",
+   "window": "Mostly a standing need. Because the BLS data is now free, any new tool can build on it, so the opening lasts until others do; Rezeptrechner already includes the BLS. Nothing closes the window on a fi…",
+   "score": 3.4,
+   "index": {
+    "composite": 3.2,
+    "used": {
+     "risk": 2,
+     "success": 3,
+     "monetization": 3,
+     "potential": 3,
+     "automation": 5
+    },
+    "agreement": "single source",
+    "disputed": [],
+    "crossValidated": false,
+    "proceed": false,
+    "business": null,
+    "reasons": [
+     "overall index 3.2 is below 3.6"
+    ],
+    "yearlyCostEur": 20,
+    "needsServer": false,
+    "invest": {
+     "worthy": false,
+     "reasons": [
+      "it was not approved to be built",
+      "overall index 3.2 is below 4",
+      "potential 3 is below 4"
+     ]
+    },
+    "profit": {
+     "expectedEur": 1500,
+     "upsideEur": 9000,
+     "crossVerified": false,
+     "disputed": false,
+     "agreement": "single source",
+     "estimates": [
+      {
+       "who": "scout",
+       "expectedEur": 1500,
+       "upsideEur": 9000,
+       "basis": "Bottom-up: 6,000 search visits a year (assumed) at 2% gives 120 payers at full run-rate; with a 6-month search ramp about 45 payers x 49 EUR = 2,200 EUR, minus ~10% payment fees and 20 EUR hosting, about 1,900 EUR. Cross-check: Rezeptrechner sells the same job from 150 EUR a year but publishes no customer count, so it confirms the price, not the volume; I use the lower 1,500 EUR. 5,000 EUR a year…"
+      }
+     ]
+    },
+    "votes": [
+     {
+      "who": "scout",
+      "risk": 2,
+      "success": 3,
+      "monetization": 3,
+      "potential": 3,
+      "automation": 5,
+      "rationale": "A real, recurring labelling duty for non-exempt producers, a paid web competitor at 150+ EUR a year, and a free official dataset since December 2025. Demand volume is unmeasured.",
+      "summary": "",
+      "concerns": [
+       "Exemptions for small direct sellers shrink the paying audience",
+       "Rezeptrechner already integrates the BLS",
+       "BLS licence terms for derived data not yet read"
+      ]
+     }
+    ]
+   },
+   "factors": [],
+   "factorFit": null,
+   "links": {
+    "repo": null,
+    "preview": null,
+    "live": null
+   },
+   "createdAt": "2026-11-20T03:16:18.995Z",
+   "updatedAt": "2026-11-20T03:16:18.995Z",
+   "outcome": null
+  },
   {
    "id": "rim-weights-rake-survey-data-to-population-targe",
    "title": "Rim Weights: rake survey data to population targets and get weighted banner tables, in the browser",
@@ -5833,1938 +7687,6 @@
    },
    "createdAt": "2026-11-18T14:04:30.116Z",
    "updatedAt": "2026-11-18T14:04:30.116Z",
-   "outcome": null
-  },
-  {
-   "id": "kellerbuch-im-browser-fuer-kleine-weinbaubetrieb",
-   "title": "Kellerbuch im Browser für kleine Weinbaubetriebe in Österreich",
-   "pitch": "For small and part-time winegrowers in Austria who must keep wine in- and outgoing books (Kellerbuch): record intake, treatments, blending, bottling and sales per wine and tank in order, and export for the federal cellar inspection and the yearly stock report. Germany later, if its planned single electronic register comes into force.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A part-time winegrower in Austria selling bottled wine",
-    "buys": "A cellar book that is always ready for inspection without paper and copying",
-    "model": "subscription",
-    "price": "9 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
-      "note": "Shows the duty only; no price page for a comparable tool was opened",
-      "date": "2026-01-01",
-      "ageDays": 323,
-      "age": "11 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Paper books are allowed and cheap, and winery tools (BOXXER VINO, WMS, InnoVint, Xentral) exist.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 323,
-     "age": "newest source 11 months old",
-     "tier": "ok",
-     "n": 2
-    },
-    "pay": {
-     "days": 323,
-     "age": "newest source 11 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
-     "note": "Anyone placing wine on the market in Austria must keep Ein- und Ausgangsbücher (Kellerbuch), kept continuously; legal basis § 31 Weingesetz; updated 2026-01-01",
-     "date": "2026-01-01",
-     "ageDays": 323,
-     "age": "11 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://wayback.edoweb-rlp.de/weltweit/20241029mp_/https:/add.rlp.de/fileadmin/add/Abteilung_4/Wein/Wein_-_Leitfaden_Weinbuchsfuehrung.pdf",
-     "note": "German state guide on electronic wine bookkeeping; file dated 2010 (old, only shows electronic books are accepted)",
-     "date": "2010-04-21",
-     "ageDays": 6057,
-     "age": "16 years 7 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.at 'kellerbuch wein', 'kellerbuch software'",
-    "first100": "Winegrowers searching for a Kellerbuch template try the free version for one tank and pay to keep the full year.",
-    "proof": [
-     {
-      "url": "https://www.usp.gv.at/brancheninformationen/landwirtschaft/wein/wein-ein-und-ausgangsbuecher.html",
-      "note": "Official business portal page on the duty; query suggestions not checked",
-      "date": "2026-01-01",
-      "ageDays": 323,
-      "age": "11 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "BOXXER VINO",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "WMS",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:15.884Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Part-time winegrowers pay a small monthly fee to keep the cellar book digitally and pass inspections.",
-   "trigger": "standing need",
-   "window": "Standing duty in Austria; German single electronic register is only a draft ordinance (not verified).",
-   "score": 2,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 3000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 3000,
-       "basis": "Channel: 1,500 visits x 1.5% (assumed) = 22 payers; ramp to about 6 payers x 9 x 8 months = 432 EUR minus costs, about 300 EUR. 5,000 EUR needs 46 payers all year, not reachable. Cross-check: no price page opened."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "Real standing duty but crowded by winery software and paper; no price or fresh demand.",
-      "summary": "",
-      "concerns": [
-       "Paper is accepted",
-       "Existing winery tools",
-       "Austrian content rules not itemised on the page"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:15.884Z",
-   "updatedAt": "2026-11-18T07:58:15.884Z",
-   "outcome": null
-  },
-  {
-   "id": "oesterreich-einsatzmappe-zko3-daten-lohnunterlag",
-   "title": "Österreich-Einsatzmappe: ZKO3-Daten, Lohnunterlagen-Checkliste und KV-Mindestlohn für deutsche Hand…",
-   "pitch": "For German trade firms sending fitters or builders to jobs in Austria: per job, prepare the ZKO3 posting data, check the A1 status, list the wage and time documents to keep on site, work out the Austrian collective-agreement minimum including the 13th and 14th salary pro rata, and remind about BUAK follow-ups, ending in one folder per job.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A German trade firm with 5 to 50 staff doing several Austrian jobs a year",
-    "buys": "Avoids substantial Austrian administrative fines for missing notifications, documents or underpayment, and saves research per job",
-    "model": "subscription",
-    "price": "19 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
-      "note": "Shows the fines at stake, not a price anyone pays for a tool; no priced service was found",
-      "date": "2025-07-01",
-      "ageDays": 507,
-      "age": "17 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "Forms and guidance are free, firms that post often use an Austrian tax adviser, and keeping collective-agreement wage tables current is hard.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 507,
-     "age": "newest source 17 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
-     "note": "ZKO3 before work starts, A1, document list, collective-agreement minimum incl. 13th/14th salary, BUAK, substantial fines and more inspections; status July 2025",
-     "date": "2025-07-01",
-     "ageDays": 507,
-     "age": "17 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://www.bmf.gv.at/themen/betrugsbekaempfung/zentrale-koordinationsstelle.html",
-     "note": "Undated: notifications electronic only, separately per posting, framework notifications up to six months; no bulk or XML interface mentioned",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'entsendung österreich checkliste', 'zko3 meldung'",
-    "first100": "Office managers preparing a first Austrian job search for the ZKO3 checklist and use the free per-job folder, paying for repeat jobs.",
-    "proof": [
-     {
-      "url": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540",
-      "note": "Several IHKs publish the same guide, so firms search for it; query suggestions not checked",
-      "date": "2025-07-01",
-      "ageDays": 507,
-      "age": "17 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "ZKO electronic forms",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "IHK and Austrian Entsendeplattform guides",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:15.653Z",
-    "detail": [
-     "Missed the strict bar: score 2.25 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Trade firms with repeated Austrian jobs pay per job or monthly to avoid missing documents and underpayment.",
-   "trigger": "standing need",
-   "window": "Standing: per-posting electronic notification and on-site documents are required, and inspections have increased (IHK); no tool found in one search.",
-   "score": 2.25,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 4000,
-       "basis": "Channel: 2,000 visits x 1% (assumed) = 20 payers; ramp to about 4 payers x 19 x 6 months = 456 EUR minus costs, about 300 EUR. 5,000 EUR needs 22 payers all year. Cross-check: no priced comparable found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 3,
-      "rationale": "Real fines and a repeated chore, but free official forms and no price evidence.",
-      "summary": "",
-      "concerns": [
-       "Collective-agreement wage data upkeep",
-       "Free official resources",
-       "Wrong wage figures carry liability"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:15.653Z",
-   "updatedAt": "2026-11-18T07:58:15.653Z",
-   "outcome": null
-  },
-  {
-   "id": "ppwr-lieferantenmappe-konformitaetserklaerungen",
-   "title": "PPWR-Lieferantenmappe: Konformitätserklärungen je Verpackungstyp sammeln, prüfen und fünf Jahre vor…",
-   "pitch": "For private-label brands and shops that count as packaging 'Erzeuger' since 12 Aug 2026 and are not covered by the small-business exemption: one list of every packaging type per product, request letters to suppliers, a check of each returned declaration against the Annex VIII fields, gaps flagged, your own declaration drafted, and a ten-day export for the authority.",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A private-label brand or shop with 10 or more staff or over 2m EUR turnover and dozens of packaging types",
-    "buys": "A complete, current file of declarations per packaging type to hand over within ten days of a request",
-    "model": "subscription",
-    "price": "19 EUR a month",
-    "proof": [
-     {
-      "url": "https://www.haendlerbund.de/de/leistungen/rechtssicherheit/ppwr-konformitaetserklaerung",
-      "note": "Merchants pay 9.90-57.90 EUR a month for legal memberships that include the PPWR template",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Free templates from Händlerbund, pro-K and law firms cover the document, and firms under 10 staff and 2m EUR with domestic suppliers are exempt.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.tanso.de/blog/ppwr-konformitatserklarung-und-technische-dokumentation-was-unternehmen-ab-dem-12-august-2026-vorlegen-mussen",
-     "note": "Who issues the DoC (manufacturer, brand owner as manufacturer), Annex VII contents, what to request from suppliers; updated 2026-08-13",
-     "date": "2026-08-13",
-     "ageDays": 99,
-     "age": "3 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.haendlerbund.de/de/leistungen/rechtssicherheit/ppwr-konformitaetserklaerung",
-     "note": "Undated page written after 2026-08-12: free DoC template within memberships from 9.90 to 57.90 EUR a month; exemption for under 10 staff and 2m EUR turnover with a domestic packaging maker",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'ppwr konformitätserklärung', 'ppwr technische dokumentation'",
-    "first100": "Brands that downloaded a free template and then face many supplier declarations search for a way to manage them and start a trial.",
-    "proof": [
-     {
-      "url": "https://www.tanso.de/blog/ppwr-konformitatserklarung-und-technische-dokumentation-was-unternehmen-ab-dem-12-august-2026-vorlegen-mussen",
-      "note": "Vendors compete on these queries with long guides",
-      "date": "2026-08-13",
-      "ageDays": 99,
-      "age": "3 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Händlerbund PPWR template",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Tanso PPWR software",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Packintelx",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "IT-Recht-Kanzlei template",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:14.123Z",
-    "detail": [
-     "Missed the strict bar: competitionGap 2 is below 4: the need is already served"
-    ]
-   },
-   "earns": "Mid-size private-label brands pay monthly to keep supplier declarations complete and ready for an authority request.",
-   "trigger": "Regulation (EU) 2025/40 (PPWR) applies since 12 Aug 2026: declaration of conformity and technical documentation per packaging type",
-   "window": "Duty in force since August 2026; crowded with free templates, so the window is narrow.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 300,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 300,
-       "upsideEur": 4000,
-       "basis": "Channel: 3,000 visits x 0.5% (assumed) = 15 payers; with a ramp about 4 payers x 19 x 6 months = 456 EUR minus costs, about 300 EUR. 5,000 EUR needs 22 payers all year, unlikely against free templates. Cross-check: Händlerbund memberships show merchants pay for legal bundles, not for this register alone."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "In-force duty but crowded with free templates and exemptions for the smallest firms.",
-      "summary": "",
-      "concerns": [
-       "Free templates",
-       "Exemptions shrink the payer pool",
-       "Enterprise tools for larger firms"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:14.123Z",
-   "updatedAt": "2026-11-18T07:58:14.123Z",
-   "outcome": null
-  },
-  {
-   "id": "duftstoff-allergene-nach-vo-eu-2023-1545-deklara",
-   "title": "Duftstoff-Allergene nach VO (EU) 2023/1545: Deklarationsrechner für Seifensieder und kleine Naturko…",
-   "pitch": "For small soap and natural-cosmetics makers who must label the extended fragrance-allergen list on every new product since 31 July 2026 and relabel the whole range by 31 July 2028: keep your suppliers' allergen declarations per essential oil, enter each recipe, and get the allergens above 0.01% (rinse-off) or 0.001% (leave-on) with INCI names for the label plus a PIF annex, recalculated when a su…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A soap or natural-cosmetics maker with 10 to 80 products selling on markets, Etsy and an own shop",
-    "buys": "Correct allergen lists for every label and PIF without paying an assessor per update; a non-compliant label makes the product unlawful to sell",
-    "model": "subscription",
-    "price": "49 EUR a year",
-    "proof": [
-     {
-      "url": "https://www.certifiedcosmetics.com/de/?p=9382",
-      "note": "Makers pay 150-669 per product for assessment and PIF, a nearby job",
-      "date": "2025-03-28",
-      "ageDays": 602,
-      "age": "20 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "The arithmetic is easy in a spreadsheet or with an AI assistant once supplier data is at hand, and assessors recalculate as part of their paid update.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 112,
-     "age": "newest source 4 months old",
-     "tier": "ok",
-     "n": 2
-    },
-    "pay": {
-     "days": 602,
-     "age": "newest source 20 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://ecomundo.eu/en/blog/fragrance-allergen-labelling",
-     "note": "Deadlines 31 July 2026 (new) and 31 July 2028 (existing); 24 plus 57 allergens; thresholds 0.001% and 0.01%; enterprise tools without prices",
-     "date": "2026-04-16",
-     "ageDays": 218,
-     "age": "7 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.certifiedcosmetics.com/de/?p=9382",
-     "note": "Safety assessor prices: CPSR from 150, CPSR plus PIF from 400, complete package from 669 (last modified 2025-03-28)",
-     "date": "2025-03-28",
-     "ageDays": 602,
-     "age": "20 months old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'allergene kosmetik 2023/1545', 'duftstoffallergene seife'",
-    "first100": "Makers searching how to declare the new allergens use a free one-recipe calculation and pay to store all recipes and supplier sheets.",
-    "proof": [
-     {
-      "url": "https://ecomundo.eu/en/blog/fragrance-allergen-labelling",
-      "note": "Vendors publish guides on the rule; query suggestions not checked",
-      "date": "2026-04-16",
-      "ageDays": 218,
-      "age": "7 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Ecomundo (Cosmetic Factory, Formula Check)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Safety assessors (e.g. CertifiedCosmetics)",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:13.791Z",
-    "detail": [
-     "Missed the strict bar: score 2.55 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small cosmetics makers pay a yearly fee to keep allergen lists right across all recipes and supplier batches.",
-   "trigger": "Regulation (EU) 2023/1545: products placed after 31 July 2026 must comply; existing products by 31 July 2028; 81 allergens, thresholds 0.001% leave-on and 0.01% rinse-off",
-   "window": "Every product on the market must be relabelled by 31 July 2028, and each new product needs it now; after 2028 it remains a per-recipe chore.",
-   "score": 2.55,
-   "index": {
-    "composite": 2.2,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.2 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.2 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 500,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 500,
-       "upsideEur": 5000,
-       "basis": "Channel: 2,000 visits x 1.5% (assumed) = 30 payers x 49 EUR = 1,470 EUR; with a ramp about 12 payers = 588 EUR minus costs, about 500 EUR. 5,000 EUR needs 102 payers, not reachable in year one. Cross-check: only the adjacent assessor prices (150-669 per product); no priced allergen tool found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "Real dated rule with a 2028 relabel wave, but the job is close to AI-doable arithmetic.",
-      "summary": "",
-      "concerns": [
-       "AI assistants and spreadsheets",
-       "Assessors bundle it",
-       "Label errors carry liability"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:13.791Z",
-   "updatedAt": "2026-11-18T07:58:13.791Z",
-   "outcome": null
-  },
-  {
-   "id": "ksk-meldung-aus-dem-buchungsexport-abgabepflicht",
-   "title": "KSK-Meldung aus dem Buchungsexport: abgabepflichtige Entgelte finden und belegen",
-   "pitch": "For small agencies, firms and clubs that pay freelance designers, photographers, copywriters or musicians: load the booking export from DATEV, Lexware or sevDesk in the browser, get the creditors sorted by legal form and service type with the KSVG rules applied (companies excluded, print and travel costs split off, the 1,000 EUR threshold for occasional users), the sum to enter in the KSK portal …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A small agency, company or club that pays freelance creatives more than 1,000 EUR a year and does its own bookkeeping",
-    "buys": "A correct basis and a record that protects against five years of back payments and fines up to 50,000 EUR after an audit",
-    "model": "one-off",
-    "price": "29 EUR per reporting year",
-    "proof": [
-     {
-      "url": "https://www.aok.de/fk/sozialversicherung/kuenstlersozialabgabe/meldepflichten-und-faelligkeit-kuenstlersozialabgabe/",
-      "note": "Shows the money at stake (fines, five-year back payment), not a price someone pays for a tool; no priced tool found",
-      "date": "2026-01-01",
-      "ageDays": 323,
-      "age": "11 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "The tax adviser already does it, and an AI assistant can sort a pasted creditor list by legal form.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 241,
-     "age": "newest source 8 months old",
-     "tier": "ok",
-     "n": 2
-    },
-    "pay": {
-     "days": 323,
-     "age": "newest source 11 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.aok.de/fk/sozialversicherung/kuenstlersozialabgabe/meldepflichten-und-faelligkeit-kuenstlersozialabgabe/",
-     "note": "Report due 31 March; missing or wrong reports are an offence with fines up to 50,000 EUR; audits recover five years of contributions",
-     "date": "2026-01-01",
-     "ageDays": 323,
-     "age": "11 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.deutsche-handwerks-zeitung.de/?p=376762",
-     "note": "Businesses paying freelance creatives over the threshold must report by 31 March; payments to GmbH/UG/AG etc. exempt; split creative work from print costs; rate 4.9% for 2026",
-     "date": "2026-03-24",
-     "ageDays": 241,
-     "age": "8 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'künstlersozialabgabe berechnen', 'ksk meldung', seasonal January to March",
-    "first100": "Bookkeepers searching in March how to work out the KSK sum run the free check and pay for the audit file.",
-    "proof": [
-     {
-      "url": "https://www.deutsche-handwerks-zeitung.de/?p=376762",
-      "note": "Trade press runs the topic every March; query suggestions not checked",
-      "date": "2026-03-24",
-      "ageDays": 241,
-      "age": "8 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "KSK online portal",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Invoice Data Extraction (KSK blog)",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Tax advisers",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:08.091Z",
-    "detail": [
-     "Missed the strict bar: score 2.45 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Firms and clubs pay a small fee per reporting year for a defensible KSK basis and audit file.",
-   "trigger": "standing need: yearly KSK report due 31 March; rate 4.9% for 2026 and threshold 1,000 EUR for occasional users",
-   "window": "Recurring yearly deadline with no extension; no dedicated self-serve tool found in one search.",
-   "score": 2.45,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 5
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 400,
-     "upsideEur": 5000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 400,
-       "upsideEur": 5000,
-       "basis": "Channel: 3,000 visits x 1% (assumed) = 30 payers x 29 EUR = 870 EUR, ramp and one season halve it, about 400 EUR. 5,000 EUR needs 172 payers, not reachable. Cross-check: no comparable priced tool found, so no cross-check is possible."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 5,
-      "rationale": "Real fines and a fixed date, but no price evidence and much of the job is AI-doable.",
-      "summary": "",
-      "concerns": [
-       "AI assistants and tax advisers cover it",
-       "One short season a year"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:08.091Z",
-   "updatedAt": "2026-11-18T07:58:08.091Z",
-   "outcome": null
-  },
-  {
-   "id": "jagdkataster-pachtauszahlung-im-browser-fuer-jag",
-   "title": "Jagdkataster & Pachtauszahlung im Browser für Jagdgenossenschaften",
-   "pitch": "For the chair or treasurer of a hunting cooperative (Jagdgenossenschaft): import the plot list from the survey office, keep owners and hectares current, compute each member's share of the lease income, produce the SEPA transfer file and payout list, and tally attendance and votes by heads and area for the general meeting, all local in the browser. If it takes off, farmers' associations recommend …",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "A hunting cooperative with 50 to 500 landowner members, paid from its lease income",
-    "buys": "The yearly payout calculation, SEPA file and vote tallies done in an hour instead of an evening in Excel, with a record for members' questions",
-    "model": "subscription",
-    "price": "59 EUR a year",
-    "proof": [
-     {
-      "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
-      "note": "An existing paid program with paid maintenance; no price shown, so the price level is unverified",
-      "date": "2025-09-19",
-      "ageDays": 427,
-      "age": "14 months old",
-      "tier": "old"
-     }
-    ],
-    "nobodyPaysIf": "Many cooperatives no longer pay out (the money goes to road building), keep Excel, or get software through a farmers' association framework contract.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 427,
-     "age": "newest source 14 months old",
-     "tier": "old",
-     "n": 2
-    },
-    "pay": {
-     "days": 427,
-     "age": "newest source 14 months old",
-     "tier": "old",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
-     "note": "Jagdpachtverwaltung: desktop program since 1997 with modules Kataster, Kassenbuch, Auszahlung, Versammlung, ALKIS import; maintenance and hotline paid extra; page updated 2025-09-19",
-     "date": "2025-09-19",
-     "ageDays": 427,
-     "age": "14 months old",
-     "tier": "old"
-    },
-    {
-     "url": "https://www.landtreff.de/threads/jagdpachtverwendung.143591/",
-     "note": "Farmers' forum: cooperatives pay out 5-20 EUR per hectare or use funds for roads; newest visible posts 2023-10-13 (old)",
-     "date": "2023-10-13",
-     "ageDays": 1134,
-     "age": "3 years 1 month old",
-     "tier": "old"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'jagdkataster software', 'jagdgenossenschaft software', 'jagdpacht auszahlung'",
-    "first100": "Cooperative chairs searching before the yearly meeting find a free payout calculator and pay for SEPA export and the saved cadastre.",
-    "proof": [
-     {
-      "url": "https://www.softguide.de/programm/software-fuer-jagdgenossenschaften",
-      "note": "A software directory keeps a category for this niche; query suggestions not checked",
-      "date": "2025-09-19",
-      "ageDays": 427,
-      "age": "14 months old",
-      "tier": "old"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Jagdpachtverwaltung (SoftGuide listing)",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "BBSoft GIS Jagdkataster",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Survey offices (Bavaria) producing the cadastre o…",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:07.839Z",
-    "detail": [
-     "Missed the strict bar: score 2.35 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Hunting cooperatives pay a small yearly fee from their lease income for payouts and meeting tallies.",
-   "trigger": "standing need",
-   "window": "Standing: the specialised program found is desktop software first installed in 1997 with paid maintenance; nothing modern and cheap was found. What keeps it open is a volunteer-run niche no software …",
-   "score": 2.35,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 400,
-     "upsideEur": 4000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 400,
-       "upsideEur": 4000,
-       "basis": "Channel: 1,500 visits x 2% (assumed) = 30 payers; with a ramp assume 8 x 59 EUR = 472 EUR minus domain, about 400 EUR. 5,000 EUR needs 85 cooperatives, out of reach for search in year one. Cross-check: only the existence of a paid desktop program; no price or customer count found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "A real recurring duty in a neglected niche, but no price page and no fresh demand.",
-      "summary": "",
-      "concerns": [
-       "No verified price",
-       "Volunteer chairs stay with Excel",
-       "Many cooperatives do not pay out"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:07.839Z",
-   "updatedAt": "2026-11-18T07:58:07.839Z",
-   "outcome": null
-  },
-  {
-   "id": "parzellenabrechnung-jahresrechnung-je-parzelle-p",
-   "title": "Parzellenabrechnung: Jahresrechnung je Parzelle (Pacht, Wasser, Strom, Umlagen) für Kleingartenvere…",
-   "pitch": "For the treasurer of an allotment club with 40 to 300 plots: import the meter readings, set the year's lease per square metre, water and electricity prices and levies once, and get a statement per plot as PDF, a SEPA direct-debit file and a summary for the cash audit, in the browser with member data kept local. If it takes off, clubs in the same regional association copy the setup and the associa…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "doubtful",
-    "label": "Payer doubtful",
-    "why": "monetization is rated 2 of 5",
-    "legacy": false,
-    "payer": "An allotment club (Kleingartenverein) with 40 to 300 plots, paid by the treasurer from the club account",
-    "buys": "A day or two of yearly billing work per treasurer and fewer disputes about meter costs; a clean record for the cash audit",
-    "model": "subscription",
-    "price": "79 EUR a year per club up to 300 plots",
-    "proof": [
-     {
-      "url": "https://www.gartenbund.de/",
-      "note": "Clubs pay 12 EUR a month plus 0.12 EUR per plot for the same job",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
-      "note": "Club software at 119 EUR a year",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ],
-    "nobodyPaysIf": "Treasurers inherit a working Excel file, and Gartenbund Pro already covers the job at about 24 EUR a month for 100 plots.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 2
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    },
-    "pay": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.gartenbund.de/",
-     "note": "Undated page (copyright 2026), seen 2026-11-18: Gartenbund Pro web software with plots, consumption (water, electricity) and Pachtrechnungen; 12 EUR a month base plus 0.12 EUR per plot (100 plots = 2…",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
-     "note": "Undated page (copyright 2026), seen 2026-11-18: club software marketed to allotment clubs with no plot, meter or lease billing; 119 EUR a year above 5 admins, up to 50 members",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'kleingartenverein software', 'pachtabrechnung kleingarten', 'kleingarten wasserabrechnung'",
-    "first100": "Treasurers searching before the yearly billing find a free per-plot statement demo and pay to export all plots and the SEPA file.",
-    "proof": [
-     {
-      "url": "https://vereinsplaner.com/en/v/software-fuer-kleingartenvereine",
-      "note": "A club-software vendor runs a dedicated page for allotment clubs, so the query is targeted; ranking positions were not checked",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Gartenbund Pro",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Vereinsplaner",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Vernity",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:07.459Z",
-    "detail": [
-     "Missed the strict bar: score 2.65 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Allotment clubs pay a flat yearly fee from the club account for the annual plot billing.",
-   "trigger": "standing need",
-   "window": "Standing: general club software skips plots and meters (Vereinsplaner); Gartenbund Pro is the one specialised web tool found. The volunteer-run segment is ignored by the big club tools.",
-   "score": 2.65,
-   "index": {
-    "composite": 2.4,
-    "used": {
-     "risk": 2,
-     "success": 2,
-     "monetization": 2,
-     "potential": 2,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.4 is below 3.6"
-    ],
-    "yearlyCostEur": 20,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.4 is below 4",
-      "potential 2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 800,
-     "upsideEur": 6000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 800,
-       "upsideEur": 6000,
-       "basis": "Channel: 2,000 visits x 2% (assumed) = 40 clubs; with a ramp assume 12 clubs x 79 EUR = 948 EUR minus domain and fees, about 800 EUR. 5,000 EUR needs 64 clubs, which search is unlikely to reach in year one. Cross-check: Gartenbund Pro's price (about 288 EUR a year for 100 plots) shows clubs pay for this job; no customer count found."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 2,
-      "success": 2,
-      "monetization": 2,
-      "potential": 2,
-      "automation": 4,
-      "rationale": "Proven payer and price, but a solid specialised competitor and no fresh demand signal.",
-      "summary": "",
-      "concerns": [
-       "Gartenbund Pro already serves it",
-       "Volunteers resist new tools",
-       "Seasonal, small audience"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:07.459Z",
-   "updatedAt": "2026-11-18T07:58:07.459Z",
-   "outcome": null
-  },
-  {
-   "id": "akkupass-werkstatt-batteriepass-fuer-e-bike-akku",
-   "title": "Akkupass-Werkstatt: Batteriepass für E-Bike-Akku-Zellentausch und kleine LMT-Packhersteller",
-   "pitch": "For e-bike battery re-cell workshops and small makers of light-vehicle and over-2-kWh industrial packs (cargo bikes, scooters, home-storage assemblers) who place batteries on the EU market from 18 Feb 2027: a passport per battery with a unique ID and QR code, model data entered once, per-battery fields (production date, cells, state of health at sale), a link to the original pack's passport after…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "A re-cell workshop or small LMT/industrial pack maker placing 100 to 3,000 batteries a year on the EU market",
-    "buys": "The required passport per battery without a 1,499 EUR a month enterprise contract; selling a pack without one from 18 Feb 2027 risks market-surveillance action",
-    "model": "subscription",
-    "price": "49 EUR a month for up to 500 passports a year",
-    "proof": [
-     {
-      "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
-      "note": "Base passport package from 1,499 EUR net a month",
-      "date": "2026-03-16",
-      "ageDays": 249,
-      "age": "8 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "I did not verify at the primary source that a re-celled pack counts as newly placed and needs its own linked passport; if not, the workshop segment disappears, and small pack makers may wait for cell suppliers or industry platforms to supply passports.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 249,
-     "age": "newest source 8 months old",
-     "tier": "ok",
-     "n": 1
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
-     "note": "Passport from 18 Feb 2027 for traction, LMT and industrial >2 kWh batteries; Handwerk affected; ZVEH notes extra admin burden; no tools named",
-     "date": "2026-05-07",
-     "ageDays": 197,
-     "age": "6 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://www.ingenieur.de/fachmedien/konstruktion/produktentwicklung/digitaler-batteriepass-fuer-kmu-dpp-hero/",
-     "note": "Article (sponsored) on battery passport software for SMEs by DPP Hero; scope: traction, industrial >2 kWh, LMT",
-     "date": "2026-08-20",
-     "ageDays": 92,
-     "age": "3 months old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://upway.de/blogs/news/eu-single-cell-verordnung-warum-reparatur-beim-e-bike-akku-an-ihre-grenzen-stosst",
-     "note": "From 18 Feb 2027 LMT cells must be replaceable by independent professionals; spare-part and tool duties for makers",
-     "date": "2026-07-14",
-     "ageDays": 129,
-     "age": "4 months old",
-     "tier": "ok"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'batteriepass erstellen', 'batteriepass software', 'batteriepass e-bike akku'",
-    "first100": "Workshops and pack makers searching how to issue a passport find a plain guide per battery type and start issuing passports on a free trial.",
-    "proof": [
-     {
-      "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
-      "note": "Trade press addressing Handwerk shows the target group is reading about the duty; query suggestions were not checked",
-      "date": "2026-05-07",
-      "ageDays": 197,
-      "age": "6 months old",
-      "tier": "ok"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "Magenta Digital Product Passport",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "DPP Hero",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "QR Planet battery passport",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:06.663Z",
-    "detail": [
-     "Missed the strict bar: score 2.85 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Workshops and small pack makers pay a monthly fee for the passports they must issue, far below enterprise platforms.",
-   "trigger": "Art. 77 Regulation (EU) 2023/1542: battery passport mandatory from 18 Feb 2027 for traction, e-bike/e-scooter (LMT) and industrial batteries over 2 kWh; affects bike workshops and electricians instal…",
-   "window": "Three months to the deadline; enterprise vendors are priced for OEMs. Due-diligence duties were postponed to 2027 but the sources seen keep the passport date. Content rules depend on delegated acts a…",
-   "score": 2.85,
-   "index": {
-    "composite": 2.75,
-    "used": {
-     "risk": 3,
-     "success": 2,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 2.75 is below 3.6"
-    ],
-    "yearlyCostEur": 200,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 2.75 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 20000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 20000,
-       "basis": "Channel: 2,500 visits x 1.5% (assumed) = 37 payers; a small segment and a ramp suggest 8 payers for about 8 months: 8 x 49 x 8 = 3,136 EUR minus about 200 EUR hosting and fees and churn, about 2,000 EUR. 5,000 EUR a year needs 9 payers all year. Cross-check: only the enterprise price (1,499 EUR a month) was found; no SME price or customer count, so the estimate rests on assumptions."
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 2,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "A real deadline with enterprise-only offers; the segment's obligation for re-celled packs is not verified at the primary source.",
-      "summary": "",
-      "concerns": [
-       "Re-cell obligation unclear",
-       "Passport data standards still settling",
-       "Passports must stay available long-term, even if the service closes"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:06.663Z",
-   "updatedAt": "2026-11-18T07:58:06.663Z",
-   "outcome": null
-  },
-  {
-   "id": "netzanmeldung-mappe-pv-speicher-wallbox-und-waer",
-   "title": "Netzanmeldung-Mappe: PV-, Speicher-, Wallbox- und Wärmepumpen-Anmeldung für kleine Elektrobetriebe …",
-   "pitch": "For electricians and small PV and SHK installers who do 2 to 20 grid registrations a month and either lose 2 to 5 office hours each or pay a service 200 to 275 EUR net: enter the job once (customer, site, components from a library with certificate data) and get the operator's required data sheets filled, the controllable-device notification, a MaStR checklist and a status tracker per job. If it t…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "An electrician or PV/SHK installer with 1 to 10 staff doing 2 to 20 grid registrations a month",
-    "buys": "Saves 2 to 5 office hours per registration (60-100 EUR an hour) or 200-275 EUR net per job for a service, and fewer rejections from missing data",
-    "model": "subscription",
-    "price": "39 EUR a month, unlimited jobs",
-    "proof": [
-     {
-      "url": "https://ema-energiewelt.de/pv-netzanmeldung-fuer-solarteure",
-      "note": "Installers pay 200-275 EUR net per registration in packs",
-      "date": "2026-11-08",
-      "ageDays": 12,
-      "age": "12 days old",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://www.photovoltaik.info/kosten-netzanmeldung-elektriker-sparen/",
-      "note": "Electricians bill 120-500 EUR for the registration work",
-      "date": "2026-05-29",
-      "ageDays": 175,
-      "age": "6 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "Operators increasingly run guided portals, installers pass the hours on to the customer, and firms that hate the work outsource it fully to services that also answer the operator's queries, which software cannot do.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 2,
-     "age": "newest source 2 days old",
-     "tier": "fresh",
-     "n": 3
-    },
-    "pay": {
-     "days": 12,
-     "age": "newest source 12 days old",
-     "tier": "fresh",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://ema-energiewelt.de/pv-netzanmeldung-fuer-solarteure",
-     "note": "Done-for-you registration for installers: PV/wallbox and heat pump 275/250/200 EUR net per job in 10/50/100 packs, MaStR entry 69-89 EUR; worked with over 278 operators, database of 741; prices valid…",
-     "date": "2026-11-08",
-     "ageDays": 12,
-     "age": "12 days old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.photovoltaik.info/kosten-netzanmeldung-elektriker-sparen/",
-     "note": "Electrician's registration work takes 2 to 5 hours at 60 to 100 EUR an hour (120-500 EUR); whole process four weeks to months",
-     "date": "2026-05-29",
-     "ageDays": 175,
-     "age": "6 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=netzanmeldung",
-     "note": "Nine autocomplete variants incl. pv, wärmepumpe, wallbox, bayernwerk, digital, dienstleister, kosten",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de 'netzanmeldung pv', 'netzanmeldung wärmepumpe', 'netzanmeldung wallbox', 'netzanmeldung operator name', 'netzanmeldung dienstleister'",
-    "first100": "Installers who search for an operator's requirements land on that operator's page, run the first job free and subscribe when they see the filled data sheets.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=netzanmeldung",
-      "note": "Nine variants incl. an operator name and 'dienstleister'; who ranks was not checked",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "EMA Energiewelt",
-     "verdict": "solid",
-     "note": ""
-    },
-    {
-     "name": "Netzanmeldung24",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "IVU Netzanschlussplattform",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Grid operators' own portals",
-     "verdict": "partial",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:05.677Z",
-    "detail": [
-     "Missed the strict bar: score 3.2 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Small installers pay a monthly fee to do registrations themselves in a fraction of the time instead of paying a service per job.",
-   "trigger": "standing need",
-   "window": "Standing gap: over 800 distribution grid operators each use their own forms, portals and TAB supplements (EMA page). A federal grid-connection package with a common information platform was sent to t…",
-   "score": 3.2,
-   "index": {
-    "composite": 3.2,
-    "used": {
-     "risk": 3,
-     "success": 3,
-     "monetization": 3,
-     "potential": 4,
-     "automation": 3
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3.2 is below 3.6"
-    ],
-    "yearlyCostEur": 150,
-    "needsServer": false,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3.2 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 3000,
-     "upsideEur": 30000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 3000,
-       "upsideEur": 30000,
-       "basis": "Channel: 6,000 visits x 1% (assumed) = 60 payers; with a new-site ramp assume 15 payers joining through the year, about 6 paid months each: 15 x 39 x 6 = 3,510 EUR minus about 300 EUR costs and fees, about 3,000 EUR. 5,000 EUR a year needs 11 payers all year, which looks reachable. Cross-check: EMA sells 10/50/100 packs at 200-275 EUR and has worked with 278 operators, showing installers pay for …"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 3,
-      "monetization": 3,
-      "potential": 4,
-      "automation": 3,
-      "rationale": "A clear payer with a price on a page dated this month and a measured hour cost. The operator form library needs upkeep, which lowers automation.",
-      "summary": "",
-      "concerns": [
-       "Keeping the forms of hundreds of operators current",
-       "A national platform could standardise forms",
-       "Installers may prefer full outsourcing"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:05.677Z",
-   "updatedAt": "2026-11-18T07:58:05.677Z",
-   "outcome": null
-  },
-  {
-   "id": "batterie-qr-seite-die-pflicht-infoseite-hinter-d",
-   "title": "Batterie-QR-Seite: die Pflicht-Infoseite hinter dem QR-Code jeder Batterie ab 18.02.2027",
-   "pitch": "For small own-brand battery sellers and importers (power banks, LiFePO4 camping and solar packs, tool and accessory batteries): one hosted page per battery model with what the QR code must open from 18 Feb 2027 (EU declaration of conformity, waste and collection information, later the label data), a stable short URL to hand to the factory now, print-ready QR files and a change log. If it takes of…",
-   "platform": "web",
-   "marketLabel": "",
-   "status": "queued",
-   "statusLabel": "Candidate: ranked every day, the best one is built",
-   "origin": "Niche scout",
-   "money": {
-    "level": "unchecked",
-    "label": "Not cross-checked yet",
-    "why": "no reviewer has checked who pays yet",
-    "legacy": false,
-    "payer": "An own-brand seller or importer of batteries (power banks, LiFePO4 packs, tool batteries) with 3 to 50 battery models, typically a marketpl…",
-    "buys": "A compliant, permanent page per model behind the printed QR code, ready before the factory prints it: content checklist for Art. 13, DoC upload, collection and waste text in DE, EN, FR, IT and ES, a URL that survives a shop relaunch; it avoids market-surveillance objections and listing removals",
-    "model": "subscription",
-    "price": "99 EUR a year per brand for up to 25 models",
-    "proof": [
-     {
-      "url": "https://qrplanet.com/help/article/eu-battery-regulation",
-      "note": "Hosted trackable QR codes with product information from 5 EUR a month",
-      "date": "2026-05-25",
-      "ageDays": 179,
-      "age": "6 months old",
-      "tier": "ok"
-     },
-     {
-      "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
-      "note": "Enterprise battery passport package from 1,499 EUR net a month",
-      "date": "2026-03-16",
-      "ageDays": 249,
-      "age": "8 months old",
-      "tier": "ok"
-     }
-    ],
-    "nobodyPaysIf": "A brand can put the DoC PDF on its own website and point the QR code there for free, Chinese OEMs may supply a page, and small sellers may ignore the rule until enforcement starts.",
-    "claim": "",
-    "checks": [],
-    "ratings": [
-     {
-      "who": "scout",
-      "rating": 3
-     }
-    ]
-   },
-   "kind": "niche",
-   "rank": null,
-   "fresh": {
-    "demand": {
-     "days": 0,
-     "age": "newest source from today",
-     "tier": "fresh",
-     "n": 4
-    },
-    "pay": {
-     "days": 179,
-     "age": "newest source 6 months old",
-     "tier": "ok",
-     "n": 2
-    }
-   },
-   "sources": [
-    {
-     "url": "https://www.it-recht-kanzlei.de/qr-code-pflicht-fuer-batterien-ab-2027.html",
-     "note": "QR code duty from 18 Feb 2027 for batteries incl. built-in ones; content initially DoC, due-diligence report where required, waste info; label act delayed but QR date unaffected",
-     "date": "2026-11-02",
-     "ageDays": 18,
-     "age": "3 weeks old",
-     "tier": "fresh"
-    },
-    {
-     "url": "https://www.deutsche-handwerks-zeitung.de/qr-code-statt-blackbox-der-batteriepass-kommt-377826/",
-     "note": "Trade press for Handwerk: QR-code based battery passport mandatory from 18 Feb 2027; no postponement mentioned; no tools or prices for small firms",
-     "date": "2026-05-07",
-     "ageDays": 197,
-     "age": "6 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://onlinemarktplatz.de/event/batteriepass-2027/",
-     "note": "E-commerce press: Magenta Digital Product Passport base package from 1,499 EUR net a month for up to 5,000 passes a year",
-     "date": "2026-03-16",
-     "ageDays": 249,
-     "age": "8 months old",
-     "tier": "ok"
-    },
-    {
-     "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=batterie%20qr%20code",
-     "note": "Autocomplete: batterie qr code, varta batterie qr code, qr code batterie lifepo4, qr code batterie bosch",
-     "date": "2026-11-18",
-     "ageDays": 2,
-     "age": "2 days old",
-     "tier": "fresh"
-    }
-   ],
-   "marketing": {
-    "channel": "search",
-    "where": "Google.de queries 'batterie qr code', 'qr code batterie lifepo4', 'batterieverordnung qr code', 'qr code batterie pflicht 2027'",
-    "first100": "Brand owners searching for the QR duty in the months around 18 Feb 2027 land on a checklist page per battery type, create the first model page free and pay when they publish more models.",
-    "proof": [
-     {
-      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=de&q=batterie%20qr%20code",
-      "note": "Four autocomplete variants incl. lifepo4 and brand names; who ranks was not checked",
-      "date": "2026-11-18",
-      "ageDays": 2,
-      "age": "2 days old",
-      "tier": "fresh"
-     },
-     {
-      "url": "https://www.it-recht-kanzlei.de/qr-code-pflicht-fuer-batterien-ab-2027.html",
-      "note": "Law-firm explainer aimed at sellers, showing the topic is searched by merchants",
-      "date": "2026-11-02",
-      "ageDays": 18,
-      "age": "3 weeks old",
-      "tier": "fresh"
-     }
-    ]
-   },
-   "alternatives": [
-    {
-     "name": "QR Planet",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "Magenta Digital Product Passport",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "DPP Hero",
-     "verdict": "partial",
-     "note": ""
-    },
-    {
-     "name": "DIY page on the brand's own website",
-     "verdict": "solid",
-     "note": ""
-    }
-   ],
-   "decision": {
-    "by": "daily pool",
-    "reason": "Waiting for the next daily ranking.",
-    "at": "2026-11-18T07:58:04.850Z",
-    "detail": [
-     "Missed the strict bar: score 3.2 is below the minimum 3.5"
-    ]
-   },
-   "earns": "Own-brand battery sellers pay a small yearly fee per brand for compliant, permanent QR target pages per model.",
-   "trigger": "Art. 13(6) Regulation (EU) 2023/1542: from 18 Feb 2027 batteries, including those built into devices, must carry a QR code giving access to the EU declaration of conformity and waste information; IT-…",
-   "window": "Batteries produced now for sale after 18 Feb 2027 need the QR code printed or engraved now, so the target URL must exist before production; after February it stays a duty for every new model. Enterpr…",
-   "score": 3.2,
-   "index": {
-    "composite": 3,
-    "used": {
-     "risk": 3,
-     "success": 3,
-     "monetization": 3,
-     "potential": 3,
-     "automation": 4
-    },
-    "agreement": "single source",
-    "disputed": [],
-    "crossValidated": false,
-    "proceed": false,
-    "business": null,
-    "reasons": [
-     "overall index 3 is below 3.6"
-    ],
-    "yearlyCostEur": 120,
-    "needsServer": true,
-    "invest": {
-     "worthy": false,
-     "reasons": [
-      "it was not approved to be built",
-      "overall index 3 is below 4",
-      "potential 3 is below 4"
-     ]
-    },
-    "profit": {
-     "expectedEur": 2000,
-     "upsideEur": 15000,
-     "crossVerified": false,
-     "disputed": false,
-     "agreement": "single source",
-     "estimates": [
-      {
-       "who": "scout",
-       "expectedEur": 2000,
-       "upsideEur": 15000,
-       "basis": "Channel: 5,000 visits a year x 1.5% (assumed) = 75 payers x 99 EUR = 7,400 EUR, but a new site ranks late and search interest peaks around the deadline, so assume 25 paying brands in year one = 2,475 EUR minus about 120 EUR hosting and 5% fees, about 2,000 EUR. 5,000 EUR a year needs 51 payers, which the channel reaches only if pages rank before February. Cross-check: QR Planet's from-5-EUR plans…"
-      }
-     ]
-    },
-    "votes": [
-     {
-      "who": "scout",
-      "risk": 3,
-      "success": 3,
-      "monetization": 3,
-      "potential": 3,
-      "automation": 4,
-      "rationale": "The duty is in force on a fixed date and confirmed by a law firm two weeks ago; small brands need a URL before production. The free DIY route is real, which keeps monetization at 3.",
-      "summary": "",
-      "concerns": [
-       "Brands simply link a PDF on their own site",
-       "EU may change the required QR content",
-       "Search traffic arrives after the production deadline"
-      ]
-     }
-    ]
-   },
-   "factors": [],
-   "factorFit": null,
-   "links": {
-    "repo": null,
-    "preview": null,
-    "live": null
-   },
-   "createdAt": "2026-11-18T07:58:04.850Z",
-   "updatedAt": "2026-11-18T07:58:04.850Z",
    "outcome": null
   },
   {
@@ -16369,7 +16291,7 @@
   }
  ],
  "activity": {
-  "checkedInAt": "2026-11-20T00:00:00.000Z",
+  "checkedInAt": "2026-11-20T03:00:00.000Z",
   "heartbeatHours": 3,
   "decisionPage": true,
   "status": "waiting for the owner",
@@ -16387,19 +16309,19 @@
    }
   ],
   "scout": {
-   "lastRunAt": "2026-11-19T14:54:47.192Z",
+   "lastRunAt": "2026-11-20T02:59:43.242Z",
    "lastFound": 0,
    "lastNoted": 0,
-   "lastMarket": "Global",
-   "nextMarket": "Germany and Europe",
-   "emptyRuns": 97,
-   "radius": 3,
+   "lastMarket": "Germany and Europe",
+   "nextMarket": "Global",
+   "emptyRuns": 98,
+   "radius": 2,
    "radiusLevels": 4,
-   "runsLastDay": 1,
+   "runsLastDay": 2,
    "foundLastDay": 0,
    "notedLastDay": 0,
    "benched": 0,
-   "nextRunAfter": "2026-11-19T20:54:47.192Z",
+   "nextRunAfter": "2026-11-20T08:59:43.242Z",
    "turn": "Big think"
   }
  },
